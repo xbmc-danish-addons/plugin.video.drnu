@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<addon id="plugin.video.drnu" version="1.0.3" name="DR NU Player" provider-name="InKaKiLLeR"> 
+  <requires>
+  	<import addon="xbmc.gui"/>
+  	<import addon="xbmc.plugin"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.danishaddons"/>
+  </requires> 
+  <extension point="xbmc.python.pluginsource" library="drnu.py">
+	  <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata"> 
+    <summary>DR NU Player</summary>
+    <description>Watch shows from www.dr.dk/nu</description> 
+    <platform>all</platform> 
+  </extension> 
+</addon>

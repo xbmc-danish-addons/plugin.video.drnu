@@ -1,0 +1,18 @@
+1.0.3 - Changed the sorting order in the "show" folder. Now the shows are sorted by infoLabel, date.
+      
+1.0.2 - DR changed the layout of the videoManifestUrl, so the plugin failed. This is now fixed.
+      - Cleaned up some code.
+
+1.0.1 - Added an extra /cms to the rtmp url. All videos should now be working.
+      - Credits goes to twinther.
+      - This script uses script.module.danishaddons. The easiest way to get this is
+      - by adding the Danish XBMC Addons Repo. After doing that install the DR.dk Bonanza Video Add-on.
+      - You'll find the Danish XBMC Addons Repo here:
+      - http://github.com/xbmc-danish-addons/Danish-XBMC-addons/raw/master/repository.danish.addons.zip
+      - Install this Add-on by using System -> Add-ons- > Install from zip file.
+      - This script also uses script.module.simplejson. You can download this module from varios places.
+      - Use this URL to find a download site. http://www.google.dk/search?q=script.module.simplejson-2.0.10.zip
+      - Install this Add-on by using System -> Add-ons- > Install from zip file.
+      - Updated script to use some constants from script.modules.danishaddons.
+
+1.0.0 - Initial release.
