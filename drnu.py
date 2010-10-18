@@ -38,6 +38,8 @@ class DRNUPlayer:
         self.isPremiere = items[item][6]
         self.formattedBroadcastTime = items[item][7]
         self.videoURL = items[item][8]
+        if(self.videoURL.startswith('<script>self.resizeTo')):
+          break
         if(self.videoURL[:4] == 'rtmp'):
           self.videoURL = self.videoURL.replace('rtmp://vod.dr.dk/', 'rtmp://vod.dr.dk/cms/')
         self.thumbnailImage = 'http://www.dr.dk/NU/api/videos/' + str(item) + '/images/250x250.jpg'
@@ -65,7 +67,7 @@ class DRNUPlayer:
   def getVideos(self, slug):
     self.url = 'http://www.dr.dk/NU/api/programseries/' + slug  + '/videos'
     self.result = json.load(urllib.urlopen(self.url))
-    
+
     # id : [description, title, duration, broadcastTime, broadcastChannel, videoManifestUrl, isPremiere, formattedBroadcastTime]
     self.videos = {}
     
