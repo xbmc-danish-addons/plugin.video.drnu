@@ -1,6 +1,8 @@
+# DR NU API specs: http://www.dr.dk/nu/api/
 import xbmc
 import xbmcgui
 import xbmcplugin
+import re
 import sys
 import urllib
 import simplejson as json
@@ -8,100 +10,134 @@ import time
 import datetime
 from danishaddons import *
 
-class DRNUPlayer:
-  def __init__(self):
-    pass
-    
-  def CreateDirectoryItem(self, folder=False, items=None):
-    if(folder):
-      self.folder = folder
-      for item in items.keys():
-        self.title = unicode(items[item][0]).encode('utf-8')
-        self.description = unicode(items[item][1]).encode('utf-8')
-        self.newestVideoId = int(items[item][2])
-        self.newestVideoPublishTime = items[item][3]
-        self.videoCount = int(items[item][4])
-        self.thumbnailImage = items[item][5]
-        self.listitem = xbmcgui.ListItem(label=self.title, thumbnailImage=(self.thumbnailImage))
-        xbmcplugin.addDirectoryItem(ADDON_HANDLE, url=ADDON_PATH + '?' + item, listitem=self.listitem, isFolder=self.folder, totalItems=len(items))
-      xbmcplugin.addSortMethod(ADDON_HANDLE, xbmcplugin.SORT_METHOD_LABEL)
-      xbmcplugin.endOfDirectory(ADDON_HANDLE)
-    else:
-      self.folder = folder
-      for item in items.keys():
-        self.description = unicode(items[item][0]).encode('utf-8')
-        self.title = unicode(items[item][1]).encode('utf-8')
-        self.duration = items[item][2]
-        self.broadcastTime = items[item][3]
-        self.broadcastChannel = items[item][4]
-        self.videoManifestUrl = items[item][5]
-        self.isPremiere = items[item][6]
-        self.formattedBroadcastTime = items[item][7]
-        self.videoURL = items[item][8]
-        if(self.videoURL.startswith('<script>self.resizeTo')):
-          break
-        if(self.videoURL[:4] == 'rtmp'):
-          self.videoURL = self.videoURL.replace('rtmp://vod.dr.dk/', 'rtmp://vod.dr.dk/cms/')
-        self.thumbnailImage = 'http://www.dr.dk/NU/api/videos/' + str(item) + '/images/250x250.jpg'
-        if(self.broadcastTime):
-          self.broadcastTime = datetime.datetime.fromtimestamp(float(items[item][3][6:-10])).strftime('%Y.%m.%d')
-          self.date = datetime.datetime.fromtimestamp(float(items[item][3][6:-10])).strftime('%d.%m.%Y')
-        else:
-          self.broadcastTime = datetime.datetime.now().strftime('%Y.%m.%d')
-          self.date = datetime.datetime.now().strftime('%d.%m.%Y')
-        if not(self.broadcastChannel):
-          self.broadcastChannel = 'Unknown'
+BASE_API_URL = 'http://www.dr.dk/NU/api/%s'
 
-        self.listitem = xbmcgui.ListItem(label=self.title, thumbnailImage=(self.thumbnailImage))
-        self.listitem.setInfo(type='video', infoLabels={
-                                                        'plot' : self.description,
-                                                        'duration' : self.duration,
-                                                        'studio' : self.broadcastChannel,
-                                                        'aired' : self.broadcastTime,
-                                                        'date' : self.date,
-                                                       })
-        xbmcplugin.addDirectoryItem(ADDON_HANDLE, url=self.videoURL, listitem=self.listitem, isFolder=self.folder, totalItems=len(items))
-      xbmcplugin.addSortMethod(ADDON_HANDLE, xbmcplugin.SORT_METHOD_DATE)
-      xbmcplugin.endOfDirectory(ADDON_HANDLE)
+def getProgramSeries():
+	programSeries = json.loads(web.downloadUrl(BASE_API_URL % 'programseries'))
 
-  def getVideos(self, slug):
-    self.url = 'http://www.dr.dk/NU/api/programseries/' + slug  + '/videos'
-    self.result = json.load(urllib.urlopen(self.url))
+	item = xbmcgui.ListItem('Nyeste')
+	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?newest', item, isFolder=True)
+	item = xbmcgui.ListItem('Spotlight')
+	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?spot', item, isFolder=True)
+	item = xbmcgui.ListItem('Søg')
+	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?search', item, isFolder=True)
 
-    # id : [description, title, duration, broadcastTime, broadcastChannel, videoManifestUrl, isPremiere, formattedBroadcastTime]
-    self.videos = {}
-    
-    for video in self.result:
-      self.videos[video['id']] = [video['description'], video['title'], video['duration'],\
-             video['broadcastTime'], video['broadcastChannel'], video['videoManifestUrl'],\
-             video['isPremiere'], video['formattedBroadcastTime']]
-      if(video['videoManifestUrl'][:4] == 'http'):
-        videoURL = urllib.urlopen(video['videoManifestUrl']).read()
-      else:
-        videoURL = urllib.urlopen('http://www.dr.dk' + video['videoManifestUrl']).read()
-      self.videos[video['id']].append(videoURL)
-    return self.videos
 
-  def getProgramSeries(self):
-    url = 'http://www.dr.dk/NU/api/programseries'
-    result = json.load(urllib.urlopen(url))
+	for program in programSeries:
+		infoLabels = {}
 
-    #slug : [title, description, newestVideoId, newestVideoPublishTime, videoCount, thumbnailImage]
-    programSeries = {}
+		if(program['newestVideoPublishTime'] != None):
+			publishTime = parseDate(program['newestVideoPublishTime'])
+			infoLabels['plotoutline'] = 'Nyeste udsendelse: %s' % publishTime.strftime('%d. %b %Y kl. %H:%M')
+			infoLabels['date'] = publishTime.strftime('%d.%m.%Y')
+			infoLabels['year'] = int(publishTime.strftime('%Y'))
 
-    for programSerie in result:
-      programSeries[programSerie['slug']] = [programSerie['title'], programSerie['description'],\
-                    programSerie['newestVideoId'], programSerie['newestVideoPublishTime'], programSerie['videoCount']]
+		infoLabels['title'] = program['title']
+		infoLabels['plot'] = program['description']
+		infoLabels['count'] = int(program['videoCount'])
 
-    for k in programSeries.keys():
-      programSeries[k][3] = datetime.datetime.fromtimestamp(float(programSeries[k][3][6:-10]))
-      programSeries[k].append(url + '/' + k + '/images/250x250.jpg')
-    return programSeries
-  
-MyPlayer = DRNUPlayer()
-if(sys.argv[2][:1] == '?'):
-  MyPlayer.CreateDirectoryItem(folder=False, items=MyPlayer.getVideos(sys.argv[2][1:]))
-  
+		iconImage = BASE_API_URL % ('programseries/' + program['slug'] + '/images/256x256.jpg')
+		thumbnailImage = BASE_API_URL % ('programseries/' + program['slug'] + '/images/512x512.jpg')
+
+		item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage, thumbnailImage=thumbnailImage)
+		item.setInfo('video', infoLabels)
+		url = ADDON_PATH + '?slug=' + program['slug']
+		xbmcplugin.addDirectoryItem(ADDON_HANDLE, url, item, isFolder=True)
+
+	xbmcplugin.endOfDirectory(ADDON_HANDLE)
+
+def searchVideos():
+	keyboard = xbmc.Keyboard('', 'Søg')
+	keyboard.doModal()
+	if(keyboard.isConfirmed()):
+		keyword = keyboard.getText()
+
+		videos = json.loads(web.downloadUrl(BASE_API_URL % ('videos/all')))
+
+		for idx in range(len(videos)-1, -1, -1):
+			video = videos[idx]
+			# simplistic search for title
+			if(video['title'].lower().find(keyword.lower()) == -1):
+				del videos[idx]
+
+		if(len(videos) == 0):
+			print "no results"
+		else:
+			listVideos(videos, False)
+		
+
+def listVideos(videos, isSpot):
+	for video in videos:
+		infoLabels = {}
+
+		if(video['title'] != None):
+			infoLabels['title'] = video['title']
+		else:
+			infoLabels['title'] = 'Ukendt titel'
+
+		if(isSpot):
+			infoLabels['plot'] = video['spotSubTitle']
+		else:
+			infoLabels['plot'] = video['description']
+			if(video.has_key('duration')):
+				infoLabels['duration'] = video['duration']
+			if(video.has_key('broadcastChannel')):
+				infoLabels['studio'] = video['broadcastChannel']
+			if(video['broadcastTime'] != None):
+				broadcastTime = parseDate(video['broadcastTime'])
+				infoLabels['plotoutline'] = 'Sendt: %s' % broadcastTime.strftime('%d. %b %Y kl. %H:%M')
+				infoLabels['date'] = broadcastTime.strftime('%d.%m.%Y')
+				infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
+				infoLabels['year'] = int(broadcastTime.strftime('%Y'))
+
+		iconImage = BASE_API_URL % ('videos/' + str(video['id']) + '/images/256x256.jpg')
+		thumbnailImage = BASE_API_URL % ('videos/' + str(video['id']) + '/images/512x512.jpg')
+
+		item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage, thumbnailImage=thumbnailImage)
+		item.setInfo('video', infoLabels)
+		item.setProperty('IsPlayable', 'true')
+		url = ADDON_PATH + '?id=' + str(video['id'])
+		xbmcplugin.addDirectoryItem(ADDON_HANDLE, url, item)
+
+	xbmcplugin.addSortMethod(ADDON_HANDLE, xbmcplugin.SORT_METHOD_DATE)
+	xbmcplugin.endOfDirectory(ADDON_HANDLE)
+
+
+def playVideo(videoId):
+	video = json.loads(web.downloadUrl(BASE_API_URL % ('videos/' + videoId)))
+
+	rtmpUrl = web.downloadUrl(video['videoManifestUrl'])
+	rtmpUrl = rtmpUrl.replace('rtmp://vod.dr.dk/', 'rtmp://vod.dr.dk/cms/')
+
+	item = xbmcgui.ListItem(path = rtmpUrl)
+	xbmcplugin.setResolvedUrl(ADDON_HANDLE, True, item)
+
+def parseDate(dateString):
+	m = re.search('\/Date\(([0-9]+).*?\)\/', dateString)
+	microseconds = long(m.group(1))
+	return datetime.datetime.fromtimestamp(microseconds / 1000)
+
+
+
+
+if(ADDON_PARAMS.has_key('slug')):
+	videos = json.loads(web.downloadUrl(BASE_API_URL % 'programseries/' + ADDON_PARAMS['slug'] + '/videos'))
+	listVideos(videos, False)
+
+elif(ADDON_PARAMS.has_key('newest')):
+	videos = json.loads(web.downloadUrl(BASE_API_URL % 'videos/newest'))
+	listVideos(videos, False)
+
+elif(ADDON_PARAMS.has_key('spot')):
+	videos = json.loads(web.downloadUrl(BASE_API_URL % 'videos/spot'))
+	listVideos(videos, True)
+
+elif(ADDON_PARAMS.has_key('search')):
+	searchVideos()
+
+elif(ADDON_PARAMS.has_key('id')):
+	playVideo(ADDON_PARAMS['id'])
+
 else:
-  MyPlayer.CreateDirectoryItem(folder=True, items=MyPlayer.getProgramSeries())
+	getProgramSeries()
 
