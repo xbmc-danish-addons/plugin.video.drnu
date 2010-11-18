@@ -1,6 +1,7 @@
-1.1.0 - Cleanup
+1.1.0 - Fix problems caused by changes on dr.dk
+      - General cleanup
       - Added Newest, Spotlight and Search functionality
-			- Updated graphics
+      - Updated graphics
 
 1.0.4 - Stripped invalid videolinks.
 
