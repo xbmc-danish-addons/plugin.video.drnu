@@ -1,4 +1,9 @@
+1.1.0 - Cleanup
+      - Added Newest, Spotlight and Search functionality
+			- Updated graphics
+
 1.0.4 - Stripped invalid videolinks.
+
 1.0.3 - Changed the sorting order in the "show" folder. Now the shows are sorted by infoLabel, date.
       
 1.0.2 - DR changed the layout of the videoManifestUrl, so the plugin failed. This is now fixed.
