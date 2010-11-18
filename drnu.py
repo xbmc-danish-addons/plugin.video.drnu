@@ -8,20 +8,21 @@ import urllib
 import simplejson as json
 import time
 import datetime
+import os
 from danishaddons import *
 
 BASE_API_URL = 'http://www.dr.dk/NU/api/%s'
 
 def getProgramSeries():
-	programSeries = json.loads(web.downloadUrl(BASE_API_URL % 'programseries'))
+	programSeries = json.loads(web.downloadAndCacheUrl(BASE_API_URL % 'programseries', os.path.join(ADDON_DATA_PATH, 'programseries.json'), 60))
 
-	item = xbmcgui.ListItem('Nyeste')
+	iconImage = os.path.join(os.getcwd(), 'icon.png')
+	item = xbmcgui.ListItem('Nyeste', iconImage=iconImage)
 	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?newest', item, isFolder=True)
-	item = xbmcgui.ListItem('Spotlight')
+	item = xbmcgui.ListItem('Spotlight', iconImage=iconImage)
 	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?spot', item, isFolder=True)
-	item = xbmcgui.ListItem('Søg')
+	item = xbmcgui.ListItem('Søg', iconImage=iconImage)
 	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?search', item, isFolder=True)
-
 
 	for program in programSeries:
 		infoLabels = {}
@@ -52,7 +53,7 @@ def searchVideos():
 	if(keyboard.isConfirmed()):
 		keyword = keyboard.getText()
 
-		videos = json.loads(web.downloadUrl(BASE_API_URL % ('videos/all')))
+		videos = json.loads(web.downloadAndCacheUrl(BASE_API_URL % ('videos/all'), os.path.join(ADDON_DATA_PATH, 'all.json'), 60))
 
 		for idx in range(len(videos)-1, -1, -1):
 			video = videos[idx]
@@ -61,7 +62,7 @@ def searchVideos():
 				del videos[idx]
 
 		if(len(videos) == 0):
-			print "no results"
+			xbmcgui.Dialog().ok('Søgning', 'Ingen indslag fundet')
 		else:
 			listVideos(videos, False)
 		
@@ -119,17 +120,17 @@ def parseDate(dateString):
 
 
 
-
 if(ADDON_PARAMS.has_key('slug')):
-	videos = json.loads(web.downloadUrl(BASE_API_URL % 'programseries/' + ADDON_PARAMS['slug'] + '/videos'))
+	videos = json.loads(web.downloadAndCacheUrl(BASE_API_URL % 'programseries/' + ADDON_PARAMS['slug'] + '/videos',
+		os.path.join(ADDON_DATA_PATH, 'programseries-%s.json' % ADDON_PARAMS['slug']), 60))
 	listVideos(videos, False)
 
 elif(ADDON_PARAMS.has_key('newest')):
-	videos = json.loads(web.downloadUrl(BASE_API_URL % 'videos/newest'))
+	videos = json.loads(web.downloadAndCacheUrl(BASE_API_URL % 'videos/newest', os.path.join(ADDON_DATA_PATH, 'newest.json'), 60))
 	listVideos(videos, False)
 
 elif(ADDON_PARAMS.has_key('spot')):
-	videos = json.loads(web.downloadUrl(BASE_API_URL % 'videos/spot'))
+	videos = json.loads(web.downloadAndCacheUrl(BASE_API_URL % 'videos/spot', os.path.join(ADDON_DATA_PATH, 'spot.json'), 60))
 	listVideos(videos, True)
 
 elif(ADDON_PARAMS.has_key('search')):
