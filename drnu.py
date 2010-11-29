@@ -108,10 +108,13 @@ def playVideo(videoId):
 	video = json.loads(web.downloadUrl(BASE_API_URL % ('videos/' + videoId)))
 
 	rtmpUrl = web.downloadUrl(video['videoManifestUrl'])
-	rtmpUrl = rtmpUrl.replace('rtmp://vod.dr.dk/', 'rtmp://vod.dr.dk/cms/')
-
-	item = xbmcgui.ListItem(path = rtmpUrl)
-	xbmcplugin.setResolvedUrl(ADDON_HANDLE, True, item)
+	if(rtmpUrl[0:7] == '<script'):
+		d = xbmcgui.Dialog()
+		d.ok('Filen er ikke tilgængelig', 'DR har slettet den lyd- eller videofil du gerne vil se,', 'da det er lang tid siden, den er blevet afspillet sidst.')
+	else:
+		rtmpUrl = rtmpUrl.replace('rtmp://vod.dr.dk/', 'rtmp://vod.dr.dk/cms/')
+		item = xbmcgui.ListItem(path = rtmpUrl)
+		xbmcplugin.setResolvedUrl(ADDON_HANDLE, True, item)
 
 def parseDate(dateString):
 	m = re.search('\/Date\(([0-9]+).*?\)\/', dateString)
