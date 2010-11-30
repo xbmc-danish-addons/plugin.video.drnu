@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string id="30001">Latest</string>
+	<string id="30002">Spotlight</string>
+	<string id="30003">Search</string>
+	<string id="30004">Latest show: %s</string>
+	<string id="30005">No clips found.</string>
+	<string id="30006">Unknown title</string>
+
+	<string id="30100">Video is not available</string>
+	<string id="30101">DR has deleted the video file you want to watch,</string>
+	<string id="30102">because it has not been viewed recently.</string>
+</strings>

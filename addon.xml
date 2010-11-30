@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<addon id="plugin.video.drnu" version="1.1.1" name="DR NU Player" provider-name="InKaKiLLeR, twinther [tommy@winther.nu]"> 
+<addon id="plugin.video.drnu" version="1.1.2" name="DR NU Player" provider-name="InKaKiLLeR, twinther [tommy@winther.nu]"> 
   <requires>
     <import addon="xbmc.python" version="1.0"/>
     <import addon="script.module.simplejson" version="2.0.10"/>
@@ -9,8 +9,12 @@
 	  <provides>video</provides>
   </extension> 
   <extension point="xbmc.addon.metadata"> 
-    <summary>DR NU Player</summary>
-    <description>Watch shows from www.dr.dk/nu</description> 
+    <summary lang="en">DR NU Player</summary>
+    <summary lang="da">DR NU Player</summary>
+    <description lang="en">Watch the latest shows from DR.dk/nu[BR][BR]
+All programs that DR has the rights to show on the internet is available in DR NU. The typically means DR's own programs, news, sports and magazine - but not movies and some international tv-shows.</description> 
+    <description lang="da">Se de seneste udsendelser fra DR.dk/nu[BR][BR]
+Alle de programmer, DR har rettigheder til at vise på nettet, vil være at finde i DR NU. Dette gælder typisk DR's egne programmer, nyheder, sport og magasiner - men ikke film eller visse udenlandske tv-serier.</description> 
     <platform>all</platform> 
   </extension> 
 </addon>

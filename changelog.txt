@@ -1,3 +1,6 @@
+1.1.2 - Extracted strings into strings.xml
+      - Should also fix some encodig errors in drnu.py experience by some users due to international characters
+
 1.1.1 - Changes to addon.xml
       - Display error in case videoclip is no longer available
 

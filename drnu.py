@@ -17,11 +17,14 @@ def getProgramSeries():
 	programSeries = json.loads(web.downloadAndCacheUrl(BASE_API_URL % 'programseries', os.path.join(ADDON_DATA_PATH, 'programseries.json'), 60))
 
 	iconImage = os.path.join(os.getcwd(), 'icon.png')
-	item = xbmcgui.ListItem('Nyeste', iconImage=iconImage)
+	# Latest
+	item = xbmcgui.ListItem(msg(30001), iconImage=iconImage)
 	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?newest', item, isFolder=True)
-	item = xbmcgui.ListItem('Spotlight', iconImage=iconImage)
+	# Spotlight
+	item = xbmcgui.ListItem(msg(30002), iconImage=iconImage)
 	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?spot', item, isFolder=True)
-	item = xbmcgui.ListItem('Søg', iconImage=iconImage)
+	# Search
+	item = xbmcgui.ListItem(msg(30003), iconImage=iconImage)
 	xbmcplugin.addDirectoryItem(ADDON_HANDLE, ADDON_PATH + '?search', item, isFolder=True)
 
 	for program in programSeries:
@@ -29,7 +32,7 @@ def getProgramSeries():
 
 		if(program['newestVideoPublishTime'] != None):
 			publishTime = parseDate(program['newestVideoPublishTime'])
-			infoLabels['plotoutline'] = 'Nyeste udsendelse: %s' % publishTime.strftime('%d. %b %Y kl. %H:%M')
+			infoLabels['plotoutline'] = msg(30004) % publishTime.strftime('%d. %b %Y kl. %H:%M')
 			infoLabels['date'] = publishTime.strftime('%d.%m.%Y')
 			infoLabels['year'] = int(publishTime.strftime('%Y'))
 
@@ -48,7 +51,7 @@ def getProgramSeries():
 	xbmcplugin.endOfDirectory(ADDON_HANDLE)
 
 def searchVideos():
-	keyboard = xbmc.Keyboard('', 'Søg')
+	keyboard = xbmc.Keyboard('', msg(30003))
 	keyboard.doModal()
 	if(keyboard.isConfirmed()):
 		keyword = keyboard.getText()
@@ -62,7 +65,7 @@ def searchVideos():
 				del videos[idx]
 
 		if(len(videos) == 0):
-			xbmcgui.Dialog().ok('Søgning', 'Ingen indslag fundet')
+			xbmcgui.Dialog().ok(msg(30003), msg(30005))
 		else:
 			listVideos(videos, False)
 		
@@ -74,7 +77,7 @@ def listVideos(videos, isSpot):
 		if(video['title'] != None):
 			infoLabels['title'] = video['title']
 		else:
-			infoLabels['title'] = 'Ukendt titel'
+			infoLabels['title'] = msg(30006)
 
 		if(isSpot):
 			infoLabels['plot'] = video['spotSubTitle']
@@ -110,7 +113,7 @@ def playVideo(videoId):
 	rtmpUrl = web.downloadUrl(video['videoManifestUrl'])
 	if(rtmpUrl[0:7] == '<script'):
 		d = xbmcgui.Dialog()
-		d.ok('Filen er ikke tilgængelig', 'DR har slettet den lyd- eller videofil du gerne vil se,', 'da det er lang tid siden, den er blevet afspillet sidst.')
+		d.ok(msg(30100), msg(30101), msg(30102))
 	else:
 		rtmpUrl = rtmpUrl.replace('rtmp://vod.dr.dk/', 'rtmp://vod.dr.dk/cms/')
 		item = xbmcgui.ListItem(path = rtmpUrl)
