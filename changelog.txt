@@ -1,3 +1,7 @@
+[B]Version 1.1.3[/B]
+- Updated to danishaddons module 1.1.0
+
+
 1.1.2 - Extracted strings into strings.xml
       - Should also fix some encodig errors in drnu.py experience by some users due to international characters
 
