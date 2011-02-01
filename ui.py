@@ -41,7 +41,7 @@ class DRnuUI(object):
         programSeries = self.api.getProgramSeries()
         programs = list()
 
-        if limitToSlugs:
+        if limitToSlugs is not None:
             for slug in limitToSlugs:
                 for program in programSeries:
                     if slug == program['slug']:

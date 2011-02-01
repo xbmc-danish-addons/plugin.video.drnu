@@ -85,7 +85,7 @@ if __name__ == '__main__':
         favorites = list()
         if os.path.exists(FAVORITES_PATH):
             favorites = pickle.load(open(FAVORITES_PATH, 'rb'))
-        ui.getProgramSeries(favorites)
+        ui.getProgramSeries(favorites, False)
 
     elif danishaddons.ADDON_PARAMS.has_key('recentlywatched'):
         recent = list()
