@@ -58,7 +58,7 @@ class NuAddon(object):
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30002), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
         item.setProperty('Fanart_Image', fanartImage)
         xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=spotlight', item, isFolder = True)
-        # Search
+        # Search videos
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30003), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'search.png'))
         item.setProperty('Fanart_Image', fanartImage)
         xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=search', item, isFolder = True)
@@ -97,48 +97,55 @@ class NuAddon(object):
             if video is not None:
                 videos.append(video)
                 
-        self.listVideos(videos)
-
+        if not videos:
+            xbmcplugin.endOfDirectory(HANDLE, succeeded = False)
+            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
+        else:
+            self.listVideos(videos)
 
     def showProgramSeries(self, limitToSlugs = None, addToFavorites = True, label = None):
         programs = self.api.getProgramSeries(limitToSlugs, label)
 
-        for program in programs:
-            infoLabels = {}
+        if not programs:
+            xbmcplugin.endOfDirectory(HANDLE, succeeded = False)
+            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
+        else:
+            for program in programs:
+                infoLabels = {}
 
-            if program['newestVideoPublishTime'] is not None:
-                publishTime = self.parseDate(program['newestVideoPublishTime'])
-                infoLabels['plotoutline'] = ADDON.getLocalizedString(30004) % publishTime.strftime('%d. %b %Y kl. %H:%M')
-                infoLabels['date'] = publishTime.strftime('%d.%m.%Y')
-                infoLabels['year'] = int(publishTime.strftime('%Y'))
-                infoLabels['aired'] = publishTime.strftime('%Y-%m-%d')
-                if len(program['labels']) > 0:
-                    infoLabels['genre'] = program['labels'][0]
+                if program['newestVideoPublishTime'] is not None:
+                    publishTime = self.parseDate(program['newestVideoPublishTime'])
+                    infoLabels['plotoutline'] = ADDON.getLocalizedString(30004) % publishTime.strftime('%d. %b %Y kl. %H:%M')
+                    infoLabels['date'] = publishTime.strftime('%d.%m.%Y')
+                    infoLabels['year'] = int(publishTime.strftime('%Y'))
+                    infoLabels['aired'] = publishTime.strftime('%Y-%m-%d')
+                    if len(program['labels']) > 0:
+                        infoLabels['genre'] = program['labels'][0]
 
-            infoLabels['title'] = program['title']
-            infoLabels['plot'] = program['description']
-            infoLabels['count'] = int(program['videoCount'])
+                infoLabels['title'] = program['title']
+                infoLabels['plot'] = program['description']
+                infoLabels['count'] = int(program['videoCount'])
 
-            iconImage = self.api.getProgramSeriesImageUrl(program['slug'], 256)
-            thumbnailImage = self.api.getProgramSeriesImageUrl(program['slug'], 512)
-            fanartImage = self.api.getProgramSeriesImageUrl(program['slug'], 1280, 720)
+                iconImage = self.api.getProgramSeriesImageUrl(program['slug'], 256)
+                thumbnailImage = self.api.getProgramSeriesImageUrl(program['slug'], 512)
+                fanartImage = self.api.getProgramSeriesImageUrl(program['slug'], 1280, 720)
 
-            item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage, thumbnailImage=thumbnailImage)
-            item.setInfo('video', infoLabels)
-            item.setProperty('Fanart_Image', fanartImage)
+                item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage, thumbnailImage=thumbnailImage)
+                item.setInfo('video', infoLabels)
+                item.setProperty('Fanart_Image', fanartImage)
 
-            if addToFavorites:
-                runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % program['slug']
-                item.addContextMenuItems([(ADDON.getLocalizedString(30200), runScript)], True)
-            else:
-                runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % program['slug']
-                item.addContextMenuItems([(ADDON.getLocalizedString(30201), runScript)], True)
+                if addToFavorites:
+                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % program['slug']
+                    item.addContextMenuItems([(ADDON.getLocalizedString(30200), runScript)], True)
+                else:
+                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % program['slug']
+                    item.addContextMenuItems([(ADDON.getLocalizedString(30201), runScript)], True)
 
-            url = PATH + '?listVideos=' + program['slug']
-            xbmcplugin.addDirectoryItem(HANDLE, url, item, isFolder = True, totalItems = int(program['videoCount']))
+                url = PATH + '?listVideos=' + program['slug']
+                xbmcplugin.addDirectoryItem(HANDLE, url, item, isFolder = True, totalItems = int(program['videoCount']))
 
-        xbmcplugin.setContent(HANDLE, 'tvshows')
-        xbmcplugin.endOfDirectory(HANDLE)
+            xbmcplugin.setContent(HANDLE, 'tvshows')
+            xbmcplugin.endOfDirectory(HANDLE)
 
     def showProgramSeriesLabels(self):
         iconImage = os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'tag.png')
@@ -161,18 +168,18 @@ class NuAddon(object):
         keyboard.doModal()
         if keyboard.isConfirmed():
             keyword = keyboard.getText()
+            if len(keyword) > 3:
+                videos = self.api.getAllVideos()
+                for idx in range(len(videos)-1, -1, -1):
+                    video = videos[idx]
+                    # simplistic search for title
+                    if video['title'].lower().find(keyword.lower()) == -1:
+                        del videos[idx]
 
-            videos = self.api.getAllVideos()
-            for idx in range(len(videos)-1, -1, -1):
-                video = videos[idx]
-                # simplistic search for title
-                if video['title'].lower().find(keyword.lower()) == -1:
-                    del videos[idx]
-
-            if not len(videos):
-                xbmcgui.Dialog().ok(ADDON.getLocalizedString(30003), ADDON.getLocalizedString(30005))
-            else:
-                self.listVideos(videos)
+                if not len(videos):
+                    xbmcgui.Dialog().ok(ADDON.getLocalizedString(30003), ADDON.getLocalizedString(30005))
+                else:
+                    self.listVideos(videos)
 
 
     def listVideos(self, videos):
@@ -289,7 +296,7 @@ if __name__ == '__main__':
     if PARAMS.has_key('show'):
         if PARAMS['show'][0] == 'allProgramSeries':
             nuAddon.showProgramSeries()
-        if PARAMS['show'][0] == 'programSeriesLabels':
+        elif PARAMS['show'][0] == 'programSeriesLabels':
             nuAddon.showProgramSeriesLabels()
         elif PARAMS['show'][0] == 'newest':
             nuAddon.showNewestVideos()
@@ -301,7 +308,6 @@ if __name__ == '__main__':
             nuAddon.searchVideos()
         elif PARAMS['show'][0] == 'favorites':
             nuAddon.showFavorites()
-
         elif PARAMS['show'][0] == 'recentlyWatched':
             nuAddon.showRecentlyWatched()
 
