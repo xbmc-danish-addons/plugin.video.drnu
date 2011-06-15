@@ -1,3 +1,8 @@
+[B]Version 2.0.0[/B]
+- Added support for XBMC Eden
+- Depend on xbmc.python version 2.0
+- Otherwise same as Version 1.4.0
+
 [B]Version 1.4.0[/B]
 - Refactored API
 - New graphics
