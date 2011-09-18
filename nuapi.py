@@ -64,6 +64,9 @@ class DrNuApi(object):
     def getNewestVideos(self):
         return self._call_api('videos/newest', 'newest.json')
 
+    def getLastChanceVideos(self):
+        return self._call_api('videos/lastchance', 'lastchance.json')
+
     def getMostViewedVideos(self):
         return self._call_api('videos/mostviewed', 'mostviewed.json')
 
@@ -75,6 +78,9 @@ class DrNuApi(object):
 
     def getVideoById(self, id):
         return self._call_api('videos/%s' % id, 'videobyid-%s.json' % id)
+
+    def search(self, term):
+        return self._call_api('search/%s' % term)
 
     def getProgramSeriesImageUrl(self, programSlug, width, height = None):
         if height is None:
@@ -91,34 +97,39 @@ class DrNuApi(object):
             height = width
         return API_URL % ('chapters/%s/images/%dx%d.jpg' % (id, width, height))
 
-
-    def _call_api(self, path, cacheFilename):
+    def _call_api(self, path, cacheFilename = None):
         print "Calling API: " + API_URL % path
 
-        cachePath = os.path.join(self.cachePath, cacheFilename)
-        try:
-            cachedOn = os.path.getmtime(cachePath)
-        except OSError: # File not found
-            cachedOn = 0
-
-        if time.time() - self.cacheMinutes * 60 >= cachedOn:
-            # Cache expired or miss
+        if cacheFilename:
+            cachePath = os.path.join(self.cachePath, cacheFilename)
             try:
-                u = urllib2.urlopen(API_URL % path)
-                content = u.read()
-                u.close()
+                cachedOn = os.path.getmtime(cachePath)
+            except OSError: # File not found
+                cachedOn = 0
 
-                f = open(cachePath, 'w')
-                f.write(content)
+            if time.time() - self.cacheMinutes * 60 >= cachedOn:
+                # Cache expired or miss
+                try:
+                    u = urllib2.urlopen(API_URL % path)
+                    content = u.read()
+                    u.close()
+
+                    f = open(cachePath, 'w')
+                    f.write(content)
+                    f.close()
+                except urllib2.HTTPError, ex:
+                    print "HTTPError: " + str(ex.msg)
+                    content = None
+
+            else:
+                f = open(cachePath)
+                content = f.read()
                 f.close()
-            except urllib2.HTTPError, ex:
-                print "HTTPError: " + str(ex.msg)
-                content = None
 
         else:
-            f = open(cachePath)
-            content = f.read()
-            f.close()
+            u = urllib2.urlopen(API_URL % path)
+            content = u.read()
+            u.close()
 
         if content is not None:
             return simplejson.loads(content)
