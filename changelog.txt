@@ -3,6 +3,11 @@
 - Depend on xbmc.python version 2.0
 - Otherwise same as Version 1.4.0
 
+[B]Version 1.4.1 - 2011-09-xx[/B]
+- Changed search to use new search API call
+- Added 'Last Chance' videos that will expire soon
+- Sort favorites
+
 [B]Version 1.4.0[/B]
 - Refactored API
 - New graphics
