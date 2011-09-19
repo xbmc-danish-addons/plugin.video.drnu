@@ -259,9 +259,12 @@ class NuAddon(object):
             xbmcplugin.setResolvedUrl(HANDLE, True, item)
 
     def parseDate(self, dateString):
-        m = re.search('/Date\(([0-9]+).*?\)/', dateString)
-        microseconds = long(m.group(1))
-        return datetime.datetime.fromtimestamp(microseconds / 1000)
+        try:
+            m = re.search('/Date\(([0-9]+).*?\)/', dateString)
+            microseconds = long(m.group(1))
+            return datetime.datetime.fromtimestamp(microseconds / 1000)
+        except ValueError:
+            return datetime.datetime.now()
 
 
     def addFavorite(self, slug):
