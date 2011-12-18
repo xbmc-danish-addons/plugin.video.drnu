@@ -1,3 +1,7 @@
+[B]Version 2.0.3 - 2011-12-xx[/B]
+- Improved error handling
+- Added exception submitter that enables users to submit errors automatically
+
 [B]Version 2.0.2 - 2011-09-21[/B]
 - Fix script error on 32 bit OS when expire date of a clip is Jan, 1st 3000
 

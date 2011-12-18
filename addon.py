@@ -1,10 +1,11 @@
 import pickle
 import os
 import sys
-import cgi as urlparse
+import urlparse
 import urllib2
 import re
 import datetime
+import random
 
 import xbmc
 import xbmcgui
@@ -12,6 +13,7 @@ import xbmcaddon
 import xbmcplugin
 
 import nuapi
+import exception_submitter
 
 class NuAddon(object):
     def __init__(self):
@@ -45,43 +47,45 @@ class NuAddon(object):
     def showMainMenu(self):
         fanartImage = os.path.join(ADDON.getAddonInfo('path'), 'fanart.jpg')
 
+        items = list()
         # All Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30000), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=allProgramSeries', item, isFolder = True)
+        items.append((PATH + '?show=allProgramSeries', item, True))
         # Program Series label
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30012), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'tag.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=programSeriesLabels', item, isFolder = True)
+        items.append((PATH + '?show=programSeriesLabels', item, True))
         # Latest
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30001), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'new.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=newest', item, isFolder = True)
+        items.append((PATH + '?show=newest', item, True))
         # Most viewed
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30011), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=mostViewed', item, isFolder = True)
+        items.append((PATH + '?show=mostViewed', item, True))
         # Spotlight
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30002), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=spotlight', item, isFolder = True)
+        items.append((PATH + '?show=spotlight', item, True))
         # Last chance
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30014), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'clock.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=lastChance', item, isFolder = True)
+        items.append((PATH + '?show=lastChance', item, True))
         # Search videos
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30003), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'search.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=search', item, isFolder = True)
+        items.append((PATH + '?show=search', item, True))
         # Recently watched Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30007), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye-star.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=recentlyWatched', item, isFolder = True)
+        items.append((PATH + '?show=recentlyWatched', item, True))
         # Favorite Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30008), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'plusone.png'))
         item.setProperty('Fanart_Image', fanartImage)
-        xbmcplugin.addDirectoryItem(HANDLE, PATH + '?show=favorites', item, isFolder = True)
+        items.append((PATH + '?show=favorites', item, True))
 
+        xbmcplugin.addDirectoryItems(HANDLE, items)
         xbmcplugin.endOfDirectory(HANDLE)
 
     def showProgramSeriesVideos(self, slug):
@@ -124,6 +128,7 @@ class NuAddon(object):
             xbmcplugin.endOfDirectory(HANDLE, succeeded = False)
             xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
         else:
+            items = list()
             for program in programs:
                 infoLabels = {}
 
@@ -157,8 +162,9 @@ class NuAddon(object):
                     item.addContextMenuItems([(ADDON.getLocalizedString(30201), runScript)], True)
 
                 url = PATH + '?listVideos=' + program['slug']
-                xbmcplugin.addDirectoryItem(HANDLE, url, item, isFolder = True, totalItems = int(program['videoCount']))
+                items.append((url, item, True))
 
+            xbmcplugin.addDirectoryItems(HANDLE, items)
             xbmcplugin.setContent(HANDLE, 'tvshows')
             xbmcplugin.endOfDirectory(HANDLE)
 
@@ -167,14 +173,15 @@ class NuAddon(object):
         fanartImage = os.path.join(ADDON.getAddonInfo('path'), 'fanart.jpg')
 
         labels = self.api.getProgramSeriesLabels()
-
+        items = list()
         for label in labels:
             item = xbmcgui.ListItem(label.capitalize(), iconImage=iconImage)
             item.setProperty('Fanart_Image', fanartImage)
             
             url = PATH + '?programSeriesLabel=' + label
-            xbmcplugin.addDirectoryItem(HANDLE, url, item, isFolder = True)
+            items.append((url, item, True))
 
+        xbmcplugin.addDirectoryItems(HANDLE, items)
         xbmcplugin.endOfDirectory(HANDLE)
 
 
@@ -188,6 +195,7 @@ class NuAddon(object):
 
     def listVideos(self, videos):
         tvShowTitles = dict()
+        items = list()
 
         for video in videos:
             infoLabels = dict()
@@ -238,8 +246,9 @@ class NuAddon(object):
             item.setProperty('IsPlayable', 'true')
             item.setProperty('Fanart_Image', fanartImage)
             url = PATH + '?videoId=' + str(video['id'])
-            xbmcplugin.addDirectoryItem(HANDLE, url, item, isFolder = False)
+            items.append((url, item))
 
+        xbmcplugin.addDirectoryItems(HANDLE, items)
         xbmcplugin.setContent(HANDLE, 'episodes')
         xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_DATE)
         xbmcplugin.endOfDirectory(HANDLE)
@@ -289,9 +298,14 @@ class NuAddon(object):
         self.recentlyWatched.insert(0, videoId)
         self._save()
 
+    def displayError(self, message = 'n/a'):
+        heading = ADDON.getLocalizedString(random.randint(99980, 99985))
+        line1 = ADDON.getLocalizedString(30900)
+        line2 = ADDON.getLocalizedString(30901)
+        xbmcgui.Dialog().ok(heading, line1, line2, message)
 
 if __name__ == '__main__':
-    ADDON = xbmcaddon.Addon(id = 'plugin.video.drnu')
+    ADDON = xbmcaddon.Addon()
     PATH = sys.argv[0]
     HANDLE = int(sys.argv[1])
     PARAMS = urlparse.parse_qs(sys.argv[2][1:])
@@ -304,41 +318,48 @@ if __name__ == '__main__':
     RECENT_PATH = os.path.join(CACHE_PATH, 'recent.pickle')
 
     nuAddon = NuAddon()
-    if PARAMS.has_key('show'):
-        if PARAMS['show'][0] == 'allProgramSeries':
-            nuAddon.showProgramSeries()
-        elif PARAMS['show'][0] == 'programSeriesLabels':
-            nuAddon.showProgramSeriesLabels()
-        elif PARAMS['show'][0] == 'newest':
-            nuAddon.showNewestVideos()
-        elif PARAMS['show'][0] == 'spotlight':
-            nuAddon.showSpotlightVideos()
-        elif PARAMS['show'][0] == 'mostViewed':
-            nuAddon.showMostViewedVideos()
-        elif PARAMS['show'][0] == 'lastChance':
-            nuAddon.showLastChanceVideos()
-        elif PARAMS['show'][0] == 'search':
-            nuAddon.searchVideos()
-        elif PARAMS['show'][0] == 'favorites':
-            nuAddon.showFavorites()
-        elif PARAMS['show'][0] == 'recentlyWatched':
-            nuAddon.showRecentlyWatched()
+    try:
+        if PARAMS.has_key('show'):
+            if PARAMS['show'][0] == 'allProgramSeries':
+                nuAddon.showProgramSeries()
+            elif PARAMS['show'][0] == 'programSeriesLabels':
+                nuAddon.showProgramSeriesLabels()
+            elif PARAMS['show'][0] == 'newest':
+                nuAddon.showNewestVideos()
+            elif PARAMS['show'][0] == 'spotlight':
+                nuAddon.showSpotlightVideos()
+            elif PARAMS['show'][0] == 'mostViewed':
+                nuAddon.showMostViewedVideos()
+            elif PARAMS['show'][0] == 'lastChance':
+                nuAddon.showLastChanceVideos()
+            elif PARAMS['show'][0] == 'search':
+                nuAddon.searchVideos()
+            elif PARAMS['show'][0] == 'favorites':
+                nuAddon.showFavorites()
+            elif PARAMS['show'][0] == 'recentlyWatched':
+                nuAddon.showRecentlyWatched()
 
-    elif PARAMS.has_key('programSeriesLabel'):
-        nuAddon.showProgramSeries(label = PARAMS['programSeriesLabel'][0])
+        elif PARAMS.has_key('programSeriesLabel'):
+            nuAddon.showProgramSeries(label = PARAMS['programSeriesLabel'][0])
 
-    elif PARAMS.has_key('listVideos'):
-        nuAddon.showProgramSeriesVideos(PARAMS['listVideos'][0])
+        elif PARAMS.has_key('listVideos'):
+            nuAddon.showProgramSeriesVideos(PARAMS['listVideos'][0])
 
-    elif PARAMS.has_key('videoId'):
-        nuAddon.playVideo(PARAMS['videoId'][0])
+        elif PARAMS.has_key('videoId'):
+            nuAddon.playVideo(PARAMS['videoId'][0])
 
-    elif PARAMS.has_key('addfavorite'):
-        nuAddon.addFavorite(PARAMS['addfavorite'][0])
+        elif PARAMS.has_key('addfavorite'):
+            nuAddon.addFavorite(PARAMS['addfavorite'][0])
 
-    elif PARAMS.has_key('delfavorite'):
-        nuAddon.delFavorite(PARAMS['delfavorite'][0])
+        elif PARAMS.has_key('delfavorite'):
+            nuAddon.delFavorite(PARAMS['delfavorite'][0])
 
-    else:
-        nuAddon.showMainMenu()
+        else:
+            nuAddon.showMainMenu()
+
+    except nuapi.DrNuException as ex:
+        nuAddon.displayError(str(ex))
+
+    except Exception:
+        exception_submitter.handle_exception()
 

@@ -77,7 +77,11 @@ class DrNuApi(object):
         return self._call_api('programseries/%s/videos' % programSeriesSlug, 'programseries-%s.json' % programSeriesSlug) or list()
 
     def getVideoById(self, id):
-        return self._call_api('videos/%s' % id, 'videobyid-%s.json' % id)
+        response = self._call_api('videos/%s' % id, 'videobyid-%s.json' % id)
+        if type(response) in [str, unicode]:
+            return None
+        else:
+            return response
 
     def search(self, term):
         return self._call_api('search/%s' % term) or list()
@@ -125,20 +129,25 @@ class DrNuApi(object):
             content = self._http_request(path)
 
         if content is not None:
-            return simplejson.loads(content)
+            try:
+                return simplejson.loads(content)
+            except Exception as ex:
+                raise DrNuException(ex)
         else:
-            return None
+            return []
 
     def _http_request(self, path):
         try:
             u = urllib2.urlopen(API_URL % path)
             content = u.read()
             u.close()
-        except urllib2.HTTPError, ex:
-            print "HTTPError: " + str(ex.msg)
-            content = None
+        except urllib2.URLError as ex:
+            raise DrNuException(ex)
         return content
 
+
+class DrNuException(Exception):
+    pass
 
 if __name__ == '__main__':
     api = DrNuApi('/tmp', 0)
