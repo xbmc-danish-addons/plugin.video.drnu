@@ -84,6 +84,8 @@ class DrNuApi(object):
             return response
 
     def search(self, term):
+        if not term:
+            return list()
         return self._call_api('search/%s' % term) or list()
 
     def getProgramSeriesImageUrl(self, programSlug, width, height = None):
