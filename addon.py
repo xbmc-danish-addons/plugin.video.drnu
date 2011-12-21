@@ -13,7 +13,7 @@ import xbmcaddon
 import xbmcplugin
 
 import nuapi
-import exception_submitter
+import buggalo
 
 class NuAddon(object):
     def __init__(self):
@@ -361,5 +361,5 @@ if __name__ == '__main__':
         nuAddon.displayError(str(ex))
 
     except Exception:
-        exception_submitter.handle_exception()
+        buggalo.onExceptionRaised()
 

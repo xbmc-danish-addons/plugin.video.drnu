@@ -1,3 +1,6 @@
+"""
+    http://theinfosphere.org/Where_the_Buggalo_Roam
+"""
 import os
 import sys
 import traceback as tb
@@ -9,8 +12,15 @@ import random
 import xbmcgui
 import xbmcaddon
 
-def handle_exception():
-    # start by logging the usual info to syserr
+def onExceptionRaised():
+    """
+    Invoke this method in an except clause to allow the user to submit
+    a bug report with stacktrace, system information, etc.
+
+    This also avoids the 'Script error' popup in XBMC, unless of course
+    an exception is thrown in this code :-)
+    """
+    # start by logging the usual info to stderr
     (type, value, traceback) = sys.exc_info()
     tb.print_exception(type, value, traceback)
 
@@ -24,12 +34,12 @@ def handle_exception():
     thanks = addon.getLocalizedString(99995)
 
     if xbmcgui.Dialog().yesno(heading, line1, line2, line3, no, yes):
-        data = gather_data(addon, type, value, traceback)
-        submit_data(data)
+        data = _gatherData(addon, type, value, traceback)
+        _submitData(data)
 
         xbmcgui.Dialog().ok(heading, thanks)
 
-def gather_data(addon, type, value, traceback):
+def _gatherData(addon, type, value, traceback):
     (sysname, nodename, release, version, machine) = os.uname()
 
     data = dict()
@@ -64,7 +74,7 @@ def gather_data(addon, type, value, traceback):
 
     return simplejson.dumps(data)
 
-def submit_data(data):
+def _submitData(data):
     req = urllib2.Request('http://tommy.winther.nu/exception/submit.php', data)
     req.add_header('Content-Type', 'text/json')
     u = urllib2.urlopen(req)
