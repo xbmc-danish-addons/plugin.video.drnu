@@ -1,5 +1,7 @@
 [B]Version 2.0.3 - 2011-12-21[/B]
 - Improved error handling with option for the user to submit exceptions/bugs
+- Added option to navigate chapters (can be enabled in settings)
+  This is useful for some shows, such as [I]På skinner[/I], but breaks date sorting.
 
 [B]Version 2.0.2 - 2011-09-21[/B]
 - Fix script error on 32 bit OS when expire date of a clip is Jan, 1st 3000

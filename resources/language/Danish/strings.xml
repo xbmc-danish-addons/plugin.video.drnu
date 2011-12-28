@@ -17,6 +17,7 @@
     <string id="30014">Udløber snart</string>
     <string id="30015">Sendt: %s</string>
     <string id="30016">Udløber: %s</string>
+    <string id="30017">Afspil fra starten</string>
 
 	<string id="30100">Videoen er ikke tilgængelig</string>
 	<string id="30101">DR har slettet den videofil du forsøger at afspille,</string>
@@ -24,6 +25,9 @@
 
     <string id="30200">Tilføj til foretrukne programmer</string>
     <string id="30201">Fjern fra foretrukne programmer</string>
+
+    <string id="30500">Generelt</string>
+    <string id="30501">Aktiver [I]kapitel[/I] navigation</string>
 
     <string id="30900">Der er sket en fejl i kommunikationen med DR NU.</string>
     <string id="30901">Prøv igen senere. Fejlen er:</string>

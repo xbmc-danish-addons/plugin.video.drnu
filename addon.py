@@ -1,3 +1,22 @@
+#
+#      Copyright (C) 2011 Tommy Winther
+#      http://tommy.winther.nu
+#
+#  This Program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2, or (at your option)
+#  any later version.
+#
+#  This Program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with XBMC; see the file COPYING.  If not, write to
+#  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+#  http://www.gnu.org/copyleft/gpl.html
+#
 import pickle
 import os
 import sys
@@ -194,48 +213,10 @@ class NuAddon(object):
 
 
     def listVideos(self, videos):
-        tvShowTitles = dict()
         items = list()
 
         for video in videos:
-            infoLabels = dict()
-
-            if video['title'] is not None:
-                infoLabels['title'] = video['title']
-            else:
-                infoLabels['title'] = ADDON.getLocalizedString(30006)
-
-            if video.has_key('spotSubTitle') and video['spotSubTitle'] is not None:
-                infoLabels['plot'] = video['spotSubTitle']
-            elif video.has_key('description') and video['description'] is not None:
-                infoLabels['plot'] = video['description']
-
-            if video.has_key('duration') and video['duration'] is not None:
-                infoLabels['duration'] = video['duration']
-            if video.has_key('broadcastChannel') and video['broadcastChannel'] is not None:
-                infoLabels['studio'] = video['broadcastChannel']
-            if video.has_key('broadcastTime') and video['broadcastTime'] is not None:
-                broadcastTime = self.parseDate(video['broadcastTime'])
-                if broadcastTime:
-                    infoLabels['plotoutline'] = ADDON.getLocalizedString(30015) % broadcastTime.strftime('%d. %b %Y kl. %H:%M')
-                    infoLabels['date'] = broadcastTime.strftime('%d.%m.%Y')
-                    infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
-                    infoLabels['year'] = int(broadcastTime.strftime('%Y'))
-                infoLabels['season'] = infoLabels['year']
-            if video.has_key('programSerieSlug') and video['programSerieSlug'] is not None:
-                if tvShowTitles.has_key(video['programSerieSlug']):
-                    infoLabels['tvshowtitle'] = tvShowTitles[video['programSerieSlug']]
-                else:
-                    serie = self.api.getProgramSeriesInfo(video['programSerieSlug'])
-                    if serie is not None:
-                        tvShowTitles[video['programSerieSlug']] = serie['title']
-                        infoLabels['tvshowtitle'] = serie['title']
-                    else:
-                        tvShowTitles[video['programSerieSlug']] = None
-            if video.has_key('expireTime') and video['expireTime'] is not None:
-                expireTime = self.parseDate(video['expireTime'])
-                if expireTime:
-                    infoLabels['plot'] += '[CR][CR]' + ADDON.getLocalizedString(30016) % expireTime.strftime('%d. %b %Y kl. %H:%M')
+            infoLabels = self.createInfoLabels(video)
 
             iconImage = self.api.getVideoImageUrl(str(video['id']), 256)
             thumbnailImage = self.api.getVideoImageUrl(str(video['id']), 512)
@@ -243,18 +224,71 @@ class NuAddon(object):
 
             item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage, thumbnailImage=thumbnailImage)
             item.setInfo('video', infoLabels)
-            item.setProperty('IsPlayable', 'true')
             item.setProperty('Fanart_Image', fanartImage)
             url = PATH + '?videoId=' + str(video['id'])
-            items.append((url, item))
+            if video['chapters'] and ADDON.getSetting('enable.chapters') == 'true':
+                url += "&chapters=true"
+                items.append((url, item, True))
+            else:
+                item.setProperty('IsPlayable', 'true')
+                items.append((url, item))
 
         xbmcplugin.addDirectoryItems(HANDLE, items)
         xbmcplugin.setContent(HANDLE, 'episodes')
         xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_DATE)
         xbmcplugin.endOfDirectory(HANDLE)
 
+    def listVideoChapters(self, videoId):
+        video = self.api.getVideoById(videoId)
+        items = list()
+        startTimes = list()
 
-    def playVideo(self, videoId):
+        for chapter in video['chapters']:
+            startTimes.append(self.parseTime(chapter['startTime']))
+        startTimes.append(self.parseTime(video['duration']))
+
+        # 'Play from the start' item
+        iconImage = self.api.getVideoImageUrl(str(video['id']), 256)
+        thumbnailImage = self.api.getVideoImageUrl(str(video['id']), 512)
+        fanartImage = self.api.getVideoImageUrl(str(video['id']), 1280, 720)
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30017), iconImage=iconImage, thumbnailImage=thumbnailImage)
+        item.setProperty('IsPlayable', 'true')
+        item.setProperty('Fanart_Image', fanartImage)
+        url = PATH + '?videoId=' + str(video['id'])
+        items.append((url, item))
+
+        for idx, chapter in enumerate(video['chapters']):
+            infoLabels = self.createInfoLabels(video)
+
+            if chapter['title'] is not None:
+                infoLabels['title'] = chapter['title']
+            else:
+                infoLabels['title'] = ADDON.getLocalizedString(30006)
+            infoLabels['plot'] = video['description']
+
+            startTime = startTimes[idx]
+            if startTime:
+                duration = startTimes[idx + 1] - startTime
+                infoLabels['duration'] = str(duration.seconds)
+
+            iconImage = self.api.getChapterImageUrl(str(chapter['id']), 256)
+            thumbnailImage = self.api.getChapterImageUrl(str(chapter['id']), 512)
+            fanartImage = self.api.getChapterImageUrl(str(chapter['id']), 1280, 720)
+
+            item = xbmcgui.ListItem(chapter['title'], iconImage=iconImage, thumbnailImage=thumbnailImage)
+            item.setInfo('video', infoLabels)
+            item.setProperty('IsPlayable', 'true')
+            item.setProperty('Fanart_Image', fanartImage)
+            url = PATH + '?videoId=' + str(video['id'])
+            if startTime:
+                url += "&startTime=" + self.formatStartTime(startTime)
+            items.append((url, item))
+
+        xbmcplugin.addDirectoryItems(HANDLE, items)
+        xbmcplugin.setContent(HANDLE, 'episodes')
+        xbmcplugin.endOfDirectory(HANDLE)
+
+    def playVideo(self, videoId, startTime = None):
         self._updateRecentlyWatched(videoId)
         video = self.api.getVideoById(videoId)
 
@@ -267,6 +301,8 @@ class NuAddon(object):
             d.ok(ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101), ADDON.getLocalizedString(30102))
         else:
             rtmpUrl = rtmpUrl.replace('rtmp://vod.dr.dk/', 'rtmp://vod.dr.dk/cms/')
+            if startTime:
+                rtmpUrl += ' start=' + startTime
             item = xbmcgui.ListItem(path = rtmpUrl)
             xbmcplugin.setResolvedUrl(HANDLE, True, item)
 
@@ -278,6 +314,57 @@ class NuAddon(object):
         except ValueError:
             return None
 
+    def parseTime(self, timeString):
+        try:
+            m = re.search('([0-9]+):([0-9]+):([0-9]+)(.([0-9]+))?', timeString)
+            hours = int(m.group(1))
+            minutes = int(m.group(2))
+            seconds = int(m.group(3))
+            return datetime.datetime(2011, 12, 28, hours, minutes, seconds)
+        except ValueError:
+            return None
+
+    def formatStartTime(self, time):
+        startTime = time.hour * 3600
+        startTime += time.minute * 60
+        startTime += time.second
+        return str(startTime * 1000)
+
+    def createInfoLabels(self, video):
+        infoLabels = dict()
+
+        if video['title'] is not None:
+            infoLabels['title'] = video['title']
+        else:
+            infoLabels['title'] = ADDON.getLocalizedString(30006)
+
+        if video.has_key('spotSubTitle') and video['spotSubTitle'] is not None:
+            infoLabels['plot'] = video['spotSubTitle']
+        elif video.has_key('description') and video['description'] is not None:
+            infoLabels['plot'] = video['description']
+
+        if video.has_key('duration') and video['duration'] is not None:
+            infoLabels['duration'] = video['duration']
+        if video.has_key('broadcastChannel') and video['broadcastChannel'] is not None:
+            infoLabels['studio'] = video['broadcastChannel']
+        if video.has_key('broadcastTime') and video['broadcastTime'] is not None:
+            broadcastTime = self.parseDate(video['broadcastTime'])
+            if broadcastTime:
+                infoLabels['plotoutline'] = ADDON.getLocalizedString(30015) % broadcastTime.strftime('%d. %b %Y kl. %H:%M')
+                infoLabels['date'] = broadcastTime.strftime('%d.%m.%Y')
+                infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
+                infoLabels['year'] = int(broadcastTime.strftime('%Y'))
+            infoLabels['season'] = infoLabels['year']
+        if video.has_key('programSerieSlug') and video['programSerieSlug'] is not None:
+            serie = self.api.getProgramSeriesInfo(video['programSerieSlug'])
+            if serie:
+                infoLabels['tvshowtitle'] = serie['title']
+        if video.has_key('expireTime') and video['expireTime'] is not None:
+            expireTime = self.parseDate(video['expireTime'])
+            if expireTime:
+                infoLabels['plot'] += '[CR][CR]' + ADDON.getLocalizedString(30016) % expireTime.strftime('%d. %b %Y kl. %H:%M')
+
+        return infoLabels
 
     def addFavorite(self, slug):
         if not self.favorites.count(slug):
@@ -305,7 +392,7 @@ class NuAddon(object):
         xbmcgui.Dialog().ok(heading, line1, line2, message)
 
 if __name__ == '__main__':
-    ADDON = xbmcaddon.Addon()
+    ADDON = xbmcaddon.Addon(id = 'plugin.video.drnu')
     PATH = sys.argv[0]
     HANDLE = int(sys.argv[1])
     PARAMS = urlparse.parse_qs(sys.argv[2][1:])
@@ -345,6 +432,12 @@ if __name__ == '__main__':
         elif PARAMS.has_key('listVideos'):
             nuAddon.showProgramSeriesVideos(PARAMS['listVideos'][0])
 
+        elif PARAMS.has_key('videoId') and PARAMS.has_key('chapters'):
+            nuAddon.listVideoChapters(PARAMS['videoId'][0])
+
+        elif PARAMS.has_key('videoId') and PARAMS.has_key('startTime'):
+            nuAddon.playVideo(PARAMS['videoId'][0], PARAMS['startTime'][0])
+
         elif PARAMS.has_key('videoId'):
             nuAddon.playVideo(PARAMS['videoId'][0])
 
@@ -357,7 +450,7 @@ if __name__ == '__main__':
         else:
             nuAddon.showMainMenu()
 
-    except nuapi.DrNuException as ex:
+    except nuapi.DrNuException, ex:
         nuAddon.displayError(str(ex))
 
     except Exception:

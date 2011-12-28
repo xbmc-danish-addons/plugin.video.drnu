@@ -1,3 +1,22 @@
+#
+#      Copyright (C) 2011 Tommy Winther
+#      http://tommy.winther.nu
+#
+#  This Program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2, or (at your option)
+#  any later version.
+#
+#  This Program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with XBMC; see the file COPYING.  If not, write to
+#  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+#  http://www.gnu.org/copyleft/gpl.html
+#
 import os
 import simplejson
 import time
@@ -133,7 +152,7 @@ class DrNuApi(object):
         if content is not None:
             try:
                 return simplejson.loads(content)
-            except Exception as ex:
+            except Exception, ex:
                 raise DrNuException(ex)
         else:
             return []
@@ -143,7 +162,7 @@ class DrNuApi(object):
             u = urllib2.urlopen(API_URL % path)
             content = u.read()
             u.close()
-        except urllib2.URLError as ex:
+        except urllib2.URLError, ex:
             raise DrNuException(ex)
         return content
 
@@ -153,6 +172,7 @@ class DrNuException(Exception):
 
 if __name__ == '__main__':
     api = DrNuApi('/tmp', 0)
-    json =  api.getProgramSeriesLabels()
+#    json =  api.getProgramSeriesVideos('paa-skinner')
+    json =  api.getVideoById(26236)
     s = simplejson.dumps(json, sort_keys=True, indent='    ')
     print '\n'.join([l.rstrip() for l in  s.splitlines()])
