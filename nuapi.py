@@ -132,7 +132,7 @@ class DrNuApi(object):
             except OSError: # File not found
                 cachedOn = 0
 
-            if time.time() - self.cacheMinutes * 60 >= cachedOn:
+            if not os.path.exists(cachePath) or time.time() - self.cacheMinutes * 60 >= cachedOn:
                 # Cache expired or miss
                 content = self._http_request(path)
 
