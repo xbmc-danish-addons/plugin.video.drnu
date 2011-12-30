@@ -11,13 +11,17 @@
     <string id="30008">Favorite programs</string>
     <string id="30009">Program added</string>
     <string id="30010">Program removed</string>
-    <string id="30011">Most watched videos on DR.dk</string>
+    <string id="30011">Most watched videos on DR NU</string>
     <string id="30012">Programs by area</string>
-    <string id="30013">The list is empty</string>
+    <string id="30013">The list is empty.</string>
     <string id="30014">Expires soon</string>
     <string id="30015">Aired: %s</string>
     <string id="30016">Expires on: %s</string>
     <string id="30017">Play from the start</string>
+    <string id="30018">You can added program series to favorites using</string>
+    <string id="30019">the context menu.</string>
+    <string id="30020">Your recently watched videos are automatically added.</string>
+    <string id="30021">Highlights</string>
 
 	<string id="30100">Video is not available</string>
 	<string id="30101">DR has deleted the video file you want to watch,</string>

@@ -87,6 +87,10 @@ class NuAddon(object):
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30002), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
         item.setProperty('Fanart_Image', fanartImage)
         items.append((PATH + '?show=spotlight', item, True))
+        # Highlights
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30021), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
+        item.setProperty('Fanart_Image', fanartImage)
+        items.append((PATH + '?show=highlights', item, True))
         # Last chance
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30014), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'clock.png'))
         item.setProperty('Fanart_Image', fanartImage)
@@ -116,6 +120,9 @@ class NuAddon(object):
     def showSpotlightVideos(self):
         self.listVideos(self.api.getSpotlightVideos())
 
+    def showHighlightVideos(self):
+        self.listVideos(self.api.getHighlightVideos())
+
     def showMostViewedVideos(self):
         self.listVideos(self.api.getMostViewedVideos())
 
@@ -123,7 +130,7 @@ class NuAddon(object):
         self.listVideos(self.api.getLastChanceVideos())
 
     def showFavorites(self):
-        nuAddon.showProgramSeries(self.favorites, False)
+        self.showProgramSeries(self.favorites, False)
 
     def showRecentlyWatched(self):
         videos = list()
@@ -136,7 +143,7 @@ class NuAddon(object):
                 
         if not videos:
             xbmcplugin.endOfDirectory(HANDLE, succeeded = False)
-            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
+            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013), ADDON.getLocalizedString(30020))
         else:
             self.listVideos(videos)
 
@@ -145,7 +152,10 @@ class NuAddon(object):
 
         if not programs:
             xbmcplugin.endOfDirectory(HANDLE, succeeded = False)
-            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
+            if not addToFavorites:
+                xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013), ADDON.getLocalizedString(30018), ADDON.getLocalizedString(30019))
+            else:
+                xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
         else:
             items = list()
             for program in programs:
@@ -173,12 +183,12 @@ class NuAddon(object):
                 item.setInfo('video', infoLabels)
                 item.setProperty('Fanart_Image', fanartImage)
 
-                if addToFavorites:
-                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % program['slug']
-                    item.addContextMenuItems([(ADDON.getLocalizedString(30200), runScript)], True)
-                else:
+                if self.favorites.count(program['slug']) > 0:
                     runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % program['slug']
                     item.addContextMenuItems([(ADDON.getLocalizedString(30201), runScript)], True)
+                else:
+                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % program['slug']
+                    item.addContextMenuItems([(ADDON.getLocalizedString(30200), runScript)], True)
 
                 url = PATH + '?listVideos=' + program['slug']
                 items.append((url, item, True))
@@ -363,6 +373,8 @@ class NuAddon(object):
             expireTime = self.parseDate(video['expireTime'])
             if expireTime:
                 infoLabels['plot'] += '[CR][CR]' + ADDON.getLocalizedString(30016) % expireTime.strftime('%d. %b %Y kl. %H:%M')
+        if video.has_key('isHq') and video['isHq']:
+            infoLabels['overlay'] = xbmcgui.ICON_OVERLAY_HD
 
         return infoLabels
 
@@ -415,6 +427,8 @@ if __name__ == '__main__':
                 nuAddon.showNewestVideos()
             elif PARAMS['show'][0] == 'spotlight':
                 nuAddon.showSpotlightVideos()
+            elif PARAMS['show'][0] == 'highlights':
+                nuAddon.showHighlightVideos()
             elif PARAMS['show'][0] == 'mostViewed':
                 nuAddon.showMostViewedVideos()
             elif PARAMS['show'][0] == 'lastChance':

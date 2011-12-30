@@ -20,6 +20,7 @@
 import os
 import simplejson
 import time
+import urllib
 import urllib2
 
 API_URL = 'http://www.dr.dk/NU/api/%s'
@@ -92,6 +93,9 @@ class DrNuApi(object):
     def getSpotlightVideos(self):
         return self._call_api('videos/spot', 'spot.json') or list()
 
+    def getHighlightVideos(self):
+        return self._call_api('videos/highlight', 'highlight.json') or list()
+
     def getProgramSeriesVideos(self, programSeriesSlug):
         return self._call_api('programseries/%s/videos' % programSeriesSlug, 'programseries-%s.json' % programSeriesSlug) or list()
 
@@ -105,7 +109,7 @@ class DrNuApi(object):
     def search(self, term):
         if not term:
             return list()
-        return self._call_api('search/%s' % term) or list()
+        return self._call_api('search/%s' % urllib.quote(term)) or list()
 
     def getProgramSeriesImageUrl(self, programSlug, width, height = None):
         if height is None:
@@ -173,6 +177,6 @@ class DrNuException(Exception):
 if __name__ == '__main__':
     api = DrNuApi('/tmp', 0)
 #    json =  api.getProgramSeriesVideos('paa-skinner')
-    json =  api.getVideoById(26236)
+    json =  api.getVideoById(26877)
     s = simplejson.dumps(json, sort_keys=True, indent='    ')
     print '\n'.join([l.rstrip() for l in  s.splitlines()])
