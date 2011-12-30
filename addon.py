@@ -226,7 +226,7 @@ class NuAddon(object):
             item.setInfo('video', infoLabels)
             item.setProperty('Fanart_Image', fanartImage)
             url = PATH + '?videoId=' + str(video['id'])
-            if video['chapters'] and ADDON.getSetting('enable.chapters') == 'true':
+            if video.has_key('chapters') and video['chapters'] and ADDON.getSetting('enable.chapters') == 'true':
                 url += "&chapters=true"
                 items.append((url, item, True))
             else:
