@@ -250,6 +250,10 @@ class NuAddon(object):
 
     def listVideoChapters(self, videoId):
         video = self.api.getVideoById(videoId)
+        if not video:
+            xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
+            return
+
         items = list()
         startTimes = list()
 
@@ -301,6 +305,9 @@ class NuAddon(object):
     def playVideo(self, videoId, startTime = None):
         self._updateRecentlyWatched(videoId)
         video = self.api.getVideoById(videoId)
+        if not video:
+            xbmcplugin.setResolvedUrl(HANDLE, False)
+            return
 
         u = urllib2.urlopen(video['videoManifestUrl'])
         rtmpUrl = u.read()
