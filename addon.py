@@ -306,12 +306,14 @@ class NuAddon(object):
         self._updateRecentlyWatched(videoId)
         video = self.api.getVideoById(videoId)
         if not video:
-            xbmcplugin.setResolvedUrl(HANDLE, False)
-            return
+            raise nuapi.DrNuException('Video with ID %s not found!' % videoId)
 
-        u = urllib2.urlopen(video['videoManifestUrl'])
-        rtmpUrl = u.read()
-        u.close()
+        try:
+            u = urllib2.urlopen(video['videoManifestUrl'])
+            rtmpUrl = u.read()
+            u.close()
+        except Exception, ex:
+            raise nuapi.DrNuException(ex)
 
         if rtmpUrl[0:7] == '<script':
             d = xbmcgui.Dialog()
