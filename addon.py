@@ -384,7 +384,8 @@ class NuAddon(object):
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30009))
 
     def delFavorite(self, slug):
-        self.favorites.remove(slug)
+        if self.favorites.count(slug):
+            self.favorites.remove(slug)
         self._save()
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30010))
 

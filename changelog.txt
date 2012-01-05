@@ -1,3 +1,6 @@
+[B]Version 2.1.2 - 2012-01-xx[/B]
+- Fixed problem with removing favorites twice
+
 [B]Version 2.1.1 - 2012-01-04[/B]
 - Fixed a couple of bugs reported by user using the improved error handling
 - Fixed error handling on Windows
