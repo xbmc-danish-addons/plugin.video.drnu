@@ -1,5 +1,7 @@
-[B]Version 2.1.2 - 2012-01-xx[/B]
+[B]Version 2.1.2 - 2012-02-xx[/B]
 - Fixed problem with removing favorites twice
+- Better handle time-outs and other error scenarios from DR NU
+- Introduced usage of script.module.buggalo
 
 [B]Version 2.1.1 - 2012-01-04[/B]
 - Fixed a couple of bugs reported by user using the improved error handling
