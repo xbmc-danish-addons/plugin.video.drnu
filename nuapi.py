@@ -51,7 +51,7 @@ class DrNuApi(object):
         if label is not None:
             seriesWithLabel = list()
             for serie in series:
-                if label in serie['labels']:
+                if label.decode('utf-8', 'ignore') in serie['labels']:
                     seriesWithLabel.append(serie)
 
             series = seriesWithLabel
