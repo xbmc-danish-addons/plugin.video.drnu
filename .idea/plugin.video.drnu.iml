@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="xbmcstubs" />
+    <orderEntry type="module" module-name="script.module.buggalo" />
   </component>
 </module>
 
