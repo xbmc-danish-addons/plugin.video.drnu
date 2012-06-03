@@ -29,6 +29,7 @@ import xbmc
 import xbmcgui
 import xbmcaddon
 import xbmcplugin
+import xbmcvfs
 
 import nuapi
 import buggalo
@@ -158,7 +159,7 @@ class NuAddon(object):
         else:
             items = list()
             for program in programs:
-                if letter is not None and program['title'][0] != letter.decode('utf-8', 'ignore'):
+                if letter is not None and program['title'][0].upper() != letter.decode('utf-8', 'ignore'):
                     continue
                 infoLabels = {}
 
@@ -176,18 +177,28 @@ class NuAddon(object):
                 infoLabels['plot'] = program['description']
                 infoLabels['count'] = int(program['videoCount'])
 
-                iconImage = self.api.getProgramSeriesImageUrl(program['slug'], 256)
+                menuItems = list()
+
+                if self.favorites.count(program['slug']) > 0:
+                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % program['slug']
+                    menuItems.append((ADDON.getLocalizedString(30201), runScript))
+                else:
+                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % program['slug']
+                    menuItems.append((ADDON.getLocalizedString(30200), runScript))
+
+                customThumbFile = self.getCustomThumbPath(program['slug'])
+                if os.path.exists(customThumbFile):
+                    menuItems.append((ADDON.getLocalizedString(30024), "XBMC.RunPlugin(plugin://plugin.video.drnu/?delthumb=%s)" % program['slug']))
+                    iconImage = customThumbFile
+                else:
+                    menuItems.append((ADDON.getLocalizedString(30023), "XBMC.RunPlugin(plugin://plugin.video.drnu/?setthumb=%s)" % program['slug']))
+                    iconImage = self.api.getProgramSeriesImageUrl(program['slug'], 256)
                 fanartImage = self.api.getProgramSeriesImageUrl(program['slug'], 1280, 720)
                 item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage)
                 item.setInfo('video', infoLabels)
                 item.setProperty('Fanart_Image', fanartImage)
 
-                if self.favorites.count(program['slug']) > 0:
-                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % program['slug']
-                    item.addContextMenuItems([(ADDON.getLocalizedString(30201), runScript)], False)
-                else:
-                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % program['slug']
-                    item.addContextMenuItems([(ADDON.getLocalizedString(30200), runScript)], False)
+                item.addContextMenuItems(menuItems, False)
 
                 url = PATH + '?listVideos=' + program['slug']
                 items.append((url, item, True))
@@ -213,12 +224,12 @@ class NuAddon(object):
             item.setProperty('Fanart_Image', fanartImage)
             items.append((PATH + '?show=allProgramSeries', item, True))
 
-            letter = programs[0]['title'][0]
+            letter = programs[0]['title'][0].upper()
             count = 0
             for idx, program in enumerate(programs):
                 count += 1
-                if letter != program['title'][0] or idx == len(programs):
-                    letter = program['title'][0]
+                if letter != program['title'][0].upper() or idx == len(programs):
+                    letter = program['title'][0].upper()
                     infoLabels = {'title': letter, 'count': count}
 
                     item = xbmcgui.ListItem(letter, iconImage = iconImage)
@@ -427,6 +438,20 @@ class NuAddon(object):
         self._save()
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30010))
 
+    def setCustomThumb(self, slug):
+        imageFile = xbmcgui.Dialog().browse(2, 'custom thumb', 'myprograms', '.jpg|.png', True)
+        if imageFile is not None and xbmcvfs.exists(imageFile):
+            thumbFile = self.getCustomThumbPath(slug)
+            xbmcvfs.copy(imageFile, thumbFile)
+
+    def delCustomThumb(self, slug):
+        thumbFile = self.getCustomThumbPath(slug)
+        if os.path.exists(thumbFile):
+            os.unlink(thumbFile)
+
+    def getCustomThumbPath(self, slug):
+        return os.path.join(CACHE_PATH, '%s-thumb.jpg' % slug)
+
     def _updateRecentlyWatched(self, videoId):
         xbmc.log("Adding recently watched video ID: " + videoId)
         if self.recentlyWatched.count(videoId):
@@ -438,6 +463,12 @@ class NuAddon(object):
         heading = buggalo.getRandomHeading()
         line1 = ADDON.getLocalizedString(30900)
         line2 = ADDON.getLocalizedString(30901)
+        xbmcgui.Dialog().ok(heading, line1, line2, message)
+
+    def displayIOError(self, message = 'n/a'):
+        heading = buggalo.getRandomHeading()
+        line1 = ADDON.getLocalizedString(30902)
+        line2 = ADDON.getLocalizedString(30903)
         xbmcgui.Dialog().ok(heading, line1, line2, message)
 
 if __name__ == '__main__':
@@ -505,11 +536,20 @@ if __name__ == '__main__':
         elif PARAMS.has_key('delfavorite'):
             nuAddon.delFavorite(PARAMS['delfavorite'][0])
 
+        elif PARAMS.has_key('setthumb'):
+            nuAddon.setCustomThumb(PARAMS['setthumb'][0])
+
+        elif PARAMS.has_key('delthumb'):
+            nuAddon.delCustomThumb(PARAMS['delthumb'][0])
+
         else:
             nuAddon.showMainMenu()
 
     except nuapi.DrNuException, ex:
         nuAddon.displayError(str(ex))
+
+    except IOError, ex:
+        nuAddon.displayIOError(str(ex))
 
     except Exception:
         buggalo.onExceptionRaised()
