@@ -438,7 +438,7 @@ class NuAddon(object):
             minutes = int(duration[0:2]) * 60
             minutes += int(duration[3:5])
             minutes += int(duration[6:8]) / 60
-            return minutes
+            return str(minutes)
         except:
             return 0
 
