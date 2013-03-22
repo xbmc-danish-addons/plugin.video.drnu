@@ -1,4 +1,4 @@
-[B]Version 2.1.10 - 2013-03-22[/B]
+[B]Version 3.0.0 - 2013-03-22[/B]
 - Reconstruct rtmp:// url to fix playback problems
 
 [B]Version 2.1.9 - 2013-02-22[/B]
