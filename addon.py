@@ -393,7 +393,11 @@ class NuAddon(object):
             d = xbmcgui.Dialog()
             d.ok(ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101), ADDON.getLocalizedString(30102))
         else:
-            rtmpUrl = rtmpUrl.replace('rtmp://vod.dr.dk/', 'rtmp://vod.dr.dk/cms/')
+            m = re.search('(rtmp://vod.dr.dk/cms)/([^\?]+)(\?.*)', rtmpUrl)
+            rtmpUrl = m.group(1) + m.group(3)
+            rtmpUrl += ' playpath=' + m.group(2) + m.group(3)
+            rtmpUrl += ' app=cms' + m.group(3)
+
             if startTime:
                 rtmpUrl += ' start=' + startTime
             thumbnailImage = self.api.getVideoImageUrl(str(video['id']), 256)
