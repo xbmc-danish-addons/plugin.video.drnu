@@ -389,11 +389,11 @@ class NuAddon(object):
         else:
             rtmpUrl = self.api._http_request(video['videoManifestUrl'])
 
-        if rtmpUrl[0:7] == '<script':
+        m = re.search('(rtmp://vod.dr.dk/cms)/([^\?]+)(\?.*)', rtmpUrl)
+        if rtmpUrl[0:7] == '<script' or m is None:
             d = xbmcgui.Dialog()
             d.ok(ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101), ADDON.getLocalizedString(30102))
         else:
-            m = re.search('(rtmp://vod.dr.dk/cms)/([^\?]+)(\?.*)', rtmpUrl)
             rtmpUrl = m.group(1) + m.group(3)
             rtmpUrl += ' playpath=' + m.group(2) + m.group(3)
             rtmpUrl += ' app=cms' + m.group(3)
@@ -548,6 +548,7 @@ if __name__ == '__main__':
     RECENT_PATH = os.path.join(CACHE_PATH, 'recent.pickle')
 
     buggalo.SUBMIT_URL = 'http://tommy.winther.nu/exception/submit.php'
+#    buggalo.GMAIL_RECIPIENT = 'twintherdk@gmail.com'
     buggalo.addExtraData('cache_path', CACHE_PATH)
     nuAddon = NuAddon()
     try:
