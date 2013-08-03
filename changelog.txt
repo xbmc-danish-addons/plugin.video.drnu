@@ -1,4 +1,4 @@
-[B]Version 2.1.11 - 2013-08-xx[/B]
+[B]Version 2.1.11 - 2013-08-03[/B]
 - Improved handling of invalid URL's
 - Fixed problem with display of chapters in some cases
 
