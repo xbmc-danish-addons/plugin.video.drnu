@@ -375,9 +375,9 @@ class NuAddon(object):
         if ADDON.getSetting('show.stream.selector') == 'true':
             json = self.api._call_api(video['videoResourceUrl'])
             options = []
-            links = sorted(json['links'], key=lambda link: link['bitrateKbps'], reverse=True)
+            links = sorted(json['links'], key=lambda link: link['bitrateKbps'] if 'bitrateKbps' in link else 0, reverse=True)
             for link in links:
-                options.append('%s (%s kbps)' % (link['linkType'], link['bitrateKbps']))
+                options.append('%s (%s kbps)' % (link['linkType'], link['bitrateKbps'] if 'bitrateKbps' in link else '?'))
 
             d = xbmcgui.Dialog()
             idx = d.select(video['title'], options)
