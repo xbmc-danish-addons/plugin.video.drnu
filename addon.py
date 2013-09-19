@@ -28,15 +28,16 @@ import xbmc
 import xbmcgui
 import xbmcaddon
 import xbmcplugin
-import xbmcvfs
 
-import nuapi
+import tvapi
 import buggalo
+
+LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '\xC3\x86', '\xC3\x98', '\xC3\x85']
 
 
 class NuAddon(object):
     def __init__(self):
-        self.api = nuapi.DrNuApi(CACHE_PATH, 60)
+        self.api = tvapi.TvApi()
 
         # load favorites
         self.favorites = list()
@@ -63,98 +64,53 @@ class NuAddon(object):
         pickle.dump(self.recentlyWatched, open(RECENT_PATH, 'wb'))
 
     def showMainMenu(self):
-        fanartImage = os.path.join(ADDON.getAddonInfo('path'), 'fanart.jpg')
-
         items = list()
         # A-Z Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30000),
                                 iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
-        item.setProperty('Fanart_Image', fanartImage)
-        items.append((PATH + '?show=azProgramSeries', item, True))
-        # Program Series label
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30012),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'tag.png'))
-        item.setProperty('Fanart_Image', fanartImage)
-        items.append((PATH + '?show=programSeriesLabels', item, True))
-        # Premiere
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30025),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'new.png'))
-        item.setProperty('Fanart_Image', fanartImage)
-        items.append((PATH + '?show=premiere', item, True))
-        # Latest
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30001),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'new.png'))
-        item.setProperty('Fanart_Image', fanartImage)
-        items.append((PATH + '?show=newest', item, True))
+        item.setProperty('Fanart_Image', FANART_IMAGE)
+        items.append((PATH + '?show=listAZ', item, True))
         # Most viewed
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30011),
                                 iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye.png'))
-        item.setProperty('Fanart_Image', fanartImage)
+        item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=mostViewed', item, True))
-        # Spotlight
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30002),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
-        item.setProperty('Fanart_Image', fanartImage)
-        items.append((PATH + '?show=spotlight', item, True))
-        # Highlights
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30021),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
-        item.setProperty('Fanart_Image', fanartImage)
-        items.append((PATH + '?show=highlights', item, True))
-        # Last chance
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30014),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'clock.png'))
-        item.setProperty('Fanart_Image', fanartImage)
-        items.append((PATH + '?show=lastChance', item, True))
-        # Search videos
+        # # Search videos
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30003),
                                 iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'search.png'))
-        item.setProperty('Fanart_Image', fanartImage)
+        item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=search', item, True))
         # Recently watched Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30007),
                                 iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons',
                                                        'eye-star.png'))
-        item.setProperty('Fanart_Image', fanartImage)
+        item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=recentlyWatched', item, True))
         # Favorite Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30008),
                                 iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'plusone.png'))
-        item.setProperty('Fanart_Image', fanartImage)
+        item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=favorites', item, True))
 
         xbmcplugin.addDirectoryItems(HANDLE, items)
         xbmcplugin.endOfDirectory(HANDLE)
 
     def showProgramSeriesVideos(self, slug):
-        self.listVideos(self.api.getProgramSeriesVideos(slug))
-
-    def showNewestVideos(self):
-        self.listVideos(self.api.getNewestVideos())
-
-    def showSpotlightVideos(self):
-        self.listVideos(self.api.getSpotlightVideos())
-
-    def showHighlightVideos(self):
-        self.listVideos(self.api.getHighlightVideos())
+        self.listVideos(self.api.programCardRelations(slug))
 
     def showMostViewedVideos(self):
-        self.listVideos(self.api.getMostViewedVideos())
-
-    def showLastChanceVideos(self):
-        self.listVideos(self.api.getLastChanceVideos())
-
-    def showPremiereVideos(self):
-        self.listVideos(self.api.getPremiereVideos())
+        self.listVideos(self.api.getMostViewedProgramCards())
 
     def showFavorites(self):
-        self.showProgramSeries(self.favorites, False)
+        bundles = self.api.bundle(slugs=self.favorites)
+
+        self.listBundles(bundles, addToFavorites=False)
 
     def showRecentlyWatched(self):
         videos = list()
 
         for videoId in self.recentlyWatched:
-            video = self.api.getVideoById(videoId)
+            video = self.api.programCard(videoId)
 
             if video is not None:
                 videos.append(video)
@@ -166,10 +122,11 @@ class NuAddon(object):
         else:
             self.listVideos(videos)
 
-    def showProgramSeries(self, limitToSlugs=None, addToFavorites=True, label=None, letter=None):
-        programs = self.api.getProgramSeries(limitToSlugs, label)
+    def showProgramSeries(self, letter=None):
+        self.listBundles(self.api.bundlesWithPublicAsset(letter))
 
-        if not programs:
+    def listBundles(self, bundle, addToFavorites=True):
+        if not bundle:
             xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
             if not addToFavorites:
                 xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013),
@@ -178,106 +135,61 @@ class NuAddon(object):
                 xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
         else:
             items = list()
-            for program in programs:
-                if letter is not None and program['title'][0].upper() != letter.decode('utf-8', 'ignore'):
+            for programSerie in bundle['Data']:
+                if 'ProgramCard' in programSerie and programSerie['ProgramCard']['PrimaryAssetKind'] != 'VideoResource':
                     continue
-                infoLabels = {}
 
-                if program['newestVideoPublishTime'] is not None:
-                    publishTime = self.parseDate(program['newestVideoPublishTime'])
+                infoLabels = {}
+                if programSerie['CreatedTime'] is not None:
+                    publishTime = self.parseDate(programSerie['CreatedTime'])
                     if publishTime:
                         infoLabels['plotoutline'] = ADDON.getLocalizedString(30004) % publishTime.strftime(
                             '%d. %b %Y kl. %H:%M')
                         infoLabels['date'] = publishTime.strftime('%d.%m.%Y')
                         infoLabels['year'] = int(publishTime.strftime('%Y'))
                         infoLabels['aired'] = publishTime.strftime('%Y-%m-%d')
-                    if len(program['labels']) > 0:
-                        infoLabels['genre'] = program['labels'][0]
 
-                infoLabels['title'] = program['title']
-                infoLabels['plot'] = program['description']
-                infoLabels['count'] = int(program['videoCount'])
+                infoLabels['title'] = programSerie['Title']
 
                 menuItems = list()
 
-                if self.favorites.count(program['slug']) > 0:
-                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % program['slug']
+                if self.favorites.count(programSerie['Slug']) > 0:
+                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % programSerie['Slug']
                     menuItems.append((ADDON.getLocalizedString(30201), runScript))
                 else:
-                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % program['slug']
+                    runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % programSerie['Slug']
                     menuItems.append((ADDON.getLocalizedString(30200), runScript))
 
-                customThumbFile = self.getCustomThumbPath(program['slug'])
-                if os.path.exists(customThumbFile):
-                    menuItems.append((ADDON.getLocalizedString(30024),
-                                      "XBMC.RunPlugin(plugin://plugin.video.drnu/?delthumb=%s)" % program['slug']))
-                    iconImage = customThumbFile
+                imageAsset = self.api.getAsset('Image', programSerie)
+                if imageAsset:
+                    iconImage = imageAsset['Uri']
                 else:
-                    menuItems.append((ADDON.getLocalizedString(30023),
-                                      "XBMC.RunPlugin(plugin://plugin.video.drnu/?setthumb=%s)" % program['slug']))
-                    iconImage = self.api.getProgramSeriesImageUrl(program['slug'], 256)
-                fanartImage = self.api.getProgramSeriesImageUrl(program['slug'], 1280, 720)
+                    iconImage = ''
                 item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage)
                 item.setInfo('video', infoLabels)
-                item.setProperty('Fanart_Image', fanartImage)
+                item.setProperty('Fanart_Image', FANART_IMAGE)
 
                 item.addContextMenuItems(menuItems, False)
 
-                url = PATH + '?listVideos=' + program['slug']
+                url = PATH + '?listVideos=' + programSerie['Slug']
                 items.append((url, item, True))
 
             xbmcplugin.addDirectoryItems(HANDLE, items)
             xbmcplugin.setContent(HANDLE, 'tvshows')
             xbmcplugin.endOfDirectory(HANDLE)
 
-    def showProgramSeriesAZ(self):
-        programs = self.api.getProgramSeries()
+    def listAZ(self):
+        items = list()
 
-        if not programs:
-            xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
-            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013),
-                                ADDON.getLocalizedString(30018), ADDON.getLocalizedString(30019))
-        else:
-            items = list()
-
-            # All Program Series
-            iconImage = os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png')
-            fanartImage = os.path.join(ADDON.getAddonInfo('path'), 'fanart.jpg')
-
-            item = xbmcgui.ListItem(ADDON.getLocalizedString(30022), iconImage=iconImage)
-            item.setProperty('Fanart_Image', fanartImage)
-            items.append((PATH + '?show=allProgramSeries', item, True))
-
-            letter = programs[0]['title'][0].upper()
-            count = 0
-            for idx, program in enumerate(programs):
-                count += 1
-                if letter != program['title'][0].upper() or idx == len(programs):
-                    letter = program['title'][0].upper()
-                    infoLabels = {'title': letter, 'count': count}
-
-                    item = xbmcgui.ListItem(letter, iconImage=iconImage)
-                    item.setInfo('video', infoLabels)
-                    item.setProperty('Fanart_Image', fanartImage)
-
-                    url = PATH + '?programSeriesLetter=' + letter
-                    items.append((url, item, True))
-                    count = 0
-
-            xbmcplugin.addDirectoryItems(HANDLE, items)
-            xbmcplugin.endOfDirectory(HANDLE)
-
-    def showProgramSeriesLabels(self):
-        iconImage = os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'tag.png')
+        # All Program Series
+        iconImage = os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png')
         fanartImage = os.path.join(ADDON.getAddonInfo('path'), 'fanart.jpg')
 
-        labels = self.api.getProgramSeriesLabels()
-        items = list()
-        for label in labels:
-            item = xbmcgui.ListItem(label.capitalize(), iconImage=iconImage)
+        for letter in LETTERS:
+            item = xbmcgui.ListItem(letter, iconImage=iconImage)
             item.setProperty('Fanart_Image', fanartImage)
 
-            url = PATH + '?programSeriesLabel=' + label
+            url = PATH + '?listProgramSeriesByLetter=' + letter
             items.append((url, item, True))
 
         xbmcplugin.addDirectoryItems(HANDLE, items)
@@ -288,26 +200,29 @@ class NuAddon(object):
         keyboard.doModal()
         if keyboard.isConfirmed():
             keyword = keyboard.getText()
-            self.listVideos(self.api.search(keyword))
+            self.listVideos(self.api.searchProgramCard(keyword))
 
-    def listVideos(self, videos):
+    def listVideos(self, programCards):
         items = list()
+        for programCard in programCards['Data']:
+            if 'ProgramCard' in programCard:
+                programCard = programCard['ProgramCard']
+            if not 'PrimaryAssetUri' in programCard:
+                continue
 
-        for video in videos:
-            infoLabels = self.createInfoLabels(video)
+            infoLabels = self.createInfoLabels(programCard)
 
-            iconImage = self.api.getVideoImageUrl(str(video['id']), 256)
-            fanartImage = self.api.getVideoImageUrl(str(video['id']), 1280, 720)
+            imageAsset = self.api.getAsset('Image', programCard)
+            if imageAsset:
+                iconImage = imageAsset['Uri']
+            else:
+                iconImage = ''
             item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage)
             item.setInfo('video', infoLabels)
-            item.setProperty('Fanart_Image', fanartImage)
-            url = PATH + '?videoId=' + str(video['id'])
-            if 'chapters' in video and video['chapters'] and ADDON.getSetting('enable.chapters') == 'true':
-                url += "&chapters=true"
-                items.append((url, item, True))
-            else:
-                item.setProperty('IsPlayable', 'true')
-                items.append((url, item))
+            item.setProperty('Fanart_Image', FANART_IMAGE)
+            url = PATH + '?videoasset=' + programCard['PrimaryAssetUri']
+            item.setProperty('IsPlayable', 'true')
+            items.append((url, item))
 
         xbmcplugin.addDirectoryItems(HANDLE, items)
         xbmcplugin.setContent(HANDLE, 'episodes')
@@ -315,94 +230,31 @@ class NuAddon(object):
         xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_TITLE)
         xbmcplugin.endOfDirectory(HANDLE)
 
-    def listVideoChapters(self, videoId):
-        video = self.api.getVideoById(videoId)
+    def playVideo(self, assetUri):
+        self._updateRecentlyWatched(assetUri)
+        video = self.api.loadAsset(assetUri)
         if not video:
-            xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
-            return
+            raise tvapi.TvNuException('Video with ID %s not found!' % assetUri)
 
-        items = list()
-        startTimes = list()
+        # if ADDON.getSetting('show.stream.selector') == 'true':
+        #     json = self.api._call_api(video['videoResourceUrl'])
+        #     options = []
+        #     links = sorted(json['links'], key=lambda link: link['bitrateKbps'] if 'bitrateKbps' in link else 0, reverse=True)
+        #     for link in links:
+        #         options.append('%s (%s kbps)' % (link['linkType'], link['bitrateKbps'] if 'bitrateKbps' in link else '?'))
+        #
+        #     d = xbmcgui.Dialog()
+        #     idx = d.select(video['title'], options)
+        #     if idx == -1:
+        #         xbmcplugin.setResolvedUrl(HANDLE, False, xbmcgui.ListItem())
+        #         return
+        #     rtmpUrl = links[idx]['uri']
+        #
+        # else:
+        #     rtmpUrl = self.api._http_request(video['videoManifestUrl'])
 
-        for chapter in video['chapters']:
-            startTimes.append(self.parseTime(chapter['startTime']))
-        startTimes.append(self.parseTime(video['duration']))
-
-        # 'Play from the start' item
-        iconImage = self.api.getVideoImageUrl(str(video['id']), 256)
-        fanartImage = self.api.getVideoImageUrl(str(video['id']), 1280, 720)
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30017), iconImage=iconImage)
-        item.setProperty('IsPlayable', 'true')
-        item.setProperty('Fanart_Image', fanartImage)
-        url = PATH + '?videoId=' + str(video['id'])
-        items.append((url, item))
-
-        for idx, chapter in enumerate(video['chapters']):
-            infoLabels = self.createInfoLabels(video)
-
-            if chapter['title'] is not None:
-                infoLabels['title'] = chapter['title']
-            else:
-                infoLabels['title'] = ADDON.getLocalizedString(30006)
-            infoLabels['plot'] = video['description']
-
-            startTime = startTimes[idx]
-            if startTime:
-                duration = startTimes[idx + 1] - startTime
-                infoLabels['duration'] = str(duration.seconds * 60)
-
-            iconImage = self.api.getChapterImageUrl(str(chapter['id']), 256)
-            fanartImage = self.api.getChapterImageUrl(str(chapter['id']), 1280, 720)
-            item = xbmcgui.ListItem(chapter['title'], iconImage=iconImage)
-            item.setInfo('video', infoLabels)
-            item.setProperty('IsPlayable', 'true')
-            item.setProperty('Fanart_Image', fanartImage)
-            url = PATH + '?videoId=' + str(video['id'])
-            if startTime:
-                url += "&startTime=" + self.formatStartTime(startTime)
-            items.append((url, item))
-
-        xbmcplugin.addDirectoryItems(HANDLE, items)
-        xbmcplugin.setContent(HANDLE, 'episodes')
-        xbmcplugin.endOfDirectory(HANDLE)
-
-    def playVideo(self, videoId, startTime=None):
-        self._updateRecentlyWatched(videoId)
-        video = self.api.getVideoById(videoId)
-        if not video:
-            raise nuapi.DrNuException('Video with ID %s not found!' % videoId)
-
-        if ADDON.getSetting('show.stream.selector') == 'true':
-            json = self.api._call_api(video['videoResourceUrl'])
-            options = []
-            links = sorted(json['links'], key=lambda link: link['bitrateKbps'] if 'bitrateKbps' in link else 0, reverse=True)
-            for link in links:
-                options.append('%s (%s kbps)' % (link['linkType'], link['bitrateKbps'] if 'bitrateKbps' in link else '?'))
-
-            d = xbmcgui.Dialog()
-            idx = d.select(video['title'], options)
-            if idx == -1:
-                xbmcplugin.setResolvedUrl(HANDLE, False, xbmcgui.ListItem())
-                return
-            rtmpUrl = links[idx]['uri']
-
-        else:
-            rtmpUrl = self.api._http_request(video['videoManifestUrl'])
-
-        m = re.search('(rtmp://vod.dr.dk/cms)/([^\?]+)(\?.*)', rtmpUrl)
-        if rtmpUrl[0:7] == '<script' or m is None:
-            d = xbmcgui.Dialog()
-            d.ok(ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101), ADDON.getLocalizedString(30102))
-        else:
-            rtmpUrl = m.group(1) + m.group(3)
-            rtmpUrl += ' playpath=' + m.group(2) + m.group(3)
-            rtmpUrl += ' app=cms' + m.group(3)
-
-            if startTime:
-                rtmpUrl += ' start=' + startTime
-            thumbnailImage = self.api.getVideoImageUrl(str(video['id']), 256)
-            item = xbmcgui.ListItem(path=rtmpUrl, thumbnailImage=thumbnailImage)
-            xbmcplugin.setResolvedUrl(HANDLE, True, item)
+        item = xbmcgui.ListItem(path=video)
+        xbmcplugin.setResolvedUrl(HANDLE, video is not None, item)
 
     def parseDate(self, dateString):
         if 'Date(' in dateString:
@@ -452,38 +304,34 @@ class NuAddon(object):
         startTime += time.second
         return str(startTime * 1000)
 
-    def createInfoLabels(self, video):
+    def createInfoLabels(self, programCard):
         infoLabels = dict()
 
-        if video['title'] is not None:
-            infoLabels['title'] = video['title']
+        if programCard['Title'] is not None:
+            infoLabels['title'] = programCard['Title']
         else:
             infoLabels['title'] = ADDON.getLocalizedString(30006)
 
-        if 'spotSubTitle' in video and video['spotSubTitle'] is not None:
-            infoLabels['plot'] = video['spotSubTitle']
-        elif 'description' in video and video['description'] is not None:
-            infoLabels['plot'] = video['description']
+        if 'Description' in programCard and programCard['Description'] is not None:
+            infoLabels['plot'] = programCard['Description']
 
-        if 'duration' in video and video['duration'] is not None:
-            infoLabels['duration'] = self.parseDuration(video['duration'])
-        if 'broadcastChannel' in video and video['broadcastChannel'] is not None:
-            infoLabels['studio'] = video['broadcastChannel']
-        if 'broadcastTime' in video and video['broadcastTime'] is not None:
-            broadcastTime = self.parseDate(video['broadcastTime'])
+        #if 'duration' in programCard and programCard['duration'] is not None:
+        #    infoLabels['duration'] = self.parseDuration(programCard['duration'])
+        #if 'broadcastChannel' in programCard and programCard['broadcastChannel'] is not None:
+        #    infoLabels['studio'] = programCard['broadcastChannel']
+        if 'PrimaryBroadcastStartTime' in programCard and programCard['PrimaryBroadcastStartTime'] is not None:
+            broadcastTime = self.parseDate(programCard['PrimaryBroadcastStartTime'])
             if broadcastTime:
                 infoLabels['plotoutline'] = ADDON.getLocalizedString(30015) % broadcastTime.strftime(
                     '%d. %b %Y kl. %H:%M')
                 infoLabels['date'] = broadcastTime.strftime('%d.%m.%Y')
                 infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
                 infoLabels['year'] = int(broadcastTime.strftime('%Y'))
-        if 'expireTime' in video and video['expireTime'] is not None:
-            expireTime = self.parseDate(video['expireTime'])
+        if 'EndPublish' in programCard and programCard['EndPublish'] is not None:
+            expireTime = self.parseDate(programCard['EndPublish'])
             if expireTime:
                 infoLabels['plot'] += '[CR][CR]' + ADDON.getLocalizedString(30016) % expireTime.strftime(
                     '%d. %b %Y kl. %H:%M')
-        if 'isHq' in video and video['isHq']:
-            infoLabels['overlay'] = xbmcgui.ICON_OVERLAY_HD
 
         return infoLabels
 
@@ -500,25 +348,10 @@ class NuAddon(object):
         self._save()
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30010))
 
-    def setCustomThumb(self, slug):
-        imageFile = xbmcgui.Dialog().browse(2, 'custom thumb', 'myprograms', '.jpg|.png', True)
-        if imageFile is not None and xbmcvfs.exists(imageFile):
-            thumbFile = self.getCustomThumbPath(slug)
-            xbmcvfs.copy(imageFile, thumbFile)
-
-    def delCustomThumb(self, slug):
-        thumbFile = self.getCustomThumbPath(slug)
-        if os.path.exists(thumbFile):
-            os.unlink(thumbFile)
-
-    def getCustomThumbPath(self, slug):
-        return os.path.join(CACHE_PATH, '%s-thumb.jpg' % slug)
-
-    def _updateRecentlyWatched(self, videoId):
-        xbmc.log("Adding recently watched video ID: " + videoId)
-        if self.recentlyWatched.count(videoId):
-            self.recentlyWatched.remove(videoId)
-        self.recentlyWatched.insert(0, videoId)
+    def _updateRecentlyWatched(self, assetUri):
+        if self.recentlyWatched.count(assetUri):
+            self.recentlyWatched.remove(assetUri)
+        self.recentlyWatched.insert(0, assetUri)
         self._save()
 
     def displayError(self, message='n/a'):
@@ -547,30 +380,20 @@ if __name__ == '__main__':
     FAVORITES_PATH = os.path.join(CACHE_PATH, 'favorites.pickle')
     RECENT_PATH = os.path.join(CACHE_PATH, 'recent.pickle')
 
+    FANART_IMAGE = os.path.join(ADDON.getAddonInfo('path'), 'fanart.jpg')
+
+
     buggalo.SUBMIT_URL = 'http://tommy.winther.nu/exception/submit.php'
-#    buggalo.GMAIL_RECIPIENT = 'twintherdk@gmail.com'
     buggalo.addExtraData('cache_path', CACHE_PATH)
     nuAddon = NuAddon()
     try:
         if 'show' in PARAMS:
             if PARAMS['show'][0] == 'allProgramSeries':
                 nuAddon.showProgramSeries()
-            elif PARAMS['show'][0] == 'azProgramSeries':
-                nuAddon.showProgramSeriesAZ()
-            elif PARAMS['show'][0] == 'programSeriesLabels':
-                nuAddon.showProgramSeriesLabels()
-            elif PARAMS['show'][0] == 'newest':
-                nuAddon.showNewestVideos()
-            elif PARAMS['show'][0] == 'spotlight':
-                nuAddon.showSpotlightVideos()
-            elif PARAMS['show'][0] == 'highlights':
-                nuAddon.showHighlightVideos()
+            elif PARAMS['show'][0] == 'listAZ':
+                nuAddon.listAZ()
             elif PARAMS['show'][0] == 'mostViewed':
                 nuAddon.showMostViewedVideos()
-            elif PARAMS['show'][0] == 'premiere':
-                nuAddon.showPremiereVideos()
-            elif PARAMS['show'][0] == 'lastChance':
-                nuAddon.showLastChanceVideos()
             elif PARAMS['show'][0] == 'search':
                 nuAddon.searchVideos()
             elif PARAMS['show'][0] == 'favorites':
@@ -578,23 +401,17 @@ if __name__ == '__main__':
             elif PARAMS['show'][0] == 'recentlyWatched':
                 nuAddon.showRecentlyWatched()
 
-        elif 'programSeriesLabel' in PARAMS:
-            nuAddon.showProgramSeries(label=PARAMS['programSeriesLabel'][0])
-
-        elif 'programSeriesLetter' in PARAMS:
-            nuAddon.showProgramSeries(letter=PARAMS['programSeriesLetter'][0])
+        elif 'listProgramSeriesByLetter' in PARAMS:
+            nuAddon.showProgramSeries(letter=PARAMS['listProgramSeriesByLetter'][0])
 
         elif 'listVideos' in PARAMS:
             nuAddon.showProgramSeriesVideos(PARAMS['listVideos'][0])
 
-        elif 'videoId' in PARAMS and 'chapters' in PARAMS:
-            nuAddon.listVideoChapters(PARAMS['videoId'][0])
-
-        elif 'videoId' in PARAMS and 'startTime' in PARAMS:
+        elif 'videoasset' in PARAMS and 'startTime' in PARAMS:
             nuAddon.playVideo(PARAMS['videoId'][0], PARAMS['startTime'][0])
 
-        elif 'videoId' in PARAMS:
-            nuAddon.playVideo(PARAMS['videoId'][0])
+        elif 'videoasset' in PARAMS:
+            nuAddon.playVideo(PARAMS['videoasset'][0])
 
         elif 'addfavorite' in PARAMS:
             nuAddon.addFavorite(PARAMS['addfavorite'][0])
@@ -602,16 +419,10 @@ if __name__ == '__main__':
         elif 'delfavorite' in PARAMS:
             nuAddon.delFavorite(PARAMS['delfavorite'][0])
 
-        elif 'setthumb' in PARAMS:
-            nuAddon.setCustomThumb(PARAMS['setthumb'][0])
-
-        elif 'delthumb' in PARAMS:
-            nuAddon.delCustomThumb(PARAMS['delthumb'][0])
-
         else:
             nuAddon.showMainMenu()
 
-    except nuapi.DrNuException, ex:
+    except tvapi.TvNuException, ex:
         nuAddon.displayError(str(ex))
 
     except IOError, ex:
