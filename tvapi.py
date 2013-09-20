@@ -18,7 +18,10 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 
-import simplejson
+try:
+    import json
+except:
+    import simplejson as json
 import urllib
 import urllib2
 
@@ -37,13 +40,15 @@ class TvApi(object):
             params['Slug'] = '$in("%s")' % '","'.join(slugs)
         return self._http_request('http://www.dr.dk/mu/bundle', params)
 
-    def bundlesWithPublicAsset(self, title, bundleType='Series', limit=500, channelType='TV'):
+    def bundlesWithPublicAsset(self, title=None, bundleType='Series', limit=5000, channelType='TV'):
         params = {
             'BundleType': '$eq("%s")' % bundleType,
-            'Title': ['$orderby("asc")', '$like("%s")' % title],
+            'Title': ['$orderby("asc")'],
             'ChannelType': '$eq("%s")' % channelType,
             'limit': '$eq(%d)' % limit
         }
+        if title:
+            params['Title'].append('$like("%s")' % title)
         return self._http_request('http://www.dr.dk/mu/view/bundles-with-public-asset', params)
 
     def searchBundle(self, text):
@@ -52,16 +57,19 @@ class TvApi(object):
         }
         return self._http_request('http://www.dr.dk/mu/search/bundle', params)
 
-    def getMostViewedProgramCards(self, days=7, count=25, channelType='TV'):
+    def getMostViewedProgramCards(self, days=7, count=100, channelType='TV'):
         params = {
-            'days': days,
             'count': count,
+            'days': days,
             'ChannelType': channelType
         }
-        return self._http_request('http://www.dr.dk/mu/ProgramViews/MostViewed')#View/programviews', params)
+        return self._http_request('http://www.dr.dk/mu/View/programviews', params)
 
     def programCard(self, slug):
-        return self._http_request('http://www.dr.dk/mu/programcard/expanded/' + slug)
+        try:
+            return self._http_request('http://www.dr.dk/mu/programcard/expanded/' + slug)
+        except IOError:
+            return None
 
     def programCardRelations(self, relationsSlug):
         params = {
@@ -84,8 +92,7 @@ class TvApi(object):
                     return asset
         return None
 
-    def loadAsset(self, uri, target='Ios'):
-        asset = self._http_request(uri)
+    def getLink(self, asset, target='Ios'):
         bitrate = 0
         uri = None
         if 'Links' in asset:
@@ -107,7 +114,7 @@ class TvApi(object):
 
         #except Exception as ex:
             #raise DrNuException(ex)
-        return simplejson.loads(content)
+        return json.loads(content)
 
 
 class TvNuException(Exception):

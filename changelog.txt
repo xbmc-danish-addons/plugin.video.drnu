@@ -1,3 +1,6 @@
+[B]Version 3.9.1 - 2013-09-20[/B]
+- Additional features implemented
+
 [B]Version 3.9.0 - 2013-09-19[/B]
 - Initial rewrite to use new DR Medieuniversets REST API
 
