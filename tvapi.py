@@ -92,28 +92,29 @@ class TvApi(object):
                     return asset
         return None
 
-    def getLink(self, asset, target='Ios'):
-        bitrate = 0
+    def getLink(self, asset, target = None):
+        bitRate = 0
         uri = None
         if 'Links' in asset:
             for link in asset['Links']:
-                if link['Target'] == target and link['Bitrate'] > bitrate:
+                if (target is None or link['Target'] == target) and ('Bitrate' in link and link['Bitrate'] > bitRate):
                     uri = link['Uri']
-                    bitrate = link['Bitrate']
+                    bitRate = link['Bitrate']
+                elif not 'Bitrate' in link and uri is None:
+                    uri = link['Uri']
         return uri
 
     def _http_request(self, url, params=None):
-        #try:
-        if params:
-            url = url + '?' + urllib.urlencode(params, doseq=True)
-        print url
+        try:
+            if params:
+                url = url + '?' + urllib.urlencode(params, doseq=True)
 
-        u = urllib2.urlopen(url, timeout=30)
-        content = u.read()
-        u.close()
+            u = urllib2.urlopen(url, timeout=30)
+            content = u.read()
+            u.close()
 
-        #except Exception as ex:
-            #raise DrNuException(ex)
+        except Exception as ex:
+            raise TvNuException(ex)
         return json.loads(content)
 
 

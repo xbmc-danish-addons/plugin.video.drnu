@@ -38,22 +38,8 @@ LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
 class DrDkTvAddon(object):
     def __init__(self):
         self.api = tvapi.TvApi()
-
-        # load favorites
         self.favorites = list()
-        if os.path.exists(FAVORITES_PATH):
-            try:
-                self.favorites = pickle.load(open(FAVORITES_PATH, 'rb'))
-            except Exception:
-                pass
-
-        # load recently watched
         self.recentlyWatched = list()
-        if os.path.exists(RECENT_PATH):
-            try:
-                self.recentlyWatched = pickle.load(open(RECENT_PATH, 'rb'))
-            except Exception:
-                pass
 
     def _save(self):
         # save favorites
@@ -66,29 +52,27 @@ class DrDkTvAddon(object):
     def showMainMenu(self):
         items = list()
         # A-Z Program Series
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30000),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30000), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=listAZ', item, True))
+
         # Most viewed
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30011),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye.png'))
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30011), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=mostViewed', item, True))
-        # # Search videos
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30003),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'search.png'))
+
+        # Search videos
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30003), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'search.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=search', item, True))
+
         # Recently watched Program Series
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30007),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons',
-                                                       'eye-star.png'))
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30007), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye-star.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=recentlyWatched', item, True))
+
         # Favorite Program Series
-        item = xbmcgui.ListItem(ADDON.getLocalizedString(30008),
-                                iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'plusone.png'))
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30008), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'plusone.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=favorites', item, True))
 
@@ -102,13 +86,24 @@ class DrDkTvAddon(object):
         self.listVideos(self.api.getMostViewedProgramCards())
 
     def showFavorites(self):
-        bundles = self.api.bundle(slugs=self.favorites)
+        # load favorites
+        if os.path.exists(FAVORITES_PATH):
+            try:
+                self.favorites = pickle.load(open(FAVORITES_PATH, 'rb'))
+            except Exception:
+                pass
 
-        self.listBundles(bundles, addToFavorites=False)
+        self.listBundles(self.api.bundle(slugs=self.favorites), addToFavorites=False)
 
     def showRecentlyWatched(self):
-        videos = list()
+        # load recently watched
+        if os.path.exists(RECENT_PATH):
+            try:
+                self.recentlyWatched = pickle.load(open(RECENT_PATH, 'rb'))
+            except Exception:
+                pass
 
+        videos = list()
         for programCardUrn in self.recentlyWatched:
             video = self.api.programCard(programCardUrn)
             if video is None or not 'Data' in video or len(video['Data']) == 0:
@@ -119,8 +114,7 @@ class DrDkTvAddon(object):
         self._save()
         if not videos:
             xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
-            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013),
-                                ADDON.getLocalizedString(30020))
+            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013), ADDON.getLocalizedString(30020))
         else:
             self.listVideos(videos)
 
@@ -168,16 +162,13 @@ class DrDkTvAddon(object):
                 if bundle['CreatedTime'] is not None:
                     publishTime = self.parseDate(bundle['CreatedTime'])
                     if publishTime:
-                        infoLabels['plotoutline'] = ADDON.getLocalizedString(30004) % publishTime.strftime(
-                            '%d. %b %Y kl. %H:%M')
+                        infoLabels['plotoutline'] = ADDON.getLocalizedString(30004) % publishTime.strftime('%d. %b %Y kl. %H:%M')
                         infoLabels['date'] = publishTime.strftime('%d.%m.%Y')
                         infoLabels['year'] = int(publishTime.strftime('%Y'))
                         infoLabels['aired'] = publishTime.strftime('%Y-%m-%d')
-
                 infoLabels['title'] = bundle['Title']
 
                 menuItems = list()
-
                 if self.favorites.count(bundle['Slug']) > 0:
                     runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % bundle['Slug']
                     menuItems.append((ADDON.getLocalizedString(30201), runScript))
@@ -198,7 +189,6 @@ class DrDkTvAddon(object):
                 item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage)
                 item.setInfo('video', infoLabels)
                 item.setProperty('Fanart_Image', iconImage)
-
                 item.addContextMenuItems(menuItems, False)
 
                 url = PATH + '?listVideos=' + bundle['Slug']
@@ -238,7 +228,7 @@ class DrDkTvAddon(object):
         xbmcplugin.endOfDirectory(HANDLE)
 
     def playVideo(self, assetUri, programCardUrn):
-        self._updateRecentlyWatched(programCardUrn)
+        self.updateRecentlyWatched(programCardUrn)
         asset = self.api._http_request(assetUri)
         if not asset:
             raise tvapi.TvNuException('Video with ID %s not found!' % assetUri)
@@ -247,7 +237,7 @@ class DrDkTvAddon(object):
             options = []
             for link in asset['Links']:
                 options.append('%s (%s kbps)' % (link['Target'], link['Bitrate'] if 'Bitrate' in link else '?'))
-            options.append('Vodfiles test')
+            options.append('vodfiles.dr.dk')
 
             d = xbmcgui.Dialog()
             idx = d.select('Stream', options)
@@ -261,14 +251,26 @@ class DrDkTvAddon(object):
                 videoUrl = asset['Links'][idx]['Uri']
 
         else:
+            if ADDON.getSetting('prefer.stream.target') == 'vodfiles.dr.dk':
+                videoUrl = self.api.getLink(asset, 'Android')
+                videoUrl = videoUrl.replace('rtsp://om.gss.dr.dk/mediacache/_definst_/mp4:content/', 'http://vodfiles.dr.dk/')
+            elif ADDON.getSetting('prefer.stream.target') == 'Android':
+                videoUrl = self.api.getLink(asset, 'Android')
+            elif ADDON.getSetting('prefer.stream.target') == 'Streaming':
+                videoUrl = self.api.getLink(asset, 'Streaming')
+            else:
+                videoUrl = self.api.getLink(asset, 'Ios')
+
+        if videoUrl is None:
             videoUrl = self.api.getLink(asset)
+            if videoUrl is None:
+                self.displayError('Unable to find stream')
 
         if videoUrl[0:7] == 'rtmp://':
             m = re.search('(rtmp://vod.dr.dk/cms)/([^\?]+)(\?.*)', videoUrl)
             videoUrl = m.group(1) + m.group(3)
             videoUrl += ' playpath=' + m.group(2) + m.group(3)
             videoUrl += ' app=cms' + m.group(3)
-
 
         try:
             print videoUrl
@@ -279,14 +281,7 @@ class DrDkTvAddon(object):
         xbmcplugin.setResolvedUrl(HANDLE, videoUrl is not None, item)
 
     def parseDate(self, dateString):
-        if 'Date(' in dateString:
-            try:
-                m = re.search('/Date\(([0-9]+).*?\)/', dateString)
-                microseconds = long(m.group(1))
-                return datetime.datetime.fromtimestamp(microseconds / 1000)
-            except ValueError:
-                return None
-        elif dateString is not None:
+        if dateString is not None:
             try:
                 m = re.search('(\d+)-(\d+)-(\d+)T(\d+):(\d+):(\d+)', dateString)
                 year = int(m.group(1))
@@ -301,15 +296,6 @@ class DrDkTvAddon(object):
         else:
             return None
 
-    def parseDuration(self, duration):
-        try:
-            minutes = int(duration[0:2]) * 60
-            minutes += int(duration[3:5])
-            minutes += int(duration[6:8]) / 60
-            return str(minutes)
-        except:
-            return 0
-
     def createInfoLabels(self, programCard):
         infoLabels = dict()
 
@@ -320,24 +306,17 @@ class DrDkTvAddon(object):
 
         if 'Description' in programCard and programCard['Description'] is not None:
             infoLabels['plot'] = programCard['Description']
-
-        #if 'duration' in programCard and programCard['duration'] is not None:
-        #    infoLabels['duration'] = self.parseDuration(programCard['duration'])
-        #if 'broadcastChannel' in programCard and programCard['broadcastChannel'] is not None:
-        #    infoLabels['studio'] = programCard['broadcastChannel']
-        if 'PrimaryBroadcastStartTime' in programCard and programCard['PrimaryBroadcastStartTime'] is not None:
+        if 'PrimaryBroadcastStartTime' in programCard and programCard['PrimaryBroadcastStartTime'] is not None and programCard['PrimaryBroadcastStartTime'][0:4] != '0001':
             broadcastTime = self.parseDate(programCard['PrimaryBroadcastStartTime'])
             if broadcastTime:
-                infoLabels['plotoutline'] = ADDON.getLocalizedString(30015) % broadcastTime.strftime(
-                    '%d. %b %Y kl. %H:%M')
+                infoLabels['plotoutline'] = ADDON.getLocalizedString(30015) % broadcastTime.strftime('%d. %b %Y kl. %H:%M')
                 infoLabels['date'] = broadcastTime.strftime('%d.%m.%Y')
                 infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
                 infoLabels['year'] = int(broadcastTime.strftime('%Y'))
-        if 'EndPublish' in programCard and programCard['EndPublish'] is not None:
+        if 'EndPublish' in programCard and programCard['EndPublish'] is not None and programCard['EndPublish'][0:4] != '9999':
             expireTime = self.parseDate(programCard['EndPublish'])
             if expireTime:
-                infoLabels['plot'] += '[CR][CR]' + ADDON.getLocalizedString(30016) % expireTime.strftime(
-                    '%d. %b %Y kl. %H:%M')
+                infoLabels['plot'] += '[CR][CR]' + ADDON.getLocalizedString(30016) % expireTime.strftime('%d. %b %Y kl. %H:%M')
 
         return infoLabels
 
@@ -354,7 +333,7 @@ class DrDkTvAddon(object):
         self._save()
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30010))
 
-    def _updateRecentlyWatched(self, assetUri):
+    def updateRecentlyWatched(self, assetUri):
         if self.recentlyWatched.count(assetUri):
             self.recentlyWatched.remove(assetUri)
         self.recentlyWatched.insert(0, assetUri)
@@ -385,9 +364,7 @@ if __name__ == '__main__':
 
     FAVORITES_PATH = os.path.join(CACHE_PATH, 'favorites.pickle')
     RECENT_PATH = os.path.join(CACHE_PATH, 'recent.pickle')
-
     FANART_IMAGE = os.path.join(ADDON.getAddonInfo('path'), 'fanart.jpg')
-
 
     buggalo.SUBMIT_URL = 'http://tommy.winther.nu/exception/submit.php'
     buggalo.addExtraData('cache_path', CACHE_PATH)
