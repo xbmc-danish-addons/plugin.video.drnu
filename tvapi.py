@@ -25,6 +25,9 @@ except:
 import urllib
 import urllib2
 
+SLUG_HIGHLIGHTS='hoejdepunkter'
+SLUG_SPOTS='test-spotliste'
+SLUG_PREMIERES='forpremierer'
 
 class TvApi(object):
 
@@ -71,9 +74,10 @@ class TvApi(object):
         except IOError:
             return None
 
-    def programCardRelations(self, relationsSlug):
+    def programCardRelations(self, relationsSlug, limit=500):
         params = {
-            'Relations.Slug': '$eq("%s")' % relationsSlug
+            'Relations.Slug': '$eq("%s")' % relationsSlug,
+            'limit': '$eq(%d)' % limit
         }
         return self._http_request('http://www.dr.dk/mu/programcard', params)
 
@@ -120,3 +124,7 @@ class TvApi(object):
 
 class TvNuException(Exception):
     pass
+
+if __name__ == '__main__':
+    api = TvApi()
+    print api.programCardRelations('so-ein-ding', limit=50)

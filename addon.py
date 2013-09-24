@@ -56,10 +56,25 @@ class DrDkTvAddon(object):
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=listAZ', item, True))
 
+        # Premiere
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30025), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'new.png'))
+        item.setProperty('Fanart_Image', FANART_IMAGE)
+        items.append((PATH + '?listVideos=%s' % tvapi.SLUG_PREMIERES, item, True))
+
         # Most viewed
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30011), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=mostViewed', item, True))
+
+        # Spotlight
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30002), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
+        item.setProperty('Fanart_Image', FANART_IMAGE)
+        items.append((PATH + '?listVideos=%s' % tvapi.SLUG_SPOTS, item, True))
+
+        # Highlights
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30021), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
+        item.setProperty('Fanart_Image', FANART_IMAGE)
+        items.append((PATH + '?listVideos=%s' % tvapi.SLUG_HIGHLIGHTS, item, True))
 
         # Search videos
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30003), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'search.png'))
