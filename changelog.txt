@@ -1,6 +1,8 @@
 [B]Version 4.0.1 - 2013-09-24[/B]
 - List up to 500 videos for each program series (instead of just 20)
 - Re-added Premieres, Highlights and Spots categories
+- Fixed problem with empty favourites
+- Added support for displaying subtitles
 
 [B]Version 4.0.0 - 2013-09-23[/B]
 - Added setting to set preferred stream type. Defaults to iOS streams.

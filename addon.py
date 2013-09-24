@@ -108,7 +108,12 @@ class DrDkTvAddon(object):
             except Exception:
                 pass
 
-        self.listBundles(self.api.bundle(slugs=self.favorites), addToFavorites=False)
+        print self.favorites
+        if not self.favorites:
+            xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
+            xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
+        else:
+            self.listBundles(self.api.bundle(slugs=self.favorites), addToFavorites=False)
 
     def showRecentlyWatched(self):
         # load recently watched
@@ -128,8 +133,8 @@ class DrDkTvAddon(object):
 
         self._save()
         if not videos:
-            xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
             xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013), ADDON.getLocalizedString(30020))
+            xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
         else:
             self.listVideos(videos)
 
@@ -259,7 +264,7 @@ class DrDkTvAddon(object):
             if idx == -1:
                 xbmcplugin.setResolvedUrl(HANDLE, False, xbmcgui.ListItem())
                 return
-            elif idx == len(options)-1:
+            elif idx == len(options) - 1:
                 videoUrl = self.api.getLink(asset, 'Android')
                 videoUrl = videoUrl.replace('rtsp://om.gss.dr.dk/mediacache/_definst_/mp4:content/', 'http://vodfiles.dr.dk/')
             else:
@@ -294,6 +299,19 @@ class DrDkTvAddon(object):
 
         item = xbmcgui.ListItem(path=videoUrl)
         xbmcplugin.setResolvedUrl(HANDLE, videoUrl is not None, item)
+
+        if ADDON.getSetting('enable.subtitles') == 'true' and 'SubtitlesList' in asset and asset['SubtitlesList']:
+            path = None
+            if len(asset['SubtitlesList']) > 0:
+                path = asset['SubtitlesList'][0]['Uri']
+
+            if path:
+                player = xbmc.Player()
+                for retry in range(0, 20):
+                    if player.isPlaying():
+                        break
+                    xbmc.sleep(250)
+                xbmc.Player().setSubtitles(path)
 
     def parseDate(self, dateString):
         if dateString is not None:
