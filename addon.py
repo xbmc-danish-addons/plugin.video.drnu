@@ -49,6 +49,21 @@ class DrDkTvAddon(object):
         self.recentlyWatched = self.recentlyWatched[0:25]  # Limit to 25 items
         pickle.dump(self.recentlyWatched, open(RECENT_PATH, 'wb'))
 
+    def _load(self):
+        # load favorites
+        if os.path.exists(FAVORITES_PATH):
+            try:
+                self.favorites = pickle.load(open(FAVORITES_PATH, 'rb'))
+            except Exception:
+                pass
+
+        # load recently watched
+        if os.path.exists(RECENT_PATH):
+            try:
+                self.recentlyWatched = pickle.load(open(RECENT_PATH, 'rb'))
+            except Exception:
+                pass
+
     def showMainMenu(self):
         items = list()
         # A-Z Program Series
@@ -101,14 +116,7 @@ class DrDkTvAddon(object):
         self.listVideos(self.api.getMostViewedProgramCards())
 
     def showFavorites(self):
-        # load favorites
-        if os.path.exists(FAVORITES_PATH):
-            try:
-                self.favorites = pickle.load(open(FAVORITES_PATH, 'rb'))
-            except Exception:
-                pass
-
-        print self.favorites
+        self._load()
         if not self.favorites:
             xbmcgui.Dialog().ok(ADDON.getAddonInfo('name'), ADDON.getLocalizedString(30013))
             xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
@@ -116,13 +124,7 @@ class DrDkTvAddon(object):
             self.listBundles(self.api.bundle(slugs=self.favorites), addToFavorites=False)
 
     def showRecentlyWatched(self):
-        # load recently watched
-        if os.path.exists(RECENT_PATH):
-            try:
-                self.recentlyWatched = pickle.load(open(RECENT_PATH, 'rb'))
-            except Exception:
-                pass
-
+        self._load()
         videos = list()
         for programCardUrn in self.recentlyWatched:
             video = self.api.programCard(programCardUrn)
@@ -284,13 +286,14 @@ class DrDkTvAddon(object):
         if videoUrl is None:
             videoUrl = self.api.getLink(asset)
             if videoUrl is None:
-                self.displayError('Unable to find stream')
+                raise Exception('No stream found')
 
         if videoUrl[0:7] == 'rtmp://':
             m = re.search('(rtmp://vod.dr.dk/cms)/([^\?]+)(\?.*)', videoUrl)
-            videoUrl = m.group(1) + m.group(3)
-            videoUrl += ' playpath=' + m.group(2) + m.group(3)
-            videoUrl += ' app=cms' + m.group(3)
+            if m:
+                videoUrl = m.group(1) + m.group(3)
+                videoUrl += ' playpath=' + m.group(2) + m.group(3)
+                videoUrl += ' app=cms' + m.group(3)
 
         try:
             print videoUrl
@@ -354,6 +357,7 @@ class DrDkTvAddon(object):
         return infoLabels
 
     def addFavorite(self, slug):
+        self._load()
         if not self.favorites.count(slug):
             self.favorites.append(slug)
         self._save()
@@ -361,12 +365,14 @@ class DrDkTvAddon(object):
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30009))
 
     def delFavorite(self, slug):
+        self._load()
         if self.favorites.count(slug):
             self.favorites.remove(slug)
         self._save()
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30010))
 
     def updateRecentlyWatched(self, assetUri):
+        self._load()
         if self.recentlyWatched.count(assetUri):
             self.recentlyWatched.remove(assetUri)
         self.recentlyWatched.insert(0, assetUri)

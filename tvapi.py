@@ -117,9 +117,9 @@ class TvApi(object):
             content = u.read()
             u.close()
 
+            return json.loads(content)
         except Exception as ex:
             raise TvNuException(ex)
-        return json.loads(content)
 
 
 class TvNuException(Exception):

@@ -1,3 +1,7 @@
+[B]Version 4.0.2 - 2013-10-02[/B]
+- Fixed problem with favourites only remembering the last favourite added
+- Improve error handling when stream is not available
+
 [B]Version 4.0.1 - 2013-09-24[/B]
 - List up to 500 videos for each program series (instead of just 20)
 - Re-added Premieres, Highlights and Spots categories
