@@ -12,7 +12,7 @@
     <string id="30009">Program tilføjet</string>
     <string id="30010">Program fjernet</string>
     <string id="30011">Mest sete videoer på DR NU</string>
-    <string id="30012">Progammer efter område</string>
+    <string id="30012">Programmer efter område</string>
     <string id="30013">Listen er tom.</string>
     <string id="30014">Udløber snart</string>
     <string id="30015">Sendt: %s</string>
@@ -35,8 +35,9 @@
     <string id="30201">Fjern fra foretrukne programmer</string>
 
     <string id="30500">Generelt</string>
-    <string id="30501">Aktiver kapitel navigation</string>
+    <string id="30501">Foretræk streams af typen</string>
     <string id="30502">Vis kvalitetsvælger før videoen afspilles</string>
+    <string id="30503">Vis undertekster (hvis tilgængelige)</string>
 
     <string id="30900">Der er sket en fejl i kommunikationen med DR NU.</string>
     <string id="30901">Prøv igen senere. Fejlen er:</string>
