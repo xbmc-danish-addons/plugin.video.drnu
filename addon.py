@@ -253,7 +253,7 @@ class DrDkTvAddon(object):
         self.updateRecentlyWatched(programCardUrn)
         asset = self.api._http_request(assetUri)
         if not asset:
-            raise tvapi.TvNuException('Video with ID %s not found!' % assetUri)
+            raise tvapi.TvException('Video with ID %s not found!' % assetUri)
 
         if ADDON.getSetting('show.stream.selector') == 'true':
             options = []
@@ -286,7 +286,7 @@ class DrDkTvAddon(object):
         if videoUrl is None:
             videoUrl = self.api.getLink(asset)
             if videoUrl is None:
-                raise Exception('No stream found')
+                raise tvapi.TvException('No stream found')
 
         if videoUrl[0:7] == 'rtmp://':
             m = re.search('(rtmp://vod.dr.dk/cms)/([^\?]+)(\?.*)', videoUrl)
@@ -441,7 +441,7 @@ if __name__ == '__main__':
         else:
             drDkTvAddon.showMainMenu()
 
-    except tvapi.TvNuException, ex:
+    except tvapi.TvException, ex:
         drDkTvAddon.displayError(str(ex))
 
     except IOError, ex:

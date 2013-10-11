@@ -119,10 +119,10 @@ class TvApi(object):
 
             return json.loads(content)
         except Exception as ex:
-            raise TvNuException(ex)
+            raise TvException(ex)
 
 
-class TvNuException(Exception):
+class TvException(Exception):
     pass
 
 if __name__ == '__main__':

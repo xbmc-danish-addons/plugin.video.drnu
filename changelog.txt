@@ -1,3 +1,6 @@
+[B]Version 4.0.3 - 2013-10-05[/B]
+- Correctly handle 'No stream found' error
+
 [B]Version 4.0.2 - 2013-10-02[/B]
 - Fixed problem with favourites only remembering the last favourite added
 - Improve error handling when stream is not available
