@@ -29,8 +29,8 @@ SLUG_HIGHLIGHTS='hoejdepunkter'
 SLUG_SPOTS='test-spotliste'
 SLUG_PREMIERES='forpremierer'
 
-class TvApi(object):
 
+class TvApi(object):
     def bundle(self, title=None, bundleType='Series', limit=500, channelType='TV', slugs=None):
         params = {
             'BundleType': '$eq("%s")' % bundleType,
@@ -107,6 +107,14 @@ class TvApi(object):
                 elif not 'Bitrate' in link and uri is None:
                     uri = link['Uri']
         return uri
+
+    def programMap(self, orderByDate=True, includePreviews=False, limit=100):
+        params = {
+            'orderByDate': orderByDate,
+            'includePreviews': includePreviews,
+            'limit': limit
+        }
+        return self._http_request('http://www.dr.dk/tv/api/programmap', params)
 
     def _http_request(self, url, params=None):
         try:

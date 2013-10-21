@@ -71,6 +71,11 @@ class DrDkTvAddon(object):
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=listAZ', item, True))
 
+        # Latest On TV
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30026), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'new.png'))
+        item.setProperty('Fanart_Image', FANART_IMAGE)
+        items.append((PATH + '?show=latestOnTV', item, True))
+
         # Premiere
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30025), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'new.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
@@ -114,6 +119,38 @@ class DrDkTvAddon(object):
 
     def showMostViewedVideos(self):
         self.listVideos(self.api.getMostViewedProgramCards())
+
+    def showLatestOnTV(self):
+        programMap = self.api.programMap()
+
+        items = list()
+        for programSerie in programMap['ProgramSeries']:
+            infoLabels = dict()
+            if programSerie['Title'] is not None:
+                infoLabels['title'] = programSerie['Title']
+            else:
+                infoLabels['title'] = ADDON.getLocalizedString(30006)
+
+            if 'Date' in programSerie and programSerie['Date'] is not None and programSerie['Date'][0:4] != '0001':
+                broadcastTime = self.parseDate(programSerie['Date'])
+                if broadcastTime:
+                    infoLabels['plotoutline'] = ADDON.getLocalizedString(30015) % broadcastTime.strftime('%d. %b %Y kl. %H:%M')
+                    infoLabels['date'] = broadcastTime.strftime('%d.%m.%Y')
+                    infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
+                    infoLabels['year'] = int(broadcastTime.strftime('%Y'))
+
+            iconImage = programSerie['Image']
+            item = xbmcgui.ListItem(infoLabels['title'], iconImage=iconImage)
+            item.setInfo('video', infoLabels)
+            item.setProperty('Fanart_Image', iconImage)
+            url = PATH + '?videoslug=' + programSerie['ProgramSlug']
+            item.setProperty('IsPlayable', 'true')
+            items.append((url, item))
+
+        xbmcplugin.addDirectoryItems(HANDLE, items)
+        xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_DATE)
+        xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_TITLE)
+        xbmcplugin.endOfDirectory(HANDLE)
 
     def showFavorites(self):
         self._load()
@@ -248,6 +285,11 @@ class DrDkTvAddon(object):
         xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_DATE)
         xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_TITLE)
         xbmcplugin.endOfDirectory(HANDLE)
+
+    def playVideoBySlug(self, videoSlug):
+        programCard = self.api.programCard(videoSlug)
+        data = programCard['Data'][0]
+        self.playVideo(data['PrimaryAssetUri'], data['Urn'])
 
     def playVideo(self, assetUri, programCardUrn):
         self.updateRecentlyWatched(programCardUrn)
@@ -422,6 +464,8 @@ if __name__ == '__main__':
                 drDkTvAddon.showFavorites()
             elif PARAMS['show'][0] == 'recentlyWatched':
                 drDkTvAddon.showRecentlyWatched()
+            elif PARAMS['show'][0] == 'latestOnTV':
+                drDkTvAddon.showLatestOnTV()
 
         elif 'listProgramSeriesByLetter' in PARAMS:
             drDkTvAddon.showProgramSeries(letter=PARAMS['listProgramSeriesByLetter'][0])
@@ -431,6 +475,9 @@ if __name__ == '__main__':
 
         elif 'videoasset' in PARAMS:
             drDkTvAddon.playVideo(PARAMS['videoasset'][0], PARAMS['urn'][0])
+
+        elif 'videoslug' in PARAMS:
+            drDkTvAddon.playVideoBySlug(PARAMS['videoslug'][0])
 
         elif 'addfavorite' in PARAMS:
             drDkTvAddon.addFavorite(PARAMS['addfavorite'][0])
