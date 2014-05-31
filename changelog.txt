@@ -1,7 +1,8 @@
-[B]Version 4.1.0 - 2014-05-29[/B]
+[B]Version 5.0.0 - 2014-05-31[/B]
 - Yet another rewrite; this time to DR MU-online API
   http://www.dr.dk/mu-online/Help
-- Added caching support
+- Added Live TV
+- Added caching
 
 [B]Version 4.0.3 - 2013-10-21[/B]
 - Added 'Latest on TV' category

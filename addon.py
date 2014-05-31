@@ -64,6 +64,11 @@ class DrDkTvAddon(object):
 
     def showMainMenu(self):
         items = list()
+        # Live TV
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30027), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'livetv.png'))
+        item.setProperty('Fanart_Image', FANART_IMAGE)
+        items.append((PATH + '?show=liveTV', item, True))
+
         # A-Z Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30000), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
@@ -129,6 +134,32 @@ class DrDkTvAddon(object):
             xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
         else:
             self.listEpisodes(videos)
+
+    def showLiveTV(self):
+        items = list()
+        for channel in self.api.getLiveTV():
+            if channel['WebChannel']:
+                continue
+
+            server = None
+            for streamingServer in channel['StreamingServers']:
+                if streamingServer['LinkType'] == 'HLS':
+                    server = streamingServer
+                    break
+
+            if server is None:
+                continue
+
+            item = xbmcgui.ListItem(channel['Title'], iconImage=channel['PrimaryImageUri'])
+            item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
+
+            url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
+            items.append((url, item, False))
+
+        items = sorted(items, lambda mine, yours: cmp(mine[1].getLabel().replace(' ', ''), yours[1].getLabel().replace(' ', '')))
+
+        xbmcplugin.addDirectoryItems(HANDLE, items)
+        xbmcplugin.endOfDirectory(HANDLE)
 
     def showAZ(self):
         # All Program Series
@@ -299,7 +330,9 @@ if __name__ == '__main__':
     drDkTvAddon = DrDkTvAddon()
     try:
         if 'show' in PARAMS:
-            if PARAMS['show'][0] == 'listAZ':
+            if PARAMS['show'][0] == 'liveTV':
+                drDkTvAddon.showLiveTV()
+            elif PARAMS['show'][0] == 'listAZ':
                 drDkTvAddon.showAZ()
             elif PARAMS['show'][0] == 'mostViewed':
                 drDkTvAddon.listEpisodes(drDkTvAddon.api.getMostViewed())

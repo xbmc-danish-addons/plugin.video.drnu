@@ -36,6 +36,9 @@ class Api(object):
     def __init__(self, cachePath):
         self.cachePath = cachePath
 
+    def getLiveTV(self):
+        return self._http_request('/channel/all-active-dr-tv-channels')
+
     def getProgramIndexes(self):
         result = self._http_request('/page/tv/programs')
         if 'Indexes' in result:
