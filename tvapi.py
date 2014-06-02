@@ -109,7 +109,11 @@ class Api(object):
             if params:
                 url = url + '?' + urllib.urlencode(params, doseq=True)
 
-            print url
+            try:
+                print url
+            except:
+                pass
+
             urlCachePath = os.path.join(self.cachePath, hashlib.md5(url).hexdigest() + '.cache')
 
             oneDayAgo = datetime.datetime.now() - datetime.timedelta(days=1)

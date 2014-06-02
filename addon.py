@@ -263,7 +263,7 @@ class DrDkTvAddon(object):
     def parseDate(self, dateString):
         if dateString is not None:
             try:
-                m = re.search('(\d+)-(\d+)-(\d+)T(\d+):(\d+):(\d+)Z', dateString)
+                m = re.search('(\d+)-(\d+)-(\d+)T(\d+):(\d+):(\d+)', dateString)
                 year = int(m.group(1))
                 month = int(m.group(2))
                 day = int(m.group(3))
