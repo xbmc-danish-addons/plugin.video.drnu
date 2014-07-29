@@ -39,6 +39,10 @@ class Api(object):
     def getLiveTV(self):
         return self._http_request('/channel/all-active-dr-tv-channels')
 
+    def getChildrenFrontItems(self, channel):
+        childrenFront = self._http_request('/page/tv/children/front/%s' % channel)
+        return self._handle_paging(childrenFront['Programs'])
+
     def getProgramIndexes(self):
         result = self._http_request('/page/tv/programs')
         if 'Indexes' in result:

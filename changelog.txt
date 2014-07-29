@@ -1,3 +1,7 @@
+[B]Version 5.0.2 - 2014-07-29[/B]
+- Added optional area chooser
+  Set default area in addon settings
+
 [B]Version 5.0.1 - 2014-06-02[/B]
 - Fixed problem parsing certain dates
 

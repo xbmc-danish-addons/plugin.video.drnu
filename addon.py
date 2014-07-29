@@ -30,6 +30,7 @@ import xbmcaddon
 import xbmcplugin
 
 import tvapi
+import tvgui
 import buggalo
 
 
@@ -61,6 +62,21 @@ class DrDkTvAddon(object):
                 self.recentlyWatched = pickle.load(open(RECENT_PATH, 'rb'))
             except Exception:
                 pass
+
+    def showAreaSelector(self):
+        gui = tvgui.AreaSelectorDialog()
+        gui.doModal()
+        areaSelected = gui.areaSelected
+        del gui
+
+        if areaSelected == 'none':
+            pass
+        elif areaSelected == 'drtv':
+            self.showMainMenu()
+        else:
+            items = self.api.getChildrenFrontItems('dr-' + areaSelected)
+            #xbmc.executebuiltin('Container.SetViewMode(500)')
+            self.listSeries(items)
 
     def showMainMenu(self):
         items = list()
@@ -361,7 +377,21 @@ if __name__ == '__main__':
             drDkTvAddon.delFavorite(PARAMS['delfavorite'][0])
 
         else:
-            drDkTvAddon.showMainMenu()
+            try:
+                area = int(ADDON.getSetting('area'))
+            except:
+                area = 0
+
+            if area == 0:
+                drDkTvAddon.showAreaSelector()
+            elif area == 1:
+                drDkTvAddon.showMainMenu()
+            elif area == 2:
+                items = drDkTvAddon.api.getChildrenFrontItems('dr-ramasjang')
+                drDkTvAddon.listSeries(items)
+            elif area == 3:
+                items = drDkTvAddon.api.getChildrenFrontItems('dr-ultra')
+                drDkTvAddon.listSeries(items)
 
     except tvapi.ApiException, ex:
         drDkTvAddon.displayError(str(ex))

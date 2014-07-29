@@ -16,11 +16,20 @@
     <string id="30025">Forpremiere</string>
     <string id="30027">Live TV</string>
 
+    <string id="30100">DR TV Univers</string>
+    <string id="30101">Vælg område</string>
+
     <string id="30200">Tilføj til foretrukne programmer</string>
     <string id="30201">Fjern fra foretrukne programmer</string>
 
     <string id="30500">Generelt</string>
     <string id="30503">Vis undertekster (hvis tilgængelige)</string>
+
+    <string id="30510">Start i område</string>
+    <string id="30511">Vis områdevælger</string>
+    <string id="30512">DR TV</string>
+    <string id="30513">Ramasjang</string>
+    <string id="30514">Ultra</string>
 
     <string id="30900">Der er sket en fejl i kommunikationen med DR NU.</string>
     <string id="30901">Prøv igen senere. Fejlen er:</string>
