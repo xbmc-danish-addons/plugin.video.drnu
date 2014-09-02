@@ -40,6 +40,11 @@ class DrDkTvAddon(object):
         self.favorites = list()
         self.recentlyWatched = list()
 
+        self.menuItems = list()
+        runScript = "RunAddon(plugin.video.drnu,?show=areaselector&random=%d)" % HANDLE
+        self.menuItems.append((ADDON.getLocalizedString(30511), runScript))
+
+
     def _save(self):
         # save favorites
         self.favorites.sort()
@@ -83,42 +88,50 @@ class DrDkTvAddon(object):
         # Live TV
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30027), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'livetv.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?show=liveTV', item, True))
 
         # A-Z Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30000), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?show=listAZ', item, True))
 
         # Premiere
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30025), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'new.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?listVideos=%s' % tvapi.SLUG_PREMIERES, item, True))
 
         # Most viewed
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30011), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?show=mostViewed', item, True))
 
         # Spotlight
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30002), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'star.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?show=highlights', item, True))
 
         # Search videos
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30003), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'search.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?show=search', item, True))
 
         # Recently watched Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30007), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye-star.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?show=recentlyWatched', item, True))
 
         # Favorite Program Series
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30008), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'plusone.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
         items.append((PATH + '?show=favorites', item, True))
+        item.addContextMenuItems(self.menuItems, False)
 
         xbmcplugin.addDirectoryItems(HANDLE, items)
         xbmcplugin.endOfDirectory(HANDLE)
@@ -138,11 +151,15 @@ class DrDkTvAddon(object):
         self._load()
         videos = list()
         for slug in self.recentlyWatched:
-            item = self.api.getEpisode(slug)
-            if item is None:
+            try:
+                item = self.api.getEpisode(slug)
+                if item is None:
+                    self.recentlyWatched.remove(slug)
+                else:
+                    videos.append(item)
+            except tvapi.ApiException:
+                # probably a 404 - non-existent slug
                 self.recentlyWatched.remove(slug)
-            else:
-                videos.append(item)
 
         self._save()
         if not videos:
@@ -168,6 +185,7 @@ class DrDkTvAddon(object):
 
             item = xbmcgui.ListItem(channel['Title'], iconImage=channel['PrimaryImageUri'])
             item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
+            item.addContextMenuItems(self.menuItems, False)
 
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
             items.append((url, item, False))
@@ -185,6 +203,7 @@ class DrDkTvAddon(object):
         for programIndex in self.api.getProgramIndexes():
             item = xbmcgui.ListItem(programIndex['Title'], iconImage=iconImage)
             item.setProperty('Fanart_Image', FANART_IMAGE)
+            item.addContextMenuItems(self.menuItems, False)
 
             url = PATH + '?listProgramSeriesByLetter=' + programIndex['_Param']
             items.append((url, item, True))
@@ -210,19 +229,18 @@ class DrDkTvAddon(object):
         else:
             directoryItems = list()
             for item in items:
-                menuItems = list()
                 if self.favorites.count(item['SeriesTitle']) > 0:
                     runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % item['SeriesTitle'].replace('&', '%26')
-                    menuItems.append((ADDON.getLocalizedString(30201), runScript))
+                    self.menuItems.append((ADDON.getLocalizedString(30201), runScript))
                 else:
                     runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % item['SeriesTitle'].replace('&', '%26')
-                    menuItems.append((ADDON.getLocalizedString(30200), runScript))
+                    self.menuItems.append((ADDON.getLocalizedString(30200), runScript))
 
 
                 iconImage = item['PrimaryImageUri']
                 listItem = xbmcgui.ListItem(item['SeriesTitle'], iconImage=iconImage)
                 listItem.setProperty('Fanart_Image', iconImage)
-                listItem.addContextMenuItems(menuItems, False)
+                listItem.addContextMenuItems(self.menuItems, False)
 
                 url = PATH + '?listVideos=' + item['SeriesSlug']
                 directoryItems.append((url, listItem, True))
@@ -252,6 +270,7 @@ class DrDkTvAddon(object):
             listItem.setProperty('Fanart_Image', iconImage)
             url = PATH + '?playVideo=' + item['Slug']
             listItem.setProperty('IsPlayable', 'true')
+            listItem.addContextMenuItems(self.menuItems, False)
             directoryItems.append((url, listItem))
 
         xbmcplugin.addDirectoryItems(HANDLE, directoryItems)
@@ -360,6 +379,8 @@ if __name__ == '__main__':
                 drDkTvAddon.showFavorites()
             elif PARAMS['show'][0] == 'recentlyWatched':
                 drDkTvAddon.showRecentlyWatched()
+            elif PARAMS['show'][0] == 'areaselector':
+                drDkTvAddon.showAreaSelector()
 
         elif 'listProgramSeriesByLetter' in PARAMS:
             drDkTvAddon.listSeries(drDkTvAddon.api.getSeries(PARAMS['listProgramSeriesByLetter'][0]))
