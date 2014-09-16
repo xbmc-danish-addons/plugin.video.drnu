@@ -22,9 +22,11 @@
 
     <string id="30200">Add to favorite program series</string>
     <string id="30201">Remove from favorite program series</string>
+    <string id="30202">Favorite program series cleared</string>
 
     <string id="30500">General</string>
     <string id="30503">Enable subtitles (if available)</string>
+    <string id="30504">Clear the favorite programs list</string>
 
     <string id="30510">Start in area</string>
     <string id="30511">Show area chooser</string>

@@ -31,7 +31,7 @@ SLUG_PREMIERES='forpremierer'
 
 
 class Api(object):
-    API_URL = 'http://www.dr.dk/mu-online/api/1.0'
+    API_URL = 'http://www.dr.dk/mu-online/api/1.1'
 
     def __init__(self, cachePath):
         self.cachePath = cachePath
@@ -59,7 +59,8 @@ class Api(object):
         return self._handle_paging(result)
 
     def searchSeries(self, query):
-        result = self._http_request('/search/tv/programcards-latest-episode-with-asset/series-title/%s' % query)
+        # Remove & as it makes the API puke
+        result = self._http_request('/search/tv/programcards-latest-episode-with-asset/series-title/%s' % query.replace('&', ''))
         return self._handle_paging(result)
 
     def getEpisodes(self, slug):
@@ -107,6 +108,8 @@ class Api(object):
 
     def _http_request(self, url, params=None):
         try:
+            url = urllib.quote(url, '/')
+
             if not url.startswith('http://'):
                 url = self.API_URL + url
 

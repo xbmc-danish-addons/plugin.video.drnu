@@ -229,18 +229,20 @@ class DrDkTvAddon(object):
         else:
             directoryItems = list()
             for item in items:
+                menuItems = list(self.menuItems)
+
                 if self.favorites.count(item['SeriesTitle']) > 0:
                     runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?delfavorite=%s)" % item['SeriesTitle'].replace('&', '%26')
-                    self.menuItems.append((ADDON.getLocalizedString(30201), runScript))
+                    menuItems.append((ADDON.getLocalizedString(30201), runScript))
                 else:
                     runScript = "XBMC.RunPlugin(plugin://plugin.video.drnu/?addfavorite=%s)" % item['SeriesTitle'].replace('&', '%26')
-                    self.menuItems.append((ADDON.getLocalizedString(30200), runScript))
+                    menuItems.append((ADDON.getLocalizedString(30200), runScript))
 
 
                 iconImage = item['PrimaryImageUri']
                 listItem = xbmcgui.ListItem(item['SeriesTitle'], iconImage=iconImage)
                 listItem.setProperty('Fanart_Image', iconImage)
-                listItem.addContextMenuItems(self.menuItems, False)
+                listItem.addContextMenuItems(menuItems, False)
 
                 url = PATH + '?listVideos=' + item['SeriesSlug']
                 directoryItems.append((url, listItem, True))
@@ -311,18 +313,18 @@ class DrDkTvAddon(object):
         else:
             return None
 
-    def addFavorite(self, title):
+    def addFavorite(self, key):
         self._load()
-        if not self.favorites.count(title):
-            self.favorites.append(title)
+        if not self.favorites.count(key):
+            self.favorites.append(key)
         self._save()
 
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30009))
 
-    def delFavorite(self, title):
+    def delFavorite(self, key):
         self._load()
-        if self.favorites.count(title):
-            self.favorites.remove(title)
+        if self.favorites.count(key):
+            self.favorites.remove(key)
         self._save()
         xbmcgui.Dialog().ok(ADDON.getLocalizedString(30008), ADDON.getLocalizedString(30010))
 

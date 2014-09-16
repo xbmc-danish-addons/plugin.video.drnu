@@ -1,3 +1,7 @@
+[B]Version 5.0.4 - 2014-09-16[/B]
+- Fixed favorite program series
+- Added "Clear favorite program series" in the settings to fix broken favorites list
+
 [B]Version 5.0.3 - 2014-09-02[/B]
 - Added 'Show area chooser' to context menu
 - Fixed problem with recently watched when the slug no longer exists on the server

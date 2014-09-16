@@ -21,9 +21,11 @@
 
     <string id="30200">Tilføj til foretrukne programmer</string>
     <string id="30201">Fjern fra foretrukne programmer</string>
+    <string id="30202">Foretrukne programmer blev nulstillet</string>
 
     <string id="30500">Generelt</string>
     <string id="30503">Vis undertekster (hvis tilgængelige)</string>
+    <string id="30504">Nulstil listen med foretrukne programmer</string>
 
     <string id="30510">Start i område</string>
     <string id="30511">Vis områdevælger</string>
