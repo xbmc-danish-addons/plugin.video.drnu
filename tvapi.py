@@ -43,6 +43,15 @@ class Api(object):
         childrenFront = self._http_request('/page/tv/children/front/%s' % channel)
         return self._handle_paging(childrenFront['Programs'])
 
+    def getLatestPrograms(self):
+        result = self._http_request('/page/tv/programs', {
+            'index': '*',
+            'orderBy': 'LastPrimaryBroadcastWithPublicAsset',
+            'orderDescending': 'true'
+        })
+        return result['Programs']['Items']
+
+
     def getProgramIndexes(self):
         result = self._http_request('/page/tv/programs')
         if 'Indexes' in result:
@@ -108,10 +117,8 @@ class Api(object):
 
     def _http_request(self, url, params=None):
         try:
-            url = urllib.quote(url, '/')
-
             if not url.startswith('http://'):
-                url = self.API_URL + url
+                url = self.API_URL + urllib.quote(url, '/')
 
             if params:
                 url = url + '?' + urllib.urlencode(params, doseq=True)

@@ -97,6 +97,12 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?show=listAZ', item, True))
 
+        # Latest
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30001), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
+        item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
+        items.append((PATH + '?show=latest', item, True))
+
         # Premiere
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30025), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'new.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
@@ -250,7 +256,7 @@ class DrDkTvAddon(object):
             xbmcplugin.addDirectoryItems(HANDLE, directoryItems)
             xbmcplugin.endOfDirectory(HANDLE)
 
-    def listEpisodes(self, items):
+    def listEpisodes(self, items, addSortMethods=True):
         directoryItems = list()
         for item in items:
             if 'PrimaryAsset' not in item or 'Uri' not in item['PrimaryAsset'] or not item['PrimaryAsset']['Uri']:
@@ -276,8 +282,9 @@ class DrDkTvAddon(object):
             directoryItems.append((url, listItem))
 
         xbmcplugin.addDirectoryItems(HANDLE, directoryItems)
-        xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_DATE)
-        xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_TITLE)
+        if addSortMethods:
+            xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_DATE)
+            xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_TITLE)
         xbmcplugin.endOfDirectory(HANDLE)
 
     def playVideo(self, slug):
@@ -371,6 +378,8 @@ if __name__ == '__main__':
                 drDkTvAddon.showLiveTV()
             elif PARAMS['show'][0] == 'listAZ':
                 drDkTvAddon.showAZ()
+            elif PARAMS['show'][0] == 'latest':
+                drDkTvAddon.listEpisodes(drDkTvAddon.api.getLatestPrograms(), addSortMethods=False)
             elif PARAMS['show'][0] == 'mostViewed':
                 drDkTvAddon.listEpisodes(drDkTvAddon.api.getMostViewed())
             elif PARAMS['show'][0] == 'highlights':
