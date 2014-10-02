@@ -1,3 +1,6 @@
+[B]Version 5.0.5 - 2014-10-02[/B]
+- Changed cache period of latest programs to five minutes (instead of a full day)
+
 [B]Version 5.0.4 - 2014-09-16[/B]
 - Fixed favorite program series
 - Added "Clear favorite program series" in the settings to fix broken favorites list

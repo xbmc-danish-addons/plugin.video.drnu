@@ -48,9 +48,8 @@ class Api(object):
             'index': '*',
             'orderBy': 'LastPrimaryBroadcastWithPublicAsset',
             'orderDescending': 'true'
-        })
+        }, cacheMinutes=5)
         return result['Programs']['Items']
-
 
     def getProgramIndexes(self):
         result = self._http_request('/page/tv/programs')
@@ -115,7 +114,7 @@ class Api(object):
             items.extend(result['Items'])
         return items
 
-    def _http_request(self, url, params=None):
+    def _http_request(self, url, params=None, cacheMinutes = 720):
         try:
             if not url.startswith('http://'):
                 url = self.API_URL + urllib.quote(url, '/')
@@ -130,8 +129,8 @@ class Api(object):
 
             urlCachePath = os.path.join(self.cachePath, hashlib.md5(url).hexdigest() + '.cache')
 
-            oneDayAgo = datetime.datetime.now() - datetime.timedelta(days=1)
-            if not os.path.exists(urlCachePath) or datetime.datetime.fromtimestamp(os.path.getmtime(urlCachePath)) < oneDayAgo:
+            cacheUntil = datetime.datetime.now() - datetime.timedelta(minutes=cacheMinutes)
+            if not os.path.exists(urlCachePath) or datetime.datetime.fromtimestamp(os.path.getmtime(urlCachePath)) < cacheUntil:
                 u = urllib2.urlopen(url, timeout=30)
                 content = u.read()
                 u.close()
