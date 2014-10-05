@@ -12,7 +12,7 @@
     <string id="30013">Listen er tom.</string>
     <string id="30018">Du kan tilføje programmer til foretrukne ved brug</string>
     <string id="30019">af højreklik-menuen.</string>
-    <string id="30020">De videoer du sidst har set tilføjest automatisk.</string>
+    <string id="30020">De videoer du sidst har set tilføjes automatisk.</string>
     <string id="30025">Forpremiere</string>
     <string id="30027">Live TV</string>
 
@@ -38,4 +38,6 @@
 
     <string id="30902">Det var ikke muligt at gemme midlertidige data</string>
     <string id="30903">lokalt på disken. Fejlen er:</string>
+
+    <string id="30904">Videoen er ikke længere tilgængelig og kan ikke afspilles.</string>
 </strings>

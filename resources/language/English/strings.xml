@@ -34,9 +34,12 @@
     <string id="30513">Ramasjang</string>
     <string id="30514">Ultra</string>
 
-    <string id="30900">There was an error while communication with DR NU.</string>
+    <string id="30900">There was an error while communicating with DR NU.</string>
     <string id="30901">Please try again later. Error message is:</string>
 
     <string id="30902">There was an error while writing temporary data</string>
     <string id="30903">to the local disk. The error message is:</string>
+
+    <string id="30904">The video is no longer available and playback is not possible.</string>
+
 </strings>

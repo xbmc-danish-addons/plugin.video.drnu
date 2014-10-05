@@ -290,8 +290,12 @@ class DrDkTvAddon(object):
     def playVideo(self, slug):
         self.updateRecentlyWatched(slug)
         item = self.api.getEpisode(slug)
-        video = self.api.getVideoUrl(item['PrimaryAsset']['Uri'])
 
+        if not 'PrimaryAsset' in item:
+            self.displayError(ADDON.getLocalizedString(30904))
+            return
+
+        video = self.api.getVideoUrl(item['PrimaryAsset']['Uri'])
         item = xbmcgui.ListItem(path=video['Uri'])
         xbmcplugin.setResolvedUrl(HANDLE, video['Uri'] is not None, item)
 
