@@ -32,7 +32,7 @@ SLUG_PREMIERES='forpremierer'
 
 
 class Api(object):
-    API_URL = 'http://www.dr.dk/mu-online/api/1.1'
+    API_URL = 'http://www.dr.dk/mu-online/api/1.2'
 
     def __init__(self, cachePath):
         self.cachePath = cachePath
@@ -43,6 +43,10 @@ class Api(object):
     def getChildrenFrontItems(self, channel):
         childrenFront = self._http_request('/page/tv/children/front/%s' % channel)
         return self._handle_paging(childrenFront['Programs'])
+
+    def getThemes(self):
+        themes = self._http_request('/list/view/themesoverview')
+        return themes['Items']
 
     def getLatestPrograms(self):
         result = self._http_request('/page/tv/programs', {

@@ -1,3 +1,6 @@
+[B]Version 5.0.8 - 2014-12-04[/B]
+- Added themes / repremieres as seen on dr.dk/tv
+
 [B]Version 5.0.7 - 2014-10-29[/B]
 - Added description to video clips
 - Fixed problem when searching for text with special characters

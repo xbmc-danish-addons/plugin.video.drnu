@@ -109,6 +109,12 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?listVideos=%s' % tvapi.SLUG_PREMIERES, item, True))
 
+        # Themes / Repremiere
+        item = xbmcgui.ListItem(ADDON.getLocalizedString(30028), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
+        item.setProperty('Fanart_Image', FANART_IMAGE)
+        item.addContextMenuItems(self.menuItems, False)
+        items.append((PATH + '?show=themes', item, True))
+
         # Most viewed
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30011), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'eye.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
@@ -212,6 +218,19 @@ class DrDkTvAddon(object):
             item.addContextMenuItems(self.menuItems, False)
 
             url = PATH + '?listProgramSeriesByLetter=' + programIndex['_Param']
+            items.append((url, item, True))
+
+        xbmcplugin.addDirectoryItems(HANDLE, items)
+        xbmcplugin.endOfDirectory(HANDLE)
+
+    def showThemes(self):
+        items = list()
+        for theme in self.api.getThemes():
+            item = xbmcgui.ListItem(theme['ThemeTitle'], iconImage=theme['PrimaryImageUri'])
+            item.setProperty('Fanart_Image', theme['PrimaryImageUri'])
+            item.addContextMenuItems(self.menuItems, False)
+
+            url = PATH + '?listVideos=' + theme['ThemeSlug']
             items.append((url, item, True))
 
         xbmcplugin.addDirectoryItems(HANDLE, items)
@@ -398,6 +417,8 @@ if __name__ == '__main__':
                 drDkTvAddon.showRecentlyWatched()
             elif PARAMS['show'][0] == 'areaselector':
                 drDkTvAddon.showAreaSelector()
+            elif PARAMS['show'][0] == 'themes':
+                drDkTvAddon.showThemes()
 
         elif 'listProgramSeriesByLetter' in PARAMS:
             drDkTvAddon.listSeries(drDkTvAddon.api.getSeries(PARAMS['listProgramSeriesByLetter'][0]))
