@@ -122,7 +122,7 @@ class Api(object):
 
     def _http_request(self, url, params=None, cacheMinutes = 720):
         try:
-            if not url.startswith('http://'):
+            if not url.startswith(('http://','https://')):
                 url = self.API_URL + urllib.quote(url, '/')
 
             if params:
