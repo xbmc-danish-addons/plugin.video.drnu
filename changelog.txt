@@ -1,3 +1,8 @@
+[B]Version 5.0.9 - 2017-10-31[/B]
+- Fix https streams from DR
+- Fix subtitles
+- Step DR API to v1.4
+
 [B]Version 5.0.8 - 2014-12-04[/B]
 - Added themes / repremieres as seen on dr.dk/tv
 
