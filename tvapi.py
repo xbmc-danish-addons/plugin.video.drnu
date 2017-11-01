@@ -32,7 +32,7 @@ SLUG_PREMIERES='forpremierer'
 
 
 class Api(object):
-    API_URL = 'http://www.dr.dk/mu-online/api/1.4'
+    API_URL = 'http://www.dr.dk/mu-online/api/1.2'
 
     def __init__(self, cachePath):
         self.cachePath = cachePath
