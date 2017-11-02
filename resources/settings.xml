@@ -4,6 +4,6 @@
         <setting id="area" label="30510" type="enum" default="0" lvalues="30511|30512|30513|30514" />
         <setting id="enable.subtitles" label="30503" type="bool" default="true" />
         <setting label="30504" type="action" action="RunScript($CWD/clearfavorites.py)" />
-				<setting id="enable.nonadult" label="30505" type="bool" default="true" />
+        <setting id="enable.nonadult" label="30505" type="bool" default="true" />
 	</category>
 </settings>
