@@ -325,6 +325,7 @@ class DrDkTvAddon(object):
                 
         xbmcplugin.setResolvedUrl(HANDLE, video['Uri'] is not None, item)
 
+    # Supported slugs are dr1, dr2, dr3, dr-k, dr-ultra and dr-ramasjang
     def playLiveTV(self, slug):
         item = None
         url = None
@@ -449,6 +450,7 @@ if __name__ == '__main__':
         elif 'playVideo' in PARAMS:
             drDkTvAddon.playVideo(PARAMS['playVideo'][0])
 
+        # Supported slugs are dr1, dr2, dr3, dr-k, dr-ultra and dr-ramasjang
         elif 'playLiveTV' in PARAMS:
             drDkTvAddon.playLiveTV(PARAMS['playLiveTV'][0])
 
