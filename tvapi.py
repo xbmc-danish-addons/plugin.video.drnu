@@ -30,6 +30,11 @@ import datetime
 import re
 SLUG_PREMIERES='forpremierer'
 
+import binascii
+from aes import aes_cbc_decrypt
+from utils import bytes_to_intlist, intlist_to_bytes
+
+
 
 class Api(object):
     API_URL = 'http://www.dr.dk/mu-online/api/1.2'
@@ -95,6 +100,20 @@ class Api(object):
                                     {'limit': 60})
         return result['Items']
 
+    def hex_to_bytes(self, hex):
+        return binascii.a2b_hex(hex.encode('ascii'))
+
+    def decrypt_uri(self, e):
+        n = int(e[2:10], 16)
+        a = e[10 + n:]
+        data = bytes_to_intlist(self.hex_to_bytes(e[10:10 + n]))
+        key = bytes_to_intlist(hashlib.sha256(
+            ('%s:sRBzYNXBzkKgnjj8pGtkACch' % a).encode('utf-8')).digest())
+        iv = bytes_to_intlist(self.hex_to_bytes(a))
+        decrypted = aes_cbc_decrypt(data, key, iv)
+        return intlist_to_bytes(
+            decrypted[:-decrypted[-1]]).decode('utf-8').split('?')[0]
+
     def getVideoUrl(self, assetUri):
         result = self._http_request(assetUri)
 
@@ -102,6 +121,8 @@ class Api(object):
         for link in result['Links']:
             if link['Target'] == 'HLS':
                 uri = link['Uri']
+                if not uri:
+                   uri = self.decrypt_uri( link['EncryptedUri'] )
                 break
 
         subtitlesUri = None
