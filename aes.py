@@ -2,8 +2,8 @@ from __future__ import unicode_literals
 
 from math import ceil
 
-from compat import compat_b64decode
-from utils import bytes_to_intlist, intlist_to_bytes
+#from compat import compat_b64decode
+#from utils import bytes_to_intlist, intlist_to_bytes
 
 BLOCK_SIZE_BYTES = 16
 
