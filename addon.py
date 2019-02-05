@@ -321,7 +321,8 @@ class DrDkTvAddon(object):
 
         if ADDON.getSetting('enable.subtitles') == 'true':
             if video['SubtitlesUri']:
-                item.setSubtitles([video['SubtitlesUri']])
+                item.setSubtitles(video['SubtitlesUri'][::-1])
+#                item.setSubtitles([video['SubtitlesUri']])
                 
         xbmcplugin.setResolvedUrl(HANDLE, video['Uri'] is not None, item)
 
