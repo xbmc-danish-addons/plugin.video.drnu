@@ -266,6 +266,10 @@ class DrDkTvAddon(object):
 
 
                 iconImage = item['PrimaryImageUri']
+                # HACK: the servers behind /mu-online/api/1.2 is often returning Content-Type="text/xml" instead of "image/jpeg", this problem is not pressent for /mu/bar (the "Classic API")
+                assert(self.api.API_URL.endswith("/mu-online/api/1.2"))
+                iconImage = iconImage.replace("/mu-online/api/1.2/bar/","/mu/bar/")
+
                 listItem = xbmcgui.ListItem(item['SeriesTitle'], iconImage=iconImage)
                 listItem.setProperty('Fanart_Image', iconImage)
                 listItem.addContextMenuItems(menuItems, False)
