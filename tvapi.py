@@ -1,4 +1,6 @@
-#  Copyright (C) 2014 msj33
+#
+#      Copyright (C) 2014 Tommy Winther, msj33
+#
 #  https://github.com/xbmc-danish-addons/plugin.video.drnu
 #
 #  This Program is free software; you can redistribute it and/or modify
@@ -135,7 +137,7 @@ class Api(object):
                 url = url + '?' + urllib.urlencode(params, doseq=True)
 
             try:
-                print url
+                xbmc.log(url)
             except:
                 pass
 
@@ -436,4 +438,4 @@ class ApiException(Exception):
 
 if __name__ == '__main__':
     api = Api()
-    print api.programCardRelations('so-ein-ding', limit=50)
+    xbmc.log(api.programCardRelations('so-ein-ding', limit=50))
