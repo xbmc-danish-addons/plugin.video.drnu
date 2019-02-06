@@ -19,8 +19,8 @@
         <platform>all</platform>
         <language>da</language>
         <email>msj33@hotmail.com</email>
-        <website>https://github.com/xbmc-danish-addons/plugin.video.drnu</website>
+        <website>https://www.dr.dk/</website>
         <forum>https://forum.kodi.tv/</forum>
-        <source>https://www.dr.dk/</source>
+        <source>https://github.com/xbmc-danish-addons/plugin.video.drnu</source>
     </extension>
 </addon>
