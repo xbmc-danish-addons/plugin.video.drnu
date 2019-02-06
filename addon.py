@@ -320,14 +320,15 @@ class DrDkTvAddon(object):
         video = self.api.getVideoUrl(item['PrimaryAsset']['Uri'])
         item = xbmcgui.ListItem(path=video['Uri'], thumbnailImage=item['PrimaryImageUri'])
 
-        if ADDON.getSetting('enable.subtitles') == 'true':
-            if video['SubtitlesUri']:
+        if video['SubtitlesUri']:
+            if ADDON.getSetting('enable.subtitles') == 'true':
                 item.setSubtitles(video['SubtitlesUri'][::-1])
-#                item.setSubtitles([video['SubtitlesUri']])
-                
+            else:
+                item.setSubtitles(video['SubtitlesUri'])
+
         xbmcplugin.setResolvedUrl(HANDLE, video['Uri'] is not None, item)
 
-                
+
     def parseDate(self, dateString):
         if dateString is not None:
             try:

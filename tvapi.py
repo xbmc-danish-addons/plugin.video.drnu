@@ -35,8 +35,6 @@ import re
 import base64
 SLUG_PREMIERES='forpremierer'
 
-from youtube_dl import decrypt_uri
-
 class Api(object):
     API_URL = 'http://www.dr.dk/mu-online/api/1.2'
 
@@ -116,16 +114,20 @@ class Api(object):
         subtitlesUri = None
         if 'SubtitlesList' in result and len(result['SubtitlesList']) > 0:
             subtitlesUri=[]
+            udenlandsk=False
             for sub in result['SubtitlesList']:
                if 'HardOfHearing' in sub['Type']: name = 'undertekster.da.srt'
-               else: name = 'kun-udenlandsk.da.srt'
-               name = self.cachePath +name
+               else:
+                   udenlandsk=True
+                   name = 'udenlandsk.da.srt'
+               name = self.cachePath + name
                srt = self.vtt2srt( urllib2.urlopen(sub['Uri']).read() )
                with open(name,'w') as fn: fn.write(srt)
                subtitlesUri.append(name)
-
-#        if 'SubtitlesList' in result and len(result['SubtitlesList']) > 0:
-#            subtitlesUri = result['SubtitlesList'][0]['Uri']
+            if not udenlandsk:
+               name = self.cachePath + 'ingen-undertekster.da.srt'
+               with open(name,'w') as fn: fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
+               subtitlesUri = [name]+subtitlesUri
 
         return {
             'Uri': uri,
