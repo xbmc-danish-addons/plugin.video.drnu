@@ -35,17 +35,17 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
 
         title = xbmcgui.ControlLabel(0, 60, 1280, 60, "[B]%s[/B][CR]%s" % (ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101)), 'font30', alignment=2)
 
-        self.drTvButton = xbmcgui.ControlButton(20, 160, 400, 400, "",
+        self.drTvButton = xbmcgui.ControlButton(70, 210, 300, 300, "",
                                                 focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-drtv-focus.png'),
                                                 noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-drtv.png')
                                                 )
 
-        self.ramasjangButton = xbmcgui.ControlButton(440, 160, 400, 400, "",
+        self.ramasjangButton = xbmcgui.ControlButton(490, 210, 300, 300, "",
                                                      focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ramasjang-focus.png'),
                                                      noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ramasjang.png')
                                                      )
 
-        self.ultraButton = xbmcgui.ControlButton(860, 160, 400, 400, "",
+        self.ultraButton = xbmcgui.ControlButton(910, 210, 300, 300, "",
                                                  focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ultra-focus.png'),
                                                  noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ultra.png')
                                                  )
