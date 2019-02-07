@@ -33,8 +33,12 @@ import os
 import datetime
 import re
 import base64
-SLUG_PREMIERES='forpremierer'
+import xbmcaddon
 
+ADDON = xbmcaddon.Addon()
+
+SLUG_PREMIERES='forpremierer'
+SLUG_ADULT=['dr1','dr2','dr3','dr-k']
 
 class Api(object):
     API_URL = 'http://www.dr.dk/mu-online/api/1.2'
@@ -54,10 +58,14 @@ class Api(object):
         return themes['Items']
 
     def getLatestPrograms(self):
+        channel = ''
+        if ADDON.getSetting('disable.kids') == 'true':
+            channel = ','.join(SLUG_ADULT)
         result = self._http_request('/page/tv/programs', {
             'index': '*',
             'orderBy': 'LastPrimaryBroadcastWithPublicAsset',
-            'orderDescending': 'true'
+            'orderDescending': 'true',
+            'channel': channel
         }, cacheMinutes=5)
         return result['Programs']['Items']
 

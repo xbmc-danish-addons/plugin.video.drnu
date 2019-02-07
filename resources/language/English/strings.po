@@ -116,6 +116,10 @@ msgctxt "#30504"
 msgid "Clear the favorite programs list"
 msgstr ""
 
+msgctxt "#30505"
+msgid "Remove programs from Ramasjang/Ultra in latest videos list"
+msgstr ""
+
 msgctxt "#30510"
 msgid "Start in area"
 msgstr ""
