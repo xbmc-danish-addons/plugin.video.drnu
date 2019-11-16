@@ -129,6 +129,30 @@ class Api(object):
             'SubtitlesUri': subtitlesUri
         }
 
+    def getQualityList(self, uri):
+	playList = self._http_request(uri, None, 30, False)
+        return self._parse_Play_List(playList)
+
+    def _parse_Play_List(self, text):
+        resolutions = {}
+        previousLine = ''
+
+        if text:
+        	lines = text.splitlines()
+		for line in lines:
+			if previousLine.startswith('#EXT-X-STREAM-INF:'):
+				tags = {}
+				previousLine = previousLine.replace('#EXT-X-STREAM-INF:', '')
+				pairs = previousLine.split(',')
+				for pair in pairs:
+					if '=' in pair:
+						tags[pair.split('=')[0]] = pair.split('=')[1]
+				if 'RESOLUTION' in tags and 'BANDWIDTH' in tags:
+					resolutions[tags['RESOLUTION'] + ',' + tags['BANDWIDTH']] = line
+			previousLine = line
+
+	return resolutions
+
     def _handle_paging(self, result):
         items = result['Items']
         while 'Next' in result['Paging']:
@@ -136,7 +160,7 @@ class Api(object):
             items.extend(result['Items'])
         return items
 
-    def _http_request(self, url, params=None, cacheMinutes = 720):
+    def _http_request(self, url, params=None, cacheMinutes = 720, returnJson=True):
         try:
             if not url.startswith(('http://','https://')):
                 url = self.API_URL + urllib.quote(url, '/')
@@ -168,7 +192,11 @@ class Api(object):
                 content = f.read()
                 f.close()
 
-            return json.loads(content)
+            if returnJson:
+               return json.loads(content)
+            else:
+               return content
+
         except Exception as ex:
             raise ApiException(ex)
 
