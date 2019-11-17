@@ -130,7 +130,11 @@ class Api(object):
         }
 
     def getQualityList(self, uri):
-	playList = self._http_request(uri, None, 30, False)
+        playListUri = uri
+        if '.m3u8' not in playListUri:
+           	playListUri = self.getVideoUrl(uri)['Uri']
+	playList = self._http_request(playListUri, None, 30, False)
+        #xbmc.log(playList)
         return self._parse_Play_List(playList)
 
     def _parse_Play_List(self, text):

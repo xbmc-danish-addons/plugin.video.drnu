@@ -322,7 +322,7 @@ class DrDkTvAddon(object):
             listItem.setProperty('Fanart_Image', iconImage)
             url = PATH + '?playVideo=' + item['Slug']
             listItem.setProperty('IsPlayable', 'true')
-            listItem.addContextMenuItems(self.menuItems, False)
+            listItem.addContextMenuItems(self._create_menu_items(item['PrimaryAsset']['Uri'], item['Title']), False)
             directoryItems.append((url, listItem))
 
         xbmcplugin.addDirectoryItems(HANDLE, directoryItems)
