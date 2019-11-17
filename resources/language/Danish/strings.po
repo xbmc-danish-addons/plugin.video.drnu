@@ -140,6 +140,10 @@ msgctxt "#30514"
 msgid "Ultra"
 msgstr "Ultra"
 
+msgctxt "#30515"
+msgid "Show video resolutions"
+msgstr "Vis video opløsninger"
+
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
 msgstr "Der er sket en fejl i kommunikationen med DR NU."

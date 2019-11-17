@@ -45,6 +45,11 @@ class DrDkTvAddon(object):
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector&random=%d)" % HANDLE
         self.menuItems.append((ADDON.getLocalizedString(30511), runScript))
 
+    def _create_menu_items(self, url, title):
+        items = list(self.menuItems)
+        runScript2 = "RunAddon(plugin.video.drnu,?listStreams=%s&title=%s)" % (url, title)
+        items.append((ADDON.getLocalizedString(30515), runScript2))
+        return items
 
     def _save(self):
         # save favorites
@@ -212,9 +217,8 @@ class DrDkTvAddon(object):
 
             item = xbmcgui.ListItem(channel['Title'], iconImage=channel['PrimaryImageUri'])
             item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
-            item.addContextMenuItems(self.menuItems, False)
-
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
+            item.addContextMenuItems(self._create_menu_items(url, channel['Title']), False)
             items.append((url, item, False))
 
         items = sorted(items, lambda mine, yours: cmp(mine[1].getLabel().replace(' ', ''), yours[1].getLabel().replace(' ', '')))
