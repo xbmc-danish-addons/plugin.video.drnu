@@ -181,6 +181,20 @@ class DrDkTvAddon(object):
         else:
             self.listEpisodes(videos)
 
+    def listStreams(self, uri, title):
+	items = list()
+	streams = self.api.getQualityList(uri)
+
+	for key, value in streams.items():
+		item = xbmcgui.ListItem(label=title + ' - ' + key)
+        	item.addContextMenuItems(self.menuItems, False)
+        	items.append((value, item, False))
+
+	items = sorted(items, lambda mine, yours: cmp(mine[1].getLabel().replace(' ', ''), yours[1].getLabel().replace(' ', '')))
+
+  	xbmcplugin.addDirectoryItems(HANDLE, items)
+        xbmcplugin.endOfDirectory(HANDLE)
+
     def showLiveTV(self):
         items = list()
         for channel in self.api.getLiveTV():
@@ -427,6 +441,9 @@ if __name__ == '__main__':
 
         elif 'listVideos' in PARAMS:
             drDkTvAddon.listEpisodes(drDkTvAddon.api.getEpisodes(PARAMS['listVideos'][0]))
+
+  	elif 'listStreams' in PARAMS:
+            drDkTvAddon.listStreams(PARAMS['listStreams'][0], PARAMS['title'][0])
 
         elif 'playVideo' in PARAMS:
             drDkTvAddon.playVideo(PARAMS['playVideo'][0])
