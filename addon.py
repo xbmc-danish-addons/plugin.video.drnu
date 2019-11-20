@@ -45,12 +45,6 @@ class DrDkTvAddon(object):
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector&random=%d)" % HANDLE
         self.menuItems.append((ADDON.getLocalizedString(30511), runScript))
 
-    def _create_menu_items(self, url, title):
-        items = list(self.menuItems)
-        runScript2 = "RunAddon(plugin.video.drnu,?listStreams=%s&title=%s)" % (url, title)
-        items.append((ADDON.getLocalizedString(30515), runScript2))
-        return items
-
     def _save(self):
         # save favorites
         self.favorites.sort()
@@ -195,9 +189,8 @@ class DrDkTvAddon(object):
         	item.addContextMenuItems(self.menuItems, False)
         	items.append((value, item, False))
 
-	items = sorted(items, lambda mine, yours: cmp(mine[1].getLabel().replace(' ', ''), yours[1].getLabel().replace(' ', '')))
-
   	xbmcplugin.addDirectoryItems(HANDLE, items)
+	xbmcplugin.addSortMethod(HANDLE, xbmcplugin.SORT_METHOD_LABEL)
         xbmcplugin.endOfDirectory(HANDLE)
 
     def showLiveTV(self):
@@ -217,9 +210,13 @@ class DrDkTvAddon(object):
 
             item = xbmcgui.ListItem(channel['Title'], iconImage=channel['PrimaryImageUri'])
             item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
+            item.addContextMenuItems(self.menuItems, False)
+
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
-            item.addContextMenuItems(self._create_menu_items(url, channel['Title']), False)
-            items.append((url, item, False))
+            if ADDON.getSetting('select.video.quality') == 'true':
+                items.append((PATH + '?listStreams=%s&title=%s' % (url, channel['Title']), item, True))
+            else:
+                items.append((url, item, False))
 
         items = sorted(items, lambda mine, yours: cmp(mine[1].getLabel().replace(' ', ''), yours[1].getLabel().replace(' ', '')))
 
@@ -319,11 +316,15 @@ class DrDkTvAddon(object):
             iconImage = item['PrimaryImageUri']
             listItem = xbmcgui.ListItem(item['Title'], iconImage=iconImage)
             listItem.setInfo('video', infoLabels)
-            listItem.setProperty('Fanart_Image', iconImage)
-            url = PATH + '?playVideo=' + item['Slug']
-            listItem.setProperty('IsPlayable', 'true')
-            listItem.addContextMenuItems(self._create_menu_items(item['PrimaryAsset']['Uri'], item['Title']), False)
-            directoryItems.append((url, listItem))
+            listItem.setProperty('Fanart_Image', iconImage) 
+            listItem.addContextMenuItems(self.menuItems, False)
+            if ADDON.getSetting('select.video.quality') == 'true':
+                url = PATH + '?listStreams=%s&title=%s' % (item['PrimaryAsset']['Uri'], item['Title'])
+                directoryItems.append((url, listItem, True))
+            else:
+                url = PATH + '?playVideo=' + item['Slug']
+                listItem.setProperty('IsPlayable', 'true')
+                directoryItems.append((url, listItem, False))
 
         xbmcplugin.addDirectoryItems(HANDLE, directoryItems)
         if addSortMethods:

@@ -141,7 +141,7 @@ msgid "Ultra"
 msgstr ""
 
 msgctxt "#30515"
-msgid "Show video resolutions"
+msgid "Select video quality"
 msgstr ""
 
 msgctxt "#30900"
