@@ -141,8 +141,8 @@ msgid "Ultra"
 msgstr "Ultra"
 
 msgctxt "#30515"
-msgid "Select video quality"
-msgstr "Vælg video kvalitet"
+msgid "List available bit rates"
+msgstr "Vis video bit rates"
 
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."

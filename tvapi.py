@@ -129,15 +129,14 @@ class Api(object):
             'SubtitlesUri': subtitlesUri
         }
 
-    def getQualityList(self, uri):
+    def getBitRateList(self, uri):
         playListUri = uri
         if '.m3u8' not in playListUri:
            	playListUri = self.getVideoUrl(uri)['Uri']
-	playList = self._http_request(playListUri, None, 30, False)
-        #xbmc.log(playList)
-        return self._parse_Play_List(playList)
+	playList = self._http_request(playListUri, None, 720, False)
+        return self._parse_play_list(playList)
 
-    def _parse_Play_List(self, text):
+    def _parse_play_list(self, text):
         resolutions = {}
         previousLine = ''
 

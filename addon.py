@@ -180,9 +180,9 @@ class DrDkTvAddon(object):
         else:
             self.listEpisodes(videos)
 
-    def listStreams(self, uri, title):
+    def listAvailableBitRates(self, uri, title):
 	items = list()
-	streams = self.api.getQualityList(uri)
+	streams = self.api.getBitRateList(uri)
 
 	for key, value in streams.items():
 		item = xbmcgui.ListItem(label=title + ' - ' + key)
@@ -213,8 +213,8 @@ class DrDkTvAddon(object):
             item.addContextMenuItems(self.menuItems, False)
 
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
-            if ADDON.getSetting('select.video.quality') == 'true':
-                items.append((PATH + '?listStreams=%s&title=%s' % (url, channel['Title']), item, True))
+            if ADDON.getSetting('list.available.bit.rates') == 'true':
+                items.append((PATH + '?listBitRates=%s&title=%s' % (url, channel['Title']), item, True))
             else:
                 items.append((url, item, False))
 
@@ -318,8 +318,8 @@ class DrDkTvAddon(object):
             listItem.setInfo('video', infoLabels)
             listItem.setProperty('Fanart_Image', iconImage) 
             listItem.addContextMenuItems(self.menuItems, False)
-            if ADDON.getSetting('select.video.quality') == 'true':
-                url = PATH + '?listStreams=%s&title=%s' % (item['PrimaryAsset']['Uri'], item['Title'])
+            if ADDON.getSetting('list.available.bit.rates') == 'true':
+                url = PATH + '?listBitRates=%s&title=%s' % (item['PrimaryAsset']['Uri'], item['Title'])
                 directoryItems.append((url, listItem, True))
             else:
                 url = PATH + '?playVideo=' + item['Slug']
@@ -447,8 +447,8 @@ if __name__ == '__main__':
         elif 'listVideos' in PARAMS:
             drDkTvAddon.listEpisodes(drDkTvAddon.api.getEpisodes(PARAMS['listVideos'][0]))
 
-  	elif 'listStreams' in PARAMS:
-            drDkTvAddon.listStreams(PARAMS['listStreams'][0], PARAMS['title'][0])
+  	elif 'listBitRates' in PARAMS:
+            drDkTvAddon.listAvailableBitRates(PARAMS['listBitRates'][0], PARAMS['title'][0])
 
         elif 'playVideo' in PARAMS:
             drDkTvAddon.playVideo(PARAMS['playVideo'][0])
