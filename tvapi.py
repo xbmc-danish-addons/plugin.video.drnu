@@ -129,6 +129,13 @@ class Api(object):
             'SubtitlesUri': subtitlesUri
         }
 
+
+    def redirectImageUrl(self, imageUrl):
+	# HACK: the servers behind /mu-online/api/1.2 is often returning Content-Type="text/xml" instead of "image/jpeg",
+        # this problem is not pressent for /mu/bar (the "Classic API")
+        assert(self.api.API_URL.endswith("/mu-online/api/1.2"))
+        return imageUrl.replace("/mu-online/api/1.2/bar/","/mu/bar/") + "?width=300&height=170"
+
     def _handle_paging(self, result):
         items = result['Items']
         while 'Next' in result['Paging']:
