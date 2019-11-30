@@ -196,7 +196,7 @@ class DrDkTvAddon(object):
             if server is None:
                 continue
 
-            item = xbmcgui.ListItem(channel['Title'], iconImage=channel['PrimaryImageUri'])
+            item = xbmcgui.ListItem(channel['Title'], iconImage=self.api.redirectImageUrl(channel['PrimaryImageUri']))
             item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
             item.addContextMenuItems(self.menuItems, False)
 
@@ -265,11 +265,7 @@ class DrDkTvAddon(object):
                     menuItems.append((ADDON.getLocalizedString(30200), runScript))
 
 
-                iconImage = item['PrimaryImageUri']
-                # HACK: the servers behind /mu-online/api/1.2 is often returning Content-Type="text/xml" instead of "image/jpeg", this problem is not pressent for /mu/bar (the "Classic API")
-                assert(self.api.API_URL.endswith("/mu-online/api/1.2"))
-                iconImage = iconImage.replace("/mu-online/api/1.2/bar/","/mu/bar/")
-
+                iconImage = self.api.redirectImageUrl(item['PrimaryImageUri'])
                 listItem = xbmcgui.ListItem(item['SeriesTitle'], iconImage=iconImage)
                 listItem.setProperty('Fanart_Image', iconImage)
                 listItem.addContextMenuItems(menuItems, False)
@@ -298,7 +294,7 @@ class DrDkTvAddon(object):
                     infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
                     infoLabels['year'] = int(broadcastTime.strftime('%Y'))
 
-            iconImage = item['PrimaryImageUri']
+            iconImage = self.api.redirectImageUrl(item['PrimaryImageUri'])
             listItem = xbmcgui.ListItem(item['Title'], iconImage=iconImage)
             listItem.setInfo('video', infoLabels)
             listItem.setProperty('Fanart_Image', iconImage)
