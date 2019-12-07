@@ -265,9 +265,10 @@ class DrDkTvAddon(object):
                     menuItems.append((ADDON.getLocalizedString(30200), runScript))
 
 
-                iconImage = self.api.redirectImageUrl(item['PrimaryImageUri'])
-                listItem = xbmcgui.ListItem(item['SeriesTitle'], iconImage=iconImage)
-                listItem.setProperty('Fanart_Image', iconImage)
+                listItem = xbmcgui.ListItem(item['SeriesTitle'])
+                listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 300, 170),
+                          	 'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
+                          	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 300, 170)})
                 listItem.addContextMenuItems(menuItems, False)
 
                 url = PATH + '?listVideos=' + item['SeriesSlug']
@@ -294,10 +295,11 @@ class DrDkTvAddon(object):
                     infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
                     infoLabels['year'] = int(broadcastTime.strftime('%Y'))
 
-            iconImage = self.api.redirectImageUrl(item['PrimaryImageUri'])
-            listItem = xbmcgui.ListItem(item['Title'], iconImage=iconImage)
+            listItem = xbmcgui.ListItem(item['Title'])
+            listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 300, 170),
+                             'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
+                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 300, 170)})
             listItem.setInfo('video', infoLabels)
-            listItem.setProperty('Fanart_Image', iconImage)
             url = PATH + '?playVideo=' + item['Slug']
             listItem.setProperty('IsPlayable', 'true')
             listItem.addContextMenuItems(self.menuItems, False)
