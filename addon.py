@@ -196,8 +196,10 @@ class DrDkTvAddon(object):
             if server is None:
                 continue
 
-            item = xbmcgui.ListItem(channel['Title'], iconImage=self.api.redirectImageUrl(channel['PrimaryImageUri']))
-            item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
+            item = xbmcgui.ListItem(channel['Title'])
+            item.setArt({'thumb': self.api.redirectImageUrl(channel['PrimaryImageUri'], 300, 170),
+                         'icon': self.api.redirectImageUrl(channel['PrimaryImageUri'], 75, 42),
+                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], 300, 170)}) 
             item.addContextMenuItems(self.menuItems, False)
 
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
