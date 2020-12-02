@@ -197,9 +197,9 @@ class DrDkTvAddon(object):
                 continue
 
             item = xbmcgui.ListItem(channel['Title'])
-            item.setArt({'thumb': self.api.redirectImageUrl(channel['PrimaryImageUri'], 300, 170),
+            item.setArt({'thumb': self.api.redirectImageUrl(channel['PrimaryImageUri'], 640, 360),
                          'icon': self.api.redirectImageUrl(channel['PrimaryImageUri'], 75, 42),
-                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], 300, 170)}) 
+                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], 1280, 720)}) 
             item.addContextMenuItems(self.menuItems, False)
 
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
@@ -268,9 +268,9 @@ class DrDkTvAddon(object):
 
 
                 listItem = xbmcgui.ListItem(item['SeriesTitle'])
-                listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 300, 170),
+                listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                           	 'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
-                          	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 300, 170)})
+                          	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 1280, 720)})
                 listItem.addContextMenuItems(menuItems, False)
 
                 url = PATH + '?listVideos=' + item['SeriesSlug']
@@ -298,9 +298,9 @@ class DrDkTvAddon(object):
                     infoLabels['year'] = int(broadcastTime.strftime('%Y'))
 
             listItem = xbmcgui.ListItem(item['Title'])
-            listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 300, 170),
+            listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                              'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
-                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 300, 170)})
+                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 1280, 720)})
             listItem.setInfo('video', infoLabels)
             url = PATH + '?playVideo=' + item['Slug']
             listItem.setProperty('IsPlayable', 'true')
