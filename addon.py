@@ -196,8 +196,10 @@ class DrDkTvAddon(object):
             if server is None:
                 continue
 
-            item = xbmcgui.ListItem(channel['Title'], iconImage=channel['PrimaryImageUri'])
-            item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
+            item = xbmcgui.ListItem(channel['Title'])
+            item.setArt({'thumb': self.api.redirectImageUrl(channel['PrimaryImageUri'], 640, 360),
+                         'icon': self.api.redirectImageUrl(channel['PrimaryImageUri'], 75, 42),
+                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], 1280, 720)}) 
             item.addContextMenuItems(self.menuItems, False)
 
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
@@ -265,13 +267,10 @@ class DrDkTvAddon(object):
                     menuItems.append((ADDON.getLocalizedString(30200), runScript))
 
 
-                iconImage = item['PrimaryImageUri']
-                # HACK: the servers behind /mu-online/api/1.2 is often returning Content-Type="text/xml" instead of "image/jpeg", this problem is not pressent for /mu/bar (the "Classic API")
-                assert(self.api.API_URL.endswith("/mu-online/api/1.2"))
-                iconImage = iconImage.replace("/mu-online/api/1.2/bar/","/mu/bar/")
-
-                listItem = xbmcgui.ListItem(item['SeriesTitle'], iconImage=iconImage)
-                listItem.setProperty('Fanart_Image', iconImage)
+                listItem = xbmcgui.ListItem(item['SeriesTitle'])
+                listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
+                          	 'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
+                          	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 1280, 720)})
                 listItem.addContextMenuItems(menuItems, False)
 
                 url = PATH + '?listVideos=' + item['SeriesSlug']
@@ -298,10 +297,11 @@ class DrDkTvAddon(object):
                     infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
                     infoLabels['year'] = int(broadcastTime.strftime('%Y'))
 
-            iconImage = item['PrimaryImageUri']
-            listItem = xbmcgui.ListItem(item['Title'], iconImage=iconImage)
+            listItem = xbmcgui.ListItem(item['Title'])
+            listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
+                             'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
+                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 1280, 720)})
             listItem.setInfo('video', infoLabels)
-            listItem.setProperty('Fanart_Image', iconImage)
             url = PATH + '?playVideo=' + item['Slug']
             listItem.setProperty('IsPlayable', 'true')
             listItem.addContextMenuItems(self.menuItems, False)
