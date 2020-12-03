@@ -45,8 +45,9 @@ class Api(object):
 
     def __init__(self, cachePath):
         self.cachePath = cachePath
-        #cache expires after: 86400=1 day
-        requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=86400*7 )
+        #cache expires after: 3600 = 1hour
+        requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
+        requests_cache.remove_expired_responses()
 
     def getLiveTV(self):
         return self._http_request('/channel/all-active-dr-tv-channels')
@@ -68,7 +69,7 @@ class Api(object):
             'orderBy': 'LastPrimaryBroadcastWithPublicAsset',
             'orderDescending': 'true',
             'channel': channel
-        })
+        }, cache=False)
         return result['Programs']['Items']
 
     def getProgramIndexes(self):
@@ -146,7 +147,7 @@ class Api(object):
             items.extend(result['Items'])
         return items
 
-    def _http_request(self, url, params=None):
+    def _http_request(self, url, params=None, cache=True):
         try:
             if not url.startswith(('http://','https://')):
                 url = self.API_URL + urllib.quote(url, '/')
@@ -159,7 +160,11 @@ class Api(object):
             except:
                 pass
 
-            u = requests.get(url, timeout=30)
+            if not cache:
+                with requests_cache.disabled():
+                    u = requests.get(url, timeout=30)
+            else:
+                u = requests.get(url, timeout=30)
             if u.status_code == 200:
                 content = u.text
                 u.close()
