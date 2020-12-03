@@ -24,13 +24,13 @@ try:
 except:
     import simplejson as json
 import urllib
-import urllib2
+import requests
+import requests_cache
 import hashlib
 import binascii
 import struct
 from math import ceil
 import os
-import datetime
 import re
 import base64
 import xbmcaddon
@@ -45,6 +45,8 @@ class Api(object):
 
     def __init__(self, cachePath):
         self.cachePath = cachePath
+        #cache expires after: 86400=1 day
+        requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=86400*7 )
 
     def getLiveTV(self):
         return self._http_request('/channel/all-active-dr-tv-channels')
@@ -54,8 +56,8 @@ class Api(object):
         return self._handle_paging(childrenFront['Programs'])
 
     def getThemes(self):
-        themes = self._http_request('/list/view/themesoverview')
-        return themes['Items']
+        themes = self._http_request('/page/tv/themes', {'themenamesonly': 'false'})
+        return themes['Themes']
 
     def getLatestPrograms(self):
         channel = ''
@@ -66,7 +68,7 @@ class Api(object):
             'orderBy': 'LastPrimaryBroadcastWithPublicAsset',
             'orderDescending': 'true',
             'channel': channel
-        }, cacheMinutes=5)
+        })
         return result['Programs']['Items']
 
     def getProgramIndexes(self):
@@ -144,37 +146,23 @@ class Api(object):
             items.extend(result['Items'])
         return items
 
-    def _http_request(self, url, params=None, cacheMinutes = 720):
+    def _http_request(self, url, params=None):
         try:
             if not url.startswith(('http://','https://')):
                 url = self.API_URL + urllib.quote(url, '/')
 
             if params:
-                url = url + '?' + urllib.urlencode(params, doseq=True)
+                url += '?' + urllib.urlencode(params, doseq=True)
 
             try:
                 xbmc.log(url)
             except:
                 pass
 
-            urlCachePath = os.path.join(self.cachePath, hashlib.md5(url).hexdigest() + '.cache')
-
-            cacheUntil = datetime.datetime.now() - datetime.timedelta(minutes=cacheMinutes)
-            if not os.path.exists(urlCachePath) or datetime.datetime.fromtimestamp(os.path.getmtime(urlCachePath)) < cacheUntil:
-                u = urllib2.urlopen(url, timeout=30)
-                content = u.read()
+            u = requests.get(url, timeout=30)
+            if u.status_code == 200:
+                content = u.text
                 u.close()
-
-                try:
-                    f = open(urlCachePath, 'w')
-                    f.write(content)
-                    f.close()
-                except:
-                    pass # ignore, cache has no effect
-            else:
-                f = open(urlCachePath)
-                content = f.read()
-                f.close()
 
             return json.loads(content)
         except Exception as ex:

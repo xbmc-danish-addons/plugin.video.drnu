@@ -110,7 +110,7 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((PATH + '?listVideos=%s' % tvapi.SLUG_PREMIERES, item, True))
 
-        # Themes / Repremiere
+        # Themes
         item = xbmcgui.ListItem(ADDON.getLocalizedString(30028), iconImage=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png'))
         item.setProperty('Fanart_Image', FANART_IMAGE)
         item.addContextMenuItems(self.menuItems, False)
@@ -227,13 +227,15 @@ class DrDkTvAddon(object):
         xbmcplugin.endOfDirectory(HANDLE)
 
     def showThemes(self):
+        iconImage = os.path.join(ADDON.getAddonInfo('path'), 'resources', 'icons', 'all.png')
+
         items = list()
         for theme in self.api.getThemes():
-            item = xbmcgui.ListItem(theme['ThemeTitle'], iconImage=theme['PrimaryImageUri'])
-            item.setProperty('Fanart_Image', theme['PrimaryImageUri'])
+            item = xbmcgui.ListItem(theme['Title'], iconImage=iconImage)
+            item.setProperty('Fanart_Image', FANART_IMAGE)
             item.addContextMenuItems(self.menuItems, False)
 
-            url = PATH + '?listVideos=' + theme['ThemeSlug']
+            url = PATH + '?listThemeSeries=' + theme['Paging']['Source'].split('list/',1)[1]
             items.append((url, item, True))
 
         xbmcplugin.addDirectoryItems(HANDLE, items)
@@ -388,7 +390,7 @@ if __name__ == '__main__':
     HANDLE = int(sys.argv[1])
     PARAMS = urlparse.parse_qs(sys.argv[2][1:])
 
-    CACHE_PATH = xbmc.translatePath(ADDON.getAddonInfo("Profile"))
+    CACHE_PATH = ADDON.getAddonInfo('path')
     if not os.path.exists(CACHE_PATH):
         os.makedirs(CACHE_PATH)
 
@@ -421,6 +423,9 @@ if __name__ == '__main__':
                 drDkTvAddon.showAreaSelector()
             elif PARAMS['show'][0] == 'themes':
                 drDkTvAddon.showThemes()
+
+        elif 'listThemeSeries' in PARAMS:
+            drDkTvAddon.listSeries(drDkTvAddon.api.getEpisodes(PARAMS['listThemeSeries'][0]))
 
         elif 'listProgramSeriesByLetter' in PARAMS:
             drDkTvAddon.listSeries(drDkTvAddon.api.getSeries(PARAMS['listProgramSeriesByLetter'][0]))

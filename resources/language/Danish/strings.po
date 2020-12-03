@@ -81,8 +81,8 @@ msgid "Live TV"
 msgstr "Live TV"
 
 msgctxt "#30028"
-msgid "Themes / Repremiere"
-msgstr "Temaer / Repremiere"
+msgid "Themes"
+msgstr "Temaer"
 
 msgctxt "#30100"
 msgid "DR TV Universe"
