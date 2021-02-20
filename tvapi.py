@@ -125,30 +125,7 @@ class Api(object):
 
         subtitlesUri = None
         if 'SubtitlesList' in result and len(result['SubtitlesList']) > 0:
-#            subtitlesUri = result['SubtitlesList'][0]['Uri']
-            subtitlesUri=[]
-            foreign = False
-            for sub in result['SubtitlesList']:
-               if 'HardOfHearing' in sub['Type']:
-                   name = '/subtitles.da.srt'
-               else:
-                   foreign = True
-                   name = '/foreign.da.srt'
-               name = self.cachePath + name
-               u = requests.get(sub['Uri'], timeout=10)
-               if u.status_code != 200:
-                   u.close()
-                   break
-               srt = self.vtt2srt( u.content )
-               with open(name,'w') as fn:
-                   fn.write(srt)
-               u.close()
-               subtitlesUri.append(name)
-            if not foreign:
-               name = self.cachePath + '/no-subtitles.da.srt'
-               with open(name,'w') as fn:
-                   fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
-               subtitlesUri = [name] + subtitlesUri
+            subtitlesUri = result['SubtitlesList'][0]['Uri']
         return {
             'Uri': uri,
             'SubtitlesUri': subtitlesUri
@@ -194,23 +171,6 @@ class Api(object):
             return json.loads(content)
         except Exception as ex:
             raise ApiException(ex)
-
-    def vtt2srt(self, vtt):
-        srt = vtt.replace("\r\n", "\n")
-        srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
-        srt = re.sub(r'WEBVTT\n\n', '', srt)
-        srt = re.sub(r'^\d+\n', '', srt)
-        srt = re.sub(r'\n\d+\n', '\n', srt)
-        srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
-
-        srtout = '1\n'
-        idx = 2
-        for l in srt.split('\n'):
-           if l == 'putINDEXhere':
-               l = str(idx)
-               idx += 1
-           srtout += l + '\n'
-        return srtout
 
 BLOCK_SIZE_BYTES = 16
 
