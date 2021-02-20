@@ -140,6 +140,22 @@ msgctxt "#30514"
 msgid "Ultra"
 msgstr ""
 
+msgctxt "#30520"
+msgid "Fanart image resolution"
+msgstr ""
+
+msgctxt "#30521"
+msgid "1080"
+msgstr ""
+
+msgctxt "#30522"
+msgid "720"
+msgstr ""
+
+msgctxt "#30523"
+msgid "360"
+msgstr ""
+
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
 msgstr ""
