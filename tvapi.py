@@ -49,6 +49,10 @@ class Api(object):
         requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
         requests_cache.remove_expired_responses()
 
+        self.empty_srt = self.cachePath + '/no-subtitles.srt'
+        with open(self.empty_srt, 'w') as fn:
+           fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
+
     def getLiveTV(self):
         return self._http_request('/channel/all-active-dr-tv-channels')
 
@@ -145,10 +149,8 @@ class Api(object):
                u.close()
                subtitlesUri.append(name)
             if not foreign:
-               name = self.cachePath + '/no-subtitles.da.srt'
-               with open(name,'w') as fn:
-                   fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
-               subtitlesUri = [name] + subtitlesUri
+               # no subtitles, so probably all danish, so we need to set an empty subtitle file as first choice
+               subtitlesUri = [self.empty_srt] + subtitlesUri
         return {
             'Uri': uri,
             'SubtitlesUri': subtitlesUri
