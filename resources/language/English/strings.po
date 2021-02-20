@@ -81,7 +81,7 @@ msgid "Live TV"
 msgstr ""
 
 msgctxt "#30028"
-msgid "Themes / Repremiere"
+msgid "Themes"
 msgstr ""
 
 msgctxt "#30100"
