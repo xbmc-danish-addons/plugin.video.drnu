@@ -339,6 +339,30 @@ class DrDkTvAddon(object):
                 item.setSubtitles(video['SubtitlesUri'])
         xbmcplugin.setResolvedUrl(HANDLE, video['Uri'] is not None, item)
 
+    # Supported slugs are dr1, dr2 anddr-ramasjang
+    def playLiveTV(self, slug):
+        item = None
+        url = None
+        for channel in self.api.getLiveTV():
+            # If the channel has the right slug, play the channel
+            if channel['Slug'] == slug:
+                server = None
+                for streamingServer in channel['StreamingServers']:
+                    if streamingServer['LinkType'] == 'HLS':
+                        server = streamingServer
+                        break
+                if server is None:
+                    continue
+
+                url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
+                item = xbmcgui.ListItem(channel['Title'], iconImage=channel['PrimaryImageUri'], path=url)
+                item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
+                item.addContextMenuItems(self.menuItems, False)
+                break
+        if item:
+            xbmcplugin.setResolvedUrl(HANDLE, True, item)
+        else:
+            self.displayError(ADDON.getLocalizedString(30905) + ' ' + slug)
 
     def parseDate(self, dateString):
         if dateString is not None:
@@ -442,6 +466,10 @@ if __name__ == '__main__':
 
         elif 'playVideo' in PARAMS:
             drDkTvAddon.playVideo(PARAMS['playVideo'][0])
+
+        # Supported slugs are dr1, dr2 and dr-ramasjang
+        elif 'playLiveTV' in PARAMS:
+            drDkTvAddon.playLiveTV(PARAMS['playLiveTV'][0])
 
         elif 'addfavorite' in PARAMS:
             drDkTvAddon.addFavorite(PARAMS['addfavorite'][0])
