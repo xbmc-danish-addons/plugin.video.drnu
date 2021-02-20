@@ -120,13 +120,35 @@ class Api(object):
                 uri = link['Uri']
                 if uri == None:
                     uri = link['EncryptedUri']
-                    uri = decrypt_uri(uri)               
+                    uri = decrypt_uri(uri)
                 break
 
         subtitlesUri = None
         if 'SubtitlesList' in result and len(result['SubtitlesList']) > 0:
-            subtitlesUri = result['SubtitlesList'][0]['Uri']
-
+#            subtitlesUri = result['SubtitlesList'][0]['Uri']
+            subtitlesUri=[]
+            foreign = False
+            for sub in result['SubtitlesList']:
+               if 'HardOfHearing' in sub['Type']:
+                   name = '/subtitles.da.srt'
+               else:
+                   foreign = True
+                   name = '/foreign.da.srt'
+               name = self.cachePath + name
+               u = requests.get(sub['Uri'], timeout=10)
+               if u.status_code != 200:
+                   u.close()
+                   break
+               srt = self.vtt2srt( u.content )
+               with open(name,'w') as fn:
+                   fn.write(srt)
+               u.close()
+               subtitlesUri.append(name)
+            if not foreign:
+               name = self.cachePath + '/no-subtitles.da.srt'
+               with open(name,'w') as fn:
+                   fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
+               subtitlesUri = [name] + subtitlesUri
         return {
             'Uri': uri,
             'SubtitlesUri': subtitlesUri
@@ -172,6 +194,23 @@ class Api(object):
             return json.loads(content)
         except Exception as ex:
             raise ApiException(ex)
+
+    def vtt2srt(self, vtt):
+        srt = vtt.replace("\r\n", "\n")
+        srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
+        srt = re.sub(r'WEBVTT\n\n', '', srt)
+        srt = re.sub(r'^\d+\n', '', srt)
+        srt = re.sub(r'\n\d+\n', '\n', srt)
+        srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
+
+        srtout = '1\n'
+        idx = 2
+        for l in srt.split('\n'):
+           if l == 'putINDEXhere':
+               l = str(idx)
+               idx += 1
+           srtout += l + '\n'
+        return srtout
 
 BLOCK_SIZE_BYTES = 16
 
@@ -253,7 +292,7 @@ try:
     compat_str = unicode  # Python 2
 except NameError:
     compat_str = str
-    
+
 def compat_struct_pack(spec, *args):
     if isinstance(spec, compat_str):
         spec = spec.encode('ascii')
@@ -263,7 +302,7 @@ def compat_struct_unpack(spec, *args):
     if isinstance(spec, compat_str):
         spec = spec.encode('ascii')
     return struct.unpack(spec, *args)
-                      
+
 def mix_column(data, matrix):
     data_mixed = []
     for row in range(4):
@@ -283,12 +322,12 @@ def mix_columns(data, matrix=MIX_COLUMN_MATRIX):
 
 def mix_columns_inv(data):
     return mix_columns(data, MIX_COLUMN_MATRIX_INV)
-    
+
 def rijndael_mul(a, b):
     if(a == 0 or b == 0):
         return 0
     return RIJNDAEL_EXP_TABLE[(RIJNDAEL_LOG_TABLE[a] + RIJNDAEL_LOG_TABLE[b]) % 0xFF]
-    
+
 def shift_rows_inv(data):
     data_shifted = []
     for column in range(4):
@@ -390,7 +429,7 @@ def aes_decrypt(data, expanded_key):
     data = xor(data, expanded_key[:BLOCK_SIZE_BYTES])
 
     return data
-    
+
 def bytes_to_intlist(bs):
     if not bs:
         return []
@@ -403,10 +442,10 @@ def intlist_to_bytes(xs):
     if not xs:
         return b''
     return compat_struct_pack('%dB' % len(xs), *xs)
-            
+
 def hex_to_bytes(hex):
     return binascii.a2b_hex(hex.encode('ascii'))
-    
+
 def aes_cbc_decrypt(data, key, iv):
     """
     Decrypt with aes in CBC mode
@@ -430,7 +469,7 @@ def aes_cbc_decrypt(data, key, iv):
     decrypted_data = decrypted_data[:len(data)]
 
     return decrypted_data
-            
+
 def decrypt_uri(e):
     n = int(e[2:10], 16)
     a = e[10 + n:]
