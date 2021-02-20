@@ -337,7 +337,7 @@ class DrDkTvAddon(object):
                 item.setSubtitles([video['SubtitlesUri']])
         xbmcplugin.setResolvedUrl(HANDLE, video['Uri'] is not None, item)
 
-    # Supported slugs are dr1, dr2 anddr-ramasjang
+    # Supported slugs are dr1, dr2 and dr-ramasjang
     def playLiveTV(self, slug):
         item = None
         url = None
