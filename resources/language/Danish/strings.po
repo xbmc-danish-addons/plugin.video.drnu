@@ -144,18 +144,6 @@ msgctxt "#30520"
 msgid "Fanart image resolution"
 msgstr "Størrelse på fanart billeder"
 
-msgctxt "#30521"
-msgid "1080"
-msgstr ""
-
-msgctxt "#30522"
-msgid "720"
-msgstr ""
-
-msgctxt "#30523"
-msgid "360"
-msgstr ""
-
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
 msgstr "Der er sket en fejl i kommunikationen med DR NU."
