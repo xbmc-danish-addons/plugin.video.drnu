@@ -140,6 +140,10 @@ msgctxt "#30514"
 msgid "Ultra"
 msgstr "Ultra"
 
+msgctxt "#30520"
+msgid "Fanart image resolution"
+msgstr "Størrelse på fanart billeder"
+
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
 msgstr "Der er sket en fejl i kommunikationen med DR NU."
@@ -159,3 +163,7 @@ msgstr "lokalt på disken. Fejlen er:"
 msgctxt "#30904"
 msgid "The video is no longer available and playback is not possible."
 msgstr "Videoen er ikke længere tilgængelig og kan ikke afspilles."
+
+msgctxt "#30905"
+msgid "Unknown Live TV Slug:"
+msgstr "Ukendt Live TV Slug:"

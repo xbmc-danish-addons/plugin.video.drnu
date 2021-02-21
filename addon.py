@@ -197,9 +197,11 @@ class DrDkTvAddon(object):
                 continue
 
             item = xbmcgui.ListItem(channel['Title'])
+            fanart_h = int(ADDON.getSetting('fanart.size'))
+            fanart_w = int(fanart_h*16/9)            
             item.setArt({'thumb': self.api.redirectImageUrl(channel['PrimaryImageUri'], 640, 360),
                          'icon': self.api.redirectImageUrl(channel['PrimaryImageUri'], 75, 42),
-                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], 1280, 720)}) 
+                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], fanart_w, fanart_h)}) 
             item.addContextMenuItems(self.menuItems, False)
 
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
@@ -270,9 +272,11 @@ class DrDkTvAddon(object):
 
 
                 listItem = xbmcgui.ListItem(item['SeriesTitle'])
+                fanart_h = int(ADDON.getSetting('fanart.size'))
+                fanart_w = int(fanart_h*16/9)            
                 listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                           	 'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
-                          	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 1280, 720)})
+                          	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
                 listItem.addContextMenuItems(menuItems, False)
 
                 url = PATH + '?listVideos=' + item['SeriesSlug']
@@ -300,9 +304,11 @@ class DrDkTvAddon(object):
                     infoLabels['year'] = int(broadcastTime.strftime('%Y'))
 
             listItem = xbmcgui.ListItem(item['Title'])
+            fanart_h = int(ADDON.getSetting('fanart.size'))
+            fanart_w = int(fanart_h*16/9)            
             listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                              'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
-                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], 1280, 720)})
+                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
             listItem.setInfo('video', infoLabels)
             url = PATH + '?playVideo=' + item['Slug']
             listItem.setProperty('IsPlayable', 'true')
@@ -326,13 +332,35 @@ class DrDkTvAddon(object):
         video = self.api.getVideoUrl(item['PrimaryAsset']['Uri'])
         item = xbmcgui.ListItem(path=video['Uri'], thumbnailImage=item['PrimaryImageUri'])
 
-        if video['SubtitlesUri']:
-            if ADDON.getSetting('enable.subtitles') == 'true':
-                item.setSubtitles(video['SubtitlesUri'][::-1])
-            else:
-                item.setSubtitles(video['SubtitlesUri'])
+        if ADDON.getSetting('enable.subtitles') == 'true':
+            if video['SubtitlesUri']:
+                item.setSubtitles([video['SubtitlesUri']])
         xbmcplugin.setResolvedUrl(HANDLE, video['Uri'] is not None, item)
 
+    # Supported slugs are dr1, dr2 and dr-ramasjang
+    def playLiveTV(self, slug):
+        item = None
+        url = None
+        for channel in self.api.getLiveTV():
+            # If the channel has the right slug, play the channel
+            if channel['Slug'] == slug:
+                server = None
+                for streamingServer in channel['StreamingServers']:
+                    if streamingServer['LinkType'] == 'HLS':
+                        server = streamingServer
+                        break
+                if server is None:
+                    continue
+
+                url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
+                item = xbmcgui.ListItem(channel['Title'], iconImage=channel['PrimaryImageUri'], path=url)
+                item.setProperty('Fanart_Image', channel['PrimaryImageUri'])
+                item.addContextMenuItems(self.menuItems, False)
+                break
+        if item:
+            xbmcplugin.setResolvedUrl(HANDLE, True, item)
+        else:
+            self.displayError(ADDON.getLocalizedString(30905) + ' ' + slug)
 
     def parseDate(self, dateString):
         if dateString is not None:
@@ -436,6 +464,10 @@ if __name__ == '__main__':
 
         elif 'playVideo' in PARAMS:
             drDkTvAddon.playVideo(PARAMS['playVideo'][0])
+
+        # Supported slugs are dr1, dr2 and dr-ramasjang
+        elif 'playLiveTV' in PARAMS:
+            drDkTvAddon.playLiveTV(PARAMS['playLiveTV'][0])
 
         elif 'addfavorite' in PARAMS:
             drDkTvAddon.addFavorite(PARAMS['addfavorite'][0])

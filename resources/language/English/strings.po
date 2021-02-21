@@ -140,6 +140,10 @@ msgctxt "#30514"
 msgid "Ultra"
 msgstr ""
 
+msgctxt "#30520"
+msgid "Fanart image resolution"
+msgstr ""
+
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
 msgstr ""
@@ -158,4 +162,8 @@ msgstr ""
 
 msgctxt "#30904"
 msgid "The video is no longer available and playback is not possible."
+msgstr ""
+
+msgctxt "#30905"
+msgid "Unknown Live TV Slug:"
 msgstr ""
