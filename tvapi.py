@@ -46,7 +46,7 @@ class Api(object):
     def __init__(self, cachePath):
         self.cachePath = cachePath
         #cache expires after: 3600 = 1hour
-        requests_cache.install_cache(os.path.join(cachePath,'/requests.cache'), backend='sqlite', expire_after=3600*8 )
+        requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
         requests_cache.remove_expired_responses()
 
     def getLiveTV(self):

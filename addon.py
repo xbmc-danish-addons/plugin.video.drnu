@@ -197,11 +197,11 @@ class DrDkTvAddon(object):
                 continue
 
             item = xbmcgui.ListItem(channel['Title'])
-            thumbsize_h = int(ADDON.getSetting('thumbsize'))
-            thumbsize_w = int(thumbsize_h*16/9)            
+            fanart_h = int(ADDON.getSetting('fanart.size'))
+            fanart_w = int(fanart_h*16/9)            
             item.setArt({'thumb': self.api.redirectImageUrl(channel['PrimaryImageUri'], 640, 360),
                          'icon': self.api.redirectImageUrl(channel['PrimaryImageUri'], 75, 42),
-                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], thumbsize_w, thumbsize_h)}) 
+                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], fanart_w, fanart_h)}) 
             item.addContextMenuItems(self.menuItems, False)
 
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
@@ -272,11 +272,11 @@ class DrDkTvAddon(object):
 
 
                 listItem = xbmcgui.ListItem(item['SeriesTitle'])
-                thumbsize_h = int(ADDON.getSetting('thumbsize'))
-                thumbsize_w = int(thumbsize_h*16/9)            
+                fanart_h = int(ADDON.getSetting('fanart.size'))
+                fanart_w = int(fanart_h*16/9)            
                 listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                           	 'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
-                          	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], thumbsize_w, thumbsize_h)})
+                          	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
                 listItem.addContextMenuItems(menuItems, False)
 
                 url = PATH + '?listVideos=' + item['SeriesSlug']
@@ -304,11 +304,11 @@ class DrDkTvAddon(object):
                     infoLabels['year'] = int(broadcastTime.strftime('%Y'))
 
             listItem = xbmcgui.ListItem(item['Title'])
-            thumbsize_h = int(ADDON.getSetting('thumbsize'))
-            thumbsize_w = int(thumbsize_h*16/9)            
+            fanart_h = int(ADDON.getSetting('fanart.size'))
+            fanart_w = int(fanart_h*16/9)            
             listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                              'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
-                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], thumbsize_w, thumbsize_h)})
+                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
             listItem.setInfo('video', infoLabels)
             url = PATH + '?playVideo=' + item['Slug']
             listItem.setProperty('IsPlayable', 'true')
