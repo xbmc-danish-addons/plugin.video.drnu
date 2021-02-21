@@ -196,6 +196,23 @@ class Api(object):
         except Exception as ex:
             raise ApiException(ex)
 
+    def vtt2srt(self, vtt):
+        srt = vtt.replace("\r\n", "\n")
+        srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
+        srt = re.sub(r'WEBVTT\n\n', '', srt)
+        srt = re.sub(r'^\d+\n', '', srt)
+        srt = re.sub(r'\n\d+\n', '\n', srt)
+        srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
+
+        srtout = '1\n'
+        idx = 2
+        for l in srt.split('\n'):
+           if l == 'putINDEXhere':
+               l = str(idx)
+               idx += 1
+           srtout += l + '\n'
+        return srtout
+
 BLOCK_SIZE_BYTES = 16
 
 RCON = (0x8d, 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1b, 0x36)
