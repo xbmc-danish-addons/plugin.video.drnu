@@ -46,7 +46,7 @@ class Api(object):
     def __init__(self, cachePath):
         self.cachePath = cachePath
         #cache expires after: 3600 = 1hour
-        requests_cache.install_cache(os.path.join(cachePath,'/requests.cache'), backend='sqlite', expire_after=3600*8 )
+        requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
         requests_cache.remove_expired_responses()
 
     def getLiveTV(self):
@@ -120,13 +120,12 @@ class Api(object):
                 uri = link['Uri']
                 if uri == None:
                     uri = link['EncryptedUri']
-                    uri = decrypt_uri(uri)               
+                    uri = decrypt_uri(uri)
                 break
 
         subtitlesUri = None
         if 'SubtitlesList' in result and len(result['SubtitlesList']) > 0:
             subtitlesUri = result['SubtitlesList'][0]['Uri']
-
         return {
             'Uri': uri,
             'SubtitlesUri': subtitlesUri
@@ -253,7 +252,7 @@ try:
     compat_str = unicode  # Python 2
 except NameError:
     compat_str = str
-    
+
 def compat_struct_pack(spec, *args):
     if isinstance(spec, compat_str):
         spec = spec.encode('ascii')
@@ -263,7 +262,7 @@ def compat_struct_unpack(spec, *args):
     if isinstance(spec, compat_str):
         spec = spec.encode('ascii')
     return struct.unpack(spec, *args)
-                      
+
 def mix_column(data, matrix):
     data_mixed = []
     for row in range(4):
@@ -283,12 +282,12 @@ def mix_columns(data, matrix=MIX_COLUMN_MATRIX):
 
 def mix_columns_inv(data):
     return mix_columns(data, MIX_COLUMN_MATRIX_INV)
-    
+
 def rijndael_mul(a, b):
     if(a == 0 or b == 0):
         return 0
     return RIJNDAEL_EXP_TABLE[(RIJNDAEL_LOG_TABLE[a] + RIJNDAEL_LOG_TABLE[b]) % 0xFF]
-    
+
 def shift_rows_inv(data):
     data_shifted = []
     for column in range(4):
@@ -390,7 +389,7 @@ def aes_decrypt(data, expanded_key):
     data = xor(data, expanded_key[:BLOCK_SIZE_BYTES])
 
     return data
-    
+
 def bytes_to_intlist(bs):
     if not bs:
         return []
@@ -403,10 +402,10 @@ def intlist_to_bytes(xs):
     if not xs:
         return b''
     return compat_struct_pack('%dB' % len(xs), *xs)
-            
+
 def hex_to_bytes(hex):
     return binascii.a2b_hex(hex.encode('ascii'))
-    
+
 def aes_cbc_decrypt(data, key, iv):
     """
     Decrypt with aes in CBC mode
@@ -430,7 +429,7 @@ def aes_cbc_decrypt(data, key, iv):
     decrypted_data = decrypted_data[:len(data)]
 
     return decrypted_data
-            
+
 def decrypt_uri(e):
     n = int(e[2:10], 16)
     a = e[10 + n:]
