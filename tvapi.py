@@ -34,6 +34,7 @@ import os
 import re
 import base64
 import xbmcaddon
+import xbmc
 
 ADDON = xbmcaddon.Addon()
 
@@ -49,7 +50,7 @@ class Api(object):
         requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
         requests_cache.remove_expired_responses()
 
-        self.empty_srt = self.cachePath + '/no-subtitles.srt'
+        self.empty_srt = self.cachePath + '/{}.da.srt'.format(ADDON.getLocalizedString(30508))
         with open(self.empty_srt, 'w') as fn:
            fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
 
@@ -133,17 +134,17 @@ class Api(object):
             foreign = False
             for sub in result['SubtitlesList']:
                if 'HardOfHearing' in sub['Type']:
-                   name = '/subtitles.da.srt'
+                   name = '/{}.da.srt'.format(ADDON.getLocalizedString(30506).encode('utf-8'))
                else:
                    foreign = True
-                   name = '/foreign.da.srt'
+                   name = '/{}.da.srt'.format(ADDON.getLocalizedString(30507))
                name = self.cachePath + name
                u = requests.get(sub['Uri'], timeout=10)
                if u.status_code != 200:
                    u.close()
                    break
                srt = self.vtt2srt( u.content )
-               with open(name,'w') as fn:
+               with open(name, 'w') as fn:
                    fn.write(srt)
                u.close()
                subtitlesUri.append(name)
