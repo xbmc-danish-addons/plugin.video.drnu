@@ -34,6 +34,7 @@ import os
 import re
 import base64
 import xbmcaddon
+import xbmc
 
 ADDON = xbmcaddon.Addon()
 
@@ -48,6 +49,10 @@ class Api(object):
         #cache expires after: 3600 = 1hour
         requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
         requests_cache.remove_expired_responses()
+
+        self.empty_srt = self.cachePath + '/{}.da.srt'.format(ADDON.getLocalizedString(30508))
+        with open(self.empty_srt, 'w') as fn:
+           fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
 
     def getLiveTV(self):
         return self._http_request('/channel/all-active-dr-tv-channels')
@@ -125,7 +130,27 @@ class Api(object):
 
         subtitlesUri = None
         if 'SubtitlesList' in result and len(result['SubtitlesList']) > 0:
-            subtitlesUri = result['SubtitlesList'][0]['Uri']
+            subtitlesUri=[]
+            foreign = False
+            for sub in result['SubtitlesList']:
+               if 'HardOfHearing' in sub['Type']:
+                   name = '/{}.da.srt'.format(ADDON.getLocalizedString(30506).encode('utf-8'))
+               else:
+                   foreign = True
+                   name = '/{}.da.srt'.format(ADDON.getLocalizedString(30507))
+               name = self.cachePath + name
+               u = requests.get(sub['Uri'], timeout=10)
+               if u.status_code != 200:
+                   u.close()
+                   break
+               srt = self.vtt2srt( u.content )
+               with open(name, 'w') as fn:
+                   fn.write(srt)
+               u.close()
+               subtitlesUri.append(name)
+            if not foreign:
+               # no subtitles, so probably all danish, so we need to set an empty subtitle file as first choice
+               subtitlesUri = [self.empty_srt] + subtitlesUri
         return {
             'Uri': uri,
             'SubtitlesUri': subtitlesUri
@@ -171,6 +196,23 @@ class Api(object):
             return json.loads(content)
         except Exception as ex:
             raise ApiException(ex)
+
+    def vtt2srt(self, vtt):
+        srt = vtt.replace("\r\n", "\n")
+        srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
+        srt = re.sub(r'WEBVTT\n\n', '', srt)
+        srt = re.sub(r'^\d+\n', '', srt)
+        srt = re.sub(r'\n\d+\n', '\n', srt)
+        srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
+
+        srtout = '1\n'
+        idx = 2
+        for l in srt.split('\n'):
+           if l == 'putINDEXhere':
+               l = str(idx)
+               idx += 1
+           srtout += l + '\n'
+        return srtout
 
 BLOCK_SIZE_BYTES = 16
 

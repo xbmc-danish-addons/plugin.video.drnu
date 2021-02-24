@@ -120,6 +120,18 @@ msgctxt "#30505"
 msgid "Remove programs from Ramasjang/Ultra in latest videos list"
 msgstr ""
 
+msgctxt "#30506"
+msgid "Hard-of-hearing"
+msgstr ""
+
+msgctxt "#30507"
+msgid "Subtitles"
+msgstr ""
+
+msgctxt "#30508"
+msgid "Empty"
+msgstr ""
+
 msgctxt "#30510"
 msgid "Start in area"
 msgstr ""

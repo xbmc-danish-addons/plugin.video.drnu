@@ -120,6 +120,18 @@ msgctxt "#30505"
 msgid "Remove programs from Ramasjang/Ultra in latest videos list"
 msgstr "Fjern programmer fra Ramasjang/Ultra under nyeste videoer"
 
+msgctxt "#30506"
+msgid "Hard-of-hearing"
+msgstr "For hørehæmmede"
+
+msgctxt "#30507"
+msgid "Subtitles"
+msgstr "Undertekster"
+
+msgctxt "#30508"
+msgid "empty"
+msgstr "Ingen undertekster"
+
 msgctxt "#30510"
 msgid "Start in area"
 msgstr "Start i område"
