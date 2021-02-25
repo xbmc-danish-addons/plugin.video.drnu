@@ -418,7 +418,7 @@ if __name__ == '__main__':
     HANDLE = int(sys.argv[1])
     PARAMS = urlparse.parse_qs(sys.argv[2][1:])
 
-    CACHE_PATH = ADDON.getAddonInfo('path')
+    CACHE_PATH = ADDON.getAddonInfo('profile')
     if not os.path.exists(CACHE_PATH):
         os.makedirs(CACHE_PATH)
 
