@@ -23,7 +23,7 @@ try:
     import json
 except:
     import simplejson as json
-import urllib
+import urllib.request, urllib.parse, urllib.error
 import requests
 import requests_cache
 import hashlib
@@ -172,10 +172,10 @@ class Api(object):
     def _http_request(self, url, params=None, cache=True):
         try:
             if not url.startswith(('http://','https://')):
-                url = self.API_URL + urllib.quote(url, '/')
+                url = self.API_URL + urllib.parse.quote(url, '/')
 
             if params:
-                url += '?' + urllib.urlencode(params, doseq=True)
+                url += '?' + urllib.parse.urlencode(params, doseq=True)
 
             try:
                 xbmc.log(url)
@@ -289,7 +289,7 @@ RIJNDAEL_LOG_TABLE = (0x00, 0x00, 0x19, 0x01, 0x32, 0x02, 0x1a, 0xc6, 0x4b, 0xc7
                       0x67, 0x4a, 0xed, 0xde, 0xc5, 0x31, 0xfe, 0x18, 0x0d, 0x63, 0x8c, 0x80, 0xc0, 0xf7, 0x70, 0x07)
 
 try:
-    compat_str = unicode  # Python 2
+    compat_str = str  # Python 2
 except NameError:
     compat_str = str
 
