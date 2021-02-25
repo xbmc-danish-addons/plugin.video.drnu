@@ -1,5 +1,5 @@
 #
-#      Copyright (C) 2014 Tommy Winther, msj33
+#      Copyright (C) 2014 Tommy Winther, msj33, TermeHansen
 #
 #  https://github.com/xbmc-danish-addons/plugin.video.drnu
 #
@@ -49,7 +49,6 @@ class Api(object):
         #cache expires after: 3600 = 1hour
         requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
         requests_cache.remove_expired_responses()
-
         self.empty_srt = self.cachePath + '/{}.da.srt'.format(ADDON.getLocalizedString(30508))
         with open(self.empty_srt, 'w') as fn:
            fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
@@ -134,11 +133,10 @@ class Api(object):
             foreign = False
             for sub in result['SubtitlesList']:
                if 'HardOfHearing' in sub['Type']:
-                   name = '/{}.da.srt'.format(ADDON.getLocalizedString(30506).encode('utf-8'))
+                   name = '{}/{}.da.srt'.format(self.cachePath, ADDON.getLocalizedString(30506).encode('utf-8'))
                else:
                    foreign = True
-                   name = '/{}.da.srt'.format(ADDON.getLocalizedString(30507))
-               name = self.cachePath + name
+                   name = '{}/{}.da.srt'.format(self.cachePath, ADDON.getLocalizedString(30507).encode('utf-8'))
                u = requests.get(sub['Uri'], timeout=10)
                if u.status_code != 200:
                    u.close()
