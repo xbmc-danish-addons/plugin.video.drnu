@@ -21,7 +21,7 @@
 import pickle
 import os
 import sys
-import urllib.parse
+import urlparse
 import re
 import datetime
 
@@ -419,7 +419,7 @@ if __name__ == '__main__':
     ADDON = xbmcaddon.Addon()
     PATH = sys.argv[0]
     HANDLE = int(sys.argv[1])
-    PARAMS = urllib.parse.parse_qs(sys.argv[2][1:])
+    PARAMS = urlparse.parse_qs(sys.argv[2][1:])
 
     CACHE_PATH = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile'))
     if not os.path.exists(CACHE_PATH):
