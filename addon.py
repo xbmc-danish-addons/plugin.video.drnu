@@ -333,7 +333,10 @@ class DrDkTvAddon(object):
         item = xbmcgui.ListItem(path=video['Uri'], thumbnailImage=item['PrimaryImageUri'])
 
         if video['SubtitlesUri']:
-            item.setSubtitles(video['SubtitlesUri'])
+            if ADDON.getSetting('enable.subtitles') == 'true':
+                item.setSubtitles(video['SubtitlesUri'][::-1])
+            else:
+                item.setSubtitles(video['SubtitlesUri'])
         xbmcplugin.setResolvedUrl(HANDLE, video['Uri'] is not None, item)
 
     # Supported slugs are dr1, dr2 and dr-ramasjang
@@ -418,7 +421,7 @@ if __name__ == '__main__':
     HANDLE = int(sys.argv[1])
     PARAMS = urlparse.parse_qs(sys.argv[2][1:])
 
-    CACHE_PATH = ADDON.getAddonInfo('profile')
+    CACHE_PATH = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile'))
     if not os.path.exists(CACHE_PATH):
         os.makedirs(CACHE_PATH)
 
