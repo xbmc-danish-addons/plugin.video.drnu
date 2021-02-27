@@ -1,3 +1,6 @@
+[B]Version 5.1.0 - 2021-02-27[/B]
+- Re-factor of code to work in python3 for kodi 19
+
 [B]Version 5.0.13 - 2021-02-27[/B]
 - Adding old PR's + minor fixes. last update before kodi 19 and python3
 - Change for request-cache for storing web requests locally (in 8hours) #34
