@@ -22,7 +22,7 @@ import os
 
 import xbmcaddon
 import xbmcgui
-
+import xbmc
 
 class AreaSelectorDialog(xbmcgui.WindowDialog):
     def __init__(self):
@@ -35,20 +35,21 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
 
         title = xbmcgui.ControlLabel(0, 60, 1280, 60, "[B]%s[/B][CR]%s" % (ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101)), 'font30', alignment=2)
 
-        self.drTvButton = xbmcgui.ControlButton(70, 210, 300, 300, "",
+        self.drTvButton = xbmcgui.ControlButton(70, 210, 300, 300, "drtv",
                                                 focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-drtv-focus.png'),
                                                 noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-drtv.png')
                                                 )
 
-        self.ramasjangButton = xbmcgui.ControlButton(490, 210, 300, 300, "",
+        self.ramasjangButton = xbmcgui.ControlButton(490, 210, 300, 300, "ramasjang",
                                                      focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ramasjang-focus.png'),
                                                      noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ramasjang.png')
                                                      )
 
-        self.ultraButton = xbmcgui.ControlButton(910, 210, 300, 300, "",
+        self.ultraButton = xbmcgui.ControlButton(910, 210, 300, 300, "ultra",
                                                  focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ultra-focus.png'),
                                                  noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ultra.png')
                                                  )
+#        self.ultraButton.mylabel = 'ultra'
 
         self.addControls([background, title, self.drTvButton, self.ramasjangButton, self.ultraButton])
 
@@ -61,12 +62,19 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
 
         self.setFocus(self.drTvButton)
 
+#    def onAction(self, control):
+#        xbmc.log('action ' + str(control.getLabel())+ '+ '+ str(control.getLabel2()), xbmc.LOGINFO )
+
+
     def onControl(self, control):
-        if control == self.drTvButton:
-            self.areaSelected = 'drtv'
-        elif control == self.ramasjangButton:
-            self.areaSelected = 'ramasjang'
-        elif control == self.ultraButton:
-            self.areaSelected = 'ultra'
+        xbmc.log('gui ' + str(control.getLabel() ), xbmc.LOGINFO )
+        self.areaSelected = control.getLabel()
+
+        # if control == self.drTvButton:
+        #     self.areaSelected = 'drtv'
+        # elif control == self.ramasjangButton:
+        #     self.areaSelected = 'ramasjang'
+        # elif control == self.ultraButton:
+        #     self.areaSelected = 'ultra'
 
         self.close()
