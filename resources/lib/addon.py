@@ -95,7 +95,7 @@ class DrDkTvAddon(object):
         gui.doModal()
         areaSelected = gui.areaSelected
         del gui
-        make_notice(areaSelected)
+
         if areaSelected == 'none':
             pass
         elif areaSelected == 'drtv':
@@ -438,7 +438,6 @@ class DrDkTvAddon(object):
     def route(self, query):
         try:
             PARAMS = dict(urllib.parse.parse_qsl(query[1:]))
-            make_notice(PARAMS)
             if 'show' in PARAMS:
                 if PARAMS['show'] == 'liveTV':
                     self.showLiveTV()
