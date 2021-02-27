@@ -1,4 +1,4 @@
-﻿﻿[B]Version 5.0.14 - 2021-02-21[/B]
+﻿﻿[B]Version 5.0.14 - 2021-02-27[/B]
 - Fix language names and folders
 - Add assets and news to addon.xml
 
