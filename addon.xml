@@ -27,7 +27,7 @@
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-	    </assets>
+        </assets>
         <news>[B]5.0.14[/B][CR]- Fix language names and folders[CR]- Add assets and news to addon.xml</news>
     </extension>
 </addon>
