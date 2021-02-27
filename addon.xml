@@ -24,10 +24,10 @@
         <website>https://www.dr.dk/</website>
         <forum>https://forum.kodi.tv/</forum>
         <source>https://github.com/xbmc-danish-addons/plugin.video.drnu</source>
-		<assets>
-			<icon>icon.png</icon>
+        <assets>
+            <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-		</assets>
-		<news>[B]5.0.14[/B][CR]- Update dependencies[CR]- Fix language names and folders[CR]- Add assets and news to addon.xml</news>
+        </assets>
+        <news>[B]5.0.14[/B][CR]- Update dependencies[CR]- Fix language names and folders[CR]- Add assets and news to addon.xml</news>
     </extension>
 </addon>
