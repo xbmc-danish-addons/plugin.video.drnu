@@ -11,12 +11,12 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Watch live and archived TV from DR (Danish Broadcasting Corporation)</summary>
-        <summary lang="da">Se live og arkiveret TV fra DR</summary>
-        <description lang="en">All DR's live TV channels and archived programs as seen on dr.dk/tv.[CR][CR]If you have comments or suggestions for this addon, please feel free to participate in the KODI official forums</description>
-        <description lang="da">Alle DR's live TV kanaler samt alle de programmer du finder på dr.dk/tv.[CR][CR]Har du kommentarer, ris eller ros til denne addon er du velkommen til at deltage i debatten på KODI forummet</description>
-        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws.</disclaimer>
-        <disclaimer lang="da">Nogle dele af denne addon er muligvis ikke lovlig i dit land - kontroller venligst dine lokale love.</disclaimer>
+        <summary lang="en_GB">Watch live and archived TV from DR (Danish Broadcasting Corporation)</summary>
+        <summary lang="da_DK">Se live og arkiveret TV fra DR</summary>
+        <description lang="en_GB">All DR's live TV channels and archived programs as seen on dr.dk/tv.[CR][CR]If you have comments or suggestions for this addon, please feel free to participate in the KODI official forums</description>
+        <description lang="da_DK">Alle DR's live TV kanaler samt alle de programmer du finder på dr.dk/tv.[CR][CR]Har du kommentarer, ris eller ros til denne addon er du velkommen til at deltage i debatten på KODI forummet</description>
+        <disclaimer lang="en_GB">Some parts of this addon may not be legal in your country of residence - please check with your local laws.</disclaimer>
+        <disclaimer lang="da_DK">Nogle dele af denne addon er muligvis ikke lovlig i dit land - kontroller venligst dine lokale love.</disclaimer>
         <license>GPL 2.0</license>
         <platform>all</platform>
         <language>da</language>
@@ -24,7 +24,11 @@
         <website>https://www.dr.dk/</website>
         <forum>https://forum.kodi.tv/</forum>
         <source>https://github.com/xbmc-danish-addons/plugin.video.drnu</source>
-<news>[B]Version 5.0.13 - 2021-02-25[/B]
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+       </assets>
+       <news>[B]Version 5.0.13 - 2021-02-25[/B]
 - Adding old PR's + minor fixes. last update before kodi 19 and python3
 - Change for request-cache for storing web requests locally (in 8hours) #34
 - Fix missing thumbnails and added option in settings to choose fan-art image size #29 #35
@@ -42,10 +46,6 @@
 
 [B]Version 5.0.10 - 2017-11-01[/B]
 - Rollback to DR API v1.2
-</news>
-        <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-       </assets>
+    </news>
     </extension>
 </addon>
