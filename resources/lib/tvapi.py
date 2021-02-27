@@ -54,7 +54,8 @@ class Api(object):
            fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
 
     def getLiveTV(self):
-        return self._http_request('/channel/all-active-dr-tv-channels')
+        channels = self._http_request('/channel/all-active-dr-tv-channels')
+        return [channel for channel in channels if channel['Title'] in ['DR1', 'DR2', 'DR Ramasjang']]
 
     def getChildrenFrontItems(self, channel):
         childrenFront = self._http_request('/page/tv/children/front/%s' % channel)

@@ -31,7 +31,7 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
         ADDON = xbmcaddon.Addon()
 
         # Background
-        background = xbmcgui.ControlImage(0, 0, 1280, 720, os.path.join(ADDON.getAddonInfo('path'), 'fanart.jpg'))
+        background = xbmcgui.ControlImage(0, 0, 1280, 720, os.path.join(ADDON.getAddonInfo('path'), 'resources', 'fanart.jpg'))
 
         title = xbmcgui.ControlLabel(0, 60, 1280, 60, "[B]%s[/B][CR]%s" % (ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101)), 'font30', alignment=2)
 
