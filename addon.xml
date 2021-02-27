@@ -28,6 +28,6 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>[B]5.0.14[/B][CR]- Update dependencies[CR]- Fix language names and folders[CR]- Add assets and news to addon.xml</news>
+        <news>[B]5.0.14[/B][CR]- Update dependencies[CR]- Fix language names and folders[CR]- Add assets and news to addon.xml[CR]- Update to new settings format</news>
     </extension>
 </addon>
