@@ -109,7 +109,7 @@ msgid "General"
 msgstr ""
 
 msgctxt "#30503"
-msgid "Enable subtitles (if available)"
+msgid "Enable Hard-of-hearing subtitles"
 msgstr ""
 
 msgctxt "#30504"
@@ -130,6 +130,10 @@ msgstr ""
 
 msgctxt "#30508"
 msgid "Empty"
+msgstr ""
+
+msgctxt "#30509"
+msgid "No subtitles on Ramasjang/Ultra episodes"
 msgstr ""
 
 msgctxt "#30510"
