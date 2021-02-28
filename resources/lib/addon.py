@@ -343,7 +343,9 @@ class DrDkTvAddon(object):
     def playVideo(self, slug):
         self.updateRecentlyWatched(slug)
         api_item = self.api.getEpisode(slug)
-        kids_channel = api_item['PrimaryBroadcast']['ChannelSlug'] in ['dr-ramasjang', 'dr-ultra']
+        kids_channel = False
+        if 'PrimaryBroadcast' in api_item:
+            kids_channel = api_item['PrimaryBroadcast']['ChannelSlug'] in ['dr-ramasjang', 'dr-ultra']
         if not 'PrimaryAsset' in api_item:
             self.displayError(tr(30904))
             return
