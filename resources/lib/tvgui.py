@@ -68,8 +68,6 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
 
 
     def onControl(self, control):
-        xbmc.log('gui ' + str(self.id_to_handle ), xbmc.LOGINFO )
-        xbmc.log('gui ' + str(control.getId() ), xbmc.LOGINFO )
         self.areaSelected = self.id_to_handle[control.getId()]
 
         self.close()
