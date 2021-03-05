@@ -47,8 +47,6 @@ class DrDkTvAddon(object):
     def __init__(self, plugin_url, plugin_handle):
         self._plugin_url = plugin_url
         self._plugin_handle = plugin_handle
-        # PATH = sys.argv[0]
-        # HANDLE = int(sys.argv[1])
 
         self.cache_path = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile'))
         if not os.path.exists(self.cache_path):
