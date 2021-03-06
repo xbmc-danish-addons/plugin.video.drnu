@@ -235,7 +235,6 @@ class DrDkTvAddon(object):
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
             items.append((url, item, False))
 
-#        items = sorted(items, lambda mine, yours: cmp(mine[1].getLabel().replace(' ', ''), yours[1].getLabel().replace(' ', '')))
         items.sort(key=lambda x: x[1].getLabel().replace(' ', ''))
 
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
