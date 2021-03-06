@@ -37,16 +37,21 @@ import buggalo
 if sys.version_info.major == 2:
     # python 2
     import urlparse
+    compat_str = unicode
 else:
     import urllib.parse as urlparse
+    compat_str = str
+
 
 tr = xbmcaddon.Addon().getLocalizedString
 get_setting = xbmcaddon.Addon().getSetting
 addon_path = xbmcaddon.Addon().getAddonInfo('path')
 addon_name = xbmcaddon.Addon().getAddonInfo('name')
 
+
 def make_notice(object):
     xbmc.log(str(object), xbmc.LOGDEBUG )
+
 
 class DrDkTvAddon(object):
     def __init__(self, plugin_url, plugin_handle):
@@ -230,7 +235,6 @@ class DrDkTvAddon(object):
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
             items.append((url, item, False))
 
-#        items = sorted(items, lambda mine, yours: cmp(mine[1].getLabel().replace(' ', ''), yours[1].getLabel().replace(' ', '')))
         items.sort(key=lambda x: x[1].getLabel().replace(' ', ''))
 
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
@@ -287,10 +291,10 @@ class DrDkTvAddon(object):
 
                 title = item['SeriesTitle'].replace('&', '%26').replace(',', '%2C')
                 if self.favorites.count(item['SeriesTitle']) > 0:
-                    runScript = "RunPlugin(plugin://plugin.video.drnu/?delfavorite={})".format(title)
+                    runScript = compat_str("RunPlugin(plugin://plugin.video.drnu/?delfavorite={})").format(title)
                     menuItems.append((tr(30201), runScript))
                 else:
-                    runScript = "RunPlugin(plugin://plugin.video.drnu/?addfavorite={})".format(title)
+                    runScript = compat_str("RunPlugin(plugin://plugin.video.drnu/?addfavorite={})").format(title)
                     menuItems.append((tr(30200), runScript))
 
 
