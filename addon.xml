@@ -28,6 +28,7 @@
        </assets>
        <news>[B]Version 5.0.14 - 2021-03-06[/B]
 - Bumping version number, to re-activate addon in leia addon channel
+- Re-factor code to work on both python2 and python 3
     </news>
     </extension>
 </addon>
