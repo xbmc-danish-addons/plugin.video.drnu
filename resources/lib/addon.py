@@ -83,6 +83,12 @@ class DrDkTvAddon(object):
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector&random={:d})".format(self._plugin_handle)
         self.menuItems.append((tr(30511), runScript))
 
+        # Area Selector
+        self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
+        self.area_item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(addon_path, 'resources', 'icons', 'all.png')})
+        self.area_item.addContextMenuItems(self.menuItems, False)
+
+
 
     def _save(self):
         # save favorites
@@ -119,7 +125,7 @@ class DrDkTvAddon(object):
             self.showMainMenu()
         else:
             items = self.api.getChildrenFrontItems('dr-' + areaSelected)
-            self.listSeries(items)
+            self.listSeries(items, add_area_selector=True)
 
     def showMainMenu(self):
         items = list()
@@ -180,8 +186,10 @@ class DrDkTvAddon(object):
         # Favorite Program Series
         item = xbmcgui.ListItem(tr(30008), offscreen=True)
         item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(addon_path, 'resources', 'icons', 'plusone.png')})
-        items.append((self._plugin_url + '?show=favorites', item, True))
         item.addContextMenuItems(self.menuItems, False)
+        items.append((self._plugin_url + '?show=favorites', item, True))
+
+        items.append((self._plugin_url + '?show=areaselector', self.area_item, True))
 
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
@@ -285,7 +293,7 @@ class DrDkTvAddon(object):
             keyword = keyboard.getText()
             self.listSeries(self.api.getSeries(keyword))
 
-    def listSeries(self, items, addToFavorites=True):
+    def listSeries(self, items, addToFavorites=True, add_area_selector=False):
         if not items:
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
             if not addToFavorites:
@@ -295,6 +303,8 @@ class DrDkTvAddon(object):
                 xbmcgui.Dialog().ok(addon_name, tr(30013))
         else:
             directoryItems = list()
+            if add_area_selector:
+                directoryItems.append((self._plugin_url + '?show=areaselector', self.area_item, True))
             for item in items:
                 menuItems = list(self.menuItems)
 
@@ -513,10 +523,10 @@ class DrDkTvAddon(object):
                     self.showMainMenu()
                 elif area == 2:
                     items = self.api.getChildrenFrontItems('dr-ramasjang')
-                    self.listSeries(items)
+                    self.listSeries(items, add_area_selector=True)
                 elif area == 3:
                     items = self.api.getChildrenFrontItems('dr-ultra')
-                    self.listSeries(items)
+                    self.listSeries(items, add_area_selector=True)
 
         except tvapi.ApiException as ex:
             self.displayError(str(ex))
