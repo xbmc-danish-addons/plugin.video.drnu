@@ -28,7 +28,6 @@ import xbmc
 import xbmcgui
 import xbmcaddon
 import xbmcplugin
-from xbmcvfs import translatePath
 
 from resources.lib import tvapi
 from resources.lib import tvgui
@@ -38,9 +37,11 @@ import buggalo
 if sys.version_info.major == 2:
     # python 2
     import urlparse
+    from xbmc import translatePath
     compat_str = unicode
 else:
     import urllib.parse as urlparse
+    from xbmcvfs import translatePath
     compat_str = str
 
 
