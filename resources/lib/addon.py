@@ -28,6 +28,7 @@ import xbmc
 import xbmcgui
 import xbmcaddon
 import xbmcplugin
+from xbmcvfs import translatePath
 
 from resources.lib import tvapi
 from resources.lib import tvgui
@@ -43,10 +44,16 @@ else:
     compat_str = str
 
 
-tr = xbmcaddon.Addon().getLocalizedString
-get_setting = xbmcaddon.Addon().getSetting
-addon_path = xbmcaddon.Addon().getAddonInfo('path')
-addon_name = xbmcaddon.Addon().getAddonInfo('name')
+addon = xbmcaddon.Addon()
+get_setting = addon.getSetting
+addon_path = addon.getAddonInfo('path')
+addon_name = addon.getAddonInfo('name')
+
+
+def tr(id):
+    if isinstance(id, list):
+        return '\n'.join([addon.getLocalizedString(item) for item in id])
+    return addon.getLocalizedString(id)
 
 
 def make_notice(object):
@@ -58,7 +65,7 @@ class DrDkTvAddon(object):
         self._plugin_url = plugin_url
         self._plugin_handle = plugin_handle
 
-        self.cache_path = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile'))
+        self.cache_path = translatePath(addon.getAddonInfo('profile'))
         if not os.path.exists(self.cache_path):
             os.makedirs(self.cache_path)
         buggalo.EMAIL_CONFIG = {
@@ -213,7 +220,7 @@ class DrDkTvAddon(object):
 
         self._save()
         if not videos:
-            xbmcgui.Dialog().ok(addon_name, tr(30013), tr(30020))
+            xbmcgui.Dialog().ok(addon_name, tr([30013, 30020]))
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
         else:
             self.listEpisodes(videos)
@@ -289,8 +296,7 @@ class DrDkTvAddon(object):
         if not items:
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
             if not addToFavorites:
-                xbmcgui.Dialog().ok(addon_name, tr(30013),
-                                    tr(30018), tr(30019))
+                xbmcgui.Dialog().ok(addon_name, tr([30013, 30018, 30019]))
             else:
                 xbmcgui.Dialog().ok(addon_name, tr(30013))
         else:
@@ -425,15 +431,14 @@ class DrDkTvAddon(object):
         if not self.favorites.count(key):
             self.favorites.append(key)
         self._save()
-
-        xbmcgui.Dialog().ok(tr(30008), tr(30009))
+        xbmcgui.Dialog().ok(addon_name, tr([30008, 30009]))
 
     def delFavorite(self, key):
         self._load()
         if self.favorites.count(key):
             self.favorites.remove(key)
         self._save()
-        xbmcgui.Dialog().ok(tr(30008), tr(30010))
+        xbmcgui.Dialog().ok(addon_name, tr([30008, 30010]))
 
     def updateRecentlyWatched(self, assetUri):
         self._load()
@@ -444,15 +449,11 @@ class DrDkTvAddon(object):
 
     def displayError(self, message='n/a'):
         heading = buggalo.getRandomHeading()
-        line1 = tr(30900)
-        line2 = tr(30901)
-        xbmcgui.Dialog().ok(heading, line1, line2, message)
+        xbmcgui.Dialog().ok(heading, '\n'.join([tr(30900), tr(30901), message]))
 
     def displayIOError(self, message='n/a'):
         heading = buggalo.getRandomHeading()
-        line1 = tr(30902)
-        line2 = tr(30903)
-        xbmcgui.Dialog().ok(heading, line1, line2, message)
+        xbmcgui.Dialog().ok(heading, '\n'.join([tr(30902), tr(30903), message]))
 
     def route(self, query):
         try:
