@@ -90,7 +90,7 @@ class DrDkTvAddon(object):
         self.menuItems = list()
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector&random={:d})".format(self._plugin_handle)
         self.menuItems.append((tr(30511), runScript))
-
+        self._load()
 
     def _save(self):
         # save favorites
@@ -306,7 +306,7 @@ class DrDkTvAddon(object):
                 menuItems = list(self.menuItems)
 
                 title = item['SeriesTitle'].replace('&', '%26').replace(',', '%2C')
-                if self.favorites.count(item['SeriesTitle']) > 0:
+                if item['SeriesTitle'] in self.favorites:
                     runScript = compat_str("RunPlugin(plugin://plugin.video.drnu/?delfavorite={})").format(title)
                     menuItems.append((tr(30201), runScript))
                 else:
@@ -429,21 +429,21 @@ class DrDkTvAddon(object):
 
     def addFavorite(self, key):
         self._load()
-        if not self.favorites.count(key):
+        if not key in self.favorites:
             self.favorites.append(key)
         self._save()
         xbmcgui.Dialog().ok(addon_name, tr([30008, 30009]))
 
     def delFavorite(self, key):
         self._load()
-        if self.favorites.count(key):
+        if key in self.favorites:
             self.favorites.remove(key)
         self._save()
         xbmcgui.Dialog().ok(addon_name, tr([30008, 30010]))
 
     def updateRecentlyWatched(self, assetUri):
         self._load()
-        if self.recentlyWatched.count(assetUri):
+        if assetUri in self.recentlyWatched:
             self.recentlyWatched.remove(assetUri)
         self.recentlyWatched.insert(0, assetUri)
         self._save()
