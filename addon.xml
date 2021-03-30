@@ -26,7 +26,7 @@
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
        </assets>
-       <news>-[B]Version 5.0.16 - 2021-03-15[/B]
+       <news>-[B]Version 5.0.16 - 2021-03-30[/B]
 - fix bug on ok() dialog in matrix
 - fix bugs in favorit programs functionality
 - new setting to have area chooser item in root
