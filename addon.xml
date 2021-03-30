@@ -26,9 +26,10 @@
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
        </assets>
-       <news>[B]Version 5.0.15 - 2021-03-13[/B]
-- Add buggalo error submit to kodi.drnu gmail
-- fix bug for write subtitle files on libreelec, kodi 18.9
+       <news>-[B]Version 5.0.16 - 2021-03-15[/B]
+- fix bug on ok() dialog in matrix
+- fix bugs in favorit programs functionality
+- new setting to have area chooser item in root
     </news>
     </extension>
 </addon>
