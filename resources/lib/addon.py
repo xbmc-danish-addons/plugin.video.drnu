@@ -240,13 +240,14 @@ class DrDkTvAddon(object):
 
     def showLiveTV(self):
         items = list()
+        HLS = 'HLS_subtitles' if bool_setting('enable.subtitles') else 'HLS'
         for channel in self.api.getLiveTV():
             if channel['WebChannel']:
                 continue
 
             server = None
             for streamingServer in channel['StreamingServers']:
-                if streamingServer['LinkType'] == 'HLS':
+                if streamingServer['LinkType'] == HLS:
                     server = streamingServer
                     break
 
@@ -404,12 +405,13 @@ class DrDkTvAddon(object):
     def playLiveTV(self, slug):
         item = None
         url = None
+        HLS = 'HLS_subtitles' if bool_setting('enable.subtitles') else 'HLS'
         for channel in self.api.getLiveTV():
             # If the channel has the right slug, play the channel
             if channel['Slug'] == slug:
                 server = None
                 for streamingServer in channel['StreamingServers']:
-                    if streamingServer['LinkType'] == 'HLS':
+                    if streamingServer['LinkType'] == HLS:
                         server = streamingServer
                         break
                 if server is None:
