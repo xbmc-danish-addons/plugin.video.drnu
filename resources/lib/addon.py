@@ -463,7 +463,7 @@ class DrDkTvAddon(object):
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30900), tr(30901), message]))
 
     def displayIOError(self, message='n/a'):
-        heading = 'I/O error
+        heading = 'I/O error'
         if DEBUG_ALL_ERRORS_TO_PASTEBIN:
             _ = self.pastebin.paste(message, expire='1D')
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30902), tr(30903), message]))

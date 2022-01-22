@@ -493,7 +493,7 @@ class PasteBin():
 
     def generate_user_key(self):
         drnu_secret = b'gASVdwAAAAAAAAB9lCiMC2FwaV9kZXZfa2V5lIwgd0dhS0NMbGY1TEhxTC13SXFIT1lxUEp4MGU4cUVmODiUjA1hcGlfdXNlcl9uYW1llIwIZHJudWtvZGmUjBFhcGlfdXNlcl9wYXNzd29yZJSMD2J0dXhIYzZRam4zRW5GSpR1Lg=='
-        data = pickle.loads(base64.b64decode(drnu_secret)        
+        data = pickle.loads(base64.b64decode(drnu_secret))
         answer = requests.post("https://pastebin.com/api/api_login.php", data=data)
         if answer.status_code == 200:
             self.user_key = answer.content
@@ -501,8 +501,8 @@ class PasteBin():
     def paste(self, message, expire='6M'):
         params = {
             "api_dev_key": self.dev_key,
-            'api_user_key': self.user_key, 
-            'api_option':'paste', 
+            'api_user_key': self.user_key,
+            'api_option':'paste',
             'api_paste_name':'kodi_fail_log',
             'api_paste_code':message,
             'api_paste_format': 'python',
@@ -511,7 +511,7 @@ class PasteBin():
         }
         answer = requests.post("https://pastebin.com/api/api_post.php", data=params)
         if answer.status_code == 200:
-            return answer.content
+            return answer.content.decode('utf-8')
         return ''
 
 
