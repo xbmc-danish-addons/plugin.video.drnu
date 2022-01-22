@@ -485,29 +485,34 @@ def decrypt_uri(e):
         decrypted[:-decrypted[-1]]).decode('utf-8').split('?')[0]
 
 
-def get_pastebin_user_key():
-    drnu_pastebin = b'gASVdwAAAAAAAAB9lCiMC2FwaV9kZXZfa2V5lIwgd0dhS0NMbGY1TEhxTC13SXFIT1lxUEp4MGU4cUVmODiUjA1hcGlfdXNlcl9uYW1llIwIZHJudWtvZGmUjBFhcGlfdXNlcl9wYXNzd29yZJSMD2J0dXhIYzZRam4zRW5GSpR1Lg=='
-    answer = requests.post("https://pastebin.com/api/api_login.php", data=pickle.loads(base64.b64decode(drnu_pastebin)))
-    if answer.status_code == 200:
-        return answer.content
-    return ''
+class PasteBin():
+    def __init__(self):
+        self.user_key = ''
+        self.generate_user_key()
+        self.dev_key = 'wGaKCLlf5LHqL-wIqHOYqPJx0e8qEf88'
 
+    def generate_user_key(self):
+        drnu_secret = b'gASVdwAAAAAAAAB9lCiMC2FwaV9kZXZfa2V5lIwgd0dhS0NMbGY1TEhxTC13SXFIT1lxUEp4MGU4cUVmODiUjA1hcGlfdXNlcl9uYW1llIwIZHJudWtvZGmUjBFhcGlfdXNlcl9wYXNzd29yZJSMD2J0dXhIYzZRam4zRW5GSpR1Lg=='
+        data = pickle.loads(base64.b64decode(drnu_secret)        
+        answer = requests.post("https://pastebin.com/api/api_login.php", data=data)
+        if answer.status_code == 200:
+            self.user_key = answer.content
 
-def post_pastbin(stack, user_key):
-    params = {
-    "api_dev_key": devkey,
-    'api_user_key': user_key, 
-    'api_option':'paste', 
-    'api_paste_name':'kodi_fail_log',
-    'api_paste_code':stack,
-    'api_paste_format': 'python',
-    'api_paste_expire_date': '6M',
-    'api_paste_private': 1
-    }
-    answer = requests.post("https://pastebin.com/api/api_post.php", data=params)
-    if answer.status_code == 200:
-        return answer.content
-    return ''
+    def paste(self, message, expire='6M'):
+        params = {
+            "api_dev_key": self.dev_key,
+            'api_user_key': self.user_key, 
+            'api_option':'paste', 
+            'api_paste_name':'kodi_fail_log',
+            'api_paste_code':message,
+            'api_paste_format': 'python',
+            'api_paste_expire_date': expire,
+            'api_paste_private': 1
+        }
+        answer = requests.post("https://pastebin.com/api/api_post.php", data=params)
+        if answer.status_code == 200:
+            return answer.content
+        return ''
 
 
 class ApiException(Exception):

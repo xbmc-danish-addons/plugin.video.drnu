@@ -49,7 +49,7 @@ get_setting = addon.getSetting
 addon_path = addon.getAddonInfo('path')
 addon_name = addon.getAddonInfo('name')
 
-
+DEBUG_ALL_ERRORS_TO_PASTEBIN = False
 
 def tr(id):
     if isinstance(id, list):
@@ -90,7 +90,7 @@ class DrDkTvAddon(object):
         self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
         self.area_item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(addon_path, 'resources', 'icons', 'all.png')})
 
-        self.pastebin_user = tvapi.get_pastebin_user_key()
+        self.pastebin = tvapi.PasteBin()
         self._load()
 
     def _save(self):
@@ -458,10 +458,14 @@ class DrDkTvAddon(object):
 
     def displayError(self, message='n/a'):
         heading = 'API error'
+        if DEBUG_ALL_ERRORS_TO_PASTEBIN:
+            _ = self.pastebin.paste(message, expire='1D')
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30900), tr(30901), message]))
 
     def displayIOError(self, message='n/a'):
         heading = 'I/O error
+        if DEBUG_ALL_ERRORS_TO_PASTEBIN:
+            _ = self.pastebin.paste(message, expire='1D')
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30902), tr(30903), message]))
 
     def route(self, query):
@@ -536,7 +540,7 @@ class DrDkTvAddon(object):
 
         except Exception:
             stack = traceback.format_exc()
-            link = post_pastbin(stack, self.pastebin_user)
+            link = self.pastebin.paste(stack)
             heading = 'drnu addon crash'
             xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), link]))
 

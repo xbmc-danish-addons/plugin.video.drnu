@@ -2,7 +2,7 @@
 <addon id="plugin.video.drnu" version="5.0.17+matrix.1" name="DR TV" provider-name="TermeHansen">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests" version="2.22.0+matrix.1" />
+        <import addon="script.module.requests" version="2.25.1+matrix.1" />
         <import addon="script.module.requests-cache" version="0.5.2+matrix.2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
