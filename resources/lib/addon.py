@@ -233,6 +233,7 @@ class DrDkTvAddon(object):
     def showLiveTV(self):
         items = list()
         HLS = 'HLS_subtitles' if bool_setting('enable.subtitles') else 'HLS'
+        eirini
         for channel in self.api.getLiveTV():
             if channel['WebChannel']:
                 continue
