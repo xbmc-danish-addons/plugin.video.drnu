@@ -18,21 +18,20 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
-import pickle
-import os
-import sys
-import re
 import datetime
+import os
+import pickle
+import re
+import sys
+import traceback
 
 import xbmc
-import xbmcgui
 import xbmcaddon
+import xbmcgui
 import xbmcplugin
 
 from resources.lib import tvapi
 from resources.lib import tvgui
-
-import buggalo
 
 if sys.version_info.major == 2:
     # python 2
@@ -50,6 +49,7 @@ get_setting = addon.getSetting
 addon_path = addon.getAddonInfo('path')
 addon_name = addon.getAddonInfo('name')
 
+DEBUG_ALL_ERRORS_TO_PASTEBIN = False
 
 def tr(id):
     if isinstance(id, list):
@@ -73,15 +73,6 @@ class DrDkTvAddon(object):
         self.cache_path = translatePath(addon.getAddonInfo('profile'))
         if not os.path.exists(self.cache_path):
             os.makedirs(self.cache_path)
-        buggalo.EMAIL_CONFIG = {
-                 "recipient":"drnu.kodi@gmail.com",
-                 "sender":"Buggalo <drnu.kodi@gmail.com>",
-                 "server":"smtp.googlemail.com",
-                 "method":"ssl",
-                 "user":"drnu.kodi@gmail.com",
-                 "pass":"plugin.video.drnu"
-        }
-        buggalo.addExtraData('cache_path', self.cache_path)
 
         self.favorites_path = os.path.join(self.cache_path, 'favorites.pickle')
         self.recent_path = os.path.join(self.cache_path, 'recent.pickle')
@@ -99,6 +90,7 @@ class DrDkTvAddon(object):
         self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
         self.area_item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(addon_path, 'resources', 'icons', 'all.png')})
 
+        self.pastebin = tvapi.PasteBin()
         self._load()
 
     def _save(self):
@@ -465,11 +457,15 @@ class DrDkTvAddon(object):
         self._save()
 
     def displayError(self, message='n/a'):
-        heading = buggalo.getRandomHeading()
+        heading = 'API error'
+        if DEBUG_ALL_ERRORS_TO_PASTEBIN:
+            _ = self.pastebin.paste(message, expire='1D')
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30900), tr(30901), message]))
 
     def displayIOError(self, message='n/a'):
-        heading = buggalo.getRandomHeading()
+        heading = 'I/O error'
+        if DEBUG_ALL_ERRORS_TO_PASTEBIN:
+            _ = self.pastebin.paste(message, expire='1D')
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30902), tr(30903), message]))
 
     def route(self, query):
@@ -543,4 +539,8 @@ class DrDkTvAddon(object):
             self.displayIOError(str(ex))
 
         except Exception:
-            buggalo.onExceptionRaised()
+            stack = traceback.format_exc()
+            link = self.pastebin.paste(stack)
+            heading = 'drnu addon crash'
+            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), link]))
+
