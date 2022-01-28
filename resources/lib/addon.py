@@ -248,10 +248,10 @@ class DrDkTvAddon(object):
 
             item = xbmcgui.ListItem(channel['Title'], offscreen=True)
             fanart_h = int(get_setting('fanart.size'))
-            fanart_w = int(fanart_h*16/9)            
+            fanart_w = int(fanart_h*16/9)
             item.setArt({'thumb': self.api.redirectImageUrl(channel['PrimaryImageUri'], 640, 360),
                          'icon': self.api.redirectImageUrl(channel['PrimaryImageUri'], 75, 42),
-                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], fanart_w, fanart_h)}) 
+                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], fanart_w, fanart_h)})
             item.addContextMenuItems(self.menuItems, False)
 
             url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
@@ -323,7 +323,7 @@ class DrDkTvAddon(object):
 
                 listItem = xbmcgui.ListItem(item['SeriesTitle'], offscreen=True)
                 fanart_h = int(get_setting('fanart.size'))
-                fanart_w = int(fanart_h*16/9)            
+                fanart_w = int(fanart_h*16/9)
                 listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                           	 'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
                           	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
@@ -355,7 +355,7 @@ class DrDkTvAddon(object):
 
             listItem = xbmcgui.ListItem(item['Title'], offscreen=True)
             fanart_h = int(get_setting('fanart.size'))
-            fanart_w = int(fanart_h*16/9)            
+            fanart_w = int(fanart_h*16/9)
             listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                              'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
                              'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
@@ -376,7 +376,7 @@ class DrDkTvAddon(object):
         api_item = self.api.getEpisode(slug)
         kids_channel = False
         if 'PrimaryBroadcast' in api_item:
-            kids_channel = api_item['PrimaryBroadcast']['ChannelSlug'] in ['dr-ramasjang', 'dr-ultra']
+            kids_channel = api_item['PrimaryBroadcast']['ChannelSlug'] in ['dr-minisjang', 'dr-ramasjang', 'dr-ultra']
         if not 'PrimaryAsset' in api_item:
             self.displayError(tr(30904))
             return
@@ -526,9 +526,12 @@ class DrDkTvAddon(object):
                 elif area == 1:
                     self.showMainMenu()
                 elif area == 2:
-                    items = self.api.getChildrenFrontItems('dr-ramasjang')
+                    items = self.api.getChildrenFrontItems('dr-minisjang')
                     self.listSeries(items, add_area_selector=True)
                 elif area == 3:
+                    items = self.api.getChildrenFrontItems('dr-ramasjang')
+                    self.listSeries(items, add_area_selector=True)
+                elif area == 5:
                     items = self.api.getChildrenFrontItems('dr-ultra')
                     self.listSeries(items, add_area_selector=True)
 
@@ -543,4 +546,3 @@ class DrDkTvAddon(object):
             link = self.pastebin.paste(stack)
             heading = 'drnu addon crash'
             xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), link]))
-

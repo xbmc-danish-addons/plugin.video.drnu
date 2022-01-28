@@ -59,14 +59,15 @@ class Api(object):
         self.empty_srt = compat_str('{}/{}.da.srt').format(self.cachePath, tr(30508))
         with open(self.empty_srt, 'w') as fn:
            fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
-
+        self.pastebin = PasteBin()
     def getLiveTV(self):
         channels = self._http_request('/channel/all-active-dr-tv-channels')
         return [channel for channel in channels if channel['Title'] in ['DR1', 'DR2', 'DR Ramasjang']]
 
     def getChildrenFrontItems(self, channel):
-        childrenFront = self._http_request('/page/tv/children/front/{}'.format(channel))
-        return self._handle_paging(childrenFront['Programs'])
+        new = "/search/tv/programcards-latest-episode-with-asset/series-title-starts-with/?channels={}&orderBy=Title".format(channel)
+        childrenFront = self._http_request(self.API_URL + new)
+        return self._handle_paging(childrenFront)
 
     def getThemes(self):
         themes = self._http_request('/page/tv/themes', {'themenamesonly': 'false'})
