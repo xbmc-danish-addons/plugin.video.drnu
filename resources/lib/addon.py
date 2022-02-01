@@ -23,6 +23,7 @@ import os
 import pickle
 import re
 import sys
+import time
 import traceback
 
 import xbmc
@@ -49,6 +50,7 @@ get_setting = addon.getSetting
 addon_path = addon.getAddonInfo('path')
 addon_name = addon.getAddonInfo('name')
 
+SLUG_ADULT = 'dr1,dr2,dr3,dr-k'
 DEBUG_ALL_ERRORS_TO_PASTEBIN = False
 
 def tr(id):
@@ -78,7 +80,7 @@ class DrDkTvAddon(object):
         self.recent_path = os.path.join(self.cache_path, 'recent.pickle')
         self.fanart_image = os.path.join(addon_path, 'resources', 'fanart.jpg')
 
-        self.api = tvapi.Api(self.cache_path)
+        self.api = tvapi.Api(self.cache_path, tr)
         self.favorites = list()
         self.recentlyWatched = list()
 
@@ -149,12 +151,6 @@ class DrDkTvAddon(object):
         item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(addon_path, 'resources', 'icons', 'all.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=latest', item, True))
-
-        # Premiere
-        item = xbmcgui.ListItem(tr(30025), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(addon_path, 'resources', 'icons', 'new.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append(('{}?listVideos={}'.format(self._plugin_url, tvapi.SLUG_PREMIERES), item, True))
 
         # Themes
         item = xbmcgui.ListItem(tr(30028), offscreen=True)
@@ -296,7 +292,7 @@ class DrDkTvAddon(object):
         keyboard.doModal()
         if keyboard.isConfirmed():
             keyword = keyboard.getText()
-            self.listSeries(self.api.getSeries(keyword))
+            self.listSeries(self.api.searchSeries(keyword))
 
     def listSeries(self, items, addToFavorites=True, add_area_selector=False):
         if not items:
@@ -309,11 +305,13 @@ class DrDkTvAddon(object):
             directoryItems = list()
             if add_area_selector:
                 directoryItems.append((self._plugin_url + '?show=areaselector', self.area_item, True))
+            fanart_h = int(get_setting('fanart.size'))
+            fanart_w = int(fanart_h*16/9)
             for item in items:
                 menuItems = list(self.menuItems)
 
                 title = item['SeriesTitle'].replace('&', '%26').replace(',', '%2C')
-                if item['SeriesTitle'] in self.favorites:
+                if title in self.favorites:
                     runScript = compat_str("RunPlugin(plugin://plugin.video.drnu/?delfavorite={})").format(title)
                     menuItems.append((tr(30201), runScript))
                 else:
@@ -322,8 +320,6 @@ class DrDkTvAddon(object):
 
 
                 listItem = xbmcgui.ListItem(item['SeriesTitle'], offscreen=True)
-                fanart_h = int(get_setting('fanart.size'))
-                fanart_w = int(fanart_h*16/9)
                 listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
                           	 'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
                           	 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
@@ -364,6 +360,7 @@ class DrDkTvAddon(object):
             listItem.setProperty('IsPlayable', 'true')
             listItem.addContextMenuItems(self.menuItems, False)
             directoryItems.append((url, listItem))
+
 
         xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
         if addSortMethods:
@@ -475,7 +472,8 @@ class DrDkTvAddon(object):
                 elif PARAMS['show'] == 'listAZ':
                     self.showAZ()
                 elif PARAMS['show'] == 'latest':
-                    self.listEpisodes(self.api.getLatestPrograms(), addSortMethods=False)
+                    channel = SLUG_ADULT if self.bool_setting('disable.kids') else ''
+                    self.listEpisodes(self.api.getLatestPrograms(channel), addSortMethods=False)
                 elif PARAMS['show'] == 'mostViewed':
                     self.listEpisodes(self.api.getMostViewed())
                 elif PARAMS['show'] == 'highlights':
@@ -495,7 +493,7 @@ class DrDkTvAddon(object):
                 self.listSeries(self.api.getEpisodes(PARAMS['listThemeSeries']))
 
             elif 'listProgramSeriesByLetter' in PARAMS:
-                self.listSeries(self.api.getSeries(PARAMS['listProgramSeriesByLetter']))
+                self.listSeries(self.api.searchSeries(PARAMS['listProgramSeriesByLetter'], startswith=True))
 
             elif 'listVideos' in PARAMS:
                 self.listEpisodes(self.api.getEpisodes(PARAMS['listVideos']))

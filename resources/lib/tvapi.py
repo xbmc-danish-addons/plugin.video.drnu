@@ -25,15 +25,14 @@ import hashlib
 import json
 from math import ceil
 import os
+from pathlib import Path
 import pickle
 import re
 import requests
 import requests_cache
 import struct
 import sys
-
-import xbmc
-import xbmcaddon
+import time
 
 if sys.version_info.major == 2:
     # python 2
@@ -42,24 +41,22 @@ if sys.version_info.major == 2:
 else:
     compat_str = str
     import urllib.parse as urlparse
-ADDON = xbmcaddon.Addon()
-tr = xbmcaddon.Addon().getLocalizedString
 
-SLUG_PREMIERES='forpremierer'
-SLUG_ADULT=['dr1','dr2','dr3','dr-k']
-
-class Api(object):
+class Api():
     API_URL = 'http://www.dr.dk/mu-online/api/1.2'
 
-    def __init__(self, cachePath):
+    def __init__(self, cachePath, getLocalizedString):
         self.cachePath = cachePath
+        self.tr = getLocalizedString
+
         #cache expires after: 3600 = 1hour
         requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
         requests_cache.remove_expired_responses()
-        self.empty_srt = compat_str('{}/{}.da.srt').format(self.cachePath, tr(30508))
+        self.empty_srt = compat_str('{}/{}.da.srt').format(self.cachePath, self.tr(30508))
         with open(self.empty_srt, 'w') as fn:
            fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
         self.pastebin = PasteBin()
+
     def getLiveTV(self):
         channels = self._http_request('/channel/all-active-dr-tv-channels')
         return [channel for channel in channels if channel['Title'] in ['DR1', 'DR2', 'DR Ramasjang']]
@@ -73,10 +70,7 @@ class Api(object):
         themes = self._http_request('/page/tv/themes', {'themenamesonly': 'false'})
         return themes['Themes']
 
-    def getLatestPrograms(self):
-        channel = ''
-        if ADDON.getSetting('disable.kids') == 'true':
-            channel = ','.join(SLUG_ADULT)
+    def getLatestPrograms(self, channel):
         result = self._http_request('/page/tv/programs', {
             'index': '*',
             'orderBy': 'LastPrimaryBroadcastWithPublicAsset',
@@ -95,15 +89,20 @@ class Api(object):
 
         return []
 
-    def getSeries(self, query):
-        result = self._http_request('/search/tv/programcards-latest-episode-with-asset/series-title-starts-with/{}'.format(query),
-                                    {'limit': 75})
-        return self._handle_paging(result)
-
-    def searchSeries(self, query):
+    def searchProgram(self, query):
         # Remove various characters that makes the API puke
         cleaned_query = re.sub('[&()"\'\.!]', '', query)
-        result = self._http_request('/search/tv/programcards-latest-episode-with-asset/series-title/{}'.format(cleaned_query))
+        params = {'limit': 50}
+        result = self._http_request('/search/tv/programcards-with-asset/title/{}'.format(cleaned_query), params=params)
+        return result
+
+    def searchSeries(self, query, startswith=False):
+        base = '/search/tv/programcards-latest-episode-with-asset/series-title'
+        if startswith:
+            base += '-starts-with'
+        # Remove various characters that makes the API puke
+        cleaned_query = re.sub('[&()"\'\.!]', '', query)
+        result = self._http_request(f'{base}/{cleaned_query}')
         return self._handle_paging(result)
 
     def getEpisodes(self, slug):
@@ -140,10 +139,10 @@ class Api(object):
             foreign = False
             for sub in result['SubtitlesList']:
                if 'HardOfHearing' in sub['Type']:
-                   name = compat_str('{}/{}.da.srt').format(self.cachePath, tr(30506))
+                   name = compat_str('{}/{}.da.srt').format(self.cachePath, self.tr(30506))
                else:
                    foreign = True
-                   name = compat_str('{}/{}.da.srt').format(self.cachePath, tr(30507))
+                   name = compat_str('{}/{}.da.srt').format(self.cachePath, self.tr(30507))
                u = requests.get(sub['Uri'], timeout=10)
                if u.status_code != 200:
                    u.close()
@@ -183,11 +182,6 @@ class Api(object):
 
             if params:
                 url += '?' + urlparse.urlencode(params, doseq=True)
-
-            try:
-                xbmc.log(url)
-            except:
-                pass
 
             if not cache:
                 with requests_cache.disabled():
@@ -518,7 +512,3 @@ class PasteBin():
 
 class ApiException(Exception):
     pass
-
-if __name__ == '__main__':
-    api = Api()
-    xbmc.log(api.programCardRelations('so-ein-ding', limit=50))
