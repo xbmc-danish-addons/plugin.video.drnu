@@ -31,35 +31,46 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
         ADDON = xbmcaddon.Addon()
 
         # Background
-        background = xbmcgui.ControlImage(0, 0, 1280, 720, os.path.join(ADDON.getAddonInfo('path'), 'resources', 'fanart.jpg'))
+        background = xbmcgui.ControlImage(0, 0, 1280, 720, os.path.join(
+            ADDON.getAddonInfo('path'), 'resources', 'fanart.jpg'))
 
-        title = xbmcgui.ControlLabel(0, 60, 1280, 60, "[B]%s[/B][CR]%s" % (ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101)), 'font30', alignment=2)
+        title = xbmcgui.ControlLabel(
+            0, 60, 1280, 60, "[B]%s[/B][CR]%s" % (ADDON.getLocalizedString(30100), ADDON.getLocalizedString(30101)), 'font30', alignment=2)
 
         image_x = 250
         image_y = 250
         y_border = 75
         x_border = 75
         self.drTvButton = xbmcgui.ControlButton(x_border, y_border, image_x, image_y, "",
-                                                focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-drtv-focus.png'),
-                                                noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-drtv.png')
+                                                focusTexture=os.path.join(ADDON.getAddonInfo(
+                                                    'path'), 'resources', 'button-drtv-focus.png'),
+                                                noFocusTexture=os.path.join(ADDON.getAddonInfo(
+                                                    'path'), 'resources', 'button-drtv.png')
                                                 )
 
         self.ramasjangButton = xbmcgui.ControlButton(int(1280/2 - x_border - image_x), int(720 - y_border - image_y), image_x, image_y, "",
-                                                     focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ramasjang-focus.png'),
-                                                     noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ramasjang.png')
+                                                     focusTexture=os.path.join(ADDON.getAddonInfo(
+                                                         'path'), 'resources', 'button-ramasjang-focus.png'),
+                                                     noFocusTexture=os.path.join(ADDON.getAddonInfo(
+                                                         'path'), 'resources', 'button-ramasjang.png')
                                                      )
 
         self.minisjangButton = xbmcgui.ControlButton(int(1280/2 + x_border), int(720 - y_border - image_y), image_x, image_y, "",
-                                                     focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-minisjang-focus.png'),
-                                                     noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-minisjang.png')
+                                                     focusTexture=os.path.join(ADDON.getAddonInfo(
+                                                         'path'), 'resources', 'button-minisjang-focus.png'),
+                                                     noFocusTexture=os.path.join(ADDON.getAddonInfo(
+                                                         'path'), 'resources', 'button-minisjang.png')
                                                      )
 
         self.ultraButton = xbmcgui.ControlButton(int(1280 - x_border - image_x), y_border, image_x, image_y, "",
-                                                 focusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ultra-focus.png'),
-                                                 noFocusTexture=os.path.join(ADDON.getAddonInfo('path'), 'resources', 'button-ultra.png')
+                                                 focusTexture=os.path.join(ADDON.getAddonInfo(
+                                                     'path'), 'resources', 'button-ultra-focus.png'),
+                                                 noFocusTexture=os.path.join(ADDON.getAddonInfo(
+                                                     'path'), 'resources', 'button-ultra.png')
                                                  )
 
-        self.addControls([background, title, self.drTvButton, self.ramasjangButton, self.minisjangButton, self.ultraButton])
+        self.addControls([background, title, self.drTvButton, self.ramasjangButton,
+                         self.minisjangButton, self.ultraButton])
 
         self.drTvButton.controlRight(self.ramasjangButton)
         self.drTvButton.controlDown(self.ramasjangButton)
@@ -85,7 +96,6 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
             self.minisjangButton.getId(): 'minisjang',
             self.ultraButton.getId(): 'ultra',
             }
-
 
     def onControl(self, control):
         self.areaSelected = self.id_to_handle[control.getId()]

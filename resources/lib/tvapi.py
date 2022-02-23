@@ -31,16 +31,8 @@ import re
 import requests
 import requests_cache
 import struct
-import sys
-import time
+import urllib.parse as urlparse
 
-if sys.version_info.major == 2:
-    # python 2
-    compat_str = unicode
-    import urllib as urlparse
-else:
-    compat_str = str
-    import urllib.parse as urlparse
 
 class Api():
     API_URL = 'http://www.dr.dk/mu-online/api/1.2'
@@ -49,12 +41,14 @@ class Api():
         self.cachePath = cachePath
         self.tr = getLocalizedString
 
-        #cache expires after: 3600 = 1hour
-        requests_cache.install_cache(os.path.join(cachePath,'requests.cache'), backend='sqlite', expire_after=3600*8 )
+        # cache expires after: 3600 = 1hour
+        requests_cache.install_cache(os.path.join(
+            cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*8)
         requests_cache.remove_expired_responses()
-        self.empty_srt = compat_str('{}/{}.da.srt').format(self.cachePath, self.tr(30508))
-        with open(self.empty_srt, 'w') as fn:
-           fn.write('1\n00:00:00,000 --> 00:01:01,000\n') # we have to have something in srt to make kodi use it
+        self.empty_srt = f'{self.cachePath}/{self.tr(30508)}.da.srt'
+
+        # we need to have something in the srt to make kodi use it
+        Path(self.empty_srt).write_text('1\n00:00:00,000 --> 00:01:01,000\n')
         self.pastebin = PasteBin()
 
     def getLiveTV(self):
@@ -62,7 +56,7 @@ class Api():
         return [channel for channel in channels if channel['Title'] in ['DR1', 'DR2', 'DR Ramasjang']]
 
     def getChildrenFrontItems(self, channel):
-        new = "/search/tv/programcards-latest-episode-with-asset/series-title-starts-with/?channels={}&orderBy=Title".format(channel)
+        new = f"/search/tv/programcards-latest-episode-with-asset/series-title-starts-with/?channels={channel}&orderBy=Title"
         childrenFront = self._http_request(self.API_URL + new)
         return self._handle_paging(childrenFront)
 
@@ -84,33 +78,63 @@ class Api():
         if 'Indexes' in result:
             indexes = result['Indexes']
             for programIndex in indexes:
-                programIndex['_Param'] = programIndex['Source'][programIndex['Source'].rindex('/') + 1:]
+                programIndex['_Param'] = programIndex['Source'][programIndex['Source'].rindex(
+                    '/') + 1:]
             return indexes
-
         return []
 
-    def searchProgram(self, query):
+    def getAZIndexes(self):
+        return [
+            {'Title': 'A', '_Param': 'a'},
+            {'Title': 'B', '_Param': 'b'},
+            {'Title': 'C', '_Param': 'c'},
+            {'Title': 'D', '_Param': 'd'},
+            {'Title': 'E', '_Param': 'e'},
+            {'Title': 'F', '_Param': 'f'},
+            {'Title': 'G', '_Param': 'g'},
+            {'Title': 'H', '_Param': 'h'},
+            {'Title': 'I', '_Param': 'i'},
+            {'Title': 'J', '_Param': 'j'},
+            {'Title': 'K', '_Param': 'k'},
+            {'Title': 'L', '_Param': 'l'},
+            {'Title': 'M', '_Param': 'm'},
+            {'Title': 'N', '_Param': 'n'},
+            {'Title': 'O', '_Param': 'o'},
+            {'Title': 'P', '_Param': 'p'},
+            {'Title': 'Q', '_Param': 'q'},
+            {'Title': 'R', '_Param': 'r'},
+            {'Title': 'S', '_Param': 's'},
+            {'Title': 'T', '_Param': 't'},
+            {'Title': 'U', '_Param': 'u'},
+            {'Title': 'VW', '_Param': 'v..w'},
+            {'Title': 'XYZ', '_Param': 'x..z'},
+            {'Title': 'ÆØÅ', '_Param': 'æ..å'},
+            {'Title': '0-9', '_Param': '0..9'}
+        ]
+
+    def searchProgram(self, query, limit=75):
         # Remove various characters that makes the API puke
-        cleaned_query = re.sub('[&()"\'\.!]', '', query)
-        params = {'limit': 50}
-        result = self._http_request('/search/tv/programcards-with-asset/title/{}'.format(cleaned_query), params=params)
+        cleaned_query = re.sub(r'[&()"\'\.!]', '', query)
+        params = {'limit': limit}
+        result = self._http_request(f'/search/tv/programcards-with-asset/title/{cleaned_query}', params=params)
         return result
 
-    def searchSeries(self, query, startswith=False):
+    def searchSeries(self, query, startswith=False, limit=75):
         base = '/search/tv/programcards-latest-episode-with-asset/series-title'
         if startswith:
             base += '-starts-with'
-        # Remove various characters that makes the API puke
-        cleaned_query = re.sub('[&()"\'\.!]', '', query)
-        result = self._http_request(f'{base}/{cleaned_query}')
+        else:
+            # Remove various characters that makes the API puke
+            query = re.sub(r'[&()"\'\.!]', '', query)
+        result = self._http_request(f'{base}/{query}', params={'limit': limit})
         return self._handle_paging(result)
 
     def getEpisodes(self, slug):
-        result = self._http_request('/list/{}'.format(slug), {'limit': 48, 'expanded': True})
+        result = self._http_request(f'/list/{slug}', {'limit': 75, 'expanded': True})
         return self._handle_paging(result)
 
     def getEpisode(self, slug):
-        return self._http_request('/programcard/{}'.format(slug))
+        return self._http_request(f'/programcard/{slug}')
 
     def getMostViewed(self):
         result = self._http_request('/list/view/mostviewed', {'limit': 48})
@@ -128,45 +152,43 @@ class Api():
         for link in result['Links']:
             if link['Target'] == 'HLS':
                 uri = link['Uri']
-                if uri == None:
+                if uri is None:
                     uri = link['EncryptedUri']
                     uri = decrypt_uri(uri)
                 break
 
         subtitlesUri = None
         if 'SubtitlesList' in result and len(result['SubtitlesList']) > 0:
-            subtitlesUri=[]
+            subtitlesUri = []
             foreign = False
             for sub in result['SubtitlesList']:
-               if 'HardOfHearing' in sub['Type']:
-                   name = compat_str('{}/{}.da.srt').format(self.cachePath, self.tr(30506))
-               else:
-                   foreign = True
-                   name = compat_str('{}/{}.da.srt').format(self.cachePath, self.tr(30507))
-               u = requests.get(sub['Uri'], timeout=10)
-               if u.status_code != 200:
-                   u.close()
-                   break
-               srt = self.vtt2srt(u.content)
-               with open(name.encode('utf-8'), 'wb') as fn:
-                   fn.write(srt.encode('utf-8'))
-               u.close()
-               subtitlesUri.append(name)
+                if 'HardOfHearing' in sub['Type']:
+                    name = f'{self.cachePath}/{self.tr(30506)}.da.srt'
+                else:
+                    foreign = True
+                    name = f'{self.cachePath}/{self.tr(30507)}.da.srt'
+                u = requests.get(sub['Uri'], timeout=10)
+                if u.status_code != 200:
+                    u.close()
+                    break
+                srt = self.vtt2srt(u.content)
+                with open(name.encode('utf-8'), 'wb') as fh:
+                    fh.write(srt.encode('utf-8'))
+                u.close()
+                subtitlesUri.append(name)
             if not foreign:
-               # no subtitles, so probably all danish, so we need to set an empty subtitle file as first choice
-               subtitlesUri = [self.empty_srt] + subtitlesUri
+                # no subtitles, so probably all danish, so we need to set an empty subtitle file as first choice
+                subtitlesUri = [self.empty_srt] + subtitlesUri
         return {
             'Uri': uri,
             'SubtitlesUri': subtitlesUri
         }
 
-
     def redirectImageUrl(self, imageUrl, width=300, height=170):
-	# HACK: the servers behind /mu-online/api/1.2 is often returning Content-Type="text/xml" instead of "image/jpeg",
-        # this problem is not pressent for /mu/bar (the "Classic API")
+        # HACK: the servers behind /mu-online/api/1.2 is often returning Content-Type="text/xml"
+        # instead of "image/jpeg", this problem is not pressent for /mu/bar (the "Classic API")
         assert(self.api.API_URL.endswith("/mu-online/api/1.2"))
-        return imageUrl.replace("/mu-online/api/1.2/bar/","/mu/bar/") + "?width={:d}&height={:d}".format(width, height)
-
+        return imageUrl.replace("/mu-online/api/1.2/bar/", "/mu/bar/") + "?width={:d}&height={:d}".format(width, height)
 
     def _handle_paging(self, result):
         items = result['Items']
@@ -177,7 +199,7 @@ class Api():
 
     def _http_request(self, url, params=None, cache=True):
         try:
-            if not url.startswith(('http://','https://')):
+            if not url.startswith(('http://', 'https://')):
                 url = self.API_URL + urlparse.quote(url, '/')
 
             if params:
@@ -208,12 +230,13 @@ class Api():
 
         srtout = ['1']
         idx = 2
-        for l in srt.splitlines():
-           if l == 'putINDEXhere':
-               l = str(idx)
-               idx += 1
-           srtout.append(l)
+        for line in srt.splitlines():
+            if line == 'putINDEXhere':
+                line = str(idx)
+                idx += 1
+            srtout.append(line)
         return '\n'.join(srtout)
+
 
 BLOCK_SIZE_BYTES = 16
 
@@ -291,15 +314,18 @@ RIJNDAEL_LOG_TABLE = (0x00, 0x00, 0x19, 0x01, 0x32, 0x02, 0x1a, 0xc6, 0x4b, 0xc7
                       0x44, 0x11, 0x92, 0xd9, 0x23, 0x20, 0x2e, 0x89, 0xb4, 0x7c, 0xb8, 0x26, 0x77, 0x99, 0xe3, 0xa5,
                       0x67, 0x4a, 0xed, 0xde, 0xc5, 0x31, 0xfe, 0x18, 0x0d, 0x63, 0x8c, 0x80, 0xc0, 0xf7, 0x70, 0x07)
 
+
 def compat_struct_pack(spec, *args):
-    if isinstance(spec, compat_str):
+    if isinstance(spec, str):
         spec = spec.encode('ascii')
     return struct.pack(spec, *args)
 
+
 def compat_struct_unpack(spec, *args):
-    if isinstance(spec, compat_str):
+    if isinstance(spec, str):
         spec = spec.encode('ascii')
     return struct.unpack(spec, *args)
+
 
 def mix_column(data, matrix):
     data_mixed = []
@@ -311,6 +337,7 @@ def mix_column(data, matrix):
         data_mixed.append(mixed)
     return data_mixed
 
+
 def mix_columns(data, matrix=MIX_COLUMN_MATRIX):
     data_mixed = []
     for i in range(4):
@@ -318,13 +345,16 @@ def mix_columns(data, matrix=MIX_COLUMN_MATRIX):
         data_mixed += mix_column(column, matrix)
     return data_mixed
 
+
 def mix_columns_inv(data):
     return mix_columns(data, MIX_COLUMN_MATRIX_INV)
+
 
 def rijndael_mul(a, b):
     if(a == 0 or b == 0):
         return 0
     return RIJNDAEL_EXP_TABLE[(RIJNDAEL_LOG_TABLE[a] + RIJNDAEL_LOG_TABLE[b]) % 0xFF]
+
 
 def shift_rows_inv(data):
     data_shifted = []
@@ -332,6 +362,7 @@ def shift_rows_inv(data):
         for row in range(4):
             data_shifted.append(data[((column - row) & 0b11) * 4 + row])
     return data_shifted
+
 
 def sub_bytes(data):
     return [SBOX[x] for x in data]
@@ -352,8 +383,10 @@ def key_schedule_core(data, rcon_iteration):
 
     return data
 
+
 def xor(data1, data2):
     return [x ^ y for x, y in zip(data1, data2)]
+
 
 def key_expansion(data):
     """
@@ -389,26 +422,6 @@ def key_expansion(data):
     return data
 
 
-def aes_encrypt(data, expanded_key):
-    """
-    Encrypt one block with aes
-    @param {int[]} data          16-Byte state
-    @param {int[]} expanded_key  176/208/240-Byte expanded key
-    @returns {int[]}             16-Byte cipher
-    """
-    rounds = len(expanded_key) // BLOCK_SIZE_BYTES - 1
-
-    data = xor(data, expanded_key[:BLOCK_SIZE_BYTES])
-    for i in range(1, rounds + 1):
-        data = sub_bytes(data)
-        data = shift_rows(data)
-        if i != rounds:
-            data = mix_columns(data)
-        data = xor(data, expanded_key[i * BLOCK_SIZE_BYTES: (i + 1) * BLOCK_SIZE_BYTES])
-
-    return data
-
-
 def aes_decrypt(data, expanded_key):
     """
     Decrypt one block with aes
@@ -428,6 +441,7 @@ def aes_decrypt(data, expanded_key):
 
     return data
 
+
 def bytes_to_intlist(bs):
     if not bs:
         return []
@@ -436,13 +450,16 @@ def bytes_to_intlist(bs):
     else:
         return [ord(c) for c in bs]
 
+
 def intlist_to_bytes(xs):
     if not xs:
         return b''
     return compat_struct_pack('%dB' % len(xs), *xs)
 
+
 def hex_to_bytes(hex):
     return binascii.a2b_hex(hex.encode('ascii'))
+
 
 def aes_cbc_decrypt(data, key, iv):
     """
@@ -467,6 +484,7 @@ def aes_cbc_decrypt(data, key, iv):
     decrypted_data = decrypted_data[:len(data)]
 
     return decrypted_data
+
 
 def decrypt_uri(e):
     n = int(e[2:10], 16)
@@ -497,9 +515,9 @@ class PasteBin():
         params = {
             "api_dev_key": self.dev_key,
             'api_user_key': self.user_key,
-            'api_option':'paste',
-            'api_paste_name':'kodi_fail_log',
-            'api_paste_code':message,
+            'api_option': 'paste',
+            'api_paste_name': 'kodi_fail_log',
+            'api_paste_code': message,
             'api_paste_format': 'python',
             'api_paste_expire_date': expire,
             'api_paste_private': 1
