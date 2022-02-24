@@ -475,7 +475,7 @@ class DrDkTvAddon(object):
                 elif PARAMS['show'] == 'listAZ':
                     self.showAZ()
                 elif PARAMS['show'] == 'latest':
-                    channel = SLUG_ADULT if self.bool_setting('disable.kids') else ''
+                    channel = SLUG_ADULT if bool_setting('disable.kids') else ''
                     self.listEpisodes(self.api.getLatestPrograms(channel), addSortMethods=False)
                 elif PARAMS['show'] == 'mostViewed':
                     self.listEpisodes(self.api.getMostViewed())
