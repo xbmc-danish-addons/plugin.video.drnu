@@ -30,7 +30,101 @@ import re
 import requests
 import requests_cache
 import struct
-import sys
+import urllib.parse as urlparse
+import datetime
+
+
+class NewApi():
+    def __init__(self):
+        self.get_tokens()
+
+    def deviceid(self):
+        v = int(Path(__file__).stat().st_mtime)
+        h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
+        return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
+
+    def get_tokens(self):
+        data = {"deviceId": self.deviceid(), "scopes": ["Catalog"], "optout": False}
+        params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
+
+        url = 'https://isl.dr-massive.com/api/authorization/anonymous-sso?'
+        with requests_cache.disabled():
+            u = requests.post(url, json=data, params=params)
+        if u.status_code == 200:
+            self._tokens = u.json()
+        else:
+            print(u.text)
+            raise ApiException(f'Failed to get new token from: {url}')
+
+    def refresh_tokens(self):
+        if self._tokens is None:
+            self.get_tokens()
+        expire_time = datetime.datetime.strptime(self._tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
+        if (expire_time - datetime.datetime.now()).total_seconds() < 120:
+            self.get_tokens()
+
+    def user_token(self):
+        self.refresh_tokens()
+        return self._tokens[0]['value']
+
+    def profile_token(self):
+        self.refresh_tokens()
+        return self._tokens[1]['value']
+
+    def get_programcard(self, path):
+        url = 'https://www.dr-massive.com/api/page?'
+        data = {
+            'item_detail_expand': 'all',
+            'list_page_size': '24',
+            'max_list_prefetch': '3',
+            'path': path
+        }
+        u = requests.get(url, params=data)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
+    def search(self, term):
+        url = 'https://isl.dr-massive.com/api/search'
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        data = {
+            'item_detail_expand': 'all',
+            'list_page_size': '24',
+            'max_list_prefetch': '3',
+            'term': term
+        }
+        u = requests.get(url, params=data, headers=headers)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
+    def get_id_from_slug(self, slug):
+        js = self.search(slug)
+        if js['playable']['size'] == 1:
+            return js['playable']['items'][0]['id']
+        return None
+
+    def get_stream(self, id):
+        url = f'https://isl.dr-massive.com/api/account/items/{int(id)}/videos?'
+        headers = {"X-Authorization": f'Bearer {self.user_token()}'}
+        data = {
+            'delivery': 'stream',
+            'device': 'web_browser',
+            'ff': 'idp,ldp,rpt',
+            'lang': 'da',
+            'resolution': 'HD-1080',
+            'sub': 'Anonymous'
+        }
+        u = requests.get(url, params=data, headers=headers)
+        if u.status_code == 200:
+            for stream in u.json():
+                if stream['accessService'] == 'StandardVideo':
+                    return stream
+            return None
+        else:
+            raise ApiException(u.text)
 
 import xbmc
 import xbmcaddon
