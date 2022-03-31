@@ -210,6 +210,8 @@ class Api():
             if u.status_code == 200:
                 content = u.text
                 u.close()
+            else:
+                raise ApiException(u.text)
 
             return json.loads(content)
         except Exception as ex:
