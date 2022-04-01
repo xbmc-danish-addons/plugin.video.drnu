@@ -36,7 +36,7 @@ import urllib.parse as urlparse
 class Api():
     API_URL = 'http://www.dr.dk/mu-online/api/1.2'
 
-    def __init__(self, cachePath, getLocalizedString, expire_hours=8):
+    def __init__(self, cachePath, getLocalizedString, expire_hours=24):
         self.cachePath = cachePath
         self.tr = getLocalizedString
 
@@ -62,32 +62,32 @@ class Api():
         indexes = self.getProgramIndexes()
         idx = 1
         maxidx = float(len(indexes) + 2)
-        for index in indexes:
+        for index in indexes[:3]:
             st2 = time.time()
             series = self.searchSeries(index['_Param'], startswith=True)
             for series in self.searchSeries(index['_Param'], startswith=True):
                 if cache_episodes:
                     self.cache_episodes(series, cache_urls=cache_urls)
+            msg = f"{index['_Param']}\n{time.time() - st2:.1f}s"
             if verbose:
-                cache_output.write(index['_Param'] + '\n')
-                cache_output.write(f'{time.time() - st2:.1f}\n\n' )
+                cache_output.write(msg)
             if progress is not None:
                 if progress.iscanceled():
                     return time.time() - st
-                progress.update(int(100*idx/maxidx), index['_Param'] )
+                progress.update(int(100*idx/maxidx), msg)
             idx += 1
         for channel in ['dr-ramasjang', 'dr-minisjang']:
             st2 = time.time()
             for series in self.getChildrenFrontItems(channel):
                 if cache_episodes:
                     self.cache_episodes(series, cache_urls=cache_urls)
+            msg = f"{channel}\n{time.time() - st2:.1f}s"
             if verbose:
-                cache_output.write(channel + '\n')
-                cache_output.write(f'{time.time() - st2:.1f}\n\n')
+                cache_output.write(msg)
             if progress is not None:
                 if progress.iscanceled():
                     return time.time() - st
-                progress.update(int(100*idx/maxidx), channel)
+                progress.update(int(100*idx/maxidx), msg)
             idx += 1
 
         if verbose:
