@@ -361,6 +361,7 @@ class DrDkTvAddon(object):
             listItem.addContextMenuItems(self.menuItems, False)
             directoryItems.append((url, listItem))
 
+        xbmcplugin.setContent(self._plugin_handle, 'episodes')
         xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
         if addSortMethods:
             xbmcplugin.addSortMethod(self._plugin_handle, xbmcplugin.SORT_METHOD_DATE)
