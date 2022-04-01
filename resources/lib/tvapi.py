@@ -54,31 +54,45 @@ class Api():
                 url = episode['PrimaryAsset']['Uri']
                 _ = self._http_request(url)
 
-    def recache_requests(self, cache_urls=False, cache_episodes=False, clear_expired=True, verbose=False):
+    def recache_requests(self, cache_urls=False, cache_episodes=False, clear_expired=True, verbose=False, progress=None):
         if clear_expired:
             self.session.remove_expired_responses()
-        cache_output = Path(self.cachePath + '/recache.log')
+        cache_output = Path(self.cachePath + '/recache.log').open('w')
         st = time.time()
-        for index in self.getProgramIndexes():
+        indexes = self.getProgramIndexes()
+        idx = 1
+        maxidx = float(len(indexes) + 2)
+        for index in indexes:
             st2 = time.time()
             series = self.searchSeries(index['_Param'], startswith=True)
             for series in self.searchSeries(index['_Param'], startswith=True):
                 if cache_episodes:
                     self.cache_episodes(series, cache_urls=cache_urls)
             if verbose:
-                cache_output.write_text(index['_Param'])
-                cache_output.write_text(time.time() - st2)
+                cache_output.write(index['_Param'] + '\n')
+                cache_output.write(f'{time.time() - st2:.1f}\n\n' )
+            if progress is not None:
+                if progress.iscanceled():
+                    return time.time() - st
+                progress.update(int(100*idx/maxidx), index['_Param'] )
+            idx += 1
         for channel in ['dr-ramasjang', 'dr-minisjang']:
             st2 = time.time()
             for series in self.getChildrenFrontItems(channel):
                 if cache_episodes:
                     self.cache_episodes(series, cache_urls=cache_urls)
             if verbose:
-                cache_output.write_text(channel)
-                cache_output.write_text(time.time() - st2)
+                cache_output.write(channel + '\n')
+                cache_output.write(f'{time.time() - st2:.1f}\n\n')
+            if progress is not None:
+                if progress.iscanceled():
+                    return time.time() - st
+                progress.update(int(100*idx/maxidx), channel)
+            idx += 1
 
         if verbose:
-            cache_output.write_text(time.time() - st)
+            cache_output.write(f'{time.time() - st2:.1f}')
+        cache_output.close()
         return time.time() - st
 
     def getLiveTV(self):

@@ -1,5 +1,5 @@
 from tvapi import Api
-from addon import tr
+
 import os
 
 import xbmc
@@ -8,6 +8,11 @@ import xbmcgui
 
 from xbmcvfs import translatePath
 
+def tr(id):
+    if isinstance(id, list):
+        return '\n'.join([addon.getLocalizedString(item) for item in id])
+    return addon.getLocalizedString(id)
+
 addon = xbmcaddon.Addon('plugin.video.drnu')
 
 cachepath = translatePath(addon.getAddonInfo("Profile"))
@@ -15,6 +20,13 @@ if not os.path.exists(cachepath):
     os.makedirs(cachepath)
 
 api = Api(cachepath, tr)
-used_time = api.recache_requests(cache_urls=False, cache_episodes=False, clear_expired=False, verbose=False)
+progress = xbmcgui.DialogProgress()
+progress.create("video.drnu recaching...")
+progress.update(0)
 
-xbmcgui.Dialog().ok("finished re-caching in ")
+used_time = api.recache_requests(cache_urls=False, cache_episodes=True, clear_expired=False, verbose=True, progress=progress)
+
+progress.update(100)
+progress.close()
+
+#xbmcgui.Dialog().ok("finished re-caching in ", f'{used_time:.1f} seconds'))
