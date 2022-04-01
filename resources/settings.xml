@@ -8,5 +8,6 @@
         <setting id="disable.kids" label="30505" type="bool" default="true" />
         <setting id="disable.kids.subtitles" label="30509" type="bool" default="true" />
         <setting label="30504" type="action" action="RunScript($CWD/resources/lib/clearfavorites.py)" />
+				<setting label="30521" type="action" action="RunScript($CWD/resources/lib/recache_job.py)" />
 	</category>
 </settings>

@@ -57,7 +57,7 @@ class Api():
     def recache_requests(self, cache_urls=False, cache_episodes=False, clear_expired=True, verbose=False):
         if clear_expired:
             self.session.remove_expired_responses()
-
+        cache_output = Path(self.cachePath + '/recache.log')
         st = time.time()
         for index in self.getProgramIndexes():
             st2 = time.time()
@@ -66,19 +66,20 @@ class Api():
                 if cache_episodes:
                     self.cache_episodes(series, cache_urls=cache_urls)
             if verbose:
-                print(index['_Param'])
-                print(time.time() - st2)
+                cache_output.write_text(index['_Param'])
+                cache_output.write_text(time.time() - st2)
         for channel in ['dr-ramasjang', 'dr-minisjang']:
             st2 = time.time()
             for series in self.getChildrenFrontItems(channel):
                 if cache_episodes:
                     self.cache_episodes(series, cache_urls=cache_urls)
             if verbose:
-                print(channel)
-                print(time.time() - st2)
+                cache_output.write_text(channel)
+                cache_output.write_text(time.time() - st2)
 
         if verbose:
-            print(time.time() - st)
+            cache_output.write_text(time.time() - st)
+        return time.time() - st
 
     def getLiveTV(self):
         channels = self._http_request('/channel/all-active-dr-tv-channels')
