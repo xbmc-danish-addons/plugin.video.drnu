@@ -1,34 +1,20 @@
 from tvapi import Api
-from pathlib import Path
-import sys
+from addon import tr
+import os
 
+import xbmc
+import xbmcaddon
+import xbmcgui
 
-def tr(id, da=True):
-    msgid = str(id)
-    msgstr = str(id)
+from xbmcvfs import translatePath
 
-    if id == 30506:
-        msgid = "Hard-of-hearing"
-        msgstr = "For hørehæmmede"
+addon = xbmcaddon.Addon('plugin.video.drnu')
 
-    if id == 30507:
-        msgid = "Subtitles"
-        msgstr = "Undertekster"
+cachepath = translatePath(addon.getAddonInfo("Profile"))
+if not os.path.exists(cachepath):
+    os.makedirs(cachepath)
 
-    if id == 30508:
-        msgid = "empty"
-        msgstr = "Ingen undertekster"
-
-    if da:
-        return msgstr
-    else:
-        return msgid
-
-
-if len(sys.argv) != 2:
-    print('please give cache folder as argument')
-    sys.exit(0)
-
-cachepath = Path(sys.argv[1])
 api = Api(cachepath, tr)
-api.recache_requests(cache_urls=False, cache_episodes=True, clear_expired=False, verbose=True)
+used_time = api.recache_requests(cache_urls=False, cache_episodes=False, clear_expired=False, verbose=False)
+
+xbmcgui.Dialog().ok("finished re-caching in ")

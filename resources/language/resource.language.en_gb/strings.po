@@ -168,6 +168,10 @@ msgctxt "#30520"
 msgid "Fanart image resolution"
 msgstr ""
 
+msgctxt "#30521"
+msgid "re-cache all"
+msgstr ""
+
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
 msgstr ""
