@@ -62,7 +62,7 @@ class Api():
         indexes = self.getProgramIndexes()
         idx = 1
         maxidx = float(len(indexes) + 2)
-        for index in indexes[:3]:
+        for index in indexes[:]:
             st2 = time.time()
             series = self.searchSeries(index['_Param'], startswith=True)
             for series in self.searchSeries(index['_Param'], startswith=True):
