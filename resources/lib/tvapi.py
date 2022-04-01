@@ -29,24 +29,56 @@ import re
 import requests
 import requests_cache
 import struct
+import time
 import urllib.parse as urlparse
 
 
 class Api():
     API_URL = 'http://www.dr.dk/mu-online/api/1.2'
 
-    def __init__(self, cachePath, getLocalizedString):
+    def __init__(self, cachePath, getLocalizedString, expire_hours=8):
         self.cachePath = cachePath
         self.tr = getLocalizedString
 
         # cache expires after: 3600 = 1hour
-        requests_cache.install_cache(os.path.join(
-            cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*8)
-        requests_cache.remove_expired_responses()
+        self.session = requests_cache.CachedSession(os.path.join(
+            cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*expire_hours)
         self.empty_srt = f'{self.cachePath}/{self.tr(30508)}.da.srt'
 
         # we need to have something in the srt to make kodi use it
         Path(self.empty_srt).write_text('1\n00:00:00,000 --> 00:01:01,000\n')
+
+    def cache_episodes(self, series, cache_urls=False):
+        for episode in self.getEpisodes(series['SeriesSlug']):
+            if cache_urls and 'PrimaryAsset' in episode:
+                url = episode['PrimaryAsset']['Uri']
+                _ = self._http_request(url)
+
+    def recache_requests(self, cache_urls=False, cache_episodes=False, clear_expired=True, verbose=False):
+        if clear_expired:
+            self.session.remove_expired_responses()
+
+        st = time.time()
+        for index in self.getProgramIndexes():
+            st2 = time.time()
+            series = self.searchSeries(index['_Param'], startswith=True)
+            for series in self.searchSeries(index['_Param'], startswith=True):
+                if cache_episodes:
+                    self.cache_episodes(series, cache_urls=cache_urls)
+            if verbose:
+                print(index['_Param'])
+                print(time.time() - st2)
+        for channel in ['dr-ramasjang', 'dr-minisjang']:
+            st2 = time.time()
+            for series in self.getChildrenFrontItems(channel):
+                if cache_episodes:
+                    self.cache_episodes(series, cache_urls=cache_urls)
+            if verbose:
+                print(channel)
+                print(time.time() - st2)
+
+        if verbose:
+            print(time.time() - st)
 
     def getLiveTV(self):
         channels = self._http_request('/channel/all-active-dr-tv-channels')
@@ -164,7 +196,7 @@ class Api():
                 else:
                     foreign = True
                     name = f'{self.cachePath}/{self.tr(30507)}.da.srt'
-                u = requests.get(sub['Uri'], timeout=10)
+                u = self.session.get(sub['Uri'], timeout=10)
                 if u.status_code != 200:
                     u.close()
                     break
@@ -203,10 +235,11 @@ class Api():
                 url += '?' + urlparse.urlencode(params, doseq=True)
 
             if not cache:
-                with requests_cache.disabled():
-                    u = requests.get(url, timeout=30)
-            else:
                 u = requests.get(url, timeout=30)
+#                with requests_cache.disabled():
+#                    u = requests.get(url, timeout=30)
+            else:
+                u = self.session.get(url, timeout=30)
             if u.status_code == 200:
                 content = u.text
                 u.close()
