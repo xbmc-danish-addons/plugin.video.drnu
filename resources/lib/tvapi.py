@@ -73,7 +73,7 @@ class Api():
                 cache_output.write(msg)
             if progress is not None:
                 if progress.iscanceled():
-                    return time.time() - st
+                    return
                 progress.update(int(100*idx/maxidx), msg)
             idx += 1
         for channel in ['dr-ramasjang', 'dr-minisjang']:
@@ -86,14 +86,14 @@ class Api():
                 cache_output.write(msg)
             if progress is not None:
                 if progress.iscanceled():
-                    return time.time() - st
+                    return
                 progress.update(int(100*idx/maxidx), msg)
             idx += 1
 
         if verbose:
-            cache_output.write(f'{time.time() - st2:.1f}')
+            cache_output.write(f'{time.time() - st:.1f}')
         cache_output.close()
-        return time.time() - st
+        return
 
     def getLiveTV(self):
         channels = self._http_request('/channel/all-active-dr-tv-channels')

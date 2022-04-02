@@ -172,6 +172,10 @@ msgctxt "#30521"
 msgid "re-cache all"
 msgstr "re-cache alt"
 
+msgctxt "#30522"
+msgid "cache expiration in hours"
+msgstr "cache holdbarhed i timer"
+
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
 msgstr "Der er sket en fejl i kommunikationen med DR NU."
