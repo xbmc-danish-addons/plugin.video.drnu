@@ -70,7 +70,7 @@ class DrDkTvAddon(object):
         self.recent_path = os.path.join(self.cache_path, 'recent.pickle')
         self.fanart_image = os.path.join(addon_path, 'resources', 'fanart.jpg')
 
-        self.api = tvapi.Api(self.cache_path, tr)
+        self.api = tvapi.Api(self.cache_path, tr, expire_hours=int(get_setting('recache.expiration')))
         self.favorites = list()
         self.recentlyWatched = list()
 
@@ -520,6 +520,18 @@ class DrDkTvAddon(object):
 
             elif 'delfavorite' in PARAMS:
                 self.delFavorite(PARAMS['delfavorite'])
+
+            elif 'reCache' in PARAMS:
+                progress = xbmcgui.DialogProgress()
+                progress.create("video.drnu " + tr(30521))
+                progress.update(0)
+                self.api.recache_requests(cache_urls=False,
+                                          cache_episodes=True,
+                                          clear_expired=False,
+                                          verbose=True,
+                                          progress=progress)
+                progress.update(100)
+                progress.close()
 
             else:
                 try:
