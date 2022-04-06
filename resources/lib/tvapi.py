@@ -48,50 +48,51 @@ class Api():
         # we need to have something in the srt to make kodi use it
         Path(self.empty_srt).write_text('1\n00:00:00,000 --> 00:01:01,000\n')
 
-    def cache_episodes(self, series, cache_urls=False):
+    def cache_episodes(self, series, cache_urls=False, progress=None):
         for episode in self.getEpisodes(series['SeriesSlug']):
+            if progress is not None and progress.iscanceled():
+                return
             if cache_urls and 'PrimaryAsset' in episode:
                 url = episode['PrimaryAsset']['Uri']
                 _ = self._http_request(url)
 
-    def recache_requests(self, cache_urls=False, cache_episodes=False, clear_expired=True, verbose=False, progress=None):
+    def recache_requests(self, cache_urls=False, cache_episodes=False, clear_expired=True, progress=None):
         if clear_expired:
             self.session.remove_expired_responses()
         cache_output = Path(self.cachePath + '/recache.log').open('w')
+
         st = time.time()
         indexes = self.getProgramIndexes()
-        idx = 1
         maxidx = float(len(indexes) + 2)
-        for index in indexes[:]:
+
+        for i, index in enumerate(indexes[:]):
+            # A .. Z
             st2 = time.time()
             series = self.searchSeries(index['_Param'], startswith=True)
             for series in self.searchSeries(index['_Param'], startswith=True):
                 if cache_episodes:
-                    self.cache_episodes(series, cache_urls=cache_urls)
-            msg = f"{index['_Param']}\n{time.time() - st2:.1f}s"
-            if verbose:
-                cache_output.write(msg)
+                    self.cache_episodes(series, cache_urls=cache_urls, progress=progress)
+
+            msg = f"{self.tr(30523)}'{index['_Param']}'\n{time.time() - st2:.1f}s"
+            cache_output.write(msg)
             if progress is not None:
                 if progress.iscanceled():
                     return
-                progress.update(int(100*idx/maxidx), msg)
-            idx += 1
-        for channel in ['dr-ramasjang', 'dr-minisjang']:
+                progress.update(int(100*(i+1)/maxidx), msg)
+
+        for i, channel in enumerate(['dr-ramasjang', 'dr-minisjang']):
             st2 = time.time()
             for series in self.getChildrenFrontItems(channel):
                 if cache_episodes:
-                    self.cache_episodes(series, cache_urls=cache_urls)
-            msg = f"{channel}\n{time.time() - st2:.1f}s"
-            if verbose:
-                cache_output.write(msg)
+                    self.cache_episodes(series, cache_urls=cache_urls, progress=progress)
+            msg = f"{self.tr(30523)}'{channel}'\n{time.time() - st2:.1f}s"
+            cache_output.write(msg)
             if progress is not None:
                 if progress.iscanceled():
                     return
-                progress.update(int(100*idx/maxidx), msg)
-            idx += 1
+                progress.update(int(100*(i+maxidx-1)/maxidx), msg)
 
-        if verbose:
-            cache_output.write(f'{time.time() - st:.1f}')
+        cache_output.write(f'{time.time() - st:.1f}')
         cache_output.close()
         return
 
@@ -251,8 +252,6 @@ class Api():
 
             if not cache:
                 u = requests.get(url, timeout=30)
-#                with requests_cache.disabled():
-#                    u = requests.get(url, timeout=30)
             else:
                 u = self.session.get(url, timeout=30)
             if u.status_code == 200:
