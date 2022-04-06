@@ -176,6 +176,10 @@ msgctxt "#30522"
 msgid "cache expiration in hours"
 msgstr ""
 
+msgctxt "#30523"
+msgid "re-cache all in: "
+msgstr ""
+
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
 msgstr ""

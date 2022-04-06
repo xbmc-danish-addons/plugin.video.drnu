@@ -35,6 +35,7 @@ from inputstreamhelper import Helper
 from resources.lib import tvapi
 from resources.lib import tvgui
 
+from pathlib import Path
 addon = xbmcaddon.Addon()
 get_setting = addon.getSetting
 addon_path = addon.getAddonInfo('path')
@@ -70,13 +71,11 @@ class DrDkTvAddon(object):
         self.recent_path = os.path.join(self.cache_path, 'recent.pickle')
         self.fanart_image = os.path.join(addon_path, 'resources', 'fanart.jpg')
 
-        self.api = tvapi.Api(self.cache_path, tr, expire_hours=int(get_setting('recache.expiration')))
         self.favorites = list()
         self.recentlyWatched = list()
 
         self.menuItems = list()
-        runScript = "RunAddon(plugin.video.drnu,?show=areaselector&random={:d})".format(
-            self._plugin_handle)
+        runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
         self.menuItems.append((tr(30511), runScript))
 
         # Area Selector
@@ -84,6 +83,7 @@ class DrDkTvAddon(object):
         self.area_item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
             addon_path, 'resources', 'icons', 'all.png')})
 
+        self.api = tvapi.Api(self.cache_path, tr, expire_hours=int(get_setting('recache.expiration')))
         self._load()
 
     def _save(self):
@@ -472,6 +472,8 @@ class DrDkTvAddon(object):
         heading = 'I/O error'
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30902), tr(30903), message]))
 
+# {"jsonrpc": "2.0", "method": "Addons.ExecuteAddon", "params": { "addonid": "plugin.video.drnu", "params":["?reCache=1"]}, "id": "1"}
+# cron
     def route(self, query):
         try:
             PARAMS = dict(urlparse.parse_qsl(query[1:]))
@@ -523,12 +525,11 @@ class DrDkTvAddon(object):
 
             elif 'reCache' in PARAMS:
                 progress = xbmcgui.DialogProgress()
-                progress.create("video.drnu " + tr(30521))
+                progress.create("video.drnu")
                 progress.update(0)
                 self.api.recache_requests(cache_urls=False,
                                           cache_episodes=True,
                                           clear_expired=False,
-                                          verbose=True,
                                           progress=progress)
                 progress.update(100)
                 progress.close()
