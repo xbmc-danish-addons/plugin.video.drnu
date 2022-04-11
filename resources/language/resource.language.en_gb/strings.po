@@ -160,8 +160,24 @@ msgctxt "#30515"
 msgid "Show area chooser item in root"
 msgstr ""
 
+msgctxt "#30516"
+msgid "Minisjang"
+msgstr ""
+
 msgctxt "#30520"
 msgid "Fanart image resolution"
+msgstr ""
+
+msgctxt "#30521"
+msgid "re-cache all"
+msgstr ""
+
+msgctxt "#30522"
+msgid "cache expiration in hours"
+msgstr ""
+
+msgctxt "#30523"
+msgid "re-cache all in: "
 msgstr ""
 
 msgctxt "#30900"
@@ -196,3 +212,6 @@ msgctxt "#30907"
 msgid "https://github.com/xbmc-danish-addons/plugin.video.drnu/issues"
 msgstr ""
 
+msgctxt "#30908"
+msgid "see error at:"
+msgstr ""

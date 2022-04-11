@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.drnu" version="5.0.17+matrix.1" name="DR TV" provider-name="TermeHansen">
+<addon id="plugin.video.drnu" version="5.1.0+matrix.1" name="DR TV" provider-name="TermeHansen">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.25.1+matrix.1" />
@@ -25,9 +25,9 @@
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
        </assets>
-       <news>-[B]Version 5.0.17 - 2022-01-22[/B]
-- add subtitles to livestreams
-- change exception handling to pastebin from buggalo
-    </news>
+       <news>[B]Version 5.1.0 - 2022-04-01[/B]
+       - re-factor for python 3 only
+       - remove exception handling for pastebin
+       - add Minisjang area and update ui elements</news>
     </extension>
 </addon>
