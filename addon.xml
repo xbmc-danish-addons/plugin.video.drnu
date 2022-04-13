@@ -5,6 +5,7 @@
         <import addon="script.module.requests" version="2.25.1+matrix.1" />
         <import addon="script.module.requests-cache" version="0.5.2+matrix.2"/>
         <import addon="script.module.inputstreamhelper" version="0.5.10+matrix.1"/>
+        <import addon="script.module.m3u8" version="0.5.4+matrix.2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

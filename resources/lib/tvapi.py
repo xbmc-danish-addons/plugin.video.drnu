@@ -32,10 +32,22 @@ import struct
 import time
 import urllib.parse as urlparse
 import datetime
+import m3u8
 
 
 class NewApi():
-    def __init__(self):
+    def __init__(self, cachePath, getLocalizedString, expire_hours=24):
+        self.cachePath = cachePath
+        self.tr = getLocalizedString
+
+        # cache expires after: 3600 = 1hour
+        self.session = requests_cache.CachedSession(os.path.join(
+            cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*expire_hours)
+        self.empty_srt = f'{self.cachePath}/{self.tr(30508)}.da.srt'
+        self.token_file = Path(f'{self.cachePath}/token.json')
+
+        # we need to have something in the srt to make kodi use it
+        Path(self.empty_srt).write_text('1\n00:00:00,000 --> 00:01:01,000\n')
         self.get_tokens()
 
     def deviceid(self):
@@ -48,37 +60,44 @@ class NewApi():
         params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
 
         url = 'https://isl.dr-massive.com/api/authorization/anonymous-sso?'
-        with requests_cache.disabled():
-            u = requests.post(url, json=data, params=params)
+        u = requests.post(url, json=data, params=params)
+        self._user_token = None
+        self._profile_token = None
+        self._token_expire = None
         if u.status_code == 200:
-            self._tokens = u.json()
+            self.token_file.write_bytes(u.content)
+            tokens = json.loads(u.content)
+            time_struct = time.strptime(tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
+            self._token_expire = datetime.datetime(*time_struct[0:6])
+            self._user_token = tokens[0]['value']
+            self._profile_token = tokens[1]['value']
         else:
             print(u.text)
             raise ApiException(f'Failed to get new token from: {url}')
 
     def refresh_tokens(self):
-        if self._tokens is None:
+        if self._user_token is None:
             self.get_tokens()
-        expire_time = datetime.datetime.strptime(self._tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
-        if (expire_time - datetime.datetime.now()).total_seconds() < 120:
+        if (self._token_expire - datetime.datetime.now()).total_seconds() < 120:
             self.get_tokens()
 
     def user_token(self):
         self.refresh_tokens()
-        return self._tokens[0]['value']
+        return self._user_token
 
     def profile_token(self):
         self.refresh_tokens()
-        return self._tokens[1]['value']
+        return self._profile_token
 
-    def get_programcard(self, path):
+    def get_programcard(self, path, data=None):
         url = 'https://www.dr-massive.com/api/page?'
-        data = {
-            'item_detail_expand': 'all',
-            'list_page_size': '24',
-            'max_list_prefetch': '3',
-            'path': path
-        }
+        if data is None:
+            data = {
+                'item_detail_expand': 'all',
+                'list_page_size': '24',
+                'max_list_prefetch': '3',
+                'path': path
+            }
         u = requests.get(url, params=data)
         if u.status_code == 200:
             return u.json()
@@ -94,11 +113,26 @@ class NewApi():
             'max_list_prefetch': '3',
             'term': term
         }
-        u = requests.get(url, params=data, headers=headers)
+        u = self.session.get(url, params=data, headers=headers)
         if u.status_code == 200:
             return u.json()
         else:
             raise ApiException(u.text)
+
+    def get_home(self):
+        data = dict(
+            list_page_size=24,
+            max_list_prefetch=3,
+            item_detail_expand='all',
+            path='/',
+            segments='drtv,mt_K8q4Nz3,optedin',
+        )
+        js = self.get_programcard('/', data=data)
+        items = []
+        for item in js['entries']:
+            if item['title'] != '':
+                items.append({'title': item['title'], 'path': item['list']['path']})
+        return items
 
     def get_id_from_slug(self, slug):
         js = self.search(slug)
@@ -117,7 +151,8 @@ class NewApi():
             'resolution': 'HD-1080',
             'sub': 'Anonymous'
         }
-        u = requests.get(url, params=data, headers=headers)
+
+        u = self.session.get(url, params=data, headers=headers)
         if u.status_code == 200:
             for stream in u.json():
                 if stream['accessService'] == 'StandardVideo':
@@ -125,6 +160,48 @@ class NewApi():
             return None
         else:
             raise ApiException(u.text)
+
+    def getVideoUrl(self, id):
+        stream = self.get_stream(id)
+
+        url = stream['url']
+        if '/clear/none' in url:
+            r = m3u8.load(url)
+            if r.is_variant:
+                for playlist in r.playlists:
+                    if playlist.stream_info.resolution[1] == 720:
+                        url = r.base_uri + playlist.uri
+                        url = url.replace('.m3u8', '.mp4')
+                        break
+
+        subtitlesUri = None
+        if len(stream['subtitles']) > 0:
+            subtitlesUri = []
+            foreign = False
+            for sub in stream['subtitles']:
+                if sub['language'] == 'DanishLanguageSubtitles':
+                    name = f'{self.cachePath}/{self.tr(30506)}.da.srt'
+                else:
+                    foreign = True
+                    name = f'{self.cachePath}/{self.tr(30507)}.da.srt'
+                u = self.session.get(sub['link'], timeout=10)
+                if u.status_code != 200:
+                    u.close()
+                    break
+                srt = vtt2srt(u.content)
+                with open(name.encode('utf-8'), 'wb') as fh:
+                    fh.write(srt.encode('utf-8'))
+                u.close()
+                subtitlesUri.append(name)
+            if not foreign:
+                # no subtitles, so probably all danish, so we need to set an empty subtitle file as first choice
+                subtitlesUri = [self.empty_srt] + subtitlesUri
+        with open('debug', 'w') as fh:
+            fh.write(url)
+        return {
+            'url': url,
+            'SubtitlesUri': subtitlesUri
+        }
 
 
 class Api():
@@ -310,7 +387,7 @@ class Api():
                 if u.status_code != 200:
                     u.close()
                     break
-                srt = self.vtt2srt(u.content)
+                srt = vtt2srt(u.content)
                 with open(name.encode('utf-8'), 'wb') as fh:
                     fh.write(srt.encode('utf-8'))
                 u.close()
@@ -358,24 +435,25 @@ class Api():
         except Exception as ex:
             raise ApiException(ex)
 
-    def vtt2srt(self, vtt):
-        if isinstance(vtt, bytes):
-            vtt = vtt.decode('utf-8')
-        srt = vtt.replace("\r\n", "\n")
-        srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
-        srt = re.sub(r'WEBVTT\n\n', '', srt)
-        srt = re.sub(r'^\d+\n', '', srt)
-        srt = re.sub(r'\n\d+\n', '\n', srt)
-        srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
 
-        srtout = ['1']
-        idx = 2
-        for line in srt.splitlines():
-            if line == 'putINDEXhere':
-                line = str(idx)
-                idx += 1
-            srtout.append(line)
-        return '\n'.join(srtout)
+def vtt2srt(vtt):
+    if isinstance(vtt, bytes):
+        vtt = vtt.decode('utf-8')
+    srt = vtt.replace("\r\n", "\n")
+    srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
+    srt = re.sub(r'WEBVTT\n\n', '', srt)
+    srt = re.sub(r'^\d+\n', '', srt)
+    srt = re.sub(r'\n\d+\n', '\n', srt)
+    srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
+
+    srtout = ['1']
+    idx = 2
+    for line in srt.splitlines():
+        if line == 'putINDEXhere':
+            line = str(idx)
+            idx += 1
+        srtout.append(line)
+    return '\n'.join(srtout)
 
 
 BLOCK_SIZE_BYTES = 16
