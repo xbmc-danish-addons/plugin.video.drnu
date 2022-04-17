@@ -264,18 +264,25 @@ class DrDkTvAddon(object):
             keyword = keyboard.getText()
             self.listSeries(self.api.getSeries(keyword))
 
-    def kodi_item(self, item):
+    def kodi_item(self, item, is_season=False):
         menuItems = list(self.menuItems)
         isFolder = item['type'] not in ['program', 'episode']
+        if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
+            return None
 
         title = item['title']
         if item['type'] == 'season':
             title += f" {item['seasonNumber']}"
         listItem = xbmcgui.ListItem(title, offscreen=True)
-        listItem.setArt({'thumb': item['images']['tile'],
-                         'icon': item['images']['tile'],
-                         'fanart': item['images']['wallpaper']
-                         })
+        if 'images' in item:
+            listItem.setArt({'thumb': item['images']['tile'],
+                            'icon': item['images']['tile'],
+                            'fanart': item['images']['wallpaper']
+                            })
+        else:
+            listItem.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
+                    addon_path, 'resources', 'icons', 'star.png')})
+
         make_notice(f"{title} -- {item['type']} {isFolder}")
 
         if isFolder:
@@ -285,8 +292,12 @@ class DrDkTvAddon(object):
             else:
                 runScript = compat_str("RunPlugin(plugin://plugin.video.drnu/?addfavorite={})").format(title)
                 menuItems.append((tr(30200), runScript))
-            url = self._plugin_url + '?listVideos2=' + item['path']
-
+            if 'path' in item:
+                url = self._plugin_url + f"?listVideos2={item['path']}&seasons={is_season}"
+            elif 'list' in item and 'path' in item['list']:
+                url = self._plugin_url + f"?listVideos2={item['list']['path']}&seasons={is_season}"
+            else:
+                return None
         else:
             infoLabels = {
                 'title': item['title']
@@ -305,16 +316,16 @@ class DrDkTvAddon(object):
             url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}"
             listItem.setInfo('video', infoLabels)
             listItem.setProperty('IsPlayable', 'true')
-        make_notice(f"{url}")
 
         listItem.addContextMenuItems(menuItems, False)
         return (url, listItem, isFolder,)
 
-    def listEpisodes(self, items, addSortMethods=True):
+    def listEpisodes(self, items, addSortMethods=False, seasons=False):
         directoryItems = list()
         for item in items:
-
-            directoryItems.append(self.kodi_item(item))
+            gui_item = self.kodi_item(item, is_season=seasons)
+            if gui_item is not None:
+                directoryItems.append(gui_item)
 
         xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
         if addSortMethods:
@@ -452,21 +463,32 @@ class DrDkTvAddon(object):
                 self.listEpisodes(self.api.getEpisodes(PARAMS['listVideos']))
 
             elif 'listVideos2' in PARAMS:
-                make_notice(PARAMS['listVideos2'])
-                item = self.api2.get_programcard(PARAMS['listVideos2'])['entries'][0]
-                if item['type'] == 'ItemEntry':
-                    # if item['item']['type'] == 'show':
-                    #     self.listEpisodes(item['item']['seasons']['items'])
-                    if item['item']['type'] == 'season':
-                        self.listEpisodes(item['item']['show']['seasons']['items'])
-                    else:
-                        raise tvapi.ApiException(f"{item['item']['type']} unknown")
+                seasons = PARAMS.get('seasons', 'False')
+                make_notice(f"{PARAMS['listVideos2']}  {seasons}")
+                entries = self.api2.get_programcard(PARAMS['listVideos2'])['entries']
+                if len(entries) > 1:
+                    self.listEpisodes(entries)
+                else: 
+                    item = entries[0]
+                    if item['type'] == 'ItemEntry':
+                        # if item['item']['type'] == 'show':
+                        #     self.listEpisodes(item['item']['seasons']['items'])
+                        if item['item']['type'] == 'season':
+                            if seasons == 'True' or item['item']['show']['availableSeasonCount'] == 1:
+                                make_notice(f"here  ")
+                                self.listEpisodes(item['item']['episodes']['items'], seasons=False)
+                                make_notice(f"here2  ")
+                            else:
+                                make_notice(f"here 3 ")
+                                self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
+                                make_notice(f"here 4 ")
+                        else:
+                            raise tvapi.ApiException(f"{item['item']['type']} unknown")
 
-                elif item['type'] == 'ListEntry':
-                    self.listEpisodes(item['list']['items'])
-                else:
-                    raise tvapi.ApiException(f"{item['type']} unknown")
-#                assert(items['type'] == 'ListEntry')
+                    elif item['type'] == 'ListEntry':
+                        self.listEpisodes(item['list']['items'])
+                    else:
+                        raise tvapi.ApiException(f"{item['type']} unknown")
 
             elif 'playVideo' in PARAMS:
                 self.playVideo(PARAMS['playVideo'], PARAMS['kids'])
@@ -498,11 +520,11 @@ class DrDkTvAddon(object):
                     items = self.api.getChildrenFrontItems('dr-ultra')
                     self.listSeries(items, add_area_selector=True)
 
-        except tvapi.ApiException as ex:
-            self.displayError(str(ex))
+#        except tvapi.ApiException as ex:
+#            self.displayError(str(ex))
 
-        except IOError as ex:
-            self.displayIOError(str(ex))
+#        except IOError as ex:
+#            self.displayIOError(str(ex))
 
         except Exception as ex:
             raise ex
