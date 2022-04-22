@@ -384,8 +384,6 @@ class DrDkTvAddon(object):
         is_helper = Helper('hls')
         if is_helper.check_inputstream():
             item.setProperty('inputstreamaddon', is_helper.inputstream_addon)
-        else:
-            self.displayError(f'adaptive inputstream check error')
         item.setProperty('inputstream', 'inputstream.adaptive')
         item.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
