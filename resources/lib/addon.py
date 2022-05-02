@@ -18,6 +18,11 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
+from resources.lib import tvgui
+from resources.lib import tvapi
+import json
+from inputstreamhelper import Helper
+from xbmcvfs import translatePath
 import datetime
 import os
 import pickle
@@ -29,11 +34,6 @@ import xbmc
 import xbmcaddon
 import xbmcgui
 import xbmcplugin
-from xbmcvfs import translatePath
-from inputstreamhelper import Helper
-from resources.lib import tvapi
-from resources.lib import tvgui
-
 if sys.version_info.major == 2:
     # python 2
     import urlparse
@@ -362,9 +362,8 @@ class DrDkTvAddon(object):
                             'icon': channel['PrimaryImageUri']})
                 is_helper = Helper('hls')
                 if is_helper.check_inputstream():
-                    item.setProperty('inputstreamaddon', is_helper.inputstream_addon)
-                item.setProperty('inputstream', 'inputstream.adaptive')
-                item.setProperty('inputstream.adaptive.manifest_type', 'hls')
+                    item.setProperty('inputstream', is_helper.inputstream_addon)
+                    item.setProperty('inputstream.adaptive.manifest_type', 'hls')
                 item.addContextMenuItems(self.menuItems, False)
                 break
         if item:
