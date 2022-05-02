@@ -129,8 +129,8 @@ class DrDkTvAddon(object):
         elif areaSelected == 'drtv':
             self.showMainMenu()
         else:
-            items = self.api.getChildrenFrontItems('dr-' + areaSelected)
-            self.listSeries(items, add_area_selector=bool_setting('enable.areaitem'))
+            items = self.api2.get_children_front_items('dr-' + areaSelected)
+            self.listEpisodes(items)
 
     def showMainMenu(self):
         items = list()
@@ -140,16 +140,11 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
-        # A-Z Program Series
-        item = xbmcgui.ListItem(tr(30000), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(addon_path, 'resources', 'icons', 'all.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=listAZ', item, True))
         for hitem in self.api2.get_home():
             if hitem['path']:
                 item = xbmcgui.ListItem(hitem['title'], offscreen=True)
                 item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-                    addon_path, 'resources', 'icons', 'star.png')})
+                    addon_path, 'resources', 'icons', hitem.get('icon', 'star.png'))})
                 item.addContextMenuItems(self.menuItems, False)
                 items.append((self._plugin_url + '?listVideos2=' + hitem['path'], item, True))
 
@@ -243,20 +238,6 @@ class DrDkTvAddon(object):
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
-    def showAZ(self):
-        # All Program Series
-        iconImage = os.path.join(addon_path, 'resources', 'icons', 'all.png')
-        items = list()
-        for programIndex in self.api.getProgramIndexes():
-            item = xbmcgui.ListItem(programIndex['Title'], offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': iconImage})
-            item.addContextMenuItems(self.menuItems, False)
-
-            url = self._plugin_url + '?listProgramSeriesByLetter=' + programIndex['_Param']
-            items.append((url, item, True))
-        xbmcplugin.addDirectoryItems(self._plugin_handle, items)
-        xbmcplugin.endOfDirectory(self._plugin_handle)
-
     def searchSeries(self):
         keyboard = xbmc.Keyboard('', tr(30003))
         keyboard.doModal()
@@ -277,13 +258,11 @@ class DrDkTvAddon(object):
         if 'images' in item:
             listItem.setArt({'thumb': item['images']['tile'],
                             'icon': item['images']['tile'],
-                            'fanart': item['images']['wallpaper']
-                            })
+                             'fanart': item['images']['wallpaper']
+                             })
         else:
             listItem.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
                     addon_path, 'resources', 'icons', 'star.png')})
-
-        make_notice(f"{title} -- {item['type']} {isFolder}")
 
         if isFolder:
             if title in self.favorites:
@@ -434,14 +413,6 @@ class DrDkTvAddon(object):
             if 'show' in PARAMS:
                 if PARAMS['show'] == 'liveTV':
                     self.showLiveTV()
-                elif PARAMS['show'] == 'listAZ':
-                    self.showAZ()
-                elif PARAMS['show'] == 'latest':
-                    self.listEpisodes(self.api.getLatestPrograms(), addSortMethods=False)
-                elif PARAMS['show'] == 'mostViewed':
-                    self.listEpisodes(self.api.getMostViewed())
-                elif PARAMS['show'] == 'highlights':
-                    self.listEpisodes(self.api.getSelectedList())
                 elif PARAMS['show'] == 'search':
                     self.searchSeries()
                 elif PARAMS['show'] == 'favorites':
@@ -450,38 +421,22 @@ class DrDkTvAddon(object):
                     self.showRecentlyWatched()
                 elif PARAMS['show'] == 'areaselector':
                     self.showAreaSelector()
-                elif PARAMS['show'] == 'themes':
-                    self.showThemes()
-
-            elif 'listThemeSeries' in PARAMS:
-                self.listSeries(self.api.getEpisodes(PARAMS['listThemeSeries']))
-
-            elif 'listProgramSeriesByLetter' in PARAMS:
-                self.listSeries(self.api.getSeries(PARAMS['listProgramSeriesByLetter']))
-
-            elif 'listVideos' in PARAMS:
-                self.listEpisodes(self.api.getEpisodes(PARAMS['listVideos']))
 
             elif 'listVideos2' in PARAMS:
                 seasons = PARAMS.get('seasons', 'False')
-                make_notice(f"{PARAMS['listVideos2']}  {seasons}")
                 entries = self.api2.get_programcard(PARAMS['listVideos2'])['entries']
                 if len(entries) > 1:
                     self.listEpisodes(entries)
-                else: 
+                else:
                     item = entries[0]
                     if item['type'] == 'ItemEntry':
                         # if item['item']['type'] == 'show':
                         #     self.listEpisodes(item['item']['seasons']['items'])
                         if item['item']['type'] == 'season':
                             if seasons == 'True' or item['item']['show']['availableSeasonCount'] == 1:
-                                make_notice(f"here  ")
                                 self.listEpisodes(item['item']['episodes']['items'], seasons=False)
-                                make_notice(f"here2  ")
                             else:
-                                make_notice(f"here 3 ")
                                 self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
-                                make_notice(f"here 4 ")
                         else:
                             raise tvapi.ApiException(f"{item['item']['type']} unknown")
 
@@ -506,7 +461,7 @@ class DrDkTvAddon(object):
             else:
                 try:
                     area = int(get_setting('area'))
-                except:
+                except Exception:
                     area = 0
 
                 if area == 0:
@@ -514,11 +469,11 @@ class DrDkTvAddon(object):
                 elif area == 1:
                     self.showMainMenu()
                 elif area == 2:
-                    items = self.api.getChildrenFrontItems('dr-ramasjang')
-                    self.listSeries(items, add_area_selector=True)
+                    items = self.api2.get_children_front_items('dr-ramasjang')
+                    self.listEpisodes(items)
                 elif area == 3:
-                    items = self.api.getChildrenFrontItems('dr-ultra')
-                    self.listSeries(items, add_area_selector=True)
+                    items = self.api2.get_children_front_items('dr-ultra')
+                    self.listEpisodes(items)
 
 #        except tvapi.ApiException as ex:
 #            self.displayError(str(ex))
