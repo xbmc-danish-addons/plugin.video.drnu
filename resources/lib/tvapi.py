@@ -34,6 +34,8 @@ import urllib.parse as urlparse
 import datetime
 import m3u8
 
+import xbmc
+
 
 class NewApi():
     def __init__(self, cachePath, getLocalizedString, expire_hours=24):
@@ -128,10 +130,25 @@ class NewApi():
             segments='drtv,mt_K8q4Nz3,optedin',
         )
         js = self.get_programcard('/', data=data)
-        items = []
+        items = [{'title': 'Programmer A-Å', 'path': '/a-aa', 'icon': 'all.png'}]
         for item in js['entries']:
             if item['title'] != '':
                 items.append({'title': item['title'], 'path': item['list']['path']})
+        return items
+
+    def get_children_front_items(self, channel):
+        names = {'dr-ramasjang': '/ramasjang_a-aa', 'dr-minisjang': '/minisjang/a-aa'}
+        name = names[channel]
+        js = self.get_programcard(name)
+        items = []
+        for item in js['entries']:
+            if item['type'] == 'ListEntry':
+                if channel == 'dr-ramasjang':
+                    url = name + '/' + item['list']['parameter'].split(':')[1]
+                    local_js = self.get_programcard(url)
+                    items += local_js['entries'][0]['list']['items']
+                else:
+                    items += item['list']['items']
         return items
 
     def get_id_from_slug(self, slug):
