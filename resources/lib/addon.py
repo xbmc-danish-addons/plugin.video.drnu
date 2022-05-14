@@ -225,6 +225,40 @@ class DrDkTvAddon(object):
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
         else:
             self.listEpisodes(videos)
+ 
+    def getLiveChannels(self):
+        channels = list()
+        HLS = 'HLS_subtitles' if bool_setting('enable.subtitles') else 'HLS'
+        for entry in self.api.getLiveTV():
+            if entry['WebChannel']:
+                continue
+
+            server = None
+            for streamingServer in entry['StreamingServers']:
+                if streamingServer['LinkType'] == HLS:
+                    server = streamingServer
+                    break
+
+            if server is None:
+                continue
+
+            channel = dict(
+                name=entry['Title'],
+                stream = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream'],
+                logo=self.api.redirectImageUrl(entry['PrimaryImageUri']),
+            )
+
+            preset = None
+            if channel['name'] == 'DR1':
+                preset = 1
+            elif channel['name'] == 'DR2':
+                preset = 2
+            elif 'ramasjang' in channel['name'].lower():
+                preset = 3
+            if preset is not None:
+                channel['preset'] = preset
+            channels.append(channel)
+        return channels
 
     def showLiveTV(self):
         items = list()
@@ -497,6 +531,12 @@ class DrDkTvAddon(object):
                     self.showAreaSelector()
                 elif PARAMS['show'] == 'themes':
                     self.showThemes()
+            # iptv manager integration
+            elif 'iptv' in PARAMS:
+                if PARAMS['iptv'] == 'channels':
+                    self.iptv_channels(PARAMS['port'], channels=self.getLiveChannels())
+                elif PARAMS['iptv'] == 'epg':
+                    self.iptv_epg(PARAMS['port'], epg=[]) # TODO
 
             elif 'listThemeSeries' in PARAMS:
                 self.listSeries(self.api.getEpisodes(PARAMS['listThemeSeries']))
@@ -553,3 +593,14 @@ class DrDkTvAddon(object):
                 fh.write(traceback.format_exc())
             heading = 'drnu addon crash'
             xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), tr(30908), crash_file]))
+
+    def iptv_channels(self, port, channels):
+        """Return JSON-STREAMS formatted data for all live channels"""
+        from resources.lib.iptvmanager import IPTVManager
+        IPTVManager(int(port), channels=channels).send_channels()
+
+
+    def iptv_epg(self, port, epg):
+        """Return JSON-EPG formatted data for all live channel EPG data"""
+        from resources.lib.iptvmanager import IPTVManager
+        IPTVManager(int(port), epg=epg).send_epg()
