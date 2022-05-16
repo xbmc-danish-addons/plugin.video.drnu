@@ -245,6 +245,13 @@ class DrDkTvAddon(object):
             if server is None:
                 continue
 
+            if (entry['Title'] == 'DR1') and not bool_setting('iptv.channels.include.dr1'):
+                continue
+            if (entry['Title'] == 'DR2') and not bool_setting('iptv.channels.include.dr2'):
+                continue
+            if ('ramasjang' in entry['Title'].lower()) and not bool_setting('iptv.channels.include.drramasjang'):
+                continue
+
             channel = dict(
                 name=entry['Title'],
                 stream = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream'],
