@@ -226,7 +226,10 @@ class DrDkTvAddon(object):
         else:
             self.listEpisodes(videos)
  
-    def getLiveChannels(self):
+    def getIptvLiveChannels(self):
+
+        channel_id_mapping = self.api.getTvguideChannels()
+
         channels = list()
         HLS = 'HLS_subtitles' if bool_setting('enable.subtitles') else 'HLS'
         for entry in self.api.getLiveTV():
@@ -248,6 +251,9 @@ class DrDkTvAddon(object):
                 logo=self.api.redirectImageUrl(entry['PrimaryImageUri']),
             )
 
+            if channel['name'] in channel_id_mapping:
+                channel['id'] = channel_id_mapping[channel['name']]
+
             preset = None
             if channel['name'] == 'DR1':
                 preset = 1
@@ -259,6 +265,33 @@ class DrDkTvAddon(object):
                 channel['preset'] = preset
             channels.append(channel)
         return channels
+
+    def getIptvEpg(self):
+        channel_id_mapping = self.api.getTvguideChannels()
+        tvguide = self.api.getTvguide(channel_id_mapping, channels=['DR1', 'DR2', 'DR Ramasjang'])
+
+        epg = dict()
+        for channel in tvguide:
+            channelId = channel['channelId']
+            channel_epg = []
+            for schedule in channel['schedules']:
+                # parse schedule
+                schedule_dict = {'start' : schedule['startDate'],
+                                'stop' : schedule['endDate'],
+                                'title': schedule['item']['title'],
+                                'description': schedule['item']['description'],
+                                'image' : schedule['item']['images']['tile']}
+                episode = ''
+                if 'seasonNumber' in schedule:
+                    episode = 'S' + schedule['seasonNumber']
+                if 'episodeNumber' in schedule:
+                    episode += 'E' + schedule['episodeNumber']
+                channel_epg.append(schedule_dict)
+                
+            epg[channelId] = channel_epg
+        return epg
+
+
 
     def showLiveTV(self):
         items = list()
@@ -534,9 +567,9 @@ class DrDkTvAddon(object):
             # iptv manager integration
             elif 'iptv' in PARAMS:
                 if PARAMS['iptv'] == 'channels':
-                    self.iptv_channels(PARAMS['port'], channels=self.getLiveChannels())
+                    self.iptv_channels(PARAMS['port'], channels=self.getIptvLiveChannels())
                 elif PARAMS['iptv'] == 'epg':
-                    self.iptv_epg(PARAMS['port'], epg=[]) # TODO
+                    self.iptv_epg(PARAMS['port'], epg=self.getIptvEpg())
 
             elif 'listThemeSeries' in PARAMS:
                 self.listSeries(self.api.getEpisodes(PARAMS['listThemeSeries']))

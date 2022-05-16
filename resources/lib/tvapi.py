@@ -20,6 +20,7 @@
 #
 
 import binascii
+import datetime
 import hashlib
 import json
 from math import ceil
@@ -34,6 +35,7 @@ import urllib.parse as urlparse
 
 class Api():
     API_URL = 'http://www.dr.dk/mu-online/api/1.2'
+    API_URL_MASSIVE = 'https://www.dr-massive.com/api'
 
     def __init__(self, cachePath, getLocalizedString):
         self.cachePath = cachePath
@@ -51,6 +53,44 @@ class Api():
     def getLiveTV(self):
         channels = self._http_request('/channel/all-active-dr-tv-channels')
         return [channel for channel in channels if channel['Title'] in ['DR1', 'DR2', 'DR Ramasjang']]
+    
+    def getTvguideChannels(self):
+        params = {'device' :'web_browser',
+                  'ff' : 'idp,ldp,rpt',
+                  'geoLocation' :'dk',
+                  'isDeviceAbroad' : 'false',
+                  'lang': 'da', 
+                  'list_page_size' : '24',
+                  'max_list_prefetch' : '3',
+                  'path' : '/tv-guide?channel_group=all',
+                  'segments' : 'drtv,optedout',
+                  'sub': 'Anonymous',
+                  'text_entry_format' : 'html'}
+        tvguide_channels = self._http_request(self.API_URL_MASSIVE + '/page', params=params)
+        channel_id_mapping = dict()
+        for channel in tvguide_channels['entries'][0]['list']['items']:
+            channel_id_mapping[channel['title']] = channel['scopes'][0]
+        return channel_id_mapping
+
+    def getTvguide(self, channel_id_mapping, channels=['DR1', 'DR2', 'DR Ramasjang']):
+        # https://www.dr-massive.com/api/schedules?channels=20875%2C20876&date=2022-05-14&device=web_browser&duration=24&ff=idp%2Cldp%2Crpt&geoLocation=dk&hour=22&isDeviceAbroad=false&lang=da&segments=drtv%2Coptedout&sub=Anonymous
+        channel_ids = ','.join([channel_id_mapping[channel] for channel in channels])
+
+        schedule_start = datetime.datetime.now() - datetime.timedelta(hours=12)
+
+        params = {'channels': channel_ids,
+                  'date' : schedule_start.strftime('%Y-%m-%d'),
+                  'device' : 'web_browser',
+                  'duration': '24',
+                  'ff' : 'idp,ldp,rpt',
+                  'geoLocation' : 'dk',
+                  'hour' : schedule_start.strftime('%H'),
+                  'isDeviceAbroad' : 'false',
+                  'lang' : 'dk',
+                  'segments' : 'drtv,optedout',
+                  'sub': 'Anonymous'}
+        tvguide_schedule = self._http_request(self.API_URL_MASSIVE + '/schedules', params=params)
+        return tvguide_schedule
 
     def getChildrenFrontItems(self, channel):
         new = f"/search/tv/programcards-latest-episode-with-asset/series-title-starts-with/?channels={channel}&orderBy=Title"
