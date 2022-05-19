@@ -10,14 +10,14 @@
         <setting label="30504" type="action" action="RunScript($CWD/resources/lib/clearfavorites.py)" />
 	</category>
         <category label="IPTV Manager">
+                <setting id="iptv.channels_uri" default="plugin://plugin.video.drnu?iptv=channels" visible="false"/>
+                <setting id="iptv.epg_uri" default="plugin://plugin.video.drnu?iptv=epg" visible="false"/>
                 <setting label="Install IPTV Manager add-on" type="action" action="InstallAddon(service.iptv.manager)" option="close" visible="!System.HasAddon(service.iptv.manager)"/>
                 <setting label="Enable IPTV Manager integration" type="bool" id="iptv.enabled" default="true" visible="System.HasAddon(service.iptv.manager)" />
                 <setting label="IPTV Manager settings…" type="action" action="Addon.OpenSettings(service.iptv.manager)" enable="eq(-1,true)" option="close" visible="System.HasAddon(service.iptv.manager)" subsetting="true"/>
-                <setting id="iptv.channels_uri" default="plugin://plugin.video.drnu?iptv=channels" visible="false"/>
-                <setting id="iptv.epg_uri" default="plugin://plugin.video.drnu?iptv=epg" visible="false"/>
                 <setting type="lsep" label="Channels"/>
-                <setting id="iptv.channels.include.dr1" type="bool" label="Enable DR1" default="true" />
-                <setting id="iptv.channels.include.dr2" type="bool" label="Enable DR2" default="true" />
-                <setting id="iptv.channels.include.drramasjang" type="bool" label="Enable DR Ramasjang" default="true" />
+                <setting id="iptv.channels.include.dr1" type="bool" label="Enable DR1" default="true" enable="eq(-3,true)" visible="System.HasAddon(service.iptv.manager)" />
+                <setting id="iptv.channels.include.dr2" type="bool" label="Enable DR2" default="true" enable="eq(-4,true)" visible="System.HasAddon(service.iptv.manager)" />
+                <setting id="iptv.channels.include.drramasjang" type="bool" label="Enable DR Ramasjang" default="true" enable="eq(-5,true)" visible="System.HasAddon(service.iptv.manager)" />
         </category>
 </settings>
