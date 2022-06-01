@@ -40,9 +40,16 @@ class Api():
         self.tr = getLocalizedString
 
         # cache expires after: 3600 = 1hour
-        requests_cache.install_cache(os.path.join(
+        self.session = requests_cache.CachedSession(os.path.join(
             cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*8)
-        requests_cache.remove_expired_responses()
+        try:
+            self.session.remove_expired_responses()
+        except Exception:
+            if Path(self.cachePath, 'requests.cache.sqlite').exists():
+                Path(self.cachePath, 'requests.cache.sqlite').unlink()
+            self.session = requests_cache.CachedSession(os.path.join(
+                self.cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*8)
+            self.session.remove_expired_responses()
         self.empty_srt = f'{self.cachePath}/{self.tr(30508)}.da.srt'
 
         # we need to have something in the srt to make kodi use it
@@ -164,7 +171,7 @@ class Api():
                 else:
                     foreign = True
                     name = f'{self.cachePath}/{self.tr(30507)}.da.srt'
-                u = requests.get(sub['Uri'], timeout=10)
+                u = self.session.get(sub['Uri'], timeout=10)
                 if u.status_code != 200:
                     u.close()
                     break
@@ -203,10 +210,9 @@ class Api():
                 url += '?' + urlparse.urlencode(params, doseq=True)
 
             if not cache:
-                with requests_cache.disabled():
-                    u = requests.get(url, timeout=30)
-            else:
                 u = requests.get(url, timeout=30)
+            else:
+                u = self.session.get(url, timeout=30)
             if u.status_code == 200:
                 content = u.text
                 u.close()
