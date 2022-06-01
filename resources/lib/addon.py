@@ -75,8 +75,7 @@ class DrDkTvAddon(object):
         self.recentlyWatched = list()
 
         self.menuItems = list()
-        runScript = "RunAddon(plugin.video.drnu,?show=areaselector&random={:d})".format(
-            self._plugin_handle)
+        runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
         self.menuItems.append((tr(30511), runScript))
 
         # Area Selector
@@ -381,11 +380,11 @@ class DrDkTvAddon(object):
         video = self.api.getVideoUrl(api_item['PrimaryAsset']['Uri'])
         item = xbmcgui.ListItem(path=video['Uri'], offscreen=True)
         item.setArt({'thumb': api_item['PrimaryImageUri']})
-        is_helper = Helper('hls')
-        if is_helper.check_inputstream():
-            item.setProperty('inputstreamaddon', is_helper.inputstream_addon)
-        item.setProperty('inputstream', 'inputstream.adaptive')
-        item.setProperty('inputstream.adaptive.manifest_type', 'hls')
+        if get_setting('inputstream') == 'adaptive':
+            is_helper = Helper('hls')
+            if is_helper.check_inputstream():
+                item.setProperty('inputstream', is_helper.inputstream_addon)
+                item.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
         if not all([bool_setting('disable.kids.subtitles') and kids_channel]):
             if video['SubtitlesUri']:
@@ -415,11 +414,12 @@ class DrDkTvAddon(object):
                 item = xbmcgui.ListItem(channel['Title'], path=url, offscreen=True)
                 item.setArt({'fanart': channel['PrimaryImageUri'],
                             'icon': channel['PrimaryImageUri']})
-                is_helper = Helper('hls')
-                if is_helper.check_inputstream():
-                    item.setProperty('inputstreamaddon', is_helper.inputstream_addon)
-                item.setProperty('inputstream', 'inputstream.adaptive')
-                item.setProperty('inputstream.adaptive.manifest_type', 'hls')
+                if get_setting('inputstream') == 'adaptive':
+                    is_helper = Helper('hls')
+                    if is_helper.check_inputstream():
+                        item.setProperty('inputstream', is_helper.inputstream_addon)
+                        item.setProperty('inputstream.adaptive.manifest_type', 'hls')
+
                 item.addContextMenuItems(self.menuItems, False)
                 break
         if item:

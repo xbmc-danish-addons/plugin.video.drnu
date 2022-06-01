@@ -1,3 +1,7 @@
+[B]Version 5.1.2 - 2022-06-01[/B]
+- catch failure in recache cleanup
+- add setting for inputstream api
+
 [B]Version 5.1.1 - 2022-04-20[/B]
 - hot-fix to use hls inputstreams
 
