@@ -19,7 +19,7 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 import datetime
-import os
+from pathlib import Path
 import pickle
 import re
 import traceback
@@ -38,6 +38,7 @@ from resources.lib import tvgui
 addon = xbmcaddon.Addon()
 get_setting = addon.getSetting
 addon_path = addon.getAddonInfo('path')
+resources_path = Path(addon_path)/'resources'
 addon_name = addon.getAddonInfo('name')
 
 SLUG_ADULT = 'dr1,dr2,dr3,dr-k'
@@ -62,13 +63,12 @@ class DrDkTvAddon(object):
         self._plugin_url = plugin_url
         self._plugin_handle = plugin_handle
 
-        self.cache_path = translatePath(addon.getAddonInfo('profile'))
-        if not os.path.exists(self.cache_path):
-            os.makedirs(self.cache_path)
+        self.cache_path = Path(translatePath(addon.getAddonInfo('profile')))
+        self.cache_path.mkdir(parents=True, exist_ok=True)
 
-        self.favorites_path = os.path.join(self.cache_path, 'favorites.pickle')
-        self.recent_path = os.path.join(self.cache_path, 'recent.pickle')
-        self.fanart_image = os.path.join(addon_path, 'resources', 'fanart.jpg')
+        self.favorites_path = self.cache_path/'favorites.pickle'
+        self.recent_path = self.cache_path/'recent.pickle'
+        self.fanart_image = str(resources_path/'fanart.jpg')
 
         self.api = tvapi.Api(self.cache_path, tr)
         self.favorites = list()
@@ -80,36 +80,35 @@ class DrDkTvAddon(object):
 
         # Area Selector
         self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
-        self.area_item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'all.png')})
+        self.area_item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
 
         self._load()
 
     def _save(self):
         # save favorites
         self.favorites.sort()
-        pickle.dump(self.favorites, open(self.favorites_path, 'wb'))
+        pickle.dump(self.favorites, self.favorites_path.open('wb'))
 
         self.recentlyWatched = self.recentlyWatched[0:25]  # Limit to 25 items
-        pickle.dump(self.recentlyWatched, open(self.recent_path, 'wb'))
+        pickle.dump(self.recentlyWatched, self.recent_path.open('wb'))
 
     def _load(self):
         # load favorites
-        if os.path.exists(self.favorites_path):
+        if self.favorites_path.exists():
             try:
-                self.favorites = pickle.load(open(self.favorites_path, 'rb'))
+                self.favorites = pickle.load(self.favorites_path.open('rb'))
             except Exception:
                 pass
 
         # load recently watched
-        if os.path.exists(self.recent_path):
+        if self.recent_path.exists():
             try:
-                self.recentlyWatched = pickle.load(open(self.recent_path, 'rb'))
+                self.recentlyWatched = pickle.load(self.recent_path.open('rb'))
             except Exception:
                 pass
 
     def showAreaSelector(self):
-        gui = tvgui.AreaSelectorDialog()
+        gui = tvgui.AreaSelectorDialog(tr, resources_path)
         gui.doModal()
         areaSelected = gui.areaSelected
         del gui
@@ -126,64 +125,55 @@ class DrDkTvAddon(object):
         items = list()
         # Live TV
         item = xbmcgui.ListItem(tr(30027), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'livetv.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/livetv.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
         # A-Z Program Series
         item = xbmcgui.ListItem(tr(30000), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'all.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=listAZ', item, True))
 
         # Latest
         item = xbmcgui.ListItem(tr(30001), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'all.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=latest', item, True))
 
         # Themes
         item = xbmcgui.ListItem(tr(30028), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'all.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=themes', item, True))
 
         # Most viewed
         item = xbmcgui.ListItem(tr(30011), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'eye.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/eye.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=mostViewed', item, True))
 
         # Spotlight
         item = xbmcgui.ListItem(tr(30002), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'star.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=highlights', item, True))
 
         # Search videos
         item = xbmcgui.ListItem(tr(30003), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'search.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/search.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=search', item, True))
 
         # Recently watched Program Series
         item = xbmcgui.ListItem(tr(30007), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'eye-star.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/eye-star.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=recentlyWatched', item, True))
 
         # Favorite Program Series
         item = xbmcgui.ListItem(tr(30008), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-            addon_path, 'resources', 'icons', 'plusone.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/plusone.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=favorites', item, True))
 
@@ -259,7 +249,7 @@ class DrDkTvAddon(object):
 
     def showAZ(self):
         # All Program Series
-        iconImage = os.path.join(addon_path, 'resources', 'icons', 'all.png')
+        iconImage = str(resources_path/'icons/all.png')
         items = list()
         for programIndex in self.api.getAZIndexes():
             item = xbmcgui.ListItem(programIndex['Title'], offscreen=True)
@@ -272,7 +262,7 @@ class DrDkTvAddon(object):
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def showThemes(self):
-        iconImage = os.path.join(addon_path, 'resources', 'icons', 'all.png')
+        iconImage = str(resources_path/'icons/all.png')
 
         items = list()
         for theme in self.api.getThemes():
@@ -548,8 +538,7 @@ class DrDkTvAddon(object):
             self.displayIOError(str(ex))
 
         except Exception:
-            crash_file = os.path.join(self.cache_path, 'drnu.crash')
-            with open(crash_file, 'w') as fh:
-                fh.write(traceback.format_exc())
+            crash_file = self.cache_path/'drnu.crash'
+            crash_file.write_text(traceback.format_exc())
             heading = 'drnu addon crash'
-            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), tr(30908), crash_file]))
+            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), tr(30908), str(crash_file)]))

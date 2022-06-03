@@ -40,15 +40,14 @@ class Api():
         self.tr = getLocalizedString
 
         # cache expires after: 3600 = 1hour
-        self.session = requests_cache.CachedSession(os.path.join(
-            cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*8)
+        request_fname = str(self.cachePath/'requests.cache')
+        self.session = requests_cache.CachedSession(request_fname, backend='sqlite', expire_after=3600*8)
         try:
             self.session.remove_expired_responses()
         except Exception:
-            if Path(self.cachePath, 'requests.cache.sqlite').exists():
-                Path(self.cachePath, 'requests.cache.sqlite').unlink()
-            self.session = requests_cache.CachedSession(os.path.join(
-                self.cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*8)
+            if (self.cachePath/'requests.cache.sqlite').exists():
+                (self.cachePath/'requests.cache.sqlite').unlink()
+            self.session = requests_cache.CachedSession(request_fname, backend='sqlite', expire_after=3600*8)
             self.session.remove_expired_responses()
         self.empty_srt = f'{self.cachePath}/{self.tr(30508)}.da.srt'
 
