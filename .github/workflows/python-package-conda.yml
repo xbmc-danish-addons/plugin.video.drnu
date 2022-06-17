@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   build-linux:
@@ -21,14 +23,11 @@ jobs:
       run: |
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
-    - name: Install dependencies
-      run: |
-        conda env update --file environment.yml --name base
     - name: Lint with flake8
       run: |
         conda install flake8
         # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82,E501,E722 --show-source --statistics
+        flake8 . --count --select=E9,F63,F7,F82,E501,E722 --max-line=130 --show-source --statistics
     - name: Test with kodi-addon-checker
       run: |
         pip install kodi-addon-checker

@@ -7,6 +7,7 @@
         <setting id="enable.areaitem" label="30515" type="bool" default="false" />
         <setting id="disable.kids" label="30505" type="bool" default="true" />
         <setting id="disable.kids.subtitles" label="30509" type="bool" default="true" />
+        <setting id="inputstream" label="30521" type="labelenum" default="adaptive" values="adaptive|ffmpegdirect" />
         <setting label="30504" type="action" action="RunScript($CWD/resources/lib/clearfavorites.py)" />
 	</category>
         <category label="IPTV Manager">
