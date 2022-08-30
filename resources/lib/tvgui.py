@@ -19,6 +19,11 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 import xbmcgui
+import xbmc
+
+
+def make_notice(object):
+    xbmc.log(str(object), xbmc.LOGINFO)
 
 
 class AreaSelectorDialog(xbmcgui.WindowDialog):
@@ -85,6 +90,7 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
         self.ultraButton.controlRight(self.drTvButton)
 
         self.setFocus(self.drTvButton)
+        self.areaSelected = 'drtv'
 
         self.id_to_handle = {
             self.drTvButton.getId(): 'drtv',
@@ -92,8 +98,11 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
             self.minisjangButton.getId(): 'minisjang',
             self.ultraButton.getId(): 'ultra',
             }
+        xbmc.executebuiltin('AlarmClock(drnuclosedialog, Action(Select) ,00:02, silent, false)')
+
+    def onAction(self, action):
+        xbmc.executebuiltin('CancelAlarm(drnuclosedialog, silent)')
 
     def onControl(self, control):
         self.areaSelected = self.id_to_handle[control.getId()]
-
         self.close()

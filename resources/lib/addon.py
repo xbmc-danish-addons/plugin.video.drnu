@@ -20,6 +20,8 @@
 #
 import datetime
 from pathlib import Path
+import json
+import os
 import pickle
 import re
 import traceback
@@ -55,7 +57,7 @@ def bool_setting(name):
 
 
 def make_notice(object):
-    xbmc.log(str(object), xbmc.LOGDEBUG)
+    xbmc.log(str(object), xbmc.LOGINFO)
 
 
 class DrDkTvAddon(object):
@@ -66,13 +68,15 @@ class DrDkTvAddon(object):
         self.cache_path = Path(translatePath(addon.getAddonInfo('profile')))
         self.cache_path.mkdir(parents=True, exist_ok=True)
 
-        self.favorites_path = self.cache_path/'favorites.pickle'
-        self.recent_path = self.cache_path/'recent.pickle'
+        self.favorites_path = self.cache_path/'favorites6.pickle'
+        self.recent_path = self.cache_path/'recent6.pickle'
+        self.search_path = self.cache_path/'search6.pickle'
         self.fanart_image = str(resources_path/'fanart.jpg')
 
-        self.api = tvapi.Api(self.cache_path, tr)
-        self.favorites = list()
-        self.recentlyWatched = list()
+        # self.api = tvapi.Api(self.cache_path, tr)
+        self.api2 = tvapi.NewApi(self.cache_path, tr)
+        self.favorites = {}
+        self.recentlyWatched = []
 
         self.menuItems = list()
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
@@ -86,7 +90,7 @@ class DrDkTvAddon(object):
 
     def _save(self):
         # save favorites
-        self.favorites.sort()
+        #        self.favorites.sort()
         pickle.dump(self.favorites, self.favorites_path.open('wb'))
 
         self.recentlyWatched = self.recentlyWatched[0:25]  # Limit to 25 items
@@ -118,46 +122,25 @@ class DrDkTvAddon(object):
         elif areaSelected == 'drtv':
             self.showMainMenu()
         else:
-            items = self.api.getChildrenFrontItems('dr-' + areaSelected)
-            self.listSeries(items, add_area_selector=bool_setting('enable.areaitem'))
+            items = self.api2.get_children_front_items('dr-' + areaSelected)
+            self.listEpisodes(items)
 
     def showMainMenu(self):
-        items = list()
+        items = []
+
         # Live TV
         item = xbmcgui.ListItem(tr(30027), offscreen=True)
         item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/livetv.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
-        # A-Z Program Series
-        item = xbmcgui.ListItem(tr(30000), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=listAZ', item, True))
-
-        # Latest
-        item = xbmcgui.ListItem(tr(30001), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=latest', item, True))
-
-        # Themes
-        item = xbmcgui.ListItem(tr(30028), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=themes', item, True))
-
-        # Most viewed
-        item = xbmcgui.ListItem(tr(30011), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/eye.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=mostViewed', item, True))
-
-        # Spotlight
-        item = xbmcgui.ListItem(tr(30002), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=highlights', item, True))
+        for hitem in self.api2.get_home():
+            if hitem['path']:
+                item = xbmcgui.ListItem(hitem['title'], offscreen=True)
+                item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
+                    addon_path, 'resources', 'icons', hitem.get('icon', 'star.png'))})
+                item.addContextMenuItems(self.menuItems, False)
+                items.append((self._plugin_url + '?listVideos2=' + hitem['path'], item, True))
 
         # Search videos
         item = xbmcgui.ListItem(tr(30003), offscreen=True)
@@ -190,23 +173,23 @@ class DrDkTvAddon(object):
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
         else:
             series = []
-            for slug in self.favorites:
-                series.extend(self.api.searchSeries(slug))
-            self.listSeries(series, addToFavorites=False)
+            for title, path in self.favorites.items():
+                series.extend([self.api2.get_programcard(path)['entries'][0]['item']['show']])
+            self.listEpisodes(series, seasons=True)
 
     def showRecentlyWatched(self):
         self._load()
-        videos = list()
-        for slug in self.recentlyWatched:
+        videos = []
+        for path in self.recentlyWatched:
             try:
-                item = self.api.getEpisode(slug)
+                item = self.api2.get_programcard(path)
                 if item is None:
-                    self.recentlyWatched.remove(slug)
+                    self.recentlyWatched.remove(path)
                 else:
-                    videos.append(item)
+                    videos.append(item['entries'][0]['item'])
             except tvapi.ApiException:
                 # probably a 404 - non-existent slug
-                self.recentlyWatched.remove(slug)
+                self.recentlyWatched.remove(path)
 
         self._save()
         if not videos:
@@ -216,63 +199,23 @@ class DrDkTvAddon(object):
             self.listEpisodes(videos)
 
     def showLiveTV(self):
-        items = list()
-        HLS = 'HLS_subtitles' if bool_setting('enable.subtitles') else 'HLS'
-        for channel in self.api.getLiveTV():
-            if channel['WebChannel']:
-                continue
-
-            server = None
-            for streamingServer in channel['StreamingServers']:
-                if streamingServer['LinkType'] == HLS:
-                    server = streamingServer
-                    break
-
-            if server is None:
-                continue
-
-            item = xbmcgui.ListItem(channel['Title'], offscreen=True)
-            fanart_h = int(get_setting('fanart.size'))
-            fanart_w = int(fanart_h*16/9)
-            item.setArt({'thumb': self.api.redirectImageUrl(channel['PrimaryImageUri'], 640, 360),
-                         'icon': self.api.redirectImageUrl(channel['PrimaryImageUri'], 75, 42),
-                         'fanart': self.api.redirectImageUrl(channel['PrimaryImageUri'], fanart_w, fanart_h)})
+        items = []
+        for channel in self.api2.getLiveTV():
+            item = xbmcgui.ListItem(channel['title'], offscreen=True)
+            item.setArt({'thumb': channel['item']['images']['logo'],
+                         'icon': channel['item']['images']['logo'],
+                         'fanart': channel['item']['images']['logo']})
             item.addContextMenuItems(self.menuItems, False)
-
-            url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
+            if bool_setting('enable.subtitles'):
+                url = channel['item']['customFields']['hlsWithSubtitlesURL']
+            else:
+                url = channel['item']['customFields']['hlsURL']
+            item.setInfo('video', {
+                'title': channel['title'],
+                'plot': channel['schedule_str'],
+                })
+            item.setProperty('IsPlayable', 'true')
             items.append((url, item, False))
-
-        items.sort(key=lambda x: x[1].getLabel().replace(' ', ''))
-
-        xbmcplugin.addDirectoryItems(self._plugin_handle, items)
-        xbmcplugin.endOfDirectory(self._plugin_handle)
-
-    def showAZ(self):
-        # All Program Series
-        iconImage = str(resources_path/'icons/all.png')
-        items = list()
-        for programIndex in self.api.getAZIndexes():
-            item = xbmcgui.ListItem(programIndex['Title'], offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': iconImage})
-            item.addContextMenuItems(self.menuItems, False)
-
-            url = self._plugin_url + '?listProgramSeriesByLetter=' + programIndex['_Param']
-            items.append((url, item, True))
-        xbmcplugin.addDirectoryItems(self._plugin_handle, items)
-        xbmcplugin.endOfDirectory(self._plugin_handle)
-
-    def showThemes(self):
-        iconImage = str(resources_path/'icons/all.png')
-
-        items = list()
-        for theme in self.api.getThemes():
-            item = xbmcgui.ListItem(theme['Title'], offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': iconImage})
-            item.addContextMenuItems(self.menuItems, False)
-
-            url = self._plugin_url + '?listThemeSeries=' + \
-                theme['Paging']['Source'].split('list/', 1)[1]
-            items.append((url, item, True))
 
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
@@ -282,94 +225,109 @@ class DrDkTvAddon(object):
         keyboard.doModal()
         if keyboard.isConfirmed():
             keyword = keyboard.getText()
-            self.listSeries(self.api.searchSeries(keyword))
+            search_results = self.api2.search(keyword)
+            directoryItems = []
+            for key in ['series', 'playable', 'competitions', 'confederations', 'events', 'movies', 'newshighlights', 'persons', 'teams', 'tv']:
+                if search_results[key]['size'] > 0:
+                    url = self._plugin_url + f"?searchresult={key}"
+                    directoryItems.append((url, xbmcgui.ListItem(
+                        f'{key.capitalize()} ({search_results[key]["size"]} found)', offscreen=True), True,))
 
-    def listSeries(self, items, addToFavorites=True, add_area_selector=False):
-        if not items:
-            xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
-            if not addToFavorites:
-                xbmcgui.Dialog().ok(addon_name, tr([30013, 30018, 30019]))
-            else:
-                xbmcgui.Dialog().ok(addon_name, tr(30013))
+            if directoryItems:
+                pickle.dump(search_results, self.search_path.open('wb'))
+                xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
+                xbmcplugin.endOfDirectory(self._plugin_handle)
+
+    def kodi_item(self, item, is_season=False):
+        menuItems = list(self.menuItems)
+        isFolder = item['type'] not in ['program', 'episode']
+        if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
+            return None
+
+        title = item['title']
+        if item['type'] == 'season':
+            title += f" {item['seasonNumber']}"
+        elif item.get('contextualTitle', None):
+            cont = item['contextualTitle']
+            if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
+                title += f" ({item['contextualTitle']})"
+
+        listItem = xbmcgui.ListItem(title, offscreen=True)
+        if 'images' in item:
+            listItem.setArt({'thumb': item['images']['tile'],
+                            'icon': item['images']['tile'],
+                             'fanart': item['images']['wallpaper']
+                             })
         else:
-            directoryItems = list()
-            if add_area_selector:
-                directoryItems.append(
-                    (self._plugin_url + '?show=areaselector', self.area_item, True))
-            fanart_h = int(get_setting('fanart.size'))
-            fanart_w = int(fanart_h*16/9)
-            for item in items:
-                menuItems = list(self.menuItems)
+            listItem.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
+                    addon_path, 'resources', 'icons', 'star.png')})
 
-                title = item['SeriesTitle'].replace('&', '%26').replace(',', '%2C')
-                if title in self.favorites:
-                    runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={title})"
-                    menuItems.append((tr(30201), runScript))
-                else:
-                    runScript = f"RunPlugin(plugin://plugin.video.drnu/?addfavorite={title})"
+        if isFolder:
+            if title in self.favorites:
+                runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={title})"
+                menuItems.append((tr(30201), runScript))
+            else:
+                if item['type'] not in ['ListEntry']:
+                    runScript = f"RunPlugin(plugin://plugin.video.drnu/?addfavorite={title}&favoritepath={item['path']})"
                     menuItems.append((tr(30200), runScript))
+            if 'path' in item:
+                url = self._plugin_url + f"?listVideos2={item['path']}&seasons={is_season}"
+            elif 'list' in item and 'path' in item['list']:
+                url = self._plugin_url + f"?listVideos2={item['list']['path']}&seasons={is_season}"
+            else:
+                return None
+        else:
+            infoLabels = {'title': title}
 
-                listItem = xbmcgui.ListItem(item['SeriesTitle'], offscreen=True)
-                listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
-                                 'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
-                                 'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
-                listItem.addContextMenuItems(menuItems, False)
-
-                url = self._plugin_url + '?listVideos=' + item['SeriesSlug']
-                directoryItems.append((url, listItem, True))
-
-            xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
-            xbmcplugin.endOfDirectory(self._plugin_handle)
-
-    def listEpisodes(self, items, addSortMethods=True):
-        directoryItems = list()
-        for item in items:
-            if 'PrimaryAsset' not in item or 'Uri' not in item['PrimaryAsset'] or not item['PrimaryAsset']['Uri']:
-                continue
-
-            infoLabels = {
-                'title': item['Title']
-            }
-            if 'Description' in item:
-                infoLabels['plot'] = item['Description']
-            if 'PrimaryBroadcastStartTime' in item and item['PrimaryBroadcastStartTime'] is not None:
-                broadcastTime = self.parseDate(item['PrimaryBroadcastStartTime'])
+            if 'shortDescription' in item:
+                infoLabels['plot'] = item['shortDescription']
+            if 'BroadcastTimeDK' in item and item['BroadcastTimeDK'] is not None:
+                broadcastTime = self.parseDate(item['BroadcastTimeDK'])
                 if broadcastTime:
                     infoLabels['date'] = broadcastTime.strftime('%d.%m.%Y')
                     infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
                     infoLabels['year'] = int(broadcastTime.strftime('%Y'))
-
-            listItem = xbmcgui.ListItem(item['Title'], offscreen=True)
-            fanart_h = int(get_setting('fanart.size'))
-            fanart_w = int(fanart_h*16/9)
-            listItem.setArt({'thumb': self.api.redirectImageUrl(item['PrimaryImageUri'], 640, 360),
-                             'icon': self.api.redirectImageUrl(item['PrimaryImageUri'], 75, 42),
-                             'fanart': self.api.redirectImageUrl(item['PrimaryImageUri'], fanart_w, fanart_h)})
+            kids = False
+            if 'classification' in item:
+                kids = item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']
+            url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}&idpath={item['path']}"
             listItem.setInfo('video', infoLabels)
-            url = self._plugin_url + '?playVideo=' + item['Slug']
             listItem.setProperty('IsPlayable', 'true')
-            listItem.addContextMenuItems(self.menuItems, False)
-            directoryItems.append((url, listItem))
 
-        xbmcplugin.setContent(self._plugin_handle, 'episodes')
+        listItem.addContextMenuItems(menuItems, False)
+        return (url, listItem, isFolder,)
+
+    def listEpisodes(self, items, addSortMethods=False, seasons=False):
+        directoryItems = list()
+        for item in items:
+            if 'kodi_spacer' in item:
+                gui_item = ('', xbmcgui.ListItem(item['kodi_spacer'], offscreen=True), False,)
+            else:
+                gui_item = self.kodi_item(item, is_season=seasons)
+            if gui_item is not None:
+                directoryItems.append(gui_item)
+
         xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
         if addSortMethods:
             xbmcplugin.addSortMethod(self._plugin_handle, xbmcplugin.SORT_METHOD_DATE)
             xbmcplugin.addSortMethod(self._plugin_handle, xbmcplugin.SORT_METHOD_TITLE)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
-    def playVideo(self, slug):
-        self.updateRecentlyWatched(slug)
-        api_item = self.api.getEpisode(slug)
-        kids_channel = api_item.get('PrimaryChannelSlug', 'no_channel_slug') in [
-                                    'dr-minisjang', 'dr-ramasjang', 'dr-ultra']
-        if 'PrimaryAsset' not in api_item:
+    def playVideo(self, id, kids_channel, path):
+        self.updateRecentlyWatched(path)
+        video = self.api2.getVideoUrl(id)
+        kids_channel = kids_channel == 'True'
+
+        with open('debug', 'w') as fh:
+            fh.write(id + '\n')
+            fh.write(str(kids_channel) + '\n')
+            fh.write(str(video['url']) + '\n')
+        if not video['url']:
             self.displayError(tr(30904))
             return
 
-        video = self.api.getVideoUrl(api_item['PrimaryAsset']['Uri'])
-        item = xbmcgui.ListItem(path=video['Uri'], offscreen=True)
-        item.setArt({'thumb': api_item['PrimaryImageUri']})
+        item = xbmcgui.ListItem(path=video['url'], offscreen=True)
+
         if get_setting('inputstream') == 'adaptive':
             is_helper = Helper('hls')
             if is_helper.check_inputstream():
@@ -382,40 +340,7 @@ class DrDkTvAddon(object):
                     item.setSubtitles(video['SubtitlesUri'][::-1])
                 else:
                     item.setSubtitles(video['SubtitlesUri'])
-        xbmcplugin.setResolvedUrl(self._plugin_handle, video['Uri'] is not None, item)
-
-    # Supported slugs are dr1, dr2 and dr-ramasjang
-    def playLiveTV(self, slug):
-        item = None
-        url = None
-        HLS = 'HLS_subtitles' if bool_setting('enable.subtitles') else 'HLS'
-        for channel in self.api.getLiveTV():
-            # If the channel has the right slug, play the channel
-            if channel['Slug'] == slug:
-                server = None
-                for streamingServer in channel['StreamingServers']:
-                    if streamingServer['LinkType'] == HLS:
-                        server = streamingServer
-                        break
-                if server is None:
-                    continue
-
-                url = server['Server'] + '/' + server['Qualities'][0]['Streams'][0]['Stream']
-                item = xbmcgui.ListItem(channel['Title'], path=url, offscreen=True)
-                item.setArt({'fanart': channel['PrimaryImageUri'],
-                            'icon': channel['PrimaryImageUri']})
-                if get_setting('inputstream') == 'adaptive':
-                    is_helper = Helper('hls')
-                    if is_helper.check_inputstream():
-                        item.setProperty('inputstream', is_helper.inputstream_addon)
-                        item.setProperty('inputstream.adaptive.manifest_type', 'hls')
-
-                item.addContextMenuItems(self.menuItems, False)
-                break
-        if item:
-            xbmcplugin.setResolvedUrl(self._plugin_handle, True, item)
-        else:
-            self.displayError(f'{tr(30905)} {slug}')
+        xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, item)
 
     def parseDate(self, dateString):
         if dateString is not None:
@@ -433,25 +358,25 @@ class DrDkTvAddon(object):
         else:
             return None
 
-    def addFavorite(self, key):
+    def addFavorite(self, title, path):
         self._load()
-        if key not in self.favorites:
-            self.favorites.append(key)
+        if title not in self.favorites:
+            self.favorites[title] = path
         self._save()
         xbmcgui.Dialog().ok(addon_name, tr([30008, 30009]))
 
-    def delFavorite(self, key):
+    def delFavorite(self, title):
         self._load()
-        if key in self.favorites:
-            self.favorites.remove(key)
+        if title in self.favorites:
+            del self.favorites[title]
         self._save()
         xbmcgui.Dialog().ok(addon_name, tr([30008, 30010]))
 
-    def updateRecentlyWatched(self, assetUri):
+    def updateRecentlyWatched(self, path):
         self._load()
-        if assetUri in self.recentlyWatched:
-            self.recentlyWatched.remove(assetUri)
-        self.recentlyWatched.insert(0, assetUri)
+        if path in self.recentlyWatched:
+            self.recentlyWatched.remove(path)
+        self.recentlyWatched.insert(0, path)
         self._save()
 
     def displayError(self, message='n/a'):
@@ -468,15 +393,6 @@ class DrDkTvAddon(object):
             if 'show' in PARAMS:
                 if PARAMS['show'] == 'liveTV':
                     self.showLiveTV()
-                elif PARAMS['show'] == 'listAZ':
-                    self.showAZ()
-                elif PARAMS['show'] == 'latest':
-                    channel = SLUG_ADULT if bool_setting('disable.kids') else ''
-                    self.listEpisodes(self.api.getLatestPrograms(channel), addSortMethods=False)
-                elif PARAMS['show'] == 'mostViewed':
-                    self.listEpisodes(self.api.getMostViewed())
-                elif PARAMS['show'] == 'highlights':
-                    self.listEpisodes(self.api.getSelectedList())
                 elif PARAMS['show'] == 'search':
                     self.searchSeries()
                 elif PARAMS['show'] == 'favorites':
@@ -485,33 +401,45 @@ class DrDkTvAddon(object):
                     self.showRecentlyWatched()
                 elif PARAMS['show'] == 'areaselector':
                     self.showAreaSelector()
-                elif PARAMS['show'] == 'themes':
-                    self.showThemes()
+            elif 'searchresult' in PARAMS:
+                search_results = pickle.load(self.search_path.open('rb'))
+                self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
 
-            elif 'listThemeSeries' in PARAMS:
-                self.listSeries(self.api.getEpisodes(PARAMS['listThemeSeries']))
+            elif 'listVideos2' in PARAMS:
+                seasons = PARAMS.get('seasons', 'False')
+                entries = self.api2.get_programcard(PARAMS['listVideos2'])['entries']
+                if len(entries) > 1:
+                    self.listEpisodes(entries)
+                else:
+                    item = entries[0]
+                    if item['type'] == 'ItemEntry':
+                        # if item['item']['type'] == 'show':
+                        #     self.listEpisodes(item['item']['seasons']['items'])
+                        if item['item']['type'] == 'season':
+                            if seasons == 'True' or item['item']['show']['availableSeasonCount'] == 1:
+                                self.listEpisodes(item['item']['episodes']['items'], seasons=False)
+                            else:
+                                self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
+                        else:
+                            raise tvapi.ApiException(f"{item['item']['type']} unknown")
 
-            elif 'listProgramSeriesByLetter' in PARAMS:
-                self.listSeries(self.api.searchSeries(
-                    PARAMS['listProgramSeriesByLetter'], startswith=True))
-
-            elif 'listVideos' in PARAMS:
-                self.listEpisodes(self.api.getEpisodes(PARAMS['listVideos']))
+                    elif item['type'] == 'ListEntry':
+                        self.listEpisodes(item['list']['items'])
+                    else:
+                        raise tvapi.ApiException(f"{item['type']} unknown")
 
             elif 'playVideo' in PARAMS:
-                self.playVideo(PARAMS['playVideo'])
-
-            # Supported slugs are dr1, dr2 and dr-ramasjang
-            elif 'playLiveTV' in PARAMS:
-                self.playLiveTV(PARAMS['playLiveTV'])
+                self.playVideo(PARAMS['playVideo'], PARAMS['kids'], PARAMS['idpath'])
 
             elif 'addfavorite' in PARAMS:
-                self.addFavorite(PARAMS['addfavorite'])
+                self.addFavorite(PARAMS['addfavorite'], PARAMS['favoritepath'])
 
             elif 'delfavorite' in PARAMS:
                 self.delFavorite(PARAMS['delfavorite'])
 
             else:
+                make_notice(query)
+                make_notice(PARAMS)
                 try:
                     area = int(get_setting('area'))
                 except Exception:
@@ -522,23 +450,20 @@ class DrDkTvAddon(object):
                 elif area == 1:
                     self.showMainMenu()
                 elif area == 2:
-                    items = self.api.getChildrenFrontItems('dr-minisjang')
-                    self.listSeries(items, add_area_selector=True)
+                    items = self.api2.get_children_front_items('dr-ramasjang')
+                    self.listEpisodes(items)
                 elif area == 3:
-                    items = self.api.getChildrenFrontItems('dr-ramasjang')
-                    self.listSeries(items, add_area_selector=True)
-                elif area == 5:
-                    items = self.api.getChildrenFrontItems('dr-ultra')
-                    self.listSeries(items, add_area_selector=True)
+                    items = self.api2.get_children_front_items('dr-ultra')
+                    self.listEpisodes(items)
 
-        except tvapi.ApiException as ex:
-            self.displayError(str(ex))
+#        except tvapi.ApiException as ex:
+#            self.displayError(str(ex))
 
-        except IOError as ex:
-            self.displayIOError(str(ex))
+#        except IOError as ex:
+#            self.displayIOError(str(ex))
 
-        except Exception:
-            crash_file = self.cache_path/'drnu.crash'
-            crash_file.write_text(traceback.format_exc())
-            heading = 'drnu addon crash'
-            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), tr(30908), str(crash_file)]))
+        except Exception as ex:
+            raise ex
+#            stack = traceback.format_exc()
+#            heading = 'drnu addon crash'
+#            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907)]))
