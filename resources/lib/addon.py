@@ -226,7 +226,17 @@ class DrDkTvAddon(object):
             keyword = keyboard.getText()
             search_results = self.api.search(keyword)
             directoryItems = []
-            for key in ['series', 'playable', 'competitions', 'confederations', 'events', 'movies', 'newshighlights', 'persons', 'teams', 'tv']:
+            for key in [
+                    'series',
+                    'playable',
+                    'competitions',
+                    'confederations',
+                    'events',
+                    'movies',
+                    'newshighlights',
+                    'persons',
+                    'teams',
+                    'tv']:
                 if search_results[key]['size'] > 0:
                     url = self._plugin_url + f"?searchresult={key}"
                     directoryItems.append((url, xbmcgui.ListItem(
