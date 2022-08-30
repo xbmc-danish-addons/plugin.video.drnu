@@ -73,8 +73,7 @@ class DrDkTvAddon(object):
         self.search_path = self.cache_path/'search6.pickle'
         self.fanart_image = str(resources_path/'fanart.jpg')
 
-        # self.api = tvapi.Api(self.cache_path, tr)
-        self.api2 = tvapi.NewApi(self.cache_path, tr)
+        self.api = tvapi.Api(self.cache_path, tr)
         self.favorites = {}
         self.recentlyWatched = []
 
@@ -122,7 +121,7 @@ class DrDkTvAddon(object):
         elif areaSelected == 'drtv':
             self.showMainMenu()
         else:
-            items = self.api2.get_children_front_items('dr-' + areaSelected)
+            items = self.api.get_children_front_items('dr-' + areaSelected)
             self.listEpisodes(items)
 
     def showMainMenu(self):
@@ -134,7 +133,7 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
-        for hitem in self.api2.get_home():
+        for hitem in self.api.get_home():
             if hitem['path']:
                 item = xbmcgui.ListItem(hitem['title'], offscreen=True)
                 item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
@@ -174,7 +173,7 @@ class DrDkTvAddon(object):
         else:
             series = []
             for title, path in self.favorites.items():
-                series.extend([self.api2.get_programcard(path)['entries'][0]['item']['show']])
+                series.extend([self.api.get_programcard(path)['entries'][0]['item']['show']])
             self.listEpisodes(series, seasons=True)
 
     def showRecentlyWatched(self):
@@ -182,7 +181,7 @@ class DrDkTvAddon(object):
         videos = []
         for path in self.recentlyWatched:
             try:
-                item = self.api2.get_programcard(path)
+                item = self.api.get_programcard(path)
                 if item is None:
                     self.recentlyWatched.remove(path)
                 else:
@@ -200,7 +199,7 @@ class DrDkTvAddon(object):
 
     def showLiveTV(self):
         items = []
-        for channel in self.api2.getLiveTV():
+        for channel in self.api.getLiveTV():
             item = xbmcgui.ListItem(channel['title'], offscreen=True)
             item.setArt({'thumb': channel['item']['images']['logo'],
                          'icon': channel['item']['images']['logo'],
@@ -225,7 +224,7 @@ class DrDkTvAddon(object):
         keyboard.doModal()
         if keyboard.isConfirmed():
             keyword = keyboard.getText()
-            search_results = self.api2.search(keyword)
+            search_results = self.api.search(keyword)
             directoryItems = []
             for key in ['series', 'playable', 'competitions', 'confederations', 'events', 'movies', 'newshighlights', 'persons', 'teams', 'tv']:
                 if search_results[key]['size'] > 0:
@@ -315,7 +314,7 @@ class DrDkTvAddon(object):
 
     def playVideo(self, id, kids_channel, path):
         self.updateRecentlyWatched(path)
-        video = self.api2.getVideoUrl(id)
+        video = self.api.getVideoUrl(id)
         kids_channel = kids_channel == 'True'
 
         with open('debug', 'w') as fh:
@@ -407,7 +406,7 @@ class DrDkTvAddon(object):
 
             elif 'listVideos2' in PARAMS:
                 seasons = PARAMS.get('seasons', 'False')
-                entries = self.api2.get_programcard(PARAMS['listVideos2'])['entries']
+                entries = self.api.get_programcard(PARAMS['listVideos2'])['entries']
                 if len(entries) > 1:
                     self.listEpisodes(entries)
                 else:
@@ -450,10 +449,10 @@ class DrDkTvAddon(object):
                 elif area == 1:
                     self.showMainMenu()
                 elif area == 2:
-                    items = self.api2.get_children_front_items('dr-ramasjang')
+                    items = self.api.get_children_front_items('dr-ramasjang')
                     self.listEpisodes(items)
                 elif area == 3:
-                    items = self.api2.get_children_front_items('dr-ultra')
+                    items = self.api.get_children_front_items('dr-ultra')
                     self.listEpisodes(items)
 
 #        except tvapi.ApiException as ex:

@@ -39,7 +39,7 @@ CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 #	https://production-cdn.dr-massive.com/api/page?device=web_browser&ff=idp,ldp,rpt&geoLocation=dk&isDeviceAbroad=false&lang=da&list_page_size=24&max_list_prefetch=3&path=/kanal/20875&segments=drtv,mt_EL8De5E,optedin&sub=Anonymous&text_entry_format=html
 
 
-class NewApi():
+class Api():
     def __init__(self, cachePath, getLocalizedString, expire_hours=24):
         self.cachePath = cachePath
         self.tr = getLocalizedString
