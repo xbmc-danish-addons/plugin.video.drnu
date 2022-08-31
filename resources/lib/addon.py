@@ -327,10 +327,6 @@ class DrDkTvAddon(object):
         video = self.api.getVideoUrl(id)
         kids_channel = kids_channel == 'True'
 
-        with open('debug', 'w') as fh:
-            fh.write(id + '\n')
-            fh.write(str(kids_channel) + '\n')
-            fh.write(str(video['url']) + '\n')
         if not video['url']:
             self.displayError(tr(30904))
             return
