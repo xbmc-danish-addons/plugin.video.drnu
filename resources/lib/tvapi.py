@@ -135,7 +135,7 @@ class Api():
         js = self.get_programcard('/', data=data)
         items = [{'title': 'Programmer A-Å', 'path': '/a-aa', 'icon': 'all.png'}]
         for item in js['entries']:
-            if item['title'] not in  ['', 'Se Live TV']:
+            if item['title'] not in ['', 'Se Live TV']:
                 items.append({'title': item['title'], 'path': item['list']['path']})
         return items
 

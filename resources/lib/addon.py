@@ -456,14 +456,13 @@ class DrDkTvAddon(object):
                     items = self.api.get_children_front_items('dr-ultra')
                     self.listEpisodes(items)
 
-#        except tvapi.ApiException as ex:
-#            self.displayError(str(ex))
+        except tvapi.ApiException as ex:
+            self.displayError(str(ex))
 
-#        except IOError as ex:
-#            self.displayIOError(str(ex))
+        except IOError as ex:
+            self.displayIOError(str(ex))
 
-        except Exception as ex:
-            raise ex
-#            stack = traceback.format_exc()
-#            heading = 'drnu addon crash'
-#            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907)]))
+        except Exception:
+            #            stack = traceback.format_exc()
+            heading = 'drnu addon crash'
+            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907)]))
