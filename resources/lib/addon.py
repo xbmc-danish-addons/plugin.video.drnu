@@ -19,6 +19,7 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 import datetime
+from dateutil import parser
 from pathlib import Path
 import json
 import os
@@ -253,14 +254,7 @@ class DrDkTvAddon(object):
         if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
             return None
 
-        title = item['title']
-        if item['type'] == 'season':
-            title += f" {item['seasonNumber']}"
-        elif item.get('contextualTitle', None):
-            cont = item['contextualTitle']
-            if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
-                title += f" ({item['contextualTitle']})"
-
+        title, infoLabels = self.api.get_info(item)
         listItem = xbmcgui.ListItem(title, offscreen=True)
         if 'images' in item:
             listItem.setArt({'thumb': item['images']['tile'],
@@ -285,23 +279,14 @@ class DrDkTvAddon(object):
             else:
                 return None
         else:
-            infoLabels = {'title': title}
-
-            if 'shortDescription' in item:
-                infoLabels['plot'] = item['shortDescription']
-            if 'BroadcastTimeDK' in item and item['BroadcastTimeDK'] is not None:
-                broadcastTime = self.parseDate(item['BroadcastTimeDK'])
-                if broadcastTime:
-                    infoLabels['date'] = broadcastTime.strftime('%d.%m.%Y')
-                    infoLabels['aired'] = broadcastTime.strftime('%Y-%m-%d')
-                    infoLabels['year'] = int(broadcastTime.strftime('%Y'))
             kids = False
             if 'classification' in item:
                 kids = item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']
             url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}&idpath={item['path']}"
-            listItem.setInfo('video', infoLabels)
             listItem.setProperty('IsPlayable', 'true')
 
+        listItem.setInfo('video', infoLabels)
+        make_notice(infoLabels)
         listItem.addContextMenuItems(menuItems, False)
         return (url, listItem, isFolder,)
 
@@ -315,6 +300,7 @@ class DrDkTvAddon(object):
             if gui_item is not None:
                 directoryItems.append(gui_item)
 
+        xbmcplugin.setContent(self._plugin_handle, 'episodes')
         xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
         if addSortMethods:
             xbmcplugin.addSortMethod(self._plugin_handle, xbmcplugin.SORT_METHOD_DATE)

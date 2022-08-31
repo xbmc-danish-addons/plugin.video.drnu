@@ -196,6 +196,34 @@ class Api():
             'SubtitlesUri': subtitlesUri
         }
 
+    def get_info(self, item):
+        title = item['title']
+        if item['type'] == 'season':
+            title += f" {item['seasonNumber']}"
+        elif item.get('contextualTitle', None):
+            cont = item['contextualTitle']
+            if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
+                title += f" ({item['contextualTitle']})"
+
+        infoLabels = {'title': title}
+        if item.get('shortDescription', ''):
+            infoLabels['plot'] = item['shortDescription']
+        if item.get('tagline', ''):
+            infoLabels['plotoutline'] = item['tagline']
+        if item.get('customFields'):
+            if item['customFields'].get('BroadcastTimeDK'):
+                broadcast = parser.parse(item['customFields']['BroadcastTimeDK'])
+                infoLabels['date'] = broadcast.strftime('%d.%m.%Y')
+                infoLabels['aired'] = broadcast.strftime('%Y-%m-%d')
+                infoLabels['year'] = int(broadcast.strftime('%Y'))
+        if item.get('seasonNumber'):
+            infoLabels['season'] = item['seasonNumber']
+        if item['type'] in ["movie", "season", "episode"]:
+            infoLabels['mediatype'] = item['type']
+        elif item['type'] == 'program':
+            infoLabels['mediatype'] = 'tvshow'
+        return title, infoLabels
+
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None):
         url = 'https://production-cdn.dr-massive.com/api/schedules?'
         now = datetime.now()
