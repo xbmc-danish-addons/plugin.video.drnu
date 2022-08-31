@@ -136,10 +136,10 @@ class DrDkTvAddon(object):
         for hitem in self.api.get_home():
             if hitem['path']:
                 item = xbmcgui.ListItem(hitem['title'], offscreen=True)
-                item.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-                    addon_path, 'resources', 'icons', hitem.get('icon', 'star.png'))})
+                png = hitem.get('icon', 'star.png')
+                item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/f'icons/{png}')})
                 item.addContextMenuItems(self.menuItems, False)
-                items.append((self._plugin_url + '?listVideos2=' + hitem['path'], item, True))
+                items.append((self._plugin_url + '?listVideos=' + hitem['path'], item, True))
 
         # Search videos
         item = xbmcgui.ListItem(tr(30003), offscreen=True)
@@ -219,7 +219,7 @@ class DrDkTvAddon(object):
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
-    def searchSeries(self):
+    def search(self):
         keyboard = xbmc.Keyboard('', tr(30003))
         keyboard.doModal()
         if keyboard.isConfirmed():
@@ -268,21 +268,20 @@ class DrDkTvAddon(object):
                              'fanart': item['images']['wallpaper']
                              })
         else:
-            listItem.setArt({'fanart': self.fanart_image, 'icon': os.path.join(
-                    addon_path, 'resources', 'icons', 'star.png')})
+            listItem.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
 
         if isFolder:
             if title in self.favorites:
                 runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={title})"
                 menuItems.append((tr(30201), runScript))
             else:
-                if item['type'] not in ['ListEntry']:
+                if item['type'] not in ['ListEntry', 'RecommendationEntry']:
                     runScript = f"RunPlugin(plugin://plugin.video.drnu/?addfavorite={title}&favoritepath={item['path']})"
                     menuItems.append((tr(30200), runScript))
-            if 'path' in item:
-                url = self._plugin_url + f"?listVideos2={item['path']}&seasons={is_season}"
+            if item.get('path', False):
+                url = self._plugin_url + f"?listVideos={item['path']}&seasons={is_season}"
             elif 'list' in item and 'path' in item['list']:
-                url = self._plugin_url + f"?listVideos2={item['list']['path']}&seasons={is_season}"
+                url = self._plugin_url + f"?listVideos={item['list']['path']}&seasons={is_season}"
             else:
                 return None
         else:
@@ -321,6 +320,27 @@ class DrDkTvAddon(object):
             xbmcplugin.addSortMethod(self._plugin_handle, xbmcplugin.SORT_METHOD_DATE)
             xbmcplugin.addSortMethod(self._plugin_handle, xbmcplugin.SORT_METHOD_TITLE)
         xbmcplugin.endOfDirectory(self._plugin_handle)
+
+    def list_entries(self, path, seasons=False):
+        entries = self.api.get_programcard(path)['entries']
+        if len(entries) > 1:
+            self.listEpisodes(entries)
+        else:
+            item = entries[0]
+            if item['type'] == 'ItemEntry':
+                if item['item']['type'] == 'season':
+                    if seasons or item['item']['show']['availableSeasonCount'] == 1:
+                        # we have shown the root of this series (or only one season anyhow)
+                        self.listEpisodes(item['item']['episodes']['items'], seasons=False)
+                    else:
+                        # list only the season items of this series
+                        self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
+                else:
+                    raise tvapi.ApiException(f"{item['item']['type']} unknown")
+            elif item['type'] == 'ListEntry':
+                self.listEpisodes(item['list']['items'])
+            else:
+                raise tvapi.ApiException(f"{item['type']} unknown")
 
     def playVideo(self, id, kids_channel, path):
         self.updateRecentlyWatched(path)
@@ -399,7 +419,7 @@ class DrDkTvAddon(object):
                 if PARAMS['show'] == 'liveTV':
                     self.showLiveTV()
                 elif PARAMS['show'] == 'search':
-                    self.searchSeries()
+                    self.search()
                 elif PARAMS['show'] == 'favorites':
                     self.showFavorites()
                 elif PARAMS['show'] == 'recentlyWatched':
@@ -410,28 +430,9 @@ class DrDkTvAddon(object):
                 search_results = pickle.load(self.search_path.open('rb'))
                 self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
 
-            elif 'listVideos2' in PARAMS:
-                seasons = PARAMS.get('seasons', 'False')
-                entries = self.api.get_programcard(PARAMS['listVideos2'])['entries']
-                if len(entries) > 1:
-                    self.listEpisodes(entries)
-                else:
-                    item = entries[0]
-                    if item['type'] == 'ItemEntry':
-                        # if item['item']['type'] == 'show':
-                        #     self.listEpisodes(item['item']['seasons']['items'])
-                        if item['item']['type'] == 'season':
-                            if seasons == 'True' or item['item']['show']['availableSeasonCount'] == 1:
-                                self.listEpisodes(item['item']['episodes']['items'], seasons=False)
-                            else:
-                                self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
-                        else:
-                            raise tvapi.ApiException(f"{item['item']['type']} unknown")
-
-                    elif item['type'] == 'ListEntry':
-                        self.listEpisodes(item['list']['items'])
-                    else:
-                        raise tvapi.ApiException(f"{item['type']} unknown")
+            elif 'listVideos' in PARAMS:
+                seasons = PARAMS.get('seasons', 'False') == 'True'
+                self.list_entries(PARAMS['listVideos'], seasons)
 
             elif 'playVideo' in PARAMS:
                 self.playVideo(PARAMS['playVideo'], PARAMS['kids'], PARAMS['idpath'])
@@ -443,13 +444,7 @@ class DrDkTvAddon(object):
                 self.delFavorite(PARAMS['delfavorite'])
 
             else:
-                make_notice(query)
-                make_notice(PARAMS)
-                try:
-                    area = int(get_setting('area'))
-                except Exception:
-                    area = 0
-
+                area = int(get_setting('area'))
                 if area == 0:
                     self.showAreaSelector()
                 elif area == 1:
