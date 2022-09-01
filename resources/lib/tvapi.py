@@ -19,24 +19,18 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 
-import binascii
 import hashlib
 import json
-from math import ceil
-import os
 from pathlib import Path
-import re
+import pickle
 import requests
 import requests_cache
-import struct
 import time
-import urllib.parse as urlparse
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
-#	https://production-cdn.dr-massive.com/api/page?device=web_browser&ff=idp,ldp,rpt&geoLocation=dk&isDeviceAbroad=false&lang=da&list_page_size=24&max_list_prefetch=3&path=/kanal/20875&segments=drtv,mt_EL8De5E,optedin&sub=Anonymous&text_entry_format=html
 
 
 class Api():
@@ -45,45 +39,66 @@ class Api():
         self.tr = getLocalizedString
 
         # cache expires after: 3600 = 1hour
-        self.session = requests_cache.CachedSession(os.path.join(
-            cachePath, 'requests.cache'), backend='sqlite', expire_after=3600*expire_hours)
-        self.empty_srt = f'{self.cachePath}/{self.tr(30508)}.da.srt'
-        self.token_file = Path(f'{self.cachePath}/token.json')
+        self.init_sqlite_db(expire_hours)
 
         # we need to have something in the srt to make kodi use it
+        self.empty_srt = f'{self.cachePath}/{self.tr(30508)}.da.srt'
         Path(self.empty_srt).write_text('1\n00:00:00,000 --> 00:01:01,000\n')
-        self.get_tokens()
+
+        self.token_file = Path(f'{self.cachePath}/token.json')
+        self._user_token = None
+        self.refresh_tokens()
+
+    def init_sqlite_db(self, expire_hours):
+        request_fname = str(self.cachePath/'requests.cache')
+        self.session = requests_cache.CachedSession(request_fname, backend='sqlite', expire_after=3600*expire_hours)
+
+        if (self.cachePath/'request_cleaned').exists():
+            if (time.time() - (self.cachePath/'request_cleaned').stat().st_mtime)/3600/24 < 7:
+                # less than 7 days since last cleaning, no need...
+                return
+        try:
+            self.session.remove_expired_responses()
+        except Exception:
+            if (self.cachePath/'requests.cache.sqlite').exists():
+                (self.cachePath/'requests.cache.sqlite').unlink()
+            self.session = requests_cache.CachedSession(request_fname, backend='sqlite', expire_after=3600*expire_hours)
+        (self.cachePath/'request_cleaned').write_text('')
 
     def deviceid(self):
         v = int(Path(__file__).stat().st_mtime)
         h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
         return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
 
-    def get_tokens(self):
+    def read_token(self, s):
+        tokens = json.loads(s)
+        time_struct = time.strptime(tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
+        self._token_expire = datetime(*time_struct[0:6])
+        self._user_token = tokens[0]['value']
+        self._profile_token = tokens[1]['value']
+
+    def request_tokens(self):
         data = {"deviceId": self.deviceid(), "scopes": ["Catalog"], "optout": False}
         params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
 
         url = 'https://production.dr-massive.com/api/authorization/anonymous-sso?'
         u = requests.post(url, json=data, params=params)
         self._user_token = None
-        self._profile_token = None
-        self._token_expire = None
         if u.status_code == 200:
             self.token_file.write_bytes(u.content)
-            tokens = json.loads(u.content)
-            time_struct = time.strptime(tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
-            self._token_expire = datetime(*time_struct[0:6])
-            self._user_token = tokens[0]['value']
-            self._profile_token = tokens[1]['value']
+            self.read_token(u.content)
         else:
             print(u.text)
             raise ApiException(f'Failed to get new token from: {url}')
 
     def refresh_tokens(self):
         if self._user_token is None:
-            self.get_tokens()
+            if self.token_file.exists():
+                self.read_token(self.token_file.read_bytes())
+            else:
+                self.request_tokens()
         if (self._token_expire - datetime.now()).total_seconds() < 120:
-            self.get_tokens()
+            self.request_tokens()
 
     def user_token(self):
         self.refresh_tokens()
