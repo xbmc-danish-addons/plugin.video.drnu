@@ -50,6 +50,9 @@ class Api():
         self.refresh_tokens()
 
     def init_sqlite_db(self, expire_hours):
+        if not (self.cachePath/'request_cleaned').exists():
+            if (self.cachePath/'requests.cache.sqlite').exists():
+                (self.cachePath/'requests.cache.sqlite').unlink()
         request_fname = str(self.cachePath/'requests.cache')
         self.session = requests_cache.CachedSession(request_fname, backend='sqlite', expire_after=3600*expire_hours)
 
@@ -201,15 +204,6 @@ class Api():
             return None
         else:
             raise ApiException(u.text)
-
-    def getVideoUrl(self, id):
-        stream = self.get_stream(id)
-        url = stream['url']
-        subtitlesUri = None
-        return {
-            'url': url,
-            'SubtitlesUri': subtitlesUri
-        }
 
     def get_info(self, item):
         title = item['title']

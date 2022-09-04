@@ -21,11 +21,10 @@
 import datetime
 from dateutil import parser
 from pathlib import Path
-import json
-import os
 import pickle
 import re
 import traceback
+import time
 import urllib.parse as urlparse
 
 import xbmc
@@ -286,7 +285,6 @@ class DrDkTvAddon(object):
             listItem.setProperty('IsPlayable', 'true')
 
         listItem.setInfo('video', infoLabels)
-        make_notice(infoLabels)
         listItem.addContextMenuItems(menuItems, False)
         return (url, listItem, isFolder,)
 
@@ -330,7 +328,10 @@ class DrDkTvAddon(object):
 
     def playVideo(self, id, kids_channel, path):
         self.updateRecentlyWatched(path)
-        video = self.api.getVideoUrl(id)
+        video = self.api.get_stream(id)
+        subs = {}
+        for i, sub in enumerate(video['subtitles']):
+            subs[sub['language']] = i
         kids_channel = kids_channel == 'True'
 
         if not video['url']:
@@ -345,29 +346,37 @@ class DrDkTvAddon(object):
                 item.setProperty('inputstream', is_helper.inputstream_addon)
                 item.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
-        if not all([bool_setting('disable.kids.subtitles') and kids_channel]):
-            if video['SubtitlesUri']:
-                if bool_setting('enable.subtitles'):
-                    item.setSubtitles(video['SubtitlesUri'][::-1])
-                else:
-                    item.setSubtitles(video['SubtitlesUri'])
         xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, item)
+        if len(subs) == 0:
+            return
 
-    def parseDate(self, dateString):
-        if dateString is not None:
-            try:
-                m = re.search(r'(\d+)-(\d+)-(\d+)T(\d+):(\d+):(\d+)', dateString)
-                year = int(m.group(1))
-                month = int(m.group(2))
-                day = int(m.group(3))
-                hours = int(m.group(4))
-                minutes = int(m.group(5))
-                seconds = int(m.group(6))
-                return datetime.datetime(year, month, day, hours, minutes, seconds)
-            except ValueError:
-                return None
+        player = xbmc.Player()
+        # Wait for positive confirmation of playback
+        t = 0
+        dt = 0.2
+        while not player.isPlaying():
+            t += dt
+            if t >= 10:
+                # Still not playing after 10 seconds, giving up...
+                return
+            else:
+                time.sleep(dt)
+
+        # Set subtitles according to setting wishes
+        if all([bool_setting('disable.kids.subtitles') and kids_channel]):
+            player.showSubtitles(False)
+        elif bool_setting('enable.subtitles'):
+            for type in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles', 'ForeignLanguageSubtitles']:
+                if type in subs:
+                    player.setSubtitleStream(subs[type])
+                    player.showSubtitles(True)
+                    return
         else:
-            return None
+            if 'ForeignLanguageSubtitles' in subs:
+                player.setSubtitleStream(subs['ForeignLanguageSubtitles'])
+                player.showSubtitles(True)
+            else:
+                player.showSubtitles(False)
 
     def addFavorite(self, title, path):
         self._load()
@@ -448,7 +457,7 @@ class DrDkTvAddon(object):
         except IOError as ex:
             self.displayIOError(str(ex))
 
-        except Exception:
+        except Exception as ex:
             #            stack = traceback.format_exc()
             heading = 'drnu addon crash'
-            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907)]))
+            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), str(ex)]))
