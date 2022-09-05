@@ -22,7 +22,6 @@
 import hashlib
 import json
 from pathlib import Path
-import pickle
 import requests
 import requests_cache
 import time
@@ -31,6 +30,7 @@ from datetime import datetime, timezone, timedelta
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
+URL = 'https://production.dr-massive.com/api'
 
 
 class Api():
@@ -84,7 +84,7 @@ class Api():
         data = {"deviceId": self.deviceid(), "scopes": ["Catalog"], "optout": False}
         params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
 
-        url = 'https://production.dr-massive.com/api/authorization/anonymous-sso?'
+        url = URL + '/authorization/anonymous-sso?'
         u = requests.post(url, json=data, params=params)
         self._user_token = None
         if u.status_code == 200:
@@ -111,8 +111,8 @@ class Api():
         self.refresh_tokens()
         return self._profile_token
 
-    def get_programcard(self, path, data=None):
-        url = 'https://www.dr-massive.com/api/page?'
+    def get_programcard(self, path, data=None, use_cache=True):
+        url = URL + '/page?'
         if data is None:
             data = {
                 'item_detail_expand': 'all',
@@ -120,14 +120,57 @@ class Api():
                 'max_list_prefetch': '3',
                 'path': path
             }
-        u = requests.get(url, params=data)
+        if use_cache:
+            u = self.session.get(url, params=data)
+        else:
+            u = requests.get(url, params=data)
         if u.status_code == 200:
             return u.json()
         else:
             raise ApiException(u.text)
 
+    def get_next(self, path, use_cache=True):
+        url = URL + path
+        if use_cache:
+            u = self.session.get(url)
+        else:
+            u = requests.get(url)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
+    def get_list(self, id, param, use_cache=True):
+        if isinstance(id, str):
+            id = int(id.replace('ID_', ''))
+        url = URL + f'/lists/{id}'
+        data = {'page_size': '24'}
+        if param != 'NoParam':
+            data['param'] = param
+
+        if use_cache:
+            u = self.session.get(url, params=data)
+        else:
+            u = requests.get(url, params=data)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
+    async def unfold_list(self, item):
+        items = []
+        if 'next' in item['paging']:
+            next_js = self.get_next(item['paging']['next'])
+            items += next_js['items']
+            while 'next' in next_js['paging']:
+                next_js = self.get_next(next_js['paging']['next'])
+                items += next_js['items']
+        else:
+            items += item['items']
+        return items
+
     def search(self, term):
-        url = 'https://production.dr-massive.com/api/search'
+        url = URL + '/search'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         data = {
             'item_detail_expand': 'all',
@@ -145,7 +188,7 @@ class Api():
     def get_home(self):
         data = dict(
             list_page_size=24,
-            max_list_prefetch=3,
+            max_list_prefetch=1,
             item_detail_expand='all',
             path='/',
             segments='drtv,mt_K8q4Nz3,optedin',
@@ -166,7 +209,7 @@ class Api():
             channels += card['entries']
         return channels
 
-    def get_children_front_items(self, channel):
+    async def get_children_front_items(self, channel):
         names = {
             'dr-ramasjang': '/ramasjang_a-aa',
             'dr-minisjang': '/minisjang/a-aa'
@@ -176,16 +219,11 @@ class Api():
         items = []
         for item in js['entries']:
             if item['type'] == 'ListEntry':
-                if channel == 'dr-ramasjang':
-                    url = name + '/' + item['list']['parameter'].split(':')[1]
-                    local_js = self.get_programcard(url)
-                    items += local_js['entries'][0]['list']['items']
-                else:
-                    items += item['list']['items']
+                items += await self.unfold_list(item['list'])
         return items
 
     def get_stream(self, id):
-        url = f'https://production.dr-massive.com/api/account/items/{int(id)}/videos?'
+        url = URL + f'/account/items/{int(id)}/videos?'
         headers = {"X-Authorization": f'Bearer {self.user_token()}'}
         data = {
             'delivery': 'stream',
@@ -234,7 +272,7 @@ class Api():
         return title, infoLabels
 
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None):
-        url = 'https://production-cdn.dr-massive.com/api/schedules?'
+        url = URL + '/schedules?'
         now = datetime.now()
         if date is None:
             date = now.strftime("%Y-%m-%d")

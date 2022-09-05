@@ -18,11 +18,8 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
-import datetime
-from dateutil import parser
 from pathlib import Path
 import pickle
-import re
 import traceback
 import time
 import urllib.parse as urlparse
@@ -110,7 +107,7 @@ class DrDkTvAddon(object):
             except Exception:
                 pass
 
-    def showAreaSelector(self):
+    async def showAreaSelector(self):
         gui = tvgui.AreaSelectorDialog(tr, resources_path)
         gui.doModal()
         areaSelected = gui.areaSelected
@@ -121,8 +118,8 @@ class DrDkTvAddon(object):
         elif areaSelected == 'drtv':
             self.showMainMenu()
         else:
-            items = self.api.get_children_front_items('dr-' + areaSelected)
-            self.listEpisodes(items)
+            items = await self.api.get_children_front_items('dr-' + areaSelected)
+            await self.listEpisodes(items)
 
     def showMainMenu(self):
         items = []
@@ -165,7 +162,7 @@ class DrDkTvAddon(object):
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
-    def showFavorites(self):
+    async def showFavorites(self):
         self._load()
         if not self.favorites:
             xbmcgui.Dialog().ok(addon_name, tr(30013))
@@ -174,9 +171,9 @@ class DrDkTvAddon(object):
             series = []
             for title, path in self.favorites.items():
                 series.extend([self.api.get_programcard(path)['entries'][0]['item']['show']])
-            self.listEpisodes(series, seasons=True)
+            await self.listEpisodes(series, seasons=True)
 
-    def showRecentlyWatched(self):
+    async def showRecentlyWatched(self):
         self._load()
         videos = []
         for path in self.recentlyWatched:
@@ -195,7 +192,7 @@ class DrDkTvAddon(object):
             xbmcgui.Dialog().ok(addon_name, tr([30013, 30020]))
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
         else:
-            self.listEpisodes(videos)
+            await self.listEpisodes(videos)
 
     def showLiveTV(self):
         items = []
@@ -273,10 +270,15 @@ class DrDkTvAddon(object):
                     menuItems.append((tr(30200), runScript))
             if item.get('path', False):
                 url = self._plugin_url + f"?listVideos={item['path']}&seasons={is_season}"
-            elif 'list' in item and 'path' in item['list']:
-                url = self._plugin_url + f"?listVideos={item['list']['path']}&seasons={is_season}"
+            # elif 'list' in item and 'path' in item['list']:
+            #     url = self._plugin_url + f"?listVideos={item['list']['path']}&seasons={is_season}"
+            elif 'list' in item:
+                param = item['list'].get('parameter', 'NoParam')
+                url = self._plugin_url + \
+                    f"?listVideos=ID_{item['list']['id']}&list_param={param}&seasons={is_season}"
             else:
                 return None
+            make_notice(url)
         else:
             kids = False
             if 'classification' in item:
@@ -288,13 +290,10 @@ class DrDkTvAddon(object):
         listItem.addContextMenuItems(menuItems, False)
         return (url, listItem, isFolder,)
 
-    def listEpisodes(self, items, addSortMethods=False, seasons=False):
+    async def listEpisodes(self, items, addSortMethods=False, seasons=False):
         directoryItems = list()
         for item in items:
-            if 'kodi_spacer' in item:
-                gui_item = ('', xbmcgui.ListItem(item['kodi_spacer'], offscreen=True), False,)
-            else:
-                gui_item = self.kodi_item(item, is_season=seasons)
+            gui_item = self.kodi_item(item, is_season=seasons)
             if gui_item is not None:
                 directoryItems.append(gui_item)
 
@@ -305,24 +304,26 @@ class DrDkTvAddon(object):
             xbmcplugin.addSortMethod(self._plugin_handle, xbmcplugin.SORT_METHOD_TITLE)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
-    def list_entries(self, path, seasons=False):
+    async def list_entries(self, path, seasons=False):
         entries = self.api.get_programcard(path)['entries']
+        make_notice(path)
         if len(entries) > 1:
-            self.listEpisodes(entries)
+            await self.listEpisodes(entries)
         else:
             item = entries[0]
             if item['type'] == 'ItemEntry':
                 if item['item']['type'] == 'season':
                     if seasons or item['item']['show']['availableSeasonCount'] == 1:
                         # we have shown the root of this series (or only one season anyhow)
-                        self.listEpisodes(item['item']['episodes']['items'], seasons=False)
+                        await self.listEpisodes(item['item']['episodes']['items'], seasons=False)
                     else:
                         # list only the season items of this series
-                        self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
+                        await self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
                 else:
                     raise tvapi.ApiException(f"{item['item']['type']} unknown")
             elif item['type'] == 'ListEntry':
-                self.listEpisodes(item['list']['items'])
+                items = await self.api.unfold_list(item['list'])
+                await self.listEpisodes(items)
             else:
                 raise tvapi.ApiException(f"{item['type']} unknown")
 
@@ -407,7 +408,7 @@ class DrDkTvAddon(object):
         heading = 'I/O error'
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30902), tr(30903), message]))
 
-    def route(self, query):
+    async def route(self, query):
         try:
             PARAMS = dict(urlparse.parse_qsl(query[1:]))
             if 'show' in PARAMS:
@@ -416,18 +417,22 @@ class DrDkTvAddon(object):
                 elif PARAMS['show'] == 'search':
                     self.search()
                 elif PARAMS['show'] == 'favorites':
-                    self.showFavorites()
+                    await self.showFavorites()
                 elif PARAMS['show'] == 'recentlyWatched':
-                    self.showRecentlyWatched()
+                    await self.showRecentlyWatched()
                 elif PARAMS['show'] == 'areaselector':
-                    self.showAreaSelector()
+                    await self.showAreaSelector()
             elif 'searchresult' in PARAMS:
                 search_results = pickle.load(self.search_path.open('rb'))
-                self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
+                await self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
 
             elif 'listVideos' in PARAMS:
                 seasons = PARAMS.get('seasons', 'False') == 'True'
-                self.list_entries(PARAMS['listVideos'], seasons)
+                if PARAMS['listVideos'].startswith('ID_'):
+                    items = self.api.get_list(PARAMS['listVideos'], PARAMS['list_param'])
+                    await self.listEpisodes(await self.api.unfold_list(items))
+                else:
+                    await self.list_entries(PARAMS['listVideos'], seasons)
 
             elif 'playVideo' in PARAMS:
                 self.playVideo(PARAMS['playVideo'], PARAMS['kids'], PARAMS['idpath'])
@@ -441,15 +446,15 @@ class DrDkTvAddon(object):
             else:
                 area = int(get_setting('area'))
                 if area == 0:
-                    self.showAreaSelector()
+                    await self.showAreaSelector()
                 elif area == 1:
                     self.showMainMenu()
                 elif area == 2:
-                    items = self.api.get_children_front_items('dr-ramasjang')
-                    self.listEpisodes(items)
+                    items = await self.api.get_children_front_items('dr-ramasjang')
+                    await self.listEpisodes(items)
                 elif area == 3:
-                    items = self.api.get_children_front_items('dr-ultra')
-                    self.listEpisodes(items)
+                    items = await self.api.get_children_front_items('dr-ultra')
+                    await self.listEpisodes(items)
 
         except tvapi.ApiException as ex:
             self.displayError(str(ex))
@@ -458,6 +463,7 @@ class DrDkTvAddon(object):
             self.displayIOError(str(ex))
 
         except Exception as ex:
-            #            stack = traceback.format_exc()
+            stack = traceback.format_exc()
             heading = 'drnu addon crash'
-            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), str(ex)]))
+            xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), str(stack)]))
+            raise ex
