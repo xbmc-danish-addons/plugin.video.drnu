@@ -117,8 +117,8 @@ msgid "Clear the favorite programs list"
 msgstr "Nulstil listen med foretrukne programmer"
 
 msgctxt "#30505"
-msgid "Remove programs from Ramasjang/Ultra in latest videos list"
-msgstr "Fjern programmer fra Ramasjang/Ultra under nyeste videoer"
+msgid "Remove programs from Ramasjang/Ultra in alphabetical lists"
+msgstr "Fjern programmer fra Ramasjang/Ultra fra alfabetisk oversigt"
 
 msgctxt "#30506"
 msgid "Hard-of-hearing"

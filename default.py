@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
+import asyncio
 from resources.lib import addon
 import sys
-import asyncio
+sys.modules['_asyncio'] = None
 
 # Start of Module
 if __name__ == "__main__":

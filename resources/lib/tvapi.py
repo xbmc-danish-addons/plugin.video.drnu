@@ -157,7 +157,17 @@ class Api():
         else:
             raise ApiException(u.text)
 
-    async def unfold_list(self, item):
+    def kids_item(self, item):
+        if 'classification' in item:
+            if item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
+                return True
+        if 'categories' in item:
+            for cat in ['dr minisjang', 'dr ramasjang', 'dr ultra']:
+                if cat in item['categories']:
+                    return True
+        return False
+
+    async def unfold_list(self, item, filter_kids=False):
         items = []
         if 'next' in item['paging']:
             next_js = self.get_next(item['paging']['next'])
@@ -167,6 +177,8 @@ class Api():
                 items += next_js['items']
         else:
             items += item['items']
+        if filter_kids:
+            items = [item for item in items if not self.kids_item(item)]
         return items
 
     def search(self, term):
@@ -212,7 +224,8 @@ class Api():
     async def get_children_front_items(self, channel):
         names = {
             'dr-ramasjang': '/ramasjang_a-aa',
-            'dr-minisjang': '/minisjang/a-aa'
+            'dr-minisjang': '/minisjang/a-aa',
+            'dr-ultra': '/ultra_a-aa',
             }
         name = names[channel]
         js = self.get_programcard(name)

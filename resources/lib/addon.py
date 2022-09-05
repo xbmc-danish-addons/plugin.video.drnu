@@ -270,8 +270,6 @@ class DrDkTvAddon(object):
                     menuItems.append((tr(30200), runScript))
             if item.get('path', False):
                 url = self._plugin_url + f"?listVideos={item['path']}&seasons={is_season}"
-            # elif 'list' in item and 'path' in item['list']:
-            #     url = self._plugin_url + f"?listVideos={item['list']['path']}&seasons={is_season}"
             elif 'list' in item:
                 param = item['list'].get('parameter', 'NoParam')
                 url = self._plugin_url + \
@@ -280,9 +278,7 @@ class DrDkTvAddon(object):
                 return None
             make_notice(url)
         else:
-            kids = False
-            if 'classification' in item:
-                kids = item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']
+            kids = self.api.kids_item(item)
             url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}&idpath={item['path']}"
             listItem.setProperty('IsPlayable', 'true')
 
@@ -430,7 +426,7 @@ class DrDkTvAddon(object):
                 seasons = PARAMS.get('seasons', 'False') == 'True'
                 if PARAMS['listVideos'].startswith('ID_'):
                     items = self.api.get_list(PARAMS['listVideos'], PARAMS['list_param'])
-                    await self.listEpisodes(await self.api.unfold_list(items))
+                    await self.listEpisodes(await self.api.unfold_list(items, filter_kids=bool_setting('disable.kids')))
                 else:
                     await self.list_entries(PARAMS['listVideos'], seasons)
 

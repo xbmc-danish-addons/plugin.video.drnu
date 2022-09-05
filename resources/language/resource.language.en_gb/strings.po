@@ -117,7 +117,7 @@ msgid "Clear the favorite programs list"
 msgstr ""
 
 msgctxt "#30505"
-msgid "Remove programs from Ramasjang/Ultra in latest videos list"
+msgid "Remove programs from Ramasjang/Ultra in alphabetical lists"
 msgstr ""
 
 msgctxt "#30506"
