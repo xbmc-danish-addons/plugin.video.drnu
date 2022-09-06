@@ -31,42 +31,43 @@ from datetime import datetime, timezone, timedelta
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 URL = 'https://production.dr-massive.com/api'
+GET_TIMEOUT = 5
 
 
 class Api():
-    def __init__(self, cachePath, getLocalizedString, expire_hours=24):
+    def __init__(self, cachePath, getLocalizedString, get_setting):
         self.cachePath = cachePath
         self.tr = getLocalizedString
-
-        # cache expires after: 3600 = 1hour
-        self.init_sqlite_db(expire_hours)
-
-        # we need to have something in the srt to make kodi use it
-        self.empty_srt = f'{self.cachePath}/{self.tr(30508)}.da.srt'
-        Path(self.empty_srt).write_text('1\n00:00:00,000 --> 00:01:01,000\n')
+        self.cleanup_every = int(get_setting('recache.cleanup'))
+        self.expire_hours = int(get_setting('recache.expiration'))
+        self.init_sqlite_db()
 
         self.token_file = Path(f'{self.cachePath}/token.json')
         self._user_token = None
         self.refresh_tokens()
 
-    def init_sqlite_db(self, expire_hours):
-        if not (self.cachePath/'request_cleaned').exists():
+    def init_sqlite_db(self):
+        if not (self.cachePath/'requests_cleaned').exists():
             if (self.cachePath/'requests.cache.sqlite').exists():
                 (self.cachePath/'requests.cache.sqlite').unlink()
         request_fname = str(self.cachePath/'requests.cache')
-        self.session = requests_cache.CachedSession(request_fname, backend='sqlite', expire_after=3600*expire_hours)
+        self.session = requests_cache.CachedSession(
+            request_fname, backend='sqlite', expire_after=3600*self.expire_hours)
 
-        if (self.cachePath/'request_cleaned').exists():
-            if (time.time() - (self.cachePath/'request_cleaned').stat().st_mtime)/3600/24 < 7:
-                # less than 7 days since last cleaning, no need...
+        if (self.cachePath/'requests_cleaned').exists():
+            if (time.time() - (self.cachePath/'requests_cleaned').stat().st_mtime)/3600/24 < self.cleanup_every:
+                # less than self.cleanup_every days since last cleaning, no need...
                 return
+
+        # doing recache.db cleanup
         try:
             self.session.remove_expired_responses()
         except Exception:
             if (self.cachePath/'requests.cache.sqlite').exists():
                 (self.cachePath/'requests.cache.sqlite').unlink()
-            self.session = requests_cache.CachedSession(request_fname, backend='sqlite', expire_after=3600*expire_hours)
-        (self.cachePath/'request_cleaned').write_text('')
+            self.session = requests_cache.CachedSession(
+                request_fname, backend='sqlite', expire_after=3600*self.expire_hours)
+        (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
     def deviceid(self):
         v = int(Path(__file__).stat().st_mtime)
@@ -121,9 +122,9 @@ class Api():
                 'path': path
             }
         if use_cache:
-            u = self.session.get(url, params=data)
+            u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
         else:
-            u = requests.get(url, params=data)
+            u = requests.get(url, params=data, timeout=GET_TIMEOUT)
         if u.status_code == 200:
             return u.json()
         else:
@@ -132,9 +133,9 @@ class Api():
     def get_next(self, path, use_cache=True):
         url = URL + path
         if use_cache:
-            u = self.session.get(url)
+            u = self.session.get(url, timeout=GET_TIMEOUT)
         else:
-            u = requests.get(url)
+            u = requests.get(url, timeout=GET_TIMEOUT)
         if u.status_code == 200:
             return u.json()
         else:
@@ -149,9 +150,9 @@ class Api():
             data['param'] = param
 
         if use_cache:
-            u = self.session.get(url, params=data)
+            u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
         else:
-            u = requests.get(url, params=data)
+            u = requests.get(url, params=data, timeout=GET_TIMEOUT)
         if u.status_code == 200:
             return u.json()
         else:
@@ -167,7 +168,7 @@ class Api():
                     return True
         return False
 
-    async def unfold_list(self, item, filter_kids=False):
+    def unfold_list(self, item, filter_kids=False):
         items = []
         if 'next' in item['paging']:
             next_js = self.get_next(item['paging']['next'])
@@ -190,7 +191,7 @@ class Api():
             'group': 'true',
             'term': term
         }
-        u = self.session.get(url, params=data, headers=headers)
+        u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
         if u.status_code == 200:
             return u.json()
         else:
@@ -208,7 +209,7 @@ class Api():
         js = self.get_programcard('/', data=data)
         items = [{'title': 'Programmer A-Å', 'path': '/a-aa', 'icon': 'all.png'}]
         for item in js['entries']:
-            if item['title'] not in ['', 'Se Live TV']:
+            if item['title'] not in ['', 'Se Live TV', 'Vi tror, du kan lide']:  # TODO activate again when login works
                 items.append({'title': item['title'], 'path': item['list']['path']})
         return items
 
@@ -221,18 +222,47 @@ class Api():
             channels += card['entries']
         return channels
 
-    async def get_children_front_items(self, channel):
+    def recache_items(self, progress=None, clear_expired=False):
+        if clear_expired:
+            self.session.remove_expired_responses()
+            (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
+
+        js = self.get_programcard('/a-aa')
+        maxidx = len(js['entries']) + 3
+        i = 0
+        for item in js['entries']:
+            if item['type'] == 'ListEntry':
+                st2 = time.time()
+                self.unfold_list(item['list'])
+                msg = f"{self.tr(30523)}'{item['title']}'\n{time.time() - st2:.1f}s"
+                if progress is not None:
+                    if progress.iscanceled():
+                        return
+                    progress.update(int(100*(i+1)/maxidx), msg)
+            i += 1
+
+        for channel in ['dr-ramasjang', 'dr-minisjang', 'dr-ultra']:
+            self.get_children_front_items(channel)
+            msg = f"{self.tr(30523)}'{channel}'\n{time.time() - st2:.1f}s"
+            if progress is not None:
+                if progress.iscanceled():
+                    return
+                progress.update(int(100*(i+1)/maxidx), msg)
+            i += 1
+
+    def get_children_front_items(self, channel):
         names = {
             'dr-ramasjang': '/ramasjang_a-aa',
             'dr-minisjang': '/minisjang/a-aa',
             'dr-ultra': '/ultra_a-aa',
+            'dr': '/a-aa',
             }
         name = names[channel]
         js = self.get_programcard(name)
         items = []
         for item in js['entries']:
             if item['type'] == 'ListEntry':
-                items += await self.unfold_list(item['list'])
+                items += self.unfold_list(item['list'])
         return items
 
     def get_stream(self, id):
@@ -247,7 +277,7 @@ class Api():
             'sub': 'Anonymous'
         }
 
-        u = self.session.get(url, params=data, headers=headers)
+        u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
         if u.status_code == 200:
             for stream in u.json():
                 if stream['accessService'] == 'StandardVideo':
@@ -297,7 +327,7 @@ class Api():
             'duration': 6,
             'channels': channels,
         }
-        u = requests.get(url, params=data)
+        u = requests.get(url, params=data, timeout=GET_TIMEOUT)
         if u.status_code == 200:
             return u.json()
         else:
