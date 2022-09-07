@@ -1,5 +1,5 @@
 #
-#      Copyright (C) 2014 Tommy Winther, msj33, TermeHansen
+#      Copyright (C) 2014 Tommy Winther, TermeHansen
 #
 #  https://github.com/xbmc-danish-addons/plugin.video.drnu
 #
