@@ -54,7 +54,7 @@ def bool_setting(name):
 
 
 def make_notice(object):
-    xbmc.log(str(object), xbmc.LOGINFO)
+    xbmc.log(str(object), xbmc.LOGDEBUG)
 
 
 class DrDkTvAddon(object):
@@ -86,7 +86,7 @@ class DrDkTvAddon(object):
 
     def _save(self):
         # save favorites
-        #        self.favorites.sort()
+        self.favorites = dict(sorted(self.favorites.items()))
         pickle.dump(self.favorites, self.favorites_path.open('wb'))
 
         self.recentlyWatched = self.recentlyWatched[0:25]  # Limit to 25 items
@@ -277,7 +277,6 @@ class DrDkTvAddon(object):
                     f"?listVideos=ID_{item['list']['id']}&list_param={param}&seasons={is_season}"
             else:
                 return None
-            make_notice(url)
         else:
             kids = self.api.kids_item(item)
             url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}&idpath={item['path']}"
@@ -303,7 +302,6 @@ class DrDkTvAddon(object):
 
     def list_entries(self, path, seasons=False):
         entries = self.api.get_programcard(path)['entries']
-        make_notice(path)
         if len(entries) > 1:
             self.listEpisodes(entries)
         else:

@@ -18,12 +18,8 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
-import xbmcgui
 import xbmc
-
-
-def make_notice(object):
-    xbmc.log(str(object), xbmc.LOGINFO)
+import xbmcgui
 
 
 class AreaSelectorDialog(xbmcgui.WindowDialog):

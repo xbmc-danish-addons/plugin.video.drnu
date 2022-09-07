@@ -92,7 +92,6 @@ class Api():
             self.token_file.write_bytes(u.content)
             self.read_token(u.content)
         else:
-            print(u.text)
             raise ApiException(f'Failed to get new token from: {url}')
 
     def refresh_tokens(self):
@@ -195,7 +194,6 @@ class Api():
         if u.status_code == 200:
             return u.json()
         else:
-            print(u.text)
             raise ApiException(u.text)
 
     def get_home(self):
