@@ -213,6 +213,7 @@ class DrDkTvAddon(object):
             item.setProperty('IsPlayable', 'true')
             items.append((url, item, False))
 
+        xbmcplugin.setContent(self._plugin_handle, 'episodes')
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
