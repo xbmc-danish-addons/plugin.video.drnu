@@ -352,27 +352,29 @@ class DrDkTvAddon(object):
         dt = 0.2
         while not player.isPlaying():
             t += dt
-            if t >= 10:
+            if t >= 5:
                 # Still not playing after 10 seconds, giving up...
                 return
             else:
                 time.sleep(dt)
+        time.sleep(1)  # wait 1 more second to make sure it has fully started
 
         # Set subtitles according to setting wishes
-        if all([bool_setting('disable.kids.subtitles') and kids_channel]):
-            player.showSubtitles(False)
-        elif bool_setting('enable.subtitles'):
-            for type in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles', 'ForeignLanguageSubtitles']:
-                if type in subs:
-                    player.setSubtitleStream(subs[type])
-                    player.showSubtitles(True)
-                    return
-        else:
-            if 'ForeignLanguageSubtitles' in subs:
-                player.setSubtitleStream(subs['ForeignLanguageSubtitles'])
-                player.showSubtitles(True)
-            else:
+        if player.isPlaying():
+            if all([bool_setting('disable.kids.subtitles') and kids_channel]):
                 player.showSubtitles(False)
+            elif bool_setting('enable.subtitles'):
+                for type in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles', 'ForeignLanguageSubtitles']:
+                    if type in subs:
+                        player.setSubtitleStream(subs[type])
+                        player.showSubtitles(True)
+                        return
+            else:
+                if 'ForeignLanguageSubtitles' in subs:
+                    player.setSubtitleStream(subs['ForeignLanguageSubtitles'])
+                    player.showSubtitles(True)
+                else:
+                    player.showSubtitles(False)
 
     def addFavorite(self, title, path):
         self._load()
