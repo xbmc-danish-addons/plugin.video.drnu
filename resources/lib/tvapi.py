@@ -284,6 +284,15 @@ class Api():
         else:
             raise ApiException(u.text)
 
+    def get_livestream(self, path, with_subtitles=False):
+        channel = self.get_programcard(path)['entries'][0]
+        stream = {'subtitles': []}
+        if with_subtitles:
+            stream['url'] = channel['item']['customFields']['hlsWithSubtitlesURL']
+        else:
+            stream['url'] = channel['item']['customFields']['hlsURL']
+        return stream
+
     def get_info(self, item):
         title = item['title']
         if item['type'] == 'season':
