@@ -1,5 +1,5 @@
 #
-#      Copyright (C) 2014 Tommy Winther, msj33, TermeHansen
+#      Copyright (C) 2014 Tommy Winther, TermeHansen
 #
 #  https://github.com/xbmc-danish-addons/plugin.video.drnu
 #
@@ -18,6 +18,7 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
+import xbmc
 import xbmcgui
 
 
@@ -85,6 +86,7 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
         self.ultraButton.controlRight(self.drTvButton)
 
         self.setFocus(self.drTvButton)
+        self.areaSelected = 'drtv'
 
         self.id_to_handle = {
             self.drTvButton.getId(): 'drtv',
@@ -92,8 +94,11 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
             self.minisjangButton.getId(): 'minisjang',
             self.ultraButton.getId(): 'ultra',
             }
+        xbmc.executebuiltin('AlarmClock(drnuclosedialog, Action(Select) ,00:02, silent, false)')
+
+    def onAction(self, action):
+        xbmc.executebuiltin('CancelAlarm(drnuclosedialog, silent)')
 
     def onControl(self, control):
         self.areaSelected = self.id_to_handle[control.getId()]
-
         self.close()
