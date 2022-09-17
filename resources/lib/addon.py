@@ -195,6 +195,41 @@ class DrDkTvAddon(object):
             self.listEpisodes(videos)
  
     def getIptvLiveChannels(self):
+        iptv_channels = list()
+        for api_channel in self.api.getLiveTV():
+
+            if (api_channel['title'] == 'DR1') and not bool_setting('iptv.channels.include.dr1'):
+                continue
+            if (api_channel['title'] == 'DR2') and not bool_setting('iptv.channels.include.dr2'):
+                continue
+            if ('ramasjang' in api_channel['title'].lower()) and not bool_setting('iptv.channels.include.drramasjang'):
+                continue
+
+            if bool_setting('enable.subtitles'):
+                stream_url = api_channel['item']['customFields']['hlsWithSubtitlesURL']
+            else:
+                stream_url = api_channel['item']['customFields']['hlsURL']
+
+            iptv_channel = dict(
+                name=api_channel['title'],
+                stream = stream_url,
+                logo=api_channel['item']['images']['logo'],
+                id='drnu.' + api_channel['item']['id']
+            )
+
+            preset = None
+            if iptv_channel['name'] == 'DR1':
+                preset = 1
+            elif iptv_channel['name'] == 'DR2':
+                preset = 2
+            elif 'ramasjang' in iptv_channel['name'].lower():
+                preset = 3
+            if preset is not None:
+                iptv_channel['preset'] = preset
+            iptv_channels.append(iptv_channel)
+        return iptv_channels
+
+    def getIptvLiveChannels_old(self):
 
         channel_id_mapping = self.api.getTvguideChannels()
 
@@ -497,8 +532,8 @@ class DrDkTvAddon(object):
             elif 'iptv' in PARAMS:
                 if PARAMS['iptv'] == 'channels':
                     self.iptv_channels(PARAMS['port'], channels=self.getIptvLiveChannels())
-                elif PARAMS['iptv'] == 'epg':
-                    self.iptv_epg(PARAMS['port'], epg=self.getIptvEpg())
+                #elif PARAMS['iptv'] == 'epg':
+                #    self.iptv_epg(PARAMS['port'], epg=self.getIptvEpg())
             elif 'searchresult' in PARAMS:
                 search_results = pickle.load(self.search_path.open('rb'))
                 self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
