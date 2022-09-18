@@ -354,7 +354,7 @@ class Api():
             infoLabels['mediatype'] = 'tvshow'
         return title, infoLabels
 
-    def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None):
+    def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
         url = URL + '/schedules?'
         now = datetime.now()
         if date is None:
@@ -364,7 +364,7 @@ class Api():
         data = {
             'date': date,
             'hour': hour-2,
-            'duration': 6,
+            'duration': duration,
             'channels': channels,
         }
         u = requests.get(url, params=data, timeout=GET_TIMEOUT)
