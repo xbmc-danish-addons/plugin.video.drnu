@@ -19,6 +19,8 @@
     <setting id="iptv.channels.include.dr1" type="bool" label="Enable DR1" default="true" enable="eq(-3,true)" visible="System.HasAddon(service.iptv.manager)" />
     <setting id="iptv.channels.include.dr2" type="bool" label="Enable DR2" default="true" enable="eq(-4,true)" visible="System.HasAddon(service.iptv.manager)" />
     <setting id="iptv.channels.include.drramasjang" type="bool" label="Enable DR Ramasjang" default="true" enable="eq(-5,true)" visible="System.HasAddon(service.iptv.manager)" />
+    <setting id="iptv.channels.include.drtv" type="bool" label="Enable DRTV" default="true" enable="eq(-6,true)" visible="System.HasAddon(service.iptv.manager)" />
+    <setting id="iptv.channels.include.drtvekstra" type="bool" label="Enable DRTV Ekstra" default="true" enable="eq(-7,true)" visible="System.HasAddon(service.iptv.manager)" />
   </category>
 	<category label="30501">
 		<setting label="30531" type="action" action="RunPlugin(plugin://plugin.video.drnu/?re-cache=1)" />

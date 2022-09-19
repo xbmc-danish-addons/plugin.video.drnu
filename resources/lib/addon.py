@@ -200,12 +200,14 @@ class DrDkTvAddon(object):
 
             if (api_channel['title'] == 'DR1') and not bool_setting('iptv.channels.include.dr1'):
                 continue
-            if (api_channel['title'] == 'DR2') and not bool_setting('iptv.channels.include.dr2'):
+            elif (api_channel['title'] == 'DR2') and not bool_setting('iptv.channels.include.dr2'):
                 continue
-            if (api_channel['title'] == 'DR Ramasjang') and not bool_setting('iptv.channels.include.drramasjang'):
+            elif (api_channel['title'] == 'DR Ramasjang') and not bool_setting('iptv.channels.include.drramasjang'):
                 continue
-            # TODO: Add DRTV + DRTV Extra
-            # TODO: Check on full name for ramasjang
+            elif (api_channel['title'] == 'DRTV') and not bool_setting('iptv.channels.include.drtv'):
+                continue
+            elif (api_channel['title'] == 'DRTV Ekstra') and not bool_setting('iptv.channels.include.drtvekstra'):
+                continue
 
             if bool_setting('enable.subtitles'):
                 stream_url = api_channel['item']['customFields']['hlsWithSubtitlesURL']
@@ -226,8 +228,10 @@ class DrDkTvAddon(object):
                 preset = 2
             elif iptv_channel['name'] == 'DR Ramasjang':
                 preset = 3
-            # TODO: Add DRTV + DRTV Extra
-            # TODO: Check on full name for ramasjang
+            elif (iptv_channel['name'] == 'DRTV'):
+                preset = 4
+            elif (iptv_channel['name'] == 'DRTV Ekstra'):
+                preset = 5
 
             if preset is not None:
                 iptv_channel['preset'] = preset
