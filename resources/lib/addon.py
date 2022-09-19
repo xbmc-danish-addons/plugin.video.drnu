@@ -235,7 +235,7 @@ class DrDkTvAddon(object):
         return iptv_channels
 
     def getIptvLiveChannels_old(self):
-
+        # TODO: Remove this function
         channel_id_mapping = self.api.getTvguideChannels()
 
         channels = list()
@@ -294,19 +294,16 @@ class DrDkTvAddon(object):
                                     'description': schedule['item']['description'],
                                     'image' : schedule['item']['images']['tile'],
                                 }
-                episode = ''
-                if 'seasonNumber' in schedule:
-                    episode = 'S' + schedule['seasonNumber']
-                if 'episodeNumber' in schedule:
-                    episode += 'E' + schedule['episodeNumber']
-                # TODO: Fix episodes
-                #if episode:
-                #    schedule_dict['episode'] = episode
+                if ('seasonNumber' in schedule['item']) and ('episodeNumber' in schedule['item']):
+                    episode = 'S' + '0{:d}'.format(schedule['item']['seasonNumber'])[-2:]
+                    episode += 'E' + '0{:d}'.format(schedule['item']['episodeNumber'])[-2:]
+                    schedule_dict['episode'] = episode
                 channel_epg.append(schedule_dict)
             epg['drnu.' + channel['channelId']] = channel_epg
         return epg
 
     def getIptvEpg_old(self):
+        # TODO: Remove this function
         channel_id_mapping = self.api.getTvguideChannels()
         tvguide = self.api.getTvguide(channel_id_mapping, channels=['DR1', 'DR2', 'DR Ramasjang'])
 
