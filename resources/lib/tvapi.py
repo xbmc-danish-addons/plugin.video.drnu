@@ -326,6 +326,15 @@ class Api():
         else:
             raise ApiException(u.text)
 
+    def get_livestream(self, path, with_subtitles=False):
+        channel = self.get_programcard(path)['entries'][0]
+        stream = {'subtitles': []}
+        if with_subtitles:
+            stream['url'] = channel['item']['customFields']['hlsWithSubtitlesURL']
+        else:
+            stream['url'] = channel['item']['customFields']['hlsURL']
+        return stream
+
     def get_info(self, item):
         title = item['title']
         if item['type'] == 'season':
@@ -361,17 +370,30 @@ class Api():
             date = now.strftime("%Y-%m-%d")
         if hour is None:
             hour = int(now.strftime("%H"))
-        data = {
-            'date': date,
-            'hour': hour-2,
-            'duration': duration,
-            'channels': channels,
-        }
-        u = requests.get(url, params=data, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        if duration <= 24:
+            data = {
+                'date': date,
+                'hour': hour-2,
+                'duration': duration,
+                'channels': channels,
+            }
+            u = requests.get(url, params=data, timeout=GET_TIMEOUT)
+            if u.status_code == 200:
+                return u.json()
+            else:
+                raise ApiException(u.text)
+
+        schedules = []
+        for i in range(1, 8):
+            iter_date = (now + timedelta(days=i-1)).strftime("%Y-%m-%d")
+            if i*24 > duration:
+                hours = duration % ((i-1)*24)
+                if hours != 0:
+                    schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=hours)
+                break
+            else:
+                schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=24)
+        return schedules
 
     def get_channel_schedule_strings(self, channels=CHANNEL_IDS):
         out = {}
