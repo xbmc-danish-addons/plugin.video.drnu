@@ -202,7 +202,7 @@ class DrDkTvAddon(object):
                 continue
             if (api_channel['title'] == 'DR2') and not bool_setting('iptv.channels.include.dr2'):
                 continue
-            if ('ramasjang' in api_channel['title'].lower()) and not bool_setting('iptv.channels.include.drramasjang'):
+            if (api_channel['title'] == 'DR Ramasjang') and not bool_setting('iptv.channels.include.drramasjang'):
                 continue
             # TODO: Add DRTV + DRTV Extra
             # TODO: Check on full name for ramasjang
@@ -224,7 +224,7 @@ class DrDkTvAddon(object):
                 preset = 1
             elif iptv_channel['name'] == 'DR2':
                 preset = 2
-            elif 'ramasjang' in iptv_channel['name'].lower():
+            elif iptv_channel['name'] == 'DR Ramasjang':
                 preset = 3
             # TODO: Add DRTV + DRTV Extra
             # TODO: Check on full name for ramasjang
@@ -295,7 +295,7 @@ class DrDkTvAddon(object):
                                     'image' : schedule['item']['images']['tile'],
                                 }
                 if ('seasonNumber' in schedule['item']) and ('episodeNumber' in schedule['item']):
-                    episode = 'S' + '0{:d}'.format(schedule['item']['seasonNumber'])[-2:]
+                    episode  = 'S' + '0{:d}'.format(schedule['item']['seasonNumber'])[-2:]
                     episode += 'E' + '0{:d}'.format(schedule['item']['episodeNumber'])[-2:]
                     schedule_dict['episode'] = episode
                 channel_epg.append(schedule_dict)
