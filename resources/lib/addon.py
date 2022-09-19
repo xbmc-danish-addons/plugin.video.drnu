@@ -204,6 +204,8 @@ class DrDkTvAddon(object):
                 continue
             if ('ramasjang' in api_channel['title'].lower()) and not bool_setting('iptv.channels.include.drramasjang'):
                 continue
+            # TODO: Add DRTV + DRTV Extra
+            # TODO: Check on full name for ramasjang
 
             if bool_setting('enable.subtitles'):
                 stream_url = api_channel['item']['customFields']['hlsWithSubtitlesURL']
@@ -224,6 +226,9 @@ class DrDkTvAddon(object):
                 preset = 2
             elif 'ramasjang' in iptv_channel['name'].lower():
                 preset = 3
+            # TODO: Add DRTV + DRTV Extra
+            # TODO: Check on full name for ramasjang
+
             if preset is not None:
                 iptv_channel['preset'] = preset
             iptv_channels.append(iptv_channel)
@@ -277,6 +282,31 @@ class DrDkTvAddon(object):
         return channels
 
     def getIptvEpg(self):
+        channel_schedules = self.api.get_schedules(duration=24) # TODO: Set schedule duration in settings?
+        epg = dict()
+        for channel in channel_schedules:
+            channel_epg = []
+            for schedule in channel['schedules']:
+                schedule_dict = {
+                                    'start' : schedule['startDate'],
+                                    'stop' : schedule['endDate'],
+                                    'title': schedule['item']['title'],
+                                    'description': schedule['item']['description'],
+                                    'image' : schedule['item']['images']['tile'],
+                                }
+                episode = ''
+                if 'seasonNumber' in schedule:
+                    episode = 'S' + schedule['seasonNumber']
+                if 'episodeNumber' in schedule:
+                    episode += 'E' + schedule['episodeNumber']
+                # TODO: Fix episodes
+                #if episode:
+                #    schedule_dict['episode'] = episode
+                channel_epg.append(schedule_dict)
+            epg['drnu.' + channel['channelId']] = channel_epg
+        return epg
+
+    def getIptvEpg_old(self):
         channel_id_mapping = self.api.getTvguideChannels()
         tvguide = self.api.getTvguide(channel_id_mapping, channels=['DR1', 'DR2', 'DR Ramasjang'])
 
@@ -532,8 +562,8 @@ class DrDkTvAddon(object):
             elif 'iptv' in PARAMS:
                 if PARAMS['iptv'] == 'channels':
                     self.iptv_channels(PARAMS['port'], channels=self.getIptvLiveChannels())
-                #elif PARAMS['iptv'] == 'epg':
-                #    self.iptv_epg(PARAMS['port'], epg=self.getIptvEpg())
+                elif PARAMS['iptv'] == 'epg':
+                    self.iptv_epg(PARAMS['port'], epg=self.getIptvEpg())
             elif 'searchresult' in PARAMS:
                 search_results = pickle.load(self.search_path.open('rb'))
                 self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
