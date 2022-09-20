@@ -22,6 +22,9 @@
     <setting id="iptv.channels.include.drramasjang" type="bool" label="Enable DR Ramasjang" default="true" enable="eq(-5,true)" visible="System.HasAddon(service.iptv.manager)" />
     <setting id="iptv.channels.include.drtv" type="bool" label="Enable DRTV" default="true" enable="eq(-6,true)" visible="System.HasAddon(service.iptv.manager)" />
     <setting id="iptv.channels.include.drtvekstra" type="bool" label="Enable DRTV Ekstra" default="true" enable="eq(-7,true)" visible="System.HasAddon(service.iptv.manager)" />
+    <setting type="lsep" label="Schedule"/>
+    <setting id="iptv.schedule.lookahead" label="Look ahead in time [I](in hours)[/I]" type="select" values="3|6|12|24|48|72|96|120|144|168" default="6" visible="System.HasAddon(service.iptv.manager)" />
+    <setting id="iptv.schedule.referesh" label="Refresh interval [I](in hours)[/I]" enable="false" type="text" default="Set using IPTV Manager settings" visible="System.HasAddon(service.iptv.manager)" />
   </category>
 	<category label="30501">
 		<setting label="30531" type="action" action="RunPlugin(plugin://plugin.video.drnu/?re-cache=1)" />

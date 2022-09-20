@@ -272,7 +272,8 @@ class DrDkTvAddon(object):
         return iptv_channels
 
     def getIptvEpg(self):
-        channel_schedules = self.api.get_schedules(duration=24) # TODO: Set schedule duration in settings?
+        lookforward_hours = int(get_setting('iptv.schedule.lookahead'))
+        channel_schedules = self.api.get_schedules(duration=lookforward_hours)
         epg = dict()
         for channel in channel_schedules:
             channel_epg = []
@@ -289,7 +290,11 @@ class DrDkTvAddon(object):
                     episode += 'E' + '0{:d}'.format(schedule['item']['episodeNumber'])[-2:]
                     schedule_dict['episode'] = episode
                 channel_epg.append(schedule_dict)
-            epg['drnu.' + channel['channelId']] = channel_epg
+            channel_epg_id = 'drnu.' + channel['channelId']
+            if channel_epg_id in epg:
+                epg[channel_epg_id] += channel_epg
+            else:
+                epg[channel_epg_id] = channel_epg
         return epg
 
     def showLiveTV(self):
