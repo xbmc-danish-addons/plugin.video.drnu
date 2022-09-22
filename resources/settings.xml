@@ -23,7 +23,7 @@
     <setting id="iptv.channels.include.drtv" type="bool" label="30558" default="true" enable="eq(-6,true)" visible="System.HasAddon(service.iptv.manager)" />
     <setting id="iptv.channels.include.drtvekstra" type="bool" label="30559" default="true" enable="eq(-7,true)" visible="System.HasAddon(service.iptv.manager)" />
     <setting type="lsep" label="30560"/>
-    <setting id="iptv.schedule.lookahead" label="30561" type="select" values="3|6|12|24|48|72|96|120|144|168" default="6" visible="System.HasAddon(service.iptv.manager)" />
+    <setting id="iptv.schedule.lookahead" label="30561" type="select" values="3|6|12|24|48|72|96|120|144|168" enable="eq(-9,true)" default="6" visible="System.HasAddon(service.iptv.manager)" />
     <setting id="iptv.schedule.referesh" label="30562" enable="false" type="text" default="Set using IPTV Manager settings" visible="System.HasAddon(service.iptv.manager)" />
   </category>
 	<category label="30501">
