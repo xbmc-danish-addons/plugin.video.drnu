@@ -210,7 +210,7 @@ msgstr ""
 
 msgctxt "#30563"
 msgid "Set using IPTV Manager settings"
-msgid ""
+msgstr ""
 
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."

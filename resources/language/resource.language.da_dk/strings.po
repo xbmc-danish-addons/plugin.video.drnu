@@ -210,7 +210,7 @@ msgstr "Opdateringsinterval [I](i timer)[/I]"
 
 msgctxt "#30563"
 msgid "Set using IPTV Manager settings"
-msgid "Indstil via IPTV Manager indstillinger"
+msgstr "Indstil via IPTV Manager indstillinger"
 
 msgctxt "#30900"
 msgid "There was an error while communicating with DR NU."
