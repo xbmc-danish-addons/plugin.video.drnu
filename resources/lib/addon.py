@@ -289,6 +289,10 @@ class DrDkTvAddon(object):
                     episode  = 'S' + '0{:d}'.format(schedule['item']['seasonNumber'])[-2:]
                     episode += 'E' + '0{:d}'.format(schedule['item']['episodeNumber'])[-2:]
                     schedule_dict['episode'] = episode
+                if ('path' in schedule['item']):
+                    kids = self.api.kids_item(schedule['item'])
+                    stream_path = self._plugin_url + f"?playVideo={schedule['item']['id']}&kids={str(kids)}&idpath={schedule['item']['path']}"
+                    schedule_dict['stream'] = stream_path
                 channel_epg.append(schedule_dict)
             channel_epg_id = 'drnu.' + channel['channelId']
             if channel_epg_id in epg:
