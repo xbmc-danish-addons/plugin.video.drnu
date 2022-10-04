@@ -168,15 +168,13 @@ class Api():
         return False
 
     def unfold_list(self, item, filter_kids=False):
-        items = []
+        items = item['items']
         if 'next' in item['paging']:
             next_js = self.get_next(item['paging']['next'])
             items += next_js['items']
             while 'next' in next_js['paging']:
                 next_js = self.get_next(next_js['paging']['next'])
                 items += next_js['items']
-        else:
-            items += item['items']
         if filter_kids:
             items = [item for item in items if not self.kids_item(item)]
         return items

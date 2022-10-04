@@ -280,7 +280,7 @@ class DrDkTvAddon(object):
 
     def kodi_item(self, item, is_season=False):
         menuItems = list(self.menuItems)
-        isFolder = item['type'] not in ['program', 'episode', 'link']
+        isFolder = item['type'] not in ['program', 'episode']
         if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
             return None
 
