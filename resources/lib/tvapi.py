@@ -219,8 +219,13 @@ class Api():
         js = self.get_programcard('/', data=data)
         items = [{'title': 'Programmer A-Å', 'path': '/a-aa', 'icon': 'all.png'}]
         for item in js['entries']:
-            if item['title'] not in ['', 'Se Live TV', 'Vi tror, du kan lide']:  # TODO activate again when login works
-                items.append({'title': item['title'], 'path': item['list']['path']})
+            if item['title'] not in ['Se Live TV', 'Vi tror, du kan lide']:  # TODO activate again when login works
+                if item['title']:
+                    items.append({'title': item['title'], 'path': item['list']['path']})
+                elif item['type'] == 'ListEntry':
+                    item = item['list']
+                    if item.get('title', ''):
+                        items.append({'title': item['title'], 'path': item['path']})
         return items
 
     def getLiveTV(self):
