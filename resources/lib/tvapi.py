@@ -157,6 +157,20 @@ class Api():
         else:
             raise ApiException(u.text)
 
+    def get_recommendations(self, id, use_cache=True):
+        url = URL + f'/recommendations/{id}'
+        data = {'page_size': '24'}
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+
+        if use_cache:
+            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        else:
+            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
     def kids_item(self, item):
         if 'classification' in item:
             if item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:

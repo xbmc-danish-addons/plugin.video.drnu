@@ -335,7 +335,11 @@ class DrDkTvAddon(object):
 
     def list_entries(self, path, seasons=False):
         entries = self.api.get_programcard(path)['entries']
-        if len(entries) > 1:
+        if len(entries) == 0:
+            # hack for get_programcard('/liste/306104') giving empty entries, but recommendations yields?!?
+            id = int(path.split('/')[-1])
+            self.listEpisodes(self.api.get_recommendations(id)['items'])
+        elif len(entries) > 1:
             self.listEpisodes(entries)
         else:
             item = entries[0]
