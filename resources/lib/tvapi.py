@@ -219,13 +219,14 @@ class Api():
         js = self.get_programcard('/', data=data)
         items = [{'title': 'Programmer A-Å', 'path': '/a-aa', 'icon': 'all.png'}]
         for item in js['entries']:
-            if item['title'] not in ['Se Live TV', 'Vi tror, du kan lide']:  # TODO activate again when login works
-                if item['title']:
-                    items.append({'title': item['title'], 'path': item['list']['path']})
-                elif item['type'] == 'ListEntry':
-                    item = item['list']
-                    if item.get('title', ''):
-                        items.append({'title': item['title'], 'path': item['path']})
+            title = item['title']
+            if title not in ['Se Live TV', 'Vi tror, du kan lide']:  # TODO activate again when login works
+                if title == '' and item['type'] == 'ListEntry':
+                    title = item['list'].get('title', '') # get the top spinner item
+                if title.startswith('DRTV Hero'):
+                    title = 'Daglige forslag'
+                if title:
+                    items.append({'title': title, 'path': item['list']['path']})
         return items
 
     def getLiveTV(self):
@@ -332,6 +333,8 @@ class Api():
                 infoLabels['year'] = int(broadcast.strftime('%Y'))
         if item.get('seasonNumber'):
             infoLabels['season'] = item['seasonNumber']
+        if item.get('episodeNumber'):
+            infoLabels['episode'] = item['episodeNumber']
         if item['type'] in ["movie", "season", "episode"]:
             infoLabels['mediatype'] = item['type']
         elif item['type'] == 'program':
