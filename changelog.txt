@@ -2,6 +2,7 @@
 - fix bug when fetching paged lists
 - fix bug for documentaries category
 - added top spinner item to home screen
+- added use of local subtitle files
 
 [B]Version 6.0.1 - 2022-09-19[/B]
 - fix bug for live streams in menu items

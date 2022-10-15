@@ -22,6 +22,7 @@
 import hashlib
 import json
 from pathlib import Path
+import re
 import requests
 import requests_cache
 import time
@@ -297,10 +298,48 @@ class Api():
         if u.status_code == 200:
             for stream in u.json():
                 if stream['accessService'] == 'StandardVideo':
+                    stream['srt_subtitles'] = self.handle_subtitle_vtts(stream['subtitles'])
                     return stream
             return None
         else:
             raise ApiException(u.text)
+
+    def handle_subtitle_vtts(self, subs):
+        subtitlesUri = []
+        for sub in subs:
+            if sub['language'] in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles']:
+                name = f'{self.cachePath}/{self.tr(30506)}.da.srt'
+            else:
+                name = f'{self.cachePath}/{self.tr(30507)}.da.srt'
+            u = self.session.get(sub['link'], timeout=10)
+            if u.status_code != 200:
+                u.close()
+                break
+            srt = self.vtt2srt(u.content)
+            with open(name.encode('utf-8'), 'wb') as fh:
+                fh.write(srt.encode('utf-8'))
+            u.close()
+            subtitlesUri.append(name)
+        return subtitlesUri
+
+    def vtt2srt(self, vtt):
+        if isinstance(vtt, bytes):
+            vtt = vtt.decode('utf-8')
+        srt = vtt.replace("\r\n", "\n")
+        srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
+        srt = re.sub(r'WEBVTT\n\n', '', srt)
+        srt = re.sub(r'^\d+\n', '', srt)
+        srt = re.sub(r'\n\d+\n', '\n', srt)
+        srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
+
+        srtout = ['1']
+        idx = 2
+        for line in srt.splitlines():
+            if line == 'putINDEXhere':
+                line = str(idx)
+                idx += 1
+            srtout.append(line)
+        return '\n'.join(srtout)
 
     def get_livestream(self, path, with_subtitles=False):
         channel = self.get_programcard(path)['entries'][0]
