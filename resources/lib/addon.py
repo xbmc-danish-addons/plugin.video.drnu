@@ -384,6 +384,9 @@ class DrDkTvAddon(object):
                 item.setProperty('inputstream', is_helper.inputstream_addon)
                 item.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
+        local_subs_bool = bool_setting('enable.localsubtitles') or get_setting('inputstream') == 'ffmpegdirect'
+        if local_subs_bool and video['srt_subtitles']:
+            item.setSubtitles(video['srt_subtitles'])
         xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, item)
         if len(subs) == 0:
             return
@@ -406,6 +409,11 @@ class DrDkTvAddon(object):
             if all([bool_setting('disable.kids.subtitles') and kids_channel]):
                 player.showSubtitles(False)
             elif bool_setting('enable.subtitles'):
+                if local_subs_bool:
+                    player.setSubtitles(video['srt_subtitles'][-1])
+                    player.showSubtitles(True)
+                    return
+
                 for type in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles', 'ForeignLanguageSubtitles']:
                     if type in subs:
                         player.setSubtitleStream(subs[type])
@@ -413,6 +421,10 @@ class DrDkTvAddon(object):
                         return
             else:
                 if 'ForeignLanguageSubtitles' in subs:
+                    if local_subs_bool:
+                        player.setSubtitles(video['srt_subtitles'][0])
+                        player.showSubtitles(True)
+                        return
                     player.setSubtitleStream(subs['ForeignLanguageSubtitles'])
                     player.showSubtitles(True)
                 else:
