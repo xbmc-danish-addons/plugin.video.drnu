@@ -369,7 +369,7 @@ class Api():
             cont = item['contextualTitle']
             if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
                 title += f" ({item['contextualTitle']})"
-        if item.get('description', '') == '':
+        if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
             item = self.get_item(item['id'])
 
         infoLabels = {'title': title}
