@@ -335,7 +335,7 @@ class Api():
 
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
         url = URL + '/schedules?'
-        now = datetime.now()
+        now = datetime.now() - timedelta(hours=2)
         if date is None:
             date = now.strftime("%Y-%m-%d")
         if hour is None:
@@ -343,7 +343,7 @@ class Api():
         if duration <= 24:
             data = {
                 'date': date,
-                'hour': hour-2,
+                'hour': hour,
                 'duration': duration,
                 'channels': channels,
             }
