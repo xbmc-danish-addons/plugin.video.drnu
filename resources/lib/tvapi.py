@@ -130,6 +130,17 @@ class Api():
         else:
             raise ApiException(u.text)
 
+    def get_item(self, id, use_cache=True):
+        url = URL + f'/items/{int(id)}?'
+        if use_cache:
+            u = self.session.get(url, timeout=GET_TIMEOUT)
+        else:
+            u = requests.get(url, timeout=GET_TIMEOUT)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
     def get_next(self, path, use_cache=True):
         url = URL + path
         if use_cache:
@@ -358,10 +369,14 @@ class Api():
             cont = item['contextualTitle']
             if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
                 title += f" ({item['contextualTitle']})"
+        if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
+            item = self.get_item(item['id'])
 
         infoLabels = {'title': title}
         if item.get('shortDescription', ''):
             infoLabels['plot'] = item['shortDescription']
+        if item.get('description', ''):
+            infoLabels['plot'] = item['description']
         if item.get('tagline', ''):
             infoLabels['plotoutline'] = item['tagline']
         if item.get('customFields'):
