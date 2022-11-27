@@ -31,9 +31,15 @@ from datetime import datetime, timezone, timedelta
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
+CHANNEL_PRESET = {
+    'DR1': 1,
+    'DR2': 2,
+    'DR Ramasjang': 3,
+    'DRTV': 4,
+    'DRTV Ekstra': 5
+}
 URL = 'https://production.dr-massive.com/api'
 GET_TIMEOUT = 5
-
 
 class Api():
     def __init__(self, cachePath, getLocalizedString, get_setting):
@@ -354,12 +360,18 @@ class Api():
 
     def get_livestream(self, path, with_subtitles=False):
         channel = self.get_programcard(path)['entries'][0]
-        stream = {'subtitles': []}
-        if with_subtitles:
-            stream['url'] = channel['item']['customFields']['hlsWithSubtitlesURL']
-        else:
-            stream['url'] = channel['item']['customFields']['hlsURL']
+        stream = {
+            'subtitles': [],
+            'url': self.get_channel_url(channel, with_subtitles)
+            }
         return stream
+
+    def get_channel_url(self, channel, with_subtitles=False):
+        if with_subtitles:
+            url = channel['item']['customFields']['hlsWithSubtitlesURL']
+        else:
+            url = channel['item']['customFields']['hlsURL']
+        return url
 
     def get_info(self, item):
         title = item['title']
@@ -397,16 +409,15 @@ class Api():
 
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
         url = URL + '/schedules?'
-        now = datetime.now()
+        now = datetime.now() - timedelta(hours=2)
         if date is None:
             date = now.strftime("%Y-%m-%d")
         if hour is None:
             hour = int(now.strftime("%H"))
-
         if duration <= 24:
             data = {
                 'date': date,
-                'hour': hour-2,
+                'hour': hour,
                 'duration': duration,
                 'channels': channels,
             }

@@ -33,14 +33,13 @@ from inputstreamhelper import Helper
 
 from resources.lib import tvapi
 from resources.lib import tvgui
+from resources.lib.iptvmanager import IPTVManager
 
 addon = xbmcaddon.Addon()
 get_setting = addon.getSetting
 addon_path = addon.getAddonInfo('path')
 resources_path = Path(addon_path)/'resources'
 addon_name = addon.getAddonInfo('name')
-
-SLUG_ADULT = 'dr1,dr2,dr3,dr-k'
 
 
 def tr(id):
@@ -226,6 +225,55 @@ class DrDkTvAddon(object):
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
         else:
             self.listEpisodes(videos)
+ 
+    def getIptvLiveChannels(self):
+        iptv_channels = []
+        for api_channel in self.api.getLiveTV():
+
+            lowername = api_channel['title'].lower().replace(' ', '')
+            if not bool_setting('iptv.channels.include.' + lowername):
+                 continue
+
+            iptv_channel = {
+                'name': api_channel['title'],
+                'stream': self.api.get_channel_url(api_channel, bool_setting('enable.subtitles')),
+                'logo': api_channel['item']['images']['logo'],
+                'id': 'drnu.' + api_channel['item']['id'],
+                'preset': tvapi.CHANNEL_PRESET[api_channel['title']]
+            }
+            iptv_channels.append(iptv_channel)
+        return iptv_channels
+
+    def getIptvEpg(self):
+        lookforward_hours = int(get_setting('iptv.schedule.lookahead'))
+        channel_schedules = self.api.get_schedules(duration=lookforward_hours)
+        epg = {}
+        for channel in channel_schedules:
+            channel_epg_id = 'drnu.' + channel['channelId']
+            if channel_epg_id not in epg:
+                epg[channel_epg_id] = []
+            channel_epg = []
+            for schedule in channel['schedules']:
+                schedule_dict = {
+                    'start' : schedule['startDate'],
+                    'stop' : schedule['endDate'],
+                    'title': schedule['item']['title'],
+                    'description': schedule['item']['description'],
+                    'image' : schedule['item']['images']['tile'],
+                                }
+                if ('seasonNumber' in schedule['item']) and ('episodeNumber' in schedule['item']):
+                    schedule_dict['episode'] = 'S{:02d}E{:02d}'.format(
+                        schedule['item']['seasonNumber'], schedule['item']['episodeNumber'])
+                if ('path' in schedule['item']):
+                    schedule_dict['stream'] = "{}?playVideo={}&kids={}&idpath={}".format(
+                        self._plugin_url,
+                        schedule['item']['id'],
+                        self.api.kids_item(schedule['item']),
+                        schedule['item']['path'],
+                    )
+                channel_epg.append(schedule_dict)
+            epg[channel_epg_id] += channel_epg
+        return epg
 
     def showLiveTV(self):
         items = []
@@ -235,10 +283,7 @@ class DrDkTvAddon(object):
                          'icon': channel['item']['images']['logo'],
                          'fanart': channel['item']['images']['logo']})
             item.addContextMenuItems(self.menuItems, False)
-            if bool_setting('enable.subtitles'):
-                url = channel['item']['customFields']['hlsWithSubtitlesURL']
-            else:
-                url = channel['item']['customFields']['hlsURL']
+            url = self.api.get_channel_url(channel, bool_setting('enable.subtitles'))
             item.setInfo('video', {
                 'title': channel['title'],
                 'plot': channel['schedule_str'],
@@ -473,10 +518,15 @@ class DrDkTvAddon(object):
                     self.showRecentlyWatched()
                 elif PARAMS['show'] == 'areaselector':
                     self.showAreaSelector()
+            # iptv manager integration
+            elif 'iptv' in PARAMS:
+                if PARAMS['iptv'] == 'channels':
+                    IPTVManager(int(PARAMS['port']), channels=self.getIptvLiveChannels()).send_channels()
+                elif PARAMS['iptv'] == 'epg':
+                    IPTVManager(int(PARAMS['port']), epg=self.getIptvEpg()).send_epg()
             elif 'searchresult' in PARAMS:
                 search_results = pickle.load(self.search_path.open('rb'))
                 self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
-
             elif 'listVideos' in PARAMS:
                 seasons = PARAMS.get('seasons', 'False') == 'True'
                 if PARAMS['listVideos'].startswith('ID_'):
