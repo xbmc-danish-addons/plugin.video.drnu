@@ -29,7 +29,7 @@ import xbmcaddon
 import xbmcgui
 import xbmcplugin
 from xbmcvfs import translatePath
-from inputstreamhelper import Helper
+# from inputstreamhelper import Helper
 
 from resources.lib import tvapi
 from resources.lib import tvgui
@@ -86,23 +86,27 @@ class DrDkTvAddon(object):
     def _save(self):
         # save favorites
         self.favorites = dict(sorted(self.favorites.items()))
-        pickle.dump(self.favorites, self.favorites_path.open('wb'))
+        with self.favorites_path.open('wb') as fh:
+            pickle.dump(self.favorites, fh)
 
         self.recentlyWatched = self.recentlyWatched[0:25]  # Limit to 25 items
-        pickle.dump(self.recentlyWatched, self.recent_path.open('wb'))
+        with self.recent_path.open('wb') as fh:
+            pickle.dump(self.recentlyWatched, fh)
 
     def _load(self):
         # load favorites
         if self.favorites_path.exists():
             try:
-                self.favorites = pickle.load(self.favorites_path.open('rb'))
+                with self.favorites_path.open('rb') as fh:
+                    self.favorites = pickle.load(fh)
             except Exception:
                 pass
 
         # load recently watched
         if self.recent_path.exists():
             try:
-                self.recentlyWatched = pickle.load(self.recent_path.open('rb'))
+                with self.recent_path.open('rb') as fh:
+                    self.recentlyWatched = pickle.load(fh)
             except Exception:
                 pass
 
@@ -319,7 +323,8 @@ class DrDkTvAddon(object):
                         f'{key.capitalize()} ({search_results[key]["size"]} found)', offscreen=True), True,))
 
             if directoryItems:
-                pickle.dump(search_results, self.search_path.open('wb'))
+                with self.search_path.open('wb') as fh:
+                    pickle.dump(search_results, fh)
                 xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
                 xbmcplugin.endOfDirectory(self._plugin_handle)
 
@@ -393,6 +398,16 @@ class DrDkTvAddon(object):
                     if seasons or item['item']['show']['availableSeasonCount'] == 1:
                         # we have shown the root of this series (or only one season anyhow)
                         self.listEpisodes(item['item']['episodes']['items'], seasons=False)
+                    elif self.api.kids_item(item['item']):
+                        # let's not have seasons on children items
+                        collect_episodes = []
+                        for season_item in item['item']['show']['seasons']['items']:
+                            if season_item['id'] == item['item']['episodes']['items'][0]['seasonId']:
+                                collect_episodes += self.api.unfold_list(item['item']['episodes'])
+                            else:
+                                newitem = self.api.get_programcard(season_item['path'])['entries'][0]
+                                collect_episodes += self.api.unfold_list(newitem['item']['episodes'])
+                        self.listEpisodes(collect_episodes, seasons=False)
                     else:
                         # list only the season items of this series
                         self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
@@ -525,7 +540,8 @@ class DrDkTvAddon(object):
                 elif PARAMS['iptv'] == 'epg':
                     IPTVManager(int(PARAMS['port']), epg=self.getIptvEpg()).send_epg()
             elif 'searchresult' in PARAMS:
-                search_results = pickle.load(self.search_path.open('rb'))
+                with self.search_path.open('rb') as fh:
+                    search_results = pickle.load(fh)
                 self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
             elif 'listVideos' in PARAMS:
                 seasons = PARAMS.get('seasons', 'False') == 'True'
