@@ -1,0 +1,62 @@
+{
+    "inputstream.adaptive": {
+        "DECRYPTERPATH": "special://home/cdm"
+    },
+    "plugin.video.drnu": {
+        "recache.cleanup": 1E6,
+        "recache.expiration": -1,
+        "area": 1,
+        "disable.kids.seasons": "true"
+    },
+    "plugin.video.vrt.nu": {
+        "_comment": "do-not-add-username-and-password-here",
+        "addmymovies": "true",
+        "addmydocu": "true",
+        "addmymusic": "true",
+        "canvas": "true",
+        "colour_availability": "blue", 
+        "colour_geoblocked": "red", 
+        "colour_greyedout": "gray", 
+        "colour_highlighted": "yellow", 
+        "colour_theme": "custom",
+        "een": "true",
+        "httpcachettldirect": "1",
+        "httpcachettlindirect": "5",
+        "ketnet": "false",
+        "ketnet-jr": "false",
+        "klara": "true",
+        "itemsperpage": "20",
+        "max_bandwidth": "10000000",
+        "max_log_level": "3",
+        "mnm": "true",
+        "password": "",
+        "radio1": "true",
+        "radio2": "true",
+        "showfanart": "true",
+        "showoneoff": "true",
+        "showpermalink": "true",
+        "showsubtitles": "true",
+        "showyoutube": "true",
+        "sporza": "true",
+        "stubru": "true",
+        "usedrm": "true",
+        "usefavorites": "true",
+        "usehttpcaching": "true",
+        "useinputstreamadaptive": "true",
+        "usemenucaching": "true",
+        "useresumepoints": "true",
+        "username": "",
+        "useupnext": "true",
+        "version": "",
+        "vrtnws": "true",
+        "vrtnxt": "true"
+    },
+    "plugin.video.youtube": {
+    },
+    "script.module.inputstreamhelper": {
+        "last_update": 0.0,
+        "version": ""
+    },
+    "service.upnext": {
+    }
+}

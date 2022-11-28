@@ -398,7 +398,7 @@ class DrDkTvAddon(object):
                     if seasons or item['item']['show']['availableSeasonCount'] == 1:
                         # we have shown the root of this series (or only one season anyhow)
                         self.listEpisodes(item['item']['episodes']['items'], seasons=False)
-                    elif self.api.kids_item(item['item']):
+                    elif self.api.kids_item(item['item']) and bool_setting('disable.kids.seasons'):
                         # let's not have seasons on children items
                         collect_episodes = []
                         for season_item in item['item']['show']['seasons']['items']:

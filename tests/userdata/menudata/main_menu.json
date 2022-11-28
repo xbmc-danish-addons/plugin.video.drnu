@@ -1,0 +1,200 @@
+[
+  {
+    "label": "30027",
+    "url": "?show=liveTV",
+    "params": {
+      "show": "liveTV"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Programmer A-Å",
+    "url": "?listVideos=/a-aa",
+    "params": {
+      "listVideos": "/a-aa"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Daglige forslag",
+    "url": "?listVideos=/liste/drtv-hero-sunday-06_00_97173",
+    "params": {
+      "listVideos": "/liste/drtv-hero-sunday-06_00_97173"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "De største programmer lige nu",
+    "url": "?listVideos=/liste/108657",
+    "params": {
+      "listVideos": "/liste/108657"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "VM-kampe live på DRTV",
+    "url": "?listVideos=/liste/351527",
+    "params": {
+      "listVideos": "/liste/351527"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Nyhedsoverblik",
+    "url": "?listVideos=/liste/247661",
+    "params": {
+      "listVideos": "/liste/247661"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Nye og populære serier",
+    "url": "?listVideos=/liste/209529",
+    "params": {
+      "listVideos": "/liste/209529"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Mest populære dokumentarer",
+    "url": "?listVideos=/liste/306104",
+    "params": {
+      "listVideos": "/liste/306104"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Kom i julestemning",
+    "url": "?listVideos=/liste/149973",
+    "params": {
+      "listVideos": "/liste/149973"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Seneste film på DRTV",
+    "url": "?listVideos=/liste/345124",
+    "params": {
+      "listVideos": "/liste/345124"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Kategorier",
+    "url": "?listVideos=/liste/289833",
+    "params": {
+      "listVideos": "/liste/289833"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Krimifilm",
+    "url": "?listVideos=/liste/350872",
+    "params": {
+      "listVideos": "/liste/350872"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Det bedste fra P3 lige nu",
+    "url": "?listVideos=/liste/307904",
+    "params": {
+      "listVideos": "/liste/307904"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Mest sete på DRTV",
+    "url": "?listVideos=/liste/115522",
+    "params": {
+      "listVideos": "/liste/115522"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Senest tilføjet",
+    "url": "?listVideos=/liste/171678",
+    "params": {
+      "listVideos": "/liste/171678"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "True Crime",
+    "url": "?listVideos=/liste/238347",
+    "params": {
+      "listVideos": "/liste/238347"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Store danske serier",
+    "url": "?listVideos=/liste/167449",
+    "params": {
+      "listVideos": "/liste/167449"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Udenlandsk krimi",
+    "url": "?listVideos=/liste/216440",
+    "params": {
+      "listVideos": "/liste/216440"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "Serier fra P3",
+    "url": "?listVideos=/liste/244420",
+    "params": {
+      "listVideos": "/liste/244420"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "30003",
+    "url": "?show=search",
+    "params": {
+      "show": "search"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "30007",
+    "url": "?show=recentlyWatched",
+    "params": {
+      "show": "recentlyWatched"
+    },
+    "info": {},
+    "properties": {}
+  },
+  {
+    "label": "30008",
+    "url": "?show=favorites",
+    "params": {
+      "show": "favorites"
+    },
+    "info": {},
+    "properties": {}
+  }
+]
