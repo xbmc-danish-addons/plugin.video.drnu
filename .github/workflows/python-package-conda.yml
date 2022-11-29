@@ -37,5 +37,5 @@ jobs:
 
     - name: Unit tests
       run: |
-        conda install pytest requests_cache dateutils
+        conda install -c conda-forge pytest requests-cache dateutils
         pytest tests
