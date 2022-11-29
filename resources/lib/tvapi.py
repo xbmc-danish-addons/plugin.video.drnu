@@ -40,7 +40,6 @@ CHANNEL_PRESET = {
 }
 URL = 'https://production.dr-massive.com/api'
 GET_TIMEOUT = 5
-STATIC_TOKEN_FILE = False
 
 class Api():
     def __init__(self, cachePath, getLocalizedString, get_setting):
@@ -99,7 +98,6 @@ class Api():
         u = requests.post(url, json=data, params=params)
         self._user_token = None
         if u.status_code == 200:
-            print('WRITING NEW TOKEN!!!')
             self.token_file.write_bytes(u.content)
             self.read_token(u.content)
         else:
@@ -111,7 +109,7 @@ class Api():
                 self.read_token(self.token_file.read_bytes())
             else:
                 self.request_tokens()
-        if not STATIC_TOKEN_FILE and (self._token_expire - datetime.now()).total_seconds() < 120:
+        if (self._token_expire - datetime.now()).total_seconds() < 120:
             self.request_tokens()
 
     def user_token(self):

@@ -22,6 +22,7 @@ xbmcaddon = __import__('xbmcaddon')
 xbmcgui = __import__('xbmcgui')
 xbmcplugin = __import__('xbmcplugin')
 xbmcvfs = __import__('xbmcvfs')
+inputstreamhelper = __import__('inputstreamhelper')
 
 plugin_url = 'plugin://plugin.video.drnu/'
 

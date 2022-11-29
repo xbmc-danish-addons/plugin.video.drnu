@@ -29,7 +29,7 @@ import xbmcaddon
 import xbmcgui
 import xbmcplugin
 from xbmcvfs import translatePath
-# from inputstreamhelper import Helper
+from inputstreamhelper import Helper
 
 from resources.lib import tvapi
 from resources.lib import tvgui
