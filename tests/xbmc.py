@@ -142,6 +142,7 @@ class Player(object):  # pylint: disable=useless-object-inheritance
         self.subtitle_url = url
         return
 
+
 class PlayList(object):  # pylint: disable=useless-object-inheritance
     """A stub implementation of the xbmc PlayList class"""
 

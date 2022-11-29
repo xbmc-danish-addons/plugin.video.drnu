@@ -16,7 +16,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "TV AVISEN: Coronaprotester i Kina",
@@ -29,7 +35,17 @@
       "title": "TV AVISEN: Coronaprotester i Kina",
       "plot": "LinkItem"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=TV AVISEN: Coronaprotester i Kina&favoritepath=/kanal/192099)"
+      ]
+    ]
   },
   {
     "label": "Guru 2",
@@ -45,7 +61,17 @@
       "season": 2,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Guru 2&favoritepath=/saeson/guru_345109)"
+      ]
+    ]
   },
   {
     "label": "Tæt på sandheden med Jonatan Spang: Splitte mine bramsejl",
@@ -67,7 +93,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "FodboldlistenTV: VM's fem fedeste typer!",
@@ -89,7 +121,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Tværs: Cille er en dum lille pige",
@@ -108,7 +146,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "MGP: Børnefesten der gik amok",
@@ -122,7 +166,17 @@
       "plot": "De blev Danmarks største børnestjerner efter MGP. Hvad har det betydet for børnene, som nu er blevet voksne?",
       "plotoutline": "Hele serien | Hvad har MGP betydet for børnestjernerne, som nu er blevet voksne?"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=MGP: Børnefesten der gik amok&favoritepath=/serie/mgp_-boernefesten-der-gik-amok_348585)"
+      ]
+    ]
   },
   {
     "label": "Verdens rigeste milliardærer",
@@ -136,7 +190,17 @@
       "plot": "De er megarige og har forandret verdensøkonomien, vores personlige liv, samfund og demokratier. Men hvem er mændene bag Amazon, Google og Facebook? Og er deres indflydelse udelukkende positiv?",
       "plotoutline": "Hele serien | Musk, Bezos og Zuckerberg - tech-giganterne der styrer verden "
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Verdens rigeste milliardærer&favoritepath=/serie/verdens-rigeste-milliardaerer_342233)"
+      ]
+    ]
   },
   {
     "label": "Max Kapacitet - Krypto, oprør og frihed",
@@ -150,7 +214,17 @@
       "plot": "For mange er krypto forbundet med svindel, usikkerhed og risiko, for andre er det fremtiden. I Max Kapacitet møder vi de unge, som kæmper for at finde deres plads i den nye krypto-virkelighed. Fyldt til randen med drømme, rebelskhed og idealisme tager seriens karakterer os rundt i en ny verden, hvor tankerne er store, risikoen endnu større, og intet er, som det plejer.",
       "plotoutline": "Hele serien | Risici og rebelskhed: Følg unge i den nye krypto-virkelighed"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Max Kapacitet - Krypto, oprør og frihed&favoritepath=/serie/max-kapacitet-_-krypto-oproer-og-frihed_347002)"
+      ]
+    ]
   },
   {
     "label": "The Imitation Game",
@@ -171,7 +245,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Nissebanden i Grønland",
@@ -185,6 +265,16 @@
       "plot": "To glødende stjernesten styrter ned nær Julemandens Kongsgård i Grønland. Han skal finde dem, inden det er for sent. Nissebanden må træde til for at redde julen og alle julegaverne. Kan de nå det?",
       "plotoutline": "Hele serien | Julen og julegaverne er truet. Nissebanden må i aktion"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Nissebanden i Grønland&favoritepath=/serie/nissebanden-i-groenland_343728)"
+      ]
+    ]
   }
 ]

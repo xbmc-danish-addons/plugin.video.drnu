@@ -13,7 +13,17 @@
       "season": 2022,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Sporløs 2022&favoritepath=/saeson/sporloes_339134)"
+      ]
+    ]
   },
   {
     "label": "FIFA VM 2022 Målshow: Japan - Costa Rica",
@@ -31,7 +41,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Kettys kamp",
@@ -52,7 +68,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Kender Du Typen? 2022",
@@ -67,7 +89,17 @@
       "season": 2022,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Kender Du Typen? 2022&favoritepath=/saeson/kender-du-typen_297706)"
+      ]
+    ]
   },
   {
     "label": "Den store veganske bagedyst",
@@ -88,7 +120,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Carmen Curlers",
@@ -102,7 +140,17 @@
       "plot": "Carmen Curlers er en ny dramaserie om fantasten og iværksætteren Axel og den handlekraftige bondekone Birthe, der i 60'erne skaber Danmarks største arbejdsplads ved hjælp af en lille elektrisk papillot.",
       "plotoutline": "Dansk dramakomedie inspireret af virkelige hændelser"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Carmen Curlers&favoritepath=/serie/carmen-curlers_336307)"
+      ]
+    ]
   },
   {
     "label": "Den store bagedyst 11",
@@ -118,7 +166,17 @@
       "season": 11,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Den store bagedyst 11&favoritepath=/saeson/den-store-bagedyst_336806)"
+      ]
+    ]
   },
   {
     "label": "Danmarks stærkeste hænder",
@@ -132,7 +190,17 @@
       "plot": "Ti hårdføre arbejdere kæmper med og mod hinanden i en ny højspændt konkurrence. Men hvem af dem har Danmarks stærkeste hænder?",
       "plotoutline": "Kan Mik og Thors Hammer-holdet få skrotten bilen hurtigst?"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Danmarks stærkeste hænder&favoritepath=/serie/danmarks-staerkeste-haender_342148)"
+      ]
+    ]
   },
   {
     "label": "Ørnedræberne",
@@ -146,7 +214,17 @@
       "plot": "Hvem har forgiftet fem, fredede havørne på Tåsinge? Og hvorfor? Det har journalist og fugleentusiast Zissel Kjertum-Mohr sat sig for at opklare sammen med tidligere drabschef, jens Møller Jensen",
       "plotoutline": "Hele serien | Dansk dokumentarserie om dræbte havørne, nervegift og penge"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Ørnedræberne&favoritepath=/serie/oernedraeberne_347010)"
+      ]
+    ]
   },
   {
     "label": "VISION: Fra knockout til millionomsætning",
@@ -165,7 +243,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Klostrets mørke hemmeligheder",
@@ -179,7 +263,17 @@
       "plot": "Straf, censur og sekterisk ledelse. Det er den virkelighed flere tidligere nonner fortæller foregik gennem årtier på Sostrup Kloster på Djursland. Beskyldningerne rettes mod lederen af klosteret, Theresa Brenninkmeijer, som i dag fortsat er abbedisse i Peru. Hvad skete der egentlig på klosteret dengang, og hvorfor skulle der gå mere end 25 år, før den katolske kirke greb ind?",
       "plotoutline": "Hele serien | Straf og sekterisk ledelse. Hvad skete der på Sostrup Kloster?"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Klostrets mørke hemmeligheder&favoritepath=/serie/klostrets-moerke-hemmeligheder_334368)"
+      ]
+    ]
   },
   {
     "label": "På flugt fra Danmark",
@@ -200,7 +294,13 @@
     },
     "properties": {
       "IsPlayable": "true"
-    }
+    },
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Verdens bedste VM",
@@ -214,7 +314,17 @@
       "plot": "Fodboldglæden bliver udfordret, når VM i fodbold skal spilles i skyggen af korruption, brudte menneskerettigheder og døde migrantarbejdere. Nu skal fans, politikere og fodboldverdenen finde ud af, hvordan de skal tackle slutrunden i Qatar.",
       "plotoutline": "Hele serien | Korruption og migrantarbejde: Kom bag fodboldkulisserne i Qatar"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Verdens bedste VM&favoritepath=/serie/verdens-bedste-vm_345352)"
+      ]
+    ]
   },
   {
     "label": "Frank & Kastaniegaarden",
@@ -227,7 +337,17 @@
       "title": "Frank & Kastaniegaarden",
       "plot": "I Frank & Kastaniegarden (tidligere Bonderøven) viser Frank Erichsen vejen til et liv med fokus på bæredygtighed og selvforsyning. Udgangspunktet er familielivet på Kastaniegaarden, hvor han finder på nye idéer med inspiration fra nær og fjern."
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Frank & Kastaniegaarden&favoritepath=/serie/frank-and-kastaniegaarden_6954)"
+      ]
+    ]
   },
   {
     "label": "Mormor på mandejagt 2",
@@ -243,7 +363,17 @@
       "season": 2,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Mormor på mandejagt 2&favoritepath=/saeson/mormor-paa-mandejagt_336778)"
+      ]
+    ]
   },
   {
     "label": "Gintberg på kanten 8",
@@ -259,7 +389,17 @@
       "season": 8,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Gintberg på kanten 8&favoritepath=/saeson/gintberg-paa-kanten_336777)"
+      ]
+    ]
   },
   {
     "label": "Feldthaus & Bagger taber masken",
@@ -273,7 +413,17 @@
       "plot": "Danmarks største strikkerebel og strikdesigner, Lærke Bagger, og Danmarks mest kendte livsstilsekspert og i øvrigt passionerede hobbystrikker, Christine Feldthaus, tager på en rejse i Norden.",
       "plotoutline": "Hele serien | Tag med rebellen og livsstilseksperten på strikketogt til Norden"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Feldthaus & Bagger taber masken&favoritepath=/serie/feldthaus-and-bagger-taber-masken_340187)"
+      ]
+    ]
   },
   {
     "label": "Bad Bitch",
@@ -287,7 +437,17 @@
       "plot": "For Nikki skal hver dag være en fest med cornrows, cocktails og casual sex. Hun arbejder som frisør på afrosalonen Crown med sine to bedste venner Pascal og Gaia. En dag møder Nikki sin barndomsven Ade, og en mulig romance cockblocker hendes ellers frigjorte liv. Mødet puster samtidig til nogle undertrykte følelser. For selv om Nikki har totalt styr på sit job, sit hår og sit sexliv, er der kaos indeni.",
       "plotoutline": "Hele serien | Nikki har styr på jobbet, håret og sexlivet, men der er kaos indeni"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Bad Bitch&favoritepath=/serie/bad-bitch_343915)"
+      ]
+    ]
   },
   {
     "label": "SEX MED P3",
@@ -301,7 +461,17 @@
       "plot": "Hvordan ser en ægte orgasme ud, hvad gør man, når pikken ikke virker, og hvad sker der egentlig med det der herpes? I SEX MED P3 er vi ikke generte. Vi viser alt og taler om alt. Intet er for simpelt, for pinligt eller for meget. SEX MED P3 fortæller om alt det, alle burde vide om sex.",
       "plotoutline": "Episode 7:10 | Godt? Dårligt? Grænseoverskridende? Hvad indebærer analsex?"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=SEX MED P3&favoritepath=/serie/sex-med-p3_338758)"
+      ]
+    ]
   },
   {
     "label": "Kontant 2022",
@@ -317,7 +487,17 @@
       "season": 2022,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Kontant 2022&favoritepath=/saeson/kontant_294266)"
+      ]
+    ]
   },
   {
     "label": "Curlerkongen - historien om en dansk verdenssucces",
@@ -331,7 +511,17 @@
       "plot": "Se den virkelige historie bag Carmen Curlers. Husmandssønnen Arne Bybjerg Pedersen stod i 1960'erne bag én af Danmarkshistoriens største og hurtigst voksende eksportsuccesser, da han besluttede at investere alt hvad han ejede, i udviklingen af elektriske papillotter, som skulle revolutionere hårmoden.",
       "plotoutline": "Hele serien | Se den virkelige historie om Arne Bybjerg og Carmen Curlers"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Curlerkongen - historien om en dansk verdenssucces&favoritepath=/serie/curlerkongen-_-historien-om-en-dansk-verdenssucces_340040)"
+      ]
+    ]
   },
   {
     "label": "Max Kapacitet - Krypto, oprør og frihed",
@@ -345,7 +535,17 @@
       "plot": "For mange er krypto forbundet med svindel, usikkerhed og risiko, for andre er det fremtiden. I Max Kapacitet møder vi de unge, som kæmper for at finde deres plads i den nye krypto-virkelighed. Fyldt til randen med drømme, rebelskhed og idealisme tager seriens karakterer os rundt i en ny verden, hvor tankerne er store, risikoen endnu større, og intet er, som det plejer.",
       "plotoutline": "Hele serien | Risici og rebelskhed: Følg unge i den nye krypto-virkelighed"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Max Kapacitet - Krypto, oprør og frihed&favoritepath=/serie/max-kapacitet-_-krypto-oproer-og-frihed_347002)"
+      ]
+    ]
   },
   {
     "label": "Tæt på sandheden med Jonatan Spang 9",
@@ -361,7 +561,17 @@
       "season": 9,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Tæt på sandheden med Jonatan Spang 9&favoritepath=/saeson/taet-paa-sandheden-med-jonatan-spang_333091)"
+      ]
+    ]
   },
   {
     "label": "Guru 2",
@@ -377,7 +587,17 @@
       "season": 2,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Guru 2&favoritepath=/saeson/guru_345109)"
+      ]
+    ]
   },
   {
     "label": "Matchet på Mælkevejen 2",
@@ -392,7 +612,17 @@
       "season": 2,
       "mediatype": "season"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Matchet på Mælkevejen 2&favoritepath=/saeson/matchet-paa-maelkevejen_348588)"
+      ]
+    ]
   },
   {
     "label": "FodboldlistenTV",
@@ -405,6 +635,16 @@
       "title": "FodboldlistenTV",
       "plot": "FodboldlistenTV"
     },
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30200",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=FodboldlistenTV&favoritepath=/serie/fodboldlistentv_349513)"
+      ]
+    ]
   }
 ]

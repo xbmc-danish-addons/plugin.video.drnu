@@ -356,7 +356,7 @@ class ListItem:
         if replaceItems:
             self.context_menu = items
         else:
-            self.context_menu.append(items)
+            self.context_menu += items
 
     def addStreamInfo(self, stream_type, stream_values):
         """A stub implementation for the xbmcgui LitItem class addStreamInfo() method"""

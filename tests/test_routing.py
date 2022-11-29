@@ -6,7 +6,6 @@ import unittest
 import json
 from resources.lib import addon
 import urllib.parse as urlparse
-from time import time
 
 xbmc = __import__('xbmc')
 xbmcaddon = __import__('xbmcaddon')
@@ -24,7 +23,7 @@ menudata.mkdir(parents=True, exist_ok=True)
 handle = addon.DrDkTvAddon(plugin_url=plugin_url, plugin_handle=1)
 handle._plugin_handle = {}
 
-UPDATE_TESTS = False
+UPDATE_TESTS = True
 
 
 def get_items():
@@ -38,9 +37,10 @@ def iteminfo(item):
     return {
             'label': item.label,
             'url': url,
-            'params':dict(urlparse.parse_qsl(url[1:])),
+            'params': dict(urlparse.parse_qsl(url[1:])),
             'info': item.info,
-            'properties': item.properties
+            'properties': item.properties,
+            'contextmenu': [list(c) for c in item.context_menu]
         }
 
 
@@ -78,12 +78,12 @@ class TestOffline(unittest.TestCase):
         self.assertEqual(json.loads((menudata/'daglige_forslag.json').read_text()), menu)
 
         handle.route(main_menu[3]['url'])
-        assert(main_menu[3]['label'] == 'De største programmer lige nu')
+        self.myEqual(main_menu[3]['label'], 'De største programmer lige nu')
         menu = []
         for label, item in get_items().items():
             menu.append(iteminfo(item))
         if UPDATE_TESTS:
-           (menudata/'største_programmer.json').write_text(json.dumps(menu, indent=2, ensure_ascii=False))
+            (menudata/'største_programmer.json').write_text(json.dumps(menu, indent=2, ensure_ascii=False))
         self.assertEqual(json.loads((menudata/'største_programmer.json').read_text()), menu)
 
     def test_ramasjang(self):
@@ -109,7 +109,6 @@ class TestOffline(unittest.TestCase):
         self.assertTrue(len(a_aa) > 27)
         self.assertTrue(a_aa[0]['label'] == 'A')
 
-        st = time()
         handle.route(a_aa[0]['url'])
         a = [iteminfo(item) for item in get_items().values()]
         self.myEqual(len(a), 102)

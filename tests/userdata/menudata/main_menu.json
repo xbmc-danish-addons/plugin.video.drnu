@@ -6,7 +6,13 @@
       "show": "liveTV"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Programmer A-Å",
@@ -15,7 +21,13 @@
       "listVideos": "/a-aa"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Daglige forslag",
@@ -24,7 +36,13 @@
       "listVideos": "/liste/drtv-hero-sunday-06_00_97173"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "De største programmer lige nu",
@@ -33,7 +51,13 @@
       "listVideos": "/liste/108657"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "VM-kampe live på DRTV",
@@ -42,7 +66,13 @@
       "listVideos": "/liste/351527"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Nyhedsoverblik",
@@ -51,7 +81,13 @@
       "listVideos": "/liste/247661"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Nye og populære serier",
@@ -60,7 +96,13 @@
       "listVideos": "/liste/209529"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Mest populære dokumentarer",
@@ -69,7 +111,13 @@
       "listVideos": "/liste/306104"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Kom i julestemning",
@@ -78,7 +126,13 @@
       "listVideos": "/liste/149973"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Seneste film på DRTV",
@@ -87,7 +141,13 @@
       "listVideos": "/liste/345124"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Kategorier",
@@ -96,7 +156,13 @@
       "listVideos": "/liste/289833"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Krimifilm",
@@ -105,7 +171,13 @@
       "listVideos": "/liste/350872"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Det bedste fra P3 lige nu",
@@ -114,7 +186,13 @@
       "listVideos": "/liste/307904"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Mest sete på DRTV",
@@ -123,7 +201,13 @@
       "listVideos": "/liste/115522"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Senest tilføjet",
@@ -132,7 +216,13 @@
       "listVideos": "/liste/171678"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "True Crime",
@@ -141,7 +231,13 @@
       "listVideos": "/liste/238347"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Store danske serier",
@@ -150,7 +246,13 @@
       "listVideos": "/liste/167449"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Udenlandsk krimi",
@@ -159,7 +261,13 @@
       "listVideos": "/liste/216440"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "Serier fra P3",
@@ -168,7 +276,13 @@
       "listVideos": "/liste/244420"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "30003",
@@ -177,7 +291,13 @@
       "show": "search"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "30007",
@@ -186,7 +306,13 @@
       "show": "recentlyWatched"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   },
   {
     "label": "30008",
@@ -195,6 +321,12 @@
       "show": "favorites"
     },
     "info": {},
-    "properties": {}
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
   }
 ]
