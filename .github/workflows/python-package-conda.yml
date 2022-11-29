@@ -28,7 +28,7 @@ jobs:
       run: |
         conda install flake8
         # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82,E501,E722 --max-line=130 --show-source --statistics --exclude=tests/
+        flake8 . --count --select=E9,F63,F7,F82,E501,E722 --max-line=130 --show-source --statistics
   
     - name: Test with kodi-addon-checker
       run: |
@@ -38,4 +38,4 @@ jobs:
     - name: Unit tests
       run: |
         conda install -c conda-forge pytest requests-cache dateutils
-        pytest tests
+        python -m pytest

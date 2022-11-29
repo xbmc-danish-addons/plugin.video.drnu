@@ -3,9 +3,6 @@
 # GNU General Public License v3.0 (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
 """This file implements the Kodi xbmcgui module, either using stubs or alternative functionality"""
 
-# pylint: disable=invalid-name,super-on-old-class,too-few-public-methods,too-many-arguments,too-many-instance-attributes,unused-argument,useless-super-delegation
-
-
 from __future__ import absolute_import, division, print_function, unicode_literals
 import sys
 from xbmcextra import kodi_to_ansi
@@ -62,8 +59,11 @@ class Control:
 class ControlButton(Control):
     """A reimplementation of the xbmcgui ControlButton class"""
 
-    def __init__(self, x, y, width, height, label, focusTexture=None, noFocusTexture=None, textOffsetX=10, textOffsetY=2, alignment=4, font=None,
-                 textColor=None, disabledColor=None, angle=0, shadowColor=None, focusedColor=None):
+    def __init__(self, 
+                x, y, width, height, label, focusTexture=None, 
+                noFocusTexture=None, textOffsetX=10, textOffsetY=2, alignment=4, font=None,
+                textColor=None, disabledColor=None, angle=0, shadowColor=None, focusedColor=None
+                ):
         """A stub constructor for the xbmcgui Control class"""
         super(ControlButton, self).__init__()
 
@@ -79,7 +79,10 @@ class ControlImage(Control):
 class ControlLabel(Control):
     """A reimplementation of the xbmcgui ControlLabel class"""
 
-    def __init__(self, x, y, width, height, label, font=None, textColor=None, disabledColor=None, alignment=0, hasPath=False, angle=0):  # pylint: disable=super-init-not-called
+    def __init__(self,
+                 x, y, width, height, label, font=None, textColor=None, 
+                 disabledColor=None, alignment=0, hasPath=False, angle=0
+                 ):
         """A stub constructor for the xbmcgui ControlLabel class"""
 
     @staticmethod
@@ -168,7 +171,9 @@ class Dialog:
         print('\033[37;44;1mTEXTVIEWER:\033[35;49;1m [%s]\n\033[37;1m%s\033[39;0m' % (heading, text))
 
     @staticmethod
-    def browseSingle(type, heading, shares, mask=None, useThumbs=None, treatAsFolder=None, defaultt=None):  # pylint: disable=redefined-builtin
+    def browseSingle(type, heading, shares, mask=None, useThumbs=None, 
+                     treatAsFolder=None, defaultt=None
+                     ):
         """A stub implementation for the xbmcgui Dialog class browseSingle() method"""
         print('\033[37;44;1mBROWSESINGLE:\033[35;49;1m [%s] \033[37;1m%s\033[39;0m' % (type, heading))
         return 'special://masterprofile/addon_data/plugin.video.vrt.nu/'
@@ -238,7 +243,9 @@ class WindowDialog:
         print('\033[37;44;1mTEXTVIEWER:\033[35;49;1m [%s]\n\033[37;1m%s\033[39;0m' % (heading, text))
 
     @staticmethod
-    def browseSingle(type, heading, shares, mask=None, useThumbs=None, treatAsFolder=None, defaultt=None):  # pylint: disable=redefined-builtin
+    def browseSingle(type, heading, shares, mask=None, useThumbs=None, 
+                     treatAsFolder=None, defaultt=None
+                     ):
         """A stub implementation for the xbmcgui Dialog class browseSingle() method"""
         print('\033[37;44;1mBROWSESINGLE:\033[35;49;1m [%s] \033[37;1m%s\033[39;0m' % (type, heading))
         return 'special://masterprofile/addon_data/plugin.video.vrt.nu/'
@@ -277,10 +284,11 @@ class DialogProgress:
         line1 = kodi_to_ansi(line1)
         line2 = kodi_to_ansi(line2)
         line3 = kodi_to_ansi(line3)
+        base_str = f'\033[1G\033[37;44;1mPROGRESS:\033[35;49;1m [{percent:d}%]'
         if line1 or line2 or line3:
-            print('\033[1G\033[37;44;1mPROGRESS:\033[35;49;1m [%d%%] \033[37;1m%s\033[39;0m' % (percent, message or line1 or line2 or line3), end='')
+            print(base_str + f'\033[37;1m{message or line1 or line2 or line3}\033[39;0m', end='')
         else:
-            print('\033[1G\033[37;44;1mPROGRESS:\033[35;49;1m [%d%%]\033[39;0m' % (percent), end='')
+            print(base_str + '\033[39;0m', end='')
         sys.stdout.flush()
 
 

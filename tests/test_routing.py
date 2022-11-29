@@ -1,18 +1,9 @@
 # -*- coding: utf-8 -*-
-# GNU General Public License v3.0 (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
 """Integration tests for Routing functionality"""
 
-# pylint: disable=invalid-name,line-too-long
-
-#from __future__ import absolute_import, division, print_function, unicode_literals
-import sys
 from pathlib import Path
-basedir = Path(__file__).parent.parent
-sys.path.insert(0, str(basedir))
-from datetime import datetime, timedelta
 import unittest
 import json
-#import dateutil.tz
 from resources.lib import addon
 import urllib.parse as urlparse
 from time import time
@@ -26,7 +17,6 @@ inputstreamhelper = __import__('inputstreamhelper')
 
 plugin_url = 'plugin://plugin.video.drnu/'
 
-#print(addon.addon.getAddonInfo('profile'))
 userdata = Path(addon.translatePath(addon.addon.getAddonInfo('profile')))
 menudata = (userdata/'menudata')
 menudata.mkdir(parents=True, exist_ok=True)
@@ -53,6 +43,7 @@ def iteminfo(item):
             'properties': item.properties
         }
 
+
 def item_from_label(items, label):
     for item in items:
         if item['label'] == label:
@@ -64,7 +55,7 @@ class TestOffline(unittest.TestCase):
 
     def myEqual(self, arg1, arg2):
         if UPDATE_TESTS and arg1 != arg2:
-            print(arg, arg2)
+            print(arg1, arg2)
         self.assertEqual(arg1, arg2)
 
     def test_basemenus(self):
@@ -136,8 +127,6 @@ class TestOffline(unittest.TestCase):
         res = [iteminfo(item) for item in get_items().values()]
         self.myEqual(len(res), 13)
 
+
 if __name__ == '__main__':
     unittest.main()
-
-
-

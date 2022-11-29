@@ -3,8 +3,6 @@
 # GNU General Public License v3.0 (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
 """This file implements the Kodi xbmcaddon module, either using stubs or alternative functionality"""
 
-# pylint: disable=invalid-name
-
 from __future__ import absolute_import, division, print_function, unicode_literals
 from xbmcextra import ADDON_ID, ADDON_INFO, addon_settings
 
@@ -31,7 +29,14 @@ class Addon:
     def getAddonInfo(self, key):
         """A working implementation for the xbmcaddon Addon class getAddonInfo() method"""
         assert isinstance(key, basestring)
-        stub_info = dict(id=self.id, name=self.id, version='2.3.4', type='kodi.inputstream', profile='special://userdata', path='special://userdata')
+        stub_info = dict(
+            id=self.id, 
+            name=self.id, 
+            version='2.3.4', 
+            type='kodi.inputstream', 
+            profile='special://userdata', 
+            path='special://userdata'
+            )
         # Add stub_info values to ADDON_INFO when missing (e.g. path and profile)
         addon_info = dict(stub_info, **ADDON_INFO)
         return addon_info.get(self.id, stub_info).get(key)
