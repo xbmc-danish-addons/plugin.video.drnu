@@ -32,3 +32,7 @@ jobs:
       run: |
         pip install kodi-addon-checker
         kodi-addon-checker --branch=matrix --allow-folder-id-mismatch
+    - name: Unit tests
+      run: |
+        pip install pytest
+        pytest tests
