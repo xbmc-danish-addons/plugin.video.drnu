@@ -209,7 +209,6 @@ class DrDkTvAddon(object):
                 item = self.api.get_item(path)
                 item['kodi_delfavorit'] = True
                 item['kodi_seasons'] = item['type'] != 'show'
-                title, infoLabels = self.api.get_info(item)
                 series.append(item)
             self.listEpisodes(series)
 
