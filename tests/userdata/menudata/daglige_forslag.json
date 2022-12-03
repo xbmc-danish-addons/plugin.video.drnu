@@ -43,7 +43,7 @@
       ],
       [
         "30200",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=TV AVISEN: Coronaprotester i Kina&favoritepath=/kanal/192099)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=TV AVISEN: Coronaprotester i Kina&favoritepath=301940)"
       ]
     ]
   },
@@ -69,7 +69,7 @@
       ],
       [
         "30200",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Guru 2&favoritepath=/saeson/guru_345109)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Guru 2&favoritepath=345109)"
       ]
     ]
   },
@@ -174,7 +174,7 @@
       ],
       [
         "30200",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=MGP: Børnefesten der gik amok&favoritepath=/serie/mgp_-boernefesten-der-gik-amok_348585)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=MGP: Børnefesten der gik amok&favoritepath=348585)"
       ]
     ]
   },
@@ -198,7 +198,7 @@
       ],
       [
         "30200",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Verdens rigeste milliardærer&favoritepath=/serie/verdens-rigeste-milliardaerer_342233)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Verdens rigeste milliardærer&favoritepath=342233)"
       ]
     ]
   },
@@ -222,7 +222,7 @@
       ],
       [
         "30200",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Max Kapacitet - Krypto, oprør og frihed&favoritepath=/serie/max-kapacitet-_-krypto-oproer-og-frihed_347002)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Max Kapacitet - Krypto, oprør og frihed&favoritepath=347002)"
       ]
     ]
   },
@@ -273,7 +273,7 @@
       ],
       [
         "30200",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Nissebanden i Grønland&favoritepath=/serie/nissebanden-i-groenland_343728)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Nissebanden i Grønland&favoritepath=343728)"
       ]
     ]
   }

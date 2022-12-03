@@ -4,6 +4,7 @@
 from pathlib import Path
 import unittest
 import json
+
 from resources.lib import addon
 import urllib.parse as urlparse
 
@@ -22,8 +23,9 @@ menudata.mkdir(parents=True, exist_ok=True)
 
 handle = addon.DrDkTvAddon(plugin_url=plugin_url, plugin_handle=1)
 handle._plugin_handle = {}
+main_menu_js = json.loads((menudata/'main_menu.json').read_text())
 
-UPDATE_TESTS = True
+UPDATE_TESTS = False
 
 
 def get_items():
@@ -103,8 +105,7 @@ class TestOffline(unittest.TestCase):
     def test_a_aa(self):
         # A - AA
         handle._plugin_handle = {}
-        main_menu = json.loads((menudata/'main_menu.json').read_text())
-        handle.route(main_menu[1]['url'])
+        handle.route(main_menu_js[1]['url'])
         a_aa = [iteminfo(item) for item in get_items().values()]
         self.assertTrue(len(a_aa) > 27)
         self.assertTrue(a_aa[0]['label'] == 'A')
@@ -125,6 +126,52 @@ class TestOffline(unittest.TestCase):
         handle.route(res[0]['url'])
         res = [iteminfo(item) for item in get_items().values()]
         self.myEqual(len(res), 13)
+
+    def test_pickles(self):
+        handle._plugin_handle = {}
+        handle.route('?show=favorites')
+        res = [iteminfo(item) for item in get_items().values()]
+        self.myEqual(res, [])
+        self.myEqual(handle.favorites, {})
+
+        handle.route(main_menu_js[3]['url'])
+        biggest_shows = [iteminfo(item) for item in get_items().values()]
+        shows = [s for s in biggest_shows if len(s['contextmenu']) == 2] # we only have this option for series
+
+        # add first show to favourit pickle
+        fav0 = shows[0]['contextmenu'][1]
+        self.myEqual(fav0[0], '30200')
+        handle.route(fav0[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
+
+        # add second show to favourit pickle
+        fav1 = shows[1]['contextmenu'][1]
+        self.myEqual(fav1[0], '30200')
+        handle.route(fav1[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
+
+        handle.route('?show=favorites')
+        res = [iteminfo(item) for item in get_items().values()]
+        self.myEqual(len(res), 2)
+        self.myEqual(len(handle.favorites), 2)
+
+        # update contextmenus
+        handle.route(main_menu_js[3]['url'])
+        biggest_shows = [iteminfo(item) for item in get_items().values()]
+        shows = [s for s in biggest_shows if len(s['contextmenu']) == 2]
+
+        # check we now have delete context menu
+        fav0 = shows[0]['contextmenu'][1]
+        self.myEqual(fav0[0], '30201')
+        handle.route(fav0[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
+
+        handle.route('?show=favorites')
+        res = [iteminfo(item) for item in get_items().values()]
+        self.myEqual(len(res), 1)
+        self.myEqual(len(handle.favorites), 1)
+        self.myEqual(list(handle.favorites.keys())[0], shows[1]['label'])
+        self.myEqual(res[0]['label'], shows[1]['label'])
+
+#        print(res)
+#        res = [iteminfo(item) for item in get_items().values()]
 
 
 if __name__ == '__main__':

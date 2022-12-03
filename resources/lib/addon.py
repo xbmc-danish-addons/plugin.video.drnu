@@ -206,8 +206,12 @@ class DrDkTvAddon(object):
         else:
             series = []
             for title, path in self.favorites.items():
-                series.extend([self.api.get_programcard(path)['entries'][0]['item']['show']])
-            self.listEpisodes(series, seasons=True)
+                item = self.api.get_item(path)
+                item['kodi_delfavorit'] = True
+                item['kodi_seasons'] = item['type'] != 'show'
+                title, infoLabels = self.api.get_info(item)
+                series.append(item)
+            self.listEpisodes(series)
 
     def showRecentlyWatched(self):
         self._load()
@@ -229,7 +233,7 @@ class DrDkTvAddon(object):
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
         else:
             self.listEpisodes(videos)
- 
+
     def getIptvLiveChannels(self):
         iptv_channels = []
         for api_channel in self.api.getLiveTV():
@@ -333,7 +337,8 @@ class DrDkTvAddon(object):
         isFolder = item['type'] not in ['program', 'episode']
         if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
             return None
-
+        if 'kodi_seasons' in item:
+            is_season = item['kodi_seasons']
         title, infoLabels = self.api.get_info(item)
         listItem = xbmcgui.ListItem(title, offscreen=True)
         if 'images' in item:
@@ -345,12 +350,12 @@ class DrDkTvAddon(object):
             listItem.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
 
         if isFolder:
-            if title in self.favorites:
+            if title in self.favorites or item.get('kodi_delfavorit', False):
                 runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={title})"
                 menuItems.append((tr(30201), runScript))
             else:
                 if item['type'] not in ['ListEntry', 'RecommendationEntry']:
-                    runScript = f"RunPlugin(plugin://plugin.video.drnu/?addfavorite={title}&favoritepath={item['path']})"
+                    runScript = f"RunPlugin(plugin://plugin.video.drnu/?addfavorite={title}&favoritepath={item['id']})"
                     menuItems.append((tr(30200), runScript))
             if item.get('path', False):
                 url = self._plugin_url + f"?listVideos={item['path']}&seasons={is_season}"
@@ -494,15 +499,15 @@ class DrDkTvAddon(object):
         self._load()
         if title not in self.favorites:
             self.favorites[title] = path
-        self._save()
-        xbmcgui.Dialog().ok(addon_name, tr([30008, 30009]))
+            self._save()
+            xbmcgui.Dialog().ok(addon_name, tr([30008, 30009]))
 
     def delFavorite(self, title):
         self._load()
         if title in self.favorites:
             del self.favorites[title]
-        self._save()
-        xbmcgui.Dialog().ok(addon_name, tr([30008, 30010]))
+            self._save()
+            xbmcgui.Dialog().ok(addon_name, tr([30008, 30010]))
 
     def updateRecentlyWatched(self, path):
         self._load()
