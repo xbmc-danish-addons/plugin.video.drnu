@@ -1,0 +1,12 @@
+{
+    "debug.showloginfo": true,
+    "locale.language": "resource.language.en_en",
+    "network.bandwidth": "20000000",
+    "network.usehttpproxy": false,
+    "network.httpproxytype": 0,
+    "network.httpproxyserver": "http://proxy.server/",
+    "network.httpproxyport": "3128",
+    "network.httpproxyusername": "",
+    "network.httpproxypassword": "",
+    "videolibrary.showallitems": true
+}

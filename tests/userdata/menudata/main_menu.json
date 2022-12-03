@@ -1,0 +1,332 @@
+[
+  {
+    "label": "30027",
+    "url": "?show=liveTV",
+    "params": {
+      "show": "liveTV"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Programmer A-Å",
+    "url": "?listVideos=/a-aa",
+    "params": {
+      "listVideos": "/a-aa"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Daglige forslag",
+    "url": "?listVideos=/liste/drtv-hero-sunday-06_00_97173",
+    "params": {
+      "listVideos": "/liste/drtv-hero-sunday-06_00_97173"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "De største programmer lige nu",
+    "url": "?listVideos=/liste/108657",
+    "params": {
+      "listVideos": "/liste/108657"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "VM-kampe live på DRTV",
+    "url": "?listVideos=/liste/351527",
+    "params": {
+      "listVideos": "/liste/351527"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Nyhedsoverblik",
+    "url": "?listVideos=/liste/247661",
+    "params": {
+      "listVideos": "/liste/247661"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Nye og populære serier",
+    "url": "?listVideos=/liste/209529",
+    "params": {
+      "listVideos": "/liste/209529"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Mest populære dokumentarer",
+    "url": "?listVideos=/liste/306104",
+    "params": {
+      "listVideos": "/liste/306104"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Kom i julestemning",
+    "url": "?listVideos=/liste/149973",
+    "params": {
+      "listVideos": "/liste/149973"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Seneste film på DRTV",
+    "url": "?listVideos=/liste/345124",
+    "params": {
+      "listVideos": "/liste/345124"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Kategorier",
+    "url": "?listVideos=/liste/289833",
+    "params": {
+      "listVideos": "/liste/289833"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Krimifilm",
+    "url": "?listVideos=/liste/350872",
+    "params": {
+      "listVideos": "/liste/350872"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Det bedste fra P3 lige nu",
+    "url": "?listVideos=/liste/307904",
+    "params": {
+      "listVideos": "/liste/307904"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Mest sete på DRTV",
+    "url": "?listVideos=/liste/115522",
+    "params": {
+      "listVideos": "/liste/115522"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Senest tilføjet",
+    "url": "?listVideos=/liste/171678",
+    "params": {
+      "listVideos": "/liste/171678"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "True Crime",
+    "url": "?listVideos=/liste/238347",
+    "params": {
+      "listVideos": "/liste/238347"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Store danske serier",
+    "url": "?listVideos=/liste/167449",
+    "params": {
+      "listVideos": "/liste/167449"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Udenlandsk krimi",
+    "url": "?listVideos=/liste/216440",
+    "params": {
+      "listVideos": "/liste/216440"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Serier fra P3",
+    "url": "?listVideos=/liste/244420",
+    "params": {
+      "listVideos": "/liste/244420"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "30003",
+    "url": "?show=search",
+    "params": {
+      "show": "search"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "30007",
+    "url": "?show=recentlyWatched",
+    "params": {
+      "show": "recentlyWatched"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "30008",
+    "url": "?show=favorites",
+    "params": {
+      "show": "favorites"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30511",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  }
+]

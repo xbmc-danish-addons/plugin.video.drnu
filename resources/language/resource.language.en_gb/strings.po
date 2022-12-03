@@ -148,6 +148,10 @@ msgctxt "#30517"
 msgid "Use simple Area Selector"
 msgstr ""
 
+msgctxt "#30518"
+msgid "No seasons on children shows, unfold all episodes"
+msgstr ""
+
 msgctxt "#30521"
 msgid "Inputstream type"
 msgstr ""

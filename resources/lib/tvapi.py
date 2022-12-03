@@ -47,6 +47,8 @@ class Api():
         self.tr = getLocalizedString
         self.cleanup_every = int(get_setting('recache.cleanup'))
         self.expire_hours = int(get_setting('recache.expiration'))
+        self.expire_seconds = 3600*self.expire_hours if self.expire_hours >= 0 else self.expire_hours
+
         self.init_sqlite_db()
 
         self.token_file = Path(f'{self.cachePath}/token.json')
@@ -59,7 +61,7 @@ class Api():
                 (self.cachePath/'requests.cache.sqlite').unlink()
         request_fname = str(self.cachePath/'requests.cache')
         self.session = requests_cache.CachedSession(
-            request_fname, backend='sqlite', expire_after=3600*self.expire_hours)
+            request_fname, backend='sqlite', expire_after=self.expire_seconds)
 
         if (self.cachePath/'requests_cleaned').exists():
             if (time.time() - (self.cachePath/'requests_cleaned').stat().st_mtime)/3600/24 < self.cleanup_every:
@@ -73,7 +75,7 @@ class Api():
             if (self.cachePath/'requests.cache.sqlite').exists():
                 (self.cachePath/'requests.cache.sqlite').unlink()
             self.session = requests_cache.CachedSession(
-                request_fname, backend='sqlite', expire_after=3600*self.expire_hours)
+                request_fname, backend='sqlite', expire_after=self.expire_seconds)
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
     def deviceid(self):
