@@ -29,6 +29,7 @@
             <screenshot>resources/media/Screenshot1.jpg</screenshot>
             <screenshot>resources/media/Screenshot2.jpg</screenshot>
             <screenshot>resources/media/Screenshot3.jpg</screenshot>
+            <screenshot>resources/media/Screenshot4.jpg</screenshot>
        </assets>
        <news>[B]Version 6.1.0 - 2023-01-18[/B]
         - IPTV Manager integration (CodingBullywug)
