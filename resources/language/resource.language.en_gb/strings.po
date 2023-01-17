@@ -156,6 +156,10 @@ msgctxt "#30521"
 msgid "Inputstream type"
 msgstr ""
 
+msgctxt "#30530"
+msgid "Install Cron-xbmc"
+msgstr ""
+
 msgctxt "#30531"
 msgid "re-cache all"
 msgstr ""
@@ -170,6 +174,14 @@ msgstr ""
 
 msgctxt "#30534"
 msgid "Days between cleanup of sqlite db"
+msgstr ""
+
+msgctxt "#30535"
+msgid "re-cache cron job"
+msgstr ""
+
+msgctxt "#30536"
+msgid "cron expression"
 msgstr ""
 
 msgctxt "#30550"

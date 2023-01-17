@@ -53,7 +53,11 @@ def bool_setting(name):
 
 
 def make_notice(object):
-    xbmc.log(str(object), xbmc.LOGDEBUG)
+    xbmc.log(str(object), xbmc.LOGINFO)
+
+
+def has_addon(id):
+    return xbmc.getCondVisibility(f'System.HasAddon({id})') == 1
 
 
 class DrDkTvAddon(object):
@@ -80,6 +84,32 @@ class DrDkTvAddon(object):
         # Area Selector
         self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
         self.area_item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
+
+        if has_addon('service.cronxbmc'):
+            import sys
+            make_notice(sys.path)
+            cronpath = str(Path(addon_path).parent/'service.cronxbmc/resources/lib')
+            sys.path.insert(1, cronpath)
+            from cron import CronManager, CronJob
+            manager = CronManager()
+            job = None
+            for job in manager.getJobs():
+                if job.name == "plugin.video.drnu cronjob":
+                    job = manager.getJob(job.id)
+                    break
+            if bool_setting('recache.cronjob'):
+                if job is None:
+                    job = CronJob()
+                # add a job
+                job.name = "plugin.video.drnu cronjob"
+                job.command_type = "json"  # this is set to "built-in" by default
+                job.command = '{"jsonrpc": "2.0", "method": "Addons.ExecuteAddon", "params": { "addonid": "plugin.video.drnu", "params":["?reCache=1"]}, "id": "1"}'
+                job.expression = get_setting('recache.cronexpression')
+                job.show_notification = "false"
+                manager.addJob(job)
+            else:
+                if job is not None:
+                    manager.deleteJob(job.id)
 
         self._load()
 

@@ -156,6 +156,10 @@ msgctxt "#30521"
 msgid "Inputstream type"
 msgstr "Inputstream type"
 
+msgctxt "#30530"
+msgid "Install Cron-xbmc"
+msgstr "re-cache alt"
+
 msgctxt "#30531"
 msgid "re-cache all"
 msgstr "re-cache alt"
@@ -171,6 +175,14 @@ msgstr "re-cache alt i: "
 msgctxt "#30534"
 msgid "Days between cleanup of sqlite db"
 msgstr "Antal dage imellem rengøring af database"
+
+msgctxt "#30535"
+msgid "re-cache cron job"
+msgstr "re-cache cron job"
+
+msgctxt "#30536"
+msgid "cron expression"
+msgstr "cron tidskode"
 
 msgctxt "#30550"
 msgid "IPTV Manager"
