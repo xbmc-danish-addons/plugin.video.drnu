@@ -127,7 +127,6 @@ class DrDkTvAddon(object):
         first_run, settings_version, settings_tuple = self._version_check()
         if first_run:
             if settings_version == '' and kodi_version_major() <= 19:
-                make_notice('set setting', 1)
                 # kodi matrix subtitle handling https://github.com/xbmc/inputstream.adaptive/issues/1037
                 set_setting('enable.localsubtitles', 'true')
 
@@ -372,7 +371,7 @@ class DrDkTvAddon(object):
 
     def kodi_item(self, item, is_season=False):
         menuItems = list(self.menuItems)
-        isFolder = item['type'] not in ['program', 'episode']
+        isFolder = item['type'] not in ['program', 'episode', 'link']
         if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
             return None
         if 'kodi_seasons' in item:
@@ -427,7 +426,8 @@ class DrDkTvAddon(object):
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def list_entries(self, path, seasons=False):
-        entries = self.api.get_programcard(path)['entries']
+        use_cache = tvapi.cache_path(path)
+        entries = self.api.get_programcard(path, use_cache=use_cache)['entries']
         if len(entries) == 0:
             # hack for get_programcard('/liste/306104') giving empty entries, but recommendations yields?!?
             id = int(path.split('/')[-1])
@@ -466,6 +466,7 @@ class DrDkTvAddon(object):
         if path.startswith('/kanal'):
             # live stream
             video = self.api.get_livestream(path, with_subtitles=bool_setting('enable.subtitles'))
+            video['srt_subtitles'] = []
         else:
             self.updateRecentlyWatched(path)
             video = self.api.get_stream(id)
