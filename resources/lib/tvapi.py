@@ -395,11 +395,8 @@ class Api():
             item = self.get_item(item['id'])
 
         infoLabels = {'title': title}
-        if item.get('shortDescription', ''):
-            if item['shortDescription'] == 'LinkItem' and item.get('contextualTitle'):
-                infoLabels['plot'] = item['contextualTitle']
-            else:
-                infoLabels['plot'] = item['shortDescription']
+        if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
+            infoLabels['plot'] = item['shortDescription']
         if item.get('description', ''):
             infoLabels['plot'] = item['description']
         if item.get('tagline', ''):
