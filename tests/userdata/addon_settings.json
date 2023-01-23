@@ -3,6 +3,7 @@
         "DECRYPTERPATH": "special://home/cdm"
     },
     "plugin.video.drnu": {
+        "recache.enabled": "true",
         "recache.cleanup": 1E6,
         "recache.expiration": -1,
         "area": 1,

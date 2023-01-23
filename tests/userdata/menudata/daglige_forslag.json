@@ -26,24 +26,22 @@
   },
   {
     "label": "TV AVISEN: Coronaprotester i Kina",
-    "url": "?listVideos=/kanal/192099&seasons=False",
+    "url": "?playVideo=301940&kids=False&idpath=/kanal/192099",
     "params": {
-      "listVideos": "/kanal/192099",
-      "seasons": "False"
+      "playVideo": "301940",
+      "kids": "False",
+      "idpath": "/kanal/192099"
     },
     "info": {
-      "title": "TV AVISEN: Coronaprotester i Kina",
-      "plot": "LinkItem"
+      "title": "TV AVISEN: Coronaprotester i Kina"
     },
-    "properties": {},
+    "properties": {
+      "IsPlayable": "true"
+    },
     "contextmenu": [
       [
         "30511",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30200",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=TV AVISEN: Coronaprotester i Kina&favoritepath=301940)"
       ]
     ]
   },

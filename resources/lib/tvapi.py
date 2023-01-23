@@ -41,14 +41,22 @@ CHANNEL_PRESET = {
 URL = 'https://production.dr-massive.com/api'
 GET_TIMEOUT = 5
 
+
+def cache_path(path):
+    NO_CACHING = ['/liste/drtv-hero']
+    if any([path.startswith(item) for item in NO_CACHING]):
+        return False
+    return True
+
+
 class Api():
     def __init__(self, cachePath, getLocalizedString, get_setting):
         self.cachePath = cachePath
         self.tr = getLocalizedString
         self.cleanup_every = int(get_setting('recache.cleanup'))
         self.expire_hours = int(get_setting('recache.expiration'))
+        self.caching = get_setting('recache.enabled') == 'true'
         self.expire_seconds = 3600*self.expire_hours if self.expire_hours >= 0 else self.expire_hours
-
         self.init_sqlite_db()
 
         self.token_file = Path(f'{self.cachePath}/token.json')
@@ -129,7 +137,7 @@ class Api():
                 'max_list_prefetch': '3',
                 'path': path
             }
-        if use_cache:
+        if use_cache and self.caching:
             u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
         else:
             u = requests.get(url, params=data, timeout=GET_TIMEOUT)
@@ -140,7 +148,7 @@ class Api():
 
     def get_item(self, id, use_cache=True):
         url = URL + f'/items/{int(id)}?'
-        if use_cache:
+        if use_cache and self.caching:
             u = self.session.get(url, timeout=GET_TIMEOUT)
         else:
             u = requests.get(url, timeout=GET_TIMEOUT)
@@ -151,7 +159,7 @@ class Api():
 
     def get_next(self, path, use_cache=True):
         url = URL + path
-        if use_cache:
+        if use_cache and self.caching:
             u = self.session.get(url, timeout=GET_TIMEOUT)
         else:
             u = requests.get(url, timeout=GET_TIMEOUT)
@@ -168,7 +176,7 @@ class Api():
         if param != 'NoParam':
             data['param'] = param
 
-        if use_cache:
+        if use_cache and self.caching:
             u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
         else:
             u = requests.get(url, params=data, timeout=GET_TIMEOUT)
@@ -182,7 +190,7 @@ class Api():
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
 
-        if use_cache:
+        if use_cache and self.caching:
             u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
         else:
             u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
@@ -387,7 +395,7 @@ class Api():
             item = self.get_item(item['id'])
 
         infoLabels = {'title': title}
-        if item.get('shortDescription', ''):
+        if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
             infoLabels['plot'] = item['shortDescription']
         if item.get('description', ''):
             infoLabels['plot'] = item['description']

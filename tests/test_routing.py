@@ -21,8 +21,10 @@ userdata = Path(addon.translatePath(addon.addon.getAddonInfo('profile')))
 menudata = (userdata/'menudata')
 menudata.mkdir(parents=True, exist_ok=True)
 
+addon.tvapi.cache_path = lambda path: True
 handle = addon.DrDkTvAddon(plugin_url=plugin_url, plugin_handle=1)
 handle._plugin_handle = {}
+
 main_menu_js = json.loads((menudata/'main_menu.json').read_text())
 
 UPDATE_TESTS = False

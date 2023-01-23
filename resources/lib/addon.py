@@ -37,9 +37,11 @@ from resources.lib.iptvmanager import IPTVManager
 
 addon = xbmcaddon.Addon()
 get_setting = addon.getSetting
-addon_path = addon.getAddonInfo('path')
+set_setting = addon.setSetting
+get_addon_info = addon.getAddonInfo
+addon_path = get_addon_info('path')
+addon_name = get_addon_info('name')
 resources_path = Path(addon_path)/'resources'
-addon_name = addon.getAddonInfo('name')
 
 
 def tr(id):
@@ -52,8 +54,18 @@ def bool_setting(name):
     return get_setting(name) == 'true'
 
 
-def make_notice(object):
-    xbmc.log(str(object), xbmc.LOGDEBUG)
+def make_notice(object, level=0):
+    xbmc.log(str(object), level)
+
+
+def kodi_version():
+    """Returns full Kodi version as string"""
+    return xbmc.getInfoLabel('System.BuildVersion').split(' ')[0]
+
+
+def kodi_version_major():
+    """Returns major Kodi version as integer"""
+    return int(kodi_version().split('.')[0])
 
 
 class DrDkTvAddon(object):
@@ -82,6 +94,7 @@ class DrDkTvAddon(object):
         self.area_item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
 
         self._load()
+        self._version_change_fixes()
 
     def _save(self):
         # save favorites
@@ -110,6 +123,31 @@ class DrDkTvAddon(object):
             except Exception:
                 pass
 
+    def _version_change_fixes(self):
+        first_run, settings_version, settings_tuple = self._version_check()
+        if first_run:
+            if settings_version == '' and kodi_version_major() <= 19:
+                # kodi matrix subtitle handling https://github.com/xbmc/inputstream.adaptive/issues/1037
+                set_setting('enable.localsubtitles', 'true')
+
+    def _version_check(self):
+        # Get version from settings.xml
+        settings_version = get_setting('version')
+
+        # Get version from addon.xml
+        addon_version = get_addon_info('version')
+
+        # Compare versions (settings_version was not present in version 6.0.2 and older)
+        settings_tuple = tuple(map(int, settings_version.split('+')[0].split('.'))) if settings_version != '' else (6, 0, 2)
+        addon_tuple = tuple(map(int, addon_version.split('+')[0].split('.')))
+
+        if addon_tuple > settings_tuple:
+            # New version found, save addon version to settings
+            set_setting('version', addon_version)
+            return True, settings_version, settings_tuple
+
+        return False, settings_version, settings_tuple
+
     def showAreaSelector(self):
         if bool_setting('use.simpleareaitem'):
             self.showSimpleAreaSelector()
@@ -131,26 +169,26 @@ class DrDkTvAddon(object):
         items = list()
         # DRTV
         item = xbmcgui.ListItem('DR TV', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'button-drtv.png'),
-                     'icon': str(resources_path/'button-drtv.png')})
+        item.setArt({'fanart': str(resources_path/'media/button-drtv.png'),
+                     'icon': str(resources_path/'media/button-drtv.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=1', item, True))
         # Minisjang
         item = xbmcgui.ListItem('Minisjang', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'button-minisjang.png'),
-                     'icon': str(resources_path/'button-minisjang.png')})
+        item.setArt({'fanart': str(resources_path/'media/button-minisjang.png'),
+                     'icon': str(resources_path/'media/button-minisjang.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=2', item, True))
         # Ramasjang
         item = xbmcgui.ListItem('Ramasjang', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'button-ramasjang.png'),
-                     'icon': str(resources_path/'button-ramasjang.png')})
+        item.setArt({'fanart': str(resources_path/'media/button-ramasjang.png'),
+                     'icon': str(resources_path/'media/button-ramasjang.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=3', item, True))
         # Ultra
         item = xbmcgui.ListItem('Ultra', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'button-ultra.png'),
-                     'icon': str(resources_path/'button-ultra.png')})
+        item.setArt({'fanart': str(resources_path/'media/button-ultra.png'),
+                     'icon': str(resources_path/'media/button-ultra.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=4', item, True))
 
@@ -333,7 +371,7 @@ class DrDkTvAddon(object):
 
     def kodi_item(self, item, is_season=False):
         menuItems = list(self.menuItems)
-        isFolder = item['type'] not in ['program', 'episode']
+        isFolder = item['type'] not in ['program', 'episode', 'link']
         if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
             return None
         if 'kodi_seasons' in item:
@@ -388,7 +426,8 @@ class DrDkTvAddon(object):
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def list_entries(self, path, seasons=False):
-        entries = self.api.get_programcard(path)['entries']
+        use_cache = tvapi.cache_path(path)
+        entries = self.api.get_programcard(path, use_cache=use_cache)['entries']
         if len(entries) == 0:
             # hack for get_programcard('/liste/306104') giving empty entries, but recommendations yields?!?
             id = int(path.split('/')[-1])
@@ -427,6 +466,7 @@ class DrDkTvAddon(object):
         if path.startswith('/kanal'):
             # live stream
             video = self.api.get_livestream(path, with_subtitles=bool_setting('enable.subtitles'))
+            video['srt_subtitles'] = []
         else:
             self.updateRecentlyWatched(path)
             video = self.api.get_stream(id)
