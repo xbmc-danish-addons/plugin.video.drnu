@@ -1,3 +1,4 @@
+from cron import CronManager, CronJob
 import json
 
 
@@ -12,8 +13,7 @@ cmd_js = {
 }
 
 
-def setup_job(addon_path, bool_setting, get_setting):
-    from cron import CronManager, CronJob
+def setup_cronjob(addon_path, bool_setting, get_setting):
     manager = CronManager()
     job = None
     for job in manager.getJobs():

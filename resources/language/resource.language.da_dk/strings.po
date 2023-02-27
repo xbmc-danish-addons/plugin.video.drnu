@@ -156,10 +156,6 @@ msgctxt "#30521"
 msgid "Inputstream type"
 msgstr "Inputstream type"
 
-msgctxt "#30530"
-msgid "Install Cron for Kodi"
-msgstr "Installer Cron for Kodi"
-
 msgctxt "#30531"
 msgid "re-cache all"
 msgstr "re-cache alt"
