@@ -156,6 +156,10 @@ msgctxt "#30521"
 msgid "Inputstream type"
 msgstr "Inputstream type"
 
+msgctxt "#30530"
+msgid "Install Cron for Kodi"
+msgstr "Installer Cron for Kodi"
+
 msgctxt "#30531"
 msgid "re-cache all"
 msgstr "re-cache alt"
@@ -175,6 +179,14 @@ msgstr "Antal dage imellem rengøring af database"
 msgctxt "#30535"
 msgid "Request caching"
 msgstr "Brug caching for online requests"
+
+msgctxt "#30536"
+msgid "re-cache cron job"
+msgstr "re-cache cron job"
+
+msgctxt "#30537"
+msgid "cron expression"
+msgstr "cron tidskode"
 
 msgctxt "#30550"
 msgid "IPTV Manager"

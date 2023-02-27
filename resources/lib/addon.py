@@ -68,6 +68,10 @@ def kodi_version_major():
     return int(kodi_version().split('.')[0])
 
 
+def has_addon(id):
+    return xbmc.getCondVisibility(f'System.HasAddon({id})') == 1
+
+
 class DrDkTvAddon(object):
     def __init__(self, plugin_url, plugin_handle):
         self._plugin_url = plugin_url
@@ -95,6 +99,9 @@ class DrDkTvAddon(object):
 
         self._load()
         self._version_change_fixes()
+        if has_addon('service.cronxbmc'):
+            from resources.lib.cronjob import setup_job
+            setup_job(addon_path, bool_setting, get_setting)
 
     def _save(self):
         # save favorites

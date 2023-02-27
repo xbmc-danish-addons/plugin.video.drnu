@@ -30,9 +30,12 @@
     <setting id="iptv.schedule.referesh" label="30562" enable="false" type="text" default="Set using IPTV Manager settings" />
   </category>
 	<category label="30501">
+    <setting label="30530" type="action" action="InstallAddon(service.cronxbmc)" visible="!System.HasAddon(service.cronxbmc)"/>
 		<setting label="30531" type="action" action="RunPlugin(plugin://plugin.video.drnu/?re-cache=1)" />
 		<setting id="recache.expiration" label="30532" type="number" default="24" />
 		<setting id="recache.cleanup" label="30534" type="number" default="7" />
 		<setting id="recache.enabled" label="30535" type="bool" default="true" />
+	  <setting id="recache.cronjob" label="30536" type="bool" default="false" enable="System.HasAddon(service.cronxbmc)"/>
+		<setting id="recache.cronexpression" label="30537" type="text" default="0 3 * * *" enable="System.HasAddon(service.cronxbmc)"/>
 	</category>
 </settings>
