@@ -496,7 +496,7 @@ class DrDkTvAddon(object):
                 item.setProperty('inputstream', is_helper.inputstream_addon)
                 item.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
-        local_subs_bool = bool_setting('enable.localsubtitles') or get_setting('inputstream') == 1
+        local_subs_bool = bool_setting('enable.localsubtitles') or int(get_setting('inputstream')) == 1
         if local_subs_bool and video['srt_subtitles']:
             item.setSubtitles(video['srt_subtitles'])
         xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, item)
