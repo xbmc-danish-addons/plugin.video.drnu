@@ -19,7 +19,7 @@
     },
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -40,7 +40,7 @@
     },
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -62,11 +62,11 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ],
       [
-        "30200",
+        "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Guru 2&favoritepath=345109)"
       ]
     ]
@@ -94,7 +94,7 @@
     },
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -122,7 +122,7 @@
     },
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -147,7 +147,7 @@
     },
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -167,11 +167,11 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ],
       [
-        "30200",
+        "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=MGP: Børnefesten der gik amok&favoritepath=348585)"
       ]
     ]
@@ -191,11 +191,11 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ],
       [
-        "30200",
+        "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Verdens rigeste milliardærer&favoritepath=342233)"
       ]
     ]
@@ -215,11 +215,11 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ],
       [
-        "30200",
+        "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Max Kapacitet - Krypto, oprør og frihed&favoritepath=347002)"
       ]
     ]
@@ -246,7 +246,7 @@
     },
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -266,11 +266,11 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ],
       [
-        "30200",
+        "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Nissebanden i Grønland&favoritepath=343728)"
       ]
     ]

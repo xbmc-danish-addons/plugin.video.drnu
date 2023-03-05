@@ -338,9 +338,9 @@ class Api():
         subtitlesUri = []
         for sub in subs:
             if sub['language'] in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles']:
-                name = f'{self.cachePath}/{self.tr(30506)}.da.srt'
+                name = f'{self.cachePath}/{self.tr(30050)}.da.srt'
             else:
-                name = f'{self.cachePath}/{self.tr(30507)}.da.srt'
+                name = f'{self.cachePath}/{self.tr(30051)}.da.srt'
             u = self.session.get(sub['link'], timeout=10)
             if u.status_code != 200:
                 u.close()

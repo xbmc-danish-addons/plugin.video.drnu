@@ -5,6 +5,10 @@ import json
 import socket
 
 
+iptv_channels_uri = "plugin://plugin.video.drnu?iptv=channels"
+iptv_epg_uri = "plugin://plugin.video.drnu?iptv=epg"
+
+
 class IPTVManager:
     """Interface to IPTV Manager"""
 

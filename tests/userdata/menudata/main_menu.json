@@ -1,6 +1,6 @@
 [
   {
-    "label": "30027",
+    "label": "30001",
     "url": "?show=liveTV",
     "params": {
       "show": "liveTV"
@@ -9,7 +9,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -24,7 +24,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -39,7 +39,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -54,7 +54,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -69,7 +69,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -84,7 +84,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -99,7 +99,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -114,7 +114,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -129,7 +129,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -144,7 +144,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -159,7 +159,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -174,7 +174,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -189,7 +189,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -204,7 +204,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -219,7 +219,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -234,7 +234,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -249,7 +249,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -264,7 +264,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
@@ -279,13 +279,13 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
   },
   {
-    "label": "30003",
+    "label": "30002",
     "url": "?show=search",
     "params": {
       "show": "search"
@@ -294,13 +294,13 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
   },
   {
-    "label": "30007",
+    "label": "30003",
     "url": "?show=recentlyWatched",
     "params": {
       "show": "recentlyWatched"
@@ -309,13 +309,13 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
   },
   {
-    "label": "30008",
+    "label": "30004",
     "url": "?show=favorites",
     "params": {
       "show": "favorites"
@@ -324,7 +324,7 @@
     "properties": {},
     "contextmenu": [
       [
-        "30511",
+        "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]

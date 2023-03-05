@@ -88,7 +88,7 @@ class DrDkTvAddon(object):
 
         self.menuItems = list()
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
-        self.menuItems.append((tr(30511), runScript))
+        self.menuItems.append((tr(30205), runScript))
 
         # Area Selector
         self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
@@ -97,6 +97,12 @@ class DrDkTvAddon(object):
         self._load()
         setup_cronjob(addon_path, bool_setting, get_setting)
         self._version_change_fixes()
+
+    def _clear(self):
+        # clear favorites
+        if self.favorites_path.exists():
+            self.favorites_path.unlink()
+            xbmcgui.Dialog().ok(tr(30004), tr(30011))
 
     def _save(self):
         # save favorites
@@ -201,7 +207,7 @@ class DrDkTvAddon(object):
         items = []
 
         # Live TV
-        item = xbmcgui.ListItem(tr(30027), offscreen=True)
+        item = xbmcgui.ListItem(tr(30001), offscreen=True)
         item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/livetv.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
@@ -215,19 +221,19 @@ class DrDkTvAddon(object):
                 items.append((self._plugin_url + '?listVideos=' + hitem['path'], item, True))
 
         # Search videos
-        item = xbmcgui.ListItem(tr(30003), offscreen=True)
+        item = xbmcgui.ListItem(tr(30002), offscreen=True)
         item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/search.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=search', item, True))
 
         # Recently watched Program Series
-        item = xbmcgui.ListItem(tr(30007), offscreen=True)
+        item = xbmcgui.ListItem(tr(30003), offscreen=True)
         item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/eye-star.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=recentlyWatched', item, True))
 
         # Favorite Program Series
-        item = xbmcgui.ListItem(tr(30008), offscreen=True)
+        item = xbmcgui.ListItem(tr(30004), offscreen=True)
         item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/plusone.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=favorites', item, True))
@@ -241,7 +247,7 @@ class DrDkTvAddon(object):
     def showFavorites(self):
         self._load()
         if not self.favorites:
-            xbmcgui.Dialog().ok(addon_name, tr(30013))
+            xbmcgui.Dialog().ok(addon_name, tr(30007))
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
         else:
             series = []
@@ -268,7 +274,7 @@ class DrDkTvAddon(object):
 
         self._save()
         if not videos:
-            xbmcgui.Dialog().ok(addon_name, tr([30013, 30020]))
+            xbmcgui.Dialog().ok(addon_name, tr([30007, 30008]))
             xbmcplugin.endOfDirectory(self._plugin_handle, succeeded=False)
         else:
             self.listEpisodes(videos)
@@ -343,7 +349,7 @@ class DrDkTvAddon(object):
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def search(self):
-        keyboard = xbmc.Keyboard('', tr(30003))
+        keyboard = xbmc.Keyboard('', tr(30002))
         keyboard.doModal()
         if keyboard.isConfirmed():
             keyword = keyboard.getText()
@@ -391,11 +397,11 @@ class DrDkTvAddon(object):
         if isFolder:
             if title in self.favorites or item.get('kodi_delfavorit', False):
                 runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={title})"
-                menuItems.append((tr(30201), runScript))
+                menuItems.append((tr(30010), runScript))
             else:
                 if item['type'] not in ['ListEntry', 'RecommendationEntry']:
                     runScript = f"RunPlugin(plugin://plugin.video.drnu/?addfavorite={title}&favoritepath={item['id']})"
-                    menuItems.append((tr(30200), runScript))
+                    menuItems.append((tr(30009), runScript))
             if item.get('path', False):
                 url = self._plugin_url + f"?listVideos={item['path']}&seasons={is_season}"
             elif 'list' in item:
@@ -484,13 +490,13 @@ class DrDkTvAddon(object):
 
         item = xbmcgui.ListItem(path=video['url'], offscreen=True)
 
-        if get_setting('inputstream') == 'adaptive':
+        if int(get_setting('inputstream')) == 0:
             is_helper = Helper('hls')
             if is_helper.check_inputstream():
                 item.setProperty('inputstream', is_helper.inputstream_addon)
                 item.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
-        local_subs_bool = bool_setting('enable.localsubtitles') or get_setting('inputstream') == 'ffmpegdirect'
+        local_subs_bool = bool_setting('enable.localsubtitles') or get_setting('inputstream') == 1
         if local_subs_bool and video['srt_subtitles']:
             item.setSubtitles(video['srt_subtitles'])
         xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, item)
@@ -541,14 +547,14 @@ class DrDkTvAddon(object):
         if title not in self.favorites:
             self.favorites[title] = path
             self._save()
-            xbmcgui.Dialog().ok(addon_name, tr([30008, 30009]))
+            xbmcgui.Dialog().ok(addon_name, tr([30004, 30005]))
 
     def delFavorite(self, title):
         self._load()
         if title in self.favorites:
             del self.favorites[title]
             self._save()
-            xbmcgui.Dialog().ok(addon_name, tr([30008, 30010]))
+            xbmcgui.Dialog().ok(addon_name, tr([30004, 30006]))
 
     def updateRecentlyWatched(self, path):
         self._load()
@@ -605,6 +611,9 @@ class DrDkTvAddon(object):
 
             elif 'delfavorite' in PARAMS:
                 self.delFavorite(PARAMS['delfavorite'])
+
+            elif 'clearfavorite' in PARAMS:
+                self._clear()
 
             elif 're-cache' in PARAMS:
                 progress = xbmcgui.DialogProgress()

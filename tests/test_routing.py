@@ -142,12 +142,12 @@ class TestOffline(unittest.TestCase):
 
         # add first show to favourit pickle
         fav0 = shows[0]['contextmenu'][1]
-        self.myEqual(fav0[0], '30200')
+        self.myEqual(fav0[0], '30009')
         handle.route(fav0[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
 
         # add second show to favourit pickle
         fav1 = shows[1]['contextmenu'][1]
-        self.myEqual(fav1[0], '30200')
+        self.myEqual(fav1[0], '30009')
         handle.route(fav1[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
 
         handle.route('?show=favorites')
@@ -162,7 +162,7 @@ class TestOffline(unittest.TestCase):
 
         # check we now have delete context menu
         fav0 = shows[0]['contextmenu'][1]
-        self.myEqual(fav0[0], '30201')
+        self.myEqual(fav0[0], '30010')
         handle.route(fav0[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
 
         handle.route('?show=favorites')
