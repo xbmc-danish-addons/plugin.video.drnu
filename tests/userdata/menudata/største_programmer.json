@@ -1,16 +1,16 @@
 [
   {
-    "label": "Mørklagt 1",
-    "url": "?listVideos=/saeson/moerklagt_344631&seasons=False",
+    "label": "Sporløs 2022",
+    "url": "?listVideos=/saeson/sporloes_339134&seasons=False",
     "params": {
-      "listVideos": "/saeson/moerklagt_344631",
+      "listVideos": "/saeson/sporloes_339134",
       "seasons": "False"
     },
     "info": {
-      "title": "Mørklagt 1",
-      "plot": "I Kastrup Lufthavn står Politiets Aktionsstyrke klar. Normalt bliver de toptrænede betjente indsat, når terrorister skal anholdes, men den her dag har de fået en helt anden opgave. De skal anholde chefen for Forsvarets Efterretningstjeneste, Lars Findsen. Men hvordan endte Danmarks mest betroede spionchef med at blive fængslet, mistænkt for at røbe Danmarks dybeste hemmeligheder?",
-      "plotoutline": "Hvordan endte Lars Findsen i kløerne på Politiets Aktionsstyrke?",
-      "season": 1,
+      "title": "Sporløs 2022",
+      "plot": "Rørende programserie om danskere som går på jagt efter forsvundne slægtninge. De medvirkende håber at genskabe kontakten til nære familiemedlemmer eller finde deres biologiske rødder.",
+      "plotoutline": "Episode 2:5 | Jonas tager ud på sit livs rejse for at finde sin biologiske mor",
+      "season": 2022,
       "mediatype": "season"
     },
     "properties": {},
@@ -21,75 +21,49 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Mørklagt 1&favoritepath=344631)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Sporløs 2022&favoritepath=339134)"
       ]
     ]
   },
   {
-    "label": "Operarejsen 2",
-    "url": "?listVideos=/saeson/operarejsen_364082&seasons=False",
+    "label": "FIFA VM 2022 Målshow: Japan - Costa Rica",
+    "url": "?playVideo=344678&kids=False&idpath=/episode/fifa-vm-2022-maalshow_-japan-_-costa-rica_344678",
     "params": {
-      "listVideos": "/saeson/operarejsen_364082",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Operarejsen 2",
-      "plot": "Frederik Cilius og Rasmus Bruun får overtalt komponist Allan Gravgaard Madsen til at tage på operarejse, selvom han hader at rejse. En højkulturel, fladpandet og personlig odysse om opera og venskab.",
-      "plotoutline": "Ny sæson | Næste akt af vennernes højkulturelle og fladpandede Europa-odyssé",
-      "season": 2,
-      "mediatype": "season"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Operarejsen 2&favoritepath=364082)"
-      ]
-    ]
-  },
-  {
-    "label": "Guldfeber",
-    "url": "?listVideos=/serie/guldfeber_362295&seasons=False",
-    "params": {
-      "listVideos": "/serie/guldfeber_362295",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Guldfeber",
-      "plot": "Kenneth og Jamal er telefonsælgere hos et firma, der sælger \"grøn\" strøm. Firmaet har dog en mørk side, og råddenskaben dukker langsomt frem. Chefen er nemlig karismatisk, men utilregnelig.",
-      "plotoutline": "Ny dansk serie | Penge er en rus. Og en rus giver tømmermænd"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Guldfeber&favoritepath=362295)"
-      ]
-    ]
-  },
-  {
-    "label": "Til kamp mod spekulanterne",
-    "url": "?playVideo=372174&kids=False&idpath=/program/til-kamp-mod-spekulanterne_372174",
-    "params": {
-      "playVideo": "372174",
+      "playVideo": "344678",
       "kids": "False",
-      "idpath": "/program/til-kamp-mod-spekulanterne_372174"
+      "idpath": "/episode/fifa-vm-2022-maalshow_-japan-_-costa-rica_344678"
     },
     "info": {
-      "title": "Til kamp mod spekulanterne",
-      "plot": "Ejendommen Den Sønderjyske By på Frederiksberg skal pludselig sælges til Blackstone, verdens største kapitalfond. Lejerne tager kampen op mod overmagten og får rigtig medvind, da et gammelt skøde fra 1932 dukker op. Skødet viser sig at kunne gøre lejerne til boligmillionærer, men dilemmaerne vælter ind og truer fællesskabet og hele udlejnings-markedet på Frederiksberg. Udløber: 8. feb 2026",
-      "plotoutline": "Lejere på Frederiksberg kæmper mod verdens største kapitalfond",
-      "date": "27.02.2023",
-      "aired": "2023-02-27",
-      "year": 2023,
+      "title": "FIFA VM 2022 Målshow: Japan - Costa Rica",
+      "plot": "Japan - Costa Rica Udløber: 31. jan 2023",
+      "episode": 25,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Kettys kamp",
+    "url": "?playVideo=348584&kids=False&idpath=/program/kettys-kamp_348584",
+    "params": {
+      "playVideo": "348584",
+      "kids": "False",
+      "idpath": "/program/kettys-kamp_348584"
+    },
+    "info": {
+      "title": "Kettys kamp",
+      "plot": "Da Ketty Hjøllund mister sin mand Thorkild til den dødelige nervesygdom ALS finder hun ud af, at hun ikke er alene. Flere mistænkelige sygdomstilfælde dukker op i den midtjyske by, Grindsted, som huser en af Danmarks største forureningsskandaler. Ketty mistænker en sammenhæng mellem Thorkilds død og forureningen og starter sin egen undersøgelse. Alt imens hun finder flere nye tilfælde konkluderer myndighederne fejlagtigt, at man ikke bliver mere syg af at bo i byen, og byens borgere beder Ketty om at tie stille. Men Ketty giver ikke op før hun får vished om forureningen er skyld i hendes mands død. Udløber: 21. nov 2024",
+      "plotoutline": "Døde Kettys mand som følge af forurening i Grindsted?",
+      "date": "21.11.2022",
+      "aired": "2022-11-21",
+      "year": 2022,
       "mediatype": "tvshow"
     },
     "properties": {
@@ -103,17 +77,16 @@
     ]
   },
   {
-    "label": "Riget: Exodus 3",
-    "url": "?listVideos=/saeson/riget_-exodus_353447&seasons=False",
+    "label": "Kender Du Typen? 2022",
+    "url": "?listVideos=/saeson/kender-du-typen_297706&seasons=False",
     "params": {
-      "listVideos": "/saeson/riget_-exodus_353447",
+      "listVideos": "/saeson/kender-du-typen_297706",
       "seasons": "False"
     },
     "info": {
-      "title": "Riget: Exodus 3",
-      "plot": "Exodus",
-      "plotoutline": "Ny sæson | Lars von Triers populære kultserie fra Rigshospitalet er tilbage",
-      "season": 3,
+      "title": "Kender Du Typen? 2022",
+      "plot": "Følg DRs livsstilseksperter gætte på hvem de er på besøg hos ud fra indretningen i deres hjem.",
+      "season": 2022,
       "mediatype": "season"
     },
     "properties": {},
@@ -124,21 +97,72 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Riget: Exodus 3&favoritepath=353447)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Kender Du Typen? 2022&favoritepath=297706)"
       ]
     ]
   },
   {
-    "label": "I hus til halsen 11",
-    "url": "?listVideos=/saeson/i-hus-til-halsen_354140&seasons=False",
+    "label": "Den store veganske bagedyst",
+    "url": "?playVideo=348048&kids=False&idpath=/program/den-store-veganske-bagedyst_348048",
     "params": {
-      "listVideos": "/saeson/i-hus-til-halsen_354140",
+      "playVideo": "348048",
+      "kids": "False",
+      "idpath": "/program/den-store-veganske-bagedyst_348048"
+    },
+    "info": {
+      "title": "Den store veganske bagedyst",
+      "plot": "Fire af de dygtigste bagedystlegender mødes i én ultimativ styrkeprøve: de skal bage kager udelukkende med veganske råvarer. Det vil sige nul fløde, nul smør og nul æg! Kageinfluenceren Frederikke Wærens sætter deltagerne på en svær vegansk opgave, som kræver både teknik og kreativitet. Og særligt én deltager kommer i store vanskeligheder. Udløber: 19. nov 2023",
+      "plotoutline": "Den ultimative kagestyrkeprøve: En kage med nul fløde, smør og æg",
+      "date": "19.11.2022",
+      "aired": "2022-11-19",
+      "year": 2022,
+      "mediatype": "tvshow"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Carmen Curlers",
+    "url": "?listVideos=/serie/carmen-curlers_336307&seasons=False",
+    "params": {
+      "listVideos": "/serie/carmen-curlers_336307",
       "seasons": "False"
     },
     "info": {
-      "title": "I hus til halsen 11",
-      "plot": "Programmets eksperter får til opgave, at hjælpe familier ud af meget klemte situationer, hvor et hussalg nærmest virker utopisk. Eksperterne skal nu gøre alt hvad de kan, så familierne forhåbentlig få deres hus solgt og kan komme videre i livet.",
-      "plotoutline": "Episode 3:9 | Ønske: At bo med kæresten. Haves: Landsted med ni års liggetid",
+      "title": "Carmen Curlers",
+      "plot": "Carmen Curlers er en ny dramaserie om fantasten og iværksætteren Axel og den handlekraftige bondekone Birthe, der i 60'erne skaber Danmarks største arbejdsplads ved hjælp af en lille elektrisk papillot.",
+      "plotoutline": "Dansk dramakomedie inspireret af virkelige hændelser"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Carmen Curlers&favoritepath=336307)"
+      ]
+    ]
+  },
+  {
+    "label": "Den store bagedyst 11",
+    "url": "?listVideos=/saeson/den-store-bagedyst_336806&seasons=False",
+    "params": {
+      "listVideos": "/saeson/den-store-bagedyst_336806",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Den store bagedyst 11",
+      "plot": "10 af Danmarks bedste amatørbagere har gennem flere sæsoner kæmpet om at vinde Den store bagedyst. Bageniveauet i teltet er højt, og ambitionerne er store.",
+      "plotoutline": "Episode 6:9 | Tarte tatin og créme caramel. Deltagerne laver franske klassikere",
       "season": 11,
       "mediatype": "season"
     },
@@ -150,21 +174,21 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=I hus til halsen 11&favoritepath=354140)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Den store bagedyst 11&favoritepath=336806)"
       ]
     ]
   },
   {
-    "label": "Takeover - far og mor får magten",
-    "url": "?listVideos=/serie/takeover-_-far-og-mor-faar-magten_362316&seasons=False",
+    "label": "Danmarks stærkeste hænder",
+    "url": "?listVideos=/serie/danmarks-staerkeste-haender_342148&seasons=False",
     "params": {
-      "listVideos": "/serie/takeover-_-far-og-mor-faar-magten_362316",
+      "listVideos": "/serie/danmarks-staerkeste-haender_342148",
       "seasons": "False"
     },
     "info": {
-      "title": "Takeover - far og mor får magten",
-      "plot": "Hvad ville der ske, hvis din mor og far bestemte ALT i dit liv i 3 uger. Hvem du dater, hvem du er venner med og hvilken karrierevej, du skal vælge?\n5 modige unge, der drømmer om en forandring i deres liv, har sagt ja til at lade et hold hemmelige eksperter tage magten over deres liv i tre uger. Det, de unge ikke ved er dog, at der ikke er tale om et hold fremmede eksperter, men nogen, der kender dem rigtig godt: Deres forældre.\nNu er spørgsmålet så: Er de irriterende forældreråd stadig irriterende, selv om de kommer fra nogle hemmelige eksperter? Eller ved mor og far i virkeligheden bedst?",
-      "plotoutline": "Episode 1:8 | Hvad ville der ske, hvis din mor og far bestemte ALT i dit liv?"
+      "title": "Danmarks stærkeste hænder",
+      "plot": "Ti hårdføre arbejdere kæmper med og mod hinanden i en ny højspændt konkurrence. Men hvem af dem har Danmarks stærkeste hænder?",
+      "plotoutline": "Kan Mik og Thors Hammer-holdet få skrotten bilen hurtigst?"
     },
     "properties": {},
     "contextmenu": [
@@ -174,21 +198,21 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Takeover - far og mor får magten&favoritepath=362316)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Danmarks stærkeste hænder&favoritepath=342148)"
       ]
     ]
   },
   {
-    "label": "Ubådshændelsen 1984",
-    "url": "?listVideos=/serie/ubaadshaendelsen-1984_350620&seasons=False",
+    "label": "Ørnedræberne",
+    "url": "?listVideos=/serie/oernedraeberne_347010&seasons=False",
     "params": {
-      "listVideos": "/serie/ubaadshaendelsen-1984_350620",
+      "listVideos": "/serie/oernedraeberne_347010",
       "seasons": "False"
     },
     "info": {
-      "title": "Ubådshændelsen 1984",
-      "plot": "Sverige, november 1984. Den kolde Krig er på sit højeste. To svenske piger driver til havs i en robåd, men efter to skræmmende døgn bliver de reddet af et sovjetisk fragtskib - fjenden. Hvorfor?",
-      "plotoutline": "Hele serien | To svenske piger i havsnød. Blev de reddet af en sovjetisk ubåd?"
+      "title": "Ørnedræberne",
+      "plot": "Hvem har forgiftet fem, fredede havørne på Tåsinge? Og hvorfor? Det har journalist og fugleentusiast Zissel Kjertum-Mohr sat sig for at opklare sammen med tidligere drabschef, jens Møller Jensen",
+      "plotoutline": "Hele serien | Dansk dokumentarserie om dræbte havørne, nervegift og penge"
     },
     "properties": {},
     "contextmenu": [
@@ -198,49 +222,74 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Ubådshændelsen 1984&favoritepath=350620)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Ørnedræberne&favoritepath=347010)"
       ]
     ]
   },
   {
-    "label": "Putins kamp mod Vesten",
-    "url": "?listVideos=/serie/putins-kamp-mod-vesten_363707&seasons=False",
+    "label": "VISION: Fra knockout til millionomsætning",
+    "url": "?playVideo=345264&kids=False&idpath=/episode/vision_-fra-knockout-til-millionomsaetning_345264",
     "params": {
-      "listVideos": "/serie/putins-kamp-mod-vesten_363707",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Putins kamp mod Vesten",
-      "plot": "Ruslands invasion af Ukraine i 2022 har chokeret det meste af verden. Denne serie fortæller, hvordan Vestens ledere i årevis har kæmpet for at håndtere Vladimir Putin og hans aggressive politik.",
-      "plotoutline": "Hele serien | Fra Krim til Ukraine: Hvordan har Vestens ledere håndteret Putin?"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Putins kamp mod Vesten&favoritepath=363707)"
-      ]
-    ]
-  },
-  {
-    "label": "De danske ukrainekrigere",
-    "url": "?playVideo=371638&kids=False&idpath=/program/de-danske-ukrainekrigere_371638",
-    "params": {
-      "playVideo": "371638",
+      "playVideo": "345264",
       "kids": "False",
-      "idpath": "/program/de-danske-ukrainekrigere_371638"
+      "idpath": "/episode/vision_-fra-knockout-til-millionomsaetning_345264"
     },
     "info": {
-      "title": "De danske ukrainekrigere",
-      "plot": "Dansk dokumentar fra 2023. \n21-årige Chap har forladt Danmark og er draget frivilligt i krig i Ukraine. Uden forsikringer eller sikkerhedsnet. Nu fungerer han som finskytte sammen med sin norske makker. I Danmark agerer et frivilligt undergrundsnetværk af veteraner bagland for andre danske soldater, og hjemme hos Chaps mor ligger afskedsbrev fra hendes søn - klar til at blive åbnet, hvis det værste sker. Udløber: 20. feb 2025",
-      "plotoutline": "De har forladt Danmark og er draget frivilligt i krig i Ukraine",
-      "date": "20.02.2023",
-      "aired": "2023-02-20",
-      "year": 2023,
+      "title": "VISION: Fra knockout til millionomsætning",
+      "plot": "Hvordan skaber man en millionforretning i den benhårde modebranche? Det kan designerne Rikke Baumgarten og Helle Hestehave svare på, for de har opbygget tøjbrandet Baum und Pferdgarten, overvundet en altødelæggende krise og er i dag en absolut sværvægter i dansk mode. Udløber: 13. nov 2024",
+      "plotoutline": "Hvordan skaber man en millionforretning i den benhårde modebranche?",
+      "episode": 20,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Klostrets mørke hemmeligheder",
+    "url": "?listVideos=/serie/klostrets-moerke-hemmeligheder_334368&seasons=False",
+    "params": {
+      "listVideos": "/serie/klostrets-moerke-hemmeligheder_334368",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Klostrets mørke hemmeligheder",
+      "plot": "Straf, censur og sekterisk ledelse. Det er den virkelighed flere tidligere nonner fortæller foregik gennem årtier på Sostrup Kloster på Djursland. Beskyldningerne rettes mod lederen af klosteret, Theresa Brenninkmeijer, som i dag fortsat er abbedisse i Peru. Hvad skete der egentlig på klosteret dengang, og hvorfor skulle der gå mere end 25 år, før den katolske kirke greb ind?",
+      "plotoutline": "Hele serien | Straf og sekterisk ledelse. Hvad skete der på Sostrup Kloster?"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Klostrets mørke hemmeligheder&favoritepath=334368)"
+      ]
+    ]
+  },
+  {
+    "label": "På flugt fra Danmark",
+    "url": "?playVideo=342411&kids=False&idpath=/program/paa-flugt-fra-danmark_342411",
+    "params": {
+      "playVideo": "342411",
+      "kids": "False",
+      "idpath": "/program/paa-flugt-fra-danmark_342411"
+    },
+    "info": {
+      "title": "På flugt fra Danmark",
+      "plot": "Han flygtede som barn fra krigen i Syrien. Nu flygter han igen - væk fra Danmark, som har de strammeste regler i Europa. Hundredvis risikerer at miste deres ret til ophold i Danmark, men tør ikke vende tilbage til diktaturet i Syrien. De bliver sendt ud på en ny desperat rejse - Abdullah er en af dem.\nTilrettelæggelse: Kay Bæckmann Udløber: 24. okt 2024",
+      "plotoutline": "Abdullah og andre syrere risikerer at miste deres ret til ophold",
+      "date": "14.11.2022",
+      "aired": "2022-11-14",
+      "year": 2022,
       "mediatype": "tvshow"
     },
     "properties": {
@@ -254,18 +303,16 @@
     ]
   },
   {
-    "label": "Den klassiske musikquiz 9",
-    "url": "?listVideos=/saeson/den-klassiske-musikquiz_354156&seasons=False",
+    "label": "Verdens bedste VM",
+    "url": "?listVideos=/serie/verdens-bedste-vm_345352&seasons=False",
     "params": {
-      "listVideos": "/saeson/den-klassiske-musikquiz_354156",
+      "listVideos": "/serie/verdens-bedste-vm_345352",
       "seasons": "False"
     },
     "info": {
-      "title": "Den klassiske musikquiz 9",
-      "plot": "Hvor svært er det at genkende musik spillet bagfra? Kan man spille orkestermusik på slagtøjsinstrumenter? Og er det overhovedet muligt at bestemme et stykke musik efter bare en enkelt tone? Frederik Cilius og Mathias Hammer er holdkaptajnerne, der styrer aftenens to hold gennem udfordringerne. DR SymfoniOrkestret og dirigent Thomas Søndergård står for musikken, mens Phillip Faber er den oplagte vært, der forsøger at holde styr på løjerne.",
-      "plotoutline": "Episode 1:6 | Cilius og Hammer er tilbage med G-nøgler, gæt og grin",
-      "season": 9,
-      "mediatype": "season"
+      "title": "Verdens bedste VM",
+      "plot": "Fodboldglæden bliver udfordret, når VM i fodbold skal spilles i skyggen af korruption, brudte menneskerettigheder og døde migrantarbejdere. Nu skal fans, politikere og fodboldverdenen finde ud af, hvordan de skal tackle slutrunden i Qatar.",
+      "plotoutline": "Hele serien | Korruption og migrantarbejde: Kom bag fodboldkulisserne i Qatar"
     },
     "properties": {},
     "contextmenu": [
@@ -275,21 +322,20 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Den klassiske musikquiz 9&favoritepath=354156)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Verdens bedste VM&favoritepath=345352)"
       ]
     ]
   },
   {
-    "label": "Fodboldens usynlige syge",
-    "url": "?listVideos=/serie/fodboldens-usynlige-syge_365029&seasons=False",
+    "label": "Frank & Kastaniegaarden",
+    "url": "?listVideos=/serie/frank-and-kastaniegaarden_6954&seasons=False",
     "params": {
-      "listVideos": "/serie/fodboldens-usynlige-syge_365029",
+      "listVideos": "/serie/frank-and-kastaniegaarden_6954",
       "seasons": "False"
     },
     "info": {
-      "title": "Fodboldens usynlige syge",
-      "plot": "Tidligere spillere på kvindelandsholdet bryder fodboldens tabuer.",
-      "plotoutline": "Hele serien | Bag succes på banen kæmper flere spillere med psykiske lidelser"
+      "title": "Frank & Kastaniegaarden",
+      "plot": "I Frank & Kastaniegarden (tidligere Bonderøven) viser Frank Erichsen vejen til et liv med fokus på bæredygtighed og selvforsyning. Udgangspunktet er familielivet på Kastaniegaarden, hvor han finder på nye idéer med inspiration fra nær og fjern."
     },
     "properties": {},
     "contextmenu": [
@@ -299,144 +345,21 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Fodboldens usynlige syge&favoritepath=365029)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Frank & Kastaniegaarden&favoritepath=6954)"
       ]
     ]
   },
   {
-    "label": "Tillykke, I skal have trillinger! 3",
-    "url": "?listVideos=/saeson/tillykke-i-skal-have-trillinger_354139&seasons=False",
+    "label": "Mormor på mandejagt 2",
+    "url": "?listVideos=/saeson/mormor-paa-mandejagt_336778&seasons=False",
     "params": {
-      "listVideos": "/saeson/tillykke-i-skal-have-trillinger_354139",
+      "listVideos": "/saeson/mormor-paa-mandejagt_336778",
       "seasons": "False"
     },
     "info": {
-      "title": "Tillykke, I skal have trillinger! 3",
-      "plot": "Trillingerne er tilbage. Uanset om børnene er nyfødte eller tumlinger, er livet med trillinger både sjovt, sårbart og sindssygt hårdt. Og hverdagen bliver aldrig som man forventer!",
-      "plotoutline": "Episode 7:7 | Nyt job, nyt liv: tidlige morgener og trætte børn i ulvetimen",
-      "season": 3,
-      "mediatype": "season"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Tillykke, I skal have trillinger! 3&favoritepath=354139)"
-      ]
-    ]
-  },
-  {
-    "label": "Kender Du Typen? 2023",
-    "url": "?listVideos=/saeson/kender-du-typen_361792&seasons=False",
-    "params": {
-      "listVideos": "/saeson/kender-du-typen_361792",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Kender Du Typen? 2023",
-      "plot": "Følg DRs livsstilseksperter gætte på hvem de er på besøg hos ud fra indretningen i deres hjem.",
-      "season": 2023,
-      "mediatype": "season"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Kender Du Typen? 2023&favoritepath=361792)"
-      ]
-    ]
-  },
-  {
-    "label": "Kontant 2023",
-    "url": "?listVideos=/saeson/kontant_365013&seasons=False",
-    "params": {
-      "listVideos": "/saeson/kontant_365013",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Kontant 2023",
-      "plot": "Kontant er forbrugermagasinet, som undersøger væsentlige emner, der berører danskerne og deres pengepung. Redaktionen modtager omkring 5000 henvendelser om året og har stærkt fokus på forbrugernes dagsorden. Programmet tager forbrugernes klager op og følger historierne helt til dørs.\nwww.dr.dk/kontant",
-      "season": 2023,
-      "mediatype": "season"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Kontant 2023&favoritepath=365013)"
-      ]
-    ]
-  },
-  {
-    "label": "Atomkraft - ja tak!",
-    "url": "?listVideos=/serie/atomkraft-_-ja-tak_363112&seasons=False",
-    "params": {
-      "listVideos": "/serie/atomkraft-_-ja-tak_363112",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Atomkraft - ja tak!",
-      "plot": "Anders Lund Madsen har altid været stor modstander af kernekraft. Men energikrise, krig og klimaforandringer har nu bragt ham i tvivl. For hvad nu hvis det faktisk er en del af løsningen?",
-      "plotoutline": "Hele serien | Anders Lund Madsen har altid været imod A-kraft, men nu tvivler han"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Atomkraft - ja tak!&favoritepath=363112)"
-      ]
-    ]
-  },
-  {
-    "label": "Danmarks næste klassiker",
-    "url": "?listVideos=/serie/danmarks-naeste-klassiker_83117&seasons=False",
-    "params": {
-      "listVideos": "/serie/danmarks-naeste-klassiker_83117",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Danmarks næste klassiker",
-      "plot": "Fem fantastisk dygtige møbeldesignere skal forsøge at skabe Danmarks næste klassiker - og de får deres sag for, når de skal kreere alt lige fra stole og borde til lamper og børnemøbler."
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Danmarks næste klassiker&favoritepath=83117)"
-      ]
-    ]
-  },
-  {
-    "label": "Forsvundet 2",
-    "url": "?listVideos=/saeson/forsvundet_354968&seasons=False",
-    "params": {
-      "listVideos": "/saeson/forsvundet_354968",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Forsvundet 2",
-      "plot": "Serien \"Forsvundet\" tegner et portræt af foreningen Missing People, der er drevet af at hjælpe pårørende, som står i deres livs sværeste situation.",
-      "plotoutline": "Ny sæson | Ildsjælene i Missing People leder efter mennesker, der er forsvundet",
+      "title": "Mormor på mandejagt 2",
+      "plot": "Kan man finde den store kærlighed, når man er i livets efterår?",
+      "plotoutline": "Episode 1:6 | Fire modne kvinder går på jagt efter drømmemanden",
       "season": 2,
       "mediatype": "season"
     },
@@ -448,7 +371,81 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Forsvundet 2&favoritepath=354968)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Mormor på mandejagt 2&favoritepath=336778)"
+      ]
+    ]
+  },
+  {
+    "label": "Gintberg på kanten 8",
+    "url": "?listVideos=/saeson/gintberg-paa-kanten_336777&seasons=False",
+    "params": {
+      "listVideos": "/saeson/gintberg-paa-kanten_336777",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Gintberg på kanten 8",
+      "plot": "Følg Jan Ginberg på hans antropologiske rundrejser.",
+      "plotoutline": "Episode 1:6 | Sherif og samtidskunst. Jan undersøger Lemvigs kulturperler",
+      "season": 8,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Gintberg på kanten 8&favoritepath=336777)"
+      ]
+    ]
+  },
+  {
+    "label": "Feldthaus & Bagger taber masken",
+    "url": "?listVideos=/serie/feldthaus-and-bagger-taber-masken_340187&seasons=False",
+    "params": {
+      "listVideos": "/serie/feldthaus-and-bagger-taber-masken_340187",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Feldthaus & Bagger taber masken",
+      "plot": "Danmarks største strikkerebel og strikdesigner, Lærke Bagger, og Danmarks mest kendte livsstilsekspert og i øvrigt passionerede hobbystrikker, Christine Feldthaus, tager på en rejse i Norden.",
+      "plotoutline": "Hele serien | Tag med rebellen og livsstilseksperten på strikketogt til Norden"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Feldthaus & Bagger taber masken&favoritepath=340187)"
+      ]
+    ]
+  },
+  {
+    "label": "Bad Bitch",
+    "url": "?listVideos=/serie/bad-bitch_343915&seasons=False",
+    "params": {
+      "listVideos": "/serie/bad-bitch_343915",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Bad Bitch",
+      "plot": "For Nikki skal hver dag være en fest med cornrows, cocktails og casual sex. Hun arbejder som frisør på afrosalonen Crown med sine to bedste venner Pascal og Gaia. En dag møder Nikki sin barndomsven Ade, og en mulig romance cockblocker hendes ellers frigjorte liv. Mødet puster samtidig til nogle undertrykte følelser. For selv om Nikki har totalt styr på sit job, sit hår og sit sexliv, er der kaos indeni.",
+      "plotoutline": "Hele serien | Nikki har styr på jobbet, håret og sexlivet, men der er kaos indeni"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Bad Bitch&favoritepath=343915)"
       ]
     ]
   },
@@ -462,7 +459,7 @@
     "info": {
       "title": "SEX MED P3",
       "plot": "Hvordan ser en ægte orgasme ud, hvad gør man, når pikken ikke virker, og hvad sker der egentlig med det der herpes? I SEX MED P3 er vi ikke generte. Vi viser alt og taler om alt. Intet er for simpelt, for pinligt eller for meget. SEX MED P3 fortæller om alt det, alle burde vide om sex.",
-      "plotoutline": "Hvad er sexlegetøj, og hvad kan det?"
+      "plotoutline": "Episode 7:10 | Godt? Dårligt? Grænseoverskridende? Hvad indebærer analsex?"
     },
     "properties": {},
     "contextmenu": [
@@ -477,45 +474,17 @@
     ]
   },
   {
-    "label": "Kriminelt: Angrebet i Field's (1:2)",
-    "url": "?playVideo=366588&kids=False&idpath=/episode/kriminelt_-angrebet-i-fields-_1_2__366588",
+    "label": "Kontant 2022",
+    "url": "?listVideos=/saeson/kontant_294266&seasons=False",
     "params": {
-      "playVideo": "366588",
-      "kids": "False",
-      "idpath": "/episode/kriminelt_-angrebet-i-fields-_1_2__366588"
-    },
-    "info": {
-      "title": "Kriminelt: Angrebet i Field's (1:2)",
-      "plot": "Sofie ser manden med riflen i øjnene og fryser. Hun kan ikke bevæge sig. Ambulanceredderen Thomas løber mod strømmen af mennesker, der flygter ud fra Field's. Han skal ind uden at vide, hvad der møder ham. Vært: Trine Maria Ilsøe. Udløber: 2. mar 2025",
-      "plotoutline": "Episode 1:2 | En ambulanceredder og en ung kvinde befandt sig midt i angrebet",
-      "date": "02.03.2023",
-      "aired": "2023-03-02",
-      "year": 2023,
-      "episode": 1,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Løvens Hule 8",
-    "url": "?listVideos=/saeson/loevens-hule_354147&seasons=False",
-    "params": {
-      "listVideos": "/saeson/loevens-hule_354147",
+      "listVideos": "/saeson/kontant_294266",
       "seasons": "False"
     },
     "info": {
-      "title": "Løvens Hule 8",
-      "plot": "Løverne er klar til at investere i nye, modige iværksættere. Kløerne er hvæssede og løverne overbyder hinanden for at komme til at investere i de bedste danske iværksættere.",
-      "plotoutline": "Episode 1:9 | To kampklare nye løver: Hvem løber med de bedste investeringer?",
-      "season": 8,
+      "title": "Kontant 2022",
+      "plot": "Kontant er forbrugermagasinet, som undersøger væsentlige emner, der berører danskerne og deres pengepung. Redaktionen modtager omkring 5000 henvendelser om året og har stærkt fokus på forbrugernes dagsorden. Programmet tager forbrugernes klager op og følger historierne helt til dørs.",
+      "plotoutline": "En virksomhed fjerner asbest under livsfarlige arbejdsforhold",
+      "season": 2022,
       "mediatype": "season"
     },
     "properties": {},
@@ -526,21 +495,21 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Løvens Hule 8&favoritepath=354147)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Kontant 2022&favoritepath=294266)"
       ]
     ]
   },
   {
-    "label": "FredagsTamTam",
-    "url": "?listVideos=/serie/fredagstamtam_357146&seasons=False",
+    "label": "Curlerkongen - historien om en dansk verdenssucces",
+    "url": "?listVideos=/serie/curlerkongen-_-historien-om-en-dansk-verdenssucces_340040&seasons=False",
     "params": {
-      "listVideos": "/serie/fredagstamtam_357146",
+      "listVideos": "/serie/curlerkongen-_-historien-om-en-dansk-verdenssucces_340040",
       "seasons": "False"
     },
     "info": {
-      "title": "FredagsTamTam",
-      "plot": "Mød kyllingen Karla, de Mesterlige Monsterbørn, Den gule yeti og Tom & Jerry når TamTam serverer en fantastisk blanding af helt nye og klassiske tegnefilm for børn og deres forældre.",
-      "plotoutline": "En fantastisk blanding af helt nye og klassiske tegnefilm"
+      "title": "Curlerkongen - historien om en dansk verdenssucces",
+      "plot": "Se den virkelige historie bag Carmen Curlers. Husmandssønnen Arne Bybjerg Pedersen stod i 1960'erne bag én af Danmarkshistoriens største og hurtigst voksende eksportsuccesser, da han besluttede at investere alt hvad han ejede, i udviklingen af elektriske papillotter, som skulle revolutionere hårmoden.",
+      "plotoutline": "Hele serien | Se den virkelige historie om Arne Bybjerg og Carmen Curlers"
     },
     "properties": {},
     "contextmenu": [
@@ -550,21 +519,46 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=FredagsTamTam&favoritepath=357146)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Curlerkongen - historien om en dansk verdenssucces&favoritepath=340040)"
       ]
     ]
   },
   {
-    "label": "Tæt på sandheden med Jonatan Spang 10",
-    "url": "?listVideos=/saeson/taet-paa-sandheden-med-jonatan-spang_361812&seasons=False",
+    "label": "Max Kapacitet - Krypto, oprør og frihed",
+    "url": "?listVideos=/serie/max-kapacitet-_-krypto-oproer-og-frihed_347002&seasons=False",
     "params": {
-      "listVideos": "/saeson/taet-paa-sandheden-med-jonatan-spang_361812",
+      "listVideos": "/serie/max-kapacitet-_-krypto-oproer-og-frihed_347002",
       "seasons": "False"
     },
     "info": {
-      "title": "Tæt på sandheden med Jonatan Spang 10",
-      "plot": "Comedyshow, hvor ugens nyheder og tidsaktuelle tendenser tages under kærlig, men bestemt behandling af Jonatan Spang.",
-      "season": 10,
+      "title": "Max Kapacitet - Krypto, oprør og frihed",
+      "plot": "For mange er krypto forbundet med svindel, usikkerhed og risiko, for andre er det fremtiden. I Max Kapacitet møder vi de unge, som kæmper for at finde deres plads i den nye krypto-virkelighed. Fyldt til randen med drømme, rebelskhed og idealisme tager seriens karakterer os rundt i en ny verden, hvor tankerne er store, risikoen endnu større, og intet er, som det plejer.",
+      "plotoutline": "Hele serien | Risici og rebelskhed: Følg unge i den nye krypto-virkelighed"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Max Kapacitet - Krypto, oprør og frihed&favoritepath=347002)"
+      ]
+    ]
+  },
+  {
+    "label": "Tæt på sandheden med Jonatan Spang 9",
+    "url": "?listVideos=/saeson/taet-paa-sandheden-med-jonatan-spang_333091&seasons=False",
+    "params": {
+      "listVideos": "/saeson/taet-paa-sandheden-med-jonatan-spang_333091",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Tæt på sandheden med Jonatan Spang 9",
+      "plot": "Comedyshow hvor ugens nyheder og tidsaktuelle tendenser tages under kærlig, men bestemt behandling af Jonatan Spang.",
+      "plotoutline": "Jonatan Spang kaster nyhederne en tur i den satiriske vridemølle",
+      "season": 9,
       "mediatype": "season"
     },
     "properties": {},
@@ -575,21 +569,22 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Tæt på sandheden med Jonatan Spang 10&favoritepath=361812)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Tæt på sandheden med Jonatan Spang 9&favoritepath=333091)"
       ]
     ]
   },
   {
-    "label": "Den store juniorbagedyst 3",
-    "url": "?listVideos=/saeson/den-store-juniorbagedyst_365857&seasons=False",
+    "label": "Guru 2",
+    "url": "?listVideos=/saeson/guru_345109&seasons=False",
     "params": {
-      "listVideos": "/saeson/den-store-juniorbagedyst_365857",
+      "listVideos": "/saeson/guru_345109",
       "seasons": "False"
     },
     "info": {
-      "title": "Den store juniorbagedyst 3",
-      "plot": "Joakim Ingversen styrer slagets gang, når otte unge bagetalenter fra 12-15 år for første gang skal dyste i kagebagning.",
-      "season": 3,
+      "title": "Guru 2",
+      "plot": "Komediedramaet Guru er historien om life-coachen Andreas Mertz (Simon Kvamm), der vender hjem til sin barndomsby Silkeborg for at give silkeborgenserne modet til at tage deres skæbne i egen hånd.\nMed sit intense coachingprogram \"Gå selv\" og bogudgivelsen \"Silkeborgvejen\", følger vi den selvudnævnte supercoach i sin indædte mission på at forvandle byens indbyggere, og i særdeleshed sin gamle barndomsven Ralph.",
+      "plotoutline": "Ny sæson | Gode intentioner, men håbløs forretningssans. Lifecoachen er tilbage",
+      "season": 2,
       "mediatype": "season"
     },
     "properties": {},
@@ -600,7 +595,55 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Den store juniorbagedyst 3&favoritepath=365857)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Guru 2&favoritepath=345109)"
+      ]
+    ]
+  },
+  {
+    "label": "Matchet på Mælkevejen 2",
+    "url": "?listVideos=/saeson/matchet-paa-maelkevejen_348588&seasons=False",
+    "params": {
+      "listVideos": "/saeson/matchet-paa-maelkevejen_348588",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Matchet på Mælkevejen 2",
+      "plot": "8 singler har endnu engang sagt ja til at se, om stjernerne kan hjælpe dem med at finde kærligheden. De 4 par er blevet matchet ud fra deres fødselshoroskoper og skal date i tre uger. Det er dog ikke helt let at finde ind til kærligheden på så kort tid, for hvor ærlig og åben tør man være overfor en blinddate, man lige har mødt? Undervejs bliver de små følelser kæmpestore, hvilket skaber både konflikter og flirt. Til sidst skal parrene beslutte om de stadig vil date deres match, og her vil det vise sig, om der er opstået kærlighed mellem to fremmede, som er Matchet på Mælkevejen.",
+      "season": 2,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Matchet på Mælkevejen 2&favoritepath=348588)"
+      ]
+    ]
+  },
+  {
+    "label": "FodboldlistenTV",
+    "url": "?listVideos=/serie/fodboldlistentv_349513&seasons=False",
+    "params": {
+      "listVideos": "/serie/fodboldlistentv_349513",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "FodboldlistenTV",
+      "plot": "FodboldlistenTV"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=FodboldlistenTV&favoritepath=349513)"
       ]
     ]
   }

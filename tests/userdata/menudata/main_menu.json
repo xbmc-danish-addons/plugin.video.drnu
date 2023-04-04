@@ -16,9 +16,9 @@
   },
   {
     "label": "Programmer A-Å",
-    "url": "?listVideos=/a-aa",
+    "url": "?listVideos=/kategorier/a-aa",
     "params": {
-      "listVideos": "/a-aa"
+      "listVideos": "/kategorier/a-aa"
     },
     "info": {},
     "properties": {},
@@ -31,9 +31,9 @@
   },
   {
     "label": "Daglige forslag",
-    "url": "?listVideos=/liste/drtv-hero-sunday-18_00_88225",
+    "url": "?listVideos=/liste/drtv-hero-sunday-06_00_97173",
     "params": {
-      "listVideos": "/liste/drtv-hero-sunday-18_00_88225"
+      "listVideos": "/liste/drtv-hero-sunday-06_00_97173"
     },
     "info": {},
     "properties": {},
@@ -60,10 +60,25 @@
     ]
   },
   {
-    "label": "Nyhedsoverblik",
-    "url": "?listVideos=/liste/363452",
+    "label": "VM-kampe live på DRTV",
+    "url": "?listVideos=/liste/351527",
     "params": {
-      "listVideos": "/liste/363452"
+      "listVideos": "/liste/351527"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Nyhedsoverblik",
+    "url": "?listVideos=/liste/247661",
+    "params": {
+      "listVideos": "/liste/247661"
     },
     "info": {},
     "properties": {},
@@ -105,10 +120,10 @@
     ]
   },
   {
-    "label": "Mest sete film",
-    "url": "?listVideos=/liste/370334",
+    "label": "Kom i julestemning",
+    "url": "?listVideos=/liste/149973",
     "params": {
-      "listVideos": "/liste/370334"
+      "listVideos": "/liste/149973"
     },
     "info": {},
     "properties": {},
@@ -120,10 +135,10 @@
     ]
   },
   {
-    "label": "Hygge og underholdning",
-    "url": "?listVideos=/liste/374012",
+    "label": "Seneste film på DRTV",
+    "url": "?listVideos=/liste/345124",
     "params": {
-      "listVideos": "/liste/374012"
+      "listVideos": "/liste/345124"
     },
     "info": {},
     "properties": {},
@@ -150,6 +165,21 @@
     ]
   },
   {
+    "label": "Krimifilm",
+    "url": "?listVideos=/liste/350872",
+    "params": {
+      "listVideos": "/liste/350872"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
     "label": "Det bedste fra P3 lige nu",
     "url": "?listVideos=/liste/307904",
     "params": {
@@ -165,7 +195,7 @@
     ]
   },
   {
-    "label": "Mest sete",
+    "label": "Mest sete på DRTV",
     "url": "?listVideos=/liste/115522",
     "params": {
       "listVideos": "/liste/115522"
@@ -180,7 +210,7 @@
     ]
   },
   {
-    "label": "Netop tilføjet",
+    "label": "Senest tilføjet",
     "url": "?listVideos=/liste/171678",
     "params": {
       "listVideos": "/liste/171678"
@@ -225,10 +255,10 @@
     ]
   },
   {
-    "label": "Store og episke serier",
-    "url": "?listVideos=/liste/244416",
+    "label": "Udenlandsk krimi",
+    "url": "?listVideos=/liste/216440",
     "params": {
-      "listVideos": "/liste/244416"
+      "listVideos": "/liste/216440"
     },
     "info": {},
     "properties": {},
@@ -240,10 +270,10 @@
     ]
   },
   {
-    "label": "Nervepirrende og fascinerende serier",
-    "url": "?listVideos=/liste/244426",
+    "label": "Serier fra P3",
+    "url": "?listVideos=/liste/244420",
     "params": {
-      "listVideos": "/liste/244426"
+      "listVideos": "/liste/244420"
     },
     "info": {},
     "properties": {},
