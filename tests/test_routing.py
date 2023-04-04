@@ -27,7 +27,7 @@ handle._plugin_handle = {}
 
 main_menu_js = json.loads((menudata/'main_menu.json').read_text())
 
-UPDATE_TESTS = True
+UPDATE_TESTS = False
 
 
 def get_items():
