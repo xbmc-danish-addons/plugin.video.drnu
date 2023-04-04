@@ -23,6 +23,7 @@ import pickle
 import traceback
 import time
 import urllib.parse as urlparse
+from packaging.version import Version
 
 import xbmc
 import xbmcaddon
@@ -132,11 +133,13 @@ class DrDkTvAddon(object):
                 pass
 
     def _version_change_fixes(self):
-        first_run, settings_version, settings_tuple = self._version_check()
+        first_run, settings_version, settings_V, addon_V = self._version_check()
         if first_run:
             if settings_version == '' and kodi_version_major() <= 19:
                 # kodi matrix subtitle handling https://github.com/xbmc/inputstream.adaptive/issues/1037
                 set_setting('enable.localsubtitles', 'true')
+            elif addon_V.base_version == '6.2.0' and kodi_version_major() == 20:
+                set_setting('enable.localsubtitles', 'false')
 
     def _version_check(self):
         # Get version from settings.xml
@@ -146,15 +149,15 @@ class DrDkTvAddon(object):
         addon_version = get_addon_info('version')
 
         # Compare versions (settings_version was not present in version 6.0.2 and older)
-        settings_tuple = tuple(map(int, settings_version.split('+')[0].split('.'))) if settings_version != '' else (6, 0, 2)
-        addon_tuple = tuple(map(int, addon_version.split('+')[0].split('.')))
+        settings_V = Version(settings_version) if settings_version != '' else Version('6.0.2')
+        addon_V = Version(addon_version)
 
-        if addon_tuple > settings_tuple:
+        if addon_V > settings_V:
             # New version found, save addon version to settings
             set_setting('version', addon_version)
-            return True, settings_version, settings_tuple
+            return True, settings_version, settings_V, addon_V
 
-        return False, settings_version, settings_tuple
+        return False, settings_version, settings_V, addon_V
 
     def showAreaSelector(self):
         if bool_setting('use.simpleareaitem'):
