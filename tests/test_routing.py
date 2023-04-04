@@ -18,6 +18,9 @@ inputstreamhelper = __import__('inputstreamhelper')
 plugin_url = 'plugin://plugin.video.drnu/'
 
 userdata = Path(addon.translatePath(addon.addon.getAddonInfo('profile')))
+if (userdata/'favorites6.pickle').exists():
+    (userdata/'favorites6.pickle').unlink()
+
 menudata = (userdata/'menudata')
 menudata.mkdir(parents=True, exist_ok=True)
 
