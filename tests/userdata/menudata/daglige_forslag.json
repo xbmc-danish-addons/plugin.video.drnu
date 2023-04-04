@@ -1,16 +1,182 @@
 [
   {
-    "label": "Matchet på Mælkevejen: Modsætninger mødes, men kan der opstå sød musik?",
-    "url": "?playVideo=348594&kids=False&idpath=/episode/matchet-paa-maelkevejen_-modsaetninger-moedes-men-kan-der-opstaa-soed-musik_348594",
+    "label": "Den store juniorbagedyst: Store spilledag",
+    "url": "?playVideo=369075&kids=False&idpath=/episode/den-store-juniorbagedyst_-store-spilledag_369075",
     "params": {
-      "playVideo": "348594",
+      "playVideo": "369075",
       "kids": "False",
-      "idpath": "/episode/matchet-paa-maelkevejen_-modsaetninger-moedes-men-kan-der-opstaa-soed-musik_348594"
+      "idpath": "/episode/den-store-juniorbagedyst_-store-spilledag_369075"
     },
     "info": {
-      "title": "Matchet på Mælkevejen: Modsætninger mødes, men kan der opstå sød musik?",
-      "plot": "Rodehovedet Magnus er til chilidip og forårsruller fra Netto. Nu skal han for første gang møde sit astrologiske match Jacob, som kan lide orden og god mad. Modsætninger mødes, men kan der opstå sød musik? Matchet Lasse og Rikke gør sig klar til at møde hinanden, men Lasse bliver usikker på, hvad det er, han har kastet sig ud i. Udløber: 27. nov 2024",
-      "plotoutline": "Episode 1:8 | Kan astrologien hjælpe otte nye singler med at finde kærligheden? ",
+      "title": "Den store juniorbagedyst: Store spilledag",
+      "plot": "Der bliver gamblet i bageteltet, når juniorbagerne bliver kastet ud i at skulle bage deres yndlingsspil. I den hemmelige udfordring skal der bages korthuse, men det er ikke let at bygge et hus med rystende hænder. Udløber: 31. jan 2025",
+      "plotoutline": "Episode 2:6 | Det er ikke let at bygge et kage-korthus med rystende hænder",
+      "date": "04.03.2023",
+      "aired": "2023-03-04",
+      "year": 2023,
+      "episode": 2,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Tæt på sandheden med Jonatan Spang: LAN-party i provinsen",
+    "url": "?playVideo=361817&kids=False&idpath=/episode/taet-paa-sandheden-med-jonatan-spang_-lan_party-i-provinsen_361817",
+    "params": {
+      "playVideo": "361817",
+      "kids": "False",
+      "idpath": "/episode/taet-paa-sandheden-med-jonatan-spang_-lan_party-i-provinsen_361817"
+    },
+    "info": {
+      "title": "Tæt på sandheden med Jonatan Spang: LAN-party i provinsen",
+      "plot": "I kølvandet på balladen om Store Bededag er den yderste højrefløj begyndt at bekrige hinanden med beskyldninger om trumpistiske løgne, mens regeringen endnu en gang rækker hånden ud til provinsen, der bliver holdt kunstigt i live af Mettes naturlov - og så har Ellemanns sygemelding fået den politiske klagesang til at lyde. Men hvem kunne mon ændre den slags arbejdsforhold? Og er cyberangreb overhovedet noget vi skal frygte, hvis det bare betyder et par timers utilgængelige hjemmesider? Udløber: 4. mar 2024",
+      "plotoutline": "Nyheder og tidsaktuelle tendenser. Få dit ugentlige satirefix",
+      "date": "04.03.2023",
+      "aired": "2023-03-04",
+      "year": 2023,
+      "episode": 6,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Natrytterne",
+    "url": "?listVideos=/serie/natrytterne_365838&seasons=False",
+    "params": {
+      "listVideos": "/serie/natrytterne_365838",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Natrytterne",
+      "plot": "Molly får job på et ridecenter. Hun føler, at hun er kommet til paradis, men ikke alt er, som det skal være på rideskolen. Dramaserie baseret på hændelser, der skete på et svensk ridecenter i 90'erne.",
+      "plotoutline": "Hele serien | Molly får job på et ridecenter – hvor ikke alt er, som det skal være"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Natrytterne&favoritepath=365838)"
+      ]
+    ]
+  },
+  {
+    "label": "Løvens Hule: Hvor ofte vasker du sengetøj?",
+    "url": "?playVideo=362004&kids=False&idpath=/episode/loevens-hule_-hvor-ofte-vasker-du-sengetoej_362004",
+    "params": {
+      "playVideo": "362004",
+      "kids": "False",
+      "idpath": "/episode/loevens-hule_-hvor-ofte-vasker-du-sengetoej_362004"
+    },
+    "info": {
+      "title": "Løvens Hule: Hvor ofte vasker du sengetøj?",
+      "plot": "Da iværksætteren Tobias fortæller sin rørende livshistorie, er alle Løverne enige om, at han har brug for hjælp til sin virksomhed. Men Løvernes interne alliancer udfordres, da de bliver præsenteret for sengetøj, der reducerer mængden af bakterier, så man kan vaske mindre. Udløber: 5. jan 2024",
+      "plotoutline": "Episode 8:9 | Sengetøj med færre bakterier udfordrer Løvernes interne alliancer",
+      "date": "02.03.2023",
+      "aired": "2023-03-02",
+      "year": 2023,
+      "episode": 8,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "FredagsTamTam (9. episode)",
+    "url": "?playVideo=371671&kids=True&idpath=/episode/fredagstamtam_371671",
+    "params": {
+      "playVideo": "371671",
+      "kids": "True",
+      "idpath": "/episode/fredagstamtam_371671"
+    },
+    "info": {
+      "title": "FredagsTamTam (9. episode)",
+      "plot": "Mød kyllingen Karla, de Mesterlige Monsterbørn, den gule Yeti og Tom & Jerry, når TamTam serverer en fantastisk blanding af helt nye og klassiske tegnefilm for børn og deres forældre. Udløber: 10. mar 2023",
+      "plotoutline": "Gør klar til fredagshygge med Karla, Yetien og monsterbørnene",
+      "date": "03.03.2023",
+      "aired": "2023-03-03",
+      "year": 2023,
+      "episode": 9,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Diamanter: Den smukkeste løgn",
+    "url": "?playVideo=369076&kids=False&idpath=/program/diamanter_-den-smukkeste-loegn_369076",
+    "params": {
+      "playVideo": "369076",
+      "kids": "False",
+      "idpath": "/program/diamanter_-den-smukkeste-loegn_369076"
+    },
+    "info": {
+      "title": "Diamanter: Den smukkeste løgn",
+      "plot": "Amerikansk dokumentar fra 2022.\n(Nothing Lasts Forever)\nDe er symbolet på troskab, rigdom og kærlighed. Diamanter. Funklende ædelstene, som normalt dannes dybt nede i jorden. Men som nu kan massefremstilles på en fabrik. De syntetiske diamanter er langt billigere end de naturlige sten. De er også smukkere. Og en stor trussel for den traditionelle diamant-industri. Her dykker vi ned i diamantindustriens hemmeligheder. Kan du skelne den ægte vare fra en falsk? Og hvad hvis forskellen ikke længere betyder noget? Udløber: 10. jan 2026",
+      "plotoutline": "Syntetiske sten er en trussel mod den traditionelle diamantindustri",
+      "date": "05.03.2023",
+      "aired": "2023-03-05",
+      "year": 2023,
+      "mediatype": "tvshow"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Kriminelt: Angrebet i Field's (1:2)",
+    "url": "?playVideo=366588&kids=False&idpath=/episode/kriminelt_-angrebet-i-fields-_1_2__366588",
+    "params": {
+      "playVideo": "366588",
+      "kids": "False",
+      "idpath": "/episode/kriminelt_-angrebet-i-fields-_1_2__366588"
+    },
+    "info": {
+      "title": "Kriminelt: Angrebet i Field's (1:2)",
+      "plot": "Sofie ser manden med riflen i øjnene og fryser. Hun kan ikke bevæge sig. Ambulanceredderen Thomas løber mod strømmen af mennesker, der flygter ud fra Field's. Han skal ind uden at vide, hvad der møder ham. Vært: Trine Maria Ilsøe. Udløber: 2. mar 2025",
+      "plotoutline": "Episode 1:2 | En ambulanceredder og en ung kvinde befandt sig midt i angrebet",
+      "date": "02.03.2023",
+      "aired": "2023-03-02",
+      "year": 2023,
       "episode": 1,
       "mediatype": "episode"
     },
@@ -25,67 +191,17 @@
     ]
   },
   {
-    "label": "TV AVISEN: Coronaprotester i Kina",
-    "url": "?playVideo=301940&kids=False&idpath=/kanal/192099",
+    "label": "SEX MED P3: Skal vi bare bolle?",
+    "url": "?playVideo=356645&kids=False&idpath=/episode/sex-med-p3_-skal-vi-bare-bolle_356645",
     "params": {
-      "playVideo": "301940",
+      "playVideo": "356645",
       "kids": "False",
-      "idpath": "/kanal/192099"
+      "idpath": "/episode/sex-med-p3_-skal-vi-bare-bolle_356645"
     },
     "info": {
-      "title": "TV AVISEN: Coronaprotester i Kina"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Guru 2",
-    "url": "?listVideos=/saeson/guru_345109&seasons=False",
-    "params": {
-      "listVideos": "/saeson/guru_345109",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Guru 2",
-      "plot": "Komediedramaet Guru er historien om life-coachen Andreas Mertz (Simon Kvamm), der vender hjem til sin barndomsby Silkeborg for at give silkeborgenserne modet til at tage deres skæbne i egen hånd.\nMed sit intense coachingprogram \"Gå selv\" og bogudgivelsen \"Silkeborgvejen\", følger vi den selvudnævnte supercoach i sin indædte mission på at forvandle byens indbyggere, og i særdeleshed sin gamle barndomsven Ralph.",
-      "plotoutline": "Ny sæson | Gode intentioner, men håbløs forretningssans. Lifecoachen er tilbage",
-      "season": 2,
-      "mediatype": "season"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Guru 2&favoritepath=345109)"
-      ]
-    ]
-  },
-  {
-    "label": "Tæt på sandheden med Jonatan Spang: Splitte mine bramsejl",
-    "url": "?playVideo=346997&kids=False&idpath=/episode/taet-paa-sandheden-med-jonatan-spang_-splitte-mine-bramsejl_346997",
-    "params": {
-      "playVideo": "346997",
-      "kids": "False",
-      "idpath": "/episode/taet-paa-sandheden-med-jonatan-spang_-splitte-mine-bramsejl_346997"
-    },
-    "info": {
-      "title": "Tæt på sandheden med Jonatan Spang: Splitte mine bramsejl",
-      "plot": "Ved VM har FIFA-præsidenten med en mærkværdig tale om at være rødhåret forsøgt at dysse kritikken af værtsnationen ned, mens en usædvanlig retssag om en uheldig pirat får Jonatan til at splitte sine bramsejl. Regeringsforhandlingerne er til gengæld endelig startet efter tre ugers hyggesnak, men hvad er motivet mon for en regering over midten? Og mens krigen i Ukraine stadig raser, bliver Danmark endnu en gang kritiseret af NATO i en censureret rapport, der får Camilla Boraghi til at lege med tanken om at immigrere til Sverige. Udløber: 22. nov 2023",
-      "plotoutline": "Et satirisk blik på ugens største politiske og kulturelle nyheder",
-      "date": "26.11.2022",
-      "aired": "2022-11-26",
-      "year": 2022,
+      "title": "SEX MED P3: Skal vi bare bolle?",
+      "plot": "Her er reglerne for bollevenner og onenightstands, så du får større succes med et sexliv uden strings. For det  kan være kompliceret at have sex uden forpligtelser. Skal du fortælle, hvis du også boller med andre? Skal du blive og spise morgenmad, eller må du gå, før den anden vågner? Skal du tydeligt sige, at du kun vil have sex, eller er det et kæmpe turn off? Og kan sex og følelser overhovedet adskilles? Udløber: 3. mar 2025",
+      "plotoutline": "Episode 5:10 | Kan du adskille sex og følelser? ",
       "episode": 15,
       "mediatype": "episode"
     },
@@ -100,20 +216,67 @@
     ]
   },
   {
-    "label": "FodboldlistenTV: VM's fem fedeste typer!",
-    "url": "?playVideo=349516&kids=False&idpath=/episode/fodboldlistentv_-vms-fem-fedeste-typer_349516",
+    "label": "TV AVISEN: Flere ældre bliver svindlet",
+    "url": "?playVideo=301940&kids=False&idpath=/kanal/192099",
     "params": {
-      "playVideo": "349516",
+      "playVideo": "301940",
       "kids": "False",
-      "idpath": "/episode/fodboldlistentv_-vms-fem-fedeste-typer_349516"
+      "idpath": "/kanal/192099"
     },
     "info": {
-      "title": "FodboldlistenTV: VM's fem fedeste typer!",
-      "plot": "VM-underholdning i verdensklasse. I 'FodboldlistenTV' er passionen brasiliansk, grundigheden er tysk og storhedsvanviddet er amerikansk. Tobias Hansen og Francis Dickoh giver dig navnene på slutrundens fem mest uundværlige spillere. Udløber: 31. dec 2022",
-      "plotoutline": "Tobias og Francis finder de spillere, du ikke vidste, du elskede",
-      "date": "27.11.2022",
-      "aired": "2022-11-27",
-      "year": 2022,
+      "title": "TV AVISEN: Flere ældre bliver svindlet"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Forsvundet 2",
+    "url": "?listVideos=/saeson/forsvundet_354968&seasons=False",
+    "params": {
+      "listVideos": "/saeson/forsvundet_354968",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Forsvundet 2",
+      "plot": "Serien \"Forsvundet\" tegner et portræt af foreningen Missing People, der er drevet af at hjælpe pårørende, som står i deres livs sværeste situation.",
+      "plotoutline": "Ny sæson | Ildsjælene i Missing People leder efter mennesker, der er forsvundet",
+      "season": 2,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Forsvundet 2&favoritepath=354968)"
+      ]
+    ]
+  },
+  {
+    "label": "Danmarks næste klassiker: Et helbredende design",
+    "url": "?playVideo=365833&kids=False&idpath=/episode/danmarks-naeste-klassiker_-et-helbredende-design_365833",
+    "params": {
+      "playVideo": "365833",
+      "kids": "False",
+      "idpath": "/episode/danmarks-naeste-klassiker_-et-helbredende-design_365833"
+    },
+    "info": {
+      "title": "Danmarks næste klassiker: Et helbredende design",
+      "plot": "Dansk livsstilsprogram fra 2023. \nDe fem designere står overfor en kæmpemæssig designoverraskelse, når de uden en kategori bliver sendt ud af studiet for at sætte kursen mod Mary Elizabeths børnehospital ved Rigshospitalet. For præcis som mange af de gamle klassikere, så skal deltagerne denne gang skabe et design til et specifikt sted. Og her kommer alle fem designere på dybt vand, når de skal lave en entré-zone til fremtidens børnehospital. For nu skal funktion, æstetik og materialer stå knivskarpt, når møblerne skal være med til at danne rammerne for de syge børn og deres familier. Formår designerne at tilsidesætte deres egne drømme og ønsker for udelukkende at opfylde alle opgavens krav? Udløber: 28. feb 2025",
+      "plotoutline": "Episode 3:6 | Designerne skal skabe en entrézone til syge børn og deres familier",
+      "date": "28.02.2023",
+      "aired": "2023-02-28",
+      "year": 2023,
       "episode": 3,
       "mediatype": "episode"
     },
@@ -124,154 +287,6 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Tværs: Cille er en dum lille pige",
-    "url": "?playVideo=342160&kids=False&idpath=/episode/tvaers_-cille-er-en-dum-lille-pige_342160",
-    "params": {
-      "playVideo": "342160",
-      "kids": "False",
-      "idpath": "/episode/tvaers_-cille-er-en-dum-lille-pige_342160"
-    },
-    "info": {
-      "title": "Tværs: Cille er en dum lille pige",
-      "plot": "Cille på 23 år gør alt, hvad hun kan for at opretholde en perfekt facade og leve et normalt ungdomsliv. Men inde i hendes hoved er der en kritisk og nedladende stemme, som forfølger hende overalt. Stemmen stammer fra dengang, Cille mistede sig selv i et usundt parforhold.\nHvad skal hun gøre for at slippe af med den? Udløber: 27. nov 2024",
-      "plotoutline": "Hun har en perfekt facade, men plages af en indre kritisk stemme",
-      "episode": 7,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "MGP: Børnefesten der gik amok",
-    "url": "?listVideos=/serie/mgp_-boernefesten-der-gik-amok_348585&seasons=False",
-    "params": {
-      "listVideos": "/serie/mgp_-boernefesten-der-gik-amok_348585",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "MGP: Børnefesten der gik amok",
-      "plot": "De blev Danmarks største børnestjerner efter MGP. Hvad har det betydet for børnene, som nu er blevet voksne?",
-      "plotoutline": "Hele serien | Hvad har MGP betydet for børnestjernerne, som nu er blevet voksne?"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=MGP: Børnefesten der gik amok&favoritepath=348585)"
-      ]
-    ]
-  },
-  {
-    "label": "Verdens rigeste milliardærer",
-    "url": "?listVideos=/serie/verdens-rigeste-milliardaerer_342233&seasons=False",
-    "params": {
-      "listVideos": "/serie/verdens-rigeste-milliardaerer_342233",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Verdens rigeste milliardærer",
-      "plot": "De er megarige og har forandret verdensøkonomien, vores personlige liv, samfund og demokratier. Men hvem er mændene bag Amazon, Google og Facebook? Og er deres indflydelse udelukkende positiv?",
-      "plotoutline": "Hele serien | Musk, Bezos og Zuckerberg - tech-giganterne der styrer verden "
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Verdens rigeste milliardærer&favoritepath=342233)"
-      ]
-    ]
-  },
-  {
-    "label": "Max Kapacitet - Krypto, oprør og frihed",
-    "url": "?listVideos=/serie/max-kapacitet-_-krypto-oproer-og-frihed_347002&seasons=False",
-    "params": {
-      "listVideos": "/serie/max-kapacitet-_-krypto-oproer-og-frihed_347002",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Max Kapacitet - Krypto, oprør og frihed",
-      "plot": "For mange er krypto forbundet med svindel, usikkerhed og risiko, for andre er det fremtiden. I Max Kapacitet møder vi de unge, som kæmper for at finde deres plads i den nye krypto-virkelighed. Fyldt til randen med drømme, rebelskhed og idealisme tager seriens karakterer os rundt i en ny verden, hvor tankerne er store, risikoen endnu større, og intet er, som det plejer.",
-      "plotoutline": "Hele serien | Risici og rebelskhed: Følg unge i den nye krypto-virkelighed"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Max Kapacitet - Krypto, oprør og frihed&favoritepath=347002)"
-      ]
-    ]
-  },
-  {
-    "label": "The Imitation Game",
-    "url": "?playVideo=349982&kids=False&idpath=/program/the-imitation-game_349982",
-    "params": {
-      "playVideo": "349982",
-      "kids": "False",
-      "idpath": "/program/the-imitation-game_349982"
-    },
-    "info": {
-      "title": "The Imitation Game",
-      "plot": "Britisk Oscarbelønnet autentisk drama fra 2014.\nI 1939 tilbyder den unge matematiker Alan Turing det britiske efterretningsvæsen at hjælpe med at bryde den tyske hærs tilsyneladende ubrydelige kode. Lykkes det, vil det kunne afkorte krigen og redde tusindvis af liv. Det er et arbejde, der foregår i dyb hemmelighed. Men den socialt akavede Turing har også sine egne hemmeligheder, der kan ende med at ødelægge hans liv.\nFilmen modtog en Oscar for bedste manuskript baseret på et forlæg.\nMedvirkende: Benedict Cumberbatch, Keira Knightley, Matthew Goode m.fl.\nInstruktion: Morten Tyldum. Udløber: 8. dec 2022",
-      "plotoutline": "Oscarbelønnet drama med Benedict Cumberbatch og Keira Knightley",
-      "date": "25.11.2022",
-      "aired": "2022-11-25",
-      "year": 2022,
-      "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Nissebanden i Grønland",
-    "url": "?listVideos=/serie/nissebanden-i-groenland_343728&seasons=False",
-    "params": {
-      "listVideos": "/serie/nissebanden-i-groenland_343728",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Nissebanden i Grønland",
-      "plot": "To glødende stjernesten styrter ned nær Julemandens Kongsgård i Grønland. Han skal finde dem, inden det er for sent. Nissebanden må træde til for at redde julen og alle julegaverne. Kan de nå det?",
-      "plotoutline": "Hele serien | Julen og julegaverne er truet. Nissebanden må i aktion"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Nissebanden i Grønland&favoritepath=343728)"
       ]
     ]
   }

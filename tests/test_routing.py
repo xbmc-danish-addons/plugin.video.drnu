@@ -30,7 +30,7 @@ handle._plugin_handle = {}
 
 main_menu_js = json.loads((menudata/'main_menu.json').read_text())
 
-UPDATE_TESTS = False
+UPDATE_TESTS = True
 
 
 def get_items():
@@ -100,7 +100,7 @@ class TestOffline(unittest.TestCase):
         addon.addon.settings['disable.kids.seasons'] = 'true'
         handle.route(bluey['url'])
         episodes = [iteminfo(item) for item in get_items().values()]
-        self.myEqual(len(episodes), 29)
+        self.myEqual(len(episodes), 12)
 
         addon.addon.settings['disable.kids.seasons'] = 'false'
         handle.route(bluey['url'])
@@ -117,9 +117,9 @@ class TestOffline(unittest.TestCase):
 
         handle.route(a_aa[0]['url'])
         a = [iteminfo(item) for item in get_items().values()]
-        self.myEqual(len(a), 102)
+        self.myEqual(len(a), 96)
 
-        self.myEqual(a[0]['label'], 'A Very British Scandal')
+        self.myEqual(a[0]['label'], 'A Very English Scandal')
         handle.route(a[0]['url'])
 
     def test_search(self):
