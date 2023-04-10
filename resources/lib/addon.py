@@ -149,7 +149,10 @@ class DrDkTvAddon(object):
         addon_version = get_addon_info('version')
 
         # Compare versions (settings_version was not present in version 6.0.2 and older)
-        settings_V = StrictVersion(settings_version.split('+')[0]).version if settings_version != '' else StrictVersion('6.0.2').version
+        if settings_version != '':
+            settings_V = StrictVersion(settings_version.split('+')[0]).version
+        else:
+            settings_V = StrictVersion('6.0.2').version
         addon_V = StrictVersion(addon_version.split('+')[0]).version
 
         if addon_V > settings_V:
@@ -267,7 +270,7 @@ class DrDkTvAddon(object):
         for path in self.recentlyWatched:
             try:
                 item = self.api.get_programcard(path)
-                if item is None:
+                if item is None or len(item['entries']) != 1:
                     self.recentlyWatched.remove(path)
                 else:
                     videos.append(item['entries'][0]['item'])
@@ -288,7 +291,7 @@ class DrDkTvAddon(object):
 
             lowername = api_channel['title'].lower().replace(' ', '')
             if not bool_setting('iptv.channels.include.' + lowername):
-                 continue
+                continue
 
             iptv_channel = {
                 'name': api_channel['title'],
