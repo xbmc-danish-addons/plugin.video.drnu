@@ -385,7 +385,7 @@ class Api():
             url = channel['item']['customFields']['hlsURL']
         return url
 
-    def get_info(self, item):
+    def get_title(self, item):
         title = item['title']
         if item['type'] == 'season':
             title += f" {item['seasonNumber']}"
@@ -395,29 +395,30 @@ class Api():
                 title += f" ({item['contextualTitle']})"
         if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
             item = self.get_item(item['id'])
+        return title
 
-        infoLabels = {'title': title}
+    def set_infolabels(self, item, vinfo, title):
+        vinfo.setTitle(title)
         if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
-            infoLabels['plot'] = item['shortDescription']
-        if item.get('description', ''):
-            infoLabels['plot'] = item['description']
+            vinfo.setPlot(item['shortDescription'])
+        elif item.get('description', ''):
+            vinfo.setPlot(item['description'])
         if item.get('tagline', ''):
-            infoLabels['plotoutline'] = item['tagline']
+            vinfo.setPlotOutline(item['tagline'])
         if item.get('customFields'):
             if item['customFields'].get('BroadcastTimeDK'):
                 broadcast = parser.parse(item['customFields']['BroadcastTimeDK'])
-                infoLabels['date'] = broadcast.strftime('%d.%m.%Y')
-                infoLabels['aired'] = broadcast.strftime('%Y-%m-%d')
-                infoLabels['year'] = int(broadcast.strftime('%Y'))
+                vinfo.setDateAdded(broadcast.strftime('%d.%m.%Y'))
+                vinfo.setFirstAired(broadcast.strftime('%Y-%m-%d'))
+                vinfo.setYear(int(broadcast.strftime('%Y')))
         if item.get('seasonNumber'):
-            infoLabels['season'] = item['seasonNumber']
+            vinfo.setSeason(int(item['seasonNumber']))
         if item.get('episodeNumber'):
-            infoLabels['episode'] = item['episodeNumber']
+            vinfo.setEpisode(int(item['episodeNumber']))
         if item['type'] in ["movie", "season", "episode"]:
-            infoLabels['mediatype'] = item['type']
+            vinfo.setMediaType(item['type'])
         elif item['type'] == 'program':
-            infoLabels['mediatype'] = 'tvshow'
-        return title, infoLabels
+            vinfo.setMediaType('tvshow')
 
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
         url = URL + '/schedules?'

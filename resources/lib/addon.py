@@ -386,13 +386,13 @@ class DrDkTvAddon(object):
     def kodi_item(self, item, is_season=False):
         menuItems = list(self.menuItems)
         isFolder = item['type'] not in ['program', 'episode']
-        if item.get('path','').startswith('/kanal/') and item['type'] == 'link':
+        if item.get('path', '').startswith('/kanal/') and item['type'] == 'link':
             isFolder = False
         if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
             return None
         if 'kodi_seasons' in item:
             is_season = item['kodi_seasons']
-        title, infoLabels = self.api.get_info(item)
+        title = self.api.get_title(item)
         listItem = xbmcgui.ListItem(title, offscreen=True)
         if 'images' in item:
             listItem.setArt({'thumb': item['images']['tile'],
@@ -423,7 +423,8 @@ class DrDkTvAddon(object):
             url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}&idpath={item['path']}"
             listItem.setProperty('IsPlayable', 'true')
 
-        listItem.setInfo('video', infoLabels)
+        vinfo = listItem.getVideoInfoTag()
+        self.api.set_infolabels(item, vinfo, title)
         listItem.addContextMenuItems(menuItems, False)
         return (url, listItem, isFolder,)
 
