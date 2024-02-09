@@ -174,7 +174,7 @@ class Api():
         time_str = tokens[0]['expirationDate'].split('.')[0]
         try:
             self._token_expire = datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S%')
-        except:
+        except Exception:
             time_struct = time.strptime(tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6])
         self._user_token = tokens[0]['value']
