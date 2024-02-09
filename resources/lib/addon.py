@@ -218,17 +218,18 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
-        # Mylist
-        item = xbmcgui.ListItem("Min Liste", offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=mylist', item, True))
+        if self.api.user:
+            # Mylist
+            item = xbmcgui.ListItem("Min Liste", offscreen=True)
+            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
+            item.addContextMenuItems(self.menuItems, False)
+            items.append((self._plugin_url + '?show=mylist', item, True))
 
-        # Continue watching
-        item = xbmcgui.ListItem("Fortsæt med at se", offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=continue', item, True))
+            # Continue watching
+            item = xbmcgui.ListItem("Fortsæt med at se", offscreen=True)
+            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
+            item.addContextMenuItems(self.menuItems, False)
+            items.append((self._plugin_url + '?show=continue', item, True))
 
         for hitem in self.api.get_home():
             if hitem['path']:
@@ -641,7 +642,18 @@ class DrDkTvAddon(object):
                 self._clear()
 
             elif 'loginnow' in PARAMS:
-                self.api.request_tokens()
+                err = self.api.request_tokens()
+                if self.api.user:
+                    if err:
+                        xbmcgui.Dialog().ok(tr(30306), tr(30307))
+                    else:
+                        name = self.api.get_profile()['name']
+                        xbmcgui.Dialog().ok(tr(30303), tr(30304) + f'"{name}"')
+                else:
+                    if err:
+                        self.displayError(err)
+                    else:
+                        xbmcgui.Dialog().ok(tr(30303), tr(30305))
 
             elif 're-cache' in PARAMS:
                 progress = xbmcgui.DialogProgress()

@@ -175,21 +175,23 @@ class Api():
         self._profile_token = tokens[1]['value']
 
     def request_tokens(self):
+        self._user_token = None
+        self._profile_token = None
         if self.user:
             tokens_pure = full_login(self.user, self.password)
             if isinstance(tokens_pure, dict):
                 err = tokens_pure['error']
-                raise ApiException(f'Login failed with: "{err}"')
+                return err
             tokens = [self.refresh_token(t) for t in tokens_pure]
+            self.read_tokens(tokens)
+            tokens[0]['name'] = self.get_profile()['name']
         else:
             tokens = anonymous_tokens()
-        self._user_token = None
-        if isinstance(tokens, list):
-            with self.token_file.open('wb') as fh:
-                pickle.dump(tokens, fh)
             self.read_tokens(tokens)
-        else:
-            raise ApiException(f'Failed to get new token: {tokens["error"]}')
+            tokens[0]['name'] = 'anonymous'
+        with self.token_file.open('wb') as fh:
+            pickle.dump(tokens, fh)
+        return None
 
     def refresh_token(self, token):
         url = 'https://production.dr-massive.com/api/authorization/refresh'
@@ -213,7 +215,11 @@ class Api():
                 with self.token_file.open('rb') as fh:
                     self.read_tokens(pickle.load(fh))
             else:
-                self.request_tokens()
+                err = self.request_tokens()
+                if err:
+                    raise ApiException(f'Login failed with: "{err}"')
+                return
+
         if (self._token_expire - datetime.now(timezone.utc)).total_seconds() < 120:
             failed_refresh = False
             tokens = []
@@ -224,6 +230,9 @@ class Api():
                     failed_refresh = True
             if failed_refresh:
                 self.request_tokens()
+                err = self.request_tokens()
+                if err:
+                    raise ApiException(f'Login failed with: "{err}"')
             else:
                 with self.token_file.open('wb') as fh:
                     pickle.dump(tokens, fh)
@@ -237,6 +246,16 @@ class Api():
         self.refresh_tokens()
         return self._profile_token
 
+    def _request_get(self, url, params=None, headers=None, use_cache=True):
+        if use_cache and self.caching:
+            u = self.session.get(url, params=params, timeout=GET_TIMEOUT)
+        else:
+            u = requests.get(url, params=params, timeout=GET_TIMEOUT)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
     def get_programcard(self, path, data=None, use_cache=True):
         url = URL + '/page?'
         if data is None:
@@ -246,36 +265,15 @@ class Api():
                 'max_list_prefetch': '3',
                 'path': path
             }
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, params=data, use_cache=use_cache)
 
     def get_item(self, id, use_cache=True):
         url = URL + f'/items/{int(id)}?'
-        if use_cache and self.caching:
-            u = self.session.get(url, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url)
 
     def get_next(self, path, use_cache=True):
         url = URL + path
-        if use_cache and self.caching:
-            u = self.session.get(url, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, use_cache=use_cache)
 
     def get_list(self, id, param, use_cache=True):
         if isinstance(id, str):
@@ -284,57 +282,25 @@ class Api():
         data = {'page_size': '24'}
         if param != 'NoParam':
             data['param'] = param
-
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, params=data, use_cache=use_cache)
 
     def get_recommendations(self, id, use_cache=True):
         url = URL + f'/recommendations/{id}'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
 
     def get_mylist(self, use_cache=True):
         url = URL + '/account/profile/bookmarks/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
 
     def get_continue(self, use_cache=True):
         url = URL + '/account/profile/continue-watching/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
 
     def get_profile(self, use_cache=True):
         url = URL + '/account/profile?ff=idp%2Cldp%2Crpt&lang=da'
@@ -346,14 +312,7 @@ class Api():
             'accept': 'application/json',
             'X-Authorization': 'Bearer ' + self._profile_token,
         }
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
     
     def kids_item(self, item):
         if 'classification' in item:

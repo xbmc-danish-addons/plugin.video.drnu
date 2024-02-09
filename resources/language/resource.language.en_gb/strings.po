@@ -201,6 +201,27 @@ msgctxt "#30302"
 msgid "login"
 msgstr ""
 
+msgctxt "#30303"
+msgid "login success"
+msgstr ""
+
+msgctxt "#30304"
+msgid "logged in as: "
+msgstr ""
+
+msgctxt "#30305"
+msgid "logged in with anonymous user, this will stop working at some point in 2024 according to DR"
+msgstr ""
+
+msgctxt "#30306"
+msgid "login failure"
+msgstr "login fejl"
+
+msgctxt "#30307"
+msgid "Wrong username or password, please try again!"
+msgstr "Forker brugernavn eller kodeord, forsøg igen!"
+
+
 # IPTV
 msgctxt "#30550"
 msgid "IPTV Manager"
