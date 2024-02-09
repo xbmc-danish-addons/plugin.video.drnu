@@ -54,7 +54,8 @@ def full_login(user, password):
     ses = requests.Session()
     # start login flow
     params = {
-        'clientRedirectUrl':'https://www.dr.dk/drtv/callback', 'signUp': 'false', 'localPath':'/', 'optout':'false', 'device':'web_browser'}
+        'clientRedirectUrl':'https://www.dr.dk/drtv/callback',
+        'signUp': 'false', 'localPath':'/', 'optout':'false', 'device':'web_browser'}
     headers = {
         'authority': 'production.dr-massive.com',
         'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
@@ -76,20 +77,21 @@ def full_login(user, password):
     }
     
     url = 'https://api.dr.dk/login/graphql'
-    data = {"operationName":"InitializeLoginTransaction","variables":{"input":{"state":state,"clientID":client_id}},"query":"mutation InitializeLoginTransaction($input: InitializeLoginTransactionInput!) {\n  initializeLoginTransaction(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}
+    data = {"operationName":"InitializeLoginTransaction","variables":{"input":{"state":state,"clientID":client_id}}, "query":"mutation InitializeLoginTransaction($input: InitializeLoginTransactionInput!) {\n  initializeLoginTransaction(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}  # noqa: E501
+
     u = ses.post(url, data=json.dumps(data), headers=headers)
     print(1, u.status_code)
     if u.status_code != 200:
         return {'status_code': u.status_code, 'error': u.text}
     transaction_id = u.json()['data']['initializeLoginTransaction']['id']
     
-    data = {"operationName":"Identify","variables":{"input":{"transaction":transaction_id,"email":user}},"query":"mutation Identify($input: IdentificationInput\u0021) {\n  identify(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}
+    data = {"operationName":"Identify","variables":{"input":{"transaction":transaction_id,"email":user}},"query":"mutation Identify($input: IdentificationInput\u0021) {\n  identify(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}  # noqa: E501
     u2 = ses.post(url, data=json.dumps(data), headers=headers)
     print(2, u2.status_code)
     if u2.status_code != 200:
         return {'status_code': u2.status_code, 'error': u2.text}
     
-    data={"variables":{"input":{"email":user,"password":password,"state":state}},"query":"mutation ($input: LoginInput!) {\n  token: login(input: $input)\n}"}
+    data={"variables":{"input":{"email":user,"password":password,"state":state}},"query":"mutation ($input: LoginInput!) {\n  token: login(input: $input)\n}"}   # noqa: E501
     u3 = ses.post(url, data=json.dumps(data), headers=headers)
     print(3, u3.status_code)
     if u3.status_code != 200:
@@ -120,12 +122,12 @@ def deviceid():
 
 def anonymous_tokens():
     data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
-    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
+    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True} 
 
     url = URL + '/authorization/anonymous-sso?'
     u = requests.post(url, json=data, params=params)
     if u.status_code != 200:
-        return {'status_code': res.status_code, 'error': res.text}
+        return {'status_code': u.status_code, 'error': u.text}
     tokens = json.loads(u.content)
     return tokens
 
