@@ -171,8 +171,12 @@ class Api():
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
     def read_tokens(self, tokens):
-        time_str = tokens[0]['expirationDate'].split('.')[0]+'Z'
-        self._token_expire = datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S%z')
+        time_str = tokens[0]['expirationDate'].split('.')[0]
+        try:
+            self._token_expire = datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S%')
+        except:
+            time_struct = time.strptime(tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
+            self._token_expire = datetime(*time_struct[0:6])
         self._user_token = tokens[0]['value']
         self._profile_token = tokens[1]['value']
 
@@ -222,7 +226,7 @@ class Api():
                     raise ApiException(f'Login failed with: "{err}"')
                 return
 
-        if (self._token_expire - datetime.now(timezone.utc)).total_seconds() < 120:
+        if (self._token_expire - datetime.now()).total_seconds() < 120:
             failed_refresh = False
             tokens = []
             for t in [self._user_token, self._profile_token]:
