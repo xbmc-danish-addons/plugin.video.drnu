@@ -31,9 +31,9 @@
   },
   {
     "label": "Daglige forslag",
-    "url": "?listVideos=/liste/drtv-hero-sunday-18_00_88225",
+    "url": "?listVideos=/liste/drtv-hero-friday-18_00_89364",
     "params": {
-      "listVideos": "/liste/drtv-hero-sunday-18_00_88225"
+      "listVideos": "/liste/drtv-hero-friday-18_00_89364"
     },
     "info": {},
     "properties": {},
@@ -46,9 +46,9 @@
   },
   {
     "label": "De største programmer lige nu",
-    "url": "?listVideos=/liste/108657",
+    "url": "?listVideos=/liste/402868",
     "params": {
-      "listVideos": "/liste/108657"
+      "listVideos": "/liste/402868"
     },
     "info": {},
     "properties": {},
@@ -60,10 +60,10 @@
     ]
   },
   {
-    "label": "Nyhedsoverblik",
-    "url": "?listVideos=/liste/363452",
+    "label": "Nyheder",
+    "url": "?listVideos=/liste/248104",
     "params": {
-      "listVideos": "/liste/363452"
+      "listVideos": "/liste/248104"
     },
     "info": {},
     "properties": {},
@@ -76,9 +76,9 @@
   },
   {
     "label": "Nye og populære serier",
-    "url": "?listVideos=/liste/209529",
+    "url": "?listVideos=/liste/373113",
     "params": {
-      "listVideos": "/liste/209529"
+      "listVideos": "/liste/373113"
     },
     "info": {},
     "properties": {},
@@ -91,9 +91,9 @@
   },
   {
     "label": "Mest populære dokumentarer",
-    "url": "?listVideos=/liste/306104",
+    "url": "?listVideos=/liste/369696",
     "params": {
-      "listVideos": "/liste/306104"
+      "listVideos": "/liste/369696"
     },
     "info": {},
     "properties": {},
@@ -106,9 +106,9 @@
   },
   {
     "label": "Mest sete film",
-    "url": "?listVideos=/liste/370334",
+    "url": "?listVideos=/liste/349213",
     "params": {
-      "listVideos": "/liste/370334"
+      "listVideos": "/liste/349213"
     },
     "info": {},
     "properties": {},
@@ -136,9 +136,9 @@
   },
   {
     "label": "Kategorier",
-    "url": "?listVideos=/liste/289833",
+    "url": "?listVideos=/liste/376779",
     "params": {
-      "listVideos": "/liste/289833"
+      "listVideos": "/liste/376779"
     },
     "info": {},
     "properties": {},
@@ -166,9 +166,9 @@
   },
   {
     "label": "Mest sete",
-    "url": "?listVideos=/liste/115522",
+    "url": "?listVideos=/liste/379672",
     "params": {
-      "listVideos": "/liste/115522"
+      "listVideos": "/liste/379672"
     },
     "info": {},
     "properties": {},
@@ -195,10 +195,25 @@
     ]
   },
   {
-    "label": "True Crime",
+    "label": "True Crime dokumentarer",
     "url": "?listVideos=/liste/238347",
     "params": {
       "listVideos": "/liste/238347"
+    },
+    "info": {},
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Nervepirrende serier",
+    "url": "?listVideos=/liste/244426",
+    "params": {
+      "listVideos": "/liste/244426"
     },
     "info": {},
     "properties": {},
@@ -225,10 +240,10 @@
     ]
   },
   {
-    "label": "Store og episke serier",
-    "url": "?listVideos=/liste/244416",
+    "label": "Drama og kærlighed",
+    "url": "?listVideos=/liste/384446",
     "params": {
-      "listVideos": "/liste/244416"
+      "listVideos": "/liste/384446"
     },
     "info": {},
     "properties": {},
@@ -240,10 +255,10 @@
     ]
   },
   {
-    "label": "Nervepirrende og fascinerende serier",
-    "url": "?listVideos=/liste/244426",
+    "label": "Krimiserier",
+    "url": "?listVideos=/liste/244424",
     "params": {
-      "listVideos": "/liste/244426"
+      "listVideos": "/liste/244424"
     },
     "info": {},
     "properties": {},

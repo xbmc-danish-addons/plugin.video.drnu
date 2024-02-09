@@ -1,47 +1,19 @@
 [
   {
-    "label": "Den store juniorbagedyst: Store spilledag",
-    "url": "?playVideo=369075&kids=False&idpath=/episode/den-store-juniorbagedyst_-store-spilledag_369075",
+    "label": "Løvens Hule: Salg i højtiderne?",
+    "url": "?playVideo=424457&kids=False&idpath=/episode/loevens-hule_-salg-i-hoejtiderne_424457",
     "params": {
-      "playVideo": "369075",
+      "playVideo": "424457",
       "kids": "False",
-      "idpath": "/episode/den-store-juniorbagedyst_-store-spilledag_369075"
+      "idpath": "/episode/loevens-hule_-salg-i-hoejtiderne_424457"
     },
     "info": {
-      "title": "Den store juniorbagedyst: Store spilledag",
-      "plot": "Der bliver gamblet i bageteltet, når juniorbagerne bliver kastet ud i at skulle bage deres yndlingsspil. I den hemmelige udfordring skal der bages korthuse, men det er ikke let at bygge et hus med rystende hænder. Udløber: 31. jan 2025",
-      "plotoutline": "Episode 2:6 | Det er ikke let at bygge et kage-korthus med rystende hænder",
-      "date": "04.03.2023",
-      "aired": "2023-03-04",
-      "year": 2023,
-      "episode": 2,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Tæt på sandheden med Jonatan Spang: LAN-party i provinsen",
-    "url": "?playVideo=361817&kids=False&idpath=/episode/taet-paa-sandheden-med-jonatan-spang_-lan_party-i-provinsen_361817",
-    "params": {
-      "playVideo": "361817",
-      "kids": "False",
-      "idpath": "/episode/taet-paa-sandheden-med-jonatan-spang_-lan_party-i-provinsen_361817"
-    },
-    "info": {
-      "title": "Tæt på sandheden med Jonatan Spang: LAN-party i provinsen",
-      "plot": "I kølvandet på balladen om Store Bededag er den yderste højrefløj begyndt at bekrige hinanden med beskyldninger om trumpistiske løgne, mens regeringen endnu en gang rækker hånden ud til provinsen, der bliver holdt kunstigt i live af Mettes naturlov - og så har Ellemanns sygemelding fået den politiske klagesang til at lyde. Men hvem kunne mon ændre den slags arbejdsforhold? Og er cyberangreb overhovedet noget vi skal frygte, hvis det bare betyder et par timers utilgængelige hjemmesider? Udløber: 4. mar 2024",
-      "plotoutline": "Nyheder og tidsaktuelle tendenser. Få dit ugentlige satirefix",
-      "date": "04.03.2023",
-      "aired": "2023-03-04",
-      "year": 2023,
+      "title": "Løvens Hule: Salg i højtiderne?",
+      "plot": "Natasja og Tina tager Løverne med storm, når de pitcher deres forretning. Men står de distancen med højtidsbestemte underholdningsprodukter og en drøm om at være julemanden? Udløber: 8. feb 2025",
+      "plotoutline": "Episode 6:9 | Magisk jul og påske: Natasja og Tina tager Løverne med storm",
+      "date": "08.02.2024",
+      "aired": "2024-02-08",
+      "year": 2024,
       "episode": 6,
       "mediatype": "episode"
     },
@@ -56,16 +28,43 @@
     ]
   },
   {
-    "label": "Natrytterne",
-    "url": "?listVideos=/serie/natrytterne_365838&seasons=False",
+    "label": "SEX MED P3: Fantasi: Expectations vs. Reality",
+    "url": "?playVideo=419277&kids=False&idpath=/episode/sex-med-p3_-fantasi_-expectations-vs-reality_419277",
     "params": {
-      "listVideos": "/serie/natrytterne_365838",
+      "playVideo": "419277",
+      "kids": "False",
+      "idpath": "/episode/sex-med-p3_-fantasi_-expectations-vs-reality_419277"
+    },
+    "info": {
+      "title": "SEX MED P3: Fantasi: Expectations vs. Reality",
+      "plot": "Trekanter, dominans eller gangbangs? Måske deler du sexfantasier med mange flere end du tror. Er du nysgerrig på at høre om andres frække fantasier? Og skal din fantasi udleves eller blive inde i hovedet? Vi giver dig den ultimative guide til, hvad du skal stille op med din fantasi, og til at udleve den, hvis det er det, du drømmer om. Vi dykker også ned i, hvad dine fantasier i virkeligheden handler om og hvad du kan gøre, hvis du har en sexfantasi, som du gerne vil af med. Udløber: 9. feb 2026",
+      "plotoutline": "Episode 2:8 | Den ultimative guide til, hvad du skal stille op med din fantasi",
+      "episode": 22,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Mordene i Port Talbot 1",
+    "url": "?listVideos=/saeson/mordene-i-port-talbot_423646&seasons=False",
+    "params": {
+      "listVideos": "/saeson/mordene-i-port-talbot_423646",
       "seasons": "False"
     },
     "info": {
-      "title": "Natrytterne",
-      "plot": "Molly får job på et ridecenter. Hun føler, at hun er kommet til paradis, men ikke alt er, som det skal være på rideskolen. Dramaserie baseret på hændelser, der skete på et svensk ridecenter i 90'erne.",
-      "plotoutline": "Hele serien | Molly får job på et ridecenter – hvor ikke alt er, som det skal være"
+      "title": "Mordene i Port Talbot 1",
+      "plot": "Tre 30 år gamle uopklarede drabssager bliver genoptaget. Paul Bethell arbejdede med sagerne som ung betjent - nu begynder han en ny morderjagt. Krimiserie baseret på virkelige hændelser.",
+      "plotoutline": "Hele serien | Tre gamle mordsager genåbnes. Krimiserie bygget på virkelige hændelser",
+      "season": 1,
+      "mediatype": "season"
     },
     "properties": {},
     "contextmenu": [
@@ -75,108 +74,25 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Natrytterne&favoritepath=365838)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Mordene i Port Talbot 1&favoritepath=423646)"
       ]
     ]
   },
   {
-    "label": "Løvens Hule: Hvor ofte vasker du sengetøj?",
-    "url": "?playVideo=362004&kids=False&idpath=/episode/loevens-hule_-hvor-ofte-vasker-du-sengetoej_362004",
+    "label": "Kriminelt: Hestekrigen i Skals (1:2)",
+    "url": "?playVideo=433514&kids=False&idpath=/episode/kriminelt_-hestekrigen-i-skals-_1_2__433514",
     "params": {
-      "playVideo": "362004",
+      "playVideo": "433514",
       "kids": "False",
-      "idpath": "/episode/loevens-hule_-hvor-ofte-vasker-du-sengetoej_362004"
+      "idpath": "/episode/kriminelt_-hestekrigen-i-skals-_1_2__433514"
     },
     "info": {
-      "title": "Løvens Hule: Hvor ofte vasker du sengetøj?",
-      "plot": "Da iværksætteren Tobias fortæller sin rørende livshistorie, er alle Løverne enige om, at han har brug for hjælp til sin virksomhed. Men Løvernes interne alliancer udfordres, da de bliver præsenteret for sengetøj, der reducerer mængden af bakterier, så man kan vaske mindre. Udløber: 5. jan 2024",
-      "plotoutline": "Episode 8:9 | Sengetøj med færre bakterier udfordrer Løvernes interne alliancer",
-      "date": "02.03.2023",
-      "aired": "2023-03-02",
-      "year": 2023,
-      "episode": 8,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "FredagsTamTam (9. episode)",
-    "url": "?playVideo=371671&kids=True&idpath=/episode/fredagstamtam_371671",
-    "params": {
-      "playVideo": "371671",
-      "kids": "True",
-      "idpath": "/episode/fredagstamtam_371671"
-    },
-    "info": {
-      "title": "FredagsTamTam (9. episode)",
-      "plot": "Mød kyllingen Karla, de Mesterlige Monsterbørn, den gule Yeti og Tom & Jerry, når TamTam serverer en fantastisk blanding af helt nye og klassiske tegnefilm for børn og deres forældre. Udløber: 10. mar 2023",
-      "plotoutline": "Gør klar til fredagshygge med Karla, Yetien og monsterbørnene",
-      "date": "03.03.2023",
-      "aired": "2023-03-03",
-      "year": 2023,
-      "episode": 9,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Diamanter: Den smukkeste løgn",
-    "url": "?playVideo=369076&kids=False&idpath=/program/diamanter_-den-smukkeste-loegn_369076",
-    "params": {
-      "playVideo": "369076",
-      "kids": "False",
-      "idpath": "/program/diamanter_-den-smukkeste-loegn_369076"
-    },
-    "info": {
-      "title": "Diamanter: Den smukkeste løgn",
-      "plot": "Amerikansk dokumentar fra 2022.\n(Nothing Lasts Forever)\nDe er symbolet på troskab, rigdom og kærlighed. Diamanter. Funklende ædelstene, som normalt dannes dybt nede i jorden. Men som nu kan massefremstilles på en fabrik. De syntetiske diamanter er langt billigere end de naturlige sten. De er også smukkere. Og en stor trussel for den traditionelle diamant-industri. Her dykker vi ned i diamantindustriens hemmeligheder. Kan du skelne den ægte vare fra en falsk? Og hvad hvis forskellen ikke længere betyder noget? Udløber: 10. jan 2026",
-      "plotoutline": "Syntetiske sten er en trussel mod den traditionelle diamantindustri",
-      "date": "05.03.2023",
-      "aired": "2023-03-05",
-      "year": 2023,
-      "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Kriminelt: Angrebet i Field's (1:2)",
-    "url": "?playVideo=366588&kids=False&idpath=/episode/kriminelt_-angrebet-i-fields-_1_2__366588",
-    "params": {
-      "playVideo": "366588",
-      "kids": "False",
-      "idpath": "/episode/kriminelt_-angrebet-i-fields-_1_2__366588"
-    },
-    "info": {
-      "title": "Kriminelt: Angrebet i Field's (1:2)",
-      "plot": "Sofie ser manden med riflen i øjnene og fryser. Hun kan ikke bevæge sig. Ambulanceredderen Thomas løber mod strømmen af mennesker, der flygter ud fra Field's. Han skal ind uden at vide, hvad der møder ham. Vært: Trine Maria Ilsøe. Udløber: 2. mar 2025",
-      "plotoutline": "Episode 1:2 | En ambulanceredder og en ung kvinde befandt sig midt i angrebet",
-      "date": "02.03.2023",
-      "aired": "2023-03-02",
-      "year": 2023,
+      "title": "Kriminelt: Hestekrigen i Skals (1:2)",
+      "plot": "Amerikanske Tyrell er berider og arbejder en kort periode på Viegård Stutteri i Skals. Da han på Facebook deler billeder af stutteriets afmagrede heste, sætter det gang i vrede dyreaktivister fra nær og fjern. Udløber: 8. feb 2026",
+      "plotoutline": "Hundredvis af heste og deres ejer er centrum for en voldsom konflikt",
+      "date": "08.02.2024",
+      "aired": "2024-02-08",
+      "year": 2024,
       "episode": 1,
       "mediatype": "episode"
     },
@@ -191,18 +107,21 @@
     ]
   },
   {
-    "label": "SEX MED P3: Skal vi bare bolle?",
-    "url": "?playVideo=356645&kids=False&idpath=/episode/sex-med-p3_-skal-vi-bare-bolle_356645",
+    "label": "FredagsTamTam (6. episode)",
+    "url": "?playVideo=428446&kids=True&idpath=/episode/fredagstamtam_428446",
     "params": {
-      "playVideo": "356645",
-      "kids": "False",
-      "idpath": "/episode/sex-med-p3_-skal-vi-bare-bolle_356645"
+      "playVideo": "428446",
+      "kids": "True",
+      "idpath": "/episode/fredagstamtam_428446"
     },
     "info": {
-      "title": "SEX MED P3: Skal vi bare bolle?",
-      "plot": "Her er reglerne for bollevenner og onenightstands, så du får større succes med et sexliv uden strings. For det  kan være kompliceret at have sex uden forpligtelser. Skal du fortælle, hvis du også boller med andre? Skal du blive og spise morgenmad, eller må du gå, før den anden vågner? Skal du tydeligt sige, at du kun vil have sex, eller er det et kæmpe turn off? Og kan sex og følelser overhovedet adskilles? Udløber: 3. mar 2025",
-      "plotoutline": "Episode 5:10 | Kan du adskille sex og følelser? ",
-      "episode": 15,
+      "title": "FredagsTamTam (6. episode)",
+      "plot": "Helt nye og klassiske tegnefilm for hele familien: Mød den tapre prins Ivandoe, dyk ned i den nordiske mytologi i Høj, pas på Femlingerne og følg med i nye eventyr med Fluernes Herman. Udløber: 9. mar 2024",
+      "plotoutline": "To på ét værelse: Hermans storebror flytter hjem igen",
+      "date": "09.02.2024",
+      "aired": "2024-02-09",
+      "year": 2024,
+      "episode": 6,
       "mediatype": "episode"
     },
     "properties": {
@@ -216,15 +135,21 @@
     ]
   },
   {
-    "label": "TV AVISEN: Flere ældre bliver svindlet",
-    "url": "?playVideo=301940&kids=False&idpath=/kanal/192099",
+    "label": "Dronning Mary - pigen fra Tasmanien",
+    "url": "?playVideo=434766&kids=False&idpath=/program/dronning-mary-_-pigen-fra-tasmanien_434766",
     "params": {
-      "playVideo": "301940",
+      "playVideo": "434766",
       "kids": "False",
-      "idpath": "/kanal/192099"
+      "idpath": "/program/dronning-mary-_-pigen-fra-tasmanien_434766"
     },
     "info": {
-      "title": "TV AVISEN: Flere ældre bliver svindlet"
+      "title": "Dronning Mary - pigen fra Tasmanien",
+      "plot": "Den 14. januar trådte Mary ud på balkonen på Christiansborg som Dronningen af Danmark. Men hvordan gik det egentlig til, at en helt almindelig pige fra Tasmanien endte med prinsen og det halve kongerige? Udløber: 5. feb 2026",
+      "plotoutline": "Hvordan endte en ung australsk kvinde med kronprinsen af Danmark?",
+      "date": "05.02.2024",
+      "aired": "2024-02-05",
+      "year": 2024,
+      "mediatype": "tvshow"
     },
     "properties": {
       "IsPlayable": "true"
@@ -237,17 +162,91 @@
     ]
   },
   {
-    "label": "Forsvundet 2",
-    "url": "?listVideos=/saeson/forsvundet_354968&seasons=False",
+    "label": "TVA Live: Hjælp på vej til tilskadekomne danskere i Thailand",
+    "url": "?playVideo=301940&kids=False&idpath=/kanal/192099",
     "params": {
-      "listVideos": "/saeson/forsvundet_354968",
+      "playVideo": "301940",
+      "kids": "False",
+      "idpath": "/kanal/192099"
+    },
+    "info": {
+      "title": "TVA Live: Hjælp på vej til tilskadekomne danskere i Thailand"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Danmarks bedste portrætmaler: Det helstøbte portræt",
+    "url": "?playVideo=426237&kids=False&idpath=/episode/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237",
+    "params": {
+      "playVideo": "426237",
+      "kids": "False",
+      "idpath": "/episode/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237"
+    },
+    "info": {
+      "title": "Danmarks bedste portrætmaler: Det helstøbte portræt",
+      "plot": "Vi er nået til finalen i Danmarks bedste portrætmaler, som tradition tro finder sted på Ny Carlsberg Glyptotek i København. Det er nu, de tre finalister skal vise alt, hvad de har lært gennem konkurrencen, ved at lave det helstøbte portræt af modellen Sofie Gråbøl. Men hvem imponerer de tre dommere mest og får dermed titlen som Danmarks bedste portrætmaler? Udløber: 31. dec 2027",
+      "plotoutline": "Episode 6:6 | Modellen er Sofie Gråbøl. Hvilken kunstner løber med sejren?",
+      "date": "06.02.2024",
+      "aired": "2024-02-06",
+      "year": 2024,
+      "episode": 6,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
+    "url": "?playVideo=422579&kids=False&idpath=/episode/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579",
+    "params": {
+      "playVideo": "422579",
+      "kids": "False",
+      "idpath": "/episode/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579"
+    },
+    "info": {
+      "title": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
+      "plot": "Om to måneder slipper pengene op for Jørgen og Susanne. Så går de 5.000 kr. i minus hver måned, hvis ikke huset bliver solgt.   \nMen landsbyen passer på sine børn, så alle der kan kravle og gå tropper op for at hjælpe. Designer Kalle Thesbjerg har en vild plan og bygger sofa et mystisk sted, ejendomsmægler Line Franck besøger slægtsgården, og tømrer Dennis Lindeqiust viser, hvordan man fikser et badeværelse for meget få penge. Udløber: 7. feb 2026",
+      "plotoutline": "En hel landsby hjælper Jørgen og Susanne, så huset kan sælges",
+      "episode": 7,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Store danske kunstnere 1",
+    "url": "?listVideos=/saeson/store-danske-kunstnere_419741&seasons=False",
+    "params": {
+      "listVideos": "/saeson/store-danske-kunstnere_419741",
       "seasons": "False"
     },
     "info": {
-      "title": "Forsvundet 2",
-      "plot": "Serien \"Forsvundet\" tegner et portræt af foreningen Missing People, der er drevet af at hjælpe pårørende, som står i deres livs sværeste situation.",
-      "plotoutline": "Ny sæson | Ildsjælene i Missing People leder efter mennesker, der er forsvundet",
-      "season": 2,
+      "title": "Store danske kunstnere 1",
+      "plot": "Med deres skulpturer og malerier formede de det Danmark, vi kender i dag. Det krævede kampe mod egne dæmoner, normer og kønsroller. Oplev kunstnerne Bertel Thorvaldsen, Anne Marie Carl-Nielsen, Johan Thomas Lundbye og Elisabeth Jerichau Baumann i denne dramadokumentarserie.",
+      "plotoutline": "Hele serien | Med deres kunstværker formede de det Danmark, vi kender i dag",
+      "season": 1,
       "mediatype": "season"
     },
     "properties": {},
@@ -258,25 +257,53 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Forsvundet 2&favoritepath=354968)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Store danske kunstnere 1&favoritepath=419741)"
       ]
     ]
   },
   {
-    "label": "Danmarks næste klassiker: Et helbredende design",
-    "url": "?playVideo=365833&kids=False&idpath=/episode/danmarks-naeste-klassiker_-et-helbredende-design_365833",
+    "label": "Tæt på sandheden med Jonatan Spang: Program to milliarder",
+    "url": "?playVideo=434395&kids=False&idpath=/episode/taet-paa-sandheden-med-jonatan-spang_-program-to-milliarder_434395",
     "params": {
-      "playVideo": "365833",
+      "playVideo": "434395",
       "kids": "False",
-      "idpath": "/episode/danmarks-naeste-klassiker_-et-helbredende-design_365833"
+      "idpath": "/episode/taet-paa-sandheden-med-jonatan-spang_-program-to-milliarder_434395"
     },
     "info": {
-      "title": "Danmarks næste klassiker: Et helbredende design",
-      "plot": "Dansk livsstilsprogram fra 2023. \nDe fem designere står overfor en kæmpemæssig designoverraskelse, når de uden en kategori bliver sendt ud af studiet for at sætte kursen mod Mary Elizabeths børnehospital ved Rigshospitalet. For præcis som mange af de gamle klassikere, så skal deltagerne denne gang skabe et design til et specifikt sted. Og her kommer alle fem designere på dybt vand, når de skal lave en entré-zone til fremtidens børnehospital. For nu skal funktion, æstetik og materialer stå knivskarpt, når møblerne skal være med til at danne rammerne for de syge børn og deres familier. Formår designerne at tilsidesætte deres egne drømme og ønsker for udelukkende at opfylde alle opgavens krav? Udløber: 28. feb 2025",
-      "plotoutline": "Episode 3:6 | Designerne skal skabe en entrézone til syge børn og deres familier",
-      "date": "28.02.2023",
-      "aired": "2023-02-28",
-      "year": 2023,
+      "title": "Tæt på sandheden med Jonatan Spang: Program to milliarder",
+      "plot": "Vi begynder denne uges afsnit med at kaste et blik over den seneste udvikling i sagen om Nordic Waste, hvor vi kigger nærmere på konflikten, der er mellem dem og politikerne. Vi besøger også det nye ældreudspil, som regeringen præsenterede tidligere på ugen. Her ser vi blandt andet på, hvor stor en forskel det kommer til at betyde. Og så synes regeringen, at værnepligt for kvinder er en rigtig god idé - det gjorde de hvert fald sidste år. Derudover får I lov til at se lidt af det første afsnit i den nye serie om Anker Jørgensen. Udløber: 3. feb 2025",
+      "plotoutline": "Ugens nyheder tages under kærlig, men bestemt behandling",
+      "date": "03.02.2024",
+      "aired": "2024-02-03",
+      "year": 2024,
+      "episode": 2,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Det store adoptionstyveri: Landsbyen, hvor børnene forsvandt",
+    "url": "?playVideo=434376&kids=False&idpath=/episode/det-store-adoptionstyveri_-landsbyen-hvor-boernene-forsvandt_434376",
+    "params": {
+      "playVideo": "434376",
+      "kids": "False",
+      "idpath": "/episode/det-store-adoptionstyveri_-landsbyen-hvor-boernene-forsvandt_434376"
+    },
+    "info": {
+      "title": "Det store adoptionstyveri: Landsbyen, hvor børnene forsvandt",
+      "plot": "Hvor var danske myndigheder, da lederen af David Kildendals børnehjem i Indien sendte 48 børn til Danmark? Et nyt spor peger mod en landsby i Indien, og David rejser sammen med en anden adopteret til landsbyen, der gemmer på en så voldsom hemmelighed, at det stiller det grundlæggende spørgsmål: Har Danmarks adoptioner fulgt reglerne? Udløber: 5. feb 2026",
+      "plotoutline": "Episode 3:3 | En stor hemmelighed afsløres. Har Danmark fulgt adoptionsreglerne?",
+      "date": "05.02.2024",
+      "aired": "2024-02-05",
+      "year": 2024,
       "episode": 3,
       "mediatype": "episode"
     },

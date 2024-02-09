@@ -139,7 +139,7 @@ class TestOffline(unittest.TestCase):
         self.myEqual(res, [])
         self.myEqual(handle.favorites, {})
 
-        handle.route(main_menu_js[3]['url'])
+        handle.route(main_menu_js[3]['url'].replace('402868', '108657'))
         biggest_shows = [iteminfo(item) for item in get_items().values()]
         shows = [s for s in biggest_shows if len(s['contextmenu']) == 2] # we only have this option for series
 
@@ -159,7 +159,7 @@ class TestOffline(unittest.TestCase):
         self.myEqual(len(handle.favorites), 2)
 
         # update contextmenus
-        handle.route(main_menu_js[3]['url'])
+        handle.route(main_menu_js[3]['url'].replace('402868', '108657'))
         biggest_shows = [iteminfo(item) for item in get_items().values()]
         shows = [s for s in biggest_shows if len(s['contextmenu']) == 2]
 
