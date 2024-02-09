@@ -188,6 +188,19 @@ msgctxt "#30226"
 msgid "cron expression"
 msgstr "cron tidskode"
 
+# Login
+msgctxt "#30300"
+msgid "drtv username"
+msgstr "drtv brugernavn"
+
+msgctxt "#30301"
+msgid "drtv password"
+msgstr "drtv kodeord"
+
+msgctxt "#30302"
+msgid "login"
+msgstr "login"
+
 # IPTV
 msgctxt "#30550"
 msgid "IPTV Manager"

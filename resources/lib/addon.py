@@ -218,6 +218,18 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
+        # Mylist
+        item = xbmcgui.ListItem("Min Liste", offscreen=True)
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
+        item.addContextMenuItems(self.menuItems, False)
+        items.append((self._plugin_url + '?show=mylist', item, True))
+
+        # Continue watching
+        item = xbmcgui.ListItem("Fortsæt med at se", offscreen=True)
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
+        item.addContextMenuItems(self.menuItems, False)
+        items.append((self._plugin_url + '?show=continue', item, True))
+
         for hitem in self.api.get_home():
             if hitem['path']:
                 item = xbmcgui.ListItem(hitem['title'], offscreen=True)
@@ -593,6 +605,11 @@ class DrDkTvAddon(object):
                     self.showRecentlyWatched()
                 elif PARAMS['show'] == 'areaselector':
                     self.showAreaSelector()
+                elif PARAMS['show'] == 'mylist':
+                    self.listEpisodes(self.api.get_mylist()['items'])
+                elif PARAMS['show'] == 'continue':
+                    self.listEpisodes(self.api.get_continue()['items'])
+                    
             # iptv manager integration
             elif 'iptv' in PARAMS:
                 if PARAMS['iptv'] == 'channels':
@@ -622,6 +639,9 @@ class DrDkTvAddon(object):
 
             elif 'clearfavorite' in PARAMS:
                 self._clear()
+
+            elif 'loginnow' in PARAMS:
+                self.api.request_tokens()
 
             elif 're-cache' in PARAMS:
                 progress = xbmcgui.DialogProgress()

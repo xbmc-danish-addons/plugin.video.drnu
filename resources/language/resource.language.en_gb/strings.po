@@ -188,6 +188,18 @@ msgctxt "#30226"
 msgid "cron expression"
 msgstr ""
 
+# Login
+msgctxt "#30300"
+msgid "drtv username"
+msgstr ""
+
+msgctxt "#30301"
+msgid "drtv password"
+msgstr ""
+
+msgctxt "#30302"
+msgid "login"
+msgstr ""
 
 # IPTV
 msgctxt "#30550"

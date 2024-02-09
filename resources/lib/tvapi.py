@@ -29,6 +29,7 @@ import requests_cache
 import time
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
+from urllib.parse import urlparse, parse_qs
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
@@ -49,6 +50,85 @@ def cache_path(path):
         return False
     return True
 
+def full_login(user, password):
+    ses = requests.Session()
+    # start login flow
+    params = {
+        'clientRedirectUrl':'https://www.dr.dk/drtv/callback', 'signUp': 'false', 'localPath':'/', 'optout':'false', 'device':'web_browser'}
+    headers = {
+        'authority': 'production.dr-massive.com',
+        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    }
+    url = URL + '/authorization?'
+    res = ses.get(url, params=params, headers=headers, allow_redirects=True)
+
+    if res.status_code != 200:
+        return {'status_code': res.status_code, 'error': res.text}
+    client_id = parse_qs(urlparse(res.history[1].url).query)['client_id'][0]
+    referer = res.history[2].headers['Location']
+    state = parse_qs(urlparse(referer).query)['state'][0]
+
+    # post credentials
+    headers = {
+        'authority': 'api.dr.dk',
+        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+        'content-type': 'application/json',
+    }
+    
+    url = 'https://api.dr.dk/login/graphql'
+    data = {"operationName":"InitializeLoginTransaction","variables":{"input":{"state":state,"clientID":client_id}},"query":"mutation InitializeLoginTransaction($input: InitializeLoginTransactionInput!) {\n  initializeLoginTransaction(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}
+    u = ses.post(url, data=json.dumps(data), headers=headers)
+    print(1, u.status_code)
+    if u.status_code != 200:
+        return {'status_code': u.status_code, 'error': u.text}
+    transaction_id = u.json()['data']['initializeLoginTransaction']['id']
+    
+    data = {"operationName":"Identify","variables":{"input":{"transaction":transaction_id,"email":user}},"query":"mutation Identify($input: IdentificationInput\u0021) {\n  identify(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}
+    u2 = ses.post(url, data=json.dumps(data), headers=headers)
+    print(2, u2.status_code)
+    if u2.status_code != 200:
+        return {'status_code': u2.status_code, 'error': u2.text}
+    
+    data={"variables":{"input":{"email":user,"password":password,"state":state}},"query":"mutation ($input: LoginInput!) {\n  token: login(input: $input)\n}"}
+    u3 = ses.post(url, data=json.dumps(data), headers=headers)
+    print(3, u3.status_code)
+    if u3.status_code != 200:
+        return {'status_code': u3.status_code, 'error': u3.text}
+    data = u3.json()['data']
+
+    # post login to tokens
+    headers = {
+        'authority': 'login.dr.dk',
+        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+        'content-type': 'application/x-www-form-urlencoded',
+    }
+    
+    url = 'https://login.dr.dk/oidc/interactions/login/continue'
+    res = ses.post(url, data=data, headers=headers, allow_redirects=True)
+    if res.status_code != 200:
+        return {'status_code': res.status_code, 'error': res.text}
+    o = parse_qs(urlparse(res.url).fragment)
+    tokens = [o[label][0] for label in ['RefreshableUserAccount', 'RefreshableUserProfile']]
+    return tokens
+
+
+def deviceid():
+    v = int(Path(__file__).stat().st_mtime)
+    h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
+    return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
+
+
+def anonymous_tokens():
+    data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
+    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
+
+    url = URL + '/authorization/anonymous-sso?'
+    u = requests.post(url, json=data, params=params)
+    if u.status_code != 200:
+        return {'status_code': res.status_code, 'error': res.text}
+    tokens = json.loads(u.content)
+    return tokens
+
 class Api():
     def __init__(self, cachePath, getLocalizedString, get_setting):
         self.cachePath = cachePath
@@ -61,6 +141,8 @@ class Api():
 
         self.token_file = Path(f'{self.cachePath}/token.p')
         self._user_token = None
+        self.user = get_setting('drtv_username')
+        self.password = get_setting('drtv_password')
         self.refresh_tokens()
 
     def init_sqlite_db(self):
@@ -86,41 +168,66 @@ class Api():
                 request_fname, backend='sqlite', expire_after=self.expire_seconds)
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
-    def deviceid(self):
-        v = int(Path(__file__).stat().st_mtime)
-        h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
-        return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
-
-    def read_token(self, tokens):
-        time_struct = time.strptime(tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
-        self._token_expire = datetime(*time_struct[0:6])
+    def read_tokens(self, tokens):
+        time_str = tokens[0]['expirationDate'].split('.')[0]+'Z'
+        self._token_expire = datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S%z')
         self._user_token = tokens[0]['value']
         self._profile_token = tokens[1]['value']
 
     def request_tokens(self):
-        data = {"deviceId": self.deviceid(), "scopes": ["Catalog"], "optout": False}
-        params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
-
-        url = URL + '/authorization/anonymous-sso?'
-        u = requests.post(url, json=data, params=params)
-        self._user_token = None
-        if u.status_code == 200:
-            with self.token_file.open('wb') as fh:
-                tokens = json.loads(u.content)
-                pickle.dump(tokens, fh)
-            self.read_token(tokens)
+        if self.user:
+            tokens_pure = full_login(self.user, self.password)
+            if isinstance(tokens_pure, dict):
+                err = tokens_pure['error']
+                raise ApiException(f'Login failed with: "{err}"')
+            tokens = [self.refresh_token(t) for t in tokens_pure]
         else:
-            raise ApiException(f'Failed to get new token from: {url}')
+            tokens = anonymous_tokens()
+        self._user_token = None
+        if isinstance(tokens, list):
+            with self.token_file.open('wb') as fh:
+                pickle.dump(tokens, fh)
+            self.read_tokens(tokens)
+        else:
+            raise ApiException(f'Failed to get new token: {tokens["error"]}')
+
+    def refresh_token(self, token):
+        url = 'https://production.dr-massive.com/api/authorization/refresh'
+        params = {'ff':'idp,ldp,rpt', 'supportFallbackToken': True}
+        headers = {
+            'Host': 'production.dr-massive.com',
+            'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+            'content-type': 'application/json',
+        }
+        data = {
+            'token': token, 'optout': False
+        }
+        res = self.session.post(url, params=params, headers=headers, json=data)
+        if res.status_code != 200:
+            return {'status_code': res.status_code, 'error': res.text}
+        return res.json()
 
     def refresh_tokens(self):
         if self._user_token is None:
             if self.token_file.exists():
                 with self.token_file.open('rb') as fh:
-                    self.read_token(pickle.load(fh))
+                    self.read_tokens(pickle.load(fh))
             else:
                 self.request_tokens()
-        if (self._token_expire - datetime.now()).total_seconds() < 120:
-            self.request_tokens()
+        if (self._token_expire - datetime.now(timezone.utc)).total_seconds() < 120:
+            failed_refresh = False
+            tokens = []
+            for t in [self._user_token, self._profile_token]:
+                newtoken = self.refresh_token(t)
+                tokens.append(newtoken)
+                if 'error' in newtoken:
+                    failed_refresh = True
+            if failed_refresh:
+                self.request_tokens()
+            else:
+                with self.token_file.open('wb') as fh:
+                    pickle.dump(tokens, fh)
+                self.read_tokens(tokens)
 
     def user_token(self):
         self.refresh_tokens()
@@ -201,6 +308,53 @@ class Api():
         else:
             raise ApiException(u.text)
 
+    def get_mylist(self, use_cache=True):
+        url = URL + '/account/profile/bookmarks/list'
+        data = {'page_size': '24'}
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+
+        if use_cache and self.caching:
+            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        else:
+            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
+    def get_continue(self, use_cache=True):
+        url = URL + '/account/profile/continue-watching/list'
+        data = {'page_size': '24'}
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+
+        if use_cache and self.caching:
+            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        else:
+            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+
+    def get_profile(self, use_cache=True):
+        url = URL + '/account/profile?ff=idp%2Cldp%2Crpt&lang=da'
+        data = {'page_size': '24'}
+        headers = {
+            'authority': 'production.dr-massive.com',
+            'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+            'origin': 'https://www.dr.dk',
+            'accept': 'application/json',
+            'X-Authorization': 'Bearer ' + self._profile_token,
+        }
+        if use_cache and self.caching:
+            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        else:
+            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
+    
     def kids_item(self, item):
         if 'classification' in item:
             if item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
@@ -244,13 +398,15 @@ class Api():
             max_list_prefetch=1,
             item_detail_expand='all',
             path='/',
-            segments='drtv,mt_K8q4Nz3,optedin',
+            segments='drtv,optedin',
         )
         js = self.get_programcard('/', data=data)
         items = [{'title': 'Programmer A-Å', 'path': '/kategorier/a-aa', 'icon': 'all.png'}]
         for item in js['entries']:
             title = item['title']
-            if title not in ['Se Live TV', 'Vi tror, du kan lide']:  # TODO activate again when login works
+            if title not in ['Se live tv']:
+#                if title == 'Vi tror, du kan lide' and self.user == '':
+#                    title = ''
                 if title == '' and item['type'] == 'ListEntry':
                     title = item['list'].get('title', '') # get the top spinner item
                 if title.startswith('DRTV Hero'):
