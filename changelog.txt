@@ -1,3 +1,6 @@
+[B]Version 6.3.0 - 2024-02-09[/B]
+- Added login
+
 [B]Version 6.2.0 - 2023-04-03[/B]
 - Complete retwrite of settings api
 - fix for categories api change from dr.dk
