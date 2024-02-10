@@ -1,1 +1,444 @@
-[]
+[
+  {
+    "label": "Signe Molde på udebane 3",
+    "url": "?listVideos=/saeson/signe-molde-paa-udebane_421732&seasons=False",
+    "params": {
+      "listVideos": "/saeson/signe-molde-paa-udebane_421732",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Signe Molde på udebane 3",
+      "plot": "Signe Molde møder med humor og nysgerrighed danskere med kontroversielle holdninger - fra mænd der savner ligestilling, og ulvehadere der vil gå meget langt for at slippe af med ulven, til en gruppe der bare gerne vil køre stærkt uden at kaldes for \"vanvidsbilister\".",
+      "plotoutline": "Tv-værten er tilbage med nye seriøse og nysgerrige spørgsmål",
+      "season": 3,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Signe Molde på udebane 3&favoritepath=421732)"
+      ]
+    ]
+  },
+  {
+    "label": "I hus til halsen 12",
+    "url": "?listVideos=/saeson/i-hus-til-halsen_422575&seasons=False",
+    "params": {
+      "listVideos": "/saeson/i-hus-til-halsen_422575",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "I hus til halsen 12",
+      "plot": "Programmets eksperter får til opgave at hjælpe familier ud af meget klemte situationer, hvor et hussalg nærmest virker utopisk. Eksperterne skal nu gøre alt hvad de kan, så familierne forhåbentlig få deres hus solgt og kan komme videre i livet.",
+      "plotoutline": "Eksperterne vender tilbage for at forvandle usælgelige huse",
+      "season": 12,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=I hus til halsen 12&favoritepath=422575)"
+      ]
+    ]
+  },
+  {
+    "label": "De mistænkte",
+    "url": "?playVideo=433982&kids=False&idpath=/program/de-mistaenkte_433982",
+    "params": {
+      "playVideo": "433982",
+      "kids": "False",
+      "idpath": "/program/de-mistaenkte_433982"
+    },
+    "info": {
+      "title": "De mistænkte",
+      "plot": "Pludselig bliver du anholdt. Mistænkt for svindel eller for at være i ledtog med narkokriminelle. Du siger, du er uskyldig. Men du sættes flere måneder i fængsel - varetægtsfængsel. To helt almindelige danskere sidder fængslet, mens deres sag undersøges af politiet. De fortæller om store tab, menneskeligt og økonomisk, og hvordan det rammer uskyldige og deres børn hårdt. Fire ud af ti fængselsceller i Danmark bruges konstant til varetægt. Det er et voksende problem - ikke kun for danskernes retssikkerhed - men også for hele retssystemet, siger flere dommere. Udløber: 29. jan 2026",
+      "plotoutline": "Varetægtsfængsling rammer uskyldige mennesker og deres børn hårdt",
+      "date": "29.01.2024",
+      "aired": "2024-01-29",
+      "year": 2024,
+      "mediatype": "tvshow"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Alle elsker Sinan",
+    "url": "?listVideos=/serie/alle-elsker-sinan_419258&seasons=False",
+    "params": {
+      "listVideos": "/serie/alle-elsker-sinan_419258",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Alle elsker Sinan",
+      "plot": "Flamboyant, provokerende, irriterende. Sinan er nogle gange lidt for meget - synes hans familie. Men selvom mor Ceylan har svært ved at acceptere alt fra hans croptops, hans venner og (især) hans seksualitet, elsker hun alligevel sin \"lille diamant\" overalt på jorden. Endda også lidt mere end sine andre børn... Når Sinan skruer op for charmen, kan han slippe af sted med hvad som helst. Til hans mere afdæmpede bror Aykuts store irritation!"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Alle elsker Sinan&favoritepath=419258)"
+      ]
+    ]
+  },
+  {
+    "label": "Camma bliver kendt",
+    "url": "?listVideos=/serie/camma-bliver-kendt_419253&seasons=False",
+    "params": {
+      "listVideos": "/serie/camma-bliver-kendt_419253",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Camma bliver kendt",
+      "plot": "Camma VIL være kendt! Og hun er villig til at tage alle metoder i brug for at blive en celebrity med hundredtusindvis af følgere. Derfor teamer Camma op med sanger Barbara Moleko, realitystjernen Sy Lee og Boris fra Bachelorette. Hun får en kendt fake kæreste og crasher settet på tv-serien Salsa i sin jagt på berømmelse."
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Camma bliver kendt&favoritepath=419253)"
+      ]
+    ]
+  },
+  {
+    "label": "I hjernen på stjernen 3",
+    "url": "?listVideos=/saeson/i-hjernen-paa-stjernen_422583&seasons=False",
+    "params": {
+      "listVideos": "/saeson/i-hjernen-paa-stjernen_422583",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "I hjernen på stjernen 3",
+      "plot": "I denne programrække vil psykologisk manipulator Jan Hellesøe og psykolog og vært Josefine Høgh portrættere fem kendte danskere for seeren. I disse fem programmer vil Høgh og Hellesøe give hovedpersonen stof til eftertanke gennem spektakulære iscenesættelser. De to værter prøver sammen at lægge et puslespil ud af gæstens relationer, minder, sorger, tanker og følelser - som forhåbentlig til sidst vil give den kendte gæst et nyt blik på på dem selv - og på livet.",
+      "plotoutline": "Hele serien | Josefine og Jan møder bl.a. Ghita Nørby og Sofie Linde",
+      "season": 3,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=I hjernen på stjernen 3&favoritepath=422583)"
+      ]
+    ]
+  },
+  {
+    "label": "Din krop indefra",
+    "url": "?listVideos=/serie/din-krop-indefra_422594&seasons=False",
+    "params": {
+      "listVideos": "/serie/din-krop-indefra_422594",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Din krop indefra",
+      "plot": "I denne serie får danskere med alvorlige diagnoser en konsultation, som de aldrig har prøvet før. Med hjælp af banebrydende teknologi viser nogle af Danmarks dygtigste læger, hvordan kroppen bliver påvirket af sygdommen. Og de forklarer patienterne, hvilket forløb de skal igennem for at komme raske ud på den anden side. Med sig har de Peter Qvortrup Geisling og Josefine Høgh, der sammen er med til at gøre os klogere på både krop og sind."
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Din krop indefra&favoritepath=422594)"
+      ]
+    ]
+  },
+  {
+    "label": "Kunstnerkolonien: Italien 4",
+    "url": "?listVideos=/saeson/kunstnerkolonien_-italien_416893&seasons=False",
+    "params": {
+      "listVideos": "/saeson/kunstnerkolonien_-italien_416893",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Kunstnerkolonien: Italien 4",
+      "plot": "Italien | I Kunstnerkolonien samler DR 6 af de mest anerkendte kunstnere i Danmark og skaber en kunstnerkoloni et ikonisk sted i Danmark. Et sted, hvor kunstnere gennem tiden har søgt hen for at finde inspiration og fællesskab med andre kunstnere. Efter 14 dage skal de sammen udstille de værker de har skabt under opholdet.",
+      "plotoutline": "Hele serien | Seks kunstnere tager til Amalfikysten i Syditalien",
+      "season": 4,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Kunstnerkolonien: Italien 4&favoritepath=416893)"
+      ]
+    ]
+  },
+  {
+    "label": "World on Fire 2",
+    "url": "?listVideos=/saeson/world-on-fire_411303&seasons=False",
+    "params": {
+      "listVideos": "/saeson/world-on-fire_411303",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "World on Fire 2",
+      "plot": "Den stort anlagte BBC-dramaserie 'World on Fire' fortæller historien om 2. verdenskrig som oplevet af en række helt almindelige mennesker.",
+      "plotoutline": "Hele serien | I stormens øje – britisk dramaserie om 2. verdenskrig",
+      "season": 2,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=World on Fire 2&favoritepath=411303)"
+      ]
+    ]
+  },
+  {
+    "label": "Bag enhver mand",
+    "url": "?listVideos=/serie/bag-enhver-mand_424417&seasons=False",
+    "params": {
+      "listVideos": "/serie/bag-enhver-mand_424417",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Bag enhver mand",
+      "plot": "En komediedramaserie om køn, magt og forandring. Af og med Julie Rudbæk og Jesper Zuschlag."
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Bag enhver mand&favoritepath=424417)"
+      ]
+    ]
+  },
+  {
+    "label": "Alice og Jack",
+    "url": "?listVideos=/serie/alice-og-jack_419460&seasons=False",
+    "params": {
+      "listVideos": "/serie/alice-og-jack_419460",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Alice og Jack",
+      "plot": "Da Alice og Jack mødes, knytter de et stærkt bånd. Men vil de opleve lykke og samhørighed? Eller vil livet stille sig i vejen? Britisk romantisk dramaserie med Andrea Riseborough og Domhnall Gleeson."
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Alice og Jack&favoritepath=419460)"
+      ]
+    ]
+  },
+  {
+    "label": "Danmarks bedste portrætmaler 5",
+    "url": "?listVideos=/saeson/danmarks-bedste-portraetmaler_426234&seasons=False",
+    "params": {
+      "listVideos": "/saeson/danmarks-bedste-portraetmaler_426234",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Danmarks bedste portrætmaler 5",
+      "plot": "Igennem seks programmer skal otte talentfulde kunstnere dyste om at blive Danmarks bedste portrætmaler. Tre erfarne dommere vælger hver uge hvem, der har malet 'Dagens bedste portræt', og hvem, der skal forlade konkurrencen - for kun tre går hele vejen til finalen.",
+      "plotoutline": "Otte nye talentfulde kunstnere skal male kendte danskere",
+      "season": 5,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Danmarks bedste portrætmaler 5&favoritepath=426234)"
+      ]
+    ]
+  },
+  {
+    "label": "Nyrup - Signes far",
+    "url": "?listVideos=/serie/nyrup-_-signes-far_424806&seasons=False",
+    "params": {
+      "listVideos": "/serie/nyrup-_-signes-far_424806",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Nyrup - Signes far",
+      "plot": "Få måneder efter Poul Nyrup Rasmussen er blevet statsminister tager hans 24-årige datter, der lider af paranoid skizofreni, sit eget liv. Tragedien kaster Poul ud i hans livs værste krise - samtidig med at han skal varetage landets højeste embede.  \nI 2 programmer søger Poul Nyrup tilbage i historien for at finde ud af, hvad det var for en sygdom datteren Signe led af, og om han som far, kunne have gjort mere for at forhindre katastrofen."
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Nyrup - Signes far&favoritepath=424806)"
+      ]
+    ]
+  },
+  {
+    "label": "Løvens Hule 9",
+    "url": "?listVideos=/saeson/loevens-hule_424451&seasons=False",
+    "params": {
+      "listVideos": "/saeson/loevens-hule_424451",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Løvens Hule 9",
+      "plot": "Fem investorer sidder igen klar i Løvens Hule, denne gang med to nye løver. De byder velkommen til et væld af nye modige iværksættere, som pitcher deres forretningsideer i håb om at lande en investering",
+      "plotoutline": "Nye løver og iværksættere - hvem kan sikre sig en investering?",
+      "season": 9,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Løvens Hule 9&favoritepath=424451)"
+      ]
+    ]
+  },
+  {
+    "label": "Tæt på sandheden med Jonatan Spang 12",
+    "url": "?listVideos=/saeson/taet-paa-sandheden-med-jonatan-spang_431291&seasons=False",
+    "params": {
+      "listVideos": "/saeson/taet-paa-sandheden-med-jonatan-spang_431291",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Tæt på sandheden med Jonatan Spang 12",
+      "plot": "Comedyshow, hvor ugens nyheder og tidsaktuelle tendenser tages under kærlig, men bestemt behandling af Jonatan Spang.",
+      "season": 12,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Tæt på sandheden med Jonatan Spang 12&favoritepath=431291)"
+      ]
+    ]
+  },
+  {
+    "label": "Forelsket i en løgn",
+    "url": "?listVideos=/serie/forelsket-i-en-loegn_416406&seasons=False",
+    "params": {
+      "listVideos": "/serie/forelsket-i-en-loegn_416406",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Forelsket i en løgn",
+      "plot": "Camilla troede, hun forelskede sig i den perfekte fyr. Men det viser sig, at han er alt andet end det. Historier om gæld til rockere, farlige forbindelser og kidnapning dukker op midt i Camillas stormende forelskelse. Og inden for ganske kort tid ser hun sig selv tømme sin konto, børneopsparing og optage lån for at hjælpe den fyr, hun har forelsket sig i. Der er bare et problem: Meget af det, Benjamin fortæller er opdigtet. Det finder Camilla dog først ud af alt for sent."
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Forelsket i en løgn&favoritepath=416406)"
+      ]
+    ]
+  },
+  {
+    "label": "FredagsTamTam",
+    "url": "?listVideos=/serie/fredagstamtam_357146&seasons=False",
+    "params": {
+      "listVideos": "/serie/fredagstamtam_357146",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "FredagsTamTam",
+      "plot": "En fantastisk blanding af helt nye og klassiske tegnefilm for børn og deres forældre.",
+      "plotoutline": "En fantastisk blanding af helt nye og klassiske tegnefilm"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=FredagsTamTam&favoritepath=357146)"
+      ]
+    ]
+  },
+  {
+    "label": "Vilde eventyr - med Vicky og Rane",
+    "url": "?listVideos=/serie/vilde-eventyr-_-med-vicky-og-rane_422588&seasons=False",
+    "params": {
+      "listVideos": "/serie/vilde-eventyr-_-med-vicky-og-rane_422588",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Vilde eventyr - med Vicky og Rane",
+      "plot": "Dansk rejse- og naturserie fra 2023.\nTag med Rane Willerslev og Vicky Knudsen til verdens vildeste natur. I Danmark har vi kun omkring 2 % vild natur, og vi forsøger med næb og kløer at bevare det, vi har tilbage. Antropolog Rane Willerslev og biolog Vicky Knudsen er derfor taget på ekspedition ud til de afkroge af verden, hvor der stadig er vild natur tilbage. Her møder også de mennesker, som lever i tæt pagt med naturen, for at opleve, hvad det gør ved dem. Spørgsmålet er, kan vi genfinde vores forhold til naturen? Kan vi lære noget, som gør os lykkeligere?"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Vilde eventyr - med Vicky og Rane&favoritepath=422588)"
+      ]
+    ]
+  }
+]

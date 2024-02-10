@@ -1,0 +1,13 @@
+name: small-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - requests-cache=0.5.2
+  - dateutils
+  - pip
+  - pytest
+  - flake8
+  - pip:
+    - kodi-addon-checker

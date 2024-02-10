@@ -15,27 +15,24 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v3
+
+    - name: setup-micromamba
+      uses: mamba-org/setup-micromamba@v1
       with:
-        python-version: 3.9
-    - name: Add conda to system path
-      run: |
-        # $CONDA is an environment variable pointing to the root of the miniconda directory
-        echo $CONDA/bin >> $GITHUB_PATH
+        environment-file: tests/envs/test.yml
+        environment-name: python-test-env
+        cache-environment: true
+        post-cleanup: 'all'
 
     - name: Lint with flake8
       run: |
-        conda install flake8
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82,E501,E722 --max-line=130 --show-source --statistics
   
     - name: Test with kodi-addon-checker
       run: |
-        pip install kodi-addon-checker
         kodi-addon-checker --branch=matrix --allow-folder-id-mismatch
 
     - name: Unit tests
       run: |
-        conda install -c conda-forge pytest requests-cache dateutils
-        python -m pytest
+        pytest tests --disable-warnings
