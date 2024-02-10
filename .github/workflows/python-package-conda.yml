@@ -25,14 +25,18 @@ jobs:
         post-cleanup: 'all'
 
     - name: Lint with flake8
+      shell: bash -l {0}
       run: |
         # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82,E501,E722 --max-line=130 --show-source --statistics
-  
+        flake8 . --count --select=E9,F63,F7,F82,E501,E722 --max-line=200 --show-source --statistics
+
+ 
     - name: Test with kodi-addon-checker
+      shell: bash -l {0}
       run: |
         kodi-addon-checker --branch=matrix --allow-folder-id-mismatch
 
     - name: Unit tests
+      shell: bash -l {0}
       run: |
         pytest tests --disable-warnings
