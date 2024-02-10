@@ -1,18 +1,73 @@
 [
   {
-    "label": "Løvens Hule: Salg i højtiderne?",
-    "url": "?playVideo=424457&kids=False&idpath=/episode/loevens-hule_-salg-i-hoejtiderne_424457",
+    "label": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
+    "url": "?playVideo=434275&kids=False&idpath=/episode/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275",
     "params": {
-      "playVideo": "424457",
+      "playVideo": "434275",
       "kids": "False",
-      "idpath": "/episode/loevens-hule_-salg-i-hoejtiderne_424457"
+      "idpath": "/episode/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275"
     },
     "info": {
-      "title": "Løvens Hule: Salg i højtiderne?",
-      "plot": "Natasja og Tina tager Løverne med storm, når de pitcher deres forretning. Men står de distancen med højtidsbestemte underholdningsprodukter og en drøm om at være julemanden? Udløber: 8. feb 2025",
-      "plotoutline": "Episode 6:9 | Magisk jul og påske: Natasja og Tina tager Løverne med storm",
-      "date": "08.02.2024",
-      "aired": "2024-02-08",
+      "title": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
+      "plot": "Vi er slet ikke færdige med at tale om mink, da det er kommet frem, at erstatningen til minkavlere formentlig vil stige med omkring seks milliarder kroner. Og så er der et nyt lovforslag under behandling. Det handler om, hvilket nationalflag du må have i din flagstang. Vi tager også et kig på prisstigningen for at rejse med bus, tog eller metro. Og så har vi også nået vores klimamål for 2025 - eller har vi nu også det? Udløber: 10. feb 2025",
+      "plotoutline": "Et satirisk blik på ugens nyheder og tendenser",
+      "date": "10.02.2024",
+      "aired": "2024-02-10",
+      "year": 2024,
+      "episode": 3,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "De udvalgte - Dansk Melodi Grand Prix 2024",
+    "url": "?playVideo=437154&kids=False&idpath=/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+    "params": {
+      "playVideo": "437154",
+      "kids": "False",
+      "idpath": "/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154"
+    },
+    "info": {
+      "title": "De udvalgte - Dansk Melodi Grand Prix 2024",
+      "plot": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøver der liger forud for showet. Det bliver en unik mulighed for at lære artisterne og deres musik bedre at kende inden de ugen efter skal kæmpe om, hvem der skal repræsentere Danmark ved Eurovision Song Contest. Udløber: 10. feb 2025",
+      "plotoutline": "Kom med bag kulisserne til dette års store Grand Prix-show",
+      "date": "10.02.2024",
+      "aired": "2024-02-10",
+      "year": 2024,
+      "mediatype": "tvshow"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Signe Molde på udebane: De rige bliver mobbet",
+    "url": "?playVideo=421736&kids=False&idpath=/episode/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736",
+    "params": {
+      "playVideo": "421736",
+      "kids": "False",
+      "idpath": "/episode/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736"
+    },
+    "info": {
+      "title": "Signe Molde på udebane: De rige bliver mobbet",
+      "plot": "Bliver de rige dæmoniseret, hetzet og faktisk direkte mobbet, bare fordi de er rige? Signe Molde møder milliardæren Niklas Nikolajsen, der hverken vil kaldes grisk eller egoistisk - også selvom han er flyttet til Schweiz. I Monaco møder Signe ejendomsmægleren Helle Skovby, der er træt af alle fordommene om fyrstendømmet. Udløber: 10. feb 2026",
+      "plotoutline": "Bliver de rige dæmoniseret, hetzet og mistænkeliggjort?",
+      "date": "10.02.2024",
+      "aired": "2024-02-10",
       "year": 2024,
       "episode": 6,
       "mediatype": "episode"
@@ -53,28 +108,57 @@
     ]
   },
   {
-    "label": "Mordene i Port Talbot 1",
-    "url": "?listVideos=/saeson/mordene-i-port-talbot_423646&seasons=False",
+    "label": "Fanget på havets bund",
+    "url": "?playVideo=433819&kids=False&idpath=/program/fanget-paa-havets-bund_433819",
     "params": {
-      "listVideos": "/saeson/mordene-i-port-talbot_423646",
-      "seasons": "False"
+      "playVideo": "433819",
+      "kids": "False",
+      "idpath": "/program/fanget-paa-havets-bund_433819"
     },
     "info": {
-      "title": "Mordene i Port Talbot 1",
-      "plot": "Tre 30 år gamle uopklarede drabssager bliver genoptaget. Paul Bethell arbejdede med sagerne som ung betjent - nu begynder han en ny morderjagt. Krimiserie baseret på virkelige hændelser.",
-      "plotoutline": "Hele serien | Tre gamle mordsager genåbnes. Krimiserie bygget på virkelige hændelser",
-      "season": 1,
-      "mediatype": "season"
+      "title": "Fanget på havets bund",
+      "plot": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i live. Men nogen kommer ham alligevel til undsætning. Tre dage efter forliset ankommer et redningsskib for at bjærge de døde fra vraget. En nyuddannet dykker bliver som den første sendt ind, og til sin skræk og store overraskelse finder han skibskokken i live dybt inde i det sunkne skib. Men det er først nu, at problemerne virkelig begynder, og de er begge i livsfare. Helt unikt blev hele den mirakuløse redningsaktion filmet af dykkernes hjelmkameraer og al deres kommunikation blev optaget. I tre år har Lasse Spang Olsen rejst verden rundt og fundet de involverede som - for første gang - nu selv fortæller om deres oplevelser på bunden af Atlanterhavet i en af verdens mest besynderlige redningsaktioner. Udløber: 29. dec 2028",
+      "plotoutline": "Skibskokken Harrison fanges i et vrag på 34 meters dybde",
+      "date": "10.02.2024",
+      "aired": "2024-02-10",
+      "year": 2024,
+      "mediatype": "tvshow"
     },
-    "properties": {},
+    "properties": {
+      "IsPlayable": "true"
+    },
     "contextmenu": [
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
+      ]
+    ]
+  },
+  {
+    "label": "Løvens Hule: Salg i højtiderne?",
+    "url": "?playVideo=424457&kids=False&idpath=/episode/loevens-hule_-salg-i-hoejtiderne_424457",
+    "params": {
+      "playVideo": "424457",
+      "kids": "False",
+      "idpath": "/episode/loevens-hule_-salg-i-hoejtiderne_424457"
+    },
+    "info": {
+      "title": "Løvens Hule: Salg i højtiderne?",
+      "plot": "Natasja og Tina tager Løverne med storm, når de pitcher deres forretning. Men står de distancen med højtidsbestemte underholdningsprodukter og en drøm om at være julemanden? Udløber: 8. feb 2025",
+      "plotoutline": "Episode 6:9 | Magisk jul og påske: Natasja og Tina tager Løverne med storm",
+      "date": "08.02.2024",
+      "aired": "2024-02-08",
+      "year": 2024,
+      "episode": 6,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
       [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Mordene i Port Talbot 1&favoritepath=423646)"
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
       ]
     ]
   },
@@ -107,22 +191,41 @@
     ]
   },
   {
-    "label": "FredagsTamTam (6. episode)",
-    "url": "?playVideo=428446&kids=True&idpath=/episode/fredagstamtam_428446",
+    "label": "Mordene i Port Talbot 1",
+    "url": "?listVideos=/saeson/mordene-i-port-talbot_423646&seasons=False",
     "params": {
-      "playVideo": "428446",
-      "kids": "True",
-      "idpath": "/episode/fredagstamtam_428446"
+      "listVideos": "/saeson/mordene-i-port-talbot_423646",
+      "seasons": "False"
     },
     "info": {
-      "title": "FredagsTamTam (6. episode)",
-      "plot": "Helt nye og klassiske tegnefilm for hele familien: Mød den tapre prins Ivandoe, dyk ned i den nordiske mytologi i Høj, pas på Femlingerne og følg med i nye eventyr med Fluernes Herman. Udløber: 9. mar 2024",
-      "plotoutline": "To på ét værelse: Hermans storebror flytter hjem igen",
-      "date": "09.02.2024",
-      "aired": "2024-02-09",
-      "year": 2024,
-      "episode": 6,
-      "mediatype": "episode"
+      "title": "Mordene i Port Talbot 1",
+      "plot": "Tre 30 år gamle uopklarede drabssager bliver genoptaget. Paul Bethell arbejdede med sagerne som ung betjent - nu begynder han en ny morderjagt. Krimiserie baseret på virkelige hændelser.",
+      "plotoutline": "Hele serien | Tre gamle mordsager genåbnes. Krimiserie bygget på virkelige hændelser",
+      "season": 1,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Mordene i Port Talbot 1&favoritepath=423646)"
+      ]
+    ]
+  },
+  {
+    "label": "TVA Live: Regeringen vil indføre automatisk organdonation",
+    "url": "?playVideo=301940&kids=False&idpath=/kanal/192099",
+    "params": {
+      "playVideo": "301940",
+      "kids": "False",
+      "idpath": "/kanal/192099"
+    },
+    "info": {
+      "title": "TVA Live: Regeringen vil indføre automatisk organdonation"
     },
     "properties": {
       "IsPlayable": "true"
@@ -150,27 +253,6 @@
       "aired": "2024-02-05",
       "year": 2024,
       "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "TVA Live: Hjælp på vej til tilskadekomne danskere i Thailand",
-    "url": "?playVideo=301940&kids=False&idpath=/kanal/192099",
-    "params": {
-      "playVideo": "301940",
-      "kids": "False",
-      "idpath": "/kanal/192099"
-    },
-    "info": {
-      "title": "TVA Live: Hjælp på vej til tilskadekomne danskere i Thailand"
     },
     "properties": {
       "IsPlayable": "true"
@@ -223,88 +305,6 @@
       "plot": "Om to måneder slipper pengene op for Jørgen og Susanne. Så går de 5.000 kr. i minus hver måned, hvis ikke huset bliver solgt.   \nMen landsbyen passer på sine børn, så alle der kan kravle og gå tropper op for at hjælpe. Designer Kalle Thesbjerg har en vild plan og bygger sofa et mystisk sted, ejendomsmægler Line Franck besøger slægtsgården, og tømrer Dennis Lindeqiust viser, hvordan man fikser et badeværelse for meget få penge. Udløber: 7. feb 2026",
       "plotoutline": "En hel landsby hjælper Jørgen og Susanne, så huset kan sælges",
       "episode": 7,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Store danske kunstnere 1",
-    "url": "?listVideos=/saeson/store-danske-kunstnere_419741&seasons=False",
-    "params": {
-      "listVideos": "/saeson/store-danske-kunstnere_419741",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Store danske kunstnere 1",
-      "plot": "Med deres skulpturer og malerier formede de det Danmark, vi kender i dag. Det krævede kampe mod egne dæmoner, normer og kønsroller. Oplev kunstnerne Bertel Thorvaldsen, Anne Marie Carl-Nielsen, Johan Thomas Lundbye og Elisabeth Jerichau Baumann i denne dramadokumentarserie.",
-      "plotoutline": "Hele serien | Med deres kunstværker formede de det Danmark, vi kender i dag",
-      "season": 1,
-      "mediatype": "season"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Store danske kunstnere 1&favoritepath=419741)"
-      ]
-    ]
-  },
-  {
-    "label": "Tæt på sandheden med Jonatan Spang: Program to milliarder",
-    "url": "?playVideo=434395&kids=False&idpath=/episode/taet-paa-sandheden-med-jonatan-spang_-program-to-milliarder_434395",
-    "params": {
-      "playVideo": "434395",
-      "kids": "False",
-      "idpath": "/episode/taet-paa-sandheden-med-jonatan-spang_-program-to-milliarder_434395"
-    },
-    "info": {
-      "title": "Tæt på sandheden med Jonatan Spang: Program to milliarder",
-      "plot": "Vi begynder denne uges afsnit med at kaste et blik over den seneste udvikling i sagen om Nordic Waste, hvor vi kigger nærmere på konflikten, der er mellem dem og politikerne. Vi besøger også det nye ældreudspil, som regeringen præsenterede tidligere på ugen. Her ser vi blandt andet på, hvor stor en forskel det kommer til at betyde. Og så synes regeringen, at værnepligt for kvinder er en rigtig god idé - det gjorde de hvert fald sidste år. Derudover får I lov til at se lidt af det første afsnit i den nye serie om Anker Jørgensen. Udløber: 3. feb 2025",
-      "plotoutline": "Ugens nyheder tages under kærlig, men bestemt behandling",
-      "date": "03.02.2024",
-      "aired": "2024-02-03",
-      "year": 2024,
-      "episode": 2,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "Det store adoptionstyveri: Landsbyen, hvor børnene forsvandt",
-    "url": "?playVideo=434376&kids=False&idpath=/episode/det-store-adoptionstyveri_-landsbyen-hvor-boernene-forsvandt_434376",
-    "params": {
-      "playVideo": "434376",
-      "kids": "False",
-      "idpath": "/episode/det-store-adoptionstyveri_-landsbyen-hvor-boernene-forsvandt_434376"
-    },
-    "info": {
-      "title": "Det store adoptionstyveri: Landsbyen, hvor børnene forsvandt",
-      "plot": "Hvor var danske myndigheder, da lederen af David Kildendals børnehjem i Indien sendte 48 børn til Danmark? Et nyt spor peger mod en landsby i Indien, og David rejser sammen med en anden adopteret til landsbyen, der gemmer på en så voldsom hemmelighed, at det stiller det grundlæggende spørgsmål: Har Danmarks adoptioner fulgt reglerne? Udløber: 5. feb 2026",
-      "plotoutline": "Episode 3:3 | En stor hemmelighed afsløres. Har Danmark fulgt adoptionsreglerne?",
-      "date": "05.02.2024",
-      "aired": "2024-02-05",
-      "year": 2024,
-      "episode": 3,
       "mediatype": "episode"
     },
     "properties": {

@@ -31,9 +31,9 @@
   },
   {
     "label": "Daglige forslag",
-    "url": "?listVideos=/liste/drtv-hero-friday-18_00_89364",
+    "url": "?listVideos=/liste/drtv-hero-saturday-18_00_89366",
     "params": {
-      "listVideos": "/liste/drtv-hero-friday-18_00_89364"
+      "listVideos": "/liste/drtv-hero-saturday-18_00_89366"
     },
     "info": {},
     "properties": {},
@@ -46,9 +46,9 @@
   },
   {
     "label": "De største programmer lige nu",
-    "url": "?listVideos=/liste/402868",
+    "url": "?listVideos=/liste/402866",
     "params": {
-      "listVideos": "/liste/402868"
+      "listVideos": "/liste/402866"
     },
     "info": {},
     "properties": {},
@@ -61,9 +61,9 @@
   },
   {
     "label": "Nyheder",
-    "url": "?listVideos=/liste/248104",
+    "url": "?listVideos=/liste/394137",
     "params": {
-      "listVideos": "/liste/248104"
+      "listVideos": "/liste/394137"
     },
     "info": {},
     "properties": {},

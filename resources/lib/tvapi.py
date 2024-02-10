@@ -138,7 +138,7 @@ class Api():
         self.cleanup_every = int(get_setting('recache.cleanup'))
         self.expire_hours = int(get_setting('recache.expiration'))
         self.caching = get_setting('recache.enabled') == 'true'
-        self.expire_seconds = 3600*self.expire_hours if self.expire_hours >= 0 else self.expire_hours
+        self.expire_seconds = 3600*self.expire_hours if self.expire_hours >= 0 else None
         self.init_sqlite_db()
 
         self.token_file = Path(f'{self.cachePath}/token.p')

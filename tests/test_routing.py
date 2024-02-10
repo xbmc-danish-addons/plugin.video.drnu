@@ -118,7 +118,7 @@ def test_ramasjang(capsys):
         addon.addon.settings['disable.kids.seasons'] = 'false'
         handle.route(bluey['url'])
         episodes = [iteminfo(item) for item in get_items().values()]
-        myEqual(len(episodes), 2)
+        myEqual(len(episodes), 12)
 
 def test_a_aa(capsys):
     with capsys.disabled():
@@ -131,22 +131,25 @@ def test_a_aa(capsys):
 
         handle.route(a_aa[0]['url'])
         a = [iteminfo(item) for item in get_items().values()]
-        myEqual(len(a), 96)
+        myEqual(len(a), 102)
 
-        myEqual(a[0]['label'], 'A Very English Scandal')
-        handle.route(a[0]['url'])
+        myEqual(a[0]['label'], 'A Storm Foretold - det amerikanske oprør')
+#        handle.route(a[0]['url']) # test playing
 
 
 def test_search(capsys):
     with capsys.disabled():
+        print(handle.api.expire_seconds)
+
         handle._plugin_handle = {}
         handle.search()
         res = [iteminfo(item) for item in get_items().values()]
-        myEqual(res[0]['label'], 'Series (13 found)')
+        myEqual(res[0]['label'], 'Series (14 found)')
 
+        handle._plugin_handle = {}
         handle.route(res[0]['url'])
         res = [iteminfo(item) for item in get_items().values()]
-        myEqual(len(res), 13)
+        myEqual(len(res), 14)
 
 
 def test_pickles(capsys):

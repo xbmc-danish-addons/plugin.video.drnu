@@ -1,17 +1,14 @@
 [
   {
-    "label": "Signe Molde på udebane 3",
-    "url": "?listVideos=/saeson/signe-molde-paa-udebane_421732&seasons=False",
+    "label": "Store danske kunstnere",
+    "url": "?listVideos=/serie/store-danske-kunstnere_419740&seasons=False",
     "params": {
-      "listVideos": "/saeson/signe-molde-paa-udebane_421732",
+      "listVideos": "/serie/store-danske-kunstnere_419740",
       "seasons": "False"
     },
     "info": {
-      "title": "Signe Molde på udebane 3",
-      "plot": "Signe Molde møder med humor og nysgerrighed danskere med kontroversielle holdninger - fra mænd der savner ligestilling, og ulvehadere der vil gå meget langt for at slippe af med ulven, til en gruppe der bare gerne vil køre stærkt uden at kaldes for \"vanvidsbilister\".",
-      "plotoutline": "Tv-værten er tilbage med nye seriøse og nysgerrige spørgsmål",
-      "season": 3,
-      "mediatype": "season"
+      "title": "Store danske kunstnere",
+      "plot": "Med deres skulpturer og malerier formede de det Danmark, vi kender i dag. Det krævede kampe mod egne dæmoner, normer og kønsroller. Oplev kunstnerne Bertel Thorvaldsen, Anne Marie Carl-Nielsen, Johan Thomas Lundbye og Elisabeth Jerichau Baumann i denne dramadokumentarserie."
     },
     "properties": {},
     "contextmenu": [
@@ -21,7 +18,7 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Signe Molde på udebane 3&favoritepath=421732)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Store danske kunstnere&favoritepath=419740)"
       ]
     ]
   },
@@ -52,29 +49,25 @@
     ]
   },
   {
-    "label": "De mistænkte",
-    "url": "?playVideo=433982&kids=False&idpath=/program/de-mistaenkte_433982",
+    "label": "Det store adoptionstyveri",
+    "url": "?listVideos=/serie/det-store-adoptionstyveri_434279&seasons=False",
     "params": {
-      "playVideo": "433982",
-      "kids": "False",
-      "idpath": "/program/de-mistaenkte_433982"
+      "listVideos": "/serie/det-store-adoptionstyveri_434279",
+      "seasons": "False"
     },
     "info": {
-      "title": "De mistænkte",
-      "plot": "Pludselig bliver du anholdt. Mistænkt for svindel eller for at være i ledtog med narkokriminelle. Du siger, du er uskyldig. Men du sættes flere måneder i fængsel - varetægtsfængsel. To helt almindelige danskere sidder fængslet, mens deres sag undersøges af politiet. De fortæller om store tab, menneskeligt og økonomisk, og hvordan det rammer uskyldige og deres børn hårdt. Fire ud af ti fængselsceller i Danmark bruges konstant til varetægt. Det er et voksende problem - ikke kun for danskernes retssikkerhed - men også for hele retssystemet, siger flere dommere. Udløber: 29. jan 2026",
-      "plotoutline": "Varetægtsfængsling rammer uskyldige mennesker og deres børn hårdt",
-      "date": "29.01.2024",
-      "aired": "2024-01-29",
-      "year": 2024,
-      "mediatype": "tvshow"
+      "title": "Det store adoptionstyveri",
+      "plot": "David Kildendal bliver adopteret fra Indien til Lolland i 1979, og da han begynder at undersøge sin sag, dukker chokerende hemmeligheder op. Hans efterforskning fører ham på sporet af en meget større historie, hvor indiske forældre systematisk blev franarret deres børn. Den danske stat har haft ansvaret for at føre tilsyn med adoptioner, men hvem blev advaret om de ulovlige adoptioner?"
     },
-    "properties": {
-      "IsPlayable": "true"
-    },
+    "properties": {},
     "contextmenu": [
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Det store adoptionstyveri&favoritepath=434279)"
       ]
     ]
   },
@@ -170,32 +163,6 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Din krop indefra&favoritepath=422594)"
-      ]
-    ]
-  },
-  {
-    "label": "Kunstnerkolonien: Italien 4",
-    "url": "?listVideos=/saeson/kunstnerkolonien_-italien_416893&seasons=False",
-    "params": {
-      "listVideos": "/saeson/kunstnerkolonien_-italien_416893",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Kunstnerkolonien: Italien 4",
-      "plot": "Italien | I Kunstnerkolonien samler DR 6 af de mest anerkendte kunstnere i Danmark og skaber en kunstnerkoloni et ikonisk sted i Danmark. Et sted, hvor kunstnere gennem tiden har søgt hen for at finde inspiration og fællesskab med andre kunstnere. Efter 14 dage skal de sammen udstille de værker de har skabt under opholdet.",
-      "plotoutline": "Hele serien | Seks kunstnere tager til Amalfikysten i Syditalien",
-      "season": 4,
-      "mediatype": "season"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Kunstnerkolonien: Italien 4&favoritepath=416893)"
       ]
     ]
   },
@@ -298,29 +265,6 @@
     ]
   },
   {
-    "label": "Nyrup - Signes far",
-    "url": "?listVideos=/serie/nyrup-_-signes-far_424806&seasons=False",
-    "params": {
-      "listVideos": "/serie/nyrup-_-signes-far_424806",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Nyrup - Signes far",
-      "plot": "Få måneder efter Poul Nyrup Rasmussen er blevet statsminister tager hans 24-årige datter, der lider af paranoid skizofreni, sit eget liv. Tragedien kaster Poul ud i hans livs værste krise - samtidig med at han skal varetage landets højeste embede.  \nI 2 programmer søger Poul Nyrup tilbage i historien for at finde ud af, hvad det var for en sygdom datteren Signe led af, og om han som far, kunne have gjort mere for at forhindre katastrofen."
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Nyrup - Signes far&favoritepath=424806)"
-      ]
-    ]
-  },
-  {
     "label": "Løvens Hule 9",
     "url": "?listVideos=/saeson/loevens-hule_424451&seasons=False",
     "params": {
@@ -343,6 +287,32 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Løvens Hule 9&favoritepath=424451)"
+      ]
+    ]
+  },
+  {
+    "label": "Signe Molde på udebane 3",
+    "url": "?listVideos=/saeson/signe-molde-paa-udebane_421732&seasons=False",
+    "params": {
+      "listVideos": "/saeson/signe-molde-paa-udebane_421732",
+      "seasons": "False"
+    },
+    "info": {
+      "title": "Signe Molde på udebane 3",
+      "plot": "Signe Molde møder med humor og nysgerrighed danskere med kontroversielle holdninger - fra mænd der savner ligestilling, og ulvehadere der vil gå meget langt for at slippe af med ulven, til en gruppe der bare gerne vil køre stærkt uden at kaldes for \"vanvidsbilister\".",
+      "plotoutline": "Tv-værten er tilbage med nye seriøse og nysgerrige spørgsmål",
+      "season": 3,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Signe Molde på udebane 3&favoritepath=421732)"
       ]
     ]
   },
@@ -372,6 +342,87 @@
     ]
   },
   {
+    "label": "De udvalgte - Dansk Melodi Grand Prix 2024",
+    "url": "?playVideo=437154&kids=False&idpath=/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+    "params": {
+      "playVideo": "437154",
+      "kids": "False",
+      "idpath": "/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154"
+    },
+    "info": {
+      "title": "De udvalgte - Dansk Melodi Grand Prix 2024",
+      "plot": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøver der liger forud for showet. Det bliver en unik mulighed for at lære artisterne og deres musik bedre at kende inden de ugen efter skal kæmpe om, hvem der skal repræsentere Danmark ved Eurovision Song Contest. Udløber: 10. feb 2025",
+      "plotoutline": "Kom med bag kulisserne til dette års store Grand Prix-show",
+      "date": "10.02.2024",
+      "aired": "2024-02-10",
+      "year": 2024,
+      "mediatype": "tvshow"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Fanget på havets bund",
+    "url": "?playVideo=433819&kids=False&idpath=/program/fanget-paa-havets-bund_433819",
+    "params": {
+      "playVideo": "433819",
+      "kids": "False",
+      "idpath": "/program/fanget-paa-havets-bund_433819"
+    },
+    "info": {
+      "title": "Fanget på havets bund",
+      "plot": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i live. Men nogen kommer ham alligevel til undsætning. Tre dage efter forliset ankommer et redningsskib for at bjærge de døde fra vraget. En nyuddannet dykker bliver som den første sendt ind, og til sin skræk og store overraskelse finder han skibskokken i live dybt inde i det sunkne skib. Men det er først nu, at problemerne virkelig begynder, og de er begge i livsfare. Helt unikt blev hele den mirakuløse redningsaktion filmet af dykkernes hjelmkameraer og al deres kommunikation blev optaget. I tre år har Lasse Spang Olsen rejst verden rundt og fundet de involverede som - for første gang - nu selv fortæller om deres oplevelser på bunden af Atlanterhavet i en af verdens mest besynderlige redningsaktioner. Udløber: 29. dec 2028",
+      "plotoutline": "Skibskokken Harrison fanges i et vrag på 34 meters dybde",
+      "date": "10.02.2024",
+      "aired": "2024-02-10",
+      "year": 2024,
+      "mediatype": "tvshow"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "De mistænkte",
+    "url": "?playVideo=433982&kids=False&idpath=/program/de-mistaenkte_433982",
+    "params": {
+      "playVideo": "433982",
+      "kids": "False",
+      "idpath": "/program/de-mistaenkte_433982"
+    },
+    "info": {
+      "title": "De mistænkte",
+      "plot": "Pludselig bliver du anholdt. Mistænkt for svindel eller for at være i ledtog med narkokriminelle. Du siger, du er uskyldig. Men du sættes flere måneder i fængsel - varetægtsfængsel. To helt almindelige danskere sidder fængslet, mens deres sag undersøges af politiet. De fortæller om store tab, menneskeligt og økonomisk, og hvordan det rammer uskyldige og deres børn hårdt. Fire ud af ti fængselsceller i Danmark bruges konstant til varetægt. Det er et voksende problem - ikke kun for danskernes retssikkerhed - men også for hele retssystemet, siger flere dommere. Udløber: 29. jan 2026",
+      "plotoutline": "Varetægtsfængsling rammer uskyldige mennesker og deres børn hårdt",
+      "date": "29.01.2024",
+      "aired": "2024-01-29",
+      "year": 2024,
+      "mediatype": "tvshow"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
     "label": "Forelsket i en løgn",
     "url": "?listVideos=/serie/forelsket-i-en-loegn_416406&seasons=False",
     "params": {
@@ -391,53 +442,6 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Forelsket i en løgn&favoritepath=416406)"
-      ]
-    ]
-  },
-  {
-    "label": "FredagsTamTam",
-    "url": "?listVideos=/serie/fredagstamtam_357146&seasons=False",
-    "params": {
-      "listVideos": "/serie/fredagstamtam_357146",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "FredagsTamTam",
-      "plot": "En fantastisk blanding af helt nye og klassiske tegnefilm for børn og deres forældre.",
-      "plotoutline": "En fantastisk blanding af helt nye og klassiske tegnefilm"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=FredagsTamTam&favoritepath=357146)"
-      ]
-    ]
-  },
-  {
-    "label": "Vilde eventyr - med Vicky og Rane",
-    "url": "?listVideos=/serie/vilde-eventyr-_-med-vicky-og-rane_422588&seasons=False",
-    "params": {
-      "listVideos": "/serie/vilde-eventyr-_-med-vicky-og-rane_422588",
-      "seasons": "False"
-    },
-    "info": {
-      "title": "Vilde eventyr - med Vicky og Rane",
-      "plot": "Dansk rejse- og naturserie fra 2023.\nTag med Rane Willerslev og Vicky Knudsen til verdens vildeste natur. I Danmark har vi kun omkring 2 % vild natur, og vi forsøger med næb og kløer at bevare det, vi har tilbage. Antropolog Rane Willerslev og biolog Vicky Knudsen er derfor taget på ekspedition ud til de afkroge af verden, hvor der stadig er vild natur tilbage. Her møder også de mennesker, som lever i tæt pagt med naturen, for at opleve, hvad det gør ved dem. Spørgsmålet er, kan vi genfinde vores forhold til naturen? Kan vi lære noget, som gør os lykkeligere?"
-    },
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Vilde eventyr - med Vicky og Rane&favoritepath=422588)"
       ]
     ]
   }
