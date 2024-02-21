@@ -417,7 +417,7 @@ class DrDkTvAddon(object):
 
         if isFolder:
             if title in self.favorites or item.get('kodi_delfavorit', False):
-                runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={title})"
+                runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={title}&favoritepath={item['id']})"
                 menuItems.append((tr(30010), runScript))
             else:
                 if item['type'] not in ['ListEntry', 'RecommendationEntry']:
@@ -564,13 +564,15 @@ class DrDkTvAddon(object):
                     player.showSubtitles(False)
 
     def addFavorite(self, title, path):
+        self.api.add_to_mylist(path)
         self._load()
         if title not in self.favorites:
             self.favorites[title] = path
             self._save()
             xbmcgui.Dialog().ok(addon_name, tr([30004, 30005]))
 
-    def delFavorite(self, title):
+    def delFavorite(self, title, path):
+        self.api.delete_from_mylist(path)
         self._load()
         if title in self.favorites:
             del self.favorites[title]
@@ -636,7 +638,7 @@ class DrDkTvAddon(object):
                 self.addFavorite(PARAMS['addfavorite'], PARAMS['favoritepath'])
 
             elif 'delfavorite' in PARAMS:
-                self.delFavorite(PARAMS['delfavorite'])
+                self.delFavorite(PARAMS['delfavorite'], PARAMS['favoritepath'])
 
             elif 'clearfavorite' in PARAMS:
                 self._clear()

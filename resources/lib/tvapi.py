@@ -173,10 +173,10 @@ class Api():
     def read_tokens(self, tokens):
         time_str = tokens[0]['expirationDate'].split('.')[0]
         try:
-            self._token_expire = datetime.strptime(time_str, '%Y-%m-%dT%H:%M:%S%')
+            self._token_expire = datetime.strptime(time_str + 'Z', '%Y-%m-%dT%H:%M:%S%z')
         except Exception:
-            time_struct = time.strptime(tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
-            self._token_expire = datetime(*time_struct[0:6])
+            time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
+            self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
         self._user_token = tokens[0]['value']
         self._profile_token = tokens[1]['value']
 
@@ -225,8 +225,7 @@ class Api():
                 if err:
                     raise ApiException(f'Login failed with: "{err}"')
                 return
-
-        if (self._token_expire - datetime.now()).total_seconds() < 120:
+        if (self._token_expire - datetime.now(timezone.utc)).total_seconds() < 120:
             failed_refresh = False
             tokens = []
             for t in [self._user_token, self._profile_token]:
@@ -295,6 +294,21 @@ class Api():
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
+
+    def delete_from_mylist(self, id):
+        url = f'{URL}/account/profile/bookmarks/{id}'
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        u = self.session.delete(url, headers=headers)
+        if u.status_code != 204:
+            raise ApiException(u.text)
+
+    def add_to_mylist(self, id):
+        url = f'{URL}/account/profile/bookmarks/{id}'
+        data = {'page_size': '24'}
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        u = self.session.put(url, headers=headers)
+        if u.status_code != 200:
+            raise ApiException(u.text)
 
     def get_mylist(self, use_cache=True):
         url = URL + '/account/profile/bookmarks/list'
