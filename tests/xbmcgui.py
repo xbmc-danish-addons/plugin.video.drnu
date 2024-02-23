@@ -6,6 +6,7 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 import sys
 from xbmcextra import kodi_to_ansi
+from xbmc import VideoInfoTag
 
 
 class Control:
@@ -350,6 +351,7 @@ class ListItem:
         self.stream_type = None
         self.subtitles = []
         self.unique_ids = []
+        self.infotag = VideoInfoTag()
 
     def addContextMenuItems(self, items, replaceItems=False):
         """A stub implementation for the xbmcgui ListItem class addContextMenuItems() method"""
@@ -404,6 +406,9 @@ class ListItem:
         """A stub implementation for the xbmcgui ListItem class setUniqueIDs() method"""
         self.unique_ids = values
         self.rating = defaultrating
+
+    def getVideoInfoTag(self):
+        return self.infotag
 
 
 class Window:

@@ -29,39 +29,23 @@ msgid "Search videos"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Recently watched videos"
+msgid "Continue watching"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Favorite programs"
-msgstr ""
-
-msgctxt "#30005"
-msgid "Program added"
-msgstr ""
-
-msgctxt "#30006"
-msgid "Program removed"
-msgstr ""
-
-msgctxt "#30007"
-msgid "The list is empty."
+msgid "My list"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Your recently watched videos are automatically added."
+msgid "Remove from Continue watching"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Add to favorite program series"
+msgid "Add to My list"
 msgstr ""
 
 msgctxt "#30010"
-msgid "Remove from favorite program series"
-msgstr ""
-
-msgctxt "#30011"
-msgid "Favorite program series cleared"
+msgid "Remove from My list"
 msgstr ""
 
 msgctxt "#30050"

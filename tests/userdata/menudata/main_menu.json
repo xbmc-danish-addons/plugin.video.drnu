@@ -5,7 +5,9 @@
     "params": {
       "show": "liveTV"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -20,7 +22,9 @@
     "params": {
       "listVideos": "/kategorier/a-aa"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -35,7 +39,9 @@
     "params": {
       "listVideos": "/liste/drtv-hero-saturday-18_00_89366"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -50,7 +56,9 @@
     "params": {
       "listVideos": "/liste/402866"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -65,7 +73,9 @@
     "params": {
       "listVideos": "/liste/394137"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -80,7 +90,9 @@
     "params": {
       "listVideos": "/liste/373113"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -95,7 +107,9 @@
     "params": {
       "listVideos": "/liste/369696"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -110,7 +124,9 @@
     "params": {
       "listVideos": "/liste/349213"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -125,7 +141,9 @@
     "params": {
       "listVideos": "/liste/374012"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -140,7 +158,9 @@
     "params": {
       "listVideos": "/liste/376779"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -155,7 +175,9 @@
     "params": {
       "listVideos": "/liste/307904"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -170,7 +192,9 @@
     "params": {
       "listVideos": "/liste/379672"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -185,7 +209,9 @@
     "params": {
       "listVideos": "/liste/171678"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -200,7 +226,9 @@
     "params": {
       "listVideos": "/liste/238347"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -215,7 +243,9 @@
     "params": {
       "listVideos": "/liste/244426"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -230,7 +260,9 @@
     "params": {
       "listVideos": "/liste/167449"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -245,7 +277,9 @@
     "params": {
       "listVideos": "/liste/384446"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -260,7 +294,9 @@
     "params": {
       "listVideos": "/liste/244424"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -275,37 +311,9 @@
     "params": {
       "show": "search"
     },
-    "info": {},
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "30003",
-    "url": "?show=recentlyWatched",
-    "params": {
-      "show": "recentlyWatched"
+    "info": {
+      "resume": null
     },
-    "info": {},
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "30004",
-    "url": "?show=favorites",
-    "params": {
-      "show": "favorites"
-    },
-    "info": {},
     "properties": {},
     "contextmenu": [
       [

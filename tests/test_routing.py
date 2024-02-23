@@ -32,8 +32,8 @@ handle._plugin_handle = {}
 
 main_menu_js = json.loads((menudata/'main_menu.json').read_text())
 
-UPDATE_TESTS = False
-
+UPDATE_TESTS = True
+UPDATE_CACHE = False
 
 def get_items():
     new_items = handle._plugin_handle.copy()
@@ -47,7 +47,7 @@ def iteminfo(item):
             'label': item.label,
             'url': url,
             'params': dict(urlparse.parse_qsl(url[1:])),
-            'info': item.info,
+            'info': vars(item.infotag),
             'properties': item.properties,
             'contextmenu': [list(c) for c in item.context_menu]
         }
@@ -62,7 +62,7 @@ def item_from_label(items, label):
 
 def request_get(url, params=None, headers=None, use_cache=True):
     u = handle.api.session.get(url, params=params, headers=headers, timeout=addon.tvapi.GET_TIMEOUT)
-    if UPDATE_TESTS is False:
+    if UPDATE_CACHE is False:
         assert u.from_cache
     assert u.status_code == 200
     return u.json()
@@ -150,48 +150,3 @@ def test_search(capsys):
         handle.route(res[0]['url'])
         res = [iteminfo(item) for item in get_items().values()]
         myEqual(len(res), 14)
-
-
-def test_pickles(capsys):
-    with capsys.disabled():
-        handle._plugin_handle = {}
-        handle.route('?show=favorites')
-        res = [iteminfo(item) for item in get_items().values()]
-        myEqual(res, [])
-        myEqual(handle.favorites, {})
-
-        handle.route(main_menu_js[3]['url'])
-        biggest_shows = [iteminfo(item) for item in get_items().values()]
-        shows = [s for s in biggest_shows if len(s['contextmenu']) == 2] # we only have this option for series
-
-        # add first show to favourit pickle
-        fav0 = shows[0]['contextmenu'][1]
-        myEqual(fav0[0], '30009')
-        handle.route(fav0[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
-
-        # add second show to favourit pickle
-        fav1 = shows[1]['contextmenu'][1]
-        myEqual(fav1[0], '30009')
-        handle.route(fav1[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
-
-        handle.route('?show=favorites')
-        res = [iteminfo(item) for item in get_items().values()]
-        myEqual(len(res), 2)
-        myEqual(len(handle.favorites), 2)
-
-        # update contextmenus
-        handle.route(main_menu_js[3]['url'])
-        biggest_shows = [iteminfo(item) for item in get_items().values()]
-        shows = [s for s in biggest_shows if len(s['contextmenu']) == 2]
-
-        # check we now have delete context menu
-        fav0 = shows[0]['contextmenu'][1]
-        myEqual(fav0[0], '30010')
-        handle.route(fav0[1].replace('RunPlugin(plugin://plugin.video.drnu/', '')[:-1])
-
-        handle.route('?show=favorites')
-        res = [iteminfo(item) for item in get_items().values()]
-        myEqual(len(res), 1)
-        myEqual(len(handle.favorites), 1)
-        myEqual(list(handle.favorites.keys())[0], shows[1]['label'])
-        myEqual(res[0]['label'], shows[1]['label'])

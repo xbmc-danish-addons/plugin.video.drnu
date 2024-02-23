@@ -295,6 +295,20 @@ class Api():
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
 
+    def delete_from_watched(self, id):
+        url = f'{URL}/account/profile/continue-watching/{id}'
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        u = self.session.delete(url, headers=headers)
+        if u.status_code != 204:
+            raise ApiException(u.text)
+
+    def add_to_watched(self, id, duration):
+        url = f'{URL}/account/profile/continue-watching/{id}&position={int(duration)}'
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        u = self.session.put(url, headers=headers)
+        if u.status_code != 200:
+            raise ApiException(u.text)
+
     def delete_from_mylist(self, id):
         url = f'{URL}/account/profile/bookmarks/{id}'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -304,35 +318,34 @@ class Api():
 
     def add_to_mylist(self, id):
         url = f'{URL}/account/profile/bookmarks/{id}'
-        data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         u = self.session.put(url, headers=headers)
         if u.status_code != 200:
             raise ApiException(u.text)
 
-    def get_mylist(self, use_cache=True):
+    def get_mylist(self, use_cache=False):
         url = URL + '/account/profile/bookmarks/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
+        items = self._request_get(url, params=data, headers=headers, use_cache=use_cache)['items']
+        for item in items:
+            item['in_mylist'] = True
+        return items
 
-    def get_continue(self, use_cache=True):
+    def get_continue(self, use_cache=False):
         url = URL + '/account/profile/continue-watching/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
+        items = self._request_get(url, params=data, headers=headers, use_cache=use_cache)['items']
+        watched = self.get_profile()['watched']
+        for item in items:
+            item['ResumeTime'] = float(watched[str(item['id'])]['position'])
+        return items
 
-    def get_profile(self, use_cache=True):
-        url = URL + '/account/profile?ff=idp%2Cldp%2Crpt&lang=da'
-        data = {'page_size': '24'}
-        headers = {
-            'authority': 'production.dr-massive.com',
-            'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
-            'origin': 'https://www.dr.dk',
-            'accept': 'application/json',
-            'X-Authorization': 'Bearer ' + self._profile_token,
-        }
-        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
+    def get_profile(self, use_cache=False):
+        url = URL + '/account/profile'
+        headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
+        return self._request_get(url, headers=headers, use_cache=use_cache)
     
     def kids_item(self, item):
         if 'classification' in item:
@@ -384,8 +397,6 @@ class Api():
         for item in js['entries']:
             title = item['title']
             if title not in ['Se live tv']:
-#                if title == 'Vi tror, du kan lide' and self.user == '':
-#                    title = ''
                 if title == '' and item['type'] == 'ListEntry':
                     title = item['list'].get('title', '') # get the top spinner item
                 if title.startswith('DRTV Hero'):
@@ -520,6 +531,46 @@ class Api():
             url = channel['item']['customFields']['hlsURL']
         return url
 
+    def get_title(self, item):
+        title = item['title']
+        if item['type'] == 'season':
+            title += f" {item['seasonNumber']}"
+        elif item.get('contextualTitle', None):
+            cont = item['contextualTitle']
+            if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
+                title += f" ({item['contextualTitle']})"
+        return title
+
+    def set_info(self, item, tag, title):
+        if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
+            resumetime_save = float(item.get('ResumeTime', 0.0))
+            item = self.get_item(item['id'])
+            if resumetime_save > 0:
+                item['ResumeTime'] = resumetime_save
+
+        tag.setTitle(title)
+        if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
+            tag.setPlot(item['shortDescription'])
+        if item.get('description', ''):
+            tag.setPlot(item['description'])
+        if item.get('tagline', ''):
+            tag.setPlotOutline(item['tagline'])
+        if item.get('customFields'):
+            if item['customFields'].get('BroadcastTimeDK'):
+                broadcast = parser.parse(item['customFields']['BroadcastTimeDK'])
+                tag.setFirstAired(broadcast.strftime('%Y-%m-%d'))
+                tag.setYear(int(broadcast.strftime('%Y')))
+        if item.get('seasonNumber'):
+            tag.setSeason(int(item['seasonNumber']))
+        if item.get('episodeNumber'):
+            tag.setEpisode(int(item['episodeNumber']))
+        if item['type'] in ["movie", "season", "episode"]:
+            tag.setMediaType(item['type'])
+        elif item['type'] == 'program':
+            tag.setMediaType('tvshow')
+        if item.get('ResumeTime', False):
+            tag.setResumePoint(float(item['ResumeTime']))
+ 
     def get_info(self, item):
         title = item['title']
         if item['type'] == 'season':

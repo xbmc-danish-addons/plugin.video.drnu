@@ -8,10 +8,10 @@
       "idpath": "/episode/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275"
     },
     "info": {
+      "resume": null,
       "title": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
       "plot": "Vi er slet ikke færdige med at tale om mink, da det er kommet frem, at erstatningen til minkavlere formentlig vil stige med omkring seks milliarder kroner. Og så er der et nyt lovforslag under behandling. Det handler om, hvilket nationalflag du må have i din flagstang. Vi tager også et kig på prisstigningen for at rejse med bus, tog eller metro. Og så har vi også nået vores klimamål for 2025 - eller har vi nu også det? Udløber: 10. feb 2025",
       "plotoutline": "Et satirisk blik på ugens nyheder og tendenser",
-      "date": "10.02.2024",
       "aired": "2024-02-10",
       "year": 2024,
       "episode": 3,
@@ -24,6 +24,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=434275)"
       ]
     ]
   },
@@ -36,10 +40,10 @@
       "idpath": "/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154"
     },
     "info": {
+      "resume": null,
       "title": "De udvalgte - Dansk Melodi Grand Prix 2024",
       "plot": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøver der liger forud for showet. Det bliver en unik mulighed for at lære artisterne og deres musik bedre at kende inden de ugen efter skal kæmpe om, hvem der skal repræsentere Danmark ved Eurovision Song Contest. Udløber: 10. feb 2025",
       "plotoutline": "Kom med bag kulisserne til dette års store Grand Prix-show",
-      "date": "10.02.2024",
       "aired": "2024-02-10",
       "year": 2024,
       "mediatype": "tvshow"
@@ -51,6 +55,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=437154)"
       ]
     ]
   },
@@ -63,10 +71,10 @@
       "idpath": "/episode/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736"
     },
     "info": {
+      "resume": null,
       "title": "Signe Molde på udebane: De rige bliver mobbet",
       "plot": "Bliver de rige dæmoniseret, hetzet og faktisk direkte mobbet, bare fordi de er rige? Signe Molde møder milliardæren Niklas Nikolajsen, der hverken vil kaldes grisk eller egoistisk - også selvom han er flyttet til Schweiz. I Monaco møder Signe ejendomsmægleren Helle Skovby, der er træt af alle fordommene om fyrstendømmet. Udløber: 10. feb 2026",
       "plotoutline": "Bliver de rige dæmoniseret, hetzet og mistænkeliggjort?",
-      "date": "10.02.2024",
       "aired": "2024-02-10",
       "year": 2024,
       "episode": 6,
@@ -79,6 +87,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=421736)"
       ]
     ]
   },
@@ -91,6 +103,7 @@
       "idpath": "/episode/sex-med-p3_-fantasi_-expectations-vs-reality_419277"
     },
     "info": {
+      "resume": null,
       "title": "SEX MED P3: Fantasi: Expectations vs. Reality",
       "plot": "Trekanter, dominans eller gangbangs? Måske deler du sexfantasier med mange flere end du tror. Er du nysgerrig på at høre om andres frække fantasier? Og skal din fantasi udleves eller blive inde i hovedet? Vi giver dig den ultimative guide til, hvad du skal stille op med din fantasi, og til at udleve den, hvis det er det, du drømmer om. Vi dykker også ned i, hvad dine fantasier i virkeligheden handler om og hvad du kan gøre, hvis du har en sexfantasi, som du gerne vil af med. Udløber: 9. feb 2026",
       "plotoutline": "Episode 2:8 | Den ultimative guide til, hvad du skal stille op med din fantasi",
@@ -104,6 +117,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419277)"
       ]
     ]
   },
@@ -116,10 +133,10 @@
       "idpath": "/program/fanget-paa-havets-bund_433819"
     },
     "info": {
+      "resume": null,
       "title": "Fanget på havets bund",
       "plot": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i live. Men nogen kommer ham alligevel til undsætning. Tre dage efter forliset ankommer et redningsskib for at bjærge de døde fra vraget. En nyuddannet dykker bliver som den første sendt ind, og til sin skræk og store overraskelse finder han skibskokken i live dybt inde i det sunkne skib. Men det er først nu, at problemerne virkelig begynder, og de er begge i livsfare. Helt unikt blev hele den mirakuløse redningsaktion filmet af dykkernes hjelmkameraer og al deres kommunikation blev optaget. I tre år har Lasse Spang Olsen rejst verden rundt og fundet de involverede som - for første gang - nu selv fortæller om deres oplevelser på bunden af Atlanterhavet i en af verdens mest besynderlige redningsaktioner. Udløber: 29. dec 2028",
       "plotoutline": "Skibskokken Harrison fanges i et vrag på 34 meters dybde",
-      "date": "10.02.2024",
       "aired": "2024-02-10",
       "year": 2024,
       "mediatype": "tvshow"
@@ -131,6 +148,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=433819)"
       ]
     ]
   },
@@ -143,10 +164,10 @@
       "idpath": "/episode/loevens-hule_-salg-i-hoejtiderne_424457"
     },
     "info": {
+      "resume": null,
       "title": "Løvens Hule: Salg i højtiderne?",
       "plot": "Natasja og Tina tager Løverne med storm, når de pitcher deres forretning. Men står de distancen med højtidsbestemte underholdningsprodukter og en drøm om at være julemanden? Udløber: 8. feb 2025",
       "plotoutline": "Episode 6:9 | Magisk jul og påske: Natasja og Tina tager Løverne med storm",
-      "date": "08.02.2024",
       "aired": "2024-02-08",
       "year": 2024,
       "episode": 6,
@@ -159,6 +180,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=424457)"
       ]
     ]
   },
@@ -171,10 +196,10 @@
       "idpath": "/episode/kriminelt_-hestekrigen-i-skals-_1_2__433514"
     },
     "info": {
+      "resume": null,
       "title": "Kriminelt: Hestekrigen i Skals (1:2)",
       "plot": "Amerikanske Tyrell er berider og arbejder en kort periode på Viegård Stutteri i Skals. Da han på Facebook deler billeder af stutteriets afmagrede heste, sætter det gang i vrede dyreaktivister fra nær og fjern. Udløber: 8. feb 2026",
       "plotoutline": "Hundredvis af heste og deres ejer er centrum for en voldsom konflikt",
-      "date": "08.02.2024",
       "aired": "2024-02-08",
       "year": 2024,
       "episode": 1,
@@ -187,6 +212,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=433514)"
       ]
     ]
   },
@@ -198,6 +227,7 @@
       "seasons": "False"
     },
     "info": {
+      "resume": null,
       "title": "Mordene i Port Talbot 1",
       "plot": "Tre 30 år gamle uopklarede drabssager bliver genoptaget. Paul Bethell arbejdede med sagerne som ung betjent - nu begynder han en ny morderjagt. Krimiserie baseret på virkelige hændelser.",
       "plotoutline": "Hele serien | Tre gamle mordsager genåbnes. Krimiserie bygget på virkelige hændelser",
@@ -212,7 +242,7 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=Mordene i Port Talbot 1&favoritepath=423646)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=423646)"
       ]
     ]
   },
@@ -225,6 +255,7 @@
       "idpath": "/kanal/192099"
     },
     "info": {
+      "resume": null,
       "title": "TVA Live: Regeringen vil indføre automatisk organdonation"
     },
     "properties": {
@@ -234,6 +265,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=301940)"
       ]
     ]
   },
@@ -246,10 +281,10 @@
       "idpath": "/program/dronning-mary-_-pigen-fra-tasmanien_434766"
     },
     "info": {
+      "resume": null,
       "title": "Dronning Mary - pigen fra Tasmanien",
       "plot": "Den 14. januar trådte Mary ud på balkonen på Christiansborg som Dronningen af Danmark. Men hvordan gik det egentlig til, at en helt almindelig pige fra Tasmanien endte med prinsen og det halve kongerige? Udløber: 5. feb 2026",
       "plotoutline": "Hvordan endte en ung australsk kvinde med kronprinsen af Danmark?",
-      "date": "05.02.2024",
       "aired": "2024-02-05",
       "year": 2024,
       "mediatype": "tvshow"
@@ -261,6 +296,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=434766)"
       ]
     ]
   },
@@ -273,10 +312,10 @@
       "idpath": "/episode/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237"
     },
     "info": {
+      "resume": null,
       "title": "Danmarks bedste portrætmaler: Det helstøbte portræt",
       "plot": "Vi er nået til finalen i Danmarks bedste portrætmaler, som tradition tro finder sted på Ny Carlsberg Glyptotek i København. Det er nu, de tre finalister skal vise alt, hvad de har lært gennem konkurrencen, ved at lave det helstøbte portræt af modellen Sofie Gråbøl. Men hvem imponerer de tre dommere mest og får dermed titlen som Danmarks bedste portrætmaler? Udløber: 31. dec 2027",
       "plotoutline": "Episode 6:6 | Modellen er Sofie Gråbøl. Hvilken kunstner løber med sejren?",
-      "date": "06.02.2024",
       "aired": "2024-02-06",
       "year": 2024,
       "episode": 6,
@@ -289,6 +328,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=426237)"
       ]
     ]
   },
@@ -301,6 +344,7 @@
       "idpath": "/episode/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579"
     },
     "info": {
+      "resume": null,
       "title": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
       "plot": "Om to måneder slipper pengene op for Jørgen og Susanne. Så går de 5.000 kr. i minus hver måned, hvis ikke huset bliver solgt.   \nMen landsbyen passer på sine børn, så alle der kan kravle og gå tropper op for at hjælpe. Designer Kalle Thesbjerg har en vild plan og bygger sofa et mystisk sted, ejendomsmægler Line Franck besøger slægtsgården, og tømrer Dennis Lindeqiust viser, hvordan man fikser et badeværelse for meget få penge. Udløber: 7. feb 2026",
       "plotoutline": "En hel landsby hjælper Jørgen og Susanne, så huset kan sælges",
@@ -314,6 +358,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=422579)"
       ]
     ]
   }

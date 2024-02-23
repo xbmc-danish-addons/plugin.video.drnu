@@ -29,40 +29,24 @@ msgid "Search videos"
 msgstr "Søg efter videoer"
 
 msgctxt "#30003"
-msgid "Recently watched videos"
-msgstr "Nyligt sete videoer"
+msgid "Continue watching"
+msgstr "Fortsæt med at se"
 
 msgctxt "#30004"
-msgid "Favorite programs"
-msgstr "Foretrukne programmer"
-
-msgctxt "#30005"
-msgid "Program added"
-msgstr "Program tilføjet"
-
-msgctxt "#30006"
-msgid "Program removed"
-msgstr "Program fjernet"
-
-msgctxt "#30007"
-msgid "The list is empty."
-msgstr "Listen er tom."
+msgid "My list"
+msgstr "Min liste"
 
 msgctxt "#30008"
-msgid "Your recently watched videos are automatically added."
-msgstr "De videoer du sidst har set tilføjes automatisk."
+msgid "Remove from Continue watching"
+msgstr "Fjern fra Fortsæt med at se"
 
 msgctxt "#30009"
-msgid "Add to favorite program series"
-msgstr "Tilføj til foretrukne programmer"
+msgid "Add to My list"
+msgstr "Tilføj til Min liste"
 
 msgctxt "#30010"
-msgid "Remove from favorite program series"
-msgstr "Fjern fra foretrukne programmer"
-
-msgctxt "#30011"
-msgid "Favorite program series cleared"
-msgstr "Foretrukne programmer blev nulstillet"
+msgid "Remove from My list"
+msgstr "Fjern fra Min liste"
 
 msgctxt "#30050"
 msgid "Danish (file)"

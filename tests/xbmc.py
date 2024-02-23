@@ -165,6 +165,7 @@ class VideoInfoTag(object):  # pylint: disable=useless-object-inheritance
 
     def __init__(self):
         """A stub constructor for the xbmc VideoInfoTag class"""
+        self.resume = None
 
     def getSeason(self):
         """A stub implementation for the xbmc VideoInfoTag class getSeason() method"""
@@ -185,6 +186,48 @@ class VideoInfoTag(object):  # pylint: disable=useless-object-inheritance
     def getRating(self):
         """A stub implementation for the xbmc VideoInfoTag class getRating() method"""
         return 0
+
+    def getResumeTime(self):
+        return self.resume
+
+    def getTitle(self):
+        return self.title
+
+    def setPlot(self, s):
+        assert isinstance(s, str)
+        self.plot = s
+
+    def setPlotOutline(self, s):
+        assert isinstance(s, str)
+        self.plotoutline = s
+
+    def setTitle(self, s):
+        assert isinstance(s, str)
+        self.title = s
+
+    def setFirstAired(self, s):
+        assert isinstance(s, str)
+        self.aired = s
+
+    def setYear(self, s):
+        assert isinstance(s, int)
+        self.year = s
+
+    def setSeason(self, s):
+        assert isinstance(s, int)
+        self.season = s
+
+    def setEpisode(self, s):
+        assert isinstance(s, int)
+        self.episode = s
+
+    def setMediaType(self, s):
+        assert isinstance(s, str)
+        self.mediatype = s
+
+    def setResumePoint(self, s):
+        assert isinstance(s, float)
+        self.resume = s
 
 
 def executebuiltin(string, wait=False):  # pylint: disable=unused-argument
