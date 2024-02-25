@@ -203,7 +203,7 @@ msgstr "login fejl"
 
 msgctxt "#30307"
 msgid "Wrong username or password, please try again!"
-msgstr "Forker brugernavn eller kodeord, forsøg igen!"
+msgstr "Forkert brugernavn eller kodeord, forsøg igen!"
 
 
 # IPTV

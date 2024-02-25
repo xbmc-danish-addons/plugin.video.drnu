@@ -183,13 +183,13 @@ class DrDkTvAddon(object):
 
         if self.api.user:
             # Mylist
-            item = xbmcgui.ListItem("Min Liste", offscreen=True)
+            item = xbmcgui.ListItem(tr(30004), offscreen=True)
             item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=mylist', item, True))
 
             # Continue watching
-            item = xbmcgui.ListItem("Fortsæt med at se", offscreen=True)
+            item = xbmcgui.ListItem(tr(30003), offscreen=True)
             item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=continue', item, True))

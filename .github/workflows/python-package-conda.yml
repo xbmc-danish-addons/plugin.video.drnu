@@ -34,7 +34,7 @@ jobs:
     - name: Test with kodi-addon-checker
       shell: bash -l {0}
       run: |
-        kodi-addon-checker --branch=matrix --allow-folder-id-mismatch
+        kodi-addon-checker --branch=nexus --allow-folder-id-mismatch
 
     - name: Unit tests
       shell: bash -l {0}

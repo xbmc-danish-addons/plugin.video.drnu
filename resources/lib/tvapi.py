@@ -570,40 +570,6 @@ class Api():
             tag.setMediaType('tvshow')
         if item.get('ResumeTime', False):
             tag.setResumePoint(float(item['ResumeTime']))
- 
-    def get_info(self, item):
-        title = item['title']
-        if item['type'] == 'season':
-            title += f" {item['seasonNumber']}"
-        elif item.get('contextualTitle', None):
-            cont = item['contextualTitle']
-            if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
-                title += f" ({item['contextualTitle']})"
-        if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
-            item = self.get_item(item['id'])
-
-        infoLabels = {'title': title}
-        if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
-            infoLabels['plot'] = item['shortDescription']
-        if item.get('description', ''):
-            infoLabels['plot'] = item['description']
-        if item.get('tagline', ''):
-            infoLabels['plotoutline'] = item['tagline']
-        if item.get('customFields'):
-            if item['customFields'].get('BroadcastTimeDK'):
-                broadcast = parser.parse(item['customFields']['BroadcastTimeDK'])
-                infoLabels['date'] = broadcast.strftime('%d.%m.%Y')
-                infoLabels['aired'] = broadcast.strftime('%Y-%m-%d')
-                infoLabels['year'] = int(broadcast.strftime('%Y'))
-        if item.get('seasonNumber'):
-            infoLabels['season'] = item['seasonNumber']
-        if item.get('episodeNumber'):
-            infoLabels['episode'] = item['episodeNumber']
-        if item['type'] in ["movie", "season", "episode"]:
-            infoLabels['mediatype'] = item['type']
-        elif item['type'] == 'program':
-            infoLabels['mediatype'] = 'tvshow'
-        return title, infoLabels
 
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
         url = URL + '/schedules?'

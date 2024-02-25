@@ -139,8 +139,6 @@ def test_a_aa(capsys):
 
 def test_search(capsys):
     with capsys.disabled():
-        print(handle.api.expire_seconds)
-
         handle._plugin_handle = {}
         handle.search()
         res = [iteminfo(item) for item in get_items().values()]

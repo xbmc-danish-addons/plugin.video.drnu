@@ -32,8 +32,10 @@
             <screenshot>resources/media/Screenshot3.jpg</screenshot>
             <screenshot>resources/media/Screenshot4.jpg</screenshot>
        </assets>
-       <news>[B]Version 6.3.0 - 2024-02-09[/B]
+       <news>[B]Version 6.3.0 - 2024-02-25[/B]
         - Added login
+        - changed videoinfo to nexus api
+        - removed favourites and recent to use locale files
        </news>
        <news>[B]Version 6.2.0 - 2023-04-03[/B]
         - Complete retwrite of settings api

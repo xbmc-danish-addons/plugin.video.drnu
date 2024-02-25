@@ -1,5 +1,7 @@
-[B]Version 6.3.0 - 2024-02-09[/B]
+[B]Version 6.3.0 - 2024-02-25[/B]
 - Added login
+- changed videoinfo to nexus api
+- removed favourites and recent to use locale files
 
 [B]Version 6.2.0 - 2023-04-03[/B]
 - Complete retwrite of settings api

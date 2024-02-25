@@ -199,11 +199,11 @@ msgstr ""
 
 msgctxt "#30306"
 msgid "login failure"
-msgstr "login fejl"
+msgstr ""
 
 msgctxt "#30307"
 msgid "Wrong username or password, please try again!"
-msgstr "Forker brugernavn eller kodeord, forsøg igen!"
+msgstr ""
 
 
 # IPTV
