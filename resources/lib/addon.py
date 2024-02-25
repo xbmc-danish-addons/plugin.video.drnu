@@ -56,8 +56,9 @@ def bool_setting(name):
     return get_setting(name) == 'true'
 
 
-def make_notice(object, level=0):
-    xbmc.log(str(object), level)
+def log(object, level=0):
+    if bool_setting('log.debug'):
+        xbmc.log(str(object), level)
 
 
 def kodi_version():
@@ -314,14 +315,13 @@ class DrDkTvAddon(object):
     def kodi_item(self, item, is_season=False):
         menuItems = list(self.menuItems)
         isFolder = item['type'] not in ['program', 'episode']
-#        if item.get('path','').startswith('/kanal/') and item['type'] == 'link':
         if item['type'] == 'link':
             isFolder = False
         if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
             return None
         if 'kodi_seasons' in item:
             is_season = item['kodi_seasons']
-#        title, infoLabels = self.api.get_info(item)
+
         title = self.api.get_title(item)
         listItem = xbmcgui.ListItem(title, offscreen=True)
         videoInfoTag = listItem.getVideoInfoTag()
@@ -334,7 +334,7 @@ class DrDkTvAddon(object):
         else:
             listItem.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
 
-#        make_notice(title + ' -- ' + item['id'] + ' | ' + item['type'], level=2)
+        log(title + ' -- ' + item['id'] + ' | ' + item['type'], level=2)
         if item.get('in_mylist', False):
             runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={item['id']})"
             menuItems.append((tr(30010), runScript))
@@ -355,15 +355,13 @@ class DrDkTvAddon(object):
                     f"?listVideos=ID_{item['list']['id']}&list_param={param}&seasons={is_season}"
             else:
                 return None
+            listItem.setIsFolder(True)
         else:
+            listItem.setIsFolder(False)
             kids = self.api.kids_item(item)
             url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}&idpath={item['path']}"
             listItem.setProperty('IsPlayable', 'true')
-#            make_notice(videoInfoTag.getResumeTime(), level=1)
-            if item.get('ResumeTime', False):
-                make_notice(str(videoInfoTag.getResumeTime()) + ' ' + videoInfoTag.getTitle(), level=1)
 
-#        listItem.setInfo('video', infoLabels)
         listItem.addContextMenuItems(menuItems, False)
         return (url, listItem, isFolder,)
 
@@ -435,18 +433,18 @@ class DrDkTvAddon(object):
             self.displayError(tr(30904))
             return
 
-        item = xbmcgui.ListItem(path=video['url'], offscreen=True)
+        listItem = xbmcgui.ListItem(path=video['url'], offscreen=True)
 
         if int(get_setting('inputstream')) == 0:
             is_helper = Helper('hls')
             if is_helper.check_inputstream():
-                item.setProperty('inputstream', is_helper.inputstream_addon)
-                item.setProperty('inputstream.adaptive.manifest_type', 'hls')
+                listItem.setProperty('inputstream', is_helper.inputstream_addon)
+                listItem.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
         local_subs_bool = bool_setting('enable.localsubtitles') or int(get_setting('inputstream')) == 1
         if local_subs_bool and video['srt_subtitles']:
-            item.setSubtitles(video['srt_subtitles'])
-        xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, item)
+            listItem.setSubtitles(video['srt_subtitles'])
+        xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, listItem)
         if len(subs) == 0:
             return
 

@@ -283,6 +283,10 @@ msgctxt "#30904"
 msgid "The video is no longer available and playback is not possible."
 msgstr "Videoen er ikke længere tilgængelig og kan ikke afspilles."
 
+msgctxt "#30905"
+msgid "debug i logfil"
+msgstr ""
+
 msgctxt "#30906"
 msgid "Please report issue at github"
 msgstr "Rapporter gerne fejlen på github"

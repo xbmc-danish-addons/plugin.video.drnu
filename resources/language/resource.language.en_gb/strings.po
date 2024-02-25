@@ -285,6 +285,10 @@ msgctxt "#30904"
 msgid "The video is no longer available and playback is not possible."
 msgstr ""
 
+msgctxt "#30905"
+msgid "Debug to logfile"
+msgstr ""
+
 msgctxt "#30906"
 msgid "Please report issue at github"
 msgstr ""
