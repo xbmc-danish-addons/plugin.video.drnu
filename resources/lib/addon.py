@@ -181,15 +181,15 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
-        if self.api.user:
+        if self.api._user_name != 'anonymous':
             # Mylist
-            item = xbmcgui.ListItem(tr(30004), offscreen=True)
+            item = xbmcgui.ListItem(f'{tr(30004)} ({self.api._user_name})', offscreen=True)
             item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=mylist', item, True))
 
             # Continue watching
-            item = xbmcgui.ListItem(tr(30003), offscreen=True)
+            item = xbmcgui.ListItem(f'{tr(30003)} ({self.api._user_name})', offscreen=True)
             item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=continue', item, True))
@@ -487,6 +487,19 @@ class DrDkTvAddon(object):
                 else:
                     player.showSubtitles(False)
 
+    def login(self):
+        err = self.api.request_tokens()
+        if self.api.user:
+            if err:
+                xbmcgui.Dialog().ok(tr(30306), tr(30307))
+            else:
+                xbmcgui.Dialog().ok(tr(30303), tr(30304) + f'"{self.api._user_name}"')
+        else:
+            if err:
+                self.displayError(err)
+            else:
+                xbmcgui.Dialog().ok(tr(30303), tr(30305))
+
     def displayError(self, message='n/a'):
         heading = 'API error'
         xbmcgui.Dialog().ok(heading, '\n'.join([tr(30900), tr(30901), message]))
@@ -539,18 +552,7 @@ class DrDkTvAddon(object):
                 self.api.delete_from_watched(PARAMS['delwatched'])
 
             elif 'loginnow' in PARAMS:
-                err = self.api.request_tokens()
-                if self.api.user:
-                    if err:
-                        xbmcgui.Dialog().ok(tr(30306), tr(30307))
-                    else:
-                        name = self.api.get_profile()['name']
-                        xbmcgui.Dialog().ok(tr(30303), tr(30304) + f'"{name}"')
-                else:
-                    if err:
-                        self.displayError(err)
-                    else:
-                        xbmcgui.Dialog().ok(tr(30303), tr(30305))
+                self.login()
 
             elif 're-cache' in PARAMS:
                 progress = xbmcgui.DialogProgress()

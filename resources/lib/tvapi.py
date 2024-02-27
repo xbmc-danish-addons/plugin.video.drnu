@@ -145,6 +145,7 @@ class Api():
         self._user_token = None
         self.user = get_setting('drtv_username')
         self.password = get_setting('drtv_password')
+        self._user_name = ''
         self.refresh_tokens()
 
     def init_sqlite_db(self):
@@ -178,11 +179,13 @@ class Api():
             time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
         self._user_token = tokens[0]['value']
+        self._user_name = tokens[0].get('name', 'anonymous')
         self._profile_token = tokens[1]['value']
 
     def request_tokens(self):
         self._user_token = None
         self._profile_token = None
+
         if self.user:
             tokens_pure = full_login(self.user, self.password)
             if isinstance(tokens_pure, dict):
@@ -195,6 +198,7 @@ class Api():
             tokens = anonymous_tokens()
             self.read_tokens(tokens)
             tokens[0]['name'] = 'anonymous'
+        self._user_name = tokens[0]['name']
         with self.token_file.open('wb') as fh:
             pickle.dump(tokens, fh)
         return None

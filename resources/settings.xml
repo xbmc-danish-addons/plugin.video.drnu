@@ -45,7 +45,6 @@
       <control type="edit" format="string">
         <hidden>true</hidden>
     	</control>
-
     </setting>
     <setting id="loginnow" label="30302" type="action">
       <level>0</level>
