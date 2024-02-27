@@ -486,6 +486,8 @@ class DrDkTvAddon(object):
                     player.showSubtitles(True)
                 else:
                     player.showSubtitles(False)
+    def resfresh_ui(self):
+        xbmc.executebuiltin(f'Container.Update({self._plugin_url})')
 
     def login(self):
         err = self.api.request_tokens()
@@ -494,11 +496,13 @@ class DrDkTvAddon(object):
                 xbmcgui.Dialog().ok(tr(30306), tr(30307))
             else:
                 xbmcgui.Dialog().ok(tr(30303), tr(30304) + f'"{self.api._user_name}"')
+                self.resfresh_ui()
         else:
             if err:
                 self.displayError(err)
             else:
                 xbmcgui.Dialog().ok(tr(30303), tr(30305))
+                self.resfresh_ui()
 
     def displayError(self, message='n/a'):
         heading = 'API error'
