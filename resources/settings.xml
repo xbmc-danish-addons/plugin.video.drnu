@@ -28,6 +28,36 @@
       </constraints>
       <control type="spinner" format="string"/>
     </setting>
+    <setting id="drtv_username" label="30300" type="string">
+      <level>0</level>
+      <default/>
+      <constraints>
+        <allowempty>true</allowempty>
+      </constraints>
+      <control type="edit" format="string"/>
+    </setting>
+    <setting id="drtv_password" label="30301" type="string">
+      <level>0</level>
+      <default/>
+      <constraints>
+        <allowempty>true</allowempty>
+      </constraints>
+      <control type="edit" format="string">
+        <hidden>true</hidden>
+    	</control>
+    </setting>
+    <setting id="loginnow" label="30302" type="action">
+      <level>0</level>
+      <data>RunPlugin(plugin://$ID/?loginnow=1)</data>
+      <control type="button" format="action">
+        <close>true</close>
+      </control>
+    </setting>
+
+    <setting id="log.debug" label="30905" type="boolean">
+      <level>0</level> <default>false</default> <control type="toggle"/>
+    </setting>
+
     <setting id="use.simpleareaitem" label="30210" type="boolean">
       <level>0</level> <default>false</default> <control type="toggle"/>
     </setting>

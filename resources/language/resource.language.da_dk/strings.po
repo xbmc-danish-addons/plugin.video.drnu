@@ -29,40 +29,24 @@ msgid "Search videos"
 msgstr "Søg efter videoer"
 
 msgctxt "#30003"
-msgid "Recently watched videos"
-msgstr "Nyligt sete videoer"
+msgid "Continue watching"
+msgstr "Fortsæt med at se"
 
 msgctxt "#30004"
-msgid "Favorite programs"
-msgstr "Foretrukne programmer"
-
-msgctxt "#30005"
-msgid "Program added"
-msgstr "Program tilføjet"
-
-msgctxt "#30006"
-msgid "Program removed"
-msgstr "Program fjernet"
-
-msgctxt "#30007"
-msgid "The list is empty."
-msgstr "Listen er tom."
+msgid "My list"
+msgstr "Min liste"
 
 msgctxt "#30008"
-msgid "Your recently watched videos are automatically added."
-msgstr "De videoer du sidst har set tilføjes automatisk."
+msgid "Remove from Continue watching"
+msgstr "Fjern fra Fortsæt med at se"
 
 msgctxt "#30009"
-msgid "Add to favorite program series"
-msgstr "Tilføj til foretrukne programmer"
+msgid "Add to My list"
+msgstr "Tilføj til Min liste"
 
 msgctxt "#30010"
-msgid "Remove from favorite program series"
-msgstr "Fjern fra foretrukne programmer"
-
-msgctxt "#30011"
-msgid "Favorite program series cleared"
-msgstr "Foretrukne programmer blev nulstillet"
+msgid "Remove from My list"
+msgstr "Fjern fra Min liste"
 
 msgctxt "#30050"
 msgid "Danish (file)"
@@ -188,6 +172,40 @@ msgctxt "#30226"
 msgid "cron expression"
 msgstr "cron tidskode"
 
+# Login
+msgctxt "#30300"
+msgid "drtv username"
+msgstr "drtv brugernavn"
+
+msgctxt "#30301"
+msgid "drtv password"
+msgstr "drtv kodeord"
+
+msgctxt "#30302"
+msgid "login"
+msgstr "login"
+
+msgctxt "#30303"
+msgid "login success"
+msgstr "login succes"
+
+msgctxt "#30304"
+msgid "logged in as: "
+msgstr "logget ind som: "
+
+msgctxt "#30305"
+msgid "logged in with anonymous user, this will stop working at some point in 2024 according to DR"
+msgstr "logget ind anonym bruger, dette vil stoppe med at virke en gang i 2024 ifølge DR"
+
+msgctxt "#30306"
+msgid "login failure"
+msgstr "login fejl"
+
+msgctxt "#30307"
+msgid "Wrong username or password, please try again!"
+msgstr "Forkert brugernavn eller kodeord, forsøg igen!"
+
+
 # IPTV
 msgctxt "#30550"
 msgid "IPTV Manager"
@@ -264,6 +282,10 @@ msgstr "lokalt på disken. Fejlen er:"
 msgctxt "#30904"
 msgid "The video is no longer available and playback is not possible."
 msgstr "Videoen er ikke længere tilgængelig og kan ikke afspilles."
+
+msgctxt "#30905"
+msgid "debug i logfil"
+msgstr ""
 
 msgctxt "#30906"
 msgid "Please report issue at github"

@@ -29,39 +29,23 @@ msgid "Search videos"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Recently watched videos"
+msgid "Continue watching"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Favorite programs"
-msgstr ""
-
-msgctxt "#30005"
-msgid "Program added"
-msgstr ""
-
-msgctxt "#30006"
-msgid "Program removed"
-msgstr ""
-
-msgctxt "#30007"
-msgid "The list is empty."
+msgid "My list"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Your recently watched videos are automatically added."
+msgid "Remove from Continue watching"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Add to favorite program series"
+msgid "Add to My list"
 msgstr ""
 
 msgctxt "#30010"
-msgid "Remove from favorite program series"
-msgstr ""
-
-msgctxt "#30011"
-msgid "Favorite program series cleared"
+msgid "Remove from My list"
 msgstr ""
 
 msgctxt "#30050"
@@ -188,6 +172,39 @@ msgctxt "#30226"
 msgid "cron expression"
 msgstr ""
 
+# Login
+msgctxt "#30300"
+msgid "drtv username"
+msgstr ""
+
+msgctxt "#30301"
+msgid "drtv password"
+msgstr ""
+
+msgctxt "#30302"
+msgid "login"
+msgstr ""
+
+msgctxt "#30303"
+msgid "login success"
+msgstr ""
+
+msgctxt "#30304"
+msgid "logged in as: "
+msgstr ""
+
+msgctxt "#30305"
+msgid "logged in with anonymous user, this will stop working at some point in 2024 according to DR"
+msgstr ""
+
+msgctxt "#30306"
+msgid "login failure"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Wrong username or password, please try again!"
+msgstr ""
+
 
 # IPTV
 msgctxt "#30550"
@@ -266,6 +283,10 @@ msgstr ""
 
 msgctxt "#30904"
 msgid "The video is no longer available and playback is not possible."
+msgstr ""
+
+msgctxt "#30905"
+msgid "Debug to logfile"
 msgstr ""
 
 msgctxt "#30906"

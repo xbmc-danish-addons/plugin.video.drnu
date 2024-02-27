@@ -29,6 +29,7 @@ import requests_cache
 import time
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
+from urllib.parse import urlparse, parse_qs
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
@@ -49,6 +50,87 @@ def cache_path(path):
         return False
     return True
 
+def full_login(user, password):
+    ses = requests.Session()
+    # start login flow
+    params = {
+        'clientRedirectUrl':'https://www.dr.dk/drtv/callback',
+        'signUp': 'false', 'localPath':'/', 'optout':'false', 'device':'web_browser'}
+    headers = {
+        'authority': 'production.dr-massive.com',
+        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    }
+    url = URL + '/authorization?'
+    res = ses.get(url, params=params, headers=headers, allow_redirects=True)
+
+    if res.status_code != 200:
+        return {'status_code': res.status_code, 'error': res.text}
+    client_id = parse_qs(urlparse(res.history[1].url).query)['client_id'][0]
+    referer = res.history[2].headers['Location']
+    state = parse_qs(urlparse(referer).query)['state'][0]
+
+    # post credentials
+    headers = {
+        'authority': 'api.dr.dk',
+        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+        'content-type': 'application/json',
+    }
+    
+    url = 'https://api.dr.dk/login/graphql'
+    data = {"operationName":"InitializeLoginTransaction","variables":{"input":{"state":state,"clientID":client_id}}, "query":"mutation InitializeLoginTransaction($input: InitializeLoginTransactionInput!) {\n  initializeLoginTransaction(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}  # noqa: E501
+
+    u = ses.post(url, data=json.dumps(data), headers=headers)
+    print(1, u.status_code)
+    if u.status_code != 200:
+        return {'status_code': u.status_code, 'error': u.text}
+    transaction_id = u.json()['data']['initializeLoginTransaction']['id']
+    
+    data = {"operationName":"Identify","variables":{"input":{"transaction":transaction_id,"email":user}},"query":"mutation Identify($input: IdentificationInput\u0021) {\n  identify(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}  # noqa: E501
+    u2 = ses.post(url, data=json.dumps(data), headers=headers)
+    print(2, u2.status_code)
+    if u2.status_code != 200:
+        return {'status_code': u2.status_code, 'error': u2.text}
+    
+    data={"variables":{"input":{"email":user,"password":password,"state":state}},"query":"mutation ($input: LoginInput!) {\n  token: login(input: $input)\n}"}   # noqa: E501
+    u3 = ses.post(url, data=json.dumps(data), headers=headers)
+    print(3, u3.status_code)
+    if u3.status_code != 200:
+        return {'status_code': u3.status_code, 'error': u3.text}
+    data = u3.json()['data']
+
+    # post login to tokens
+    headers = {
+        'authority': 'login.dr.dk',
+        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+        'content-type': 'application/x-www-form-urlencoded',
+    }
+    
+    url = 'https://login.dr.dk/oidc/interactions/login/continue'
+    res = ses.post(url, data=data, headers=headers, allow_redirects=True)
+    if res.status_code != 200:
+        return {'status_code': res.status_code, 'error': res.text}
+    o = parse_qs(urlparse(res.url).fragment)
+    tokens = [o[label][0] for label in ['RefreshableUserAccount', 'RefreshableUserProfile']]
+    return tokens
+
+
+def deviceid():
+    v = int(Path(__file__).stat().st_mtime)
+    h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
+    return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
+
+
+def anonymous_tokens():
+    data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
+    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True} 
+
+    url = URL + '/authorization/anonymous-sso?'
+    u = requests.post(url, json=data, params=params)
+    if u.status_code != 200:
+        return {'status_code': u.status_code, 'error': u.text}
+    tokens = json.loads(u.content)
+    return tokens
+
 class Api():
     def __init__(self, cachePath, getLocalizedString, get_setting):
         self.cachePath = cachePath
@@ -56,11 +138,14 @@ class Api():
         self.cleanup_every = int(get_setting('recache.cleanup'))
         self.expire_hours = int(get_setting('recache.expiration'))
         self.caching = get_setting('recache.enabled') == 'true'
-        self.expire_seconds = 3600*self.expire_hours if self.expire_hours >= 0 else self.expire_hours
+        self.expire_seconds = 3600*self.expire_hours if self.expire_hours >= 0 else None
         self.init_sqlite_db()
 
         self.token_file = Path(f'{self.cachePath}/token.p')
         self._user_token = None
+        self.user = get_setting('drtv_username')
+        self.password = get_setting('drtv_password')
+        self._user_name = ''
         self.refresh_tokens()
 
     def init_sqlite_db(self):
@@ -86,41 +171,81 @@ class Api():
                 request_fname, backend='sqlite', expire_after=self.expire_seconds)
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
-    def deviceid(self):
-        v = int(Path(__file__).stat().st_mtime)
-        h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
-        return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
-
-    def read_token(self, tokens):
-        time_struct = time.strptime(tokens[0]['expirationDate'].split('.')[0], '%Y-%m-%dT%H:%M:%S')
-        self._token_expire = datetime(*time_struct[0:6])
+    def read_tokens(self, tokens):
+        time_str = tokens[0]['expirationDate'].split('.')[0]
+        try:
+            self._token_expire = datetime.strptime(time_str + 'Z', '%Y-%m-%dT%H:%M:%S%z')
+        except Exception:
+            time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
+            self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
         self._user_token = tokens[0]['value']
+        self._user_name = tokens[0].get('name', 'anonymous')
         self._profile_token = tokens[1]['value']
 
     def request_tokens(self):
-        data = {"deviceId": self.deviceid(), "scopes": ["Catalog"], "optout": False}
-        params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
-
-        url = URL + '/authorization/anonymous-sso?'
-        u = requests.post(url, json=data, params=params)
         self._user_token = None
-        if u.status_code == 200:
-            with self.token_file.open('wb') as fh:
-                tokens = json.loads(u.content)
-                pickle.dump(tokens, fh)
-            self.read_token(tokens)
+        self._profile_token = None
+
+        if self.user:
+            tokens_pure = full_login(self.user, self.password)
+            if isinstance(tokens_pure, dict):
+                err = tokens_pure['error']
+                return err
+            tokens = [self.refresh_token(t) for t in tokens_pure]
+            self.read_tokens(tokens)
+            tokens[0]['name'] = self.get_profile()['name']
         else:
-            raise ApiException(f'Failed to get new token from: {url}')
+            tokens = anonymous_tokens()
+            self.read_tokens(tokens)
+            tokens[0]['name'] = 'anonymous'
+        self._user_name = tokens[0]['name']
+        with self.token_file.open('wb') as fh:
+            pickle.dump(tokens, fh)
+        return None
+
+    def refresh_token(self, token):
+        url = 'https://production.dr-massive.com/api/authorization/refresh'
+        params = {'ff':'idp,ldp,rpt', 'supportFallbackToken': True}
+        headers = {
+            'Host': 'production.dr-massive.com',
+            'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+            'content-type': 'application/json',
+        }
+        data = {
+            'token': token, 'optout': False
+        }
+        res = self.session.post(url, params=params, headers=headers, json=data)
+        if res.status_code != 200:
+            return {'status_code': res.status_code, 'error': res.text}
+        return res.json()
 
     def refresh_tokens(self):
         if self._user_token is None:
             if self.token_file.exists():
                 with self.token_file.open('rb') as fh:
-                    self.read_token(pickle.load(fh))
+                    self.read_tokens(pickle.load(fh))
             else:
+                err = self.request_tokens()
+                if err:
+                    raise ApiException(f'Login failed with: "{err}"')
+                return
+        if (self._token_expire - datetime.now(timezone.utc)).total_seconds() < 120:
+            failed_refresh = False
+            tokens = []
+            for t in [self._user_token, self._profile_token]:
+                newtoken = self.refresh_token(t)
+                tokens.append(newtoken)
+                if 'error' in newtoken:
+                    failed_refresh = True
+            if failed_refresh:
                 self.request_tokens()
-        if (self._token_expire - datetime.now()).total_seconds() < 120:
-            self.request_tokens()
+                err = self.request_tokens()
+                if err:
+                    raise ApiException(f'Login failed with: "{err}"')
+            else:
+                with self.token_file.open('wb') as fh:
+                    pickle.dump(tokens, fh)
+                self.read_tokens(tokens)
 
     def user_token(self):
         self.refresh_tokens()
@@ -129,6 +254,16 @@ class Api():
     def profile_token(self):
         self.refresh_tokens()
         return self._profile_token
+
+    def _request_get(self, url, params=None, headers=None, use_cache=True):
+        if use_cache and self.caching:
+            u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
+        else:
+            u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
+        if u.status_code == 200:
+            return u.json()
+        else:
+            raise ApiException(u.text)
 
     def get_programcard(self, path, data=None, use_cache=True):
         url = URL + '/page?'
@@ -139,36 +274,15 @@ class Api():
                 'max_list_prefetch': '3',
                 'path': path
             }
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, params=data, use_cache=use_cache)
 
     def get_item(self, id, use_cache=True):
         url = URL + f'/items/{int(id)}?'
-        if use_cache and self.caching:
-            u = self.session.get(url, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url)
 
     def get_next(self, path, use_cache=True):
         url = URL + path
-        if use_cache and self.caching:
-            u = self.session.get(url, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, use_cache=use_cache)
 
     def get_list(self, id, param, use_cache=True):
         if isinstance(id, str):
@@ -177,30 +291,66 @@ class Api():
         data = {'page_size': '24'}
         if param != 'NoParam':
             data['param'] = param
-
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
-            raise ApiException(u.text)
+        return self._request_get(url, params=data, use_cache=use_cache)
 
     def get_recommendations(self, id, use_cache=True):
         url = URL + f'/recommendations/{id}'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
 
-        if use_cache and self.caching:
-            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
-            return u.json()
-        else:
+    def delete_from_watched(self, id):
+        url = f'{URL}/account/profile/continue-watching/{id}'
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        u = self.session.delete(url, headers=headers)
+        if u.status_code != 204:
             raise ApiException(u.text)
 
+    def add_to_watched(self, id, duration):
+        url = f'{URL}/account/profile/continue-watching/{id}&position={int(duration)}'
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        u = self.session.put(url, headers=headers)
+        if u.status_code != 200:
+            raise ApiException(u.text)
+
+    def delete_from_mylist(self, id):
+        url = f'{URL}/account/profile/bookmarks/{id}'
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        u = self.session.delete(url, headers=headers)
+        if u.status_code != 204:
+            raise ApiException(u.text)
+
+    def add_to_mylist(self, id):
+        url = f'{URL}/account/profile/bookmarks/{id}'
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        u = self.session.put(url, headers=headers)
+        if u.status_code != 200:
+            raise ApiException(u.text)
+
+    def get_mylist(self, use_cache=False):
+        url = URL + '/account/profile/bookmarks/list'
+        data = {'page_size': '24'}
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        items = self._request_get(url, params=data, headers=headers, use_cache=use_cache)['items']
+        for item in items:
+            item['in_mylist'] = True
+        return items
+
+    def get_continue(self, use_cache=False):
+        url = URL + '/account/profile/continue-watching/list'
+        data = {'page_size': '24'}
+        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        items = self._request_get(url, params=data, headers=headers, use_cache=use_cache)['items']
+        watched = self.get_profile()['watched']
+        for item in items:
+            item['ResumeTime'] = float(watched[str(item['id'])]['position'])
+        return items
+
+    def get_profile(self, use_cache=False):
+        url = URL + '/account/profile'
+        headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
+        return self._request_get(url, headers=headers, use_cache=use_cache)
+    
     def kids_item(self, item):
         if 'classification' in item:
             if item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
@@ -244,13 +394,13 @@ class Api():
             max_list_prefetch=1,
             item_detail_expand='all',
             path='/',
-            segments='drtv,mt_K8q4Nz3,optedin',
+            segments='drtv,optedin',
         )
         js = self.get_programcard('/', data=data)
         items = [{'title': 'Programmer A-Å', 'path': '/kategorier/a-aa', 'icon': 'all.png'}]
         for item in js['entries']:
             title = item['title']
-            if title not in ['Se Live TV', 'Vi tror, du kan lide']:  # TODO activate again when login works
+            if title not in ['Se live tv']:
                 if title == '' and item['type'] == 'ListEntry':
                     title = item['list'].get('title', '') # get the top spinner item
                 if title.startswith('DRTV Hero'):
@@ -385,7 +535,7 @@ class Api():
             url = channel['item']['customFields']['hlsURL']
         return url
 
-    def get_info(self, item):
+    def get_title(self, item):
         title = item['title']
         if item['type'] == 'season':
             title += f" {item['seasonNumber']}"
@@ -393,31 +543,37 @@ class Api():
             cont = item['contextualTitle']
             if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
                 title += f" ({item['contextualTitle']})"
-        if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
-            item = self.get_item(item['id'])
+        return title
 
-        infoLabels = {'title': title}
+    def set_info(self, item, tag, title):
+        if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
+            resumetime_save = float(item.get('ResumeTime', 0.0))
+            item = self.get_item(item['id'])
+            if resumetime_save > 0:
+                item['ResumeTime'] = resumetime_save
+
+        tag.setTitle(title)
         if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
-            infoLabels['plot'] = item['shortDescription']
+            tag.setPlot(item['shortDescription'])
         if item.get('description', ''):
-            infoLabels['plot'] = item['description']
+            tag.setPlot(item['description'])
         if item.get('tagline', ''):
-            infoLabels['plotoutline'] = item['tagline']
+            tag.setPlotOutline(item['tagline'])
         if item.get('customFields'):
             if item['customFields'].get('BroadcastTimeDK'):
                 broadcast = parser.parse(item['customFields']['BroadcastTimeDK'])
-                infoLabels['date'] = broadcast.strftime('%d.%m.%Y')
-                infoLabels['aired'] = broadcast.strftime('%Y-%m-%d')
-                infoLabels['year'] = int(broadcast.strftime('%Y'))
+                tag.setFirstAired(broadcast.strftime('%Y-%m-%d'))
+                tag.setYear(int(broadcast.strftime('%Y')))
         if item.get('seasonNumber'):
-            infoLabels['season'] = item['seasonNumber']
+            tag.setSeason(int(item['seasonNumber']))
         if item.get('episodeNumber'):
-            infoLabels['episode'] = item['episodeNumber']
+            tag.setEpisode(int(item['episodeNumber']))
         if item['type'] in ["movie", "season", "episode"]:
-            infoLabels['mediatype'] = item['type']
+            tag.setMediaType(item['type'])
         elif item['type'] == 'program':
-            infoLabels['mediatype'] = 'tvshow'
-        return title, infoLabels
+            tag.setMediaType('tvshow')
+        if item.get('ResumeTime', False):
+            tag.setResumePoint(float(item['ResumeTime']))
 
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
         url = URL + '/schedules?'

@@ -5,7 +5,9 @@
     "params": {
       "show": "liveTV"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -20,7 +22,9 @@
     "params": {
       "listVideos": "/kategorier/a-aa"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -31,11 +35,13 @@
   },
   {
     "label": "Daglige forslag",
-    "url": "?listVideos=/liste/drtv-hero-sunday-18_00_88225",
+    "url": "?listVideos=/liste/drtv-hero-saturday-18_00_89366",
     "params": {
-      "listVideos": "/liste/drtv-hero-sunday-18_00_88225"
+      "listVideos": "/liste/drtv-hero-saturday-18_00_89366"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -46,11 +52,13 @@
   },
   {
     "label": "De største programmer lige nu",
-    "url": "?listVideos=/liste/108657",
+    "url": "?listVideos=/liste/402866",
     "params": {
-      "listVideos": "/liste/108657"
+      "listVideos": "/liste/402866"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -60,12 +68,14 @@
     ]
   },
   {
-    "label": "Nyhedsoverblik",
-    "url": "?listVideos=/liste/363452",
+    "label": "Nyheder",
+    "url": "?listVideos=/liste/394137",
     "params": {
-      "listVideos": "/liste/363452"
+      "listVideos": "/liste/394137"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -76,11 +86,13 @@
   },
   {
     "label": "Nye og populære serier",
-    "url": "?listVideos=/liste/209529",
+    "url": "?listVideos=/liste/373113",
     "params": {
-      "listVideos": "/liste/209529"
+      "listVideos": "/liste/373113"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -91,11 +103,13 @@
   },
   {
     "label": "Mest populære dokumentarer",
-    "url": "?listVideos=/liste/306104",
+    "url": "?listVideos=/liste/369696",
     "params": {
-      "listVideos": "/liste/306104"
+      "listVideos": "/liste/369696"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -106,11 +120,13 @@
   },
   {
     "label": "Mest sete film",
-    "url": "?listVideos=/liste/370334",
+    "url": "?listVideos=/liste/349213",
     "params": {
-      "listVideos": "/liste/370334"
+      "listVideos": "/liste/349213"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -125,7 +141,9 @@
     "params": {
       "listVideos": "/liste/374012"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -136,11 +154,13 @@
   },
   {
     "label": "Kategorier",
-    "url": "?listVideos=/liste/289833",
+    "url": "?listVideos=/liste/376779",
     "params": {
-      "listVideos": "/liste/289833"
+      "listVideos": "/liste/376779"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -155,7 +175,9 @@
     "params": {
       "listVideos": "/liste/307904"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -166,11 +188,13 @@
   },
   {
     "label": "Mest sete",
-    "url": "?listVideos=/liste/115522",
+    "url": "?listVideos=/liste/379672",
     "params": {
-      "listVideos": "/liste/115522"
+      "listVideos": "/liste/379672"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -185,7 +209,9 @@
     "params": {
       "listVideos": "/liste/171678"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -195,12 +221,31 @@
     ]
   },
   {
-    "label": "True Crime",
+    "label": "True Crime dokumentarer",
     "url": "?listVideos=/liste/238347",
     "params": {
       "listVideos": "/liste/238347"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ]
+    ]
+  },
+  {
+    "label": "Nervepirrende serier",
+    "url": "?listVideos=/liste/244426",
+    "params": {
+      "listVideos": "/liste/244426"
+    },
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -215,7 +260,9 @@
     "params": {
       "listVideos": "/liste/167449"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -225,12 +272,14 @@
     ]
   },
   {
-    "label": "Store og episke serier",
-    "url": "?listVideos=/liste/244416",
+    "label": "Drama og kærlighed",
+    "url": "?listVideos=/liste/384446",
     "params": {
-      "listVideos": "/liste/244416"
+      "listVideos": "/liste/384446"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -240,12 +289,14 @@
     ]
   },
   {
-    "label": "Nervepirrende og fascinerende serier",
-    "url": "?listVideos=/liste/244426",
+    "label": "Krimiserier",
+    "url": "?listVideos=/liste/244424",
     "params": {
-      "listVideos": "/liste/244426"
+      "listVideos": "/liste/244424"
     },
-    "info": {},
+    "info": {
+      "resume": null
+    },
     "properties": {},
     "contextmenu": [
       [
@@ -260,37 +311,9 @@
     "params": {
       "show": "search"
     },
-    "info": {},
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "30003",
-    "url": "?show=recentlyWatched",
-    "params": {
-      "show": "recentlyWatched"
+    "info": {
+      "resume": null
     },
-    "info": {},
-    "properties": {},
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ]
-    ]
-  },
-  {
-    "label": "30004",
-    "url": "?show=favorites",
-    "params": {
-      "show": "favorites"
-    },
-    "info": {},
     "properties": {},
     "contextmenu": [
       [
