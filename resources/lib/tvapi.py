@@ -31,6 +31,7 @@ from dateutil import parser
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, parse_qs
 
+import xbmc
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -342,8 +343,10 @@ class Api():
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         items = self._request_get(url, params=data, headers=headers, use_cache=use_cache)['items']
         watched = self.get_profile()['watched']
+        xbmc.log(str(watched), 1)
         for item in items:
-            item['ResumeTime'] = float(watched[str(item['id'])]['position'])
+            xbmc.log(str(item['id']), 1)
+            item['ResumeTime'] = float(watched.get(str(item['id']), {'position':0.0})['position'])
         return items
 
     def get_profile(self, use_cache=False):
