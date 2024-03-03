@@ -31,7 +31,6 @@ from dateutil import parser
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, parse_qs
 
-import xbmc
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -180,8 +179,12 @@ class Api():
             time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
         self._user_token = tokens[0]['value']
-        self._user_name = tokens[0].get('name', 'anonymous')
         self._profile_token = tokens[1]['value']
+        if self.user:
+            tokens[0]['name'] = self.get_profile()['name']
+        else:
+            tokens[0]['name'] = 'anonymous'
+        self._user_name = tokens[0]['name']
 
     def request_tokens(self):
         self._user_token = None
@@ -194,12 +197,9 @@ class Api():
                 return err
             tokens = [self.refresh_token(t) for t in tokens_pure]
             self.read_tokens(tokens)
-            tokens[0]['name'] = self.get_profile()['name']
         else:
             tokens = anonymous_tokens()
             self.read_tokens(tokens)
-            tokens[0]['name'] = 'anonymous'
-        self._user_name = tokens[0]['name']
         with self.token_file.open('wb') as fh:
             pickle.dump(tokens, fh)
         return None
@@ -244,9 +244,9 @@ class Api():
                 if err:
                     raise ApiException(f'Login failed with: "{err}"')
             else:
+                self.read_tokens(tokens)
                 with self.token_file.open('wb') as fh:
                     pickle.dump(tokens, fh)
-                self.read_tokens(tokens)
 
     def user_token(self):
         self.refresh_tokens()
@@ -343,9 +343,7 @@ class Api():
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         items = self._request_get(url, params=data, headers=headers, use_cache=use_cache)['items']
         watched = self.get_profile()['watched']
-        xbmc.log(str(watched), 1)
         for item in items:
-            xbmc.log(str(item['id']), 1)
             item['ResumeTime'] = float(watched.get(str(item['id']), {'position':0.0})['position'])
         return items
 
