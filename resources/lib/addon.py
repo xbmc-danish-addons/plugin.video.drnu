@@ -506,7 +506,6 @@ class DrDkTvAddon(object):
                     player.showSubtitles(False)
     def resfresh_ui(self, params=''):
         xbmc.executebuiltin(f'Container.Update({self._plugin_url + params})')
-#        xbmc.executebuiltin(f'Container.Refresh({self._plugin_url + params})')
 
     def login(self):
         err = self.api.request_tokens()
