@@ -559,7 +559,10 @@ class DrDkTvAddon(object):
                 seasons = PARAMS.get('seasons', 'False') == 'True'
                 if PARAMS['listVideos'].startswith('ID_'):
                     items = self.api.get_list(PARAMS['listVideos'], PARAMS['list_param'])
-                    self.listEpisodes(self.api.unfold_list(items, filter_kids=bool_setting('disable.kids')))
+                    filter_kids = bool_setting('disable.kids')
+                    if 'Ultra' in items['title']:
+                        filter_kids = False
+                    self.listEpisodes(self.api.unfold_list(items, filter_kids=filter_kids))
                 else:
                     self.list_entries(PARAMS['listVideos'], seasons)
 
