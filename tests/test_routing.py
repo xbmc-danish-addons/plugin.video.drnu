@@ -20,8 +20,6 @@ sys.path.insert(0, str((basedir).resolve()))
 from resources.lib import addon
 
 userdata = Path(addon.translatePath(addon.addon.getAddonInfo('profile')))
-if (userdata/'favorites6.pickle').exists():
-    (userdata/'favorites6.pickle').unlink()
 
 menudata = (userdata/'menudata')
 menudata.mkdir(parents=True, exist_ok=True)
@@ -119,6 +117,25 @@ def test_ramasjang(capsys):
         handle.route(bluey['url'])
         episodes = [iteminfo(item) for item in get_items().values()]
         myEqual(len(episodes), 12)
+
+
+def test_gensyn(capsys):
+    with capsys.disabled():
+        handle.route('?area=5')
+        items = [iteminfo(item) for item in get_items().values()]
+#        print(items[1])
+
+        # Årtier
+        handle.route(items[5]['url'])
+        items2 = [iteminfo(item) for item in get_items().values()]
+#        print(items2[4])
+
+        # 1990'erne
+        handle.route(items2[4]['url'])
+        episodes = [iteminfo(item) for item in get_items().values()]
+#        print(episodes[1])
+        assert episodes[1]['info']['title'] == 'Casper & Mandrilaftalen 1'
+
 
 def test_a_aa(capsys):
     with capsys.disabled():
