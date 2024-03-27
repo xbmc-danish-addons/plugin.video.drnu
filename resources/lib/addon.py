@@ -285,6 +285,7 @@ class DrDkTvAddon(object):
                          'fanart': channel['item']['images']['logo']})
             item.addContextMenuItems(self.menuItems, False)
             url = self.api.get_channel_url(channel, bool_setting('enable.subtitles'))
+            log(url, level=2)
             item.setInfo('video', {
                 'title': channel['title'],
                 'plot': channel['schedule_str'],
