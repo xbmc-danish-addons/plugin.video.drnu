@@ -588,8 +588,9 @@ class DrDkTvAddon(object):
                 self.api.recache_items(clear_expired=True, progress=progress)
                 progress.update(100)
                 progress.close()
-                if PARAMS['re-cache'] == 2:
-                    xbmc.executebuiltin('ActivateWindow(Home)')
+                if PARAMS['re-cache'] == '2':
+                    self.showSimpleAreaSelector()
+                    xbmc.executebuiltin('ActivateWindow(home)')
 
             else:
                 area = int(get_setting('area'))
