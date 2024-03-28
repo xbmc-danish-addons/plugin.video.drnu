@@ -285,7 +285,6 @@ class DrDkTvAddon(object):
                          'fanart': channel['item']['images']['logo']})
             item.addContextMenuItems(self.menuItems, False)
             url = self.api.get_channel_url(channel, bool_setting('enable.subtitles'))
-            log(url, level=2)
             item.setInfo('video', {
                 'title': channel['title'],
                 'plot': channel['schedule_str'],
@@ -353,7 +352,7 @@ class DrDkTvAddon(object):
                 icon_file = str(resources_path/'icons/gensyn.png')
             listItem.setArt({'fanart': self.fanart_image, 'icon': icon_file})
 
-        log(f'{title} -- {item["id"]} | {item["type"]} | {item.get("path")}', level=2)
+        log(f'{title} -- {item["id"]} | {item["type"]} | {item.get("path")}', level=1)
         if item.get('in_mylist', False):
             runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={item['id']})"
             menuItems.append((tr(30010), runScript))
