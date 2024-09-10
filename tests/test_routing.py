@@ -30,7 +30,7 @@ handle._plugin_handle = {}
 
 main_menu_js = json.loads((menudata/'main_menu.json').read_text())
 
-UPDATE_TESTS = True
+UPDATE_TESTS = False
 UPDATE_CACHE = False
 
 def get_items():
@@ -134,7 +134,7 @@ def test_gensyn(capsys):
         handle.route(items2[4]['url'])
         episodes = [iteminfo(item) for item in get_items().values()]
 #        print(episodes[1])
-        assert episodes[1]['info']['title'] == 'Hvaffor en hånd 1994'
+        assert episodes[1]['info']['title'] == 'Casper & Mandrilaftalen 1'
 
 
 def test_a_aa(capsys):
