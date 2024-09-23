@@ -487,6 +487,7 @@ class Api():
         }
         log(url, level=1)
         log(data, level=1)
+        log(self._user_name, level=1)
 
         u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
         if u.status_code == 200:
