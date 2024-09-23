@@ -487,9 +487,12 @@ class Api():
         }
         log(url, level=1)
         log(data, level=1)
-        log(self._user_name, level=1)
-
         u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        log([u.status_code, u.json()], level=1)
+        if u.status_code == 404 and u.json()['code'] == 8009:
+            data['sub'] = 'Registered'
+            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+
         if u.status_code == 200:
             for stream in u.json():
                 if stream['accessService'] == 'StandardVideo':
