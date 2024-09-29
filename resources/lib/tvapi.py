@@ -30,7 +30,6 @@ import time
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, parse_qs
-import xbmc
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
@@ -50,10 +49,6 @@ def cache_path(path):
     if any([path.startswith(item) for item in NO_CACHING]):
         return False
     return True
-
-
-def log(object, level=0):
-    xbmc.log(str(object), level)
 
 
 def full_login(user, password):
@@ -485,10 +480,7 @@ class Api():
             'lang': 'da',
             'resolution': 'HD-1080',
         }
-        log(url, level=1)
-        log(data, level=1)
         u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        log([u.status_code, u.json()], level=1)
         if u.status_code == 404 and u.json()['code'] == 8009:
             data['sub'] = 'Registered'
             u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
