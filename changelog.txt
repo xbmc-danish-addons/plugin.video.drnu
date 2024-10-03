@@ -1,3 +1,6 @@
+[B]Version 6.4.6 - 2024-10-03[/B]
+- Fix "unsupported_subCode" issue.
+
 [B]Version 6.4.5 - 2024-09-29[/B]
 - Fix issue of dr returning 404 on some streams with 'sub' header, again...
 - remove inputstreamhelper from addon
