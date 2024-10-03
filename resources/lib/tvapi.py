@@ -29,7 +29,7 @@ import requests_cache
 import time
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode, urlunparse
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
@@ -49,6 +49,17 @@ def cache_path(path):
     if any([path.startswith(item) for item in NO_CACHING]):
         return False
     return True
+
+
+def fix_query(url, remove={}, add={}):
+    o = list(urlparse(url))
+    qs = dict(parse_qsl(o[4]))
+    for k,v in remove.items():
+        if qs.get(k) == v:
+            del qs[k]
+    qs.update(add)
+    o[4] = urlencode(qs)
+    return urlunparse(o)
 
 
 def full_login(user, password):
@@ -283,7 +294,8 @@ class Api():
         return self._request_get(url)
 
     def get_next(self, path, use_cache=True, headers=None):
-        url = URL + path
+        remove = {'sub':'Emergency'}
+        url = URL + fix_query(path, remove=remove)
         return self._request_get(url, headers=headers, use_cache=use_cache)
 
     def get_list(self, id, param, use_cache=True):
