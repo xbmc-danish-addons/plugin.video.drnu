@@ -607,7 +607,7 @@ class Api():
 
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
         url = URL + '/schedules?'
-        now = datetime.now() - timedelta(hours=2)
+        now = datetime.now(timezone.utc)
         if date is None:
             date = now.strftime("%Y-%m-%d")
         if hour is None:
@@ -645,7 +645,7 @@ class Api():
             out[id] = ''
             for item in channel['schedules']:
                 if parser.parse(item['endDate']) > now and out[id].count('\n') < 5:
-                    t = parser.parse(item['startDate']) + timedelta(hours=2)
+                    t = parser.parse(item['startTimeInDefaultTimeZone'])
                     start = t.strftime('%H:%M')
                     out[id] += f"{start} {item['item']['title']} \n"
         return out
