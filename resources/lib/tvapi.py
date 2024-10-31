@@ -491,10 +491,11 @@ class Api():
             'ff': 'idp,ldp,rpt',
             'lang': 'da',
             'resolution': 'HD-1080',
+            'sub': 'Registered',
         }
         u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code == 404 and u.json()['code'] == 8009:
-            data['sub'] = 'Registered'
+        if u.status_code != 200:
+            del data['sub']
             u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
 
         if u.status_code == 200:
