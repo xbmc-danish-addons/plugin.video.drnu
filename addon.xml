@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.drnu" version="6.4.5" name="DR TV" provider-name="TermeHansen">
+<addon id="plugin.video.drnu" version="6.4.6" name="DR TV" provider-name="TermeHansen">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.dateutil" version="2.8.2" />
@@ -31,6 +31,11 @@
             <screenshot>resources/media/Screenshot3.jpg</screenshot>
             <screenshot>resources/media/Screenshot4.jpg</screenshot>
        </assets>
+       <news>[B]Version 6.4.6 - 2024-11-01[/B]
+        - Fix "unsupported_subCode" issue.
+        - Fix time offset in live tv EPG.
+        - More general fix for the 'sub' header issue
+       </news>
        <news>[B]Version 6.4.5 - 2024-09-29[/B]
         - Fix issue of dr returning 404 on some streams with 'sub' header, again..
         - remove inputstreamhelper from addon

@@ -1,3 +1,8 @@
+[B]Version 6.4.6 - 2024-11-01[/B]
+- Fix "unsupported_subCode" issue.
+- Fix time offset in live tv EPG.
+- More general fix for the 'sub' header issue
+
 [B]Version 6.4.5 - 2024-09-29[/B]
 - Fix issue of dr returning 404 on some streams with 'sub' header, again...
 - remove inputstreamhelper from addon

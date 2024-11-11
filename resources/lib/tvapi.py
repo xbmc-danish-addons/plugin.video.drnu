@@ -29,7 +29,7 @@ import requests_cache
 import time
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode, urlunparse
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
@@ -49,6 +49,17 @@ def cache_path(path):
     if any([path.startswith(item) for item in NO_CACHING]):
         return False
     return True
+
+
+def fix_query(url, remove={}, add={}):
+    o = list(urlparse(url))
+    qs = dict(parse_qsl(o[4]))
+    for k,v in remove.items():
+        if qs.get(k) == v:
+            del qs[k]
+    qs.update(add)
+    o[4] = urlencode(qs)
+    return urlunparse(o)
 
 
 def full_login(user, password):
@@ -283,7 +294,8 @@ class Api():
         return self._request_get(url)
 
     def get_next(self, path, use_cache=True, headers=None):
-        url = URL + path
+        remove = {'sub':'Emergency'}
+        url = URL + fix_query(path, remove=remove)
         return self._request_get(url, headers=headers, use_cache=use_cache)
 
     def get_list(self, id, param, use_cache=True):
@@ -479,10 +491,11 @@ class Api():
             'ff': 'idp,ldp,rpt',
             'lang': 'da',
             'resolution': 'HD-1080',
+            'sub': 'Registered',
         }
         u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code == 404 and u.json()['code'] == 8009:
-            data['sub'] = 'Registered'
+        if u.status_code != 200:
+            del data['sub']
             u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
 
         if u.status_code == 200:
@@ -595,7 +608,7 @@ class Api():
 
     def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
         url = URL + '/schedules?'
-        now = datetime.now() - timedelta(hours=2)
+        now = datetime.now(timezone.utc)
         if date is None:
             date = now.strftime("%Y-%m-%d")
         if hour is None:
@@ -633,7 +646,7 @@ class Api():
             out[id] = ''
             for item in channel['schedules']:
                 if parser.parse(item['endDate']) > now and out[id].count('\n') < 5:
-                    t = parser.parse(item['startDate']) + timedelta(hours=2)
+                    t = parser.parse(item['startTimeInDefaultTimeZone'])
                     start = t.strftime('%H:%M')
                     out[id] += f"{start} {item['item']['title']} \n"
         return out
