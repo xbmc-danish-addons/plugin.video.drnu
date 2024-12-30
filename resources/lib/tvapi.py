@@ -160,6 +160,9 @@ class Api():
         self._user_name = ''
         self.refresh_tokens()
 
+    def log(self, object, level=0):
+        pass
+
     def init_sqlite_db(self):
         if not (self.cachePath/'requests_cleaned').exists():
             if (self.cachePath/'requests.cache.sqlite').exists():
@@ -270,6 +273,7 @@ class Api():
 
     def _request_get(self, url, params=None, headers=None, use_cache=True):
         if use_cache and self.caching:
+            self.log([url, params, headers])
             u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
         else:
             u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)

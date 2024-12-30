@@ -85,6 +85,7 @@ class DrDkTvAddon(object):
         self.fanart_image = str(resources_path/'fanart.jpg')
 
         self.api = tvapi.Api(self.cache_path, tr, get_setting)
+        self.api.log = log
 
         self.menuItems = list()
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
@@ -615,12 +616,15 @@ class DrDkTvAddon(object):
                     self.list_entries('/gensyn')
 
         except tvapi.ApiException as ex:
+            log(['API exception', query], level=1)
             self.displayError(str(ex))
 
         except IOError as ex:
+            log(['IO exception', query], level=1)
             self.displayIOError(str(ex))
 
         except Exception as ex:
+            log(['Exception', query], level=1)
             stack = traceback.format_exc()
             heading = 'drnu addon crash'
             xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), str(stack)]))
