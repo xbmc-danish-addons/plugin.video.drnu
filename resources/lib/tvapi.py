@@ -30,6 +30,7 @@ import time
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode, urlunparse
+import xbmc
 
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
@@ -161,7 +162,7 @@ class Api():
         self.refresh_tokens()
 
     def log(self, object, level=0):
-        pass
+        xbmc.log(str(object), level)
 
     def init_sqlite_db(self):
         if not (self.cachePath/'requests_cleaned').exists():
@@ -273,7 +274,7 @@ class Api():
 
     def _request_get(self, url, params=None, headers=None, use_cache=True):
         if use_cache and self.caching:
-            self.log([url, params, headers])
+            self.log([url, params, headers], level=1)
             u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
         else:
             u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
