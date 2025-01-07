@@ -29,9 +29,8 @@ import requests_cache
 import time
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
-from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode, urlunparse
+from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode
 import xbmc
-
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -52,15 +51,18 @@ def cache_path(path):
     return True
 
 
-def fix_query(url, remove={}, add={}):
-    o = list(urlparse(url))
-    qs = dict(parse_qsl(o[4]))
+def fix_query(url, remove={}, add={}, remove_keys=[]):
+    o = urlparse(url)
+    qs = dict(parse_qsl(o.query))
+    for k in remove_keys:
+        if k in qs:
+            del qs[k]
     for k,v in remove.items():
         if qs.get(k) == v:
             del qs[k]
     qs.update(add)
-    o[4] = urlencode(qs)
-    return urlunparse(o)
+    qs = dict(sorted(qs.items()))
+    return o._replace(query=urlencode(qs)).geturl()
 
 
 def full_login(user, password):
@@ -161,7 +163,8 @@ class Api():
         self._user_name = ''
         self.refresh_tokens()
 
-    def log(self, object, level=0):
+    def log(self, object, level=1):
+#        print(object)
         xbmc.log(str(object), level)
 
     def init_sqlite_db(self):
@@ -273,12 +276,23 @@ class Api():
         return self._profile_token
 
     def _request_get(self, url, params=None, headers=None, use_cache=True):
-        if use_cache and self.caching:
-            self.log([url, params, headers], level=1)
-            u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code == 200:
+        max_retries = 3
+        retry = 0
+        status = 0
+
+        while retry < max_retries and status != 200:
+            if retry > 0:
+                time.sleep(0.1)
+            if use_cache and self.caching:
+                u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
+                if u.from_cache is False:
+                    self.log(['DEBUG', url])
+            else:
+                u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
+            status = u.status_code
+            retry += 1
+
+        if status == 200:
             return u.json()
         else:
             raise ApiException(u.text)
@@ -300,7 +314,8 @@ class Api():
 
     def get_next(self, path, use_cache=True, headers=None):
         remove = {'sub':'Emergency'}
-        url = URL + fix_query(path, remove=remove)
+        remove_keys = ['lang', 'segments', 'isDeviceAbroad', 'isLive2VodSupported']
+        url = URL + fix_query(path, remove=remove, remove_keys=remove_keys)
         return self._request_get(url, headers=headers, use_cache=use_cache)
 
     def get_list(self, id, param, use_cache=True):
@@ -376,7 +391,7 @@ class Api():
         url = URL + '/account/profile'
         headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
         return self._request_get(url, headers=headers, use_cache=use_cache)
-    
+
     def kids_item(self, item):
         if 'classification' in item:
             if item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
@@ -455,7 +470,8 @@ class Api():
         for item in js['entries']:
             if item['type'] == 'ListEntry':
                 st2 = time.time()
-                self.unfold_list(item['list'])
+                for sub_item in self.unfold_list(item['list']):
+                    self.fix_item_description(sub_item)
                 msg = f"{self.tr(30523)}'{item['title']}'\n{time.time() - st2:.1f}s"
                 if progress is not None:
                     if progress.iscanceled():
@@ -581,13 +597,16 @@ class Api():
                 title += f" ({item['contextualTitle']})"
         return title
 
-    def set_info(self, item, tag, title):
+    def fix_item_description(self, item):
         if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
             resumetime_save = float(item.get('ResumeTime', 0.0))
             item = self.get_item(item['id'])
             if resumetime_save > 0:
                 item['ResumeTime'] = resumetime_save
+        return item
 
+    def set_info(self, item, tag, title):
+        item = self.fix_item_description(item)
         tag.setTitle(title)
         if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
             tag.setPlot(item['shortDescription'])
