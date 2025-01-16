@@ -30,6 +30,8 @@ import time
 from dateutil import parser
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
 import xbmc
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
@@ -41,7 +43,7 @@ CHANNEL_PRESET = {
     'DRTV Ekstra': 5
 }
 URL = 'https://production.dr-massive.com/api'
-GET_TIMEOUT = 5
+GET_TIMEOUT = 10
 
 
 def cache_path(path):
@@ -153,7 +155,10 @@ class Api():
         self.cleanup_every = int(get_setting('recache.cleanup'))
         self.expire_hours = int(get_setting('recache.expiration'))
         self.caching = get_setting('recache.enabled') == 'true'
+        self.fetch_full_plot = get_setting('fetch.full_plot') == 'true'
         self.expire_seconds = 3600*self.expire_hours if self.expire_hours >= 0 else None
+        retry = Retry(total=5, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
+        self.adapter = HTTPAdapter(max_retries=retry)
         self.init_sqlite_db()
 
         self.token_file = Path(f'{self.cachePath}/token.p')
@@ -174,6 +179,7 @@ class Api():
         request_fname = str(self.cachePath/'requests.cache')
         self.session = requests_cache.CachedSession(
             request_fname, backend='sqlite', expire_after=self.expire_seconds)
+        self.session.mount('https://', self.adapter)
 
         if (self.cachePath/'requests_cleaned').exists():
             if (time.time() - (self.cachePath/'requests_cleaned').stat().st_mtime)/3600/24 < self.cleanup_every:
@@ -188,6 +194,7 @@ class Api():
                 (self.cachePath/'requests.cache.sqlite').unlink()
             self.session = requests_cache.CachedSession(
                 request_fname, backend='sqlite', expire_after=self.expire_seconds)
+            self.session.mount('https://', self.adapter)
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
     def read_tokens(self, tokens):
@@ -276,23 +283,14 @@ class Api():
         return self._profile_token
 
     def _request_get(self, url, params=None, headers=None, use_cache=True):
-        max_retries = 3
-        retry = 0
-        status = 0
+        if use_cache and self.caching:
+            u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
+            if u.from_cache is False:
+                self.log(['DEBUG', url])
+        else:
+            u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
 
-        while retry < max_retries and status != 200:
-            if retry > 0:
-                time.sleep(0.1)
-            if use_cache and self.caching:
-                u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
-                if u.from_cache is False:
-                    self.log(['DEBUG', url])
-            else:
-                u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
-            status = u.status_code
-            retry += 1
-
-        if status == 200:
+        if u.status_code == 200:
             return u.json()
         else:
             raise ApiException(u.text)
@@ -405,9 +403,12 @@ class Api():
     def unfold_list(self, item, filter_kids=False, headers=None):
         items = item['items']
         if 'next' in item['paging']:
+            self.log(item['paging']['next'])
+            self.log([item['paging']['total'], item['paging']['page']])
             next_js = self.get_next(item['paging']['next'], headers=headers)
             items += next_js['items']
             while 'next' in next_js['paging']:
+                self.log([next_js['paging']['page']])
                 next_js = self.get_next(next_js['paging']['next'], headers=headers)
                 items += next_js['items']
         if filter_kids:
@@ -460,25 +461,29 @@ class Api():
         return channels
 
     def recache_items(self, progress=None, clear_expired=False):
+        self.log('start re-cache')
         if clear_expired:
             self.session.remove_expired_responses()
             (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
+            self.log('cleared cache...')
 
         js = self.get_programcard('/kategorier/a-aa')
         maxidx = len(js['entries']) + 3
+        self.log([f'{maxidx} entries', self.fetch_full_plot])
         i = 0
         for item in js['entries']:
             if item['type'] == 'ListEntry':
                 st2 = time.time()
                 for sub_item in self.unfold_list(item['list']):
-                    self.fix_item_description(sub_item)
+                    if self.fetch_full_plot:
+                        self.fix_item_description(sub_item)
                 msg = f"{self.tr(30523)}'{item['title']}'\n{time.time() - st2:.1f}s"
                 if progress is not None:
                     if progress.iscanceled():
                         return
                     progress.update(int(100*(i+1)/maxidx), msg)
             i += 1
-
+        self.log('fetching children universes...')
         for channel in ['dr-ramasjang', 'dr-minisjang', 'dr-ultra']:
             self.get_children_front_items(channel)
             msg = f"{self.tr(30523)}'{channel}'\n{time.time() - st2:.1f}s"
@@ -606,7 +611,8 @@ class Api():
         return item
 
     def set_info(self, item, tag, title):
-        item = self.fix_item_description(item)
+        if self.fetch_full_plot:
+            item = self.fix_item_description(item)
         tag.setTitle(title)
         if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
             tag.setPlot(item['shortDescription'])
