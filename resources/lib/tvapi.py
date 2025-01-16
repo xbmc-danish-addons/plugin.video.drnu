@@ -486,6 +486,10 @@ class Api():
                 self.progress_prc = int(100 * (i + 1) / maxidx)
                 for sub_item in self.unfold_list(item['list'], progress=progress):
                     if self.fetch_full_plot:
+                        if progress is not None:
+                            if progress.iscanceled():
+                                return
+                            progress.update(self.progress_prc, self.msg + 'updating descriptions...')
                         self.fix_item_description(sub_item)
             i += 1
         self.log('fetching children universes...')
