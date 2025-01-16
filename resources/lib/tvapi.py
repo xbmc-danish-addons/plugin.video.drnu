@@ -405,8 +405,8 @@ class Api():
         if 'next' in item['paging']:
             if progress is not None:
                 if progress.iscanceled():
-                    return
-                progress.update(self.progress_prc, self.msg + f"{item['paging']['page']} of {item['paging']['total']}")
+                    return items
+                progress.update(self.progress_prc, self.msg + f"page {item['paging']['page']} of {item['paging']['total']}")
 
             self.log(item['paging']['next'])
             self.log([item['paging']['total'], item['paging']['page']])
@@ -416,8 +416,8 @@ class Api():
                 self.log([next_js['paging']['page']])
                 if progress is not None:
                     if progress.iscanceled():
-                        return
-                    progress.update(self.progress_prc, self.msg + f"{next_js['paging']['page']} of {next_js['paging']['total']}")
+                        return items
+                    progress.update(self.progress_prc, self.msg + f"page {next_js['paging']['page']} of {next_js['paging']['total']}")
                 next_js = self.get_next(next_js['paging']['next'], headers=headers)
                 items += next_js['items']
         if filter_kids:
@@ -482,17 +482,11 @@ class Api():
         i = 0
         for item in js['entries']:
             if item['type'] == 'ListEntry':
-                st2 = time.time()
                 self.msg = f"{self.tr(30523)}'{item['title']}'\n"
                 self.progress_prc = int(100 * (i + 1) / maxidx)
                 for sub_item in self.unfold_list(item['list'], progress=progress):
                     if self.fetch_full_plot:
                         self.fix_item_description(sub_item)
-                # msg = f"{self.tr(30523)}'{item['title']}'\n{time.time() - st2:.1f}s"
-                # if progress is not None:
-                #     if progress.iscanceled():
-                #         return
-                #     progress.update(int(100*(i+1)/maxidx), sef.msg + )
             i += 1
         self.log('fetching children universes...')
         for channel in ['dr-ramasjang', 'dr-minisjang', 'dr-ultra']:
