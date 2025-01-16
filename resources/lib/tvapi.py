@@ -285,8 +285,8 @@ class Api():
     def _request_get(self, url, params=None, headers=None, use_cache=True):
         if use_cache and self.caching:
             u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
-            if u.from_cache is False:
-                self.log(['DEBUG', url])
+#            if u.from_cache is False:
+#                self.log(['DEBUG', url])
         else:
             u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
 
