@@ -406,7 +406,7 @@ class Api():
             if progress is not None:
                 if progress.iscanceled():
                     return
-                progress.update(self.progress_prc, sef.msg + f"{item['paging']['page']} of {item['paging']['total']}")
+                progress.update(self.progress_prc, self.msg + f"{item['paging']['page']} of {item['paging']['total']}")
 
             self.log(item['paging']['next'])
             self.log([item['paging']['total'], item['paging']['page']])
@@ -417,7 +417,7 @@ class Api():
                 if progress is not None:
                     if progress.iscanceled():
                         return
-                    progress.update(self.progress_prc, sef.msg + f"{next_js['paging']['page']} of {next_js['paging']['total']}")
+                    progress.update(self.progress_prc, self.msg + f"{next_js['paging']['page']} of {next_js['paging']['total']}")
                 next_js = self.get_next(next_js['paging']['next'], headers=headers)
                 items += next_js['items']
         if filter_kids:
