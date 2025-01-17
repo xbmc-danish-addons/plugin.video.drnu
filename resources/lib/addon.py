@@ -70,7 +70,7 @@ def kodi_version_major():
 
 
 def version(s):
-    return [int(item) for item in s.split('.')]
+    return [int(item) for item in s.split('-')[0].split('.')]
 
 
 class DrDkTvAddon(object):
