@@ -494,12 +494,12 @@ class Api():
             i += 1
         self.log('fetching children universes...')
         for channel in ['dr-ramasjang', 'dr-minisjang', 'dr-ultra']:
-            self.get_children_front_items(channel)
-            msg = f"{self.tr(30523)}'{channel}'\n{time.time() - st2:.1f}s"
+            msg = f"{self.tr(30523)}'{channel}'\n"
             if progress is not None:
                 if progress.iscanceled():
                     return
                 progress.update(int(100*(i+1)/maxidx), msg)
+            self.get_children_front_items(channel)
             i += 1
 
     def get_children_front_items(self, channel):
