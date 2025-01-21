@@ -168,7 +168,7 @@ class Api():
         self._user_name = ''
         self.refresh_tokens()
 
-    def log(self, object, level=1):
+    def log(self, object, level=0):
 #        print(object)
         xbmc.log(str(object), level)
 
@@ -285,8 +285,6 @@ class Api():
     def _request_get(self, url, params=None, headers=None, use_cache=True):
         if use_cache and self.caching:
             u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
-#            if u.from_cache is False:
-#                self.log(['DEBUG', url])
         else:
             u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
 
@@ -408,12 +406,9 @@ class Api():
                     return items
                 progress.update(self.progress_prc, self.msg + f"page {item['paging']['page']} of {item['paging']['total']}")
 
-            self.log(item['paging']['next'])
-            self.log([item['paging']['total'], item['paging']['page']])
             next_js = self.get_next(item['paging']['next'], headers=headers)
             items += next_js['items']
             while 'next' in next_js['paging']:
-                self.log([next_js['paging']['page']])
                 if progress is not None:
                     if progress.iscanceled():
                         return items
@@ -470,15 +465,12 @@ class Api():
         return channels
 
     def recache_items(self, progress=None, clear_expired=False):
-        self.log('start re-cache')
         if clear_expired:
             self.session.remove_expired_responses()
             (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
-            self.log('cleared cache...')
 
         js = self.get_programcard('/kategorier/a-aa')
         maxidx = len(js['entries']) + 3
-        self.log([f'{maxidx} entries', self.fetch_full_plot])
         i = 0
         for item in js['entries']:
             if item['type'] == 'ListEntry':
@@ -492,7 +484,6 @@ class Api():
                             progress.update(self.progress_prc, self.msg + 'updating descriptions...')
                         self.fix_item_description(sub_item)
             i += 1
-        self.log('fetching children universes...')
         for channel in ['dr-ramasjang', 'dr-minisjang', 'dr-ultra']:
             msg = f"{self.tr(30523)}'{channel}'\n"
             if progress is not None:
