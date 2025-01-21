@@ -32,7 +32,6 @@ from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
-import xbmc
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -167,10 +166,6 @@ class Api():
         self.password = get_setting('drtv_password')
         self._user_name = ''
         self.refresh_tokens()
-
-    def log(self, object, level=0):
-#        print(object)
-        xbmc.log(str(object), level)
 
     def init_sqlite_db(self):
         if not (self.cachePath/'requests_cleaned').exists():

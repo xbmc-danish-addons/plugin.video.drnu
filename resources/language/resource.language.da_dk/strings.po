@@ -299,5 +299,5 @@ msgid "https://github.com/xbmc-danish-addons/plugin.video.drnu/issues"
 msgstr "https://github.com/xbmc-danish-addons/plugin.video.drnu/issues"
 
 msgctxt "#30908"
-msgid "Hent fuld beskrivelse"
+msgid "Hent fuld beskrivelse af episoder"
 msgstr ""
