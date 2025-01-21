@@ -148,7 +148,7 @@ def test_a_aa(capsys):
 
         handle.route(a_aa[0]['url'])
         a = [iteminfo(item) for item in get_items().values()]
-        myEqual(len(a), 102)
+        myEqual(len(a), 116)
 
         myEqual(a[0]['label'], 'A Storm Foretold - det amerikanske oprør')
 #        handle.route(a[0]['url']) # test playing
