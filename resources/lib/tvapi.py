@@ -156,7 +156,7 @@ class Api():
         self.caching = get_setting('recache.enabled') == 'true'
         self.fetch_full_plot = get_setting('fetch.full_plot') == 'true'
         self.expire_seconds = 3600*self.expire_hours if self.expire_hours >= 0 else None
-        retry = Retry(total=5, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
+        retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
         self.adapter = HTTPAdapter(max_retries=retry)
         self.init_sqlite_db()
 
