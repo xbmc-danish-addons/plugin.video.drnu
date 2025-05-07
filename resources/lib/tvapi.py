@@ -41,7 +41,8 @@ CHANNEL_PRESET = {
     'DRTV': 4,
     'DRTV Ekstra': 5
 }
-URL = 'https://production.dr-massive.com/api'
+URL1 = 'https://production.dr-massive.com/api'
+URL = 'https://prod95.dr-massive.com/api'
 GET_TIMEOUT = 10
 
 
@@ -68,66 +69,63 @@ def fix_query(url, remove={}, add={}, remove_keys=[]):
 
 def full_login(user, password):
     ses = requests.Session()
-    # start login flow
-    params = {
-        'clientRedirectUrl':'https://www.dr.dk/drtv/callback',
-        'signUp': 'false', 'localPath':'/', 'optout':'false', 'device':'web_browser'}
-    headers = {
-        'authority': 'production.dr-massive.com',
-        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
-    }
-    url = URL + '/authorization?'
-    res = ses.get(url, params=params, headers=headers, allow_redirects=True)
 
+    # start login flow
+    res = ses.get('https://www.dr.dk/auth/drlogin/login')
     if res.status_code != 200:
         return {'status_code': res.status_code, 'error': res.text}
-    client_id = parse_qs(urlparse(res.history[1].url).query)['client_id'][0]
-    referer = res.history[2].headers['Location']
-    state = parse_qs(urlparse(referer).query)['state'][0]
 
-    # post credentials
+    trans = urlparse(res.url).path.split('/')[-1]
+    referer = res.url
     headers = {
-        'authority': 'api.dr.dk',
         'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
         'content-type': 'application/json',
+        'Referer': referer,
     }
-    
-    url = 'https://api.dr.dk/login/graphql'
-    data = {"operationName":"InitializeLoginTransaction","variables":{"input":{"state":state,"clientID":client_id}}, "query":"mutation InitializeLoginTransaction($input: InitializeLoginTransactionInput!) {\n  initializeLoginTransaction(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}  # noqa: E501
 
-    u = ses.post(url, data=json.dumps(data), headers=headers)
-    print(1, u.status_code)
-    if u.status_code != 200:
-        return {'status_code': u.status_code, 'error': u.text}
-    transaction_id = u.json()['data']['initializeLoginTransaction']['id']
+    transaction_fragment = "fragment useTransactionTransactionFragment on Transaction { ... on AuthenticatedAuthenticationTransaction { id email registration href __typename } ... on UnauthenticatedAuthenticationTransaction { id email __typename } ... on UnverifiedAuthenticationTransaction { id email name __typename } ... on UnrecognizedAuthenticationTransaction { id email statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } __typename } ... on UnidentifiedAuthenticationTransaction { id __typename } ... on CompletedEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on PendingEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on CompletedPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingDeletionConfirmationTransaction { id __typename } ... on CompletedDeletionConfirmationTransaction { id __typename } ... on SettingsTransaction { id identity { id email name roles __typename } statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } statisticsConsentRevision { id status definition createdAt __typename } preferencesConsentRevision { id status definition createdAt __typename } newsletterConsentRevision { id status definition createdAt __typename } referBackUri referBackName sessionState expiresAt __typename } ... on PendingEUPTransaction { id href __typename } ... on CompletedEUPTransaction { id __typename } __typename }"
     
-    data = {"operationName":"Identify","variables":{"input":{"transaction":transaction_id,"email":user}},"query":"mutation Identify($input: IdentificationInput\u0021) {\n  identify(input: $input) {\n    id\n    isValid\n    isIdentified\n    captcha {\n      image\n      __typename\n    }\n    proofOfWork {\n      salt\n      difficulty\n      __typename\n    }\n    __typename\n  }\n}"}  # noqa: E501
-    u2 = ses.post(url, data=json.dumps(data), headers=headers)
-    print(2, u2.status_code)
-    if u2.status_code != 200:
-        return {'status_code': u2.status_code, 'error': u2.text}
+    trans_query = "query useTransactionTransactionQuery($id: ID!) { transaction(id: $id) { ... on Node { id __typename } ...useTransactionTransactionFragment  __typename } }" + transaction_fragment
+    identify_query = "mutation useTransactionIdentificationMutation($input: IdentificationInput!) { identify(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment
+    authenticate_query = "mutation useTransactionAuthenticationMutation($input: AuthenticationInput!) { authenticate(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment
     
-    data={"variables":{"input":{"email":user,"password":password,"state":state}},"query":"mutation ($input: LoginInput!) {\n  token: login(input: $input)\n}"}   # noqa: E501
-    u3 = ses.post(url, data=json.dumps(data), headers=headers)
-    print(3, u3.status_code)
-    if u3.status_code != 200:
-        return {'status_code': u3.status_code, 'error': u3.text}
-    data = u3.json()['data']
-
-    # post login to tokens
-    headers = {
-        'authority': 'login.dr.dk',
-        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
-        'content-type': 'application/x-www-form-urlencoded',
+    trans_data = {
+        "operationName": "useTransactionTransactionQuery",
+        "variables": {"id": trans}, "query": trans_query
     }
-    
-    url = 'https://login.dr.dk/oidc/interactions/login/continue'
-    res = ses.post(url, data=data, headers=headers, allow_redirects=True)
-    if res.status_code != 200:
-        return {'status_code': res.status_code, 'error': res.text}
-    o = parse_qs(urlparse(res.url).fragment)
-    tokens = [o[label][0] for label in ['RefreshableUserAccount', 'RefreshableUserProfile']]
-    return tokens
+    identify_data = {
+        "operationName": "useTransactionIdentificationMutation",
+        "variables": {"input": {"transaction": trans, "email": user }}, "query": identify_query
+    }
+    authenticate_data = {
+        "operationName": "useTransactionAuthenticationMutation",
+        "variables": {"input": {"transaction": trans, "password": password }}, "query": authenticate_query
+    }
+
+    url = 'https://login.dr.dk/graphql'
+
+    u1 = ses.post(url, json=trans_data, headers=headers)
+    print(u1.json())
+    u2 = ses.post(url, json=identify_data, headers=headers)
+    print(u2.json())
+
+    u3 = ses.post(url, json=authenticate_data, headers=headers)
+    print(u3.json())
+
+    res2 = ses.get(u3.json()['data']['authenticate']['href'])
+    data = {}
+    match = re.search(r'postMessage\((\{.*?\})\s*,', res2.text, re.DOTALL)
+    if match:
+        data = json.loads(match.group(1))
+    payload = {"deviceId": data['details']['client_id'], "scopes": ["Catalog"], "optout": True}
+    url = "https://prod95.dr-massive.com/api/authorization/anonymous-sso"
+    url = URL + "/authorization/anonymous-sso"
+
+    params = {"device": "web_browser", "ff": "idp,ldp,rpt", "lang": "da", "supportFallbackToken": "true"}
+    res3 = ses.post(url, json=payload, params=params, headers=headers)
+    if res3.status_code != 200:
+        return {'status_code': res3.status_code, 'error': res3.text}
+    return res3.json()
 
 
 def deviceid():
@@ -212,11 +210,11 @@ class Api():
         self._profile_token = None
 
         if self.user:
-            tokens_pure = full_login(self.user, self.password)
-            if isinstance(tokens_pure, dict):
-                err = tokens_pure['error']
+            tokens = full_login(self.user, self.password)
+            if isinstance(tokens, dict):
+                err = tokens['error']
                 return err
-            tokens = [self.refresh_token(t) for t in tokens_pure]
+#            tokens = [self.refresh_token(t) for t in tokens_pure]
             self.read_tokens(tokens)
         else:
             tokens = anonymous_tokens()
@@ -226,7 +224,7 @@ class Api():
         return None
 
     def refresh_token(self, token):
-        url = 'https://production.dr-massive.com/api/authorization/refresh'
+        url = URL + '/authorization/refresh'
         params = {'ff':'idp,ldp,rpt', 'supportFallbackToken': True}
         headers = {
             'Host': 'production.dr-massive.com',
@@ -378,10 +376,12 @@ class Api():
             item['ResumeTime'] = float(watched.get(str(item['id']), {'position':0.0})['position'])
         return items
 
-    def get_profile(self, use_cache=False):
+    def get_profile(self, use_cache=True):
         url = URL + '/account/profile'
         headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
-        return self._request_get(url, headers=headers, use_cache=use_cache)
+        params = {"ff": "idp,ldp,rpt", "lang": "da"}
+        return self.session.get(url, headers=headers, params=params).json()
+#        return self._request_get(url, headers=headers, params=params, use_cache=use_cache)
 
     def kids_item(self, item):
         if 'classification' in item:
