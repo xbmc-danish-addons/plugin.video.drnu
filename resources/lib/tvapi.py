@@ -41,7 +41,7 @@ CHANNEL_PRESET = {
     'DR1': 1,
     'DR2': 2,
     'DR Ramasjang': 3,
-    'DRTV': 4,
+    'TVA Live': 4,
     'DRTV Ekstra': 5
 }
 URL1 = 'https://production.dr-massive.com/api'
@@ -296,7 +296,7 @@ class Api():
             if self.token_file.exists():
                 with self.token_file.open('rb') as fh:
                     [tokens, self.access_tokens] = pickle.load(fh)
-                    if isinstance(tokens, list)
+                    if isinstance(tokens, list):
                         self.read_tokens(tokens)
 
         if self._user_token is None:
