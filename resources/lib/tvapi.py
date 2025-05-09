@@ -43,8 +43,8 @@ CHANNEL_PRESET = {
     'TVA Live': 4,
     'DRTV Ekstra': 5
 }
-URL1 = 'https://production.dr-massive.com/api'
-URL = 'https://prod95.dr-massive.com/api'
+URL = 'https://production.dr-massive.com/api'
+URL2 = 'https://prod95.dr-massive.com/api'
 CLIENT_ID = "283ba39a2cf31d3b81e922b8"
 GET_TIMEOUT = 10
 
@@ -166,7 +166,7 @@ def exchange_token(tokens):
     }
     
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
-    res = requests.post('https://prod95.dr-massive.com/api/authorization/exchange', json=data, headers=headers)
+    res = requests.post(URL + '/authorization/exchange', json=data, headers=headers)
     if res.status_code != 200:
         return {'status_code': res.status_code, 'error': res.text}
     return res.json()
