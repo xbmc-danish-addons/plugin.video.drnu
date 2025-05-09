@@ -32,6 +32,9 @@ from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
+import secrets
+import hashlib
+import base64
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -43,6 +46,7 @@ CHANNEL_PRESET = {
 }
 URL1 = 'https://production.dr-massive.com/api'
 URL = 'https://prod95.dr-massive.com/api'
+CLIENT_ID = "283ba39a2cf31d3b81e922b8"
 GET_TIMEOUT = 10
 
 
@@ -67,21 +71,39 @@ def fix_query(url, remove={}, add={}, remove_keys=[]):
     return o._replace(query=urlencode(qs)).geturl()
 
 
+def generate_code_verifier(length: int = 64) -> str:
+    # Generate a secure random string (length between 43 and 128 chars)
+    return secrets.token_urlsafe(length)[:length]
+
+
+def generate_code_challenge(code_verifier: str) -> str:
+    # SHA256 hash of the verifier, then base64-url encode without padding
+    sha256 = hashlib.sha256(code_verifier.encode()).digest()
+    return base64.urlsafe_b64encode(sha256).decode().rstrip('=')
+
+
 def full_login(user, password):
     ses = requests.Session()
 
     # start login flow
-    res = ses.get('https://www.dr.dk/auth/drlogin/login')
+    code_verifier = generate_code_verifier()
+    code_challenge = generate_code_challenge(code_verifier)
+    
+    params = {
+        "client_id": CLIENT_ID,
+        "code_challenge": code_challenge,
+        "code_challenge_method": "S256",
+        "redirect_uri": "https://www.dr.dk/drtv/callback",
+        "state": f'{{"code_verifier":"{code_verifier}","logonRedirectPath":"/","optout":false}}',
+        "response_type": "code",
+        "scope": "openid roles tracking profile email offline_access"
+    }
+    res = ses.get('https://login.dr.dk/oidc/authorize', params=params)
     if res.status_code != 200:
         return {'status_code': res.status_code, 'error': res.text}
 
     trans = urlparse(res.url).path.split('/')[-1]
-    referer = res.url
-    headers = {
-        'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
-        'content-type': 'application/json',
-        'Referer': referer,
-    }
+    headers = {'content-type': 'application/json'}
 
     transaction_fragment = "fragment useTransactionTransactionFragment on Transaction { ... on AuthenticatedAuthenticationTransaction { id email registration href __typename } ... on UnauthenticatedAuthenticationTransaction { id email __typename } ... on UnverifiedAuthenticationTransaction { id email name __typename } ... on UnrecognizedAuthenticationTransaction { id email statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } __typename } ... on UnidentifiedAuthenticationTransaction { id __typename } ... on CompletedEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on PendingEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on CompletedPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingDeletionConfirmationTransaction { id __typename } ... on CompletedDeletionConfirmationTransaction { id __typename } ... on SettingsTransaction { id identity { id email name roles __typename } statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } statisticsConsentRevision { id status definition createdAt __typename } preferencesConsentRevision { id status definition createdAt __typename } newsletterConsentRevision { id status definition createdAt __typename } referBackUri referBackName sessionState expiresAt __typename } ... on PendingEUPTransaction { id href __typename } ... on CompletedEUPTransaction { id __typename } __typename }"
     
@@ -113,19 +135,43 @@ def full_login(user, password):
     print(u3.json())
 
     res2 = ses.get(u3.json()['data']['authenticate']['href'])
-    data = {}
-    match = re.search(r'postMessage\((\{.*?\})\s*,', res2.text, re.DOTALL)
-    if match:
-        data = json.loads(match.group(1))
-    payload = {"deviceId": data['details']['client_id'], "scopes": ["Catalog"], "optout": True}
-    url = "https://prod95.dr-massive.com/api/authorization/anonymous-sso"
-    url = URL + "/authorization/anonymous-sso"
+    if res2.status_code != 200:
+        return {'status_code': res2.status_code, 'error': res2.text}
+    code = parse_qs(urlparse(res2.url).query)['code'][0]
 
-    params = {"device": "web_browser", "ff": "idp,ldp,rpt", "lang": "da", "supportFallbackToken": "true"}
-    res3 = ses.post(url, json=payload, params=params, headers=headers)
-    if res3.status_code != 200:
-        return {'status_code': res3.status_code, 'error': res3.text}
-    return res3.json()
+    data = {
+        "client_id": CLIENT_ID,
+        "redirect_uri": "https://www.dr.dk/drtv/callback",
+        "code_verifier": code_verifier, "code": code,
+        "grant_type": "authorization_code",
+    }
+    return oidc_token(data)
+
+
+def oidc_token(data):
+    headers = {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"}
+    res = requests.post('https://login.dr.dk/oidc/token', data=data, headers=headers)
+    if res.status_code != 200:
+        return {'status_code': res.status_code, 'error': res.text}
+    return res.json()
+
+
+def refresh_token(refresh_token):
+    data = {"client_id": CLIENT_ID, "refresh_token": refresh_token, "grant_type": "refresh_token"}
+    return oidc_token(data)
+
+
+def exchange_token(tokens):
+    data = {
+        "accessToken": tokens['access_token'], "identityToken": tokens['id_token'],
+        "scopes": ["Catalog"], "device": "web_browser", "optout": False,
+    }
+    
+    headers = {"Content-Type": "application/json", "Accept": "application/json"}
+    res = requests.post('https://prod95.dr-massive.com/api/authorization/exchange', json=data, headers=headers)
+    if res.status_code != 200:
+        return {'status_code': res.status_code, 'error': res.text}
+    return res.json()
 
 
 def deviceid():
@@ -159,6 +205,7 @@ class Api():
         self.init_sqlite_db()
 
         self.token_file = Path(f'{self.cachePath}/token.p')
+        self.access_tokens = {}
         self._user_token = None
         self.user = get_setting('drtv_username')
         self.password = get_setting('drtv_password')
@@ -191,36 +238,41 @@ class Api():
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
     def read_tokens(self, tokens):
-        time_str = tokens[0]['expirationDate'].split('.')[0]
+        if 'value' in tokens[0]:
+            #old flow, anonymous
+            time_str = tokens[0]['expirationDate'].split('.')[0]
+            self._user_token = tokens[0]['value']
+            self._profile_token = tokens[1]['value']
+            self._user_name = 'anonymous'
+        else:
+            time_str = tokens[0]['Expires'].split('.')[0]
+            self._user_token = tokens[0]['Token']
+            self._profile_token = tokens[1]['Token']
+
         try:
             self._token_expire = datetime.strptime(time_str + 'Z', '%Y-%m-%dT%H:%M:%S%z')
         except Exception:
             time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
-        self._user_token = tokens[0]['value']
-        self._profile_token = tokens[1]['value']
-        if self.user:
-            tokens[0]['name'] = self.get_profile()['name']
-        else:
-            tokens[0]['name'] = 'anonymous'
-        self._user_name = tokens[0]['name']
+        if self.access_tokens:
+            self._user_name = self.get_profile()['name']
 
     def request_tokens(self):
         self._user_token = None
         self._profile_token = None
 
         if self.user:
-            tokens = full_login(self.user, self.password)
-            if isinstance(tokens, dict):
-                err = tokens['error']
+            access_tokens = full_login(self.user, self.password)
+            if 'error' in access_tokens:
+                err = access_tokens['error']
                 return err
-#            tokens = [self.refresh_token(t) for t in tokens_pure]
-            self.read_tokens(tokens)
+            self.access_tokens = access_tokens
+            tokens = exchange_token(access_tokens)
         else:
             tokens = anonymous_tokens()
-            self.read_tokens(tokens)
+        self.read_tokens(tokens)
         with self.token_file.open('wb') as fh:
-            pickle.dump(tokens, fh)
+            pickle.dump([tokens, self.access_tokens], fh)
         return None
 
     def refresh_token(self, token):
@@ -243,20 +295,33 @@ class Api():
         if self._user_token is None:
             if self.token_file.exists():
                 with self.token_file.open('rb') as fh:
-                    self.read_tokens(pickle.load(fh))
-            else:
-                err = self.request_tokens()
-                if err:
-                    raise ApiException(f'Login failed with: "{err}"')
-                return
+                    [tokens, self.access_tokens] = pickle.load(fh)
+                    if isinstance(tokens, list)
+                        self.read_tokens(tokens)
+
+        if self._user_token is None:
+            err = self.request_tokens()
+            if err:
+                raise ApiException(f'Login failed with: "{err}"')
+            return
         if (self._token_expire - datetime.now(timezone.utc)).total_seconds() < 120:
             failed_refresh = False
             tokens = []
-            for t in [self._user_token, self._profile_token]:
-                newtoken = self.refresh_token(t)
-                tokens.append(newtoken)
-                if 'error' in newtoken:
+            if self.access_tokens:
+                # oidc flow
+                access_tokens = refresh_token(self.access_tokens['refresh_token'])
+                if 'error' in access_tokens:
                     failed_refresh = True
+                else:
+                    tokens = exchange_token(access_tokens)
+                    self.access_tokens = access_tokens
+            else:
+                # old flow
+                for t in [self._user_token, self._profile_token]:
+                    newtoken = self.refresh_token(t)
+                    tokens.append(newtoken)
+                    if 'error' in newtoken:
+                        failed_refresh = True
             if failed_refresh:
                 self.request_tokens()
                 err = self.request_tokens()
@@ -265,7 +330,7 @@ class Api():
             else:
                 self.read_tokens(tokens)
                 with self.token_file.open('wb') as fh:
-                    pickle.dump(tokens, fh)
+                    pickle.dump([tokens, self.access_tokens], fh)
 
     def user_token(self):
         self.refresh_tokens()
@@ -376,12 +441,11 @@ class Api():
             item['ResumeTime'] = float(watched.get(str(item['id']), {'position':0.0})['position'])
         return items
 
-    def get_profile(self, use_cache=True):
+    def get_profile(self, use_cache=False):
         url = URL + '/account/profile'
         headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
         params = {"ff": "idp,ldp,rpt", "lang": "da"}
-        return self.session.get(url, headers=headers, params=params).json()
-#        return self._request_get(url, headers=headers, params=params, use_cache=use_cache)
+        return self._request_get(url, headers=headers, params=params, use_cache=use_cache)
 
     def kids_item(self, item):
         if 'classification' in item:
