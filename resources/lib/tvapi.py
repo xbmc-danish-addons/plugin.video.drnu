@@ -273,22 +273,6 @@ class Api():
             pickle.dump([tokens, self.access_tokens], fh)
         return None
 
-    def refresh_token(self, token):
-        url = URL + '/authorization/refresh'
-        params = {'ff':'idp,ldp,rpt', 'supportFallbackToken': True}
-        headers = {
-            'Host': 'production.dr-massive.com',
-            'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
-            'content-type': 'application/json',
-        }
-        data = {
-            'token': token, 'optout': False
-        }
-        res = self.session.post(url, params=params, headers=headers, json=data)
-        if res.status_code != 200:
-            return {'status_code': res.status_code, 'error': res.text}
-        return res.json()
-
     def refresh_tokens(self):
         if self._user_token is None:
             if self.token_file.exists():
@@ -302,24 +286,18 @@ class Api():
             if err:
                 raise ApiException(f'Login failed with: "{err}"')
             return
-        if (self._token_expire - datetime.now(timezone.utc)).total_seconds() < 120:
+
+        if (self._token_expire - datetime.now(timezone.utc)) < timedelta(hours=10):
             failed_refresh = False
             tokens = []
-            if self.access_tokens:
-                # oidc flow
-                access_tokens = refresh_token(self.access_tokens['refresh_token'])
-                if 'error' in access_tokens:
-                    failed_refresh = True
-                else:
-                    tokens = exchange_token(access_tokens)
-                    self.access_tokens = access_tokens
+            # oidc flow
+            access_tokens = refresh_token(self.access_tokens['refresh_token'])
+            if 'error' in access_tokens:
+                failed_refresh = True
             else:
-                # old flow
-                for t in [self._user_token, self._profile_token]:
-                    newtoken = self.refresh_token(t)
-                    tokens.append(newtoken)
-                    if 'error' in newtoken:
-                        failed_refresh = True
+                tokens = exchange_token(access_tokens)
+                self.access_tokens = access_tokens
+
             if failed_refresh:
                 self.request_tokens()
                 err = self.request_tokens()
