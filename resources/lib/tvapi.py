@@ -267,6 +267,7 @@ class Api():
             self.access_tokens = access_tokens
             tokens = exchange_token(access_tokens)
         else:
+            self.access_tokens = {}
             tokens = anonymous_tokens()
         self.read_tokens(tokens)
         with self.token_file.open('wb') as fh:
@@ -290,16 +291,19 @@ class Api():
         if (self._token_expire - datetime.now(timezone.utc)) < timedelta(hours=10):
             failed_refresh = False
             tokens = []
-            # oidc flow
-            access_tokens = refresh_token(self.access_tokens['refresh_token'])
-            if 'error' in access_tokens:
-                failed_refresh = True
+            if self.user:
+                # oidc flow
+                access_tokens = refresh_token(self.access_tokens['refresh_token'])
+                if 'error' in access_tokens:
+                    failed_refresh = True
+                else:
+                    tokens = exchange_token(access_tokens)
+                    self.access_tokens = access_tokens
             else:
-                tokens = exchange_token(access_tokens)
-                self.access_tokens = access_tokens
+                #old flow, anonymous
+                failed_refresh = True
 
             if failed_refresh:
-                self.request_tokens()
                 err = self.request_tokens()
                 if err:
                     raise ApiException(f'Login failed with: "{err}"')
