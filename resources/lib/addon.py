@@ -196,15 +196,15 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
-        if self.api._user_name != 'anonymous':
+        if self.api.user_name != 'anonymous':
             # Mylist
-            item = xbmcgui.ListItem(f'{tr(30004)} ({self.api._user_name})', offscreen=True)
+            item = xbmcgui.ListItem(f'{tr(30004)} ({self.api.user_name})', offscreen=True)
             item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=mylist', item, True))
 
             # Continue watching
-            item = xbmcgui.ListItem(f'{tr(30003)} ({self.api._user_name})', offscreen=True)
+            item = xbmcgui.ListItem(f'{tr(30003)} ({self.api.user_name})', offscreen=True)
             item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=continue', item, True))
@@ -514,7 +514,7 @@ class DrDkTvAddon(object):
             if err:
                 xbmcgui.Dialog().ok(tr(30306), tr(30307))
             else:
-                xbmcgui.Dialog().ok(tr(30303), tr(30304) + f'"{self.api._user_name}"')
+                xbmcgui.Dialog().ok(tr(30303), tr(30304) + f'"{self.api.user_name}"')
                 self.resfresh_ui()
         else:
             if err:

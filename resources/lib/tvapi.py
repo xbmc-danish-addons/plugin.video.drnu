@@ -34,6 +34,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 import secrets
 import base64
+import xbmc
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -235,6 +236,12 @@ class Api():
             self.session.mount('https://', self.adapter)
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
+    @property
+    def user_name(self):
+        if self._user_name == '':
+            self._user_name = self.get_profile()['name']
+        return self._user_name
+
     def read_tokens(self, tokens):
         if 'value' in tokens[0]:
             #old flow, anonymous
@@ -252,8 +259,6 @@ class Api():
         except Exception:
             time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
-        if self.access_tokens:
-            self._user_name = self.get_profile()['name']
 
     def request_tokens(self):
         self._user_token = None
@@ -296,19 +301,23 @@ class Api():
                 access_tokens = refresh_token(self.access_tokens['refresh_token'])
                 if 'error' in access_tokens:
                     failed_refresh = True
+                    self.access_tokens = {}
                 else:
                     tokens = exchange_token(access_tokens)
                     self.access_tokens = access_tokens
+                    xbmc.log(f'Refreshed token', 1)
             else:
                 #old flow, anonymous
                 failed_refresh = True
 
             if failed_refresh:
                 err = self.request_tokens()
+                xbmc.log(f'Requesting new tokens: {self._token_expire}', 1)
                 if err:
                     raise ApiException(f'Login failed with: "{err}"')
             else:
                 self.read_tokens(tokens)
+                xbmc.log(f'token expire: {self._token_expire}', 1)
                 with self.token_file.open('wb') as fh:
                     pickle.dump([tokens, self.access_tokens], fh)
 
