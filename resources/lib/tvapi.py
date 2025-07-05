@@ -296,7 +296,7 @@ class Api():
         if (self._token_expire - datetime.now(timezone.utc)) < timedelta(hours=10):
             failed_refresh = False
             tokens = []
-            if self.user:
+            if self.user and 'refresh_token' in self.access_tokens:
                 # oidc flow
                 access_tokens = refresh_token(self.access_tokens['refresh_token'])
                 if 'error' in access_tokens:
