@@ -205,10 +205,14 @@ class Api():
         self.token_file = Path(f'{self.cachePath}/token.p')
         self.access_tokens = {}
         self._user_token = None
-        self.user = get_setting('drtv_username')
-        self.password = get_setting('drtv_password')
-        self._user_name = ''
+        self.get_setting = get_setting
+        self._refresh_settings()
         self.refresh_tokens()
+
+    def _refresh_settings(self):
+        self.user = self.get_setting('drtv_username')
+        self.password = self.get_setting('drtv_password')
+        self._user_name = ''
 
     def init_sqlite_db(self):
         if not (self.cachePath/'requests_cleaned').exists():

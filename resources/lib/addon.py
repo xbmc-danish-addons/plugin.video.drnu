@@ -509,8 +509,7 @@ class DrDkTvAddon(object):
         xbmc.executebuiltin(f'Container.Update({self._plugin_url + params})')
 
     def login(self):
-        self.api.user = get_setting('drtv_username')
-        self.api.password = get_setting('drtv_password')
+        self.api._refresh_settings()
         err = self.api.request_tokens()
         if self.api.user:
             if err:
