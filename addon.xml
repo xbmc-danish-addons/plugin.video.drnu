@@ -32,7 +32,7 @@
             <screenshot>resources/media/Screenshot4.jpg</screenshot>
        </assets>
        <news>[B]Version 6.6.1 - 2025-06-15[/B]
-        - Fix crash of refresh of anonymous tokens
+        - Fix crash in refresh of anonymous tokens
        </news>
        <news>[B]Version 6.6.0 - 2025-05-09[/B]
         - Fix change in drtv login flow

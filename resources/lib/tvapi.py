@@ -34,7 +34,6 @@ from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 import secrets
 import base64
-import xbmc
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -305,19 +304,16 @@ class Api():
                 else:
                     tokens = exchange_token(access_tokens)
                     self.access_tokens = access_tokens
-                    xbmc.log(f'Refreshed token', 1)
             else:
                 #old flow, anonymous
                 failed_refresh = True
 
             if failed_refresh:
                 err = self.request_tokens()
-                xbmc.log(f'Requesting new tokens: {self._token_expire}', 1)
                 if err:
                     raise ApiException(f'Login failed with: "{err}"')
             else:
                 self.read_tokens(tokens)
-                xbmc.log(f'token expire: {self._token_expire}', 1)
                 with self.token_file.open('wb') as fh:
                     pickle.dump([tokens, self.access_tokens], fh)
 
