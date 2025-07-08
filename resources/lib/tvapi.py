@@ -205,10 +205,14 @@ class Api():
         self.token_file = Path(f'{self.cachePath}/token.p')
         self.access_tokens = {}
         self._user_token = None
-        self.user = get_setting('drtv_username')
-        self.password = get_setting('drtv_password')
-        self._user_name = ''
+        self.get_setting = get_setting
+        self._refresh_settings()
         self.refresh_tokens()
+
+    def _refresh_settings(self):
+        self.user = self.get_setting('drtv_username')
+        self.password = self.get_setting('drtv_password')
+        self._user_name = ''
 
     def init_sqlite_db(self):
         if not (self.cachePath/'requests_cleaned').exists():
@@ -235,6 +239,12 @@ class Api():
             self.session.mount('https://', self.adapter)
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
+    @property
+    def user_name(self):
+        if self._user_name == '':
+            self._user_name = self.get_profile()['name']
+        return self._user_name
+
     def read_tokens(self, tokens):
         if 'value' in tokens[0]:
             #old flow, anonymous
@@ -252,8 +262,6 @@ class Api():
         except Exception:
             time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
-        if self.access_tokens:
-            self._user_name = self.get_profile()['name']
 
     def request_tokens(self):
         self._user_token = None
@@ -267,6 +275,7 @@ class Api():
             self.access_tokens = access_tokens
             tokens = exchange_token(access_tokens)
         else:
+            self.access_tokens = {}
             tokens = anonymous_tokens()
         self.read_tokens(tokens)
         with self.token_file.open('wb') as fh:
@@ -290,16 +299,20 @@ class Api():
         if (self._token_expire - datetime.now(timezone.utc)) < timedelta(hours=10):
             failed_refresh = False
             tokens = []
-            # oidc flow
-            access_tokens = refresh_token(self.access_tokens['refresh_token'])
-            if 'error' in access_tokens:
-                failed_refresh = True
+            if self.user and 'refresh_token' in self.access_tokens:
+                # oidc flow
+                access_tokens = refresh_token(self.access_tokens['refresh_token'])
+                if 'error' in access_tokens:
+                    failed_refresh = True
+                    self.access_tokens = {}
+                else:
+                    tokens = exchange_token(access_tokens)
+                    self.access_tokens = access_tokens
             else:
-                tokens = exchange_token(access_tokens)
-                self.access_tokens = access_tokens
+                #old flow, anonymous
+                failed_refresh = True
 
             if failed_refresh:
-                self.request_tokens()
                 err = self.request_tokens()
                 if err:
                     raise ApiException(f'Login failed with: "{err}"')
