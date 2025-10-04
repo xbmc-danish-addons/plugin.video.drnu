@@ -120,7 +120,7 @@ msgctxt "#30207"
 msgid "Enable Hard-of-hearing subtitles"
 msgstr ""
 
-msgctxt "#"
+msgctxt "#30208"
 msgid "Enable Live tv subtitles"
 msgstr ""
 
