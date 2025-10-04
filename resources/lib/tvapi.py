@@ -554,7 +554,7 @@ class Api():
                             progress.update(self.progress_prc, self.msg + 'updating descriptions...')
                         self.fix_item_description(sub_item)
             i += 1
-        for channel in ['dr-ramasjang', 'dr-minisjang', 'dr-ultra']:
+        for channel in ['ramasjang', 'minisjang', 'ultra']:
             msg = f"{self.tr(30523)}'{channel}'\n"
             if progress is not None:
                 if progress.iscanceled():

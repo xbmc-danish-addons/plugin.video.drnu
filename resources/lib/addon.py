@@ -148,7 +148,7 @@ class DrDkTvAddon(object):
             self.showMainMenu(area)
         elif area in ['minisjang', 'ramasjang']:
             if bool_setting('disable.kids.menu'):
-                items = self.api.get_children_front_items(f'dr-{area}')
+                items = self.api.get_children_front_items(f'{area}')
                 self.listEpisodes(items)
             else:
                 self.showMainMenu(area)
@@ -219,7 +219,6 @@ class DrDkTvAddon(object):
                 png = hitem.get('icon', 'star.png')
                 if area in ['drtv', 'minisjang', 'ramasjang', 'ultra']:
                     png = hitem.get('icon', f'{area}.png')
-                log(f"{hitem['title']} {area} {png}", level=1)
                 item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/f'icons/{png}')})
                 item.addContextMenuItems(self.menuItems, False)
                 items.append((self._plugin_url + '?listVideos=' + hitem['path'], item, True))
