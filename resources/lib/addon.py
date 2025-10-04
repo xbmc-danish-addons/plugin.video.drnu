@@ -93,7 +93,6 @@ class DrDkTvAddon(object):
         # Area Selector
         self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
         self.area_item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
-        self.current_area = 'drtv'
 
         setup_cronjob(addon_path, bool_setting, get_setting)
         self._version_change_fixes()
@@ -139,17 +138,22 @@ class DrDkTvAddon(object):
 
             if areaSelected == 'none':
                 pass
-            elif areaSelected == 'drtv':
-                self.showMainMenu()
-            elif areaSelected == 'gensyn':
-                self.current_area = 'gensyn'
-                self.list_entries('/gensyn')
-            elif areaSelected == 'ultra':
-                self.current_area = 'ultra'
-                self.list_entries('/ultra')
             else:
-                items = self.api.get_children_front_items('dr-' + areaSelected)
+                self.showArea(areaSelected)
+
+    def showArea(self, area):
+        if area == 'none':
+            self.showAreaSelector()
+        elif area in ['drtv', 'ultra']:
+            self.showMainMenu(area)
+        elif area in ['minisjang', 'ramasjang']:
+            if bool_setting('disable.kids.menu'):
+                items = self.api.get_children_front_items(f'dr-{area}')
                 self.listEpisodes(items)
+            else:
+                self.showMainMenu(area)
+        else:
+            self.list_entries(f'/{area}')
 
     def showSimpleAreaSelector(self):
         items = list()
@@ -158,36 +162,36 @@ class DrDkTvAddon(object):
         item.setArt({'fanart': str(resources_path/'media/button-drtv.png'),
                      'icon': str(resources_path/'media/button-drtv.png')})
         item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=1', item, True))
+        items.append((self._plugin_url + '?area=drtv', item, True))
         # Minisjang
         item = xbmcgui.ListItem('Minisjang', offscreen=True)
         item.setArt({'fanart': str(resources_path/'media/button-minisjang.png'),
                      'icon': str(resources_path/'media/button-minisjang.png')})
         item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=2', item, True))
+        items.append((self._plugin_url + '?area=minisjang', item, True))
         # Ramasjang
         item = xbmcgui.ListItem('Ramasjang', offscreen=True)
         item.setArt({'fanart': str(resources_path/'media/button-ramasjang.png'),
                      'icon': str(resources_path/'media/button-ramasjang.png')})
         item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=3', item, True))
+        items.append((self._plugin_url + '?area=ramasjang', item, True))
         # Ultra
         item = xbmcgui.ListItem('Ultra', offscreen=True)
         item.setArt({'fanart': str(resources_path/'media/button-ultra.png'),
                      'icon': str(resources_path/'media/button-ultra.png')})
         item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=4', item, True))
+        items.append((self._plugin_url + '?area=ultra', item, True))
         # Gensyn
         item = xbmcgui.ListItem('Gensyn', offscreen=True)
         item.setArt({'fanart': str(resources_path/'media/gensyn.png'),
                      'icon': str(resources_path/'media/gensyn.png')})
         item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=5', item, True))
+        items.append((self._plugin_url + '?area=gensyn', item, True))
 
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
-    def showMainMenu(self):
+    def showMainMenu(self, area):
         items = []
 
         # Live TV
@@ -196,23 +200,26 @@ class DrDkTvAddon(object):
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
-        if self.api.user_name != 'anonymous':
+        if self.api.user_name != 'anonymous' and area == 'drtv':
             # Mylist
             item = xbmcgui.ListItem(f'{tr(30004)} ({self.api.user_name})', offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
+            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/drtv.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=mylist', item, True))
 
             # Continue watching
             item = xbmcgui.ListItem(f'{tr(30003)} ({self.api.user_name})', offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/star.png')})
+            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/drtv.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=continue', item, True))
 
-        for hitem in self.api.get_home():
+        for hitem in self.api.get_home(area=area):
             if hitem['path']:
                 item = xbmcgui.ListItem(hitem['title'], offscreen=True)
                 png = hitem.get('icon', 'star.png')
+                if area in ['drtv', 'minisjang', 'ramasjang', 'ultra']:
+                    png = hitem.get('icon', f'{area}.png')
+                log(f"{hitem['title']} {area} {png}", level=1)
                 item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/f'icons/{png}')})
                 item.addContextMenuItems(self.menuItems, False)
                 items.append((self._plugin_url + '?listVideos=' + hitem['path'], item, True))
@@ -342,16 +349,19 @@ class DrDkTvAddon(object):
         videoInfoTag = listItem.getVideoInfoTag()
         self.api.set_info(item, videoInfoTag, title)
         if 'images' in item:
-            listItem.setArt({'thumb': item['images']['tile'],
-                            'icon': item['images']['tile'],
-                             'fanart': item['images']['wallpaper']
-                             })
+            img = {}
+            for label in ['tile', 'poster', 'square']:
+                if label in item['images']:
+                    img['thumb'] = item['images'][label]
+                    img['icon'] = item['images'][label]
+                    break
+            for label in ['wallpaper', 'square', 'powter']:
+                if label in item['images']:
+                    img['fanart'] = item['images'][label]
+            listItem.setArt(img)
         else:
-            icon_file = str(resources_path/'icons/star.png')
-            if self.current_area == 'ultra':
-                icon_file = str(resources_path/'icons/ultra.png')
-            elif self.current_area == 'gensyn':
-                icon_file = str(resources_path/'icons/gensyn.png')
+            area = self.api.item_area(item)
+            icon_file = str(resources_path/f'icons/{area}.png')
             listItem.setArt({'fanart': self.fanart_image, 'icon': icon_file})
 
         log(f'{title} -- {item["id"]} | {item["type"]} | {item.get("path")}', level=1)
@@ -522,7 +532,7 @@ class DrDkTvAddon(object):
                 self.displayError(err)
             else:
                 xbmcgui.Dialog().ok(tr(30303), tr(30305))
-                self.resfresh_ui('?area=1')
+                self.resfresh_ui('?area=drtv')
 
     def displayError(self, message='n/a'):
         heading = 'API error'
@@ -561,9 +571,10 @@ class DrDkTvAddon(object):
                 seasons = PARAMS.get('seasons', 'False') == 'True'
                 if PARAMS['listVideos'].startswith('ID_'):
                     items = self.api.get_list(PARAMS['listVideos'], PARAMS['list_param'])
-                    filter_kids = bool_setting('disable.kids')
-                    if 'Ultra' in items['title']:
-                        filter_kids = False
+                    area = self.api.item_area(items['items'][0])
+                    filter_kids = False
+                    if area in ['drtv', 'gensyn']:
+                        filter_kids = bool_setting('disable.kids')
                     self.listEpisodes(self.api.unfold_list(items, filter_kids=filter_kids))
                 else:
                     self.list_entries(PARAMS['listVideos'], seasons)
@@ -595,25 +606,9 @@ class DrDkTvAddon(object):
                     xbmc.executebuiltin('ActivateWindow(home)')
 
             else:
-                area = int(get_setting('area'))
-                if 'area' in PARAMS:
-                    area = int(PARAMS['area'])
-                if area == 0:
-                    self.showAreaSelector()
-                elif area == 1:
-                    self.showMainMenu()
-                elif area == 2:
-                    items = self.api.get_children_front_items('dr-minisjang')
-                    self.listEpisodes(items)
-                elif area == 3:
-                    items = self.api.get_children_front_items('dr-ramasjang')
-                    self.listEpisodes(items)
-                elif area == 4:
-                    self.current_area = 'ultra'
-                    self.list_entries('/ultra')
-                elif area == 5:
-                    self.current_area = 'gensyn'
-                    self.list_entries('/gensyn')
+                areas = ['none', 'drtv', 'minisjang', 'ramasjang', 'ultra', 'gensyn']
+                area = PARAMS.get('area', areas[int(get_setting('area'))])
+                self.showArea(area)
 
         except tvapi.ApiException as ex:
             log(['API exception', query], level=1)

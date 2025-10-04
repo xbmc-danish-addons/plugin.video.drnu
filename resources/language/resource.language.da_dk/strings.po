@@ -123,18 +123,6 @@ msgctxt "#30208"
 msgid "Enable Live tv subtitles"
 msgstr "Vis undertekster på Live tv"
 
-msgctxt "#30213"
-msgid "Clear the favorite programs list"
-msgstr "Nulstil listen med foretrukne programmer"
-
-msgctxt "#30208"
-msgid "Remove programs from Ramasjang/Ultra in alphabetical lists"
-msgstr "Fjern programmer fra Ramasjang/Ultra fra alfabetisk oversigt"
-
-msgctxt "#30214"
-msgid "Subtitles from file"
-msgstr "Undertekster fra fil"
-
 msgctxt "#30209"
 msgid "No subtitles on Ramasjang/Ultra episodes"
 msgstr "Ingen undertekster på episoder fra Ramasjang/Ultra"
@@ -150,6 +138,22 @@ msgstr "Ingen sæsonvisning på børneprogrammer"
 msgctxt "#30212"
 msgid "Inputstream type"
 msgstr "Inputstream type"
+
+msgctxt "#30213"
+msgid "Clear the favorite programs list"
+msgstr "Nulstil listen med foretrukne programmer"
+
+msgctxt "#30214"
+msgid "Subtitles from file"
+msgstr "Undertekster fra fil"
+
+msgctxt "#30215"
+msgid "Unfold all shows, instead of main menu"
+msgstr "Vis alle programmer, istedet for menu"
+
+msgctxt "#30216"
+msgid "Remove programs from Ramasjang/Ultra in alphabetical lists"
+msgstr "Fjern programmer fra Ramasjang/Ultra fra alfabetisk oversigt"
 
 msgctxt "#30220"
 msgid "re-cache all"
