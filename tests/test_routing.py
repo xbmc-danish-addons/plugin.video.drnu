@@ -105,7 +105,7 @@ def test_basemenus(capsys):
 
 def test_ramasjang(capsys):
     with capsys.disabled():
-        handle.route('?area=3')
+        handle.route('?area=ramasjang')
         a_aa = [iteminfo(item) for item in get_items().values()]
         bluey = item_from_label(a_aa, 'Bluey')
         addon.addon.settings['disable.kids.seasons'] = 'true'
@@ -121,7 +121,7 @@ def test_ramasjang(capsys):
 
 def test_gensyn(capsys):
     with capsys.disabled():
-        handle.route('?area=5')
+        handle.route('?area=gensyn')
         items = [iteminfo(item) for item in get_items().values()]
 #        print(items[1])
 
