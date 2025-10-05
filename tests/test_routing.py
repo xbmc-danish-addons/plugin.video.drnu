@@ -118,6 +118,16 @@ def test_ramasjang(capsys):
         episodes = [iteminfo(item) for item in get_items().values()]
         myEqual(len(episodes), 12)
 
+        addon.addon.settings['disable.kids.menu'] = 'false'
+        handle.route('?area=ramasjang')
+        home_items = [iteminfo(item) for item in get_items().values()]
+        from_home = item_from_label(home_items, 'Skab med Ramasjang')
+        handle.route(from_home['url'])
+        episodes = [iteminfo(item) for item in get_items().values()]
+        myEqual(len(episodes), 5)
+
+
+
 
 def test_gensyn(capsys):
     with capsys.disabled():
