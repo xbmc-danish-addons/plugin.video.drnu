@@ -78,7 +78,7 @@ def test_basemenus(capsys):
     with capsys.disabled():
         handle._plugin_handle = {}
         main_menu = []
-        handle.showMainMenu()
+        handle.showMainMenu('drtv')
         for label, item in get_items().items():
             main_menu.append(iteminfo(item))
         if UPDATE_TESTS:
