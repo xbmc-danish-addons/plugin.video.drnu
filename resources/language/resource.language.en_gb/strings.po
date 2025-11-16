@@ -124,10 +124,6 @@ msgctxt "#30208"
 msgid "Enable Live tv subtitles"
 msgstr ""
 
-msgctxt "#30208"
-msgid "Remove programs from Ramasjang/Ultra in alphabetical lists"
-msgstr ""
-
 msgctxt "#30209"
 msgid "No subtitles on Ramasjang/Ultra episodes"
 msgstr ""
@@ -150,6 +146,14 @@ msgstr ""
 
 msgctxt "#30214"
 msgid "Subtitles from file"
+msgstr ""
+
+msgctxt "#30215"
+msgid "Unfold all shows, instead of main menu"
+msgstr ""
+
+msgctxt "#30216"
+msgid "Remove programs from Ramasjang/Ultra in alphabetical lists"
 msgstr ""
 
 msgctxt "#30220"

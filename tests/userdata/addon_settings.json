@@ -4,6 +4,7 @@
         "recache.cleanup": 1E6,
         "recache.expiration": -1,
         "area": 1,
-        "disable.kids.seasons": "true"
+        "disable.kids.seasons": "true",
+        "disable.kids.menu": "true"
     }
 }

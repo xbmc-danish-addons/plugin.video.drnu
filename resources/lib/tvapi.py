@@ -47,6 +47,13 @@ URL = 'https://production.dr-massive.com/api'
 URL2 = 'https://prod95.dr-massive.com/api'
 CLIENT_ID = "283ba39a2cf31d3b81e922b8"
 GET_TIMEOUT = 10
+A_AA = {
+    'ramasjang': '/ramasjang_a-aa',
+    'minisjang': '/minisjang/a-aa',
+    'ultra': '/ultra_a-aa',
+    'drtv': '/kategorier/a-aa',
+    'gensyn': '/gensyn/a-aa',
+}
 
 
 def cache_path(path):
@@ -436,6 +443,18 @@ class Api():
         params = {"ff": "idp,ldp,rpt", "lang": "da"}
         return self._request_get(url, headers=headers, params=params, use_cache=use_cache)
 
+    def item_area(self, item):
+        label = ''
+        if 'classification' in item:
+            label = item['classification']['code'].lower()
+        elif 'categories' in item:
+            label = ' '.join(item['categories']).lower()
+        if label:
+            for area in A_AA.keys():
+                if area in label:
+                    return area
+        return 'drtv' # fall back to general
+
     def kids_item(self, item):
         if 'classification' in item:
             if item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
@@ -482,7 +501,7 @@ class Api():
         else:
             raise ApiException(u.text)
 
-    def get_home(self):
+    def get_home(self, area='drtv'):
         data = dict(
             list_page_size=24,
             max_list_prefetch=1,
@@ -490,15 +509,18 @@ class Api():
             path='/',
             segments='drtv,optedin',
         )
-        js = self.get_programcard('/', data=data)
-        items = [{'title': 'Programmer A-Å', 'path': '/kategorier/a-aa', 'icon': 'all.png'}]
+        if area != 'drtv':
+            data['path'] = '/' + area
+        js = self.get_programcard(data['path'], data=data)
+        items = [{'title': 'Programmer A-Å', 'path': A_AA[area], 'icon': 'all.png'}]
         for item in js['entries']:
             title = item['title']
             if title not in ['Se live tv']:
                 if title == '' and item['type'] == 'ListEntry':
                     title = item['list'].get('title', '') # get the top spinner item
-                if title.startswith('DRTV Hero'):
-                    title = 'Daglige forslag'
+                for HERO in ['DRTV Hero', 'Ramasjang: Hero', 'Ultra Hero']:
+                    if title.startswith(HERO):
+                        title = 'Daglige forslag'
                 if title:
                     items.append({'title': title, 'path': item['list']['path']})
         return items
@@ -532,7 +554,7 @@ class Api():
                             progress.update(self.progress_prc, self.msg + 'updating descriptions...')
                         self.fix_item_description(sub_item)
             i += 1
-        for channel in ['dr-ramasjang', 'dr-minisjang', 'dr-ultra']:
+        for channel in ['ramasjang', 'minisjang', 'ultra']:
             msg = f"{self.tr(30523)}'{channel}'\n"
             if progress is not None:
                 if progress.iscanceled():
@@ -542,13 +564,7 @@ class Api():
             i += 1
 
     def get_children_front_items(self, channel):
-        names = {
-            'dr-ramasjang': '/ramasjang_a-aa',
-            'dr-minisjang': '/minisjang/a-aa',
-            'dr-ultra': '/ultra_a-aa',
-            'dr': '/kategorier/a-aa',
-            }
-        name = names[channel]
+        name = A_AA[channel]
         js = self.get_programcard(name)
         items = []
         for item in js['entries']:

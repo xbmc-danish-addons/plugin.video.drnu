@@ -104,10 +104,13 @@
 		</group>
 
 		<group id="3" label="30201">
-    <setting id="disable.kids" label="30208" type="boolean">
+    <setting id="disable.kids" label="30216" type="boolean">
       <level>0</level> <default>true</default> <control type="toggle"/>
     </setting>
     <setting id="disable.kids.seasons" label="30211" type="boolean">
+      <level>0</level> <default>true</default> <control type="toggle"/>
+    </setting>
+    <setting id="disable.kids.menu" label="30215" type="boolean">
       <level>0</level> <default>true</default> <control type="toggle"/>
     </setting>
 		</group>
