@@ -384,6 +384,8 @@ class DrDkTvAddon(object):
                     f"?listVideos=ID_{item['list']['id']}&list_param={param}&seasons={is_season}"
             else:
                 return None
+            runScript = f"RunAddon(plugin.video.drnu,?{url.split('?')[1]}&nocache=1)"
+            menuItems.append((tr(30217), runScript))
             listItem.setIsFolder(True)
         else:
             listItem.setIsFolder(False)
@@ -408,8 +410,8 @@ class DrDkTvAddon(object):
             xbmcplugin.addSortMethod(self._plugin_handle, xbmcplugin.SORT_METHOD_TITLE)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
-    def list_entries(self, path, seasons=False):
-        use_cache = tvapi.cache_path(path)
+    def list_entries(self, path, caching=True, seasons=False):
+        use_cache = tvapi.cache_path(path) and caching
         entries = self.api.get_programcard(path, use_cache=use_cache)['entries']
         if len(entries) == 0:
             # hack for get_programcard('/liste/306104') giving empty entries, but recommendations yields?!?
@@ -514,6 +516,7 @@ class DrDkTvAddon(object):
                     player.showSubtitles(True)
                 else:
                     player.showSubtitles(False)
+
     def resfresh_ui(self, params=''):
         xbmc.executebuiltin(f'Container.Update({self._plugin_url + params})')
 
@@ -568,15 +571,21 @@ class DrDkTvAddon(object):
                 self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
             elif 'listVideos' in PARAMS:
                 seasons = PARAMS.get('seasons', 'False') == 'True'
+                caching = PARAMS.get('nocache', '0') != '1'
                 if PARAMS['listVideos'].startswith('ID_'):
+                    if caching is False:
+                        self.api.caching = False
                     items = self.api.get_list(PARAMS['listVideos'], PARAMS['list_param'])
                     area = self.api.item_area(items['items'][0])
                     filter_kids = False
                     if area in ['drtv', 'gensyn']:
                         filter_kids = bool_setting('disable.kids')
-                    self.listEpisodes(self.api.unfold_list(items, filter_kids=filter_kids))
+                    items = self.api.unfold_list(items, filter_kids=filter_kids)
+                    if caching is False:
+                        self.api.caching = True
+                    self.listEpisodes(items)
                 else:
-                    self.list_entries(PARAMS['listVideos'], seasons)
+                    self.list_entries(PARAMS['listVideos'], caching=caching, seasons=seasons)
 
             elif 'playVideo' in PARAMS:
                 self.playVideo(PARAMS['playVideo'], PARAMS['kids'], PARAMS['idpath'])
