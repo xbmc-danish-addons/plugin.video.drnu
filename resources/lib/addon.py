@@ -220,8 +220,10 @@ class DrDkTvAddon(object):
                 if area in ['drtv', 'minisjang', 'ramasjang', 'ultra']:
                     png = hitem.get('icon', f'{area}.png')
                 item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/f'icons/{png}')})
-                item.addContextMenuItems(self.menuItems, False)
-                items.append((self._plugin_url + '?listVideos=' + hitem['path'], item, True))
+                item_params = '?listVideos=' + hitem['path']
+                runScript = f"RunAddon(plugin.video.drnu,?{item_params}&nocache=1)"
+                item.addContextMenuItems(self.menuItems + [(tr(30217), runScript)], False)
+                items.append((self._plugin_url + item_params, item, True))
 
         # Search videos
         item = xbmcgui.ListItem(tr(30002), offscreen=True)
