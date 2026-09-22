@@ -221,7 +221,7 @@ class DrDkTvAddon(object):
                     png = hitem.get('icon', f'{area}.png')
                 item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/f'icons/{png}')})
                 item_params = '?listVideos=' + hitem['path']
-                runScript = f"RunAddon(plugin.video.drnu,?{item_params}&nocache=1)"
+                runScript = f"RunAddon(plugin.video.drnu,{item_params}&nocache=1)"
                 item.addContextMenuItems(self.menuItems + [(tr(30217), runScript)], False)
                 items.append((self._plugin_url + item_params, item, True))
 
@@ -549,6 +549,7 @@ class DrDkTvAddon(object):
     def route(self, query):
         try:
             PARAMS = dict(urlparse.parse_qsl(query[1:]))
+            # log(f'{PARAMS}', level=1)
             if 'show' in PARAMS:
                 if PARAMS['show'] == 'liveTV':
                     self.showLiveTV()
