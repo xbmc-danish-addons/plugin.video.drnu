@@ -30,6 +30,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/a-aa&nocache=1)"
       ]
     ]
   },
@@ -47,6 +51,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/drtv-hero-saturday-18_00_89366&nocache=1)"
       ]
     ]
   },
@@ -64,6 +72,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/402866&nocache=1)"
       ]
     ]
   },
@@ -81,6 +93,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/394137&nocache=1)"
       ]
     ]
   },
@@ -98,6 +114,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/373113&nocache=1)"
       ]
     ]
   },
@@ -115,6 +135,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/369696&nocache=1)"
       ]
     ]
   },
@@ -132,6 +156,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/349213&nocache=1)"
       ]
     ]
   },
@@ -149,6 +177,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/374012&nocache=1)"
       ]
     ]
   },
@@ -166,6 +198,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/376779&nocache=1)"
       ]
     ]
   },
@@ -183,6 +219,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/307904&nocache=1)"
       ]
     ]
   },
@@ -200,6 +240,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/379672&nocache=1)"
       ]
     ]
   },
@@ -217,6 +261,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/171678&nocache=1)"
       ]
     ]
   },
@@ -234,6 +282,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/238347&nocache=1)"
       ]
     ]
   },
@@ -251,6 +303,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/244426&nocache=1)"
       ]
     ]
   },
@@ -268,6 +324,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/167449&nocache=1)"
       ]
     ]
   },
@@ -285,6 +345,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/384446&nocache=1)"
       ]
     ]
   },
@@ -302,6 +366,10 @@
       [
         "30205",
         "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/244424&nocache=1)"
       ]
     ]
   },

@@ -25,52 +25,16 @@ import time
 import urllib.parse as urlparse
 
 import xbmc
-import xbmcaddon
 import xbmcgui
 import xbmcplugin
 from xbmcvfs import translatePath
 
+# Import everything from kodiutils for backward compatibility
+from resources.lib.kodiutils import *
 from resources.lib import tvapi
 from resources.lib import tvgui
 from resources.lib.iptvmanager import IPTVManager
 from resources.lib.cronjob import setup_cronjob
-
-addon = xbmcaddon.Addon()
-get_setting = addon.getSetting
-set_setting = addon.setSetting
-get_addon_info = addon.getAddonInfo
-addon_path = get_addon_info('path')
-addon_name = get_addon_info('name')
-resources_path = Path(addon_path)/'resources'
-
-
-def tr(id):
-    if isinstance(id, list):
-        return '\n'.join([addon.getLocalizedString(item) for item in id])
-    return addon.getLocalizedString(id)
-
-
-def bool_setting(name):
-    return get_setting(name) == 'true'
-
-
-def log(object, level=0):
-    if bool_setting('log.debug'):
-        xbmc.log(str(object), level)
-
-
-def kodi_version():
-    """Returns full Kodi version as string"""
-    return xbmc.getInfoLabel('System.BuildVersion').split(' ')[0]
-
-
-def kodi_version_major():
-    """Returns major Kodi version as integer"""
-    return int(kodi_version().split('.')[0])
-
-
-def version(s):
-    return [int(item) for item in s.split('-')[0].split('.')]
 
 
 class DrDkTvAddon(object):
@@ -81,8 +45,8 @@ class DrDkTvAddon(object):
         self.cache_path = Path(translatePath(addon.getAddonInfo('profile')))
         self.cache_path.mkdir(parents=True, exist_ok=True)
 
-        self.search_path = self.cache_path/'search6.pickle'
-        self.fanart_image = str(resources_path/'fanart.jpg')
+        self.search_path = self.cache_path / 'search6.pickle'
+        self.fanart_image = str(resources_path / 'fanart.jpg')
 
         self.api = tvapi.Api(self.cache_path, tr, get_setting)
 
@@ -92,7 +56,7 @@ class DrDkTvAddon(object):
 
         # Area Selector
         self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
-        self.area_item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/all.png')})
+        self.area_item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/all.png')})
 
         setup_cronjob(addon_path, bool_setting, get_setting)
         self._version_change_fixes()
@@ -159,32 +123,32 @@ class DrDkTvAddon(object):
         items = list()
         # DRTV
         item = xbmcgui.ListItem('DR TV', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'media/button-drtv.png'),
-                     'icon': str(resources_path/'media/button-drtv.png')})
+        item.setArt({'fanart': str(resources_path / 'media/button-drtv.png'),
+                     'icon': str(resources_path / 'media/button-drtv.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=drtv', item, True))
         # Minisjang
         item = xbmcgui.ListItem('Minisjang', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'media/button-minisjang.png'),
-                     'icon': str(resources_path/'media/button-minisjang.png')})
+        item.setArt({'fanart': str(resources_path / 'media/button-minisjang.png'),
+                     'icon': str(resources_path / 'media/button-minisjang.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=minisjang', item, True))
         # Ramasjang
         item = xbmcgui.ListItem('Ramasjang', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'media/button-ramasjang.png'),
-                     'icon': str(resources_path/'media/button-ramasjang.png')})
+        item.setArt({'fanart': str(resources_path / 'media/button-ramasjang.png'),
+                     'icon': str(resources_path / 'media/button-ramasjang.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=ramasjang', item, True))
         # Ultra
         item = xbmcgui.ListItem('Ultra', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'media/button-ultra.png'),
-                     'icon': str(resources_path/'media/button-ultra.png')})
+        item.setArt({'fanart': str(resources_path / 'media/button-ultra.png'),
+                     'icon': str(resources_path / 'media/button-ultra.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=ultra', item, True))
         # Gensyn
         item = xbmcgui.ListItem('Gensyn', offscreen=True)
-        item.setArt({'fanart': str(resources_path/'media/gensyn.png'),
-                     'icon': str(resources_path/'media/gensyn.png')})
+        item.setArt({'fanart': str(resources_path / 'media/gensyn.png'),
+                     'icon': str(resources_path / 'media/gensyn.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?area=gensyn', item, True))
 
@@ -196,20 +160,20 @@ class DrDkTvAddon(object):
 
         # Live TV
         item = xbmcgui.ListItem(tr(30001), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/livetv.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/livetv.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=liveTV', item, True))
 
         if self.api.user_name != 'anonymous' and area == 'drtv':
             # Mylist
             item = xbmcgui.ListItem(f'{tr(30004)} ({self.api.user_name})', offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/drtv.png')})
+            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/drtv.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=mylist', item, True))
 
             # Continue watching
             item = xbmcgui.ListItem(f'{tr(30003)} ({self.api.user_name})', offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/drtv.png')})
+            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/drtv.png')})
             item.addContextMenuItems(self.menuItems, False)
             items.append((self._plugin_url + '?show=continue', item, True))
 
@@ -219,7 +183,7 @@ class DrDkTvAddon(object):
                 png = hitem.get('icon', 'star.png')
                 if area in ['drtv', 'minisjang', 'ramasjang', 'ultra']:
                     png = hitem.get('icon', f'{area}.png')
-                item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/f'icons/{png}')})
+                item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / f'icons/{png}')})
                 item_params = '?listVideos=' + hitem['path']
                 runScript = f"RunAddon(plugin.video.drnu,{item_params}&nocache=1)"
                 item.addContextMenuItems(self.menuItems + [(tr(30217), runScript)], False)
@@ -227,7 +191,7 @@ class DrDkTvAddon(object):
 
         # Search videos
         item = xbmcgui.ListItem(tr(30002), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path/'icons/search.png')})
+        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/search.png')})
         item.addContextMenuItems(self.menuItems, False)
         items.append((self._plugin_url + '?show=search', item, True))
 
@@ -266,12 +230,12 @@ class DrDkTvAddon(object):
             channel_epg = []
             for schedule in channel['schedules']:
                 schedule_dict = {
-                    'start' : schedule['startDate'],
-                    'stop' : schedule['endDate'],
+                    'start': schedule['startDate'],
+                    'stop': schedule['endDate'],
                     'title': schedule['item']['title'],
                     'description': schedule['item']['description'],
-                    'image' : schedule['item']['images']['tile'],
-                                }
+                    'image': schedule['item']['images']['tile'],
+                }
                 if ('seasonNumber' in schedule['item']) and ('episodeNumber' in schedule['item']):
                     schedule_dict['episode'] = 'S{:02d}E{:02d}'.format(
                         schedule['item']['seasonNumber'], schedule['item']['episodeNumber'])
@@ -298,7 +262,7 @@ class DrDkTvAddon(object):
             item.setInfo('video', {
                 'title': channel['title'],
                 'plot': channel['schedule_str'],
-                })
+            })
             item.setProperty('IsPlayable', 'true')
             items.append((url, item, False))
 
@@ -338,7 +302,7 @@ class DrDkTvAddon(object):
     def kodi_item(self, item, is_season=False):
         menuItems = list(self.menuItems)
         isFolder = item['type'] not in ['program', 'episode']
-        if item.get('path','').startswith('/kanal/') and item['type'] == 'link':
+        if item.get('path', '').startswith('/kanal/') and item['type'] == 'link':
             isFolder = False
         if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
             return None
@@ -362,7 +326,7 @@ class DrDkTvAddon(object):
             listItem.setArt(img)
         else:
             area = self.api.item_area(item)
-            icon_file = str(resources_path/f'icons/{area}.png')
+            icon_file = str(resources_path / f'icons/{area}.png')
             listItem.setArt({'fanart': self.fanart_image, 'icon': icon_file})
 
         log(f'{title} -- {item["id"]} | {item["type"]} | {item.get("path")}', level=1)
