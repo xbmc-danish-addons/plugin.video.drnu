@@ -243,6 +243,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=423646)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/mordene-i-port-talbot_423646&seasons=False&nocache=1)"
       ]
     ]
   },

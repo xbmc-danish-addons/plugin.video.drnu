@@ -20,6 +20,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419740)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/serie/store-danske-kunstnere_419740&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -47,6 +51,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=422575)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/i-hus-til-halsen_422575&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -71,6 +79,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=434279)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/serie/det-store-adoptionstyveri_434279&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -95,6 +107,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419258)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/serie/alle-elsker-sinan_419258&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -119,6 +135,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419253)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/serie/camma-bliver-kendt_419253&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -146,6 +166,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=422583)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/i-hjernen-paa-stjernen_422583&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -170,6 +194,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=422594)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/serie/din-krop-indefra_422594&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -197,6 +225,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=411303)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/world-on-fire_411303&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -221,6 +253,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=424417)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/serie/bag-enhver-mand_424417&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -245,6 +281,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419460)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/serie/alice-og-jack_419460&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -272,6 +312,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=426234)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/danmarks-bedste-portraetmaler_426234&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -299,6 +343,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=424451)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/loevens-hule_424451&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -326,6 +374,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=421732)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/signe-molde-paa-udebane_421732&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -352,6 +404,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=431291)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/taet-paa-sandheden-med-jonatan-spang_431291&seasons=False&nocache=1)"
       ]
     ]
   },
@@ -463,6 +519,10 @@
       [
         "30009",
         "RunPlugin(plugin://plugin.video.drnu/?addfavorite=416406)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/serie/forelsket-i-en-loegn_416406&seasons=False&nocache=1)"
       ]
     ]
   }

@@ -155,6 +155,10 @@ msgctxt "#30216"
 msgid "Remove programs from Ramasjang/Ultra in alphabetical lists"
 msgstr "Fjern programmer fra Ramasjang/Ultra fra alfabetisk oversigt"
 
+msgctxt "#30217"
+msgid "open without caching"
+msgstr "åben uden caching"
+
 msgctxt "#30220"
 msgid "re-cache all"
 msgstr "re-cache alt"
