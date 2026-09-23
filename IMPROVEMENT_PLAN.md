@@ -3,8 +3,8 @@
 Working plan for code structure, tests and CI. Check items off as they land.
 Suggested order: Phase 0 → 1 → 2 → 3, Phase 4 optional.
 
-**Note:** Phase 0 hygiene tasks completed in commit dff35ba. The `kodiutils.py` refactoring
-(commit 4a05080) completed the module structure integration. See Phase 3 for related
+**Note:** Phase 0 complete as of commit 5ab0b18. The `kodiutils.py` refactoring
+(commit 4a05080) completed module structure integration. See Phase 1, 2, 3 for
 follow-up work.
 
 ## Completed Changes
