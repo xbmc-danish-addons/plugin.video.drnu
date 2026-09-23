@@ -48,7 +48,7 @@ class DrDkTvAddon(object):
         self.search_path = self.cache_path / 'search6.pickle'
         self.fanart_image = str(resources_path / 'fanart.jpg')
 
-        self.api = tvapi.Api(self.cache_path, tr, get_setting)
+        self.api = tvapi.Api(self.cache_path, tr, get_setting, log)
 
         self.menuItems = list()
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"

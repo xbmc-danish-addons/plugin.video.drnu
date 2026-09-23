@@ -24,6 +24,12 @@ follow-up work.
   - Cleaned up untracked junk: `tests/test.html`, stray `git` file,
     `resources/media/gensyn_raw.png`
   - All 5 routing tests pass
+- [x] **2026-09-23**: Phase 0 cleanup (code hygiene)
+  - Removed dead code: `URL2` (old API endpoint) and `add_to_watched` (unused,
+    had incorrect `&position=` in URL)
+  - Gated `print()` calls in `full_login` behind `log.debug` setting via optional
+    `log_func` parameter
+  - All 5 routing tests pass
 
 ## Phase 0 — Hygiene and safety (small, do first)
 
@@ -41,9 +47,9 @@ follow-up work.
       - Added comprehensive Kodi utility functions
       - Refactored `addon.py` to import from kodiutils
       - All routing tests pass with the new structure
-- [ ] Remove dead code: `URL2` (`tvapi.py:47`); `add_to_watched` (`tvapi.py:398`,
+- [x] Remove dead code: `URL2` (`tvapi.py:47`); `add_to_watched` (`tvapi.py:398`,
       unused, and its URL uses `&position=` where it needs `?position=`)
-- [ ] Gate the `print()` calls in `full_login` (`tvapi.py:135-140`) behind the
+- [x] Gate the `print()` calls in `full_login` (`tvapi.py:135-140`) behind the
       `log.debug` setting instead of dumping login GraphQL responses to stdout
 
 ## Phase 1 — Linting and tooling baseline

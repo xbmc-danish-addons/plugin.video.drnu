@@ -44,7 +44,6 @@ CHANNEL_PRESET = {
     'DRTV Ekstra': 5
 }
 URL = 'https://production.dr-massive.com/api'
-URL2 = 'https://prod95.dr-massive.com/api'
 CLIENT_ID = "283ba39a2cf31d3b81e922b8"
 GET_TIMEOUT = 10
 A_AA = {
@@ -88,7 +87,7 @@ def generate_code_challenge(code_verifier: str) -> str:
     return base64.urlsafe_b64encode(sha256).decode().rstrip('=')
 
 
-def full_login(user, password):
+def full_login(user, password, log_func=None):
     ses = requests.Session()
 
     # start login flow
@@ -132,12 +131,15 @@ def full_login(user, password):
     url = 'https://login.dr.dk/graphql'
 
     u1 = ses.post(url, json=trans_data, headers=headers)
-    print(u1.json())
+    if log_func:
+        log_func(u1.json())
     u2 = ses.post(url, json=identify_data, headers=headers)
-    print(u2.json())
+    if log_func:
+        log_func(u2.json())
 
     u3 = ses.post(url, json=authenticate_data, headers=headers)
-    print(u3.json())
+    if log_func:
+        log_func(u3.json())
 
     res2 = ses.get(u3.json()['data']['authenticate']['href'])
     if res2.status_code != 200:
@@ -197,9 +199,10 @@ def anonymous_tokens():
     return tokens
 
 class Api():
-    def __init__(self, cachePath, getLocalizedString, get_setting):
+    def __init__(self, cachePath, getLocalizedString, get_setting, log_func=None):
         self.cachePath = cachePath
         self.tr = getLocalizedString
+        self.log = log_func
         self.cleanup_every = int(get_setting('recache.cleanup'))
         self.expire_hours = int(get_setting('recache.expiration'))
         self.caching = get_setting('recache.enabled') == 'true'
@@ -275,7 +278,7 @@ class Api():
         self._profile_token = None
 
         if self.user:
-            access_tokens = full_login(self.user, self.password)
+            access_tokens = full_login(self.user, self.password, self.log)
             if 'error' in access_tokens:
                 err = access_tokens['error']
                 return err
@@ -393,13 +396,6 @@ class Api():
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         u = self.session.delete(url, headers=headers)
         if u.status_code != 204:
-            raise ApiException(u.text)
-
-    def add_to_watched(self, id, duration):
-        url = f'{URL}/account/profile/continue-watching/{id}&position={int(duration)}'
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-        u = self.session.put(url, headers=headers)
-        if u.status_code != 200:
             raise ApiException(u.text)
 
     def delete_from_mylist(self, id):
