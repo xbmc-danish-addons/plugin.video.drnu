@@ -32,8 +32,10 @@ structure integration. See Phase 2, 3 for follow-up work.
   - All 5 routing tests pass
 - [x] **2026-09-23**: Phase 1 linting (ruff baseline)
   - Added `pyproject.toml` with ruff config (line-length=200, py38, E/F/W/B/UP/SIM/I/C4)
-  - Ran `ruff check --fix` and fixed remaining findings manually
+  - Fixed all ruff findings: mutable defaults, dict() calls, blank line whitespace,
+    nested if statements, ternary operators, f-strings, Python 2/3 compat code
   - Fixed naming: `resfresh_ui` → `refresh_ui`, `'powter'` → `'poster'`
+  - Removed Python 2/3 compatibility code from test stubs
   - All 5 routing tests pass
 
 ## Phase 0 — Hygiene and safety (small, do first)
@@ -70,14 +72,14 @@ structure integration. See Phase 2, 3 for follow-up work.
       - import sorting (`I`)
 - [x] Fix naming debt: `resfresh_ui` → `refresh_ui` (`addon.py:522`),
       `'powter'` → `'poster'` (`addon.py:359`)
-- [x] Shift to ruff (dropped flake8 as requested)
+- [x] Shift to ruff (dropped flake8 as requested); CI updated to use ruff
 
 ## Phase 2 — CI and tests
 
 ### CI (`.github/workflows/python-package-conda.yml`)
 
-- [ ] `actions/checkout@v3` → `@v4`
-- [ ] Run `kodi-addon-checker` for both `--branch=nexus` and `--branch=omega`
+- [x] `actions/checkout@v3` → `@v4`
+- [x] Run `kodi-addon-checker` for both `--branch=nexus` and `--branch=omega`
       (addon declares `xbmc.python 3.0.1`, which spans both)
 - [ ] Add `workflow_dispatch` trigger so feature branches can run CI
 - [ ] Split into jobs: `lint`, `addon-check`, `tests`

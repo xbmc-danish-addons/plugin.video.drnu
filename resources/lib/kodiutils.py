@@ -61,10 +61,10 @@ resources_path = Path(addon_path) / 'resources'
 
 def tr(id):
     """Get localized string from addon strings.po
-    
+
     Args:
         id: String ID (int) or list of string IDs
-        
+
     Returns:
         Localized string, or multiple strings joined by newlines if id is a list
     """
@@ -75,11 +75,11 @@ def tr(id):
 
 def bool_setting(name, default=False):
     """Get a setting as a boolean value
-    
+
     Args:
         name: Setting name
         default: Default value if setting is not 'true' (default: False)
-        
+
     Returns:
         True if setting equals 'true', False otherwise
     """
@@ -88,7 +88,7 @@ def bool_setting(name, default=False):
 
 def log(object, level=0):
     """Log a message to Kodi debug log if debug logging is enabled
-    
+
     Args:
         object: The object to log (will be converted to string)
         level: Log level (default: 0 = xbmc.LOGDEBUG)
@@ -109,10 +109,10 @@ def kodi_version_major():
 
 def version(s):
     """Parse a version string into a list of integers
-    
+
     Args:
         s: Version string (e.g., '6.2.0' or '6.2.0+build123')
-        
+
     Returns:
         List of integers (e.g., [6, 2, 0])
     """
@@ -126,7 +126,7 @@ def get_plugin_handle():
 
 def end_of_directory(handle=None, succeeded=False, update_listing=False, cache_to_disc=False):
     """End a virtual directory listing
-    
+
     Args:
         handle: Plugin handle (defaults to current handle)
         succeeded: Whether directory items were added successfully
@@ -145,7 +145,7 @@ def end_of_directory(handle=None, succeeded=False, update_listing=False, cache_t
 
 def set_plugin_content(handle, content_type):
     """Set the content type for a plugin directory
-    
+
     Args:
         handle: Plugin handle
         content_type: Content type string (e.g., 'episodes', 'movies', 'tvshows')
@@ -155,7 +155,7 @@ def set_plugin_content(handle, content_type):
 
 def set_plugin_category(handle, category):
     """Set the category for a plugin directory
-    
+
     Args:
         handle: Plugin handle
         category: Category string to display
@@ -165,7 +165,7 @@ def set_plugin_category(handle, category):
 
 def set_plugin_fanart(handle, image_path):
     """Set fanart for a plugin directory
-    
+
     Args:
         handle: Plugin handle
         image_path: Path to fanart image
@@ -175,12 +175,12 @@ def set_plugin_fanart(handle, image_path):
 
 def add_directory_items(handle, items, total_items=None):
     """Add directory items to a plugin listing
-    
+
     Args:
         handle: Plugin handle
         items: List of (url, list_item, is_folder) tuples
         total_items: Total number of items (for progress indication)
-        
+
     Returns:
         True if items were added successfully
     """
@@ -189,7 +189,7 @@ def add_directory_items(handle, items, total_items=None):
 
 def add_sort_method(handle, sort_method, label2=None):
     """Add a sort method to a plugin directory
-    
+
     Args:
         handle: Plugin handle
         sort_method: Sort method constant (e.g., xbmcplugin.SORT_METHOD_LABEL)
@@ -203,7 +203,7 @@ def add_sort_method(handle, sort_method, label2=None):
 
 def container_refresh(url=None):
     """Refresh the current container or a specific URL
-    
+
     Args:
         url: Optional URL to refresh (defaults to current container)
     """
@@ -217,7 +217,7 @@ def container_refresh(url=None):
 
 def container_update(url):
     """Update the current container while respecting path history
-    
+
     Args:
         url: URL to update
     """
@@ -230,7 +230,7 @@ def container_update(url):
 
 def get_current_container_url():
     """Get the current container plugin:// URL
-    
+
     Returns:
         Current container URL as string, or None if not available
     """
@@ -242,12 +242,12 @@ def get_current_container_url():
 
 def get_window_property(key, default=None, window_id=10000):
     """Get a window property value
-    
+
     Args:
         key: Property key
         default: Default value if property is empty
         window_id: Window ID (default: 10000 = home window)
-        
+
     Returns:
         Property value as string, or default if empty
     """
@@ -260,7 +260,7 @@ def get_window_property(key, default=None, window_id=10000):
 
 def set_window_property(key, value, window_id=10000):
     """Set a window property value
-    
+
     Args:
         key: Property key
         value: Property value
@@ -272,7 +272,7 @@ def set_window_property(key, value, window_id=10000):
 
 def clear_window_property(key, window_id=10000):
     """Clear a window property
-    
+
     Args:
         key: Property key
         window_id: Window ID (default: 10000 = home window)
@@ -283,7 +283,7 @@ def clear_window_property(key, window_id=10000):
 
 def show_ok_dialog(title, message, autoclose=False):
     """Show an OK dialog
-    
+
     Args:
         title: Dialog title
         message: Dialog message
@@ -298,14 +298,14 @@ def show_ok_dialog(title, message, autoclose=False):
 
 def show_yesno_dialog(title, message, yeslabel=None, nolabel=None, autoclose=False):
     """Show a yes/no dialog
-    
+
     Args:
         title: Dialog title
         message: Dialog message
         yeslabel: Custom yes label (default: localized Yes)
         nolabel: Custom no label (default: localized No)
         autoclose: If True, dialog auto-closes after a timeout
-        
+
     Returns:
         True if Yes was selected, False if No
     """
@@ -315,12 +315,12 @@ def show_yesno_dialog(title, message, yeslabel=None, nolabel=None, autoclose=Fal
 
 def get_keyboard_input(title, default='', hidden=False):
     """Show a keyboard dialog for user input
-    
+
     Args:
         title: Dialog title
         default: Default text (default: '')
         hidden: If True, input is hidden (for passwords)
-        
+
     Returns:
         User input string if confirmed, None otherwise
     """
@@ -333,7 +333,7 @@ def get_keyboard_input(title, default='', hidden=False):
 
 def execute_builtin(command):
     """Execute a Kodi built-in command
-    
+
     Args:
         command: Built-in command string
     """

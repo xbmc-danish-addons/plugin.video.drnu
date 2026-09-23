@@ -30,7 +30,7 @@ class AreaSelectorDialog(xbmcgui.WindowDialog):
         background = xbmcgui.ControlImage(0, 0, 1280, 720, str(resources_path/'media/fanart.jpg'))
 
         title = xbmcgui.ControlLabel(
-            0, 60, 1280, 60, "[B]%s[/B][CR]%s" % (tr(30100), tr(30101)), 'font30', alignment=2)
+            0, 60, 1280, 60, f"[B]{tr(30100)}[/B][CR]{tr(30101)}", 'font30', alignment=2)
 
         image_x = 250
         image_y = 250
