@@ -70,14 +70,14 @@ structure integration. See Phase 2, 3 for follow-up work.
       - import sorting (`I`)
 - [x] Fix naming debt: `resfresh_ui` → `refresh_ui` (`addon.py:522`),
       `'powter'` → `'poster'` (`addon.py:359`)
-- [x] Shift to ruff (dropped flake8 as requested)
+- [x] Shift to ruff (dropped flake8 as requested); CI updated to use ruff
 
 ## Phase 2 — CI and tests
 
 ### CI (`.github/workflows/python-package-conda.yml`)
 
-- [ ] `actions/checkout@v3` → `@v4`
-- [ ] Run `kodi-addon-checker` for both `--branch=nexus` and `--branch=omega`
+- [x] `actions/checkout@v3` → `@v4`
+- [x] Run `kodi-addon-checker` for both `--branch=nexus` and `--branch=omega`
       (addon declares `xbmc.python 3.0.1`, which spans both)
 - [ ] Add `workflow_dispatch` trigger so feature branches can run CI
 - [ ] Split into jobs: `lint`, `addon-check`, `tests`
