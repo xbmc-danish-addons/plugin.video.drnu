@@ -18,26 +18,26 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
-from pathlib import Path
 import pickle
-import traceback
 import time
+import traceback
 import urllib.parse as urlparse
+from pathlib import Path
 
 import xbmc
 import xbmcgui
 import xbmcplugin
 from xbmcvfs import translatePath
 
+from resources.lib import tvapi, tvgui
+from resources.lib.cronjob import setup_cronjob
+from resources.lib.iptvmanager import IPTVManager
+
 # Import everything from kodiutils for backward compatibility
 from resources.lib.kodiutils import *
-from resources.lib import tvapi
-from resources.lib import tvgui
-from resources.lib.iptvmanager import IPTVManager
-from resources.lib.cronjob import setup_cronjob
 
 
-class DrDkTvAddon(object):
+class DrDkTvAddon:
     def __init__(self, plugin_url, plugin_handle):
         self._plugin_url = plugin_url
         self._plugin_handle = plugin_handle
@@ -50,7 +50,7 @@ class DrDkTvAddon(object):
 
         self.api = tvapi.Api(self.cache_path, tr, get_setting, log)
 
-        self.menuItems = list()
+        self.menuItems = []
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
         self.menuItems.append((tr(30205), runScript))
 
@@ -78,10 +78,7 @@ class DrDkTvAddon(object):
         addon_version = get_addon_info('version')
 
         # Compare versions (settings_version was not present in version 6.0.2 and older)
-        if settings_version != '':
-            settings_V = version(settings_version.split('+')[0])
-        else:
-            settings_V = version('6.0.2')
+        settings_V = version(settings_version.split('+')[0]) if settings_version != '' else version('6.0.2')
         addon_V = version(addon_version.split('+')[0])
 
         if addon_V > settings_V:
@@ -120,7 +117,7 @@ class DrDkTvAddon(object):
             self.list_entries(f'/{area}')
 
     def showSimpleAreaSelector(self):
-        items = list()
+        items = []
         # DRTV
         item = xbmcgui.ListItem('DR TV', offscreen=True)
         item.setArt({'fanart': str(resources_path / 'media/button-drtv.png'),
@@ -320,7 +317,7 @@ class DrDkTvAddon(object):
                     img['thumb'] = item['images'][label]
                     img['icon'] = item['images'][label]
                     break
-            for label in ['wallpaper', 'square', 'powter']:
+            for label in ['wallpaper', 'square', 'poster']:
                 if label in item['images']:
                     img['fanart'] = item['images'][label]
             listItem.setArt(img)
@@ -363,7 +360,7 @@ class DrDkTvAddon(object):
         return (url, listItem, isFolder,)
 
     def listEpisodes(self, items, addSortMethods=False, seasons=False):
-        directoryItems = list()
+        directoryItems = []
         for item in items:
             gui_item = self.kodi_item(item, is_season=seasons)
             if gui_item is not None:
@@ -483,7 +480,7 @@ class DrDkTvAddon(object):
                 else:
                     player.showSubtitles(False)
 
-    def resfresh_ui(self, params=''):
+    def refresh_ui(self, params=''):
         xbmc.executebuiltin(f'Container.Update({self._plugin_url + params})')
 
     def login(self):
@@ -494,13 +491,13 @@ class DrDkTvAddon(object):
                 xbmcgui.Dialog().ok(tr(30306), tr(30307))
             else:
                 xbmcgui.Dialog().ok(tr(30303), tr(30304) + f'"{self.api.user_name}"')
-                self.resfresh_ui()
+                self.refresh_ui()
         else:
             if err:
                 self.displayError(err)
             else:
                 xbmcgui.Dialog().ok(tr(30303), tr(30305))
-                self.resfresh_ui('?area=drtv')
+                self.refresh_ui('?area=drtv')
 
     def displayError(self, message='n/a'):
         heading = 'API error'
@@ -525,7 +522,7 @@ class DrDkTvAddon(object):
                     self.listEpisodes(self.api.get_mylist())
                 elif PARAMS['show'] == 'continue':
                     self.listEpisodes(self.api.get_continue())
-                    
+
             # iptv manager integration
             elif 'iptv' in PARAMS:
                 if PARAMS['iptv'] == 'channels':
@@ -561,10 +558,10 @@ class DrDkTvAddon(object):
                 self.api.add_to_mylist(PARAMS['addfavorite'])
             elif 'delfavorite' in PARAMS:
                 self.api.delete_from_mylist(PARAMS['delfavorite'])
-                self.resfresh_ui('?show=mylist')
+                self.refresh_ui('?show=mylist')
             elif 'delwatched' in PARAMS:
                 self.api.delete_from_watched(PARAMS['delwatched'])
-                self.resfresh_ui('?show=continue')
+                self.refresh_ui('?show=continue')
 
             elif 'loginnow' in PARAMS:
                 self.login()
@@ -589,7 +586,7 @@ class DrDkTvAddon(object):
             log(['API exception', query], level=1)
             self.displayError(str(ex))
 
-        except IOError as ex:
+        except OSError as ex:
             log(['IO exception', query], level=1)
             self.displayIOError(str(ex))
 

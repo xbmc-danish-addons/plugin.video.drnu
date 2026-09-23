@@ -1,9 +1,9 @@
 
 
-class CronManager():
+class CronManager:
     def getJobs(self):
         return []
 
 
-class CronJob():
+class CronJob:
     pass

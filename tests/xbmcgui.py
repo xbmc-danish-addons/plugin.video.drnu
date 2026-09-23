@@ -1,12 +1,11 @@
-# -*- coding: utf-8 -*-
 # Copyright: (c) 2019, Dag Wieers (@dagwieers) <dag@wieers.com>
 # GNU General Public License v3.0 (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
 """This file implements the Kodi xbmcgui module, either using stubs or alternative functionality"""
 
-from __future__ import absolute_import, division, print_function, unicode_literals
 import sys
-from xbmcextra import kodi_to_ansi
+
 from xbmc import VideoInfoTag
+from xbmcextra import kodi_to_ansi
 
 
 class Control:
@@ -60,13 +59,13 @@ class Control:
 class ControlButton(Control):
     """A reimplementation of the xbmcgui ControlButton class"""
 
-    def __init__(self, 
-                x, y, width, height, label, focusTexture=None, 
+    def __init__(self,
+                x, y, width, height, label, focusTexture=None,
                 noFocusTexture=None, textOffsetX=10, textOffsetY=2, alignment=4, font=None,
                 textColor=None, disabledColor=None, angle=0, shadowColor=None, focusedColor=None
                 ):
         """A stub constructor for the xbmcgui Control class"""
-        super(ControlButton, self).__init__()
+        super().__init__()
 
 
 class ControlImage(Control):
@@ -74,14 +73,14 @@ class ControlImage(Control):
 
     def __init__(self, x, y, width, height, filename, aspectRatio=0, colorDiffuse=None):
         """A stub constructor for the xbmcgui Control class"""
-        super(ControlImage, self).__init__()
+        super().__init__()
 
 
 class ControlLabel(Control):
     """A reimplementation of the xbmcgui ControlLabel class"""
 
     def __init__(self,
-                 x, y, width, height, label, font=None, textColor=None, 
+                 x, y, width, height, label, font=None, textColor=None,
                  disabledColor=None, alignment=0, hasPath=False, angle=0
                  ):
         """A stub constructor for the xbmcgui ControlLabel class"""
@@ -172,7 +171,7 @@ class Dialog:
         print('\033[37;44;1mTEXTVIEWER:\033[35;49;1m [%s]\n\033[37;1m%s\033[39;0m' % (heading, text))
 
     @staticmethod
-    def browseSingle(type, heading, shares, mask=None, useThumbs=None, 
+    def browseSingle(type, heading, shares, mask=None, useThumbs=None,
                      treatAsFolder=None, defaultt=None
                      ):
         """A stub implementation for the xbmcgui Dialog class browseSingle() method"""
@@ -244,7 +243,7 @@ class WindowDialog:
         print('\033[37;44;1mTEXTVIEWER:\033[35;49;1m [%s]\n\033[37;1m%s\033[39;0m' % (heading, text))
 
     @staticmethod
-    def browseSingle(type, heading, shares, mask=None, useThumbs=None, 
+    def browseSingle(type, heading, shares, mask=None, useThumbs=None,
                      treatAsFolder=None, defaultt=None
                      ):
         """A stub implementation for the xbmcgui Dialog class browseSingle() method"""
@@ -480,7 +479,7 @@ class WindowXML(Window):
 
     def __init__(self, xmlFilename, scriptPath, defaultSkin='Default', defaultRes='720p'):
         """A stub constructor for the xbmcgui WindowXML class"""
-        super(WindowXML, self).__init__()
+        super().__init__()
 
 
 class WindowXMLDialog(WindowXML):

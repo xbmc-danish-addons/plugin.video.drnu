@@ -19,21 +19,22 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 
+import base64
 import hashlib
 import json
-from pathlib import Path
 import pickle
 import re
+import secrets
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from urllib.parse import parse_qs, parse_qsl, urlencode, urlparse
+
 import requests
 import requests_cache
-import time
 from dateutil import parser
-from datetime import datetime, timezone, timedelta
-from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
-import secrets
-import base64
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -62,7 +63,13 @@ def cache_path(path):
     return True
 
 
-def fix_query(url, remove={}, add={}, remove_keys=[]):
+def fix_query(url, remove=None, add=None, remove_keys=None):
+    if remove is None:
+        remove = {}
+    if add is None:
+        add = {}
+    if remove_keys is None:
+        remove_keys = []
     o = urlparse(url)
     qs = dict(parse_qsl(o.query))
     for k in remove_keys:
@@ -93,7 +100,7 @@ def full_login(user, password, log_func=None):
     # start login flow
     code_verifier = generate_code_verifier()
     code_challenge = generate_code_challenge(code_verifier)
-    
+
     params = {
         "client_id": CLIENT_ID,
         "code_challenge": code_challenge,
@@ -114,7 +121,7 @@ def full_login(user, password, log_func=None):
     trans_query = "query useTransactionTransactionQuery($id: ID!) { transaction(id: $id) { ... on Node { id __typename } ...useTransactionTransactionFragment  __typename } }" + transaction_fragment  # noqa: E501
     identify_query = "mutation useTransactionIdentificationMutation($input: IdentificationInput!) { identify(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment  # noqa: E501
     authenticate_query = "mutation useTransactionAuthenticationMutation($input: AuthenticationInput!) { authenticate(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment  # noqa: E501
-    
+
     trans_data = {
         "operationName": "useTransactionTransactionQuery",
         "variables": {"id": trans}, "query": trans_query
@@ -173,7 +180,7 @@ def exchange_token(tokens):
         "accessToken": tokens['access_token'], "identityToken": tokens['id_token'],
         "scopes": ["Catalog"], "device": "web_browser", "optout": False,
     }
-    
+
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
     res = requests.post(URL + '/authorization/exchange', json=data, headers=headers)
     if res.status_code != 200:
@@ -189,7 +196,7 @@ def deviceid():
 
 def anonymous_tokens():
     data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
-    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True} 
+    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
 
     url = URL + '/authorization/anonymous-sso?'
     u = requests.post(url, json=data, params=params)
@@ -198,7 +205,7 @@ def anonymous_tokens():
     tokens = json.loads(u.content)
     return tokens
 
-class Api():
+class Api:
     def __init__(self, cachePath, getLocalizedString, get_setting, log_func=None):
         self.cachePath = cachePath
         self.tr = getLocalizedString
@@ -446,7 +453,7 @@ class Api():
         elif 'categories' in item:
             label = ' '.join(item['categories']).lower()
         if label:
-            for area in A_AA.keys():
+            for area in A_AA:
                 if area in label:
                     return area
         return 'drtv' # fall back to general

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """IPTV Manager Integration module"""
 
 import json

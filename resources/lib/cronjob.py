@@ -1,6 +1,6 @@
-from cron import CronManager, CronJob
 import json
 
+from cron import CronJob, CronManager
 
 cmd_js = {
     "jsonrpc": "2.0",

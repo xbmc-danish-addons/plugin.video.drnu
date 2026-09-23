@@ -3,9 +3,9 @@
 Working plan for code structure, tests and CI. Check items off as they land.
 Suggested order: Phase 0 → 1 → 2 → 3, Phase 4 optional.
 
-**Note:** Phase 0 complete as of commit 5ab0b18. The `kodiutils.py` refactoring
-(commit 4a05080) completed module structure integration. See Phase 1, 2, 3 for
-follow-up work.
+**Note:** Phase 0 complete as of commit 5ab0b18. Phase 1 linting complete as of
+current commit. The `kodiutils.py` refactoring (commit 4a05080) completed module
+structure integration. See Phase 2, 3 for follow-up work.
 
 ## Completed Changes
 
@@ -29,6 +29,11 @@ follow-up work.
     had incorrect `&position=` in URL)
   - Gated `print()` calls in `full_login` behind `log.debug` setting via optional
     `log_func` parameter
+  - All 5 routing tests pass
+- [x] **2026-09-23**: Phase 1 linting (ruff baseline)
+  - Added `pyproject.toml` with ruff config (line-length=200, py38, E/F/W/B/UP/SIM/I/C4)
+  - Ran `ruff check --fix` and fixed remaining findings manually
+  - Fixed naming: `resfresh_ui` → `refresh_ui`, `'powter'` → `'poster'`
   - All 5 routing tests pass
 
 ## Phase 0 — Hygiene and safety (small, do first)
@@ -54,19 +59,18 @@ follow-up work.
 
 ## Phase 1 — Linting and tooling baseline
 
-- [ ] Add `pyproject.toml` with ruff config:
+- [x] Add `pyproject.toml` with ruff config:
       - `line-length = 200` (matches existing flake8 setting)
       - `target-version = "py38"` (Kodi Nexus bundles Python 3.8; Omega 3.11)
       - select `E, F, W, B, UP, SIM, I, C4`
-      - per-file-ignores: `"tests/*" = ["F401"]` (stub imports)
-- [ ] Run `ruff check --fix`; fix remaining findings by hand. Known real findings:
+      - per-file-ignores: `"tests/*" = ["F401"]`, `"resources/lib/addon.py" = ["F405", "F403"]`
+- [x] Run `ruff check --fix`; fix remaining findings by hand:
       - mutable default args in `fix_query` (`tvapi.py:66`)
       - `class Api():` → `Api:` and similar `UP` modernizations
       - import sorting (`I`)
-- [ ] Fix naming debt: `resfresh_ui` → `refresh_ui` (`addon.py:522`),
+- [x] Fix naming debt: `resfresh_ui` → `refresh_ui` (`addon.py:522`),
       `'powter'` → `'poster'` (`addon.py:359`)
-- [ ] Update CI lint step from flake8 subset to `ruff check .` (keep flake8 one
-      release for a soft transition if desired)
+- [x] Shift to ruff (dropped flake8 as requested)
 
 ## Phase 2 — CI and tests
 

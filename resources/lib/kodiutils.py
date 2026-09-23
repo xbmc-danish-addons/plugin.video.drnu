@@ -46,8 +46,6 @@ import xbmc
 import xbmcaddon
 import xbmcgui
 import xbmcplugin
-from xbmcvfs import translatePath
-
 
 # Module-level addon instance and helpers
 addon = xbmcaddon.Addon()
