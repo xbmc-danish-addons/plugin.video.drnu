@@ -1,3 +1,24 @@
 .idea
 *.pyc
 *.pyo
+
+# Bytecode and cache
+__pycache__/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Test artifacts
+.pytest_cache/
+.ruff_cache/
+
+# Token and cache files
+token.p
+*.srt
+search6.pickle
+requests.cache*
+requests_cleaned
+
+# Shell scripts
+*.sh
