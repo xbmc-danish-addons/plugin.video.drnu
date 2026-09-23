@@ -32,8 +32,10 @@ structure integration. See Phase 2, 3 for follow-up work.
   - All 5 routing tests pass
 - [x] **2026-09-23**: Phase 1 linting (ruff baseline)
   - Added `pyproject.toml` with ruff config (line-length=200, py38, E/F/W/B/UP/SIM/I/C4)
-  - Ran `ruff check --fix` and fixed remaining findings manually
+  - Fixed all ruff findings: mutable defaults, dict() calls, blank line whitespace,
+    nested if statements, ternary operators, f-strings, Python 2/3 compat code
   - Fixed naming: `resfresh_ui` → `refresh_ui`, `'powter'` → `'poster'`
+  - Removed Python 2/3 compatibility code from test stubs
   - All 5 routing tests pass
 
 ## Phase 0 — Hygiene and safety (small, do first)

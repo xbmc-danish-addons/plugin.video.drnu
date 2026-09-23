@@ -58,9 +58,7 @@ A_AA = {
 
 def cache_path(path):
     NO_CACHING = ['/liste/drtv-hero']
-    if any([path.startswith(item) for item in NO_CACHING]):
-        return False
-    return True
+    return not any(path.startswith(item) for item in NO_CACHING)
 
 
 def fix_query(url, remove=None, add=None, remove_keys=None):
@@ -232,18 +230,16 @@ class Api:
         self._user_name = ''
 
     def init_sqlite_db(self):
-        if not (self.cachePath/'requests_cleaned').exists():
-            if (self.cachePath/'requests.cache.sqlite').exists():
-                (self.cachePath/'requests.cache.sqlite').unlink()
+        if not (self.cachePath/'requests_cleaned').exists() and (self.cachePath/'requests.cache.sqlite').exists():
+            (self.cachePath/'requests.cache.sqlite').unlink()
         request_fname = str(self.cachePath/'requests.cache')
         self.session = requests_cache.CachedSession(
             request_fname, backend='sqlite', expire_after=self.expire_seconds)
         self.session.mount('https://', self.adapter)
 
-        if (self.cachePath/'requests_cleaned').exists():
-            if (time.time() - (self.cachePath/'requests_cleaned').stat().st_mtime)/3600/24 < self.cleanup_every:
-                # less than self.cleanup_every days since last cleaning, no need...
-                return
+        if (self.cachePath/'requests_cleaned').exists() and (time.time() - (self.cachePath/'requests_cleaned').stat().st_mtime)/3600/24 < self.cleanup_every:
+            # less than self.cleanup_every days since last cleaning, no need...
+            return
 
         # doing recache.db cleanup
         try:
@@ -300,12 +296,11 @@ class Api:
         return None
 
     def refresh_tokens(self):
-        if self._user_token is None:
-            if self.token_file.exists():
-                with self.token_file.open('rb') as fh:
-                    [tokens, self.access_tokens] = pickle.load(fh)
-                    if isinstance(tokens, list):
-                        self.read_tokens(tokens)
+        if self._user_token is None and self.token_file.exists():
+            with self.token_file.open('rb') as fh:
+                [tokens, self.access_tokens] = pickle.load(fh)
+                if isinstance(tokens, list):
+                    self.read_tokens(tokens)
 
         if self._user_token is None:
             err = self.request_tokens()
@@ -347,10 +342,7 @@ class Api:
         return self._profile_token
 
     def _request_get(self, url, params=None, headers=None, use_cache=True):
-        if use_cache and self.caching:
-            u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
-        else:
-            u = requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
+        u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT) if use_cache and self.caching else requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
 
         if u.status_code == 200:
             return u.json()
@@ -390,7 +382,7 @@ class Api:
             ret = self.get_recommendations(id, use_cache=use_cache, param=param)
         return ret
 
-    def get_recommendations(self, id, use_cache=True, param=[]):
+    def get_recommendations(self, id, use_cache=True, param=None):
         url = URL + f'/recommendations/{id}'
         data = {'page_size': '24'}
         if param:
@@ -459,9 +451,8 @@ class Api:
         return 'drtv' # fall back to general
 
     def kids_item(self, item):
-        if 'classification' in item:
-            if item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
-                return True
+        if 'classification' in item and item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
+            return True
         if 'categories' in item:
             for cat in ['dr minisjang', 'dr ramasjang']:
                 if cat in item['categories']:
@@ -505,13 +496,13 @@ class Api:
             raise ApiException(u.text)
 
     def get_home(self, area='drtv'):
-        data = dict(
-            list_page_size=24,
-            max_list_prefetch=1,
-            item_detail_expand='all',
-            path='/',
-            segments='drtv,optedin',
-        )
+        data = {
+            'list_page_size': 24,
+            'max_list_prefetch': 1,
+            'item_detail_expand': 'all',
+            'path': '/',
+            'segments': 'drtv,optedin',
+        }
         if area != 'drtv':
             data['path'] = '/' + area
         js = self.get_programcard(data['path'], data=data)
@@ -603,10 +594,7 @@ class Api:
     def handle_subtitle_vtts(self, subs):
         subtitlesUri = []
         for sub in subs:
-            if sub['language'] in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles']:
-                name = f'{self.cachePath}/{self.tr(30050)}.da.srt'
-            else:
-                name = f'{self.cachePath}/{self.tr(30051)}.da.srt'
+            name = f'{self.cachePath}/{self.tr(30050)}.da.srt' if sub['language'] in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles'] else f'{self.cachePath}/{self.tr(30051)}.da.srt'
             u = self.session.get(sub['link'], timeout=10)
             if u.status_code != 200:
                 u.close()
@@ -653,10 +641,7 @@ class Api:
         links = {item['type']:item['link'] for item in js}
 
         EU = 'Eu' if 'hlsURLEu' in links else ''
-        if with_subtitles:
-            url = links['hlsWithSubtitlesURL' + EU]
-        else:
-            url = links['hlsURL' + EU]
+        url = links['hlsWithSubtitlesURL' + EU] if with_subtitles else links['hlsURL' + EU]
         return url
 
     def get_title(self, item):
@@ -687,11 +672,10 @@ class Api:
             tag.setPlot(item['description'])
         if item.get('tagline', ''):
             tag.setPlotOutline(item['tagline'])
-        if item.get('customFields'):
-            if item['customFields'].get('BroadcastTimeDK'):
-                broadcast = parser.parse(item['customFields']['BroadcastTimeDK'])
-                tag.setFirstAired(broadcast.strftime('%Y-%m-%d'))
-                tag.setYear(int(broadcast.strftime('%Y')))
+        if item.get('customFields') and item['customFields'].get('BroadcastTimeDK'):
+            broadcast = parser.parse(item['customFields']['BroadcastTimeDK'])
+            tag.setFirstAired(broadcast.strftime('%Y-%m-%d'))
+            tag.setYear(int(broadcast.strftime('%Y')))
         if item.get('seasonNumber'):
             tag.setSeason(int(item['seasonNumber']))
         if item.get('episodeNumber'):
