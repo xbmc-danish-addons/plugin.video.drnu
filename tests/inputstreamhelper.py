@@ -1,4 +1,4 @@
 
 
-class Helper():
+class Helper:
     pass

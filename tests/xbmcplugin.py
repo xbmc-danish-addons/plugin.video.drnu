@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
 # Copyright: (c) 2019, Dag Wieers (@dagwieers) <dag@wieers.com>
 # GNU General Public License v3.0 (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
 """This file implements the Kodi xbmcplugin module, either using stubs or alternative functionality"""
 
 # pylint: disable=invalid-name,unused-argument
-from __future__ import absolute_import, division, print_function, unicode_literals
 
 from xbmcaddon import Addon
 from xbmcextra import kodi_to_ansi, uri_to_path
@@ -77,7 +75,7 @@ def addDirectoryItem(handle, url, listitem, isFolder=False, totalItems=0):
     path = uri_to_path(url) if url else ''
     # perma = kodi_to_ansi(listitem.label)  # FIXME: Add permalink
     bullet = '»' if isFolder else '·'
-    print('{bullet} {label}{path}'.format(bullet=bullet, label=label, path=path))
+    print(f'{bullet} {label}{path}')
     return True
 
 
@@ -135,8 +133,8 @@ def setResolvedUrl(handle, succeeded, listitem):
         return
     from xbmc import LOGFATAL, LOGINFO, log
 
-    print(kodi_to_ansi('[B][COLOR=yellow]Title[/COLOR]: {label}[/B]'.format(label=listitem.label)))
-    print(kodi_to_ansi('[COLOR=yellow]URL[/COLOR]:\n{url}'.format(url=listitem.path)))
+    print(kodi_to_ansi(f'[B][COLOR=yellow]Title[/COLOR]: {listitem.label}[/B]'))
+    print(kodi_to_ansi(f'[COLOR=yellow]URL[/COLOR]:\n{listitem.path}'))
     if listitem.info.get('plot'):
         print(kodi_to_ansi('[COLOR=yellow]Plot[/COLOR]:\n{plot}'.format(**listitem.info)))
 

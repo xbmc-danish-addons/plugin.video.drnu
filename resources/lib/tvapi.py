@@ -19,21 +19,22 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 
+import base64
 import hashlib
 import json
-from pathlib import Path
 import pickle
 import re
+import secrets
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from urllib.parse import parse_qs, parse_qsl, urlencode, urlparse
+
 import requests
 import requests_cache
-import time
 from dateutil import parser
-from datetime import datetime, timezone, timedelta
-from urllib.parse import urlparse, parse_qs, parse_qsl, urlencode
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
-import secrets
-import base64
 
 CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
 CHANNEL_PRESET = {
@@ -44,7 +45,6 @@ CHANNEL_PRESET = {
     'DRTV Ekstra': 5
 }
 URL = 'https://production.dr-massive.com/api'
-URL2 = 'https://prod95.dr-massive.com/api'
 CLIENT_ID = "283ba39a2cf31d3b81e922b8"
 GET_TIMEOUT = 10
 A_AA = {
@@ -63,7 +63,13 @@ def cache_path(path):
     return True
 
 
-def fix_query(url, remove={}, add={}, remove_keys=[]):
+def fix_query(url, remove=None, add=None, remove_keys=None):
+    if remove is None:
+        remove = {}
+    if add is None:
+        add = {}
+    if remove_keys is None:
+        remove_keys = []
     o = urlparse(url)
     qs = dict(parse_qsl(o.query))
     for k in remove_keys:
@@ -88,13 +94,13 @@ def generate_code_challenge(code_verifier: str) -> str:
     return base64.urlsafe_b64encode(sha256).decode().rstrip('=')
 
 
-def full_login(user, password):
+def full_login(user, password, log_func=None):
     ses = requests.Session()
 
     # start login flow
     code_verifier = generate_code_verifier()
     code_challenge = generate_code_challenge(code_verifier)
-    
+
     params = {
         "client_id": CLIENT_ID,
         "code_challenge": code_challenge,
@@ -115,7 +121,7 @@ def full_login(user, password):
     trans_query = "query useTransactionTransactionQuery($id: ID!) { transaction(id: $id) { ... on Node { id __typename } ...useTransactionTransactionFragment  __typename } }" + transaction_fragment  # noqa: E501
     identify_query = "mutation useTransactionIdentificationMutation($input: IdentificationInput!) { identify(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment  # noqa: E501
     authenticate_query = "mutation useTransactionAuthenticationMutation($input: AuthenticationInput!) { authenticate(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment  # noqa: E501
-    
+
     trans_data = {
         "operationName": "useTransactionTransactionQuery",
         "variables": {"id": trans}, "query": trans_query
@@ -132,12 +138,15 @@ def full_login(user, password):
     url = 'https://login.dr.dk/graphql'
 
     u1 = ses.post(url, json=trans_data, headers=headers)
-    print(u1.json())
+    if log_func:
+        log_func(u1.json())
     u2 = ses.post(url, json=identify_data, headers=headers)
-    print(u2.json())
+    if log_func:
+        log_func(u2.json())
 
     u3 = ses.post(url, json=authenticate_data, headers=headers)
-    print(u3.json())
+    if log_func:
+        log_func(u3.json())
 
     res2 = ses.get(u3.json()['data']['authenticate']['href'])
     if res2.status_code != 200:
@@ -171,7 +180,7 @@ def exchange_token(tokens):
         "accessToken": tokens['access_token'], "identityToken": tokens['id_token'],
         "scopes": ["Catalog"], "device": "web_browser", "optout": False,
     }
-    
+
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
     res = requests.post(URL + '/authorization/exchange', json=data, headers=headers)
     if res.status_code != 200:
@@ -187,7 +196,7 @@ def deviceid():
 
 def anonymous_tokens():
     data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
-    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True} 
+    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
 
     url = URL + '/authorization/anonymous-sso?'
     u = requests.post(url, json=data, params=params)
@@ -196,10 +205,11 @@ def anonymous_tokens():
     tokens = json.loads(u.content)
     return tokens
 
-class Api():
-    def __init__(self, cachePath, getLocalizedString, get_setting):
+class Api:
+    def __init__(self, cachePath, getLocalizedString, get_setting, log_func=None):
         self.cachePath = cachePath
         self.tr = getLocalizedString
+        self.log = log_func
         self.cleanup_every = int(get_setting('recache.cleanup'))
         self.expire_hours = int(get_setting('recache.expiration'))
         self.caching = get_setting('recache.enabled') == 'true'
@@ -275,7 +285,7 @@ class Api():
         self._profile_token = None
 
         if self.user:
-            access_tokens = full_login(self.user, self.password)
+            access_tokens = full_login(self.user, self.password, self.log)
             if 'error' in access_tokens:
                 err = access_tokens['error']
                 return err
@@ -395,13 +405,6 @@ class Api():
         if u.status_code != 204:
             raise ApiException(u.text)
 
-    def add_to_watched(self, id, duration):
-        url = f'{URL}/account/profile/continue-watching/{id}&position={int(duration)}'
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-        u = self.session.put(url, headers=headers)
-        if u.status_code != 200:
-            raise ApiException(u.text)
-
     def delete_from_mylist(self, id):
         url = f'{URL}/account/profile/bookmarks/{id}'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -450,7 +453,7 @@ class Api():
         elif 'categories' in item:
             label = ' '.join(item['categories']).lower()
         if label:
-            for area in A_AA.keys():
+            for area in A_AA:
                 if area in label:
                     return area
         return 'drtv' # fall back to general

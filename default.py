@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
-from resources.lib import addon
 import sys
+
+from resources.lib import addon
 
 # Start of Module
 if __name__ == "__main__":

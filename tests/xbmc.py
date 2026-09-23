@@ -1,16 +1,15 @@
-# -*- coding: utf-8 -*-
 # Copyright: (c) 2019, Dag Wieers (@dagwieers) <dag@wieers.com>
 # GNU General Public License v3.0 (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
 """This file implements the Kodi xbmc module, either using stubs or alternative functionality"""
 
 # pylint: disable=invalid-name,no-self-use,too-many-branches,unused-argument
 
-from __future__ import absolute_import, division, print_function, unicode_literals
 
-import os
 import json
+import os
 import time
 import weakref
+
 from xbmcextra import ADDON_ID, global_settings, import_language
 
 LOGLEVELS = ['Debug', 'Info', 'Notice', 'Warning', 'Error', 'Severe', 'Fatal', 'None']
@@ -37,7 +36,7 @@ settings = global_settings()
 LANGUAGE = import_language(language=settings.get('locale.language'))
 
 
-class Keyboard(object):  # pylint: disable=useless-object-inheritance
+class Keyboard:  # pylint: disable=useless-object-inheritance
     """A stub implementation of the xbmc Keyboard class"""
 
     def __init__(self, line='', heading=''):
@@ -55,7 +54,7 @@ class Keyboard(object):  # pylint: disable=useless-object-inheritance
         return 'test'
 
 
-class Monitor(object):  # pylint: disable=useless-object-inheritance
+class Monitor:  # pylint: disable=useless-object-inheritance
     """A stub implementation of the xbmc Monitor class"""
     _instances = set()
 
@@ -93,7 +92,7 @@ class Monitor(object):  # pylint: disable=useless-object-inheritance
         cls._instances -= dead
 
 
-class Player(object):  # pylint: disable=useless-object-inheritance
+class Player:  # pylint: disable=useless-object-inheritance
     """A stub implementation of the xbmc Player class"""
     def __init__(self):
         """A stub constructor for the xbmc Player class"""
@@ -143,7 +142,7 @@ class Player(object):  # pylint: disable=useless-object-inheritance
         return
 
 
-class PlayList(object):  # pylint: disable=useless-object-inheritance
+class PlayList:  # pylint: disable=useless-object-inheritance
     """A stub implementation of the xbmc PlayList class"""
 
     def __init__(self, playList):
@@ -160,7 +159,7 @@ class PlayList(object):  # pylint: disable=useless-object-inheritance
         """A stub implementation for the xbmc PlayList class size() method"""
 
 
-class VideoInfoTag(object):  # pylint: disable=useless-object-inheritance
+class VideoInfoTag:  # pylint: disable=useless-object-inheritance
     """A stub implementation of the xbmc VideoInfoTag class"""
 
     def __init__(self):
@@ -249,9 +248,7 @@ def executeJSONRPC(jsonrpccommand):
         return json.dumps(ret)
 
     ret = dict(id=command.get('id'), jsonrpc='2.0', result='OK')
-    if command.get('method').startswith('Input'):
-        pass
-    elif command.get('method') == 'Player.Open':
+    if command.get('method').startswith('Input') or command.get('method') == 'Player.Open':
         pass
     elif command.get('method') == 'Settings.GetSettingValue':
         key = command.get('params').get('setting')
@@ -329,7 +326,7 @@ def log(msg, level=0):
         color1 = '\033[33;1m'
     elif level == 0:
         color2 = '\033[30;1m'
-    print('{color1}{name}: {color2}{msg}\033[39;0m'.format(name=name, color1=color1, color2=color2, msg=str(msg)))
+    print(f'{color1}{name}: {color2}{str(msg)}\033[39;0m')
 
 
 def sleep(timemillis):

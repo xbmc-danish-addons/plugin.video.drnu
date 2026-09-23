@@ -1,10 +1,9 @@
-# -*- coding: utf-8 -*-
 """Integration tests for Routing functionality"""
 
-from pathlib import Path
 import json
 import sys
 import urllib.parse as urlparse
+from pathlib import Path
 
 xbmc = __import__('xbmc')
 xbmcaddon = __import__('xbmcaddon')
