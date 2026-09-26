@@ -1,0 +1,175 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:m",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | M",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/m",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432950'&Width=1920&Height=1080&ImageId='51339337'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432950'&Width=1440&Height=2160&ImageId='51339339'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432950'&Width=1920&Height=1080&ImageId='51339369'"
+    },
+    "duration": 5263,
+    "releaseYear": 2021,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "432950"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "432950"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "432950"
+    ],
+    "categories": [
+     "film",
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,Tegnefilm,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "TJEKKIET",
+     "DisplayCategory": "Film,Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Mus og Ræv i den syvende himmel",
+     "ExtraDetails": "Film | 1T 28M",
+     "TitleExtraDetails": "DR Ramasjang | 1T 28M",
+     "PathIdSegment": "mus-og-raev-i-den-syvende-himmel_432950",
+     "BroadcastTimeDK": "2024-02-09T20:00:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852211180",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "432950",
+    "type": "program",
+    "shortDescription": "Den lille mus Lily og ræven Morris mødes i dyrehimlen efter en ulykke. De mister deres naturlige instinkter og bliver bedste venner. Takket være venskabets styrke kan de overvinde det, der i første omgang synes umuligt. Udløber: 16. mar 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Mus og Ræv i den syvende himmel",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/mus-og-raev-i-den-syvende-himmel_432950",
+    "watchPath": "/se/mus-og-raev-i-den-syvende-himmel_432950"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='149623'&Width=1920&Height=1080&ImageId='4254551'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='149623'&Width=1920&Height=1080&ImageId='4254567'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='149623'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "149623"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "149623"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Mysteriebureauet",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "mysteriebureauet_149623",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1844248239000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "149623",
+    "type": "show",
+    "shortDescription": "Konrad og hans mormor har begge en livlig fantasi og sammen udspionerer de den nye mand, der er flyttet ind på mormors vej. Finsk serie.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Mysteriebureauet",
+    "vodItemWatchPath": "",
+    "path": "/serie/mysteriebureauet_149623"
+   }
+  ],
+  "size": 26,
+  "paging": {
+   "total": 2,
+   "page": 2,
+   "size": 24,
+   "previous": "/lists/78113?page_size=24&page=1&param=TitleGroupKey%3Am&lang=da&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

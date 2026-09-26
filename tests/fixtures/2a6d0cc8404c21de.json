@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442948'&Width=1920&Height=1080&ImageId='51790181'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442948'&Width=1440&Height=2160&ImageId='51790183'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442948'&Width=1920&Height=1080&ImageId='51790185'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4967,
+  "releaseYear": 2018,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-04T21:59:00Z",
+    "scopes": [
+     "442948"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T17:30:24Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-04T21:59:00Z",
+    "scopes": [
+     "442948"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T17:30:24Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442948"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "FRANKRIG & MONACO",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Ulvehunden",
+   "ExtraDetails": "Film | 1T 23M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 23M",
+   "PathIdSegment": "ulvehunden_442948",
+   "BroadcastTimeDK": "2024-03-26T18:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852206310",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442948",
+  "type": "program",
+  "description": "Animationsfilm fra 2018.\nUlvehunden, Hvidtand, lever alene med sin mor i Alaskas vildmark, indtil han finder sit hjem hos indianerne, der bliver narret til at sælge ham til en brutal hundekamps-arrangør. Det er et forfærdeligt liv, men heldigvis findes der også gode mennesker i vildmarken. Udløber: 4. apr 2024",
+  "shortDescription": "Animationsfilm fra 2018.\nUlvehunden, Hvidtand, lever alene med sin mor i Alaskas vildmark, indtil han finder sit hjem hos indianerne, der bliver narret til at sælge ham til en brutal hundekamps-arrangør. Det er et forfærdeligt liv, men heldigvis findes de",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Ulvehunden",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/ulvehunden_442948",
+  "watchPath": "/se/ulvehunden_442948",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

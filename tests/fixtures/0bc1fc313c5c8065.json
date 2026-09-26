@@ -1,0 +1,676 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:o",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show"
+  ],
+  "description": "",
+  "title": "Ramasjang | O",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/o",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='35340'&Width=1920&Height=1080&ImageId='4482405'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='35340'&Width=1920&Height=1080&ImageId='4482407'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='35340'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='35340'&Width=2048&Height=2048&ImageId='6672408'"
+    },
+    "availableSeasonCount": 3,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "35340"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "35340"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Oda Omvendt",
+     "ExtraDetails": "Ramasjang ø | 3 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 3 SÆSONER",
+     "PathIdSegment": "oda-omvendt_35340",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1901647835000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "35340",
+    "type": "show",
+    "shortDescription": "Magiske historier om den rebelske og sjove Oda Omvendt.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Oda Omvendt",
+    "vodItemWatchPath": "",
+    "path": "/serie/oda-omvendt_35340"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='243448'&Width=1920&Height=1080&ImageId='9746107'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='243448'&Width=1920&Height=1080&ImageId='9746110'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='243448'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='243448'&Width=2048&Height=2048&ImageId='10075023'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "243448"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "243448"
+    ],
+    "categories": [
+     "dyr",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dyr,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Dyr",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Odderen Svenn",
+     "ExtraDetails": "Dyr | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "ShortVideoUrl": "https://drod01p-vh.akamaihd.net/i/all/clear/streaming/c4/6072bb0aaa5a611bf0ef7dc4/VSR-Odderen-Svenn-Flyn_a003ff2cc537482aaec0c1b554948827_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "odderen-svenn_243448",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2867613638000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "243448",
+    "type": "show",
+    "shortDescription": "Familien Veie-Rosvoll får noget af en overraskelse, da den lille odderunge Svenn flytter ind under deres terrasse. Den bliver dog hurtigt en elsket del af familien - selvom den skal konkurrere med et par mopser! Norsk dokumentarserie.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Se hele serien nu",
+    "themes": [],
+    "title": "Odderen Svenn",
+    "vodItemWatchPath": "",
+    "path": "/serie/odderen-svenn_243448"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6405'&Width=1920&Height=1080&ImageId='4283975'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6405'&Width=1920&Height=1080&ImageId='4283977'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6405'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6405"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6405"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Onkel Reje og børnenes brevkasse",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "onkel-reje-og-boernenes-brevkasse_6405",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1089412679000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6405",
+    "type": "show",
+    "shortDescription": "Musikalsk og legesyg brevkasse med Onkel Reje og Brille.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Onkel Reje og børnenes brevkasse",
+    "vodItemWatchPath": "",
+    "path": "/serie/onkel-reje-og-boernenes-brevkasse_6405"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426014'&Width=1920&Height=1080&ImageId='50751180'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426014'&Width=1920&Height=1080&ImageId='50751174'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426014'&Width=1440&Height=2160&ImageId='50751186'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "426014"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "426014"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang",
+     "musik"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Onkel Reje og Galaksens Helte",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "onkel-reje-og-galaksens-helte_426014",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4192357035000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "426014",
+    "type": "show",
+    "shortDescription": "Forrygende dansk rumeventyr for børn. Mormor bliver kidnappet af et rumskib, og Onkel Reje tager på en hæsblæsende redningsaktion for at befri hende fra en ond kejser i det ydre rum.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Onkel Reje og Galaksens Helte",
+    "vodItemWatchPath": "",
+    "path": "/serie/onkel-reje-og-galaksens-helte_426014"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='400996'&Width=1920&Height=1080&ImageId='48137595'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='400996'&Width=1920&Height=1080&ImageId='48137597'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='400996'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "400996"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "400996"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Onkel Rejes fede sommerferie",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "onkel-rejes-fede-sommerferie_400996",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2794827316000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "400996",
+    "type": "show",
+    "shortDescription": "Det er sommer og Onkel Reje og Brille har travlt med at lave ingenting i deres lille kolonihave sammen med drengen Krølle, Onkel Bum, Doktor Mogens, Mormor og de andre beboere i nabolaget. Det hele tager en uventet drejning, da Onkel Reje opdager, at han ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Onkel Rejes fede sommerferie",
+    "vodItemWatchPath": "",
+    "path": "/serie/onkel-rejes-fede-sommerferie_400996"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='67094'&Width=1920&Height=1080&ImageId='4121152'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='67094'&Width=1920&Height=1080&ImageId='4121157'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='67094'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "67094"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "67094"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Onkel Rejes Heavyband",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "onkel-rejes-heavyband_67094",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1845074052000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "67094",
+    "type": "show",
+    "shortDescription": "En mega heavy serie med Onkel Reje, Brille og drengen Krølle.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Onkel Rejes Heavyband",
+    "vodItemWatchPath": "",
+    "path": "/serie/onkel-rejes-heavyband_67094"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='7347'&Width=1920&Height=1080&ImageId='4245210'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='7347'&Width=1920&Height=1080&ImageId='4245231'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='7347'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='7347'&Width=1800&Height=1800&ImageId='16099620'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "7347"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "7347"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Onkel Rejes Sørøvershow",
+     "ExtraDetails": "Ramasjang ø | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "PathIdSegment": "onkel-rejes-soeroevershow_7347",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:891406273000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "7347",
+    "type": "show",
+    "shortDescription": "Onkel Reje og Brille sejler ud på de skøreste og skæggeste eventyr.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Onkel Rejes Sørøvershow",
+    "vodItemWatchPath": "",
+    "path": "/serie/onkel-rejes-soeroevershow_7347"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6451'&Width=1920&Height=1080&ImageId='4284292'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6451'&Width=1920&Height=1080&ImageId='4284286'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6451'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6451"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6451"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "fakta",
+     "dr ramasjang",
+     "krop"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Fakta,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Fakta",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Op og Hop",
+     "ExtraDetails": "Ramasjang ø | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "PathIdSegment": "op-og-hop_6451",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1094049987000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6451",
+    "type": "show",
+    "shortDescription": "Få rørt din krop med Ramasjangs elskede figurer.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Op og Hop",
+    "vodItemWatchPath": "",
+    "path": "/serie/op-og-hop_6451"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='142187'&Width=1920&Height=1080&ImageId='4244837'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='142187'&Width=1920&Height=1080&ImageId='4244864'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='142187'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "142187"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "142187"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "OpFinn",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "opfinn_142187",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1912361266000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "142187",
+    "type": "show",
+    "shortDescription": "Guld fra arkivet om Finn, som aldrig har kendt sin far, men har arvet hans opfindsomhed. Og den er god at have, når man bliver drillet af Peter Pølse. Oplev bl.a. Helle Dolleris og Michael Carøe.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "OpFinn",
+    "vodItemWatchPath": "",
+    "path": "/serie/opfinn_142187"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='157304'&Width=1920&Height=1080&ImageId='4282432'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='157304'&Width=1920&Height=1080&ImageId='4282442'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='157304'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='157304'&Width=2048&Height=2048&ImageId='6672783'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "157304"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "157304"
+    ],
+    "categories": [
+     "humor",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Humor,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Humor,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Osman og Jeppe",
+     "ExtraDetails": "Humor | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "PathIdSegment": "osman-og-jeppe_157304",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:754418204000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "157304",
+    "type": "show",
+    "shortDescription": "Dansk børnecomedy om de to skæve gutter Osman og Jeppe og deres daglige skolegang. Med bl.a. Esben Pretzmann, Brian Lykke og Peder T. Pedersen.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Osman og Jeppe",
+    "vodItemWatchPath": "",
+    "path": "/serie/osman-og-jeppe_157304"
+   }
+  ],
+  "size": 10,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

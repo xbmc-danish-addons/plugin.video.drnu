@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425094'&Width=1440&Height=2160&ImageId='50610707'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425094'&Width=1920&Height=1080&ImageId='50610713'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425094'&Width=1920&Height=1080&ImageId='50610696'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425094'&Width=2048&Height=2048&ImageId='50847343'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-12-01T22:59:00Z",
+    "scopes": [
+     "425094"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-20T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "425094"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Æblerup",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "aeblerup_425094",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3403970135000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "425094",
+  "type": "show",
+  "description": "Velkommen til Æblerup! En lille by der er så kedelig og ubetydelig, at den er blevet fjernet fra Google Maps. Men hvis man kigger godt efter, vil man opdage de to børn Trafalgar og Pulver. De er eksperter i at overleve kedsomhed. Gang på gang formår de at skabe vilde og skøre eventyr ud af ingenting. Eventyr, som det viser sig, at de ikke helt kan styre.\nÆblerup er danske tegnefilm, som vil garantere grin for både børn og voksne.",
+  "shortDescription": "Velkommen til Æblerup! En lille by der er så kedelig og ubetydelig, at den er blevet fjernet fra Google Maps. Men hvis man kigger godt efter, vil man opdage de to børn Trafalgar og Pulver. De er eksperter i at overleve kedsomhed. Gang på gang formår de at",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Æblerup",
+  "vodItemWatchPath": "",
+  "path": "/serie/aeblerup_425094",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

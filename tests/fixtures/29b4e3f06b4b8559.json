@@ -1,0 +1,84 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='429251'&Width=1920&Height=1080&ImageId='50929253'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='429251'&Width=1920&Height=1080&ImageId='50929255'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='429251'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-05-19T21:59:00Z",
+    "scopes": [
+     "429251"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-12T04:55:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "429251"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Ivandoe",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "ivandoe_429251",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4971452816000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "429251",
+  "type": "show",
+  "description": "Prins Ivandoe er den mægtigste kronhjorteprins nogensinde - mener han selv! Følg med ham og hans trofaste følgesvend Bert på deres færd gennem de fem kongeriger for at finde den magiske fjer. En eventyrlig mission fyldt med spænding og sjov. Dansk/engelsk tegnefilmserie.",
+  "shortDescription": "Prins Ivandoe er den mægtigste kronhjorteprins nogensinde - mener han selv! Følg med ham og hans trofaste følgesvend Bert på deres færd gennem de fem kongeriger for at finde den magiske fjer. En eventyrlig mission fyldt med spænding og sjov. Dansk/engelsk",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Ivandoe",
+  "vodItemWatchPath": "",
+  "path": "/serie/ivandoe_429251",
+  "genrePaths": [],
+  "totalUserRatings": 0,
+  "nextEpisode": {
+   "available": "16. FEB 2024 | 5:55",
+   "availableUTC": "1708059300"
+  }
+ }
+}

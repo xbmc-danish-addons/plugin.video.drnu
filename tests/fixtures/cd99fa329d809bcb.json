@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='283125'&Width=1440&Height=2160&ImageId='50404620'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='283125'&Width=1920&Height=1080&ImageId='14832718'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='283125'&Width=1920&Height=1080&ImageId='50404613'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3150,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-09-30T21:59:00Z",
+    "scopes": [
+     "283125"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EBLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-11-29T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-09-30T21:59:00Z",
+    "scopes": [
+     "283125"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EONAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-11-29T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "283125"
+  ],
+  "categories": [
+   "dokumentar",
+   "historie",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Historie,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "FRANKRIG & MONACO",
+   "DisplayCategory": "Dokumentar,Historie",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PageTitle": "Ambassadørerne i Berlin: Whistleblowere under 2. Verdenskrig",
+   "ExtraDetails": "Dokumentar | 53M",
+   "TitleExtraDetails": "DR2 | 53M",
+   "PathIdSegment": "ambassadoererne-i-berlin_-whistleblowere-under-2-verdenskrig_283125",
+   "BroadcastTimeDK": "2021-12-01T20:05:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00022116250",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "283125",
+  "type": "program",
+  "description": "Fransk dokumentar fra 2021.\n(Ambassadors in Berlin : The Whistleblowers of WWII)\nDen 30. januar 1933 blev Hitler udnævnt til rigskansler: en revolution var i gang. Hele verden så interesseret og bekymret til. Blandt øjenvidnerne var ambassadører, der blev whistleblowere og forsøgte at advare verden om faren ved nationalsocialismen. Men deres regeringer nægtede at lytte til advarslerne. Her er deres historier. Udløber: 30. sep 2024",
+  "shortDescription": "Fransk dokumentar fra 2021.\n(Ambassadors in Berlin : The Whistleblowers of WWII)\nDen 30. januar 1933 blev Hitler udnævnt til rigskansler: en revolution var i gang. Hele verden så interesseret og bekymret til. Blandt øjenvidnerne var ambassadører, der blev",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Ambassadørerne i Berlin: Whistleblowere under 2. Verdenskrig",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/ambassadoererne-i-berlin_-whistleblowere-under-2-verdenskrig_283125",
+  "watchPath": "/se/ambassadoererne-i-berlin_-whistleblowere-under-2-verdenskrig_283125",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

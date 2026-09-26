@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353279'&Width=1920&Height=1080&ImageId='43285230'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353279'&Width=1440&Height=2160&ImageId='43285234'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353279'&Width=1920&Height=1080&ImageId='48546794'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3700,
+  "releaseYear": 2015,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-12-31T22:59:00Z",
+    "scopes": [
+     "353279"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-01-01T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-12-31T22:59:00Z",
+    "scopes": [
+     "353279"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-01-01T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "353279"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Cirkeline - Coco og det vilde næsehorn",
+   "ExtraDetails": "Film | 1T 2M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 2M",
+   "PathIdSegment": "cirkeline-_-coco-og-det-vilde-naesehorn_353279",
+   "BroadcastTimeDK": "2022-12-29T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851801590",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "353279",
+  "type": "program",
+  "description": "Cirkeline får en hjerteveninde med prinsessenykker, og Ingolf møder et næsehorn, der er træt af at være den lille. Sammen tager de på en rejse, der lærer dem, at det ikke altid er lykken at være den der bestemmer, og at selv et lillebitte næsehorn kan vise sig at være en meget stor helt. Udløber: 31. dec 2025",
+  "shortDescription": "Cirkeline får en hjerteveninde med prinsessenykker, og Ingolf møder et næsehorn, der er træt af at være den lille. Sammen tager de på en rejse, der lærer dem, at det ikke altid er lykken at være den der bestemmer, og at selv et lillebitte næsehorn kan vis",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Cirkeline - Coco og det vilde næsehorn",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/cirkeline-_-coco-og-det-vilde-naesehorn_353279",
+  "watchPath": "/se/cirkeline-_-coco-og-det-vilde-naesehorn_353279",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

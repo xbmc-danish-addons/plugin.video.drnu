@@ -1,0 +1,83 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='380335'&Width=1920&Height=1080&ImageId='45834490'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='380335'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='380335'&Width=1920&Height=1080&ImageId='45834642'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='380335'&Width=2048&Height=2048&ImageId='46290774'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 2,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-11-13T22:59:00Z",
+    "scopes": [
+     "380335"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-05-05T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "380335"
+  ],
+  "categories": [
+   "fakta",
+   "dr ramasjang",
+   "acc_spoken_subtitles",
+   "musik"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Fakta,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Fakta",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Historietimen",
+   "ExtraDetails": "Fakta | 2 SÆSONER",
+   "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+   "PathIdSegment": "historietimen_380335",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4408215717000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "380335",
+  "type": "show",
+  "description": "Historie-professoren i skikkelse af Jesper Asholt tager os i denne serie med rundt til en række af Danmarks slotte og seværdigheder og fortæller både den rigtige historie - og stedets spøgelseshistorier. Så pas på, det kan godt blive uhyggeligt, især hvis man tror på spøgelser!",
+  "shortDescription": "Historie-professoren i skikkelse af Jesper Asholt tager os i denne serie med rundt til en række af Danmarks slotte og seværdigheder og fortæller både den rigtige historie - og stedets spøgelseshistorier. Så pas på, det kan godt blive uhyggeligt, især hvis",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Historietimen",
+  "vodItemWatchPath": "",
+  "path": "/serie/historietimen_380335",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

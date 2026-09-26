@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1920&Height=1080&ImageId='51790158'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1440&Height=2160&ImageId='51790165'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1920&Height=1080&ImageId='51914111'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4497,
+  "releaseYear": 2004,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-03-30T22:59:00Z",
+    "scopes": [
+     "442946"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-23T17:30:09Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-03-30T22:59:00Z",
+    "scopes": [
+     "442946"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-23T17:30:09Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442946"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Balto - Den store forandring",
+   "ExtraDetails": "Film | 1T 15M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 15M",
+   "PathIdSegment": "balto-_-den-store-forandring_442946",
+   "BroadcastTimeDK": "2024-03-23T18:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00020730120",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442946",
+  "type": "program",
+  "description": "Amerikansk animationsfilm fra 2004 med dansk tale.\n(Balto III)\nEn postflyver begynder at flyve forsyninger til den lille by Nome og truer med at gøre Balto og hans slædehundevenner arbejdsløse. Et væddeløb mellem slædehundene og flyet ender med sejr til hundene, da flyvemaskinen aldrig kommer i mål. Men Balto fornemmer, at der må være sket en ulykke og øjner en chance for at vise slædehundenes værd.\nManuskript: Elana Lesser og Cliff Ruby.\nInstruktion: Phil Weinstein. Udløber: 30. mar 2024",
+  "shortDescription": "Amerikansk animationsfilm fra 2004 med dansk tale.\n(Balto III)\nEn postflyver begynder at flyve forsyninger til den lille by Nome og truer med at gøre Balto og hans slædehundevenner arbejdsløse. Et væddeløb mellem slædehundene og flyet ender med sejr til h",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Balto - Den store forandring",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/balto-_-den-store-forandring_442946",
+  "watchPath": "/se/balto-_-den-store-forandring_442946",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

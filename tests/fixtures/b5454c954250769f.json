@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414573'&Width=1440&Height=2160&ImageId='49939558'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414573'&Width=1920&Height=1080&ImageId='49939553'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414573'&Width=1920&Height=1080&ImageId='49939555'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2898,
+  "releaseYear": 2023,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-01-12T22:59:00Z",
+    "scopes": [
+     "414573"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-10-17T07:00:38Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-01-12T22:59:00Z",
+    "scopes": [
+     "414573"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E1NAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-10-17T07:00:38Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "414573"
+  ],
+  "categories": [
+   "dokumentar",
+   "livsstil",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Livsstil,DR1,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "SVERIGE",
+   "DisplayCategory": "Dokumentar,Livsstil",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PageTitle": "Aldrig mere kebab",
+   "ExtraDetails": "Dokumentar | 48M",
+   "TitleExtraDetails": "DR1 | 48M",
+   "PathIdSegment": "aldrig-mere-kebab_414573",
+   "BroadcastTimeDK": "2023-10-17T09:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00292300900",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "414573",
+  "type": "program",
+  "description": "Svensk dokumentar fra 2023.\n(Aldrig mer kebab)\nJournalisten Gurgin opsiger sit job hos Sveriges Radio, flytter ud af sin lejlighed og ind i en autocamper sammen med hunden Ronja - alt sammen for at mindske sin klimapåvirkning. Men Gurgins forældre forstår ikke hans nye livsstil. Han drev tidligere en kebabrestaurant og forsøger nu at få sin far til at blive veganer. Hans mor drømmer om børnebørn, mens Gurgin overvejer at blive steriliseret. Mange konflikter, men også meget kærlighed og humor. Udløber: 12. jan 2025",
+  "shortDescription": "Svensk dokumentar fra 2023.\n(Aldrig mer kebab)\nJournalisten Gurgin opsiger sit job hos Sveriges Radio, flytter ud af sin lejlighed og ind i en autocamper sammen med hunden Ronja - alt sammen for at mindske sin klimapåvirkning. Men Gurgins forældre forstår",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Aldrig mere kebab",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/aldrig-mere-kebab_414573",
+  "watchPath": "/se/aldrig-mere-kebab_414573",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

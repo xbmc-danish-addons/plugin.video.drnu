@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419740'&Width=1920&Height=1080&ImageId='51115939'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419740'&Width=1440&Height=2160&ImageId='51153516'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419740'&Width=1920&Height=1080&ImageId='51153604'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-10-15T21:59:00Z",
+    "scopes": [
+     "419740"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-04T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "419740"
+  ],
+  "categories": [
+   "dokumentar",
+   "kultur",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Kultur,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Dokumentar,Kultur",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Store danske kunstnere",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "PathIdSegment": "store-danske-kunstnere_419740",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4322310138000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "419740",
+  "type": "show",
+  "description": "Med deres skulpturer og malerier formede de det Danmark, vi kender i dag. Det krævede kampe mod egne dæmoner, normer og kønsroller. Oplev kunstnerne Bertel Thorvaldsen, Anne Marie Carl-Nielsen, Johan Thomas Lundbye og Elisabeth Jerichau Baumann i denne dramadokumentarserie.",
+  "shortDescription": "Med deres skulpturer og malerier formede de det Danmark, vi kender i dag. Det krævede kampe mod egne dæmoner, normer og kønsroller. Oplev kunstnerne Bertel Thorvaldsen, Anne Marie Carl-Nielsen, Johan Thomas Lundbye og Elisabeth Jerichau Baumann i denne dr",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Store danske kunstnere",
+  "vodItemWatchPath": "",
+  "path": "/serie/store-danske-kunstnere_419740",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

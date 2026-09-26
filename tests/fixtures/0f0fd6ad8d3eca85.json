@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='386103'&Width=1920&Height=1080&ImageId='46871459'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='386103'&Width=1440&Height=2160&ImageId='46871453'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='386103'&Width=1920&Height=1080&ImageId='46871447'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-07-03T21:59:00Z",
+    "scopes": [
+     "386103"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-18T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "386103"
+  ],
+  "categories": [
+   "dokumentar",
+   "p3",
+   "acc_spoken_subtitles",
+   "acc_sign_language"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,P3",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Alexanders krig",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "P3 | 1 SÆSON",
+   "PathIdSegment": "alexanders-krig_386103",
+   "ShortVideoUrl": "https://drod21f.akamaized.net/all/clear/none/af/64882f5f2442d61f0c8219af/64882f5a3cfb033514ff21c2/stream_fmp4/master_manifest.m3u8",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4030056121000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "386103",
+  "type": "show",
+  "description": "Bevæbnet med et kamera sender Alexander live på Instagram fra fronten i Ukraine. Som uafhængig fotograf rapporterer han alle krigens rædsler, råt og ufiltreret. Hans mission er at få folk til at forstå konsekvenserne for krigens mange civile ofre. Men billederne har en pris, for Alexander lever et liv i undtagelsestilstand - både i Ukraine, men også hjemme i Danmark, hvor hverdagen er præget af kompleks PTSD og meningsløshed.",
+  "shortDescription": "Bevæbnet med et kamera sender Alexander live på Instagram fra fronten i Ukraine. Som uafhængig fotograf rapporterer han alle krigens rædsler, råt og ufiltreret. Hans mission er at få folk til at forstå konsekvenserne for krigens mange civile ofre. Men bil",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Hele serien | Et liv i undtagelsestilstand – i Ukraine og hjemme i Danmark",
+  "themes": [],
+  "title": "Alexanders krig",
+  "vodItemWatchPath": "",
+  "path": "/serie/alexanders-krig_386103",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

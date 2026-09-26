@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389865'&Width=1920&Height=1080&ImageId='46871705'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389865'&Width=1920&Height=1080&ImageId='50345210'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='389865'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2859,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-05-20T21:59:00Z",
+    "scopes": [
+     "389865"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-13T04:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-05-20T21:59:00Z",
+    "scopes": [
+     "389865"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E1NAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-13T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "389865"
+  ],
+  "categories": [
+   "dokumentar",
+   "kultur",
+   "musik",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Kultur,Musik,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "STORBRITANNIEN",
+   "DisplayCategory": "Dokumentar,Kultur,Musik",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "ABBA - 40 år uden musik",
+   "ExtraDetails": "Dokumentar | 48M",
+   "TitleExtraDetails": "DR2 | 48M",
+   "PathIdSegment": "abba-_-40-aar-uden-musik_389865",
+   "BroadcastTimeDK": "2023-06-13T20:40:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00022214510",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "389865",
+  "type": "program",
+  "description": "Britisk musikdokumentar fra 2021.\n(ABBA: The Missing 40 Years)\nDe var én af verdens største popgrupper, med hits som 'Mamma Mia' og 'Dancing Queen'. Men i 1982 gik ABBA i opløsning. Hvad skete der i de 40 år, inden de fandt sammen igen og udgav albummet Voyage i 2021? Mens Björn og Benny sammen lavede store musical-succeser, gik Agnetha og Frida solo. Frida samarbejdede med Phil Collins og giftede sig med en tysk prins, mens Agnethas liv var præget af isolation i 17 år. Udløber: 20. maj 2025",
+  "shortDescription": "Britisk musikdokumentar fra 2021.\n(ABBA: The Missing 40 Years)\nDe var én af verdens største popgrupper, med hits som 'Mamma Mia' og 'Dancing Queen'. Men i 1982 gik ABBA i opløsning. Hvad skete der i de 40 år, inden de fandt sammen igen og udgav albummet V",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "ABBA - 40 år uden musik",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/abba-_-40-aar-uden-musik_389865",
+  "watchPath": "/se/abba-_-40-aar-uden-musik_389865",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

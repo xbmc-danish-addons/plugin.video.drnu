@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434279'&Width=1920&Height=1080&ImageId='51291063'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434279'&Width=1440&Height=2160&ImageId='51252830'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434279'&Width=1920&Height=1080&ImageId='51291065'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-02-05T22:59:00Z",
+    "scopes": [
+     "434279"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-21T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "434279"
+  ],
+  "categories": [
+   "dokumentar",
+   "dr1",
+   "acc_spoken_subtitles",
+   "acc_sign_language"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Det store adoptionstyveri",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "PathIdSegment": "det-store-adoptionstyveri_434279",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3911568727000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "434279",
+  "type": "show",
+  "description": "David Kildendal bliver adopteret fra Indien til Lolland i 1979, og da han begynder at undersøge sin sag, dukker chokerende hemmeligheder op. Hans efterforskning fører ham på sporet af en meget større historie, hvor indiske forældre systematisk blev franarret deres børn. Den danske stat har haft ansvaret for at føre tilsyn med adoptioner, men hvem blev advaret om de ulovlige adoptioner?",
+  "shortDescription": "David Kildendal bliver adopteret fra Indien til Lolland i 1979, og da han begynder at undersøge sin sag, dukker chokerende hemmeligheder op. Hans efterforskning fører ham på sporet af en meget større historie, hvor indiske forældre systematisk blev franar",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Det store adoptionstyveri",
+  "vodItemWatchPath": "",
+  "path": "/serie/det-store-adoptionstyveri_434279",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

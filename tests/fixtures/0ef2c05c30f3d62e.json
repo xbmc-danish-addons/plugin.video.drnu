@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439494'&Width=1920&Height=1080&ImageId='51568585'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439494'&Width=1440&Height=2160&ImageId='51568587'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439494'&Width=1920&Height=1080&ImageId='51568589'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5301,
+  "releaseYear": 2019,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "439494"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-09T17:31:23Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "439494"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-09T17:31:23Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "439494"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "TYSKLAND",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Kæledyrsligaen",
+   "ExtraDetails": "Film | 1T 28M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 28M",
+   "PathIdSegment": "kaeledyrsligaen_439494",
+   "BroadcastTimeDK": "2024-03-09T18:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852107950",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "439494",
+  "type": "program",
+  "description": "Roger er en herreløs hund i den supermoderne storby Robo City. Da robotter overtager byen, opstår der kaos, og Roger ender sammen med den elegante, forkælede kat Belle. Katten og hunden er langt fra venner, men de må glemme alle deres fordomme og forskelligheder for at redde deres elskede hjem. Det umage par begiver sig ud på en farefuld og begivenhedsrig redningsaktion sammen med deres lodne venner - og en meget følsom robot - for at generobre byen. Udløber: 20. apr 2024",
+  "shortDescription": "Roger er en herreløs hund i den supermoderne storby Robo City. Da robotter overtager byen, opstår der kaos, og Roger ender sammen med den elegante, forkælede kat Belle. Katten og hunden er langt fra venner, men de må glemme alle deres fordomme og forskell",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Kæledyrsligaen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/kaeledyrsligaen_439494",
+  "watchPath": "/se/kaeledyrsligaen_439494",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

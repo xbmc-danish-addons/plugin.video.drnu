@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='345761'&Width=1920&Height=1080&ImageId='42632815'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='345761'&Width=1920&Height=1080&ImageId='42632817'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='345761'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2011,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-10-01T21:59:00Z",
+    "scopes": [
+     "345761"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EMAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-10-01T04:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-10-01T21:59:00Z",
+    "scopes": [
+     "345761"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EVCAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-10-01T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "345761"
+  ],
+  "categories": [
+   "fakta",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Fakta,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Fakta",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Vores Børnehjem - uden mor og far",
+   "ExtraDetails": "Fakta | 34M",
+   "TitleExtraDetails": "DR Ramasjang | 34M",
+   "PathIdSegment": "vores-boernehjem-_-uden-mor-og-far_345761",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922104850",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "345761",
+  "type": "program",
+  "description": "På børnehjemmet Skovgården bor Tobias, Lærke, Thais og 15 andre børn, som ikke kan være hos deres forældre. Selvom intet er normalt, når man som barn er ramt af det allersværeste, er der alligevel meget i børnenes liv, der ligner andre børns: De børster tænder om morgenen, og de går i skole og har lektier. De glæder sig til fødselsdage, slikdage og iPad-tid, og de synes, at det er rart, når deres yndlings-voksen skal putte dem.  Men livet er også svært, fordi de savner deres forældre og ville ønske, at tingene var anderledes.\nI filmen følger vi børnenes liv igennem et år og oplever med deres øjne, hvordan det er at bo et sted som Skovgården. Udløber: 1. okt 2025",
+  "shortDescription": "På børnehjemmet Skovgården bor Tobias, Lærke, Thais og 15 andre børn, som ikke kan være hos deres forældre. Selvom intet er normalt, når man som barn er ramt af det allersværeste, er der alligevel meget i børnenes liv, der ligner andre børns: De børster t",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Vores Børnehjem - uden mor og far",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/vores-boernehjem-_-uden-mor-og-far_345761",
+  "watchPath": "/se/vores-boernehjem-_-uden-mor-og-far_345761",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434949'&Width=1920&Height=1080&ImageId='51416677'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434949'&Width=1440&Height=2160&ImageId='51416689'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434949'&Width=1920&Height=1080&ImageId='51416679'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-04-05T21:59:00Z",
+    "scopes": [
+     "434949"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-02T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "434949"
+  ],
+  "categories": [
+   "serie",
+   "dr ramasjang",
+   "musik"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Den magiske klub",
+   "ExtraDetails": "Serie | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "den-magiske-klub_434949",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3927381929000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "434949",
+  "type": "show",
+  "description": "MGP, magi og musical i Ramasjang.\nTag med i en ikke helt almindelig fritidsklub, hvor kælderen gemmer på en magisk kilde, så der hver dag sker magiske ting i klubben. Undervejs i serien er der sange fra de sidste 20 års MGP, udført som musical med masser af magi og fede dansemoves. Hvis du elsker magi, MGP og seje koreografier så se med her.",
+  "shortDescription": "MGP, magi og musical i Ramasjang.\nTag med i en ikke helt almindelig fritidsklub, hvor kælderen gemmer på en magisk kilde, så der hver dag sker magiske ting i klubben. Undervejs i serien er der sange fra de sidste 20 års MGP, udført som musical med masser ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Den magiske klub",
+  "vodItemWatchPath": "",
+  "path": "/serie/den-magiske-klub_434949",
+  "genrePaths": [],
+  "totalUserRatings": 0,
+  "nextEpisode": {
+   "available": "16. FEB 2024 | 6:00",
+   "availableUTC": "1708059600"
+  }
+ }
+}

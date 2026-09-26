@@ -1,0 +1,4438 @@
+{
+ "status": 200,
+ "json": {
+  "term": "test",
+  "total": 52,
+  "people": [],
+  "series": {
+   "id": "series-items",
+   "title": "Series",
+   "path": "",
+   "itemTypes": [
+    "show"
+   ],
+   "items": [
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3740048'&EntityType='Item'&EntityId='194910'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3740050'&EntityType='Item'&EntityId='194910'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='194910'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "194910"
+     ],
+     "categories": [
+      "livsstil",
+      "videnskab og teknologi",
+      "dr1",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Videnskab og teknologi,DR1",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "DisplayCategory": "Livsstil,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Keld og Hilda tester fremtiden",
+      "ExtraDetails": "Livsstil | 1 SÆSON",
+      "TitleExtraDetails": "DR1 | 1 SÆSON",
+      "ShortVideoUrl": "https://drod07f-vh.akamaihd.net/i/all/clear/streaming/d0/5efc640d539",
+      "PathIdSegment": "keld-og-hilda-tester-fremtiden_194910",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:2663532157000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "194910",
+     "type": "show",
+     "shortDescription": "Keld og Hilda Heick flytter ind i et ultramoderne hus. Her skal de afprøve og teste en stor del af den teknologi, som vi alle kommer til at møde i fremtiden.",
+     "contextualTitle": "",
+     "title": "Keld og Hilda tester fremtiden",
+     "path": "/serie/keld-og-hilda-tester-fremtiden_194910",
+     "availableSeasonCount": 1,
+     "themes": [],
+     "tagline": "Se hele serien | Flytter ind med robotter, gadgets og masser af teknik"
+    },
+    {
+     "images": {
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4421004'&EntityType='Item'&EntityId='35418'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='35418'&Width=1440&Height=2160",
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4420998'&EntityType='Item'&EntityId='35418'&Width=1920&Height=1080",
+      "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='6225824'&EntityType='Item'&EntityId='35418'&Width=2048&Height=2048"
+     },
+     "offers": [],
+     "scopes": [
+      "35418"
+     ],
+     "categories": [
+      "viden og tech",
+      "dr ultra",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Viden og tech,DR Ultra",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "DisplayCategory": "Viden og tech",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PresentationTypeCode": "Ongoing",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "NØRD",
+      "ExtraDetails": "Viden og tech | 4 SÆSONER",
+      "TitleExtraDetails": "DR Ultra | 4 SÆSONER",
+      "PathIdSegment": "noerd_35418",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:1967520417000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "35418",
+     "type": "show",
+     "shortDescription": "Grin med og bliv klogere, når NØRD pranker, tester og battler helt vildt igennem.",
+     "contextualTitle": "",
+     "title": "NØRD",
+     "path": "/serie/noerd_35418",
+     "availableSeasonCount": 4,
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4376492'&EntityType='Item'&EntityId='6443'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4376507'&EntityType='Item'&EntityId='6443'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='6443'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "6443"
+     ],
+     "categories": [
+      "humor",
+      "dr ultra",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Humor,DR Ultra",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "DisplayCategory": "Humor",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Voksenfælden",
+      "ExtraDetails": "Humor | 2 SÆSONER",
+      "TitleExtraDetails": "DR Ultra | 2 SÆSONER",
+      "PathIdSegment": "voksenfaelden_6443",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:1094111964000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "6443",
+     "type": "show",
+     "shortDescription": "To hold børn konkurrerer om at teste de voksne med skjult kamera. Hvor langt rækker voksnes tålmodighed, når de bliver udsat for vilde pranks?",
+     "contextualTitle": "",
+     "title": "Voksenfælden",
+     "path": "/serie/voksenfaelden_6443",
+     "availableSeasonCount": 2,
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='6701148'&EntityType='Item'&EntityId='226888'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='6701151'&EntityType='Item'&EntityId='226888'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='226888'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "226888"
+     ],
+     "categories": [
+      "sport",
+      "underholdning",
+      "krop og sundhed",
+      "p3",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Sport,Underholdning,Krop og sundhed,P3",
+      "BrandingChannelShort": "TP3",
+      "BrandingChannelDisplayName": "P3",
+      "DisplayCategory": "Sport,Underholdning,Krop og sundhed",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Thomas Skovs Sportsprogram",
+      "ExtraDetails": "Sport | 2 SÆSONER",
+      "TitleExtraDetails": "P3 | 2 SÆSONER",
+      "PathIdSegment": "thomas-skovs-sportsprogram_226888",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:756137789000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "226888",
+     "type": "show",
+     "shortDescription": "Thomas Skov tester vanvittige og sjove sportsgrene. Sammen med underholdende gæster forsøger han at lære discipliner som wrestling, ringridning og linedance.",
+     "contextualTitle": "",
+     "title": "Thomas Skovs Sportsprogram",
+     "path": "/serie/thomas-skovs-sportsprogram_226888",
+     "availableSeasonCount": 2,
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50302753'&EntityType='Item'&EntityId='412505'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50302747'&EntityType='Item'&EntityId='412505'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50302763'&EntityType='Item'&EntityId='412505'&Width=1920&Height=1080"
+     },
+     "offers": [],
+     "scopes": [
+      "412505"
+     ],
+     "categories": [
+      "dokumentar",
+      "videnskab og teknologi",
+      "dr2",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Videnskab og teknologi,DR2",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "DisplayCategory": "Dokumentar,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-11",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "True",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Fængselseksperimentet Little Scandinavia",
+      "ExtraDetails": "Dokumentar | 1 SÆSON",
+      "TitleExtraDetails": "DR2 | 1 SÆSON",
+      "PathIdSegment": "faengselseksperimentet-little-scandinavia_412505",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:3830741298000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "412505",
+     "type": "show",
+     "shortDescription": "Et amerikansk fængsel tester elementer fra de skandinaviske fængslers praksis. Hvorvidt lykkes det amerikanerne at fokusere på rehabilitering i stedet for afstraffelse?",
+     "contextualTitle": "",
+     "title": "Fængselseksperimentet Little Scandinavia",
+     "path": "/serie/faengselseksperimentet-little-scandinavia_412505",
+     "availableSeasonCount": 1,
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4395204'&EntityType='Item'&EntityId='6389'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4395206'&EntityType='Item'&EntityId='6389'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='6389'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "6389"
+     ],
+     "categories": [
+      "livsstil",
+      "krop og sundhed",
+      "videnskab og teknologi",
+      "p3",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Krop og sundhed,Videnskab og teknologi,P3",
+      "BrandingChannelShort": "TP3",
+      "BrandingChannelDisplayName": "P3",
+      "DisplayCategory": "Livsstil,Krop og sundhed,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-11",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Menneskeforsøg",
+      "ExtraDetails": "Livsstil | 2 SÆSONER",
+      "TitleExtraDetails": "P3 | 2 SÆSONER",
+      "PathIdSegment": "menneskeforsoeg_6389",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:1073843203000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "6389",
+     "type": "show",
+     "shortDescription": "Menneskeforsøgs frygtløse forsøgskaniner tester blandt andet, hvad der sker, når de bliver pisket med brændenælder, ligger nedsænket i vand i 24 timer i træk og om det er mænd eller kvinder der er mest sadistiske.",
+     "contextualTitle": "",
+     "title": "Menneskeforsøg",
+     "path": "/serie/menneskeforsoeg_6389",
+     "availableSeasonCount": 2,
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='49853688'&EntityType='Item'&EntityId='392545'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='49853695'&EntityType='Item'&EntityId='392545'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='49853692'&EntityType='Item'&EntityId='392545'&Width=2400&Height=3600"
+     },
+     "offers": [],
+     "scopes": [
+      "392545"
+     ],
+     "categories": [
+      "livsstil",
+      "underholdning",
+      "dr2",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Underholdning,DR2",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "DisplayCategory": "Livsstil,Underholdning",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PresentationTypeCode": "Ongoing",
+      "IsGeoRestricted": "True",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Top Gear",
+      "ExtraDetails": "Livsstil | 4 SÆSONER",
+      "TitleExtraDetails": "DR2 | 4 SÆSONER",
+      "ShortVideoUrl": "https://drod24d.akamaized.net/all/clear/none/52/649be0d76a3bbd395834eb52/649be0d474c61b28d4739b3d/stream_fmp4/master_manifest.m3u8",
+      "PathIdSegment": "top-gear_392545",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:4531646592000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "392545",
+     "type": "show",
+     "shortDescription": "Freddie Flintoff, Paddy McGuiness og Chris Harris kaster sig ud i vilde kapløb, skøre eksperimenter og dristige ekspeditioner, når de tester fede sportsvogne, gamle lig og alt med hjul og en motor.",
+     "contextualTitle": "",
+     "title": "Top Gear",
+     "path": "/serie/top-gear_392545",
+     "availableSeasonCount": 4,
+     "themes": [],
+     "tagline": "Glædeligt gensyn: ”Fars bil” betød alt, da værterne var drenge"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='16824433'&EntityType='Item'&EntityId='312754'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='16907707'&EntityType='Item'&EntityId='312754'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='41416911'&EntityType='Item'&EntityId='312754'&Width=1920&Height=1080"
+     },
+     "offers": [],
+     "scopes": [
+      "312754"
+     ],
+     "categories": [
+      "dokumentar",
+      "krop og sundhed",
+      "videnskab og teknologi",
+      "dr1",
+      "acc_spoken_subtitles",
+      "acc_sign_language"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Krop og sundhed,Videnskab og teknologi,DR1",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "DisplayCategory": "Dokumentar,Krop og sundhed,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Min hemmelige familie",
+      "ExtraDetails": "Dokumentar | 1 SÆSON",
+      "TitleExtraDetails": "DR1 | 1 SÆSON",
+      "ShortVideoUrl": "https://drod20g.akamaized.net/all/clear/none/ea/6269100eac5a61194c9465ea/626910090a54b11394c9e5b1/stream_fmp4/master_manifest.m3u8",
+      "PathIdSegment": "min-hemmelige-familie_312754",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:2848633368000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "312754",
+     "type": "show",
+     "shortDescription": "Familiehemmeligheder kan nu komme for dagens lys ved hjælp af billige DNA-test købt på nettet. I denne serie følger vi donorbørn, der er på jagt efter deres ukendte donorfædre og halvsøskende.",
+     "contextualTitle": "",
+     "title": "Min hemmelige familie",
+     "path": "/serie/min-hemmelige-familie_312754",
+     "availableSeasonCount": 1,
+     "themes": [],
+     "tagline": "Hele serien | Detektivarbejde og dilemmaer: Donorbørn leder efter deres ophav"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='14304337'&EntityType='Item'&EntityId='276677'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='14304340'&EntityType='Item'&EntityId='276677'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='276677'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "276677"
+     ],
+     "categories": [
+      "livsstil",
+      "krop og sundhed",
+      "dr1"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Krop og sundhed,DR1",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "DisplayCategory": "Livsstil,Krop og sundhed",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Det store bevægelseseksperiment",
+      "ExtraDetails": "Livsstil | 1 SÆSON",
+      "TitleExtraDetails": "DR1 | 1 SÆSON",
+      "PathIdSegment": "det-store-bevaegelseseksperiment_276677",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:2916469136000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "276677",
+     "type": "show",
+     "shortDescription": "Jacob Riising har en mission. Han skal få børn på en helt almindelig, dansk folkeskole til at bevæge sig mere. Alt skal testes af. Men missionen møder modstand allerede fra start.",
+     "contextualTitle": "",
+     "title": "Det store bevægelseseksperiment",
+     "path": "/serie/det-store-bevaegelseseksperiment_276677",
+     "availableSeasonCount": 1,
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='14593666'&EntityType='Item'&EntityId='284934'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='14593669'&EntityType='Item'&EntityId='284934'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='284934'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "284934"
+     ],
+     "categories": [
+      "viden og tech",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Viden og tech,DR Ultra",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "DisplayCategory": "Viden og tech",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Ultra Nas",
+      "ExtraDetails": "Viden og tech | 1 SÆSON",
+      "TitleExtraDetails": "DR Ultra | 1 SÆSON",
+      "PathIdSegment": "ultra-nas_284934",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:1956625341000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "284934",
+     "type": "show",
+     "shortDescription": "Emil og Kåre undersøger og tester alt, hvad der har med kroppen at gøre. Lige fra knogler og åndedræt til ørevoks og tis. Og så ser de også på, hvad der sker, når kroppen kommer til skade.",
+     "contextualTitle": "",
+     "title": "Ultra Nas",
+     "path": "/serie/ultra-nas_284934",
+     "availableSeasonCount": 1,
+     "themes": []
+    },
+    {
+     "images": {
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='13999002'&EntityType='Item'&EntityId='270435'&Width=1920&Height=1080",
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='13999000'&EntityType='Item'&EntityId='270435'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='270435'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "270435"
+     ],
+     "categories": [
+      "kultur",
+      "dr2"
+     ],
+     "customFields": {
+      "OwnedCategory": "Kultur,DR2",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "DisplayCategory": "Kultur",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PresentationTypeCode": "Ongoing",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Fokusgruppen",
+      "ExtraDetails": "Kultur | 1 SÆSON",
+      "TitleExtraDetails": "DR2 | 1 SÆSON",
+      "ShortVideoUrl": "https://drod03m-vh.akamaihd.net/i/all/clear/streaming/1a/6120ed9bac5a61115438a71a/VS-Fokusgruppen-med-Th_9a4a83e33f034f7f8a07ce6722eb3360_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "fokusgruppen_270435",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:2934484360000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "270435",
+     "type": "show",
+     "shortDescription": "I Fokusgruppen tester DR dansk litteratur på dem den er skrevet til - nemlig læserne.  \nHvad får læserne ud af bøgerne? Og er de tiden værd? \nMens 5 udvalgte læsere fælder dom over en nyere dansk bog, ser forfatteren i al hemmelighed med.",
+     "contextualTitle": "",
+     "title": "Fokusgruppen",
+     "path": "/serie/fokusgruppen_270435",
+     "availableSeasonCount": 1,
+     "themes": [],
+     "tagline": "Fem læsere bedømmer danske bøger, mens forfatteren skjult ser med"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='7244465'&EntityType='Item'&EntityId='225644'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='7244468'&EntityType='Item'&EntityId='225644'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='225644'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "225644"
+     ],
+     "categories": [
+      "underholdning",
+      "natur",
+      "quiz",
+      "dr1"
+     ],
+     "customFields": {
+      "OwnedCategory": "Underholdning,Natur,Quiz,DR1",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "DisplayCategory": "Underholdning,Natur,Quiz",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PresentationTypeCode": "Ongoing",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Hu Hej Vilde Dyr",
+      "ExtraDetails": "Underholdning | 1 SÆSON",
+      "TitleExtraDetails": "DR1 | 1 SÆSON",
+      "ShortVideoUrl": "https://drod03d-vh.akamaihd.net/i/all/clear/streaming/7c/6087b2beaf5a610f0cf81b7c/VS-Hu-Hej-Vilde-Dyr-1-_ca7e322ae19a437bad2402b0773b7d64_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "hu-hej-vilde-dyr_225644",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:2747342404000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "225644",
+     "type": "show",
+     "shortDescription": "Der er fart over feltet, når Joakim Ingversen byder velkommen til et nyt underholdningsprogram med Tina Müller og Kristian Gintberg som holdkaptajner. Hver uge dyster kendte danskere i dyrenes verden, når de skal fange fisk i den brusende flod, når de ska",
+     "contextualTitle": "",
+     "title": "Hu Hej Vilde Dyr",
+     "path": "/serie/hu-hej-vilde-dyr_225644",
+     "availableSeasonCount": 1,
+     "themes": [],
+     "tagline": "Episode 1:8 | Kendte danskere dyster i ny quiz om dyreriget"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='15310460'&EntityType='Item'&EntityId='246398'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='246398'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='44321887'&EntityType='Item'&EntityId='246398'&Width=1920&Height=1080"
+     },
+     "offers": [],
+     "scopes": [
+      "246398"
+     ],
+     "categories": [
+      "dokumentar",
+      "videnskab og teknologi",
+      "dr2"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Videnskab og teknologi,DR2",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "DisplayCategory": "Dokumentar,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-11",
+      "PresentationTypeCode": "Ongoing",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "Eksperimentet: 60 dage på månen",
+      "ExtraDetails": "Dokumentar | 1 SÆSON",
+      "TitleExtraDetails": "DR2 | 1 SÆSON",
+      "ShortVideoUrl": "https://drod03e-vh.akamaihd.net/i/all/clear/streaming/e0/60b4702dac5a6116dc0664e0/VS-Eksperimentet--60-d_6d7fa55e493843359bc78dd0c22cf12c_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "eksperimentet_-60-dage-paa-maanen_246398",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:2533849118000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "246398",
+     "type": "show",
+     "shortDescription": "Kan mennesket overleve 60 dage på månen uden at gå fra forstanden - vel at mærke på 7 kvadratmeter? Det eksperiment kaster de to unge rumarkitekter Karl-Johan Sørensen og Sebastian Aristotelis sig ud i i efteråret 2020. På en simuleret månemission i et af",
+     "contextualTitle": "",
+     "title": "Eksperimentet: 60 dage på månen",
+     "path": "/serie/eksperimentet_-60-dage-paa-maanen_246398",
+     "availableSeasonCount": 1,
+     "themes": [],
+     "tagline": "Se hele serien | To danskere tager på en livsfarlig månemission"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4424635'&EntityType='Item'&EntityId='150703'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4424638'&EntityType='Item'&EntityId='150703'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='150703'&Width=1440&Height=2160"
+     },
+     "offers": [],
+     "scopes": [
+      "150703"
+     ],
+     "categories": [
+      "livsstil",
+      "krop og sundhed",
+      "videnskab og teknologi",
+      "dr2"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Krop og sundhed,Videnskab og teknologi,DR2",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "DisplayCategory": "Livsstil,Krop og sundhed,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-07",
+      "PresentationTypeCode": "Show",
+      "IsGeoRestricted": "False",
+      "IsSeriesDRMPlayoutRequired": "False",
+      "PageTitle": "En farlig arv",
+      "ExtraDetails": "Livsstil | 1 SÆSON",
+      "TitleExtraDetails": "DR2 | 1 SÆSON",
+      "ShortVideoUrl": "https://drod03b-vh.akamaihd.net/i/all/clear/streaming/b6/5e4e4ffe539f0245cca886b6/VS-En-farlig-arv--B--009220013_f89a144d1691488ea42060246f360a59_,483,3667,293,1892,964,2534,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "en-farlig-arv_150703",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:series:2338069221000",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "150703",
+     "type": "show",
+     "shortDescription": "Hjerneforskningen og teknologien, der kan måle vores hjerne, er i rivende udvikling. Jon Sigurd Wegener, der har en grad i neurovidenskab, har altid været fascineret af hjernen og dens ubevidste processer. I mange år har han kigget på andre menneskers hje",
+     "contextualTitle": "",
+     "title": "En farlig arv",
+     "path": "/serie/en-farlig-arv_150703",
+     "availableSeasonCount": 1,
+     "themes": [],
+     "tagline": "Se hele serien | Jon dykker ned i sin egen hjerne og dens ubevidste processer"
+    }
+   ],
+   "size": 14,
+   "paging": {
+    "size": 18,
+    "total": 1,
+    "page": 1
+   }
+  },
+  "playable": {
+   "id": "playable-items",
+   "title": "playable",
+   "path": "",
+   "itemTypes": [
+    "episode",
+    "program"
+   ],
+   "items": [
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='14750203'&EntityType='Item'&EntityId='281211'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='14750205'&EntityType='Item'&EntityId='281211'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='281211'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "281211"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "281211"
+       ]
+      }
+     ],
+     "scopes": [
+      "281211",
+      "281179"
+     ],
+     "categories": [
+      "dokumentar",
+      "p3"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,P3",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TP3",
+      "BrandingChannelDisplayName": "P3",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Dokumentar",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-15",
+      "PlayButtonExtraDetails": "S2:E6 IKEA-testen",
+      "ContextualTitleExtraDetails": "21. NOV 2021 | 21M",
+      "AvailableFrom": "2021-11-21T05:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Ongoing",
+      "PageTitle": "Frigear: Sæson 2 – IKEA-testen",
+      "ExtraDetails": "SÆSON 2 EPISODE 6 | 21M",
+      "PathIdSegment": "frigear_-ikea_testen_281211",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00222126060",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "281211",
+     "type": "episode",
+     "shortDescription": "Når man flytter sammen med en kæreste, er det meget normalt med en tur i IKEA. Det kan bare være lidt udfordrende, hvis man er super bagstiv. Og det er Nikolai..... Udløber: 21. nov 2025",
+     "contextualTitle": "6. IKEA-testen",
+     "title": "Frigear: IKEA-testen",
+     "path": "/episode/frigear_-ikea_testen_281211",
+     "duration": 1251,
+     "releaseYear": 0,
+     "episodeNumber": 6,
+     "episodeName": "Frigear: IKEA-testen",
+     "seasonId": "281179",
+     "showId": "217235",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/frigear_-ikea_testen_281211",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4374903'&EntityType='Item'&EntityId='55699'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4374919'&EntityType='Item'&EntityId='55699'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='55699'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "55699"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "55699"
+       ]
+      }
+     ],
+     "scopes": [
+      "55699",
+      "35625"
+     ],
+     "categories": [
+      "viden og tech",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Viden og tech,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Viden og tech",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S1:E8 Tester kæledyrs-apps",
+      "ContextualTitleExtraDetails": "28. OKT 2018 | 5M",
+      "AvailableFrom": "2018-10-28T05:00:00.0000000Z",
+      "PresentationTypeCode": "Ongoing",
+      "PageTitle": "NØRD: Sæson 1 – Tester kæledyrs-apps",
+      "ExtraDetails": "SÆSON 1 EPISODE 8 | 5M",
+      "PathIdSegment": "noerd_-tester-kaeledyrs_apps_55699",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00951896230",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "55699",
+     "type": "episode",
+     "shortDescription": "Udløber: 30. sep 2024",
+     "contextualTitle": "8. Tester kæledyrs-apps",
+     "title": "NØRD: Tester kæledyrs-apps",
+     "path": "/episode/noerd_-tester-kaeledyrs_apps_55699",
+     "duration": 289,
+     "releaseYear": 2018,
+     "episodeNumber": 8,
+     "episodeName": "NØRD: Tester kæledyrs-apps",
+     "seasonId": "35625",
+     "showId": "35418",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/noerd_-tester-kaeledyrs_apps_55699",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='1356976'&EntityType='Item'&EntityId='122152'&Width=1024&Height=576",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='1356982'&EntityType='Item'&EntityId='122152'&Width=1024&Height=576",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='122152'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "TVL",
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2019-07-07T16:25:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "122152"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "TVL",
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2019-07-07T16:25:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "122152"
+       ]
+      }
+     ],
+     "scopes": [
+      "122152",
+      "121769"
+     ],
+     "categories": [
+      "sport",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Sport,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Sport",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S1:E2 Åh nej, en test!",
+      "ContextualTitleExtraDetails": "10. JAN 2017 | 12M",
+      "AvailableFrom": "2017-01-10T05:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Håndboldmissionen: Sæson 1 – Åh nej, en test!",
+      "ExtraDetails": "SÆSON 1 EPISODE 2 | 12M",
+      "PathIdSegment": "haandboldmissionen_-aah-nej-en-test_122152",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00951684020",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "122152",
+     "type": "episode",
+     "shortDescription": "Det er dag to i Håndbold-missionen og trænerne har forberedt en lille eksamen til spillerne. Drengene skal bl.a. have testet deres skudstyrke samt gribe- og driblefærdigheder, så træner-teamet har nogle tal på drengenes udvikling. Tanken er, at spillerne ",
+     "contextualTitle": "2. Åh nej, en test!",
+     "title": "Håndboldmissionen: Åh nej, en test!",
+     "path": "/episode/haandboldmissionen_-aah-nej-en-test_122152",
+     "duration": 724,
+     "releaseYear": 2016,
+     "episodeNumber": 2,
+     "episodeName": "Håndboldmissionen: Åh nej, en test!",
+     "seasonId": "121769",
+     "showId": "121755",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/haandboldmissionen_-aah-nej-en-test_122152",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='16824187'&EntityType='Item'&EntityId='312759'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='16824189'&EntityType='Item'&EntityId='312759'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='16907710'&EntityType='Item'&EntityId='312759'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "True"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "312759"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "True"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "312759"
+       ]
+      }
+     ],
+     "scopes": [
+      "312759",
+      "312755"
+     ],
+     "categories": [
+      "dokumentar",
+      "krop og sundhed",
+      "videnskab og teknologi",
+      "dr1",
+      "acc_spoken_subtitles",
+      "acc_sign_language"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Krop og sundhed,Videnskab og teknologi,DR1,acc_spoken_subtitles,acc_sign_language",
+      "AccessServicesOffered": "StandardVideo,SpokenSubtitles,SignLanguage",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Dokumentar,Krop og sundhed,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S1:E2 DNA-testen",
+      "ContextualTitleExtraDetails": "1. MAJ 2022 | 43M",
+      "AvailableFrom": "2022-05-01T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Min hemmelige familie: Sæson 1 – DNA-testen",
+      "ExtraDetails": "SÆSON 1 EPISODE 2 | 43M",
+      "PathIdSegment": "min-hemmelige-familie_-dna_testen_312759",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00242109020",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "312759",
+     "type": "episode",
+     "shortDescription": "Det er afgørelsens time for Ditte og Stine. Nu kan de endelig få svaret på, om de er halvsøskende. Vil udfaldet af DNA-testen ændre deres liv for altid? Bodil fandt for fire år siden sin amerikanske donorfar. Men deres kommunikation kørte af sporet, og hu",
+     "contextualTitle": "2. DNA-testen",
+     "title": "Min hemmelige familie: DNA-testen",
+     "path": "/episode/min-hemmelige-familie_-dna_testen_312759",
+     "duration": 2600,
+     "releaseYear": 2022,
+     "episodeNumber": 2,
+     "episodeName": "Min hemmelige familie: DNA-testen",
+     "seasonId": "312755",
+     "showId": "312754",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/min-hemmelige-familie_-dna_testen_312759",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='2106189'&EntityType='Item'&EntityId='122169'&Width=1024&Height=576",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='2106191'&EntityType='Item'&EntityId='122169'&Width=1024&Height=576",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='122169'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "TVL",
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2019-07-28T16:40:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "122169"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "TVL",
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2019-07-28T16:40:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "122169"
+       ]
+      }
+     ],
+     "scopes": [
+      "122169",
+      "121769"
+     ],
+     "categories": [
+      "sport",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Sport,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Sport",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S1:E15 Sidste test inden finalen!",
+      "ContextualTitleExtraDetails": "27. JAN 2017 | 11M",
+      "AvailableFrom": "2017-01-27T05:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Håndboldmissionen: Sæson 1 – Sidste test inden finalen!",
+      "ExtraDetails": "SÆSON 1 EPISODE 15 | 11M",
+      "PathIdSegment": "haandboldmissionen_-sidste-test-inden-finalen_122169",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00951684150",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "122169",
+     "type": "episode",
+     "shortDescription": "Det er sidste træning inden den store finale, og i dag vil trænerne have tal på spillernes udvikling. For tre måneder siden fik drengene noteret hvor langt og hurtigt de kunne kaste, samt hvor gode de var til at drible og gribe. I dag finder trænerne du a",
+     "contextualTitle": "15. Sidste test inden finalen!",
+     "title": "Håndboldmissionen: Sidste test inden finalen!",
+     "path": "/episode/haandboldmissionen_-sidste-test-inden-finalen_122169",
+     "duration": 669,
+     "releaseYear": 2016,
+     "episodeNumber": 15,
+     "episodeName": "Håndboldmissionen: Sidste test inden finalen!",
+     "seasonId": "121769",
+     "showId": "121755",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/haandboldmissionen_-sidste-test-inden-finalen_122169",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='11839258'&EntityType='Item'&EntityId='252707'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='11839271'&EntityType='Item'&EntityId='252707'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='252707'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "252707"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "252707"
+       ]
+      }
+     ],
+     "scopes": [
+      "252707",
+      "252671"
+     ],
+     "categories": [
+      "sport",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Sport,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Sport",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S1:E3 Højbjerg tager voksen-test",
+      "ContextualTitleExtraDetails": "11. JUN 2021 | 5M",
+      "AvailableFrom": "2021-06-11T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Ongoing",
+      "PageTitle": "Fodboldstjernerne: Sæson 1 – Højbjerg tager voksen-test",
+      "ExtraDetails": "SÆSON 1 EPISODE 3 | 5M",
+      "ShortVideoUrl": "https://drod05b-vh.akamaihd.net/i/all/clear/streaming/f8/60bf07f9a95a6129ecf17ff8/VSU-FODBOLDSTJERNERNE-_393889733685470396f3065aafe792c5_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "fodboldstjernerne_-hoejbjerg-tager-voksen_test_252707",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00952102030",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "252707",
+     "type": "episode",
+     "shortDescription": "Udløber: 11. jun 2024",
+     "contextualTitle": "3. Højbjerg tager voksen-test",
+     "title": "Fodboldstjernerne: Højbjerg tager voksen-test",
+     "path": "/episode/fodboldstjernerne_-hoejbjerg-tager-voksen_test_252707",
+     "duration": 325,
+     "releaseYear": 2021,
+     "episodeNumber": 3,
+     "episodeName": "Fodboldstjernerne: Højbjerg tager voksen-test",
+     "seasonId": "252671",
+     "showId": "252668",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/fodboldstjernerne_-hoejbjerg-tager-voksen_test_252707",
+     "themes": [],
+     "tagline": "Mød 10 stjerner",
+     "badge": "Fodboldfeber!"
+    },
+    {
+     "images": {
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='44196783'&EntityType='Item'&EntityId='366972'&Width=1920&Height=1080",
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='44196772'&EntityType='Item'&EntityId='366972'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='366972'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "366972"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "366972"
+       ]
+      }
+     ],
+     "scopes": [
+      "366972",
+      "314914"
+     ],
+     "categories": [
+      "nyheder og aktualitet",
+      "p3"
+     ],
+     "customFields": {
+      "OwnedCategory": "Nyheder og Aktualitet,P3",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TP3",
+      "BrandingChannelDisplayName": "P3",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Nyheder og Aktualitet",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-11",
+      "PlayButtonExtraDetails": "S1:E29 Tester landsholdets hemmelige frisparks-våben",
+      "ContextualTitleExtraDetails": "27. JAN 2023 | 5M",
+      "AvailableFrom": "2023-01-27T05:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "P3 Essensen: Sæson 1 – Tester landsholdets hemmelige frisparks-våben",
+      "ExtraDetails": "27. JAN 2023 | 5M",
+      "PathIdSegment": "p3-essensen_-tester-landsholdets-hemmelige-frisparks_vaaben_366972",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00222255320",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "366972",
+     "type": "episode",
+     "shortDescription": "Mikkel Damsgaards frispark mod England i semifinalen til EM 2020 blev til et ikonisk mål. Og det var formentlig ikke en tilfældighed, at det netop var Danmark, der scorede slutrundens eneste direkte mål på frispark.\nDerfor er vi taget ud til DBU for at hø",
+     "contextualTitle": "Tester landsholdets hemmelige frisparks-våben",
+     "title": "P3 Essensen: Tester landsholdets hemmelige frisparks-våben",
+     "path": "/episode/p3-essensen_-tester-landsholdets-hemmelige-frisparks_vaaben_366972",
+     "duration": 314,
+     "releaseYear": 2022,
+     "episodeNumber": 29,
+     "episodeName": "P3 Essensen: Tester landsholdets hemmelige frisparks-våben",
+     "seasonId": "314914",
+     "showId": "314913",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/p3-essensen_-tester-landsholdets-hemmelige-frisparks_vaaben_366972",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='49422372'&EntityType='Item'&EntityId='409074'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='409074'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='49422375'&EntityType='Item'&EntityId='409074'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "409074"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "409074"
+       ]
+      }
+     ],
+     "scopes": [
+      "409074",
+      "357140"
+     ],
+     "categories": [
+      "fakta",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Fakta,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Fakta",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S2:E56 Tine tester TikTok SNACKS",
+      "ContextualTitleExtraDetails": "16. OKT 2023 | 5M",
+      "AvailableFrom": "2023-10-16T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "GLOW: Sæson 2 – Tine tester TikTok SNACKS",
+      "ExtraDetails": "16. OKT 2023 | 5M",
+      "ShortVideoUrl": "https://drod23o.akamaized.net/all/clear/none/d6/6528db9c91240928fc4673d6/6528db9bcc7e562738866141/stream_fmp4/master_manifest.m3u8",
+      "PathIdSegment": "glow_-tine-tester-tiktok-snacks_409074",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00952373530",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "409074",
+     "type": "episode",
+     "shortDescription": "Udløber: 16. okt 2024",
+     "contextualTitle": "Tine tester TikTok SNACKS",
+     "title": "GLOW: Tine tester TikTok SNACKS",
+     "path": "/episode/glow_-tine-tester-tiktok-snacks_409074",
+     "duration": 299,
+     "releaseYear": 2023,
+     "episodeNumber": 56,
+     "episodeName": "GLOW: Tine tester TikTok SNACKS",
+     "seasonId": "357140",
+     "showId": "331477",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/glow_-tine-tester-tiktok-snacks_409074",
+     "themes": [],
+     "tagline": "Nye afsnit hver uge!"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='48750724'&EntityType='Item'&EntityId='402633'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='402633'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='48750728'&EntityType='Item'&EntityId='402633'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "402633"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "402633"
+       ]
+      }
+     ],
+     "scopes": [
+      "402633",
+      "357140"
+     ],
+     "categories": [
+      "fakta",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Fakta,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Fakta",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S2:E49 Fadumo tester EKSTREMT lange negle",
+      "ContextualTitleExtraDetails": "28. SEP 2023 | 5M",
+      "AvailableFrom": "2023-09-28T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "GLOW: Sæson 2 – Fadumo tester EKSTREMT lange negle",
+      "ExtraDetails": "28. SEP 2023 | 5M",
+      "ShortVideoUrl": "https://drod21r.akamaized.net/all/clear/none/34/650d5a2469e07c29f8fcf934/650d5a22957e6f20d083ffd0/stream_fmp4/master_manifest.m3u8",
+      "PathIdSegment": "glow_-fadumo-tester-ekstremt-lange-negle_402633",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00952373490",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "402633",
+     "type": "episode",
+     "shortDescription": "Udløber: 28. sep 2024",
+     "contextualTitle": "Fadumo tester EKSTREMT lange negle",
+     "title": "GLOW: Fadumo tester EKSTREMT lange negle",
+     "path": "/episode/glow_-fadumo-tester-ekstremt-lange-negle_402633",
+     "duration": 273,
+     "releaseYear": 2023,
+     "episodeNumber": 49,
+     "episodeName": "GLOW: Fadumo tester EKSTREMT lange negle",
+     "seasonId": "357140",
+     "showId": "331477",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/glow_-fadumo-tester-ekstremt-lange-negle_402633",
+     "themes": [],
+     "tagline": "Nyt afsnit hver torsdag!"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='11760727'&EntityType='Item'&EntityId='255741'&Width=1024&Height=576",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='17727700'&EntityType='Item'&EntityId='255741'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='11760730'&EntityType='Item'&EntityId='255741'&Width=1024&Height=576"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "255741"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "255741"
+       ]
+      }
+     ],
+     "scopes": [
+      "255741",
+      "255730"
+     ],
+     "categories": [
+      "serie",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Serie,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Serie",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S2:E9 Drenge-testen",
+      "ContextualTitleExtraDetails": "3. MAJ 2009 | 14M",
+      "AvailableFrom": "2009-05-03T07:43:45.7200000Z",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Isas stepz: Sæson 2 – Drenge-testen",
+      "ExtraDetails": "SÆSON 2 EPISODE 9 | 14M",
+      "PathIdSegment": "isas-stepz_-drenge_testen_255741",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00800907090",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "255741",
+     "type": "episode",
+     "shortDescription": "Isa vil lave en test, så hun kan finde ud af, om en dreng er ok, inden hun bliver vild med ham. Isas far Christian, vil være med til en dansetime. Det synes Isa er for pinligt, så hun lyver og siger timen er aflyst. Christian afslører Isa, så hun må dropp",
+     "contextualTitle": "9. Drenge-testen",
+     "title": "Isas stepz: Drenge-testen",
+     "path": "/episode/isas-stepz_-drenge_testen_255741",
+     "duration": 867,
+     "releaseYear": 2009,
+     "episodeNumber": 9,
+     "episodeName": "Isas stepz: Drenge-testen",
+     "seasonId": "255730",
+     "showId": "255721",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/isas-stepz_-drenge_testen_255741",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3767139'&EntityType='Item'&EntityId='195051'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='195051'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3767141'&EntityType='Item'&EntityId='195051'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195051"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195051"
+       ]
+      }
+     ],
+     "scopes": [
+      "195051",
+      "194926"
+     ],
+     "categories": [
+      "livsstil",
+      "videnskab og teknologi",
+      "dr1"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Videnskab og teknologi,DR1",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S1:E4 Teknikken styrer",
+      "ContextualTitleExtraDetails": "5. JUL 2020 | 29M",
+      "AvailableFrom": "2020-07-05T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Keld og Hilda tester fremtiden: Sæson 1 – Teknikken styrer",
+      "ExtraDetails": "SÆSON 1 EPISODE 4 | 29M",
+      "ShortVideoUrl": "https://drod08h-vh.akamaihd.net/i/all/clear/streaming/31/5f19e475539f0233c8434731/VS-Keld-og-Hilda-tester-fremti_9625273d084145dd882a97703c1526a4_,2019,335,2664,1037,3776,510,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "keld-og-hilda-tester-fremtiden_-teknikken-styrer_195051",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00212026040",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "195051",
+     "type": "episode",
+     "shortDescription": "Fremtidens Transportformer. Selv om der endnu ikke findes en flyvende bil, de to kan teste, så lykkes det  at gøre Keld og Hilda rundtossede, køresyge og svimle. En oplevelse med at køre i en bil, der kan parkere og overhale selv, får Keld til at opbruge ",
+     "contextualTitle": "4. Teknikken styrer",
+     "title": "Keld og Hilda tester fremtiden: Teknikken styrer",
+     "path": "/episode/keld-og-hilda-tester-fremtiden_-teknikken-styrer_195051",
+     "duration": 1711,
+     "releaseYear": 2020,
+     "episodeNumber": 4,
+     "episodeName": "Keld og Hilda tester fremtiden: Teknikken styrer",
+     "seasonId": "194926",
+     "showId": "194910",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/keld-og-hilda-tester-fremtiden_-teknikken-styrer_195051",
+     "themes": [],
+     "tagline": "Episode 4:6 | Hilda tager på en CO2-venlig smuttur til Peru"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3767126'&EntityType='Item'&EntityId='195050'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='195050'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3767130'&EntityType='Item'&EntityId='195050'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195050"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195050"
+       ]
+      }
+     ],
+     "scopes": [
+      "195050",
+      "194926"
+     ],
+     "categories": [
+      "livsstil",
+      "videnskab og teknologi",
+      "dr1"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Videnskab og teknologi,DR1",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S1:E2 Et sundere liv?",
+      "ContextualTitleExtraDetails": "5. JUL 2020 | 29M",
+      "AvailableFrom": "2020-07-05T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Keld og Hilda tester fremtiden: Sæson 1 – Et sundere liv?",
+      "ExtraDetails": "SÆSON 1 EPISODE 2 | 29M",
+      "ShortVideoUrl": "https://drod07l-vh.akamaihd.net/i/all/clear/streaming/1c/5f02d2a1539f0215b8eaf31c/VS-Keld-og-Hilda-tester-fremti_398cc4bd985743749da742cee3db460a_,321,1894,2595,481,966,3717,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "keld-og-hilda-tester-fremtiden_-et-sundere-liv_195050",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00212026020",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "195050",
+     "type": "episode",
+     "shortDescription": "Fremtidens Sundhed. Kan teknologien hjælpe Hilda til at sove bedre i fremtiden? Eller måske forlænge duoens arbejdsliv? Keld Heick tages med bukserne nede - når han tester et ældrevenligt toilet. Og sammen tester ægteparret, om vejen til et sundt liv ligg",
+     "contextualTitle": "2. Et sundere liv?",
+     "title": "Keld og Hilda tester fremtiden: Et sundere liv?",
+     "path": "/episode/keld-og-hilda-tester-fremtiden_-et-sundere-liv_195050",
+     "duration": 1727,
+     "releaseYear": 2020,
+     "episodeNumber": 2,
+     "episodeName": "Keld og Hilda tester fremtiden: Et sundere liv?",
+     "seasonId": "194926",
+     "showId": "194910",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/keld-og-hilda-tester-fremtiden_-et-sundere-liv_195050",
+     "themes": [],
+     "tagline": "Episode 2:6 | Duoen undersøger: Kan teknik hjælpe på helbredet?"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='7199114'&EntityType='Item'&EntityId='219831'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='7199122'&EntityType='Item'&EntityId='219831'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='219831'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV",
+         "DR Ultra"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "219831"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV",
+         "DR Ultra"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "219831"
+       ]
+      }
+     ],
+     "scopes": [
+      "219831",
+      "232039"
+     ],
+     "categories": [
+      "viden og tech",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Viden og tech,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Viden og tech",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S4:E9 Tester skøre food hacks med Mathilde Wagner",
+      "ContextualTitleExtraDetails": "28. DEC 2020 | 5M",
+      "AvailableFrom": "2020-12-28T05:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Ongoing",
+      "PageTitle": "NØRD: Sæson 4 – Tester skøre food hacks med Mathilde Wagner",
+      "ExtraDetails": "SÆSON 4 EPISODE 9 | 5M",
+      "ShortVideoUrl": "https://drod10i-vh.akamaihd.net/i/all/clear/streaming/98/6036358a539f020bdce4a198/VSU-NOERD-Tester-skoere-food-h_08d1664106904d8f8cfda8dd100306ff_,3471,946,1829,470,2459,316,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "noerd_-tester-skoere-food-hacks-med-mathilde-wagner_219831",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00952096150",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "219831",
+     "type": "episode",
+     "shortDescription": "Udløber: 2. mar 2024",
+     "contextualTitle": "9. Tester skøre food hacks med Mathilde Wagner",
+     "title": "NØRD: Tester skøre food hacks med Mathilde Wagner",
+     "path": "/episode/noerd_-tester-skoere-food-hacks-med-mathilde-wagner_219831",
+     "duration": 281,
+     "releaseYear": 2020,
+     "episodeNumber": 9,
+     "episodeName": "NØRD: Tester skøre food hacks med Mathilde Wagner",
+     "seasonId": "232039",
+     "showId": "35418",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/noerd_-tester-skoere-food-hacks-med-mathilde-wagner_219831",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='46163202'&EntityType='Item'&EntityId='385144'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='46163204'&EntityType='Item'&EntityId='385144'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='385144'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "385144"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "385144"
+       ]
+      }
+     ],
+     "scopes": [
+      "385144",
+      "385138"
+     ],
+     "categories": [
+      "videnskab og teknologi",
+      "dr2"
+     ],
+     "customFields": {
+      "OwnedCategory": "Videnskab og teknologi,DR2",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S2023:E4 Test efter slangebid",
+      "ContextualTitleExtraDetails": "28. APR 2023 | 10M",
+      "AvailableFrom": "2023-04-28T16:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "PhD cup: Sæson 2023 – Test efter slangebid",
+      "ExtraDetails": "SÆSON 2023 EPISODE 4 | 10M",
+      "PathIdSegment": "phd-cup_-test-efter-slangebid_385144",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00122379040",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "385144",
+     "type": "episode",
+     "shortDescription": "Cecilie Knudsen er finalist i PH.D. CUP 2023. I sin PHD har hun udviklet en kviktest til mennesker, der bliver bidt af giftige slanger. DR-vært Ulla Essendrop hjælper Cecilie Knudsen til at skærpe formidlingen på scenen. Udløber: 28. apr 2024",
+     "contextualTitle": "4. Test efter slangebid",
+     "title": "PhD cup: Test efter slangebid",
+     "path": "/episode/phd-cup_-test-efter-slangebid_385144",
+     "duration": 629,
+     "releaseYear": 2023,
+     "episodeNumber": 4,
+     "episodeName": "PhD cup: Test efter slangebid",
+     "seasonId": "385138",
+     "showId": "385137",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/phd-cup_-test-efter-slangebid_385144",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3753844'&EntityType='Item'&EntityId='195046'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='195046'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3753846'&EntityType='Item'&EntityId='195046'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR1",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2020-07-05T16:00:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195046"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR1",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2020-07-05T16:00:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195046"
+       ]
+      }
+     ],
+     "scopes": [
+      "195046",
+      "194926"
+     ],
+     "categories": [
+      "livsstil",
+      "videnskab og teknologi",
+      "dr1",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Videnskab og teknologi,DR1,acc_spoken_subtitles",
+      "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S1:E1 Livet med robotter",
+      "ContextualTitleExtraDetails": "5. JUL 2020 | 29M",
+      "AvailableFrom": "2020-07-05T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Keld og Hilda tester fremtiden: Sæson 1 – Livet med robotter",
+      "ExtraDetails": "SÆSON 1 EPISODE 1 | 29M",
+      "PathIdSegment": "keld-og-hilda-tester-fremtiden_-livet-med-robotter_195046",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00212026010",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "195046",
+     "type": "episode",
+     "shortDescription": "Bliver fremtiden smartere eller bedre end det vi kender til?\nÆgteparret Keld og Hilda Heick har gennemlevet fremtiden mange gange allerede. Nu flytter de midlertidigt ind i et hus fuldt af moderne teknologi og gadgets.\nHerfra tester de alverdens teknologi",
+     "contextualTitle": "1. Livet med robotter",
+     "title": "Keld og Hilda tester fremtiden: Livet med robotter",
+     "path": "/episode/keld-og-hilda-tester-fremtiden_-livet-med-robotter_195046",
+     "duration": 1712,
+     "releaseYear": 2020,
+     "episodeNumber": 1,
+     "episodeName": "Keld og Hilda tester fremtiden: Livet med robotter",
+     "seasonId": "194926",
+     "showId": "194910",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/keld-og-hilda-tester-fremtiden_-livet-med-robotter_195046",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51017999'&EntityType='Item'&EntityId='431392'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51018004'&EntityType='Item'&EntityId='431392'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='431392'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "431392"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "431392"
+       ]
+      }
+     ],
+     "scopes": [
+      "431392",
+      "431345"
+     ],
+     "categories": [
+      "gaming",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Gaming,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Gaming",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S4:E9 Tester PRO-taktik med 10-årig i Fortnite",
+      "ContextualTitleExtraDetails": "11. SEP 2020 | 1T 5M",
+      "AvailableFrom": "2020-09-11T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "Ultra Gaming: Sæson 4 – Tester PRO-taktik med 10-årig i Fortnite",
+      "ExtraDetails": "11. SEP 2020 | 1T 5M",
+      "PathIdSegment": "ultra-gaming_-tester-pro_taktik-med-10_aarig-i-fortnite_431392",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00922015670",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "431392",
+     "type": "episode",
+     "shortDescription": "Udløber: 31. dec 2024",
+     "contextualTitle": "Tester PRO-taktik med 10-årig i Fortnite",
+     "title": "Ultra Gaming: Tester PRO-taktik med 10-årig i Fortnite",
+     "path": "/episode/ultra-gaming_-tester-pro_taktik-med-10_aarig-i-fortnite_431392",
+     "duration": 3884,
+     "releaseYear": 2020,
+     "episodeNumber": 9,
+     "episodeName": "Ultra Gaming: Tester PRO-taktik med 10-årig i Fortnite",
+     "seasonId": "431345",
+     "showId": "140844",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/ultra-gaming_-tester-pro_taktik-med-10_aarig-i-fortnite_431392",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51017923'&EntityType='Item'&EntityId='431379'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51017932'&EntityType='Item'&EntityId='431379'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='431379'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "431379"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "431379"
+       ]
+      }
+     ],
+     "scopes": [
+      "431379",
+      "431345"
+     ],
+     "categories": [
+      "gaming",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Gaming,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Gaming",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S4:E73 YOINK! Vi tester 3 NYE og GRATIS spil",
+      "ContextualTitleExtraDetails": "1. DEC 2020 | 7M",
+      "AvailableFrom": "2020-12-01T05:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "Ultra Gaming: Sæson 4 – YOINK! Vi tester 3 NYE og GRATIS spil",
+      "ExtraDetails": "1. DEC 2020 | 7M",
+      "PathIdSegment": "ultra-gaming_-yoink-vi-tester-3-nye-og-gratis-spil_431379",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00922026210",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "431379",
+     "type": "episode",
+     "shortDescription": "Udløber: 31. dec 2024",
+     "contextualTitle": "YOINK! Vi tester 3 NYE og GRATIS spil",
+     "title": "Ultra Gaming: YOINK! Vi tester 3 NYE og GRATIS spil",
+     "path": "/episode/ultra-gaming_-yoink-vi-tester-3-nye-og-gratis-spil_431379",
+     "duration": 428,
+     "releaseYear": 2020,
+     "episodeNumber": 73,
+     "episodeName": "Ultra Gaming: YOINK! Vi tester 3 NYE og GRATIS spil",
+     "seasonId": "431345",
+     "showId": "140844",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/ultra-gaming_-yoink-vi-tester-3-nye-og-gratis-spil_431379",
+     "themes": []
+    },
+    {
+     "images": {
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='41555288'&EntityType='Item'&EntityId='331493'&Width=1920&Height=1080",
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='41555286'&EntityType='Item'&EntityId='331493'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='331493'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "331493"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "331493"
+       ]
+      }
+     ],
+     "scopes": [
+      "331493",
+      "331478"
+     ],
+     "categories": [
+      "fakta",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Fakta,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Fakta",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S1:E6 Sved og dårlig ånde? Jeg tester kæmpe trend!",
+      "ContextualTitleExtraDetails": "5. SEP 2022 | 4M",
+      "AvailableFrom": "2022-09-05T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "GLOW: Sæson 1 – Sved og dårlig ånde? Jeg tester kæmpe trend!",
+      "ExtraDetails": "5. SEP 2022 | 4M",
+      "PathIdSegment": "glow_-sved-og-daarlig-aande-jeg-tester-kaempe-trend_331493",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00952273060",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "331493",
+     "type": "episode",
+     "shortDescription": "Udløber: 31. dec 2024",
+     "contextualTitle": "Sved og dårlig ånde? Jeg tester kæmpe trend!",
+     "title": "GLOW: Sved og dårlig ånde? Jeg tester kæmpe trend!",
+     "path": "/episode/glow_-sved-og-daarlig-aande-jeg-tester-kaempe-trend_331493",
+     "duration": 230,
+     "releaseYear": 2022,
+     "episodeNumber": 6,
+     "episodeName": "GLOW: Sved og dårlig ånde? Jeg tester kæmpe trend!",
+     "seasonId": "331478",
+     "showId": "331477",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/glow_-sved-og-daarlig-aande-jeg-tester-kaempe-trend_331493",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3767151'&EntityType='Item'&EntityId='195056'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='195056'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3767153'&EntityType='Item'&EntityId='195056'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195056"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195056"
+       ]
+      }
+     ],
+     "scopes": [
+      "195056",
+      "194926"
+     ],
+     "categories": [
+      "livsstil",
+      "videnskab og teknologi",
+      "dr1",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Videnskab og teknologi,DR1,acc_spoken_subtitles",
+      "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S1:E6 Tilbage til nutiden",
+      "ContextualTitleExtraDetails": "5. JUL 2020 | 29M",
+      "AvailableFrom": "2020-07-05T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Keld og Hilda tester fremtiden: Sæson 1 – Tilbage til nutiden",
+      "ExtraDetails": "SÆSON 1 EPISODE 6 | 29M",
+      "ShortVideoUrl": "https://drod03l-vh.akamaihd.net/i/all/clear/streaming/2a/5f23e968539f0220a470d92a/VS-Keld-og-Hilda-tester-fremti_a42c3dec115c4258b0ecad37629e7069_,890,309,454,1780,2503,3693,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "keld-og-hilda-tester-fremtiden_-tilbage-til-nutiden_195056",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00212026060",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "195056",
+     "type": "episode",
+     "shortDescription": "Tilbage til nutiden. Bliver fremtiden i virkeligheden mere low tech, end vi tror? Hvis fremtidens bolig skal være bæredygtig, skal vi måske bo småt, mere primitivt og tættere sammen, end Keld og Hilda er klar til? Det ved den Flyvende Farmor og miljøaktiv",
+     "contextualTitle": "6. Tilbage til nutiden",
+     "title": "Keld og Hilda tester fremtiden: Tilbage til nutiden",
+     "path": "/episode/keld-og-hilda-tester-fremtiden_-tilbage-til-nutiden_195056",
+     "duration": 1721,
+     "releaseYear": 2020,
+     "episodeNumber": 6,
+     "episodeName": "Keld og Hilda tester fremtiden: Tilbage til nutiden",
+     "seasonId": "194926",
+     "showId": "194910",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/keld-og-hilda-tester-fremtiden_-tilbage-til-nutiden_195056",
+     "themes": [],
+     "tagline": "Episode 6:6 | Kan Keld og Hilda anbefale fremtiden?"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3767133'&EntityType='Item'&EntityId='195047'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='195047'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3767135'&EntityType='Item'&EntityId='195047'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195047"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195047"
+       ]
+      }
+     ],
+     "scopes": [
+      "195047",
+      "194926"
+     ],
+     "categories": [
+      "livsstil",
+      "videnskab og teknologi",
+      "dr1",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Videnskab og teknologi,DR1,acc_spoken_subtitles",
+      "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S1:E3 Så' der mad!",
+      "ContextualTitleExtraDetails": "5. JUL 2020 | 29M",
+      "AvailableFrom": "2020-07-05T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Keld og Hilda tester fremtiden: Sæson 1 – Så' der mad!",
+      "ExtraDetails": "SÆSON 1 EPISODE 3 | 29M",
+      "ShortVideoUrl": "https://drod10m-vh.akamaihd.net/i/all/clear/streaming/67/5f104144539f022b44a9be67/VS-Keld-og-Hilda-tester-fremti_930b9079fe9942a38af099a15ffb5d93_,293,1739,437,2419,848,3527,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "keld-og-hilda-tester-fremtiden_-saa-der-mad_195047",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00212026030",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "195047",
+     "type": "episode",
+     "shortDescription": "Fremtidens Mad. Keld og Hilda får nye husdyr, der skal spises, når familien kommer til middag. Og der skal i det hele taget lige synkes en ekstra gang og tages tilløb, for menukortet til fremtidens måltider består af flere ukendte ingredienser. Det kræver",
+     "contextualTitle": "3. Så' der mad!",
+     "title": "Keld og Hilda tester fremtiden: Så' der mad!",
+     "path": "/episode/keld-og-hilda-tester-fremtiden_-saa-der-mad_195047",
+     "duration": 1710,
+     "releaseYear": 2020,
+     "episodeNumber": 3,
+     "episodeName": "Keld og Hilda tester fremtiden: Så' der mad!",
+     "seasonId": "194926",
+     "showId": "194910",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/keld-og-hilda-tester-fremtiden_-saa-der-mad_195047",
+     "themes": [],
+     "tagline": "Episode 3:6 | Ægteparret Heick prøvesmager fremtidens fødevarer"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4216859'&EntityType='Item'&EntityId='195045'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4216861'&EntityType='Item'&EntityId='195045'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='195045'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195045"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "195045"
+       ]
+      }
+     ],
+     "scopes": [
+      "195045",
+      "194926"
+     ],
+     "categories": [
+      "livsstil",
+      "videnskab og teknologi",
+      "dr1",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Videnskab og teknologi,DR1,acc_spoken_subtitles",
+      "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S1:E5 Med på noderne",
+      "ContextualTitleExtraDetails": "5. JUL 2020 | 29M",
+      "AvailableFrom": "2020-07-05T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Keld og Hilda tester fremtiden: Sæson 1 – Med på noderne",
+      "ExtraDetails": "SÆSON 1 EPISODE 5 | 29M",
+      "ShortVideoUrl": "https://drod03q-vh.akamaihd.net/i/all/clear/streaming/b1/5f2157f5539f02106cb68ab1/VS-Keld-og-Hilda-tester-fremti_dcc81bb830014d8d9cff1db47537bf4d_,1879,272,857,2636,415,3920,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "keld-og-hilda-tester-fremtiden_-med-paa-noderne_195045",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00212026050",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "195045",
+     "type": "episode",
+     "shortDescription": "Fremtidens Musik. Kan det lykkes med teknikkens hjælp at gøre Keld overflødig i fremtiden? TV-Avisens udsendte pianist, Johannes Langkilde, giver en hånd med, når Hilda Heick prøver at høre forskel på musik komponeret af \"Keld eller Computer?\". Hun forsøg",
+     "contextualTitle": "5. Med på noderne",
+     "title": "Keld og Hilda tester fremtiden: Med på noderne",
+     "path": "/episode/keld-og-hilda-tester-fremtiden_-med-paa-noderne_195045",
+     "duration": 1729,
+     "releaseYear": 2020,
+     "episodeNumber": 5,
+     "episodeName": "Keld og Hilda tester fremtiden: Med på noderne",
+     "seasonId": "194926",
+     "showId": "194910",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/keld-og-hilda-tester-fremtiden_-med-paa-noderne_195045",
+     "themes": [],
+     "tagline": "Episode 5:6 | Kan Hilda spille Keld ud af duoen med teknikkens hjælp?"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='47777904'&EntityType='Item'&EntityId='393335'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='393335'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='47777907'&EntityType='Item'&EntityId='393335'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "393335"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "393335"
+       ]
+      }
+     ],
+     "scopes": [
+      "393335",
+      "357140"
+     ],
+     "categories": [
+      "fakta",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Fakta,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Fakta",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S2:E38 Tine Maria tester HAIR TUTORIALS fra TikTok!",
+      "ContextualTitleExtraDetails": "27. JUL 2023 | 5M",
+      "AvailableFrom": "2023-07-27T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "GLOW: Sæson 2 – Tine Maria tester HAIR TUTORIALS fra TikTok!",
+      "ExtraDetails": "27. JUL 2023 | 5M",
+      "ShortVideoUrl": "https://drod22o.akamaized.net/all/clear/none/eb/64b90f2fd05f3f12bc46e4eb/64b90f2d530d7913d4612f89/stream_fmp4/master_manifest.m3u8",
+      "PathIdSegment": "glow_-tine-maria-tester-hair-tutorials-fra-tiktok_393335",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00952373380",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "393335",
+     "type": "episode",
+     "shortDescription": "Udløber: 27. jul 2024",
+     "contextualTitle": "Tine Maria tester HAIR TUTORIALS fra TikTok!",
+     "title": "GLOW: Tine Maria tester HAIR TUTORIALS fra TikTok!",
+     "path": "/episode/glow_-tine-maria-tester-hair-tutorials-fra-tiktok_393335",
+     "duration": 290,
+     "releaseYear": 2023,
+     "episodeNumber": 38,
+     "episodeName": "GLOW: Tine Maria tester HAIR TUTORIALS fra TikTok!",
+     "seasonId": "357140",
+     "showId": "331477",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/glow_-tine-maria-tester-hair-tutorials-fra-tiktok_393335",
+     "themes": [],
+     "tagline": "Nyt afsnit hver torsdag hele sommeren!"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='42285944'&EntityType='Item'&EntityId='331506'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='42285946'&EntityType='Item'&EntityId='331506'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='331506'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "331506"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "331506"
+       ]
+      }
+     ],
+     "scopes": [
+      "331506",
+      "331478"
+     ],
+     "categories": [
+      "fakta",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Fakta,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Fakta",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-07",
+      "PlayButtonExtraDetails": "S1:E22 Sportsidiot eller sportsgeni? Tine tester gamle sportsgrene!",
+      "ContextualTitleExtraDetails": "10. OKT 2022 | 9M",
+      "AvailableFrom": "2022-10-10T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "GLOW: Sæson 1 – Sportsidiot eller sportsgeni? Tine tester gamle sportsgrene!",
+      "ExtraDetails": "10. OKT 2022 | 9M",
+      "ShortVideoUrl": "https://drod22a.akamaized.net/all/clear/none/71/63452965a95a611da4261271/6345296056431f14382fc9ab/stream_fmp4/master_manifest.m3u8",
+      "PathIdSegment": "glow_-sportsidiot-eller-sportsgeni-tine-tester-gamle-sportsgrene_331506",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00952273220",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "331506",
+     "type": "episode",
+     "shortDescription": "Udløber: 31. dec 2024",
+     "contextualTitle": "Sportsidiot eller sportsgeni? Tine tester gamle sportsgrene!",
+     "title": "GLOW: Sportsidiot eller sportsgeni? Tine tester gamle sportsgrene!",
+     "path": "/episode/glow_-sportsidiot-eller-sportsgeni-tine-tester-gamle-sportsgrene_331506",
+     "duration": 531,
+     "releaseYear": 2022,
+     "episodeNumber": 22,
+     "episodeName": "GLOW: Sportsidiot eller sportsgeni? Tine tester gamle sportsgrene!",
+     "seasonId": "331478",
+     "showId": "331477",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/glow_-sportsidiot-eller-sportsgeni-tine-tester-gamle-sportsgrene_331506",
+     "themes": [],
+     "tagline": "Nyt afsnit hver mandag og torsdag!"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='9505955'&EntityType='Item'&EntityId='234826'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='9505963'&EntityType='Item'&EntityId='234826'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='234826'&Width=1440&Height=2160",
+      "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='8837986'&EntityType='Item'&EntityId='234826'&Width=2048&Height=2048"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "234826"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "234826"
+       ]
+      }
+     ],
+     "scopes": [
+      "234826",
+      "234808"
+     ],
+     "categories": [
+      "krea",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Krea,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Krea",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-11",
+      "PlayButtonExtraDetails": "S1:E18 Conrad tester TikToks mest populære papirflyvere",
+      "ContextualTitleExtraDetails": "23. MAR 2021 | 4M",
+      "AvailableFrom": "2021-03-23T05:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Ultra DIY: Sæson 1 – Conrad tester TikToks mest populære papirflyvere",
+      "ExtraDetails": "SÆSON 1 EPISODE 18 | 4M",
+      "ShortVideoUrl": "https://drod03n-vh.akamaihd.net/i/all/clear/streaming/2a/6050a5cf539f023b34d3152a/VSU-Ultra-DIY-18-00922115550-A_75f294654e224cf7adf9928a9213ebd6_,899,1701,291,3376,2319,439,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "ultra-diy_-conrad-tester-tiktoks-mest-populaere-papirflyvere_234826",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00922115550",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "234826",
+     "type": "episode",
+     "shortDescription": "Conrad fra Klassen har set de sejeste tricks til at lave papirflyvere på TikTok. Men virker de nu også? Det har han sat sig for at teste. Udløber: 29. mar 2024",
+     "contextualTitle": "18. Conrad tester TikToks mest populære papirflyvere",
+     "title": "Ultra DIY: Conrad tester TikToks mest populære papirflyvere",
+     "path": "/episode/ultra-diy_-conrad-tester-tiktoks-mest-populaere-papirflyvere_234826",
+     "duration": 252,
+     "releaseYear": 2021,
+     "episodeNumber": 18,
+     "episodeName": "Ultra DIY: Conrad tester TikToks mest populære papirflyvere",
+     "seasonId": "234808",
+     "showId": "234807",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/ultra-diy_-conrad-tester-tiktoks-mest-populaere-papirflyvere_234826",
+     "themes": [],
+     "tagline": "Hack dig til en sjovere lockdown",
+     "badge": "Gør-det-selv!"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='9746149'&EntityType='Item'&EntityId='234832'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='9746156'&EntityType='Item'&EntityId='234832'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='234832'&Width=1440&Height=2160",
+      "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='8837986'&EntityType='Item'&EntityId='234832'&Width=2048&Height=2048"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "234832"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "234832"
+       ]
+      }
+     ],
+     "scopes": [
+      "234832",
+      "234808"
+     ],
+     "categories": [
+      "krea",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Krea,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Krea",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-11",
+      "PlayButtonExtraDetails": "S1:E28 Iris og Frida tester TikTok-fritter og Bubbletea",
+      "ContextualTitleExtraDetails": "20. APR 2021 | 5M",
+      "AvailableFrom": "2021-04-20T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Ultra DIY: Sæson 1 – Iris og Frida tester TikTok-fritter og Bubbletea",
+      "ExtraDetails": "SÆSON 1 EPISODE 28 | 5M",
+      "ShortVideoUrl": "https://drod06t-vh.akamaihd.net/i/all/clear/streaming/b2/6079459ca95a611af4b590b2/VSU-Ultra-DIY-00922115_1841e0a202374e57a685a11f7e91b027_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "ultra-diy_-iris-og-frida-tester-tiktok_fritter-og-bubbletea_234832",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00922115650",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "234832",
+     "type": "episode",
+     "shortDescription": "Løber dine tænder også for vildt i vand, når du ser de kartoffelsnacks, der trender på Tiktok? Så se med når Iris og Frida fra Klassen tester dem af og laver Bubbletea til. Udløber: 3. maj 2024",
+     "contextualTitle": "28. Iris og Frida tester TikTok-fritter og Bubbletea",
+     "title": "Ultra DIY: Iris og Frida tester TikTok-fritter og Bubbletea",
+     "path": "/episode/ultra-diy_-iris-og-frida-tester-tiktok_fritter-og-bubbletea_234832",
+     "duration": 288,
+     "releaseYear": 2021,
+     "episodeNumber": 28,
+     "episodeName": "Ultra DIY: Iris og Frida tester TikTok-fritter og Bubbletea",
+     "seasonId": "234808",
+     "showId": "234807",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/ultra-diy_-iris-og-frida-tester-tiktok_fritter-og-bubbletea_234832",
+     "themes": [],
+     "tagline": "Hack dig til en sjovere lockdown"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51214773'&EntityType='Item'&EntityId='434317'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='434317'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51214780'&EntityType='Item'&EntityId='434317'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR1",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2024-02-01T09:40:00.0000000Z",
+        "IsGeoRestricted": "True"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "434317"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR1",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2024-02-01T09:40:00.0000000Z",
+        "IsGeoRestricted": "True"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "434317"
+       ]
+      }
+     ],
+     "scopes": [
+      "434317",
+      "433849"
+     ],
+     "categories": [
+      "livsstil",
+      "natur",
+      "dr1",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Natur,DR1,acc_spoken_subtitles",
+      "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "NORGE",
+      "DisplayCategory": "Livsstil,Natur",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PlayButtonExtraDetails": "S3:E6 Testen",
+      "ContextualTitleExtraDetails": "1. FEB 2024 | 38M",
+      "AvailableFrom": "2024-02-01T09:38:54.4000000Z",
+      "SubtitleLanguagesOffered": "ForeignLanguageSubtitles",
+      "PresentationTypeCode": "Ongoing",
+      "PageTitle": "Fra bøllehund til bedsteven: Sæson 3 – Testen",
+      "ExtraDetails": "SÆSON 3 EPISODE 6 | 38M",
+      "PathIdSegment": "fra-boellehund-til-bedsteven_-testen_434317",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00292300790",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "434317",
+     "type": "episode",
+     "shortDescription": "Norsk dokumentarserie fra 2023.\n(Fra bølle til bestevenn)\nMaren inviterer alle hjem til sig. Nu skal hun teste, hvordan det står til med færdighederne. Er hundene sluppet af med bøllestemplet? Udløber: 1. feb 2025",
+     "contextualTitle": "6. Testen",
+     "title": "Fra bøllehund til bedsteven: Testen",
+     "path": "/episode/fra-boellehund-til-bedsteven_-testen_434317",
+     "duration": 2269,
+     "releaseYear": 2023,
+     "episodeNumber": 6,
+     "episodeName": "Fra bøllehund til bedsteven: Testen",
+     "seasonId": "433849",
+     "showId": "255628",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/fra-boellehund-til-bedsteven_-testen_434317",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='9790287'&EntityType='Item'&EntityId='234831'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='9790289'&EntityType='Item'&EntityId='234831'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='234831'&Width=1440&Height=2160",
+      "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='8837986'&EntityType='Item'&EntityId='234831'&Width=2048&Height=2048"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "234831"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "234831"
+       ]
+      }
+     ],
+     "scopes": [
+      "234831",
+      "234808"
+     ],
+     "categories": [
+      "krea",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Krea,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Krea",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-11",
+      "PlayButtonExtraDetails": "S1:E25 Oliver og Matilde tester TikTok trends",
+      "ContextualTitleExtraDetails": "13. APR 2021 | 4M",
+      "AvailableFrom": "2021-04-13T04:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Ultra DIY: Sæson 1 – Oliver og Matilde tester TikTok trends",
+      "ExtraDetails": "SÆSON 1 EPISODE 25 | 4M",
+      "ShortVideoUrl": "https://drod05e-vh.akamaihd.net/i/all/clear/streaming/d8/6069e790af5a6120743714d8/VSU-Ultra-DIY-25-Olive_271724001f474a8cafd8a6bc0493cab7_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "ultra-diy_-oliver-og-matilde-tester-tiktok-trends_234831",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00922115620",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "234831",
+     "type": "episode",
+     "shortDescription": "På TikTok findes der de fedeste hacks, som er mega nemme at lave. Men holder de mon i virkeligheden? Og er de nu også helt så nemme, som de ser ud? Oliver og Matilde fra Over Grænsen udfordrer hinanden og TikTok, når de tester de mest populære trends - og",
+     "contextualTitle": "25. Oliver og Matilde tester TikTok trends",
+     "title": "Ultra DIY: Oliver og Matilde tester TikTok trends",
+     "path": "/episode/ultra-diy_-oliver-og-matilde-tester-tiktok-trends_234831",
+     "duration": 234,
+     "releaseYear": 2021,
+     "episodeNumber": 25,
+     "episodeName": "Ultra DIY: Oliver og Matilde tester TikTok trends",
+     "seasonId": "234808",
+     "showId": "234807",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/ultra-diy_-oliver-og-matilde-tester-tiktok-trends_234831",
+     "themes": [],
+     "tagline": "Hack dig til en sjovere lockdown"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='45960673'&EntityType='Item'&EntityId='369239'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='45960675'&EntityType='Item'&EntityId='369239'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='369239'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "369239"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "369239"
+       ]
+      }
+     ],
+     "scopes": [
+      "369239",
+      "358178"
+     ],
+     "categories": [
+      "aktualitet",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Aktualitet,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Aktualitet",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-EXCEPT",
+      "PlayButtonExtraDetails": "19. apr 2023 10:00",
+      "ContextualTitleExtraDetails": "19. APR 2023 10:00 | 8M",
+      "AvailableFrom": "2023-04-19T08:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "News",
+      "PageTitle": "Ultra Nyt - 19. APR 2023 10:00",
+      "ExtraDetails": "19. APR 2023 10:00 | 8M",
+      "PathIdSegment": "ultra-nyt_-kan-tiktok_test-vise-om-man-har-adhd-_-sudan-naermer-sig-borgerkrig_369239",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00952381710",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "369239",
+     "type": "episode",
+     "shortDescription": "Udløber: 19. apr 2024",
+     "contextualTitle": "Kan TikTok-test vise, om man har ADHD? | Sudan nærmer sig borgerkrig",
+     "title": "Ultra Nyt: Kan TikTok-test vise, om man har ADHD? | Sudan nærmer sig borgerkrig",
+     "path": "/episode/ultra-nyt_-kan-tiktok_test-vise-om-man-har-adhd-_-sudan-naermer-sig-borgerkrig_369239",
+     "duration": 488,
+     "releaseYear": 2023,
+     "episodeNumber": 72,
+     "episodeName": "Ultra Nyt: Kan TikTok-test vise, om man har ADHD? | Sudan nærmer sig borgerkrig",
+     "seasonId": "358178",
+     "showId": "7071",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/ultra-nyt_-kan-tiktok_test-vise-om-man-har-adhd-_-sudan-naermer-sig-borgerkrig_369239",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='9505980'&EntityType='Item'&EntityId='234820'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='9505986'&EntityType='Item'&EntityId='234820'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='234820'&Width=1440&Height=2160",
+      "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='8837986'&EntityType='Item'&EntityId='234820'&Width=2048&Height=2048"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "234820"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DR Ultra",
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "234820"
+       ]
+      }
+     ],
+     "scopes": [
+      "234820",
+      "234808"
+     ],
+     "categories": [
+      "krea",
+      "dr ultra"
+     ],
+     "customFields": {
+      "OwnedCategory": "Krea,DR Ultra",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TVL",
+      "BrandingChannelDisplayName": "DR Ultra",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Krea",
+      "TargetAudience": "OlderKidsAndAdults",
+      "RatingSegment": "Ultra",
+      "PrimaryContentUniverse": "Ultra",
+      "ClassificationRating": "MRAM-11",
+      "PlayButtonExtraDetails": "S1:E15 Anna-Ida tester TikTok-popcorn til hjemmebiografen",
+      "ContextualTitleExtraDetails": "9. MAR 2021 | 4M",
+      "AvailableFrom": "2021-03-09T05:00:00.0000000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "Show",
+      "PageTitle": "Ultra DIY: Sæson 1 – Anna-Ida tester TikTok-popcorn til hjemmebiografen",
+      "ExtraDetails": "SÆSON 1 EPISODE 15 | 4M",
+      "ShortVideoUrl": "https://drod01n-vh.akamaihd.net/i/all/clear/streaming/12/604617ff7140141980e3a812/VSU-Ultra-DIY-15-00922115520-A_dba2479ddf0340e68e5a852f3c012a41_,1723,465,927,314,3257,2297,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "ultra-diy_-anna_ida-tester-tiktok_popcorn-til-hjemmebiografen_234820",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00922115520",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "234820",
+     "type": "episode",
+     "shortDescription": "Bare fordi vi ikke kan gå i biografen skal vi ikke undvære lækre popcorn og gode film, så Anna-Ida fra Klassen prøver nogle af de vildeste TikTok-opskrifter på popcorn. Udløber: 22. mar 2024",
+     "contextualTitle": "15. Anna-Ida tester TikTok-popcorn til hjemmebiografen",
+     "title": "Ultra DIY: Anna-Ida tester TikTok-popcorn til hjemmebiografen",
+     "path": "/episode/ultra-diy_-anna_ida-tester-tiktok_popcorn-til-hjemmebiografen_234820",
+     "duration": 211,
+     "releaseYear": 2021,
+     "episodeNumber": 15,
+     "episodeName": "Ultra DIY: Anna-Ida tester TikTok-popcorn til hjemmebiografen",
+     "seasonId": "234808",
+     "showId": "234807",
+     "classification": {
+      "code": "DR-Ultra",
+      "name": "Ultra"
+     },
+     "watchPath": "/se/ultra-diy_-anna_ida-tester-tiktok_popcorn-til-hjemmebiografen_234820",
+     "themes": [],
+     "tagline": "Hack dig til en sjovere lockdown"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='45174658'&EntityType='Item'&EntityId='373505'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='45174660'&EntityType='Item'&EntityId='373505'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='373505'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR1",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2023-03-12T20:00:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "373505"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR1",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2023-03-12T20:00:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "373505"
+       ]
+      }
+     ],
+     "scopes": [
+      "373505",
+      "360590"
+     ],
+     "categories": [
+      "nyheder og aktualitet",
+      "dr1",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Nyheder og Aktualitet,DR1,acc_spoken_subtitles",
+      "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Nyheder og Aktualitet",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-EXCEPT",
+      "PlayButtonExtraDetails": "S2023:E10 Tik Tok i stormvejr. Stress-test på Borgen. Fra krig til Oscar-fest",
+      "ContextualTitleExtraDetails": "12. MAR 2023 | 33M",
+      "AvailableFrom": "2023-03-12T19:59:57.3600000Z",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PageTitle": "21 SØNDAG: Sæson 2023 – Tik Tok i stormvejr. Stress-test på Borgen. Fra krig til Oscar-fest",
+      "ExtraDetails": "12. MAR 2023 | 33M",
+      "PathIdSegment": "21-soendag_-tik-tok-i-stormvejr-stress_test-paa-borgen-fra-krig-til-oscar_fest_373505",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00102321110",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "373505",
+     "type": "episode",
+     "shortDescription": "Techgiganten Tik Tok er truet af forbud. Mød journalisten, der fik sagen til at rulle i USA. Og så kan du selv bedømme, om hverdagen er for stresset for politikerne. Vi har fulgt Magnus Heunickes arbejdsdag. Og se hvordan to ukrainske kvinder oplever Holl",
+     "contextualTitle": "Tik Tok i stormvejr. Stress-test på Borgen. Fra krig til Oscar-fest",
+     "title": "21 SØNDAG: Tik Tok i stormvejr. Stress-test på Borgen. Fra krig til Oscar-fest",
+     "path": "/episode/21-soendag_-tik-tok-i-stormvejr-stress_test-paa-borgen-fra-krig-til-oscar_fest_373505",
+     "duration": 1956,
+     "releaseYear": 2023,
+     "episodeNumber": 10,
+     "episodeName": "21 SØNDAG: Tik Tok i stormvejr. Stress-test på Borgen. Fra krig til Oscar-fest",
+     "seasonId": "360590",
+     "showId": "204367",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/21-soendag_-tik-tok-i-stormvejr-stress_test-paa-borgen-fra-krig-til-oscar_fest_373505",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='14194474'&EntityType='Item'&EntityId='275684'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='14194476'&EntityType='Item'&EntityId='275684'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='275684'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2021-10-09T19:30:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "275684"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2021-10-09T19:30:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "275684"
+       ]
+      }
+     ],
+     "scopes": [
+      "275684"
+     ],
+     "categories": [
+      "livsstil",
+      "videnskab og teknologi",
+      "hus og have",
+      "dr2"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Videnskab og teknologi,Hus og have,DR2",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil,Videnskab og teknologi,Hus og have",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-07",
+      "PageTitle": "Nikolaj Sonne drømmer om det perfekte køkken",
+      "ExtraDetails": "Livsstil | 56M",
+      "TitleExtraDetails": "DR2 | 56M",
+      "ShortVideoUrl": "https://drod09q-vh.akamaihd.net/i/all/clear/streaming/aa/6156c97baa5a6105181556aa/VS-DR2-droemmer-om-det_e070ebd3ab6c48ccaa535392f88b29fb_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "nikolaj-sonne-droemmer-om-det-perfekte-koekken_275684",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00922125050",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "275684",
+     "type": "program",
+     "shortDescription": "Hvordan ser danskernes drømmekøkken ud? Vi bruger meget tid i vores køkkener, og vi bruger meget tid på at drømme om et nyt køkken. Men kan man få det perfekte køkken? Nikolaj Sonne\nundersøger og tester indretning, gadgets og materialer til danskernes drø",
+     "contextualTitle": "",
+     "title": "Nikolaj Sonne drømmer om det perfekte køkken",
+     "path": "/program/nikolaj-sonne-droemmer-om-det-perfekte-koekken_275684",
+     "duration": 3373,
+     "releaseYear": 2021,
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/nikolaj-sonne-droemmer-om-det-perfekte-koekken_275684",
+     "themes": [],
+     "tagline": "Nikolaj Sonne tester materialer og gadgets til drømmekøkkenet"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4122170'&EntityType='Item'&EntityId='86965'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4122172'&EntityType='Item'&EntityId='86965'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='86965'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2019-02-02T18:55:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "86965"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2019-02-02T18:55:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "86965"
+       ]
+      }
+     ],
+     "scopes": [
+      "86965"
+     ],
+     "categories": [
+      "livsstil",
+      "dr2",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,DR2,acc_spoken_subtitles",
+      "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PageTitle": "Årets bil",
+      "ExtraDetails": "Livsstil | 59M",
+      "TitleExtraDetails": "DR2 | 59M",
+      "PathIdSegment": "aarets-bil_86965",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00651902020",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "86965",
+     "type": "program",
+     "shortDescription": "Du er, hvad du kører! Biler er jo ikke bare biler, de er både en spejling af vores samtid og et udtryk for vores personlighed. \nI år er det 50 år siden, at danske motorjournalister for første gang kårede Årets Bil i Danmark. \nVært Christian Grau følger 3 ",
+     "contextualTitle": "",
+     "title": "Årets bil",
+     "path": "/program/aarets-bil_86965",
+     "duration": 3532,
+     "releaseYear": 2019,
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/aarets-bil_86965",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='13919214'&EntityType='Item'&EntityId='267585'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='13919216'&EntityType='Item'&EntityId='267585'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='267585'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2021-09-22T21:00:00.0000000Z",
+        "IsGeoRestricted": "True"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "267585"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2021-09-22T21:00:00.0000000Z",
+        "IsGeoRestricted": "True"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "267585"
+       ]
+      }
+     ],
+     "scopes": [
+      "267585"
+     ],
+     "categories": [
+      "dokumentar",
+      "politik",
+      "dr2",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Politik,DR2,acc_spoken_subtitles",
+      "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "ProductionCountry": "SVERIGE",
+      "DisplayCategory": "Dokumentar,Politik",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-15",
+      "PageTitle": "Tørklæderevolutionen i Iran",
+      "ExtraDetails": "Dokumentar | 1T 30M",
+      "TitleExtraDetails": "DR2 | 1T 30M",
+      "PathIdSegment": "toerklaederevolutionen-i-iran_267585",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00022014330",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "267585",
+     "type": "program",
+     "shortDescription": "Svensk dokumentar fra 2021.\n(Be My Voice)\nMasih Alinejad er iransk journalist og aktivist. Hun er fortaler for kvinders rettigheder, og fra sit eksil i USA har hun startet en af Irans største borgerrettighedsbevægelser på de sociale medier, der gør oprør ",
+     "contextualTitle": "",
+     "title": "Tørklæderevolutionen i Iran",
+     "path": "/program/toerklaederevolutionen-i-iran_267585",
+     "duration": 5424,
+     "releaseYear": 2021,
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/toerklaederevolutionen-i-iran_267585",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4483046'&EntityType='Item'&EntityId='182366'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='16689070'&EntityType='Item'&EntityId='182366'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50508040'&EntityType='Item'&EntityId='182366'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "182366"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "Universes": [
+         "DRTV"
+        ],
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "182366"
+       ]
+      }
+     ],
+     "scopes": [
+      "182366"
+     ],
+     "categories": [
+      "dokumentar",
+      "krimi",
+      "p3"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Krimi,P3",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "TP3",
+      "BrandingChannelDisplayName": "P3",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Dokumentar,Krimi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-15",
+      "PageTitle": "Lokkeduerne",
+      "ExtraDetails": "Dokumentar | 42M",
+      "TitleExtraDetails": "P3 | 42M",
+      "ShortVideoUrl": "https://drod03o-vh.akamaihd.net/i/all/clear/streaming/8e/5ede18bc539f023ce4d11b8e/VS-Lokkeduerne-00921816290-ANN_a9e3b1608a9a4cdcaa2b684a41f3abf3_,2916,2162,461,1675,293,840,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "lokkeduerne_182366",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00921816290",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "182366",
+     "type": "program",
+     "shortDescription": "\"Kunne du tænke dig at være lokkedue og være med til at teste andres mænd?\"\nTusindvis af piger samles i hemmelige grupper på facebook - med adgang forbudt for mænd.\nHer deler de fotos og informationer om mændene - på trods af det er ulovligt.\nDR3 har fået",
+     "contextualTitle": "",
+     "title": "Lokkeduerne",
+     "path": "/program/lokkeduerne_182366",
+     "duration": 2496,
+     "releaseYear": 2018,
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/lokkeduerne_182366",
+     "themes": [],
+     "tagline": "Lokker mænd til utroskab og afslører dem i hemmelig gruppe"
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3620914'&EntityType='Item'&EntityId='64687'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3620918'&EntityType='Item'&EntityId='64687'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='64687'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR1",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2018-11-26T20:55:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "64687"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR1",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2018-11-26T20:55:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "64687"
+       ]
+      }
+     ],
+     "scopes": [
+      "64687"
+     ],
+     "categories": [
+      "dokumentar",
+      "krop og sundhed",
+      "videnskab og teknologi",
+      "dr1",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Krop og sundhed,Videnskab og teknologi,DR1,acc_spoken_subtitles",
+      "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+      "BrandingChannelShort": "DR1",
+      "BrandingChannelDisplayName": "DR1",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Dokumentar,Krop og sundhed,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-15",
+      "PageTitle": "De skadede patienter",
+      "ExtraDetails": "Dokumentar | 44M",
+      "TitleExtraDetails": "DR1 | 44M",
+      "PathIdSegment": "de-skadede-patienter_64687",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00241806010",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "64687",
+     "type": "program",
+     "shortDescription": "Pacemakere, kunstige hofter og underlivsnet. Tusindvis af danske patienter får hvert år nyt medicinsk udstyr, som skal hjælpe dem til et bedre liv. Men meget af udstyret er ikke testet på patienter på forhånd. Og mange patienter kommer alvorligt til skade",
+     "contextualTitle": "",
+     "title": "De skadede patienter",
+     "path": "/program/de-skadede-patienter_64687",
+     "duration": 2666,
+     "releaseYear": 2018,
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/de-skadede-patienter_64687",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4114999'&EntityType='Item'&EntityId='157538'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='157538'&Width=1440&Height=2160",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='4115026'&EntityType='Item'&EntityId='157538'&Width=1920&Height=1080"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2019-12-21T19:30:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "157538"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2019-12-21T19:30:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "157538"
+       ]
+      }
+     ],
+     "scopes": [
+      "157538"
+     ],
+     "categories": [
+      "dokumentar",
+      "natur",
+      "videnskab og teknologi",
+      "dr2",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Natur,Videnskab og teknologi,DR2,acc_spoken_subtitles",
+      "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Dokumentar,Natur,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-07",
+      "PageTitle": "Vandets hemmeligheder",
+      "ExtraDetails": "Dokumentar | 58M",
+      "TitleExtraDetails": "DR2 | 58M",
+      "PathIdSegment": "vandets-hemmeligheder_157538",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00921922870",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "157538",
+     "type": "program",
+     "shortDescription": "Lasse Spang Olsen finder sammen med to professionelle sommelierer det allerbedste drikkevand i Danmark. Han møder forskere, der alene ved tankens kraft kan kommunikere med vand og efterprøver om der virkelig findes vand, der har ekstraordinære kræfter.  O",
+     "contextualTitle": "",
+     "title": "Vandets hemmeligheder",
+     "path": "/program/vandets-hemmeligheder_157538",
+     "duration": 3492,
+     "releaseYear": 2019,
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/vandets-hemmeligheder_157538",
+     "themes": []
+    },
+    {
+     "images": {
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='13919600'&EntityType='Item'&EntityId='273351'&Width=1920&Height=1080",
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='13919602'&EntityType='Item'&EntityId='273351'&Width=1920&Height=1080",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='273351'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2021-09-25T19:30:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "273351"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2021-09-25T19:30:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "273351"
+       ]
+      }
+     ],
+     "scopes": [
+      "273351"
+     ],
+     "categories": [
+      "dokumentar",
+      "videnskab og teknologi",
+      "dr2"
+     ],
+     "customFields": {
+      "OwnedCategory": "Dokumentar,Videnskab og teknologi,DR2",
+      "AccessServicesOffered": "StandardVideo",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Dokumentar,Videnskab og teknologi",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PageTitle": "DR2 hacker din krop",
+      "ExtraDetails": "Dokumentar | 1T 0M",
+      "TitleExtraDetails": "DR2 | 1T 0M",
+      "ShortVideoUrl": "https://drod06f-vh.akamaihd.net/i/all/clear/streaming/7f/6149dc37af5a611d6c78507f/VS-Temaloerdag--DR2-ha_ab0ff62d24b74c1f95949f7a7e839ceb_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+      "PathIdSegment": "dr2-hacker-din-krop_273351",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00922120010",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "273351",
+     "type": "program",
+     "shortDescription": "Homo Sapiens er en biologisk maskine, der med lidt hjælp fra teknologien kan optimeres big time. Du kan leve længere, sundere og lykkeligere, hvis du er klar til at omfavne teknologi og kemi. Men er det en god ide? Få et kig ind i fremtiden med de nyeste ",
+     "contextualTitle": "",
+     "title": "DR2 hacker din krop",
+     "path": "/program/dr2-hacker-din-krop_273351",
+     "duration": 3600,
+     "releaseYear": 2021,
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/dr2-hacker-din-krop_273351",
+     "themes": [],
+     "tagline": "Du er en biologisk maskine, der kan optimeres big time"
+    },
+    {
+     "images": {
+      "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='726078'&EntityType='Item'&EntityId='83399'&Width=940&Height=529",
+      "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='726073'&EntityType='Item'&EntityId='83399'&Width=940&Height=529",
+      "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='83399'&Width=1440&Height=2160"
+     },
+     "offers": [
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2018-08-11T17:55:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Stream",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "83399"
+       ]
+      },
+      {
+       "availability": "Available",
+       "customFields": {
+        "BroadcastChannel": "DR2",
+        "Universes": [
+         "DRTV"
+        ],
+        "BroadcastStartTime": "2018-08-11T17:55:00.0000000Z",
+        "IsGeoRestricted": "False"
+       },
+       "deliveryType": "Download",
+       "ownership": "Free",
+       "price": 0,
+       "resolution": "HD-1080",
+       "scopes": [
+        "83399"
+       ]
+      }
+     ],
+     "scopes": [
+      "83399"
+     ],
+     "categories": [
+      "livsstil",
+      "mad",
+      "dr2",
+      "acc_spoken_subtitles"
+     ],
+     "customFields": {
+      "OwnedCategory": "Livsstil,Mad,DR2,acc_spoken_subtitles",
+      "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+      "BrandingChannelShort": "DR2",
+      "BrandingChannelDisplayName": "DR2",
+      "ProductionCountry": "DANMARK",
+      "DisplayCategory": "Livsstil,Mad",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "PageTitle": "Det daglige brød",
+      "ExtraDetails": "Livsstil | 1T 1M",
+      "TitleExtraDetails": "DR2 | 1T 1M",
+      "PathIdSegment": "det-daglige-broed_83399",
+      "IsPostProcessed": true
+     },
+     "customId": "urn:dr:ocs:tv:content:playable:00921409740",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "id": "83399",
+     "type": "program",
+     "shortDescription": "Dansk reportage fra 2014\nDanskerne er blevet en nation af brødbagere. Brød er blevet smart og eksklusivt. Men er brød i det hele taget sundt, og hvorfor skal et brød hos en bager koste over 30 kroner? Det undersøger denne temalørdag som også tester Lagkag",
+     "contextualTitle": "",
+     "title": "Det daglige brød",
+     "path": "/program/det-daglige-broed_83399",
+     "duration": 3681,
+     "releaseYear": 2014,
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "watchPath": "/se/det-daglige-broed_83399",
+     "themes": []
+    }
+   ],
+   "size": 38,
+   "paging": {
+    "size": 18,
+    "total": 3,
+    "page": 1,
+    "next": ""
+   }
+  },
+  "competitions": {
+   "id": "competitions-items",
+   "title": "competitions",
+   "path": "",
+   "items": [],
+   "size": 0,
+   "paging": {
+    "size": 18,
+    "total": 0,
+    "page": 1
+   }
+  },
+  "confederations": {
+   "id": "confederations-items",
+   "title": "confederations",
+   "path": "",
+   "items": [],
+   "size": 0,
+   "paging": {
+    "size": 18,
+    "total": 0,
+    "page": 1
+   }
+  },
+  "events": {
+   "id": "events-items",
+   "title": "events",
+   "path": "",
+   "items": [],
+   "size": 0,
+   "paging": {
+    "size": 18,
+    "total": 0,
+    "page": 1
+   }
+  },
+  "movies": {
+   "id": "movies-items",
+   "title": "movies",
+   "path": "",
+   "items": [],
+   "size": 0,
+   "paging": {
+    "size": 18,
+    "total": 0,
+    "page": 1
+   }
+  },
+  "newshighlights": {
+   "id": "newshighlights-items",
+   "title": "newsHighlights",
+   "path": "",
+   "items": [],
+   "size": 0,
+   "paging": {
+    "size": 18,
+    "total": 0,
+    "page": 1
+   }
+  },
+  "persons": {
+   "id": "persons-items",
+   "title": "persons",
+   "path": "",
+   "items": [],
+   "size": 0,
+   "paging": {
+    "size": 18,
+    "total": 0,
+    "page": 1
+   }
+  },
+  "teams": {
+   "id": "teams-items",
+   "title": "teams",
+   "path": "",
+   "items": [],
+   "size": 0,
+   "paging": {
+    "size": 18,
+    "total": 0,
+    "page": 1
+   }
+  },
+  "tv": {
+   "id": "tv-items",
+   "title": "tv",
+   "path": "",
+   "items": [],
+   "size": 0,
+   "paging": {
+    "size": 18,
+    "total": 0,
+    "page": 1
+   }
+  }
+ }
+}

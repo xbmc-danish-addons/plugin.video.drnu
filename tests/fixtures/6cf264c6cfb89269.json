@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='402108'&Width=1920&Height=1080&ImageId='49054862'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='402108'&Width=1440&Height=2160&ImageId='49054822'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='402108'&Width=1920&Height=1080&ImageId='49054843'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-10-20T21:59:00Z",
+    "scopes": [
+     "402108"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-08-20T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "402108"
+  ],
+  "categories": [
+   "dokumentar",
+   "krimi",
+   "dr1",
+   "acc_spoken_subtitles",
+   "acc_audio_description"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Krimi,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Dokumentar,Krimi",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Agent Samsam",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "PathIdSegment": "agent-samsam_402108",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3385919741000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "402108",
+  "type": "show",
+  "description": "Islamistisk terrorist eller dansk agent? Den danske statsborger Ahmed Samsam har en dom på otte års fængsel for at have tilsluttet sig terrororganisationen Islamisk Stat. Selv siger han, at han er uskyldig, og at han på sine rejser til borgerkrigen i Syrien arbejdede for de danske efterretningstjenester PET og FE.",
+  "shortDescription": "Islamistisk terrorist eller dansk agent? Den danske statsborger Ahmed Samsam har en dom på otte års fængsel for at have tilsluttet sig terrororganisationen Islamisk Stat. Selv siger han, at han er uskyldig, og at han på sine rejser til borgerkrigen i Syri",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Agent Samsam",
+  "vodItemWatchPath": "",
+  "path": "/serie/agent-samsam_402108",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440676'&Width=1920&Height=1080&ImageId='51657582'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440676'&Width=8426&Height=12641&ImageId='51657584'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440676'&Width=1920&Height=1080&ImageId='51657586'",
+   "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440676'&Width=2048&Height=2048&ImageId='51668445'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-01-05T22:59:00Z",
+    "scopes": [
+     "440676"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-23T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "440676"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Høj",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "hoej_440676",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3628547817000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "440676",
+  "type": "show",
+  "description": "Drager, jætter og nordisk mytologi - hvad skulle kunne gå galt? Kom med når Høj og hans venner, dværgen Trin, elveren Alfarim og en forvirret talende Hund, tager på en farlig rejse for at finde det stjålne gudesmykke. En sjov og spændende dansk animationsserie til hele familien.",
+  "shortDescription": "Drager, jætter og nordisk mytologi - hvad skulle kunne gå galt? Kom med når Høj og hans venner, dværgen Trin, elveren Alfarim og en forvirret talende Hund, tager på en farlig rejse for at finde det stjålne gudesmykke. En sjov og spændende dansk animations",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Høj",
+  "vodItemWatchPath": "",
+  "path": "/serie/hoej_440676",
+  "genrePaths": [],
+  "totalUserRatings": 0,
+  "nextEpisode": {
+   "available": "29. MAR 2024 | 6:00",
+   "availableUTC": "1711688400"
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='410241'&Width=1440&Height=2160&ImageId='49925732'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='410241'&Width=1920&Height=1080&ImageId='49925734'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='410241'&Width=1920&Height=1080&ImageId='49529982'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='410241'&Width=2048&Height=2048&ImageId='49937643'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-11-17T22:59:00Z",
+    "scopes": [
+     "410241"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-09-29T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "410241"
+  ],
+  "categories": [
+   "serie",
+   "dr ramasjang",
+   "musik"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Hugo og Drømmemasken",
+   "ExtraDetails": "Serie | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "hugo-og-droemmemasken_410241",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3609747132000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "410241",
+  "type": "show",
+  "description": "Magisk og mystisk fiktionsserie.\nHugo er flyttet til en ny by, og han savner sine gamle venner, som vi kender fra serien \"Vennerne og det grønne lys\". Hugos drømme er præget af utrygheden ved det nye sted - og ikke mindst af det nye steds tyran, Storm. \nDa Hugo får adgang til en mystisk drømmemaske, bliver hans liv med ét spændende igen. Men måske er det ikke helt ufarligt at åbne grænserne mellem drømme og virkelighed?",
+  "shortDescription": "Magisk og mystisk fiktionsserie.\nHugo er flyttet til en ny by, og han savner sine gamle venner, som vi kender fra serien \"Vennerne og det grønne lys\". Hugos drømme er præget af utrygheden ved det nye sted - og ikke mindst af det nye steds tyran, Storm. \nD",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Hugo og Drømmemasken",
+  "vodItemWatchPath": "",
+  "path": "/serie/hugo-og-droemmemasken_410241",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

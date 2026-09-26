@@ -1,0 +1,506 @@
+{
+ "status": 200,
+ "json": {
+  "id": "305",
+  "isStatic": false,
+  "isSystemPage": true,
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "key": "List",
+  "path": "/liste/drtv-hero-saturday-18_00_89366",
+  "template": "List Page",
+  "themes": [],
+  "title": "DRTV Hero Saturday 18:00",
+  "entries": [
+   {
+    "id": "h4p8sg3",
+    "type": "ListEntry",
+    "template": "Continuous Scroll Automatic",
+    "title": "DRTV Hero Saturday 18:00",
+    "list": {
+     "id": "89366",
+     "customFields": {
+      "PathIdSegment": "drtv-hero-saturday-18_00_89366"
+     },
+     "itemTypes": [
+      "program",
+      "link",
+      "episode",
+      "season"
+     ],
+     "description": "",
+     "title": "DRTV Hero Saturday 18:00",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/liste/drtv-hero-saturday-18_00_89366",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443474'&Width=1920&Height=1080&ImageId='51949854'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443474'&Width=1440&Height=2160&ImageId='51949851'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443474'&Width=1920&Height=1080&ImageId='51949877'"
+       },
+       "duration": 3494,
+       "releaseYear": 2024,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "443474"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "443474"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "443474"
+       ],
+       "categories": [
+        "dokumentar",
+        "krimi",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Krimi,DR1,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar,Krimi",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Konkurs på 1. klasse - Jagten på Lauritz-millionerne",
+        "ExtraDetails": "Dokumentar | 58M",
+        "TitleExtraDetails": "DR1 | 58M",
+        "ShortVideoUrl": "https://drod20f.akamaized.net/all/clear/none/9f/65fd5a6ba37f414278b3029f/65fd5a6b0264ad2ce0e6192d/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "konkurs-paa-1-klasse-_-jagten-paa-lauritz_millionerne_443474",
+        "BroadcastTimeDK": "2024-03-25T21:25:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00922416190",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "443474",
+       "type": "program",
+       "shortDescription": "Ægteparret Mette og Bengt Sundstrøm var i årtier drivkraften bag det succesfulde og nytænkende auktionshus Lauritz.com. Men i juli 2023 endte auktionseventyret katastrofalt med en konkurs, hvor tusindvis af auktionskunder mangler at få udbetalt over 50 mi",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Hvor er de 50 millioner kr., som auktionskunderne mangler?",
+       "themes": [],
+       "title": "Konkurs på 1. klasse - Jagten på Lauritz-millionerne",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/konkurs-paa-1-klasse-_-jagten-paa-lauritz_millionerne_443474",
+       "watchPath": "/se/konkurs-paa-1-klasse-_-jagten-paa-lauritz_millionerne_443474"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='301940'&Width=1920&Height=1080&ImageId='52111640'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='301940'&Width=1920&Height=1080&ImageId='52111642'"
+       },
+       "offers": [],
+       "scopes": [
+        "301940"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "tva-live_-46_aarig-erkender-knivdrab-paa-retspsykiatrisk-afdeling-i-aarhus_301940",
+        "BrandingChannelShort": "EVA",
+        "ShortVideoUrl": "https://drevent01hls.akamaized.net/hls/live/2014198/drevent01/master.m3u8",
+        "LinkTextBadge_Max_20_Characters": "Seneste nyt",
+        "BadgeBackgroundColour_HexCode": "#ff001e"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "301940",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "LIVE: Alpint skiløb med Casper Dyrbye",
+       "sports": [],
+       "themes": [],
+       "title": "TVA Live: 46-årig erkender knivdrab på retspsykiatrisk afdeling i Aarhus",
+       "vodItemWatchPath": "",
+       "path": "/kanal/192099"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438022'&Width=1920&Height=1080&ImageId='51492613'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438022'&Width=1920&Height=1080&ImageId='51492611'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438022'&Width=1440&Height=2160&ImageId='51472442'"
+       },
+       "duration": 2055,
+       "releaseYear": 2023,
+       "episodeNumber": 5,
+       "episodeName": "Med livet i hænderne: Svære beslutninger",
+       "seasonId": "438017",
+       "showId": "307239",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438022"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438022"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438022",
+        "438017"
+       ],
+       "categories": [
+        "dokumentar",
+        "krop og sundhed",
+        "dr1",
+        "acc_sign_language"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Krop og sundhed,DR1,acc_sign_language",
+        "AccessServicesOffered": "StandardVideo,SignLanguage",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar,Krop og sundhed",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PlayButtonExtraDetails": "S3:E5 Svære beslutninger",
+        "ContextualTitleExtraDetails": "27. MAR 2024 | 34M",
+        "AvailableFrom": "2024-03-27T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "Ongoing",
+        "PageTitle": "Med livet i hænderne: Sæson 3 – Svære beslutninger",
+        "ExtraDetails": "SÆSON 3 EPISODE 5 | 34M",
+        "ShortVideoUrl": "https://drod24b.akamaized.net/all/clear/none/4c/66011db520b03b5260c3ed4c/66011db3c25b061314dbc99e/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "med-livet-i-haenderne_-svaere-beslutninger_438022",
+        "BroadcastTimeDK": "2024-03-27T21:25:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00122496050",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438022",
+       "type": "episode",
+       "shortDescription": "Michael har vagt på helikopterbasen, men er i tvivl om han kan flyve ud til en ulykke. Malenes store operation er i gang, men holdet er i tvivl om, hvad der er bedst for patienten. Udløber: 27. mar 2026",
+       "contextualTitle": "5. Svære beslutninger",
+       "sports": [],
+       "tagline": "Episode 5:6 | Malenes hold er i tvivl om, hvad der er bedst for deres patient",
+       "themes": [],
+       "title": "Med livet i hænderne: Svære beslutninger",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/med-livet-i-haenderne_-svaere-beslutninger_438022",
+       "watchPath": "/se/med-livet-i-haenderne_-svaere-beslutninger_438022"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443464'&Width=1920&Height=1080&ImageId='51934474'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443464'&Width=1920&Height=1080&ImageId='51934476'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443464'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 1694,
+       "releaseYear": 2024,
+       "episodeNumber": 2,
+       "episodeName": "Hammerslag: Husbåden",
+       "seasonId": "425338",
+       "showId": "7290",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "443464"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "443464"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "443464",
+        "425338"
+       ],
+       "categories": [
+        "livsstil",
+        "underholdning",
+        "hus og have",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Underholdning,Hus og have,DR1",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Livsstil,Underholdning,Hus og have",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PlayButtonExtraDetails": "S2024:E2 Husbåden",
+        "ContextualTitleExtraDetails": "26. MAR 2024 | 28M",
+        "AvailableFrom": "2024-03-26T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Hammerslag: Sæson 2024 – Husbåden",
+        "ExtraDetails": "26. MAR 2024 | 28M",
+        "ShortVideoUrl": "https://drod20c.akamaized.net/all/clear/none/c9/6600acde54a05a448ce776c9/6600acdc4a867e319c85f7cb/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "hammerslag_-husbaaden_443464",
+        "BroadcastTimeDK": "2024-03-26T20:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00952416010",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "443464",
+       "type": "episode",
+       "shortDescription": "Husbåde i København er på programmet, når Sofie Østergaard byder velkommen indenfor i to meget forskellige hjem. Kristine Virén og Lars Lyng konkurrerer mod Mira Lie Nielsen og Christian Torp Carlsen om at gætte prisen på en gammel flodpram fra Holland, d",
+       "contextualTitle": "Husbåden",
+       "sports": [],
+       "tagline": "En flodpram og en gammel bilfærge er blevet forvandlet til husbåde",
+       "themes": [],
+       "title": "Hammerslag: Husbåden",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/hammerslag_-husbaaden_443464",
+       "watchPath": "/se/hammerslag_-husbaaden_443464"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440649'&Width=1920&Height=1080&ImageId='52021656'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440649'&Width=1920&Height=1080&ImageId='52021658'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440649'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 1724,
+       "releaseYear": 2024,
+       "episodeNumber": 3,
+       "episodeName": "Danske tv-seriers bedste: Kærlighed, forretningsmænd og sket i virkeligheden",
+       "seasonId": "440647",
+       "showId": "440646",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "440649"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "440649"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "440649",
+        "440647"
+       ],
+       "categories": [
+        "kultur",
+        "underholdning",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Underholdning,DR1",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Underholdning",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PlayButtonExtraDetails": "S1:E3 Kærlighed, forretningsmænd og sket i virkeligheden",
+        "ContextualTitleExtraDetails": "26. MAR 2024 | 29M",
+        "AvailableFrom": "2024-03-26T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "Ongoing",
+        "PageTitle": "Danske tv-seriers bedste: Sæson 1 – Kærlighed, forretningsmænd og sket i virkeligheden",
+        "ExtraDetails": "SÆSON 1 EPISODE 3 | 29M",
+        "PathIdSegment": "danske-tv_seriers-bedste_-kaerlighed-forretningsmaend-og-sket-i-virkeligheden_440649",
+        "ShortVideoUrl": "https://drod20j.akamaized.net/all/clear/none/9b/6600afac571190282010ee9b/6600afabc0b6252c947dfdf1/stream_fmp4/master_manifest.m3u8",
+        "BroadcastTimeDK": "2024-03-26T20:30:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00652421030",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "440649",
+       "type": "episode",
+       "shortDescription": "Nikolaj og Julie startede med skilsmissen. Var det et billede på en hel generation? Hvorfor er Matador særligt dansk? Og hvad er meningen egentlig med at skildre virkelighedens mest modbydelige kriminelle i tv-serier? Josephine Park, Ghita Nørby, Ellen Hi",
+       "contextualTitle": "3. Kærlighed, forretningsmænd og sket i virkeligheden",
+       "sports": [],
+       "tagline": "Episode 3:8 | ’Matador’, ’Nikolaj og Julie’, ’Carmen Curlers’ og meget mere",
+       "themes": [],
+       "title": "Danske tv-seriers bedste: Kærlighed, forretningsmænd og sket i virkeligheden",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/danske-tv_seriers-bedste_-kaerlighed-forretningsmaend-og-sket-i-virkeligheden_440649",
+       "watchPath": "/se/danske-tv_seriers-bedste_-kaerlighed-forretningsmaend-og-sket-i-virkeligheden_440649"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423687'&Width=1920&Height=1080&ImageId='51777345'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423687'&Width=1440&Height=2160&ImageId='51777337'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423687'&Width=1920&Height=1080&ImageId='51777353'"
+       },
+       "releaseYear": 2021,
+       "availableEpisodeCount": 6,
+       "seasonNumber": 1,
+       "showId": "423686",
+       "episodeCount": 6,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "423687"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "423687"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "drtv",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,DRTV",
+        "BrandingChannelShort": "DRT",
+        "BrandingChannelDisplayName": "DRTV",
+        "DisplayCategory": "Fiktionsserie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "IsGeoRestricted": "True",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Kejserinde Sisi: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "ShortVideoUrl": "https://drod22a.akamaized.net/all/clear/none/2b/65fab1dc388dcb48881de42b/65fab1db2839480a40b03ad8/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "kejserinde-sisi_423687",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:4941740703000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "423687",
+       "type": "season",
+       "shortDescription": "Dramaserie om 1800-tallets svar på lady Di - kejserinde Elisabeth af Østrig.",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Hele serien | Mød 1800-tallets svar på lady Di i ny dramaserie",
+       "themes": [],
+       "title": "Kejserinde Sisi",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/kejserinde-sisi_423687"
+      }
+     ],
+     "size": 6,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 50,
+      "options": {
+       "pageSize": 50
+      }
+     }
+    }
+   }
+  ],
+  "canonical": "/liste/drtv-hero-saturday-18_00_89366"
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440649'&Width=1920&Height=1080&ImageId='52021656'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440649'&Width=1920&Height=1080&ImageId='52021658'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440649'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1724,
+  "releaseYear": 2024,
+  "episodeNumber": 3,
+  "episodeName": "Danske tv-seriers bedste: Kærlighed, forretningsmænd og sket i virkeligheden",
+  "seasonId": "440647",
+  "showId": "440646",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2029-03-26T21:59:00Z",
+    "scopes": [
+     "440649"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-26T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2029-03-26T21:59:00Z",
+    "scopes": [
+     "440649"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-26T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "440649",
+   "440647"
+  ],
+  "categories": [
+   "kultur",
+   "underholdning",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Underholdning,DR1",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Kultur,Underholdning",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PlayButtonExtraDetails": "S1:E3 Kærlighed, forretningsmænd og sket i virkeligheden",
+   "ContextualTitleExtraDetails": "26. MAR 2024 | 29M",
+   "AvailableFrom": "2024-03-26T05:00:00.0000000Z",
+   "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Danske tv-seriers bedste: Sæson 1 – Kærlighed, forretningsmænd og sket i virkeligheden",
+   "ExtraDetails": "SÆSON 1 EPISODE 3 | 29M",
+   "PathIdSegment": "danske-tv_seriers-bedste_-kaerlighed-forretningsmaend-og-sket-i-virkeligheden_440649",
+   "ShortVideoUrl": "https://drod20j.akamaized.net/all/clear/none/9b/6600afac571190282010ee9b/6600afabc0b6252c947dfdf1/stream_fmp4/master_manifest.m3u8",
+   "BroadcastTimeDK": "2024-03-26T20:30:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00652421030",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "440649",
+  "type": "episode",
+  "description": "Nikolaj og Julie startede med skilsmissen. Var det et billede på en hel generation? Hvorfor er Matador særligt dansk? Og hvad er meningen egentlig med at skildre virkelighedens mest modbydelige kriminelle i tv-serier? Josephine Park, Ghita Nørby, Ellen Hillingsø, Mille Dinesen, Søren Malling og mange flere lader os komme helt tæt på deres ikoniske roller.\nI det her program kan du høre om Matador, Nikolaj og Julie, Efterforskningen, Rita, Sygeplejersken, Mens vi presser citronen, og Carmen Curlers. Udløber: 26. mar 2029",
+  "shortDescription": "Nikolaj og Julie startede med skilsmissen. Var det et billede på en hel generation? Hvorfor er Matador særligt dansk? Og hvad er meningen egentlig med at skildre virkelighedens mest modbydelige kriminelle i tv-serier? Josephine Park, Ghita Nørby, Ellen Hi",
+  "contextualTitle": "3. Kærlighed, forretningsmænd og sket i virkeligheden",
+  "sports": [],
+  "tagline": "Episode 3:8 | ’Matador’, ’Nikolaj og Julie’, ’Carmen Curlers’ og meget mere",
+  "themes": [],
+  "title": "Danske tv-seriers bedste: Kærlighed, forretningsmænd og sket i virkeligheden",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/danske-tv_seriers-bedste_-kaerlighed-forretningsmaend-og-sket-i-virkeligheden_440649",
+  "watchPath": "/se/danske-tv_seriers-bedste_-kaerlighed-forretningsmaend-og-sket-i-virkeligheden_440649",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

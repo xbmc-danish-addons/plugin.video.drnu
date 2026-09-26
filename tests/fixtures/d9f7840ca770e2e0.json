@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425324'&Width=1440&Height=2160&ImageId='51214539'",
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425324'&Width=1920&Height=1080&ImageId='51214537'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425324'&Width=1920&Height=1080&ImageId='51214541'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4484,
+  "releaseYear": 1992,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "425324"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "425324"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "425324"
+  ],
+  "categories": [
+   "kultur",
+   "politik",
+   "humor/satire",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Politik,Humor/satire,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Kultur,Politik,Humor/satire,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-NOT-RATED",
+   "PageTitle": "Mens vi venter på retfærdigheden",
+   "ExtraDetails": "Kultur | 1T 15M",
+   "TitleExtraDetails": "DR Gensyn | 1T 15M",
+   "PathIdSegment": "mens-vi-venter-paa-retfaerdigheden_425324",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00587026090",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "425324",
+  "type": "program",
+  "description": "Tv-udgave af teaterstykke fra 1992. Hvad handler Tamilsagen egentlig om? Statsminister Poul Schlüter erklærer i 1989, at der \"ikke er fejet noget ind under gulvtæppet\". Alligevel nedsættes en undersøgelsesret ledet af Mogens Hornslet. Journalisten Nils Ufer dækker sagen, som han også vinder Cavlingprisen for. Desuden skriver han et teaterstykke, hvor en sprudlende Peter Larsen på underholdende vis forsøger at forklare, hvordan sagsbehandlingen af tamilske flygtninge kunne føre til en politisk skandale. Året efter udsendelsen falder Schlüter-regeringen, og Erik Ninn-Hansen bliver stillet for en rigsret. Udløber: 13. sep 2025",
+  "shortDescription": "Tv-udgave af teaterstykke fra 1992. Hvad handler Tamilsagen egentlig om? Statsminister Poul Schlüter erklærer i 1989, at der \"ikke er fejet noget ind under gulvtæppet\". Alligevel nedsættes en undersøgelsesret ledet af Mogens Hornslet. Journalisten Nils Uf",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Mens vi venter på retfærdigheden",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/mens-vi-venter-paa-retfaerdigheden_425324",
+  "watchPath": "/se/mens-vi-venter-paa-retfaerdigheden_425324",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

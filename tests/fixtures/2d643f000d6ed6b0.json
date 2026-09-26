@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='246398'&Width=1920&Height=1080&ImageId='15310460'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='246398'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='246398'&Width=1920&Height=1080&ImageId='44321887'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-06-01T21:59:00Z",
+    "scopes": [
+     "246398"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-06-01T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "246398"
+  ],
+  "categories": [
+   "dokumentar",
+   "videnskab og teknologi",
+   "dr2"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Videnskab og teknologi,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Dokumentar,Videnskab og teknologi",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Eksperimentet: 60 dage på månen",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "ShortVideoUrl": "https://drod03e-vh.akamaihd.net/i/all/clear/streaming/e0/60b4702dac5a6116dc0664e0/VS-Eksperimentet--60-d_6d7fa55e493843359bc78dd0c22cf12c_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "eksperimentet_-60-dage-paa-maanen_246398",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2533849118000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "246398",
+  "type": "show",
+  "description": "Kan mennesket overleve 60 dage på månen uden at gå fra forstanden - vel at mærke på 7 kvadratmeter? Det eksperiment kaster de to unge rumarkitekter Karl-Johan Sørensen og Sebastian Aristotelis sig ud i i efteråret 2020. På en simuleret månemission i et af klodens allermest ugæstfri områder tester de to venner deres selvbyggede månehabitat for at blive klogere på, hvad der skal til for at overleve i det ydre rum og for at føle på egen krop, hvordan mennesket reagerer på ekstrem isolation, drabeligt klima og en udtalt mangel på stimuli udefra - præcis som på månen.",
+  "shortDescription": "Kan mennesket overleve 60 dage på månen uden at gå fra forstanden - vel at mærke på 7 kvadratmeter? Det eksperiment kaster de to unge rumarkitekter Karl-Johan Sørensen og Sebastian Aristotelis sig ud i i efteråret 2020. På en simuleret månemission i et af",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Se hele serien | To danskere tager på en livsfarlig månemission",
+  "themes": [],
+  "title": "Eksperimentet: 60 dage på månen",
+  "vodItemWatchPath": "",
+  "path": "/serie/eksperimentet_-60-dage-paa-maanen_246398",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

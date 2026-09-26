@@ -1,0 +1,3394 @@
+{
+ "status": 200,
+ "json": {
+  "id": "418068",
+  "isStatic": false,
+  "isSystemPage": false,
+  "metadata": {
+   "description": "Din indgang til DR's TV-arkiv. Gå på opdagelse i historiske programmer, serier og film fra et udvalg af DR's arkiv her. De bedste ting fortjener et Gensyn",
+   "keywords": []
+  },
+  "key": "",
+  "path": "/gensyn",
+  "template": "Home",
+  "themes": [],
+  "title": "Gensyn - Se programmer fra DR's arkiv her",
+  "entries": [
+   {
+    "customFields": {
+     "imageText": "Gensyn",
+     "textColor": {
+      "color": "#ffffff",
+      "opacity": 100
+     },
+     "textHorizontalAlignment": "left",
+     "textVerticalAlignment": "middle",
+     "imageWidth": "fullWidth",
+     "widthPercentage": null,
+     "imageHorizontalAlignment": "center",
+     "link": "",
+     "altText": ""
+    },
+    "type": "ImageEntry",
+    "id": "d51e99d",
+    "template": "H9",
+    "title": "",
+    "images": {
+     "custom": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Page'&EntityId='418068'&Width=2100&Height=150&ImageId='51568674'"
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "0559810",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T2",
+    "title": "De største gensyn lige nu",
+    "list": {
+     "id": "439761",
+     "customFields": {
+      "PathIdSegment": "gensyn-_-de-stoerste-gensyn-lige-nu_439761"
+     },
+     "itemTypes": [
+      "show",
+      "episode",
+      "program"
+     ],
+     "description": "",
+     "title": "Gensyn | De største gensyn lige nu",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/liste/gensyn-_-de-stoerste-gensyn-lige-nu_439761",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436630'&Width=1920&Height=1080&ImageId='51376178'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436630'&Width=1440&Height=2160&ImageId='51376184'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436630'&Width=1920&Height=1080&ImageId='51963932'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "436630"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "436630"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Taxa",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "taxa_436630",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:753481120000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "436630",
+       "type": "show",
+       "shortDescription": "En stjerneparade af stærke navne medvirker i DR's klassiske dramaserie om livet omkring en lille københavnsk taxacentral.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Taxa",
+       "vodItemWatchPath": "",
+       "path": "/serie/taxa_436630"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440043'&Width=1920&Height=1080&ImageId='51598266'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440043'&Width=1920&Height=1080&ImageId='51598264'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440043'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "440043"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "440043"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Fjernsyn for dyr",
+        "ExtraDetails": "Gensyn | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "fjernsyn-for-dyr_440043",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:4955015447000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "440043",
+       "type": "show",
+       "shortDescription": "Dansk børneserie fra 1983. Tag med Bamse op på planeten Joakim, hvor han møder de sammengroede væsner Forlæns og Baglæns. Og viser klip fra fjernsynet.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Fjernsyn for dyr",
+       "vodItemWatchPath": "",
+       "path": "/serie/fjernsyn-for-dyr_440043"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438726'&Width=1920&Height=1080&ImageId='51510531'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438726'&Width=1440&Height=2160&ImageId='51510535'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438726'&Width=1920&Height=1080&ImageId='51834068'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "438726"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438726"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_audio_description"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Huset på Christianshavn",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "huset-paa-christianshavn_438726",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1873072643000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438726",
+       "type": "show",
+       "shortDescription": "Dansk komedieserie 1970-77. Folkekær føljeton om livets sorger og glæder i en livlig ejendom i København. Kom i godt selskab med flyttemand Olsen, dyrehandler Clausen og Emma i Rottehullet.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Huset på Christianshavn",
+       "vodItemWatchPath": "",
+       "path": "/serie/huset-paa-christianshavn_438726"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445946'&Width=1920&Height=1080&ImageId='52000280'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445946'&Width=1920&Height=1080&ImageId='52000282'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='445946'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "445946"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "445946"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Flid, fedt og snyd",
+        "ExtraDetails": "Gensyn | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "flid-fedt-og-snyd_445946",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:5330870105000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "445946",
+       "type": "show",
+       "shortDescription": "Dansk børneserie 1981-1982. Hvis du gerne vil blive til noget stort, mens du er lille - så giver Gotha Andersen gode råd til at komme nemt gennem skoletiden i denne ikoniske satireserie.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Flid, fedt og snyd",
+       "vodItemWatchPath": "",
+       "path": "/serie/flid-fedt-og-snyd_445946"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='130149'&Width=1920&Height=1080&ImageId='43938663'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='130149'&Width=1440&Height=2160&ImageId='9647882'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='130149'&Width=1920&Height=1080&ImageId='43938665'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "130149"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "130149"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_audio_description",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Matador",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "ShortVideoUrl": "https://drod06m-vh.akamaihd.net/i/all/clear/streaming/27/5dd7b7f36187a4181859eb27/VS-MATADOR---1-24--Den-rejsend_6b6802403dce40a48914d0fac2509048_,337,509,1005,2062,2805,3961,.mp4.csmil/master.m3u8?cc1=name=Dansk~default=no~forced=no~lang=da~uri=https://mu.net.dr.dk/api/subtitles/playlist/urn:dr:mu:manifest:5dd7b7f36187a4181859eb27%3Fsegmentsizeinms=60000%26subtitleType=HardOfHearing",
+        "PathIdSegment": "matador_130149",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1344431885000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "130149",
+       "type": "show",
+       "shortDescription": "Klassikeren over alle danske dramaklassikere.",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Se hele serien | Se eller gense klassikeren over alle danske dramaklassikere",
+       "themes": [],
+       "title": "Matador",
+       "vodItemWatchPath": "",
+       "path": "/serie/matador_130149"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441506'&Width=1920&Height=1080&ImageId='52020810'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441506'&Width=1920&Height=1080&ImageId='52020812'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441506'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "441506"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "441506"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Kikkassen",
+        "ExtraDetails": "Gensyn | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "kikkassen_441506",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:5341417190000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "441506",
+       "type": "show",
+       "shortDescription": "Dansk børneserie 1965-1981. Fjernsyn for små størrelser med film, sange og leg.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Kikkassen",
+       "vodItemWatchPath": "",
+       "path": "/serie/kikkassen_441506"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426061'&Width=1920&Height=1080&ImageId='51036880'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426061'&Width=1440&Height=2160&ImageId='51036884'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426061'&Width=1920&Height=1080&ImageId='51036878'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "426061"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426061"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Een gang strømer...",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "een-gang-stroemer_426061",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2620350735000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426061",
+       "type": "show",
+       "shortDescription": "Dansk krimiserie fra 1987. Jens Okking og Jens Arentzen har hovedrollerne i Anders Refns actionfyldte serie om to politifolks jagt på skruppelløse bagmænd. Introsangen 'Sjæl i flammer' bliver et hit.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Een gang strømer...",
+       "vodItemWatchPath": "",
+       "path": "/serie/een-gang-stroemer_426061"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366364'&Width=1440&Height=2160&ImageId='50404667'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366364'&Width=1920&Height=1080&ImageId='44151842'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366364'&Width=1920&Height=1080&ImageId='50404669'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "366364"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "366364"
+       ],
+       "categories": [
+        "dokumentar",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Dahlgårds Tivoli",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "dahlgaards-tivoli_366364",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1954878039000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "366364",
+       "type": "show",
+       "shortDescription": "Familien Dahlgård har drevet deres tivoli i over 50 år. Fra påske og frem til oktober rejser familien og de mange ansatte rundt fra by til by med forlystelser, boder og beboelsesvogne. Her kan du følge Dahlgårds Tivoli, familien og de ansatte i glæder og ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Dahlgårds Tivoli",
+       "vodItemWatchPath": "",
+       "path": "/serie/dahlgaards-tivoli_366364"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413930'&Width=1920&Height=1080&ImageId='50060949'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413930'&Width=1440&Height=2160&ImageId='50315490'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413930'&Width=1920&Height=1080&ImageId='50060960'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "413930"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "413930"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Een stor familie",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "een-stor-familie_413930",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:755375481000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "413930",
+       "type": "show",
+       "shortDescription": "Dansk komedieserie fra 1982. Et satirisk blik på en arbejdsplads og dens meget forskellige medarbejdere. Fra direktør til rengøringsdame. Løjerne udspiller sig i et kontormiljø hos Holly-koncernen.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Een stor familie",
+       "vodItemWatchPath": "",
+       "path": "/serie/een-stor-familie_413930"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443951'&Width=1920&Height=1080&ImageId='51865931'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443951'&Width=1440&Height=2160&ImageId='51865933'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443951'&Width=1920&Height=1080&ImageId='51865935'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "443951"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "443951"
+       ],
+       "categories": [
+        "dokumentar",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Grevinden på tredje",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "grevinden-paa-tredje_443951",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1955060398000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "443951",
+       "type": "show",
+       "shortDescription": "Dansk dokumentarserie 1996-1997. Om millionøsen og grevinden Erna Hamilton.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Grevinden på tredje",
+       "vodItemWatchPath": "",
+       "path": "/serie/grevinden-paa-tredje_443951"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414517'&Width=1920&Height=1080&ImageId='49853279'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414517'&Width=1440&Height=2160&ImageId='51834909'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414517'&Width=1920&Height=1080&ImageId='49853281'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "414517"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "414517"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Sonja fra Saxogade",
+        "ExtraDetails": "Gensyn | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "sonja-fra-saxogade_414517",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:4952665333000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "414517",
+       "type": "show",
+       "shortDescription": "Dansk børneserie fra 1968. En tidstro og kærlig miljøskildring i børnehøjde af livet på stenbroen i 60'ernes København.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Sonja fra Saxogade",
+       "vodItemWatchPath": "",
+       "path": "/serie/sonja-fra-saxogade_414517"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426086'&Width=1440&Height=2160&ImageId='51415671'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426086'&Width=1920&Height=1080&ImageId='51415507'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426086'&Width=1920&Height=1080&ImageId='51415509'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "426086"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426086"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Station 13",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "station-13_426086",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2012418078000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426086",
+       "type": "show",
+       "shortDescription": "Dansk politiserie fra 1988. Manuskriptforfatterne Stig & Peter Thorsboe står bag dramaserien om livet på en københavnsk politistation. Ole Ernst, Kirsten Cenius og Peter Schrøder er trukket i uniform.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Station 13",
+       "vodItemWatchPath": "",
+       "path": "/serie/station-13_426086"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413989'&Width=1920&Height=1080&ImageId='50568568'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413989'&Width=1920&Height=1080&ImageId='50568566'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413989'&Width=1440&Height=2160&ImageId='50568598'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "413989"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "413989"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Historie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Gamle Danmark",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "gamle-danmark_413989",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2185625303000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "413989",
+       "type": "show",
+       "shortDescription": "Dansk dokumentarserie fra 1984. Journalisten og forfatteren Paul Hammerichs populære Danmarkskrønike om årene 1945-1975.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Gamle Danmark",
+       "vodItemWatchPath": "",
+       "path": "/serie/gamle-danmark_413989"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438226'&Width=1920&Height=1080&ImageId='51509221'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438226'&Width=1920&Height=1080&ImageId='51509223'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438226'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 2874,
+       "releaseYear": 1985,
+       "episodeNumber": 3,
+       "episodeName": "Lørdagshjørnet: Kim Larsen",
+       "seasonId": "432787",
+       "showId": "429978",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438226"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438226"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438226",
+        "432787"
+       ],
+       "categories": [
+        "underholdning",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Underholdning,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PlayButtonExtraDetails": "S1985:E3 Kim Larsen",
+        "ContextualTitleExtraDetails": "8. JUN 1985 | 48M",
+        "AvailableFrom": "1985-06-08T15:10:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "Ongoing",
+        "PageTitle": "Lørdagshjørnet: Sæson 1985 – Kim Larsen",
+        "ExtraDetails": "SÆSON 1985 EPISODE 3 | 48M",
+        "PathIdSegment": "loerdagshjoernet_-kim-larsen_438226",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00505686000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438226",
+       "type": "episode",
+       "shortDescription": "Dansk talkshow fra 1985. 'Caroline (vil du trille mig en bussemand)' og 'Rita' er nogle af de numre, som Danmarks største gavflab underholder med i Lørdagshjørnet. Desuden indvier den populære sanger seerne i sine politiske synspunkter, om jobbet som lære",
+       "contextualTitle": "3. Kim Larsen",
+       "sports": [],
+       "themes": [],
+       "title": "Lørdagshjørnet: Kim Larsen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/loerdagshjoernet_-kim-larsen_438226",
+       "watchPath": "/se/loerdagshjoernet_-kim-larsen_438226"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438439'&Width=1920&Height=1080&ImageId='51658086'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438439'&Width=1920&Height=1080&ImageId='51658092'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438439'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "438439"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438439"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Uha-Uha",
+        "ExtraDetails": "Underholdning | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "uha_uha_438439",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:5298835787000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438439",
+       "type": "show",
+       "shortDescription": "Dansk satireserie 1972-75. En tv-revy om ugen der er gået - både i Danmark og i udlandet. Med avisudklip, tegninger og parodier. Buster Larsen, Ulf Pilgaard og Lise Ringheim spiller med.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Uha-Uha",
+       "vodItemWatchPath": "",
+       "path": "/serie/uha_uha_438439"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443649'&Width=1920&Height=1080&ImageId='51832238'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443649'&Width=1440&Height=2160&ImageId='51832240'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443649'&Width=1920&Height=1080&ImageId='51832242'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "443649"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "443649"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Nikolaj og Julie",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "nikolaj-og-julie_443649",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:755349805000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "443649",
+       "type": "show",
+       "shortDescription": "Peter Mygind og Sofie Gråbøl tager sig af titelrollerne i den romantiske dramaserie 'Nikolaj og Julie'. Serien modtog den prestigefyldte internationale Emmy-pris for bedste dramaserie.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Nikolaj og Julie",
+       "vodItemWatchPath": "",
+       "path": "/serie/nikolaj-og-julie_443649"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436991'&Width=1920&Height=1080&ImageId='51388166'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436991'&Width=1440&Height=2160&ImageId='51598599'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436991'&Width=1920&Height=1080&ImageId='51598605'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "436991"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "436991"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Den gode, den onde og den virk'li sjove",
+        "ExtraDetails": "Underholdning | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "den-gode-den-onde-og-den-virkli-sjove_436991",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1882580692000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "436991",
+       "type": "show",
+       "shortDescription": "Dansk satireserie 1990-1991. Ugens små og store begivenheder samt tidsånden i det hele taget bliver udlagt med humor i denne serie, som Ole Bornedal og Claus Flygare bl.a. har skrevet tekster til.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Den gode, den onde og den virk'li sjove",
+       "vodItemWatchPath": "",
+       "path": "/serie/den-gode-den-onde-og-den-virkli-sjove_436991"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437387'&Width=1920&Height=1080&ImageId='51598527'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437387'&Width=1440&Height=2160&ImageId='51598529'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437387'&Width=1920&Height=1080&ImageId='51415521'"
+       },
+       "duration": 2512,
+       "releaseYear": 1974,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "437387"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "437387"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "437387"
+       ],
+       "categories": [
+        "kultur",
+        "musik",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Musik,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Musik,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Portræt af The Savage Rose",
+        "ExtraDetails": "Kultur | 42M",
+        "TitleExtraDetails": "DR Gensyn | 42M",
+        "PathIdSegment": "portraet-af-the-savage-rose_437387",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00505093370",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "437387",
+       "type": "program",
+       "shortDescription": "Dansk musikprogram fra 1974. Gennem interview med gruppens medlemmer, udsagn fra folk på gaden og koncertoptagelser fra Forvaringsanstalten Herstedvester tegnes et billede af et af 70'ernes store navne i Danmark. The Savage Rose blev dannet i 1967 og har ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Portræt af The Savage Rose",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/portraet-af-the-savage-rose_437387",
+       "watchPath": "/se/portraet-af-the-savage-rose_437387"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441990'&Width=1920&Height=1080&ImageId='51948892'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441990'&Width=1920&Height=1080&ImageId='51948904'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441990'&Width=1440&Height=2160&ImageId='51948888'"
+       },
+       "duration": 542,
+       "releaseYear": 1948,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "441990"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "441990"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "441990"
+       ],
+       "categories": [
+        "kultur",
+        "underholdning",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Underholdning,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Underholdning,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Danmarks første fjernsynsudsendelse (1948)",
+        "ExtraDetails": "Kultur | 9M",
+        "TitleExtraDetails": "DR Gensyn | 9M",
+        "PathIdSegment": "danmarks-foerste-fjernsynsudsendelse-_1948__441990",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00502412030",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "441990",
+       "type": "program",
+       "shortDescription": "Dansk program fra 1948. \"Goddag, her er fjernsynet\". Med disse ord indleder Lily Broberg Danmarks første tv-udsendelse fra Tivoli i København. Hun præsenterer et uddrag fra filmen 'Elverhøj' og et filmklip om Skoleskibet Danmark. Afslutningsvis synger sku",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Danmarks første fjernsynsudsendelse (1948)",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/danmarks-foerste-fjernsynsudsendelse-_1948__441990",
+       "watchPath": "/se/danmarks-foerste-fjernsynsudsendelse-_1948__441990"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438716'&Width=1920&Height=1080&ImageId='51775883'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438716'&Width=1440&Height=2160&ImageId='51775903'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438716'&Width=1920&Height=1080&ImageId='51775876'"
+       },
+       "duration": 2081,
+       "releaseYear": 1973,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438716"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438716"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438716"
+       ],
+       "categories": [
+        "kultur",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Tove Ditlevsen - jeg har altid villet alting",
+        "ExtraDetails": "Kultur | 35M",
+        "TitleExtraDetails": "DR Gensyn | 35M",
+        "PathIdSegment": "tove-ditlevsen-_-jeg-har-altid-villet-alting_438716",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00202092280",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438716",
+       "type": "program",
+       "shortDescription": "Dansk portrætprogram fra 1973. Tove Ditlevsen har altid villet være mange ting på én gang - kone, mor, elskerinde, forfatter og menneske. \"Nu er jeg efterhånden træt af det\", fortæller hun som 55-årig i et åbenhjertigt interview med Gregers Dirckinck-Holm",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Tove Ditlevsen - jeg har altid villet alting",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/tove-ditlevsen-_-jeg-har-altid-villet-alting_438716",
+       "watchPath": "/se/tove-ditlevsen-_-jeg-har-altid-villet-alting_438716"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436974'&Width=1920&Height=1080&ImageId='51581541'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436974'&Width=1440&Height=2160&ImageId='51824105'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436974'&Width=1920&Height=1080&ImageId='51824111'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "436974"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "436974"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Sonny Souffle Chok Show",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "sonny-souffle-chok-show_436974",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:5151849843000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "436974",
+       "type": "show",
+       "shortDescription": "Dansk satireserie fra 1987. Wikke & Rasmussen optræder som værterne Sonny og Sonny, der præsenterer gyserkomedien 'Tannhäuser' og indslag med bl.a. Brdr. Bisp og Thomas Windings godnathistorier.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Sonny Souffle Chok Show",
+       "vodItemWatchPath": "",
+       "path": "/serie/sonny-souffle-chok-show_436974"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434119'&Width=1920&Height=1080&ImageId='51215877'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434119'&Width=1920&Height=1080&ImageId='51215865'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434119'&Width=1440&Height=2160&ImageId='51215879'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "434119"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "434119"
+       ],
+       "categories": [
+        "gensyn",
+        "dr ramasjang",
+        "serie"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Nana",
+        "ExtraDetails": "Gensyn | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "nana_434119",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1912351996000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "434119",
+       "type": "show",
+       "shortDescription": "Dansk børneserie fra 1988. Nana er seks år og starter i skolen. Hendes finurlige syn på verden udfordrer de voksne - især hendes lidt distræte far, spillet af Jesper Christensen.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Nana",
+       "vodItemWatchPath": "",
+       "path": "/serie/nana_434119"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438722'&Width=1920&Height=1080&ImageId='51847087'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438722'&Width=1440&Height=2160&ImageId='51847095'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438722'&Width=1920&Height=1080&ImageId='51847092'"
+       },
+       "duration": 1268,
+       "releaseYear": 1954,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438722"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438722"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438722"
+       ],
+       "categories": [
+        "kultur",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Karen Blixen fortæller",
+        "ExtraDetails": "Kultur | 21M",
+        "TitleExtraDetails": "DR Gensyn | 21M",
+        "PathIdSegment": "karen-blixen-fortaeller_438722",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00202182190",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438722",
+       "type": "program",
+       "shortDescription": "Dansk interviewprogram fra 1954. \"Jeg ønsker Dem et glædeligt nytår\". Sådan lyder en hilsen til seerne fra Karen Blixen, der i 1954 kigger tilbage på nogle af årets begivenheder. Den verdensberømte forfatter tænker med glæde på, at Hemingway - der samme å",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Karen Blixen fortæller",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/karen-blixen-fortaeller_438722",
+       "watchPath": "/se/karen-blixen-fortaeller_438722"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438223'&Width=1920&Height=1080&ImageId='51482152'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438223'&Width=1920&Height=1080&ImageId='51482150'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438223'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 4313,
+       "releaseYear": 1977,
+       "episodeNumber": 3,
+       "episodeName": "Lørdagshjørnet: Dirch Passer",
+       "seasonId": "429980",
+       "showId": "429978",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438223"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438223"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438223",
+        "429980"
+       ],
+       "categories": [
+        "underholdning",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Underholdning,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PlayButtonExtraDetails": "S1977:E3 Dirch Passer",
+        "ContextualTitleExtraDetails": "12. MAR 1977 | 1T 12M",
+        "AvailableFrom": "1977-03-12T17:44:18.9600000Z",
+        "PresentationTypeCode": "Ongoing",
+        "PageTitle": "Lørdagshjørnet: Sæson 1977 – Dirch Passer",
+        "ExtraDetails": "SÆSON 1977 EPISODE 3 | 1T 12M",
+        "PathIdSegment": "loerdagshjoernet_-dirch-passer_438223",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00505205190",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438223",
+       "type": "episode",
+       "shortDescription": "Dansk talkshow fra 1977. En af Danmarks største komikere er gæst i Lørdagshjørnet. Dirch Passer underholder bl.a. med et potpourri af nogle af sine kendte numre, parodierer Poul Reumert og Peter Malberg og improviserer sange på fransk, italiensk, hollands",
+       "contextualTitle": "3. Dirch Passer",
+       "sports": [],
+       "themes": [],
+       "title": "Lørdagshjørnet: Dirch Passer",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/loerdagshjoernet_-dirch-passer_438223",
+       "watchPath": "/se/loerdagshjoernet_-dirch-passer_438223"
+      }
+     ],
+     "size": 39,
+     "paging": {
+      "total": 2,
+      "page": 1,
+      "size": 24,
+      "next": "/lists/439761?page_size=24&page=2&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "88c55d5",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "S1",
+    "title": "Kategorier",
+    "list": {
+     "id": "436011",
+     "customFields": {
+      "PathIdSegment": "gensyn-kategorier-_-forside_436011"
+     },
+     "itemTypes": [
+      "link"
+     ],
+     "description": "",
+     "title": "Kategorier",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/liste/gensyn-kategorier-_-forside_436011",
+     "items": [
+      {
+       "images": {
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436012'&Width=1080&Height=1080&ImageId='51338936'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436012'&Width=1920&Height=1080&ImageId='51338938'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436012'&Width=1920&Height=1080&ImageId='51338940'"
+       },
+       "offers": [],
+       "scopes": [
+        "436012"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-dokumentar_436012"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436012",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | Dokumentar",
+       "sports": [],
+       "themes": [],
+       "title": "Dokumentar",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/dokumentar"
+      },
+      {
+       "images": {
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436027'&Width=1080&Height=1080&ImageId='51339328'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436027'&Width=1920&Height=1080&ImageId='51339330'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436027'&Width=1920&Height=1080&ImageId='51339332'"
+       },
+       "offers": [],
+       "scopes": [
+        "436027"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-kultur_436027"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436027",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | Kultur",
+       "sports": [],
+       "themes": [],
+       "title": "Kultur",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/kultur"
+      },
+      {
+       "images": {
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436014'&Width=1080&Height=1080&ImageId='51338942'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436014'&Width=1920&Height=1080&ImageId='51338945'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436014'&Width=1920&Height=1080&ImageId='51338947'"
+       },
+       "offers": [],
+       "scopes": [
+        "436014"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-serier_436014"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436014",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | Serier",
+       "sports": [],
+       "themes": [],
+       "title": "Serier",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/serier"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436024'&Width=1920&Height=1080&ImageId='51339293'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436024'&Width=1920&Height=1080&ImageId='51339297'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436024'&Width=1080&Height=1080&ImageId='51339302'"
+       },
+       "offers": [],
+       "scopes": [
+        "436024"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-historie_436024"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436024",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | Historie",
+       "sports": [],
+       "themes": [],
+       "title": "Historie",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/historie"
+      },
+      {
+       "images": {
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436025'&Width=1080&Height=1080&ImageId='51339312'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436025'&Width=1920&Height=1080&ImageId='51339314'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436025'&Width=1920&Height=1080&ImageId='51339316'"
+       },
+       "offers": [],
+       "scopes": [
+        "436025"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-underholdning_436025"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436025",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | Underholdning",
+       "sports": [],
+       "themes": [],
+       "title": "Underholdning",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/underholdning"
+      },
+      {
+       "images": {
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436010'&Width=1080&Height=1080&ImageId='51338930'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436010'&Width=1920&Height=1080&ImageId='51338934'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436010'&Width=1920&Height=1080&ImageId='51338932'"
+       },
+       "offers": [],
+       "scopes": [
+        "436010"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-boern_436010"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436010",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | Børn",
+       "sports": [],
+       "themes": [],
+       "title": "Børn",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/boern"
+      },
+      {
+       "images": {
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436084'&Width=1080&Height=1080&ImageId='51340696'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436084'&Width=1920&Height=1080&ImageId='51340698'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436084'&Width=1920&Height=1080&ImageId='51340700'"
+       },
+       "offers": [],
+       "scopes": [
+        "436084"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-livsstil_436084"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436084",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | Livsstil",
+       "sports": [],
+       "themes": [],
+       "title": "Livsstil",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/livsstil"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436023'&Width=1920&Height=1080&ImageId='51749393'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436023'&Width=1920&Height=1080&ImageId='51749395'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436023'&Width=1080&Height=1080&ImageId='52049873'"
+       },
+       "offers": [],
+       "scopes": [
+        "436023"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-teater-og-tv_film_436023"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436023",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | Film",
+       "sports": [],
+       "themes": [],
+       "title": "Teater og TV-film",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/teater-og-tv-film"
+      },
+      {
+       "images": {
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436082'&Width=1080&Height=1080&ImageId='51340434'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436082'&Width=1920&Height=1080&ImageId='51340436'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='436082'&Width=1920&Height=1080&ImageId='51340438'"
+       },
+       "offers": [],
+       "scopes": [
+        "436082"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "gensyn-kategori-_-a-_-aa_436082"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "436082",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Gensyn Kategori | A - Å",
+       "sports": [],
+       "themes": [],
+       "title": "A - Å",
+       "vodItemWatchPath": "",
+       "path": "/gensyn/a-aa"
+      }
+     ],
+     "size": 9,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 24,
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "719e671",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "P2",
+    "title": "Serierne der samlede os",
+    "list": {
+     "id": "439762",
+     "customFields": {
+      "PathIdSegment": "gensyn-_-serierne-der-samlede-os_439762"
+     },
+     "itemTypes": [
+      "show",
+      "season"
+     ],
+     "description": "",
+     "title": "Gensyn | Serierne der samlede os",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/liste/gensyn-_-serierne-der-samlede-os_439762",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443649'&Width=1920&Height=1080&ImageId='51832238'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443649'&Width=1440&Height=2160&ImageId='51832240'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443649'&Width=1920&Height=1080&ImageId='51832242'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "443649"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "443649"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Nikolaj og Julie",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "nikolaj-og-julie_443649",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:755349805000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "443649",
+       "type": "show",
+       "shortDescription": "Peter Mygind og Sofie Gråbøl tager sig af titelrollerne i den romantiske dramaserie 'Nikolaj og Julie'. Serien modtog den prestigefyldte internationale Emmy-pris for bedste dramaserie.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Nikolaj og Julie",
+       "vodItemWatchPath": "",
+       "path": "/serie/nikolaj-og-julie_443649"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436630'&Width=1920&Height=1080&ImageId='51376178'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436630'&Width=1440&Height=2160&ImageId='51376184'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436630'&Width=1920&Height=1080&ImageId='51963932'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "436630"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "436630"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Taxa",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "taxa_436630",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:753481120000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "436630",
+       "type": "show",
+       "shortDescription": "En stjerneparade af stærke navne medvirker i DR's klassiske dramaserie om livet omkring en lille københavnsk taxacentral.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Taxa",
+       "vodItemWatchPath": "",
+       "path": "/serie/taxa_436630"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438726'&Width=1920&Height=1080&ImageId='51510531'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438726'&Width=1440&Height=2160&ImageId='51510535'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438726'&Width=1920&Height=1080&ImageId='51834068'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "438726"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438726"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_audio_description"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Huset på Christianshavn",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "huset-paa-christianshavn_438726",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1873072643000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438726",
+       "type": "show",
+       "shortDescription": "Dansk komedieserie 1970-77. Folkekær føljeton om livets sorger og glæder i en livlig ejendom i København. Kom i godt selskab med flyttemand Olsen, dyrehandler Clausen og Emma i Rottehullet.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Huset på Christianshavn",
+       "vodItemWatchPath": "",
+       "path": "/serie/huset-paa-christianshavn_438726"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='130149'&Width=1920&Height=1080&ImageId='43938663'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='130149'&Width=1440&Height=2160&ImageId='9647882'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='130149'&Width=1920&Height=1080&ImageId='43938665'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "130149"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "130149"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_audio_description",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Matador",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "ShortVideoUrl": "https://drod06m-vh.akamaihd.net/i/all/clear/streaming/27/5dd7b7f36187a4181859eb27/VS-MATADOR---1-24--Den-rejsend_6b6802403dce40a48914d0fac2509048_,337,509,1005,2062,2805,3961,.mp4.csmil/master.m3u8?cc1=name=Dansk~default=no~forced=no~lang=da~uri=https://mu.net.dr.dk/api/subtitles/playlist/urn:dr:mu:manifest:5dd7b7f36187a4181859eb27%3Fsegmentsizeinms=60000%26subtitleType=HardOfHearing",
+        "PathIdSegment": "matador_130149",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1344431885000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "130149",
+       "type": "show",
+       "shortDescription": "Klassikeren over alle danske dramaklassikere.",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Se hele serien | Se eller gense klassikeren over alle danske dramaklassikere",
+       "themes": [],
+       "title": "Matador",
+       "vodItemWatchPath": "",
+       "path": "/serie/matador_130149"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436688'&Width=1920&Height=1080&ImageId='51376534'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436688'&Width=1440&Height=2160&ImageId='51376536'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436688'&Width=1920&Height=1080&ImageId='51376538'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "436688"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "436688"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_audio_description",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Krøniken",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "kroeniken_436688",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:755345761000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "436688",
+       "type": "show",
+       "shortDescription": "Radiofabrikken Bella er omdrejningspunktet for den stort anlagte dramaserie 'Krøniken', der blev nomineret til en international Emmy-pris.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Krøniken",
+       "vodItemWatchPath": "",
+       "path": "/serie/kroeniken_436688"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413930'&Width=1920&Height=1080&ImageId='50060949'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413930'&Width=1440&Height=2160&ImageId='50315490'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413930'&Width=1920&Height=1080&ImageId='50060960'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "413930"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "413930"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Een stor familie",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "een-stor-familie_413930",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:755375481000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "413930",
+       "type": "show",
+       "shortDescription": "Dansk komedieserie fra 1982. Et satirisk blik på en arbejdsplads og dens meget forskellige medarbejdere. Fra direktør til rengøringsdame. Løjerne udspiller sig i et kontormiljø hos Holly-koncernen.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Een stor familie",
+       "vodItemWatchPath": "",
+       "path": "/serie/een-stor-familie_413930"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426032'&Width=1920&Height=1080&ImageId='50836857'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426032'&Width=1440&Height=2160&ImageId='50836954'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426032'&Width=1920&Height=1080&ImageId='50836956'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "426032"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426032"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "En by i provinsen",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "en-by-i-provinsen_426032",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1882590370000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426032",
+       "type": "show",
+       "shortDescription": "Dansk krimiserie 1977-1980. Jens Okking og Henning Moritzen har hovedrollerne i den lune politiserie om forbrydelser og livets gang i provinsbyen Svanbjerg. Fuzzy har lavet kendingsmelodien.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "En by i provinsen",
+       "vodItemWatchPath": "",
+       "path": "/serie/en-by-i-provinsen_426032"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426017'&Width=1920&Height=1080&ImageId='50658270'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426017'&Width=1440&Height=2160&ImageId='50658272'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426017'&Width=1920&Height=1080&ImageId='50658274'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "426017"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426017"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Gøngehøvdingen",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "goengehoevdingen_426017",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2170614603000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426017",
+       "type": "show",
+       "shortDescription": "Dansk dramaserie fra 1992. Fægtekampe, forræderi og romantik. Det er nogle af ingredienserne i den historiske fortælling om Svend Poulsen, Ib og de tapre gøngers kamp mod svenskerne.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Gøngehøvdingen",
+       "vodItemWatchPath": "",
+       "path": "/serie/goengehoevdingen_426017"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353454'&Width=1920&Height=1080&ImageId='43967817'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353454'&Width=1440&Height=2160&ImageId='43967825'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353454'&Width=1920&Height=1080&ImageId='43967819'"
+       },
+       "availableEpisodeCount": 4,
+       "seasonNumber": 1,
+       "showId": "353446",
+       "episodeCount": 4,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "353454"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "353454"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles",
+        "acc_audio_description"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "IsGeoRestricted": "True",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Riget: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "PathIdSegment": "riget_353454",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:3579531998000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "353454",
+       "type": "season",
+       "shortDescription": "Det er uhyggeligt... og det er også morsomt og mystisk i Lars von Triers populære kultserie fra Rigshospitalet.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Riget",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/riget_353454"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='428366'&Width=1920&Height=1080&ImageId='51153088'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='428366'&Width=1440&Height=2160&ImageId='50824183'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='428366'&Width=1920&Height=1080&ImageId='51153090'"
+       },
+       "availableSeasonCount": 4,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "428366"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "428366"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "gensyn",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Rejseholdet",
+        "ExtraDetails": "Fiktionsserie | 4 SÆSONER",
+        "TitleExtraDetails": "DR1 | 4 SÆSONER",
+        "PathIdSegment": "rejseholdet_428366",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:755327011000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "428366",
+       "type": "show",
+       "shortDescription": "Dansk krimiserie 2000-2003. Charlotte Fich, Mads Mikkelsen og Lars Brygmann er blandt de mange stærke navne, der medvirker i den Emmy-belønnede dramaserie - baseret på virkelige kriminalsager.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Rejseholdet",
+       "vodItemWatchPath": "",
+       "path": "/serie/rejseholdet_428366"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413944'&Width=1920&Height=1080&ImageId='49973521'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413944'&Width=1440&Height=2160&ImageId='50255925'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413944'&Width=1920&Height=1080&ImageId='49973523'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "413944"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "413944"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Rejseholdet - 1983",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "rejseholdet-_-1983_413944",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:4955047213000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "413944",
+       "type": "show",
+       "shortDescription": "Dansk krimiserie fra 1983. Kriminalkommissær Christian Fjord og kriminalassistent Eva Marie West fra politiets Rejsehold hjælper på munter vis med at opklare mord i provinsen.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Rejseholdet - 1983",
+       "vodItemWatchPath": "",
+       "path": "/serie/rejseholdet-_-1983_413944"
+      }
+     ],
+     "size": 11,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 24,
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "c20ea4a",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "P2",
+    "title": "Danmarkshistorien fortalt gennem tiden",
+    "list": {
+     "id": "440046",
+     "path": "/liste/440046",
+     "items": [],
+     "size": 9,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440046?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "58c577a",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "S1",
+    "title": "Årtier",
+    "list": {
+     "id": "436043",
+     "path": "/liste/436043",
+     "items": [],
+     "size": 6,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/436043?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "6f365b8",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Nøj, det var for børn",
+    "list": {
+     "id": "446625",
+     "path": "/liste/446625",
+     "items": [],
+     "size": 39,
+     "paging": {
+      "total": 2,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/446625?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "85e30ab",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Danskerne og Gud",
+    "list": {
+     "id": "446600",
+     "path": "/liste/446600",
+     "items": [],
+     "size": 9,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/446600?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "1fb74de",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T2",
+    "title": "Tillykke Jytte Abildstrøm",
+    "list": {
+     "id": "446603",
+     "path": "/liste/446603",
+     "items": [],
+     "size": 5,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/446603?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "inset",
+     "breakoutBottom": "inset",
+     "breakoutLeft": "inset",
+     "ImagePositionWideScreens": "left",
+     "ImagePositionNarrowScreens": "left"
+    },
+    "type": "ListEntry",
+    "id": "18df81b",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "DRTB4",
+    "title": "Meget mere Annisette",
+    "list": {
+     "id": "440049",
+     "path": "/liste/440049",
+     "items": [],
+     "size": 6,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440049?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "dd97a5c",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Mennesket bag magten",
+    "list": {
+     "id": "440051",
+     "path": "/liste/440051",
+     "items": [],
+     "size": 11,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440051?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "e922e39",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "P2",
+    "title": "Sonja, Buster og alle de andre",
+    "list": {
+     "id": "440050",
+     "path": "/liste/440050",
+     "items": [],
+     "size": 15,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440050?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "0ee083a",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Litteraturens originaler",
+    "list": {
+     "id": "440047",
+     "path": "/liste/440047",
+     "items": [],
+     "size": 9,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440047?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "imageWidth": "contentWidth",
+     "widthPercentage": 100,
+     "imageHorizontalAlignment": "center",
+     "imageVerticalSpacing": "default",
+     "caption": "",
+     "link": "/serie/huset-paa-christianshavn_438726",
+     "altText": "Huset på Christianshavn"
+    },
+    "type": "ImageEntry",
+    "id": "7b03cf3",
+    "template": "ED1",
+    "title": "",
+    "images": {
+     "hero3x1": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Page'&EntityId='418068'&Width=1920&Height=640&ImageId='51749469'"
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "2739f9c",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Rigeligt smør - sådan har vi lavet mad",
+    "list": {
+     "id": "440061",
+     "path": "/liste/440061",
+     "items": [],
+     "size": 18,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440061?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "c331a98",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Det grinte vi meget af dengang",
+    "list": {
+     "id": "440063",
+     "path": "/liste/440063",
+     "items": [],
+     "size": 22,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440063?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "185f55e",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Det talte vi meget om i 90'erne",
+    "list": {
+     "id": "440048",
+     "path": "/liste/440048",
+     "items": [],
+     "size": 7,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440048?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "63d55fb",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Sådan var kvinder",
+    "list": {
+     "id": "440056",
+     "path": "/liste/440056",
+     "items": [],
+     "size": 17,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440056?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "132d4c2",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "P2",
+    "title": "Krimiserier",
+    "list": {
+     "id": "440057",
+     "path": "/liste/440057",
+     "items": [],
+     "size": 13,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440057?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "317358a",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Vi elsker vort land",
+    "list": {
+     "id": "440055",
+     "path": "/liste/440055",
+     "items": [],
+     "size": 11,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440055?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "71de5c0",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "P2",
+    "title": "Store armbevægelser med DR's symfoniorkester",
+    "list": {
+     "id": "440064",
+     "path": "/liste/440064",
+     "items": [],
+     "size": 7,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440064?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "e0d7e86",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "P2",
+    "title": "Gyldne stunder fra de skrå brædder",
+    "list": {
+     "id": "440058",
+     "path": "/liste/440058",
+     "items": [],
+     "size": 18,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440058?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "cf53633",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Lørdagshjørnet",
+    "list": {
+     "id": "440065",
+     "path": "/liste/440065",
+     "items": [],
+     "size": 32,
+     "paging": {
+      "total": 2,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/440065?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "imageWidth": "contentWidth",
+     "widthPercentage": 100,
+     "imageHorizontalAlignment": "center",
+     "imageVerticalSpacing": "default",
+     "caption": "",
+     "link": "/program/danmarks-foerste-fjernsynsudsendelse-1948_441990",
+     "altText": "Danmarks første fjernsynsudsendelse"
+    },
+    "type": "ImageEntry",
+    "id": "11d932d",
+    "template": "ED1",
+    "title": "",
+    "images": {
+     "hero3x1": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Page'&EntityId='418068'&Width=1920&Height=640&ImageId='51950392'"
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "286001e",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "A - Å",
+    "list": {
+     "id": "445328",
+     "path": "/liste/445328",
+     "items": [],
+     "size": 23,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/445328?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "textHorizontalAlignment": "left",
+     "textColor": {
+      "color": "#000000",
+      "opacity": 100
+     }
+    },
+    "type": "TextEntry",
+    "id": "56368fc",
+    "template": "ED2",
+    "title": "Savner du et gensyn?",
+    "text": "Gensyn præsenterer løbende et udvalg af DR's arkiv, da DR af rettighedsmæssige årsager ikke har mulighed for at stille hele arkivet til rådighed. Ønsker til Gensyn kan indsendes [her](https://dr.custhelp.com/app/ask_step_3/p/90/c/151)."
+   }
+  ]
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='396038'&Width=1920&Height=1080&ImageId='47388797'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='396038'&Width=1920&Height=1080&ImageId='47388799'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='396038'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1770,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-06-25T21:59:59Z",
+    "scopes": [
+     "396038"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-25T04:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-06-25T21:59:59Z",
+    "scopes": [
+     "396038"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-25T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "396038"
+  ],
+  "categories": [
+   "kultur",
+   "musik",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Musik,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Kultur,Musik",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-EXCEPT",
+   "PageTitle": "Annisette møder DR Big Band - nysgerrig for evigt",
+   "ExtraDetails": "Kultur | 30M",
+   "TitleExtraDetails": "DR2 | 30M",
+   "PathIdSegment": "annisette-moeder-dr-big-band-_-nysgerrig-for-evigt_396038",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00452001520",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "396038",
+  "type": "program",
+  "description": "To verdener mødes, og Annisette deler refleksioner, tvivl og glæde omkring skabelsen af hendes koncert med DR Big Band. Det er følelsen af at være sprunget ud fra det højeste bjerg, hvor man må se, om man kan flyve - og hvor stor musik opstår.\nMedvirkende: Annisette Koppel, Sebastian Ottenstein og DR Big Band.\nGenudsendelse fra 2020. Udløber: 25. jun 2024",
+  "shortDescription": "To verdener mødes, og Annisette deler refleksioner, tvivl og glæde omkring skabelsen af hendes koncert med DR Big Band. Det er følelsen af at være sprunget ud fra det højeste bjerg, hvor man må se, om man kan flyve - og hvor stor musik opstår.\nMedvirkende",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Annisette møder DR Big Band - nysgerrig for evigt",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/annisette-moeder-dr-big-band-_-nysgerrig-for-evigt_396038",
+  "watchPath": "/se/annisette-moeder-dr-big-band-_-nysgerrig-for-evigt_396038",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

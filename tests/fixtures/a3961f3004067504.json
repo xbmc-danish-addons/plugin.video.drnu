@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426287'&Width=1920&Height=1080&ImageId='51214464'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426287'&Width=1440&Height=2160&ImageId='51214454'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426287'&Width=1920&Height=1080&ImageId='51214511'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 8450,
+  "releaseYear": 1996,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-03-24T22:59:00Z",
+    "scopes": [
+     "426287"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EBLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-26T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-03-24T22:59:00Z",
+    "scopes": [
+     "426287"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EVPAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-26T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "426287"
+  ],
+  "categories": [
+   "film",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Film",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PageTitle": "A Time to Kill",
+   "ExtraDetails": "Film | 2T 21M",
+   "TitleExtraDetails": "DR2 | 2T 21M",
+   "PathIdSegment": "a-time-to-kill_426287",
+   "BroadcastTimeDK": "2024-01-28T16:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00024945180",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "426287",
+  "type": "program",
+  "description": "Amerikansk thriller fra 1996.\nEn 10-årig sort pige bliver voldtaget af to racister. De bliver anholdt kort efter, men da de er på vej ind til retssagen, dukker pigens far, Carl Lee Hailey, op med et gevær og dræber de to mænd. Den unge Jake Brigance påtager sig at blive hans forsvarer, men der skal helt ekstraordinære midler til at vinde sagen, og i kulissen lurer Ku Klux Klan.\nMedvirkende: Matthew McConaughey, Samuel L. Jackson, Sandra Bullock, Kevin Spacey m.fl.\nInstruktion: Joel Schumacher. Udløber: 31. maj 2024",
+  "shortDescription": "Amerikansk thriller fra 1996.\nEn 10-årig sort pige bliver voldtaget af to racister. De bliver anholdt kort efter, men da de er på vej ind til retssagen, dukker pigens far, Carl Lee Hailey, op med et gevær og dræber de to mænd. Den unge Jake Brigance påtag",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "A Time to Kill",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/a-time-to-kill_426287",
+  "watchPath": "/se/a-time-to-kill_426287",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

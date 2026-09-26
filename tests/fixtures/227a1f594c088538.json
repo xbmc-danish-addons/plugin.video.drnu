@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='289011'&Width=1920&Height=1080&ImageId='14957240'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='289011'&Width=1920&Height=1080&ImageId='14957243'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='289011'&Width=1440&Height=2160&ImageId='16099618'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='289011'&Width=2048&Height=2048&ImageId='15262651'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-03-09T22:55:00Z",
+    "scopes": [
+     "289011"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-09T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "289011"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Pip og Poppy",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "pip-og-poppy_289011",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3128414641000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "289011",
+  "type": "show",
+  "description": "Kaninen Pip og musen Poppy er meget forskellige - og allerbedste venner. De elsker at lege med hinanden, og når de leger, bliver det nærmest til små eventyr. Animeret serie bygget over børnebøgerne af Camilla Reid og Axel Scheffler, kendt fra Grøffeldyret.",
+  "shortDescription": "Kaninen Pip og musen Poppy er meget forskellige - og allerbedste venner. De elsker at lege med hinanden, og når de leger, bliver det nærmest til små eventyr. Animeret serie bygget over børnebøgerne af Camilla Reid og Axel Scheffler, kendt fra Grøffeldyret",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Pip og Poppy",
+  "vodItemWatchPath": "",
+  "path": "/serie/pip-og-poppy_289011",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

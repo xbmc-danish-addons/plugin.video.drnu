@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438485'&Width=1920&Height=1080&ImageId='51824350'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438485'&Width=1440&Height=2160&ImageId='51824353'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438485'&Width=1920&Height=1080&ImageId='51824343'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1755,
+  "releaseYear": 1992,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438485"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438485"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438485"
+  ],
+  "categories": [
+   "dokumentar",
+   "politik",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Politik,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Politik,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Schlüters Verden",
+   "ExtraDetails": "Dokumentar | 29M",
+   "TitleExtraDetails": "DR Gensyn | 29M",
+   "PathIdSegment": "schlueters-verden_438485",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00213245230",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438485",
+  "type": "program",
+  "description": "Dansk dokumentar fra 1992. Poul Schlüter har i ti år været statsminister i Danmark. Mange spåede den borgerlige regering en kort levetid, men det gik anderledes. Dette portræt forsøger at give et billede af både privatpersonen og politikeren Schlüter gennem interviews med hovedpersonen selv og med bidrag fra familien og kollegerne Uffe Ellemann-Jensen og Erik Ninn-Hansen. \"Jeg er en stor romantiker, det er der ikke så mange der ved\", afslører den konservative statsminister, der af kritikere blev kaldt 'Parfumesælgeren'. Udløber: 13. sep 2025",
+  "shortDescription": "Dansk dokumentar fra 1992. Poul Schlüter har i ti år været statsminister i Danmark. Mange spåede den borgerlige regering en kort levetid, men det gik anderledes. Dette portræt forsøger at give et billede af både privatpersonen og politikeren Schlüter genn",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Schlüters Verden",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/schlueters-verden_438485",
+  "watchPath": "/se/schlueters-verden_438485",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

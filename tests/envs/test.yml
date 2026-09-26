@@ -8,6 +8,6 @@ dependencies:
   - dateutils
   - pip
   - pytest
-  - flake8
+  - ruff
   - pip:
     - kodi-addon-checker

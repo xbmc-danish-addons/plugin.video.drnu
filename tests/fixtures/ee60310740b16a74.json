@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='357777'&Width=3840&Height=2160&ImageId='43659822'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='357777'&Width=3840&Height=2160&ImageId='43659824'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='357777'&Width=1440&Height=2160&ImageId='16099618'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='357777'&Width=2048&Height=2048&ImageId='43948707'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2099-12-31T22:59:00Z",
+    "scopes": [
+     "357777"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-01-06T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "357777"
+  ],
+  "categories": [
+   "krea",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Krea,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Krea",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "CurrentAffairs",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Tegnetrix",
+   "ExtraDetails": "Krea",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "tegnetrix_357777",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4073907795000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "357777",
+  "type": "show",
+  "description": "I Tegnetrix kan alt ske - så længe det handler om at tegne og male! Her forskønnes verden med store malerier, børn bruger deres fantasi til at finde på helt nye tegninger, Onkel Reje skaber skøre væsener med inspiration i geniale børnetegninger - Tag en pensel og leg med!",
+  "shortDescription": "I Tegnetrix kan alt ske - så længe det handler om at tegne og male! Her forskønnes verden med store malerier, børn bruger deres fantasi til at finde på helt nye tegninger, Onkel Reje skaber skøre væsener med inspiration i geniale børnetegninger - Tag en p",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Tegnetrix",
+  "vodItemWatchPath": "",
+  "path": "/serie/tegnetrix_357777",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,4579 @@
+{
+ "status": 200,
+ "json": {
+  "id": "313",
+  "isStatic": false,
+  "isSystemPage": false,
+  "metadata": {
+   "description": "Se eller gense DR-Programmer. Find Kultur, Livsstil, Dokumentarer, Børneprogrammer og meget mere. Find alle tilgængelige DR-programmer her",
+   "keywords": []
+  },
+  "key": "TVAZ",
+  "path": "/kategorier/a-aa",
+  "template": "Home",
+  "themes": [],
+  "title": "Kategorier A-Å",
+  "entries": [
+   {
+    "customFields": {
+     "imageText": "DRTV | A - Å",
+     "textColor": {
+      "color": "#000000",
+      "opacity": 100
+     },
+     "textHorizontalAlignment": "left",
+     "textVerticalAlignment": "middle",
+     "imageWidth": "fullWidth",
+     "widthPercentage": null,
+     "imageHorizontalAlignment": "center",
+     "link": "",
+     "altText": ""
+    },
+    "type": "ImageEntry",
+    "id": "89c9304",
+    "template": "H9",
+    "title": "",
+    "images": {
+     "hero7x1": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Page'&EntityId='313'&Width=2100&Height=300&ImageId='45275717'"
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "backgroundColor": {
+      "color": "",
+      "opacity": 100
+     },
+     "textColor": {
+      "color": "",
+      "opacity": 100
+     },
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "e00f0bc",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "TX1",
+    "title": "",
+    "list": {
+     "id": "375844",
+     "customFields": {
+      "PathIdSegment": "a-_-aa-_-kategorier_375844"
+     },
+     "itemTypes": [
+      "link"
+     ],
+     "description": "",
+     "title": "A - Å | Kategorier",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/liste/a-_-aa-_-kategorier_375844",
+     "items": [
+      {
+       "offers": [],
+       "scopes": [
+        "375843"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-dokumentar_375843"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375843",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Dokumentar",
+       "sports": [],
+       "themes": [],
+       "title": "Dokumentar",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/dokumentar_a-aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375845"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-serier_375845"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375845",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Serier",
+       "sports": [],
+       "themes": [],
+       "title": "Serier",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/fiktionsserier_a-aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375846"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-film_375846"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375846",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Film",
+       "sports": [],
+       "themes": [],
+       "title": "Film",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/film_a_aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375847"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-livsstil_375847"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375847",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Livsstil",
+       "sports": [],
+       "themes": [],
+       "title": "Livsstil",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/livsstil_a-aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375854"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-krimi_375854"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375854",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Krimi",
+       "sports": [],
+       "themes": [],
+       "title": "Krimi",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/krimi_a-aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375852"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-sport_375852"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375852",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Sport",
+       "sports": [],
+       "themes": [],
+       "title": "Sport",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/sport_a_aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375848"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-kultur_375848"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375848",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Kultur",
+       "sports": [],
+       "themes": [],
+       "title": "Kultur",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/kultur_a-aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375849"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-humor-og-satire_375849"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375849",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Humor & satire",
+       "sports": [],
+       "themes": [],
+       "title": "Humor og satire",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/humor-satire_a_aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375850"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-underholdning_375850"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375850",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Underholdning",
+       "sports": [],
+       "themes": [],
+       "title": "Underholdning",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/underholdning_a_aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "378865"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-reality_378865"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "378865",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Reality",
+       "sports": [],
+       "themes": [],
+       "title": "Reality",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/reality_a-aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375857"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-natur_375857"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375857",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Natur",
+       "sports": [],
+       "themes": [],
+       "title": "Natur og dyr",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/natur_a_aa"
+      },
+      {
+       "offers": [],
+       "scopes": [
+        "375851"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "text-link-_-a-_-aa-_-historie_375851"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "375851",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "Text link | A - Å | Historie",
+       "sports": [],
+       "themes": [],
+       "title": "Historie",
+       "vodItemWatchPath": "",
+       "path": "/kategorier/historie_a-aa"
+      }
+     ],
+     "size": 12,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 24,
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below",
+     "moreLinkUrl": null
+    },
+    "type": "ListEntry",
+    "id": "40e1521",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "A",
+    "list": {
+     "id": "348",
+     "parameter": "TitleGroupKey:a",
+     "customFields": {
+      "PathIdSegment": "alt-indhold-_-_titlegroupkey__348"
+     },
+     "itemTypes": [
+      "program",
+      "show"
+     ],
+     "description": "",
+     "title": "A",
+     "shortDescription": "",
+     "themes": [],
+     "path": "/a-aa/a",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389862'&Width=1920&Height=1080&ImageId='46873499'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389862'&Width=1920&Height=1080&ImageId='47280083'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389862'&Width=1440&Height=2160&ImageId='46983796'"
+       },
+       "duration": 6044,
+       "releaseYear": 2019,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "389862"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "389862"
+       ],
+       "categories": [
+        "dokumentar",
+        "politik",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Politik,DR1,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar,Politik",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PageTitle": "A Storm Foretold - det amerikanske oprør",
+        "ExtraDetails": "Dokumentar | 1T 41M",
+        "TitleExtraDetails": "DR1 | 1T 41M",
+        "ShortVideoUrl": "https://drod22h.akamaized.net/all/clear/none/5b/6482d37505fdf1224c847f5b/6482d372b437db1300a41d93/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "a-storm-foretold-_-det-amerikanske-oproer_389862",
+        "BroadcastTimeDK": "2023-06-12T21:25:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00921906100",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "389862",
+       "type": "program",
+       "shortDescription": "Dansk dokumentarfilm fra 2023.\nChristoffer Guldbrandsens dokumentarfilm giver et unikt indblik i magtens indre i Donald Trumps sidste måneder som præsident. Filmen følger kongemageren bag Trump, Roger Stone, som bevæger sig i en politisk verden og tankega",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Løgne, bedrag og hjertestop. Ny dansk dokumentar om Trumps rådgiver",
+       "themes": [],
+       "title": "A Storm Foretold - det amerikanske oprør",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/a-storm-foretold-_-det-amerikanske-oproer_389862",
+       "watchPath": "/se/a-storm-foretold-_-det-amerikanske-oproer_389862"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389865'&Width=1920&Height=1080&ImageId='46871705'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389865'&Width=1920&Height=1080&ImageId='50345210'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='389865'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 2859,
+       "releaseYear": 2021,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "389865"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "389865"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "389865"
+       ],
+       "categories": [
+        "dokumentar",
+        "kultur",
+        "musik",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Kultur,Musik,DR2,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "STORBRITANNIEN",
+        "DisplayCategory": "Dokumentar,Kultur,Musik",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "ABBA - 40 år uden musik",
+        "ExtraDetails": "Dokumentar | 48M",
+        "TitleExtraDetails": "DR2 | 48M",
+        "PathIdSegment": "abba-_-40-aar-uden-musik_389865",
+        "BroadcastTimeDK": "2023-06-13T20:40:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00022214510",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "389865",
+       "type": "program",
+       "shortDescription": "Britisk musikdokumentar fra 2021.\n(ABBA: The Missing 40 Years)\nDe var én af verdens største popgrupper, med hits som 'Mamma Mia' og 'Dancing Queen'. Men i 1982 gik ABBA i opløsning. Hvad skete der i de 40 år, inden de fandt sammen igen og udgav albummet V",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "ABBA - 40 år uden musik",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/abba-_-40-aar-uden-musik_389865",
+       "watchPath": "/se/abba-_-40-aar-uden-musik_389865"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391284'&Width=1920&Height=1080&ImageId='47085434'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391284'&Width=1920&Height=1080&ImageId='50346048'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391284'&Width=1440&Height=2160&ImageId='50346064'"
+       },
+       "duration": 2918,
+       "releaseYear": 2022,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "391284"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "391284"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "391284"
+       ],
+       "categories": [
+        "dokumentar",
+        "kultur",
+        "musik",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Kultur,Musik,DR2,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "STORBRITANNIEN",
+        "DisplayCategory": "Dokumentar,Kultur,Musik",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "ABBA - De bedste coversange",
+        "ExtraDetails": "Dokumentar | 49M",
+        "TitleExtraDetails": "DR2 | 49M",
+        "PathIdSegment": "abba-_-de-bedste-coversange_391284",
+        "BroadcastTimeDK": "2023-06-20T20:40:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00022214520",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "391284",
+       "type": "program",
+       "shortDescription": "Britisk musikdokumentar fra 2022.\n(ABBA: The Best Covers Ever)\nABBA har millioner af fans, og har skabt det ene hit efter det andet. De forstår vores glæde og dybeste smerte. Kendte musikere som Dannii Minogue, Carla Bruni og Cher er blevet inspireret til",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "ABBA - De bedste coversange",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/abba-_-de-bedste-coversange_391284",
+       "watchPath": "/se/abba-_-de-bedste-coversange_391284"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='144372'&Width=1920&Height=1080&ImageId='4137402'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='144372'&Width=1440&Height=2160&ImageId='50379108'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='144372'&Width=1920&Height=1080&ImageId='50346191'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "144372"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "144372"
+       ],
+       "categories": [
+        "dokumentar",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Dokumentar",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Abdel mellem fjender",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR2 | 1 SÆSON",
+        "PathIdSegment": "abdel-mellem-fjender_144372",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2541969695000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "144372",
+       "type": "show",
+       "shortDescription": "I denne programserie møder vært Abdel Aziz Mahmoud kontroversielle danskere, der deler kongeriget.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Abdel mellem fjender",
+       "vodItemWatchPath": "",
+       "path": "/serie/abdel-mellem-fjender_144372"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1920&Height=1080&ImageId='43063910'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1920&Height=1080&ImageId='43063908'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "350296"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "350296"
+       ],
+       "categories": [
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Abe-aner",
+        "ExtraDetails": "Serie | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "abe_aner_350296",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3404285710000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "350296",
+       "type": "show",
+       "shortDescription": "Det er børnelærdom, at mennesket nedstammer fra aberne, men de færreste er så nært beslægtet med dem som pigen Lena i denne hollandske familieserie. Lena  bor nemlig sammen med sin nærmeste slægtning Benedict, der er en vaskeægte gorilla! Det giver selvfø",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Abe-aner",
+       "vodItemWatchPath": "",
+       "path": "/serie/abe_aner_350296"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1920&Height=1080&ImageId='51568695'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1920&Height=1080&ImageId='51568699'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1440&Height=2160&ImageId='51568697'"
+       },
+       "duration": 4421,
+       "releaseYear": 2021,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "439502"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "439502"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "439502"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "SVERIGE",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Abestjernen",
+        "ExtraDetails": "Film | 1T 14M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 14M",
+        "PathIdSegment": "abestjernen_439502",
+        "BroadcastTimeDK": "2024-03-16T18:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00851905090",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "439502",
+       "type": "program",
+       "shortDescription": "Animationsfilm fra 2020.\nForestil dig, at du lige pludselig fik en gorilla som mor! Jonna er forældreløs og drømmer om en mor. En dag ruller en skramlet bil op foran børnehjemmet, og Jonna bliver håbefuld. Men ud af bilen kommer en Gorilla! Jonna følger t",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Abestjernen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/abestjernen_439502",
+       "watchPath": "/se/abestjernen_439502"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434403'&Width=1920&Height=1080&ImageId='51215351'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434403'&Width=1440&Height=2160&ImageId='51215353'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434403'&Width=1920&Height=1080&ImageId='51215355'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "434403"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "434403"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Dokumentar,Historie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Abraham Lincoln",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR2 | 1 SÆSON",
+        "PathIdSegment": "abraham-lincoln_434403",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3386423112000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "434403",
+       "type": "show",
+       "shortDescription": "Fra fattig barndom til USA's 16. præsident. Abraham Lincoln. Historien om en ung mand, der sætter sig for at lede en nation gennem dyb krise og borgerkrig. Og afslutte slaveriet for tid og evighed.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Abraham Lincoln",
+       "vodItemWatchPath": "",
+       "path": "/serie/abraham-lincoln_434403"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='45783'&Width=1920&Height=1080&ImageId='4377311'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='45783'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='45783'&Width=1920&Height=1080&ImageId='49994941'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "45783"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "45783"
+       ],
+       "categories": [
+        "livsstil",
+        "underholdning",
+        "humor/satire",
+        "p3",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Underholdning,Humor/satire,P3",
+        "BrandingChannelShort": "TP3",
+        "BrandingChannelDisplayName": "P3",
+        "DisplayCategory": "Livsstil,Underholdning,Humor/satire",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Absurdistan",
+        "ExtraDetails": "Livsstil | 1 SÆSON",
+        "TitleExtraDetails": "P3 | 1 SÆSON",
+        "PathIdSegment": "absurdistan_45783",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2051962403000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "45783",
+       "type": "show",
+       "shortDescription": "Denne programserie er et indholdmæssigt skridtspark til hverdagens små irritationsmomenter og livets generelle meningsløshed. Jesper Juhl og Kristoffer Eriksen spreder med humoristisk, aktivistisk reportage og perspektiverende interviews overblik'lig munt",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Absurdistan",
+       "vodItemWatchPath": "",
+       "path": "/serie/absurdistan_45783"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='29266'&Width=1920&Height=1080&ImageId='4442374'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='29266'&Width=1920&Height=1080&ImageId='49994981'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='29266'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "29266"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "29266"
+       ],
+       "categories": [
+        "livsstil",
+        "kultur",
+        "krop og sundhed",
+        "debat",
+        "dr2",
+        "dr k",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Kultur,Krop og sundhed,Debat,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Livsstil,Kultur,Krop og sundhed,Debat",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Adam & Eva",
+        "ExtraDetails": "Livsstil | 2 SÆSONER",
+        "TitleExtraDetails": "DR2 | 2 SÆSONER",
+        "PathIdSegment": "adam-and-eva_29266",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1914008593000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "29266",
+       "type": "show",
+       "shortDescription": "Er vores moderne verden blevet et frisindets paradis på jord eller har vi helt glemt vores kristne moralske kompas? Det skal debattørerne Adam Holm og Eva Selsing diskutere, når de bevæger sig gennem det danske land for at møde virkelighedens moralske dil",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Adam & Eva",
+       "vodItemWatchPath": "",
+       "path": "/serie/adam-and-eva_29266"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='278596'&Width=1920&Height=1080&ImageId='15799626'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='278596'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='278596'&Width=1920&Height=1080&ImageId='51138047'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "278596"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "278596"
+       ],
+       "categories": [
+        "politik",
+        "humor/satire",
+        "p3",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Politik,Humor/satire,P3",
+        "BrandingChannelShort": "TP3",
+        "BrandingChannelDisplayName": "P3",
+        "DisplayCategory": "Politik,Humor/satire",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Adnan & borgmestermoralen",
+        "ExtraDetails": "Politik | 1 SÆSON",
+        "TitleExtraDetails": "P3 | 1 SÆSON",
+        "ShortVideoUrl": "https://drod01d-vh.akamaihd.net/i/all/clear/streaming/ba/6183d79daa5a61257c1c83ba/VS-ADNAN-OG-BORGMESTER_52508dc846b64f79b5dc72a963930ff1_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+        "PathIdSegment": "adnan-and-borgmestermoralen_278596",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3119674684000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "278596",
+       "type": "show",
+       "shortDescription": "I denne serie hylder Adnan borgmestrenes helt unikke moral. Han besøger fem forskellige kommuner, hvor borgmestrene har gjort sig særligt fortjent til at blive hædret! I mødet med borgmestre og borgere giver Adnan sit satiriske bud på, hvad der gør lige n",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Hele serien | Adnan hylder fem borgmestres helt unikke moral",
+       "themes": [],
+       "title": "Adnan & borgmestermoralen",
+       "vodItemWatchPath": "",
+       "path": "/serie/adnan-and-borgmestermoralen_278596"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='349525'&Width=1920&Height=1080&ImageId='43759182'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='349525'&Width=1920&Height=1080&ImageId='43759198'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='349525'&Width=1080&Height=1920&ImageId='43759196'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "349525"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "349525"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "p3",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,P3",
+        "BrandingChannelShort": "TP3",
+        "BrandingChannelDisplayName": "P3",
+        "DisplayCategory": "Underholdning,Humor/satire",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Adnan og de grønne løgne",
+        "ExtraDetails": "Underholdning | 1 SÆSON",
+        "TitleExtraDetails": "P3 | 1 SÆSON",
+        "ShortVideoUrl": "https://drod23l.akamaized.net/all/clear/none/60/63b6cba2ac5a61255c178260/63b6cba0d50dfa0e2ce08092/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "adnan-og-de-groenne-loegne_349525",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3563791537000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "349525",
+       "type": "show",
+       "shortDescription": "Den ultimative guide til god klima-samvittighed.",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Hele serien | Få den ultimative guide til god klima-samvittighed",
+       "themes": [],
+       "title": "Adnan og de grønne løgne",
+       "vodItemWatchPath": "",
+       "path": "/serie/adnan-og-de-groenne-loegne_349525"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='233518'&Width=1920&Height=1080&ImageId='16615906'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='233518'&Width=1920&Height=1080&ImageId='51136608'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='233518'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "233518"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "233518"
+       ],
+       "categories": [
+        "humor/satire",
+        "p3",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Humor/satire,P3",
+        "BrandingChannelShort": "TP3",
+        "BrandingChannelDisplayName": "P3",
+        "DisplayCategory": "Humor/satire",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "CurrentAffairs",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Adnan på tværs",
+        "ExtraDetails": "Humor/satire",
+        "TitleExtraDetails": "P3 | 2 SÆSONER",
+        "PathIdSegment": "adnan-paa-tvaers_233518",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2980260149000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "233518",
+       "type": "show",
+       "shortDescription": "Væbnet med sjovere spørgsmål end sidemanden dukker Adnan Al-Adhami op til pressemøder, på Christiansborg, eller hvor ugens bedste debat befinder sig.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Adnan på tværs",
+       "vodItemWatchPath": "",
+       "path": "/serie/adnan-paa-tvaers_233518"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='189003'&Width=1920&Height=1080&ImageId='4441218'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='189003'&Width=1920&Height=1080&ImageId='50304620'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='189003'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "189003"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "189003"
+       ],
+       "categories": [
+        "livsstil",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Livsstil",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Afrika er det nye sort",
+        "ExtraDetails": "Livsstil | 1 SÆSON",
+        "TitleExtraDetails": "DR2 | 1 SÆSON",
+        "PathIdSegment": "afrika-er-det-nye-sort_189003",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2698835674000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "189003",
+       "type": "show",
+       "shortDescription": "Modeeksperten Chris Pedersen undersøger Afrikas nye kreative miljøer. Kontinentets unge designere inspirerer resten af verden med deres dynamik og farverigdom.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Afrika er det nye sort",
+       "vodItemWatchPath": "",
+       "path": "/serie/afrika-er-det-nye-sort_189003"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='172083'&Width=1920&Height=1080&ImageId='4418912'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='172083'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='172083'&Width=1920&Height=1080&ImageId='49995031'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "172083"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "172083"
+       ],
+       "categories": [
+        "livsstil",
+        "mad",
+        "rejse",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Livsstil,Mad,Rejse",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Afrikas nye køkken",
+        "ExtraDetails": "Livsstil | 1 SÆSON",
+        "TitleExtraDetails": "DR2 | 1 SÆSON",
+        "PathIdSegment": "afrikas-nye-koekken_172083",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2674637086000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "172083",
+       "type": "show",
+       "shortDescription": "En ny generation af afrikanske kokke er på vej frem. Via maden vil de fortælle en anden historie om Afrika. Kokkene inspireres af kontinentets egne råvarer, rødder og madtraditioner, præcis som vi gjorde det i Norden, med det nye nordiske køkken.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Afrikas nye køkken",
+       "vodItemWatchPath": "",
+       "path": "/serie/afrikas-nye-koekken_172083"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6633'&Width=1920&Height=1080&ImageId='4377079'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6633'&Width=1440&Height=2160&ImageId='51036835'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6633'&Width=1920&Height=1080&ImageId='51019042'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "6633"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "6633"
+       ],
+       "categories": [
+        "dokumentar",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Dokumentar",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Afsløret",
+        "ExtraDetails": "Dokumentar | 2 SÆSONER",
+        "TitleExtraDetails": "DR1 | 2 SÆSONER",
+        "PathIdSegment": "afsloeret_6633",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1844896238000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "6633",
+       "type": "show",
+       "shortDescription": "Dansk repotage serie med vært Jens Langhorn.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Afsløret",
+       "vodItemWatchPath": "",
+       "path": "/serie/afsloeret_6633"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437382'&Width=1920&Height=1080&ImageId='51598056'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437382'&Width=1920&Height=1080&ImageId='51598058'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='437382'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "437382"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "437382"
+       ],
+       "categories": [
+        "underholdning",
+        "gensyn",
+        "dr gensyn",
+        "kultur",
+        "musik"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Aftenmøde",
+        "ExtraDetails": "Underholdning | 1 SÆSON",
+        "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+        "PathIdSegment": "aftenmoede_437382",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:5281840859000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "437382",
+       "type": "show",
+       "shortDescription": "Dansk interviewserie 1987-1988. Gregers Dirckinck-Holmfeld inviterer en række spændende personligheder til en snak om små og store emner.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Aftenmøde",
+       "vodItemWatchPath": "",
+       "path": "/serie/aftenmoede_437382"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='183770'&Width=1920&Height=1080&ImageId='49800535'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='183770'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='183770'&Width=1920&Height=1080&ImageId='49800526'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='183770'&Width=1800&Height=1800&ImageId='16099620'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "183770"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "183770"
+       ],
+       "categories": [
+        "nyheder og aktualitet",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Nyheder og Aktualitet,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Nyheder og Aktualitet",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-EXCEPT",
+        "PresentationTypeCode": "CurrentAffairs",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Aftenshowet",
+        "ExtraDetails": "Nyheder og Aktualitet",
+        "TitleExtraDetails": "DR1 | 1 SÆSON",
+        "PathIdSegment": "aftenshowet_183770",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1843308639000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "183770",
+       "type": "show",
+       "shortDescription": "DR1s journalistiske talkshow direkte fra Rådhuspladsen i København.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Aftenshowet",
+       "vodItemWatchPath": "",
+       "path": "/serie/aftenshowet_183770"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='402108'&Width=1920&Height=1080&ImageId='49054862'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='402108'&Width=1440&Height=2160&ImageId='49054822'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='402108'&Width=1920&Height=1080&ImageId='49054843'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "402108"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "402108"
+       ],
+       "categories": [
+        "dokumentar",
+        "krimi",
+        "dr1",
+        "acc_spoken_subtitles",
+        "acc_audio_description"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Krimi,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Dokumentar,Krimi",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Agent Samsam",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR1 | 1 SÆSON",
+        "PathIdSegment": "agent-samsam_402108",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3385919741000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "402108",
+       "type": "show",
+       "shortDescription": "Islamistisk terrorist eller dansk agent? Den danske statsborger Ahmed Samsam har en dom på otte års fængsel for at have tilsluttet sig terrororganisationen Islamisk Stat. Selv siger han, at han er uskyldig, og at han på sine rejser til borgerkrigen i Syri",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Agent Samsam",
+       "vodItemWatchPath": "",
+       "path": "/serie/agent-samsam_402108"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='412928'&Width=1920&Height=1080&ImageId='50520559'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='412928'&Width=1440&Height=2160&ImageId='50520561'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='412928'&Width=1920&Height=1080&ImageId='50520563'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "412928"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "412928"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Dokumentar,Historie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "AIDS: De uhørte bånd",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR2 | 1 SÆSON",
+        "BrandingChannelShort": "DR2",
+        "PathIdSegment": "aids_-de-uhoerte-baand_412928",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:4936637337000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "412928",
+       "type": "show",
+       "shortDescription": "I 1980'erne dør titusinder af homoseksuelle mænd. Dette er historien om, hvordan aids knuste det homoseksuelle samfund. Fortalt af dem, der overlevede. Og dem, der ikke gjorde.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "AIDS: De uhørte bånd",
+       "vodItemWatchPath": "",
+       "path": "/serie/aids_-de-uhoerte-baand_412928"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='154866'&Width=1920&Height=1080&ImageId='16245541'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='154866'&Width=1920&Height=1080&ImageId='16245543'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='154866'&Width=1440&Height=2160&ImageId='17727201'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='154866'&Width=2048&Height=2048&ImageId='16245245'"
+       },
+       "availableSeasonCount": 3,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "154866"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "154866"
+       ],
+       "categories": [
+        "serie",
+        "dr ultra",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ultra",
+        "BrandingChannelShort": "TVL",
+        "BrandingChannelDisplayName": "DR Ultra",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "OlderKidsAndAdults",
+        "RatingSegment": "Ultra",
+        "PrimaryContentUniverse": "Ultra",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Akavet",
+        "ExtraDetails": "Serie | 3 SÆSONER",
+        "TitleExtraDetails": "DR Ultra | 3 SÆSONER",
+        "ShortVideoUrl": "https://drod09t-vh.akamaihd.net/i/all/clear/streaming/40/614d88c0ac5a6114a4eec740/VSU-Akavet---Malkepige_e14b1222550f4d1b8cca6c1e7d62c3ce_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+        "PathIdSegment": "akavet_154866",
+        "ContentUniverses": [
+         "drtv",
+         "ultra"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2292157725000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "154866",
+       "type": "show",
+       "shortDescription": "I Akavet følger vi en gruppe venner, der alle kæmper med de sværeste dele af livet: fra bumser til bonere, kys til knald og venner til fjender. Det er ikke nemt at gå fra barn til voksen: det er AKAVET!",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Ny sæson | Ustyrlige hormoner og jagten på det første kys",
+       "themes": [],
+       "title": "Akavet",
+       "vodItemWatchPath": "",
+       "path": "/serie/akavet_154866"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424448'&Width=1440&Height=2160&ImageId='51018655'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424448'&Width=1920&Height=1080&ImageId='51018651'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424448'&Width=1920&Height=1080&ImageId='51018658'"
+       },
+       "duration": 3124,
+       "releaseYear": 2022,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "424448"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "424448"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "424448"
+       ],
+       "categories": [
+        "dokumentar",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "FRANKRIG & MONACO",
+        "DisplayCategory": "Dokumentar",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Al Pacino - Manden, myten, legenden",
+        "ExtraDetails": "Dokumentar | 52M",
+        "TitleExtraDetails": "DR2 | 52M",
+        "PathIdSegment": "al-pacino-_-manden-myten-legenden_424448",
+        "BroadcastTimeDK": "2024-01-11T19:05:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00022213050",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "424448",
+       "type": "program",
+       "shortDescription": "Fransk dokumentar fra 2022.\n(Al Pacino, le Bronx et la fureur)\n'Godfather'-filmene, 'Serpico' og 'Scarface'. Den Oscarvindende skuespiller Al Pacino er en legende, der allerede som 4-årig genopfører filmscener foran spejlet hjemme i Bronx. Som 26-årig bli",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Al Pacino - Manden, myten, legenden",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/al-pacino-_-manden-myten-legenden_424448",
+       "watchPath": "/se/al-pacino-_-manden-myten-legenden_424448"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296699'&Width=1440&Height=2160&ImageId='50419905'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296699'&Width=1920&Height=1080&ImageId='15504175'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296699'&Width=1920&Height=1080&ImageId='50419882'"
+       },
+       "duration": 3001,
+       "releaseYear": 2020,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "296699"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "296699"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "296699"
+       ],
+       "categories": [
+        "dokumentar",
+        "natur",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Natur,DR1",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "ØSTRIG",
+        "DisplayCategory": "Dokumentar,Natur",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Alaskas dyre-refugium",
+        "ExtraDetails": "Dokumentar | 50M",
+        "TitleExtraDetails": "DR1 | 50M",
+        "PathIdSegment": "alaskas-dyre_refugium_296699",
+        "BroadcastTimeDK": "2022-01-30T19:05:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00022110590",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "296699",
+       "type": "program",
+       "shortDescription": "Østrigsk naturprogram fra 2020.\n(America's Arctic - A Refuge Imperiled)\nDet er en af de sidste urørte ødemarker i verden. Det nordlige Alaska. Kilometervis af uspolerede vidder og bjergtagende skønhed, hvor rensdyr, elge, isbjørne og ørne trives. Men områ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Alaskas dyre-refugium",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/alaskas-dyre_refugium_296699",
+       "watchPath": "/se/alaskas-dyre_refugium_296699"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427116'&Width=1920&Height=1080&ImageId='50738170'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427116'&Width=1920&Height=1080&ImageId='50738172'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427116'&Width=1440&Height=2160&ImageId='50738176'"
+       },
+       "duration": 3511,
+       "releaseYear": 2023,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "427116"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "427116"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "427116"
+       ],
+       "categories": [
+        "dokumentar",
+        "p3",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,P3,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "TP3",
+        "BrandingChannelDisplayName": "P3",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Albert mod stjernerne",
+        "ExtraDetails": "Dokumentar | 59M",
+        "TitleExtraDetails": "P3 | 59M",
+        "ShortVideoUrl": "https://drod21q.akamaized.net/all/clear/none/5c/6577f7672d026f3cb0b75a5c/6577f76524921515d86cf227/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "albert-mod-stjernerne_427116",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00922316510",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "427116",
+       "type": "program",
+       "shortDescription": "Dansk portræt-dokumentar fra 2023.\nYouTuberen Albert Dyrlund døde som 22-årig i en tragisk ulykke på et bjerg i Italien.\nNu står forældrene, kæresten, YouTube-stjernerne Morten Münster, Rasmus Brohave, Julia Sofia, Eiqu Miller for første gang frem og fort",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Portræt af youtuberen Albert Dyrlund, der døde alt for ung",
+       "themes": [],
+       "title": "Albert mod stjernerne",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/albert-mod-stjernerne_427116",
+       "watchPath": "/se/albert-mod-stjernerne_427116"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356187'&Width=1920&Height=1080&ImageId='50738736'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356187'&Width=1440&Height=2160&ImageId='43522925'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356187'&Width=1920&Height=1080&ImageId='50738707'"
+       },
+       "duration": 4741,
+       "releaseYear": 2019,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "356187"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "356187"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "356187"
+       ],
+       "categories": [
+        "dokumentar",
+        "krop og sundhed",
+        "dr2"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Krop og sundhed,DR2",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar,Krop og sundhed",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Albert og Sanne - en evighed af dig og mig",
+        "ExtraDetails": "Dokumentar | 1T 19M",
+        "TitleExtraDetails": "DR2 | 1T 19M",
+        "PathIdSegment": "albert-og-sanne-_-en-evighed-af-dig-og-mig_356187",
+        "BroadcastTimeDK": "2022-12-06T20:30:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00921904290",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "356187",
+       "type": "program",
+       "shortDescription": "Albert og Sanne bor i hus med katten Figaro og høns i baghaven. Og så drømmer de mere end noget andet om at få et barn. Men hvad der skulle være legende og lystfuldt, bliver i stedet et anstrengende projekt med skemaer, frustrationer og altopædende usikke",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Albert og Sanne - en evighed af dig og mig",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/albert-og-sanne-_-en-evighed-af-dig-og-mig_356187",
+       "watchPath": "/se/albert-og-sanne-_-en-evighed-af-dig-og-mig_356187"
+      }
+     ],
+     "size": 113,
+     "paging": {
+      "total": 5,
+      "page": 1,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=2&sub=Registered&param=TitleGroupKey%3Aa",
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below",
+     "moreLinkUrl": null
+    },
+    "type": "ListEntry",
+    "id": "fa62426",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "B",
+    "list": {
+     "id": "348",
+     "parameter": "TitleGroupKey:b",
+     "customFields": {
+      "PathIdSegment": "alt-indhold-_-_titlegroupkey__348"
+     },
+     "itemTypes": [
+      "program",
+      "show"
+     ],
+     "description": "",
+     "title": "B",
+     "shortDescription": "",
+     "themes": [],
+     "path": "/a-aa/b",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='420828'&Width=1920&Height=1080&ImageId='50314632'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='420828'&Width=1440&Height=2160&ImageId='50314636'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='420828'&Width=1920&Height=1080&ImageId='50611411'"
+       },
+       "duration": 5925,
+       "releaseYear": 1987,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "420828"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "420828"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "420828"
+       ],
+       "categories": [
+        "film",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR2,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Film",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Babettes gæstebud",
+        "ExtraDetails": "Film | 1T 39M",
+        "TitleExtraDetails": "DR2 | 1T 39M",
+        "PathIdSegment": "babettes-gaestebud_420828",
+        "BroadcastTimeDK": "2024-03-11T19:20:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00025061680",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "420828",
+       "type": "program",
+       "shortDescription": "Dansk Oscar-belønnet drama fra 1987.\nEn uvejrsnat i 1871 er den franske mesterkok Babette ankommet til den barske jyske vestkyst. Her har hun nu boet i 14 år som husholderske for to fromme præstedøtre. Babettes eneste forbindelse med hjemlandet er en lott",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Babettes gæstebud",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/babettes-gaestebud_420828",
+       "watchPath": "/se/babettes-gaestebud_420828"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='216013'&Width=1920&Height=1080&ImageId='6140231'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='216013'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='216013'&Width=1920&Height=1080&ImageId='6140233'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "216013"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "216013"
+       ],
+       "categories": [
+        "livsstil",
+        "underholdning",
+        "mad",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Underholdning,Mad,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Livsstil,Underholdning,Mad",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Babettes Gæstebud med Brdr. Price",
+        "ExtraDetails": "Livsstil | 1 SÆSON",
+        "TitleExtraDetails": "DR1 | 1 SÆSON",
+        "ShortVideoUrl": "https://drod05p-vh.akamaihd.net/i/all/clear/streaming/75/5f97baf2539f0210849d4875/VS-Babettes-Gaestebud-med-Brdr_d489abc664f74a5cbadd6e7026b370d8_,951,475,1863,311,2542,3580,.mp4.csmil/master.m3u8",
+        "PathIdSegment": "babettes-gaestebud-med-brdr-price_216013",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2784503834000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "216013",
+       "type": "show",
+       "shortDescription": "Brdr. Price på prøve.",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Episode 1:2 | Kokke på kulinarisk detektivarbejde",
+       "themes": [],
+       "title": "Babettes Gæstebud med Brdr. Price",
+       "vodItemWatchPath": "",
+       "path": "/serie/babettes-gaestebud-med-brdr-price_216013"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='387656'&Width=1920&Height=1080&ImageId='48398365'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='387656'&Width=1440&Height=2160&ImageId='48398370'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='387656'&Width=1920&Height=1080&ImageId='48398373'"
+       },
+       "availableSeasonCount": 4,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "387656"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "387656"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "drtv",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,DRTV",
+        "BrandingChannelShort": "DRT",
+        "BrandingChannelDisplayName": "DRTV",
+        "DisplayCategory": "Fiktionsserie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Babylon Berlin",
+        "ExtraDetails": "Fiktionsserie | 4 SÆSONER",
+        "TitleExtraDetails": "DRTV | 4 SÆSONER",
+        "ShortVideoUrl": "https://drod22g.akamaized.net/all/clear/none/2b/64ae40f350dd9c0434fece2b/64ae40edf407fb07605c723b/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "babylon-berlin_387656",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2053408150000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "387656",
+       "type": "show",
+       "shortDescription": "Den kritikerroste tyske gigantsatsning 'Babylon Berlin' genskaber Berlin i de brølende 20'ere og start-30'ere. Serien er den dyreste ikke-engelsksprogede dramaserie nogensinde.",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Episode 1:12 | Nye afsnit af det kritikerroste tyske giganthit",
+       "themes": [],
+       "title": "Babylon Berlin",
+       "vodItemWatchPath": "",
+       "path": "/serie/babylon-berlin_387656"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1920&Height=1080&ImageId='41305969'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1440&Height=2160&ImageId='41305973'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1920&Height=1080&ImageId='50611484'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=2048&Height=2048&ImageId='41625133'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "265150"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "265150"
+       ],
+       "categories": [
+        "serie",
+        "dr ramasjang",
+        "musik"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-07",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Babylons stol",
+        "ExtraDetails": "Serie | 2 SÆSONER",
+        "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+        "BrandingChannelShort": "TVR",
+        "ShortVideoUrl": "https://drod09s-vh.akamaihd.net/i/all/clear/streaming/48/61350445af5a6122c4789f48/VSR-Babylons-stol-Loft_d2549bdfbeb042fcb447cbfe8f8d9466_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+        "PathIdSegment": "babylons-stol_265150",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2997720802000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "265150",
+       "type": "show",
+       "shortDescription": "4 børn tilbringer sommeren på en gammel gård, og finder en mystisk stol på loftet. En talende stol som kalder sig Babylon - verdens sværeste spil. Men da børnene begynder at spille det gådefulde spil, som ingen nogensinde har gennemført, begynder der at s",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Se hele serien nu",
+       "themes": [],
+       "title": "Babylons stol",
+       "vodItemWatchPath": "",
+       "path": "/serie/babylons-stol_265150"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='404047'&Width=1920&Height=1080&ImageId='48646154'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='404047'&Width=1920&Height=1080&ImageId='48646157'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='404047'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "404047"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "404047"
+       ],
+       "categories": [
+        "livsstil",
+        "mad",
+        "rejse",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Livsstil,Mad,Rejse",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Badehoteller",
+        "ExtraDetails": "Livsstil | 1 SÆSON",
+        "TitleExtraDetails": "DR1 | 1 SÆSON",
+        "PathIdSegment": "badehoteller_404047",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2788795011000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "404047",
+       "type": "show",
+       "shortDescription": "I mere end hundrede år har badehotellerne haft en næsten magisk tiltrækning på os. I første række ligger de og lokker med løfter om forkælelse, nydelse og romantik. Anne Hjernø og Anders Aggerbesøger fire fantastiske badehoteller og fortæller historierne ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Badehoteller",
+       "vodItemWatchPath": "",
+       "path": "/serie/badehoteller_404047"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='123553'&Width=1920&Height=1080&ImageId='4250507'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='123553'&Width=1920&Height=1080&ImageId='49926131'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='123553'&Width=1440&Height=2160&ImageId='49926153'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "123553"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "123553"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "p3",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,P3",
+        "BrandingChannelShort": "TP3",
+        "BrandingChannelDisplayName": "P3",
+        "DisplayCategory": "Fiktionsserie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Badeværelsesliv",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "P3 | 1 SÆSON",
+        "PathIdSegment": "badevaerelsesliv_123553",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2379618269000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "123553",
+       "type": "show",
+       "shortDescription": "Hilda og Lo på 21 er bedsteveninder og tabere uden studieplads. Mød dem i dramaserien 'Badeværelsesliv', der foregår på - et badeværelse.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Badeværelsesliv",
+       "vodItemWatchPath": "",
+       "path": "/serie/badevaerelsesliv_123553"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424417'&Width=1920&Height=1080&ImageId='50556106'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424417'&Width=1920&Height=1080&ImageId='50556110'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424417'&Width=2000&Height=3000&ImageId='50556108'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "424417"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "424417"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "dr1",
+        "acc_spoken_subtitles",
+        "acc_audio_description"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Fiktionsserie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bag enhver mand",
+        "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+        "TitleExtraDetails": "DR1 | 1 SÆSON",
+        "PathIdSegment": "bag-enhver-mand_424417",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3373764778000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "424417",
+       "type": "show",
+       "shortDescription": "En komediedramaserie om køn, magt og forandring. Af og med Julie Rudbæk og Jesper Zuschlag.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bag enhver mand",
+       "vodItemWatchPath": "",
+       "path": "/serie/bag-enhver-mand_424417"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6469'&Width=1920&Height=1080&ImageId='4375181'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6469'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6469'&Width=1920&Height=1080&ImageId='4375196'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "6469"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "6469"
+       ],
+       "categories": [
+        "livsstil",
+        "mad",
+        "rejse",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Livsstil,Mad,Rejse",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bag med Tobias",
+        "ExtraDetails": "Livsstil | 2 SÆSONER",
+        "TitleExtraDetails": "DR1 | 2 SÆSONER",
+        "PathIdSegment": "bag-med-tobias_6469",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1309626958000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "6469",
+       "type": "show",
+       "shortDescription": "Tobias Hamann-Pedersen tager ud i verden for at undersøge fremmede kager og nye måder at bage på.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bag med Tobias",
+       "vodItemWatchPath": "",
+       "path": "/serie/bag-med-tobias_6469"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='407273'&Width=1440&Height=2160&ImageId='50421236'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='407273'&Width=1920&Height=1080&ImageId='50421223'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='407273'&Width=1920&Height=1080&ImageId='50421213'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "407273"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "407273"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Dokumentar,Historie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bag murene på Stockholms Slot",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR1 | 1 SÆSON",
+        "PathIdSegment": "bag-murene-paa-stockholms-slot_407273",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:4712256870000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "407273",
+       "type": "show",
+       "shortDescription": "Kong Carl XVI Gustaf, kronprinsesse Victoria og prinsesse Christina voksede op på det kongelige slot i Stockholm. Hvordan husker de deres barndom i så specielle omgivelser? Og hvilke historier gemmer slottet?",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bag murene på Stockholms Slot",
+       "vodItemWatchPath": "",
+       "path": "/serie/bag-murene-paa-stockholms-slot_407273"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='281136'&Width=1920&Height=1080&ImageId='50521400'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='281136'&Width=1440&Height=2160&ImageId='50521386'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='281136'&Width=1920&Height=1080&ImageId='50521374'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "281136"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "281136"
+       ],
+       "categories": [
+        "dokumentar",
+        "kultur",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Kultur,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Dokumentar,Kultur",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bag museets døre",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR2 | 1 SÆSON",
+        "PathIdSegment": "bag-museets-doere_281136",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3122016220000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "281136",
+       "type": "show",
+       "shortDescription": "Kom bag scenerne på The Metropolitan Museum of Art i New York. Her er kunst fra de sidste 5.000 år. Men tre massive kriser bringer museet i knæ fra 2019 til 2021. Hvordan kan museet overleve?",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bag museets døre",
+       "vodItemWatchPath": "",
+       "path": "/serie/bag-museets-doere_281136"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='117049'&Width=1440&Height=2160&ImageId='50478528'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='117049'&Width=1920&Height=1080&ImageId='50478541'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='117049'&Width=1920&Height=1080&ImageId='50478519'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "117049"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "117049"
+       ],
+       "categories": [
+        "dokumentar",
+        "politik",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Politik,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Dokumentar,Politik",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bag om Brexit",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR2 | 1 SÆSON",
+        "PathIdSegment": "bag-om-brexit_117049",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2278190876000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "117049",
+       "type": "show",
+       "shortDescription": "I to år har filmmager Lode Desmet haft eksklusiv adgang til Europa-Parlamentets brexit-koordinator, Guy Verhofstadt, og dennes team. Her afsløres de europæiske forhandleres fortrolige samtaler og argumenter, når de forsøger at udforme en strategi for brit",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bag om Brexit",
+       "vodItemWatchPath": "",
+       "path": "/serie/bag-om-brexit_117049"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444975'&Width=1920&Height=1080&ImageId='51934274'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444975'&Width=1920&Height=1080&ImageId='51934314'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='444975'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 861,
+       "releaseYear": 2024,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "444975"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "444975"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "444975"
+       ],
+       "categories": [
+        "kultur",
+        "musik",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Musik,DR2,acc_spoken_subtitles",
+        "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Musik",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-EXCEPT",
+        "PageTitle": "Bagom Fantasymphony - sådan vækkes magien til live",
+        "ExtraDetails": "Kultur | 14M",
+        "TitleExtraDetails": "DR2 | 14M",
+        "PathIdSegment": "bagom-fantasymphony-_-saadan-vaekkes-magien-til-live_444975",
+        "BroadcastTimeDK": "2024-03-23T20:45:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00452401180",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "444975",
+       "type": "program",
+       "shortDescription": "Der er ild. Der er magi. Der er musik - og der er alle de mennesker, der skaber oplevelsen og får små og store komponenter til at falde på plads. Her går vi bagom Fantasymphony og ser, hvordan magien vækkes til live.\nMedvirkende: Nicolai Abrahamsen, Cassa",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bagom Fantasymphony - sådan vækkes magien til live",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/bagom-fantasymphony-_-saadan-vaekkes-magien-til-live_444975",
+       "watchPath": "/se/bagom-fantasymphony-_-saadan-vaekkes-magien-til-live_444975"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='323751'&Width=1920&Height=1080&ImageId='17824164'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='323751'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='323751'&Width=1920&Height=1080&ImageId='17824166'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "323751"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "323751"
+       ],
+       "categories": [
+        "dokumentar",
+        "natur",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Natur,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Dokumentar,Natur",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bagom: Fiskene i Sverige",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR1 | 1 SÆSON",
+        "PathIdSegment": "bagom_-fiskene-i-sverige_323751",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3356652800000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "323751",
+       "type": "show",
+       "shortDescription": "Vi går bag serien 'Fiskene i Sverige'. Se hvordan de betagende naturoptagelser er blevet til.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bagom: Fiskene i Sverige",
+       "vodItemWatchPath": "",
+       "path": "/serie/bagom_-fiskene-i-sverige_323751"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='259905'&Width=1920&Height=1080&ImageId='12454001'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='259905'&Width=1920&Height=1080&ImageId='50419502'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='259905'&Width=1440&Height=2160&ImageId='50419507'"
+       },
+       "duration": 3008,
+       "releaseYear": 2020,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "259905"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "259905"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "259905"
+       ],
+       "categories": [
+        "dokumentar",
+        "natur",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Natur,DR1",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "ØSTRIG",
+        "DisplayCategory": "Dokumentar,Natur",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Balatonsøen: Europas skjulte paradis",
+        "ExtraDetails": "Dokumentar | 50M",
+        "TitleExtraDetails": "DR1 | 50M",
+        "PathIdSegment": "balatonsoeen_-europas-skjulte-paradis_259905",
+        "BroadcastTimeDK": "2021-06-27T19:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00022110670",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "259905",
+       "type": "program",
+       "shortDescription": "Østrigsk naturprogram fra 2020.\n(Lake Balaton - Europe's Hidden Paradise)\nDen er Centraleuropas største ferskvandssø. Formet af istiden og omgivet af udslukte vulkaner. Langs kysterne og i naturen omkring den lever et sammensurium af dyrearter. De fleste ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Balatonsøen: Europas skjulte paradis",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/balatonsoeen_-europas-skjulte-paradis_259905",
+       "watchPath": "/se/balatonsoeen_-europas-skjulte-paradis_259905"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='408894'&Width=1920&Height=1080&ImageId='50825419'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='408894'&Width=1920&Height=1080&ImageId='50825423'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='408894'&Width=1440&Height=2160&ImageId='50825421'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "408894"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "408894"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Dokumentar,Historie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Balladen om det spanske kongehus",
+        "ExtraDetails": "Dokumentar | 1 SÆSON",
+        "TitleExtraDetails": "DR2 | 1 SÆSON",
+        "PathIdSegment": "balladen-om-det-spanske-kongehus_408894",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:4086446326000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "408894",
+       "type": "show",
+       "shortDescription": "Utroskab, korruption og skandaler. Denne serie dykker ned i et af Europas mest betydningsfulde kongeslægter: Den spanske kongefamilie.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Balladen om det spanske kongehus",
+       "vodItemWatchPath": "",
+       "path": "/serie/balladen-om-det-spanske-kongehus_408894"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1920&Height=1080&ImageId='51790158'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1440&Height=2160&ImageId='51790165'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1920&Height=1080&ImageId='51914111'"
+       },
+       "duration": 4497,
+       "releaseYear": 2004,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "442946"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "442946"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "442946"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "USA",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Balto - Den store forandring",
+        "ExtraDetails": "Film | 1T 15M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 15M",
+        "PathIdSegment": "balto-_-den-store-forandring_442946",
+        "BroadcastTimeDK": "2024-03-23T18:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00020730120",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "442946",
+       "type": "program",
+       "shortDescription": "Amerikansk animationsfilm fra 2004 med dansk tale.\n(Balto III)\nEn postflyver begynder at flyve forsyninger til den lille by Nome og truer med at gøre Balto og hans slædehundevenner arbejdsløse. Et væddeløb mellem slædehundene og flyet ender med sejr til h",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Balto - Den store forandring",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/balto-_-den-store-forandring_442946",
+       "watchPath": "/se/balto-_-den-store-forandring_442946"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6723'&Width=1920&Height=1080&ImageId='48710110'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6723'&Width=1440&Height=2160&ImageId='16099618'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6723'&Width=1920&Height=1080&ImageId='48710113'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6723'&Width=2048&Height=2048&ImageId='6669399'"
+       },
+       "availableSeasonCount": 4,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "6723"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "6723"
+       ],
+       "categories": [
+        "ramasjang ø",
+        "fakta",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Ramasjang ø,Fakta,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Ramasjang ø,Fakta",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bamselægen",
+        "ExtraDetails": "Ramasjang ø | 4 SÆSONER",
+        "TitleExtraDetails": "DR Ramasjang | 4 SÆSONER",
+        "PathIdSegment": "bamselaegen_6723",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1862391489000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "6723",
+       "type": "show",
+       "shortDescription": "Lær alt om kroppen og slip af med angsten for læger og hospitaler. Bamselægen Sandra tager sig af bamser i hele landet, der er syge eller kommet til skade.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bamselægen",
+       "vodItemWatchPath": "",
+       "path": "/serie/bamselaegen_6723"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6590'&Width=1920&Height=1080&ImageId='4410827'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6590'&Width=1920&Height=1080&ImageId='4410809'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6590'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "6590"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "6590"
+       ],
+       "categories": [
+        "ramasjang ø",
+        "dr minisjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Ramasjang ø,DR Minisjang",
+        "BrandingChannelShort": "TVM",
+        "BrandingChannelDisplayName": "DR Minisjang",
+        "DisplayCategory": "Ramasjang ø",
+        "TargetAudience": "YoungerKids",
+        "RatingSegment": "Minisjang",
+        "PrimaryContentUniverse": "Minisjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bamses Billedbog",
+        "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+        "TitleExtraDetails": "DR Minisjang | 1 SÆSON",
+        "PathIdSegment": "bamses-billedbog_6590",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang",
+         "minisjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1648179988000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "6590",
+       "type": "show",
+       "shortDescription": "Bamse, kylling, ælling og vennerne på de allergodeste eventyr.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bamses Billedbog",
+       "vodItemWatchPath": "",
+       "path": "/serie/bamses-billedbog_6590"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440031'&Width=1920&Height=1080&ImageId='51935034'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440031'&Width=1920&Height=1080&ImageId='51934937'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440031'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "440031"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "440031"
+       ],
+       "categories": [
+        "dr minisjang",
+        "gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "DR Minisjang",
+        "BrandingChannelShort": "TVM",
+        "BrandingChannelDisplayName": "DR Minisjang",
+        "TargetAudience": "YoungerKids",
+        "RatingSegment": "Minisjang",
+        "PrimaryContentUniverse": "Minisjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bamses Billedbog",
+        "ExtraDetails": "2 SÆSONER",
+        "TitleExtraDetails": "DR Minisjang | 2 SÆSONER",
+        "PathIdSegment": "bamses-billedbog_440031",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang",
+         "minisjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:753436107000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "440031",
+       "type": "show",
+       "shortDescription": "Fortællinger fra Bamses billedbog om Bamse, Kylling og Ælling.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bamses Billedbog",
+       "vodItemWatchPath": "",
+       "path": "/serie/bamses-billedbog_440031"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='235714'&Width=1920&Height=1080&ImageId='8709738'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='235714'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='235714'&Width=1920&Height=1080&ImageId='8709740'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "235714"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "235714"
+       ],
+       "categories": [
+        "dr minisjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "DR Minisjang",
+        "BrandingChannelShort": "TVM",
+        "BrandingChannelDisplayName": "DR Minisjang",
+        "TargetAudience": "YoungerKids",
+        "RatingSegment": "Minisjang",
+        "PrimaryContentUniverse": "Minisjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bamses Lillebitte Billedbog",
+        "ExtraDetails": "1 SÆSON",
+        "TitleExtraDetails": "DR Minisjang | 1 SÆSON",
+        "PathIdSegment": "bamses-lillebitte-billedbog_235714",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang",
+         "minisjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2989531126000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "235714",
+       "type": "show",
+       "shortDescription": "I Bamses Lillebitte Billedbog er der historier om dengang Bamse, Kylling og Ælling ikke var særligt store.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bamses Lillebitte Billedbog",
+       "vodItemWatchPath": "",
+       "path": "/serie/bamses-lillebitte-billedbog_235714"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='150186'&Width=1920&Height=1080&ImageId='4377086'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='150186'&Width=1920&Height=1080&ImageId='4377077'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='150186'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "150186"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "150186"
+       ],
+       "categories": [
+        "humor/satire",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Banjos Likørstue",
+        "ExtraDetails": "Humor/satire | 2 SÆSONER",
+        "TitleExtraDetails": "DR Gensyn | 2 SÆSONER",
+        "PathIdSegment": "banjos-likoerstue_150186",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1796468907000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "150186",
+       "type": "show",
+       "shortDescription": "Grænsesøgende satire med Simon Jul Jørgensen og Jan Elhøj.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Banjos Likørstue",
+       "vodItemWatchPath": "",
+       "path": "/serie/banjos-likoerstue_150186"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434969'&Width=1920&Height=1080&ImageId='51508522'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434969'&Width=1575&Height=2362&ImageId='51508524'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434969'&Width=1920&Height=1080&ImageId='51508526'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "434969"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "434969"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "dr1",
+        "acc_audio_description",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,DR1",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Fiktionsserie",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bankerot",
+        "ExtraDetails": "Fiktionsserie | 2 SÆSONER",
+        "TitleExtraDetails": "DR1 | 2 SÆSONER",
+        "PathIdSegment": "bankerot_434969",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1389654908000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "434969",
+       "type": "show",
+       "shortDescription": "Der er masser af skæv humor i den finurlige komediedramaserie 'Bankerot', der har Martin Buch og Esben Dalgaard i rollerne som to venner, der ikke helt evner at håndtere livet.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bankerot",
+       "vodItemWatchPath": "",
+       "path": "/serie/bankerot_434969"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19034'&Width=1920&Height=1080&ImageId='50701349'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19034'&Width=1440&Height=2160&ImageId='50701352'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19034'&Width=1920&Height=1080&ImageId='50701354'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "19034"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "19034"
+       ],
+       "categories": [
+        "livsstil",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "DisplayCategory": "Livsstil",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bankokongens comeback",
+        "ExtraDetails": "Livsstil | 1 SÆSON",
+        "TitleExtraDetails": "DR1 | 1 SÆSON",
+        "BrandingChannelShort": "DR1",
+        "PathIdSegment": "bankokongens-comeback_19034",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1904851005000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "19034",
+       "type": "show",
+       "shortDescription": "Banko-Carl har i en lang årrække skabt et banko-imperium og fyldt bankohaller overalt i Danmark. Men i 1996 slog to blodpropper ham ud og en glorværdig karriere sluttede. \nMen nu gør Banko-Carl comeback.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bankokongens comeback",
+       "vodItemWatchPath": "",
+       "path": "/serie/bankokongens-comeback_19034"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='325980'&Width=1920&Height=1080&ImageId='40549549'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='325980'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='325980'&Width=1920&Height=1080&ImageId='40549552'"
+       },
+       "duration": 1417,
+       "releaseYear": 2022,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "325980"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "325980"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "325980"
+       ],
+       "categories": [
+        "kultur",
+        "musik",
+        "dr2"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Musik,DR2",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Musik",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-EXCEPT",
+        "PageTitle": "Barbara Hannigan dirigerer Haydn",
+        "ExtraDetails": "Kultur | 24M",
+        "TitleExtraDetails": "DR2 | 24M",
+        "PathIdSegment": "barbara-hannigan-dirigerer-haydn_325980",
+        "BroadcastTimeDK": "2022-04-10T19:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00452201060",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "325980",
+       "type": "program",
+       "shortDescription": "Den hollandske stjernedirigent Barbara Hannigan gæstede DR Symfoniorkestret i marts måned og dirigerede Haydns symfoni nr. 44. Det er hurtige og stormfulde, wienerklassiske toner, men læg mærke til den vidunderlige og drømmende langsomme sats.\nOptaget i D",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Barbara Hannigan dirigerer Haydn",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/barbara-hannigan-dirigerer-haydn_325980",
+       "watchPath": "/se/barbara-hannigan-dirigerer-haydn_325980"
+      }
+     ],
+     "size": 122,
+     "paging": {
+      "total": 6,
+      "page": 1,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=2&sub=Registered&param=TitleGroupKey%3Ab",
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "c021162",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "C",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 70,
+     "paging": {
+      "total": 3,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ac",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:c",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "d3706a0",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "D",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 353,
+     "paging": {
+      "total": 15,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ad",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:d",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "699df53",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "E",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 80,
+     "paging": {
+      "total": 4,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ae",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:e",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "8eabbbc",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "F",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 161,
+     "paging": {
+      "total": 7,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Af",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:f",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "4ada1b1",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "G",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 86,
+     "paging": {
+      "total": 4,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ag",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:g",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "168c9ed",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "H",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 165,
+     "paging": {
+      "total": 7,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ah",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:h",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "89622f3",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "I",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 55,
+     "paging": {
+      "total": 3,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ai",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:i",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "4a3a16a",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "J",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 70,
+     "paging": {
+      "total": 3,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Aj",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:j",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "0c14e02",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "K",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 148,
+     "paging": {
+      "total": 7,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ak",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:k",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "6cb2435",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "L",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 70,
+     "paging": {
+      "total": 3,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Al",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:l",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "06439aa",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "M",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 228,
+     "paging": {
+      "total": 10,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Am",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:m",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "5b55a28",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "N",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 81,
+     "paging": {
+      "total": 4,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3An",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:n",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "fd02512",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "O",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 36,
+     "paging": {
+      "total": 2,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ao",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:o",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "8a0820a",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "P",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 126,
+     "paging": {
+      "total": 6,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ap",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:p",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "f2524de",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Q",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 1,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Aq",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:q",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "a264862",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "R",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 76,
+     "paging": {
+      "total": 4,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ar",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:r",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "e2c5c0b",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "S",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 278,
+     "paging": {
+      "total": 12,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3As",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:s",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "eaf66cd",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "T",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 106,
+     "paging": {
+      "total": 5,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3At",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:t",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "0da160d",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "U",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 54,
+     "paging": {
+      "total": 3,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Au",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:u",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "9382926",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "V",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 107,
+     "paging": {
+      "total": 5,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Av",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:v",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "aaba82a",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "W",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 9,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Aw",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:w",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "061c1a2",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "X",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 1,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ax",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:x",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "206283d",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Y",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 3,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ay",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:y",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "16f2530",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Z",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 5,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Az",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:z",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "2f82ea0",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Æ",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 4,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3A%C3%86",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:Æ",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "6288a99",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Ø",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 4,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3A%C3%98",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:Ø",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "6dec1ca",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Å",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 11,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3A%C3%85",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:Å",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "assetTitlePosition": "below"
+    },
+    "type": "ListEntry",
+    "id": "2173b0e",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "0-9",
+    "list": {
+     "id": "348",
+     "path": "/liste/348",
+     "items": [],
+     "size": 28,
+     "paging": {
+      "total": 2,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/348?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3A0-9",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:0-9",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "3c75fe8",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "S1",
+    "title": "Flere kategorier",
+    "list": {
+     "id": "277824",
+     "path": "/liste/277824",
+     "items": [],
+     "size": 13,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/277824?page_size=24&page=1&sub=Registered",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   }
+  ]
+ }
+}

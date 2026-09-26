@@ -1,0 +1,176 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:y",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | Y",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/y",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='147619'&Width=1920&Height=1080&ImageId='4254496'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='147619'&Width=1920&Height=1080&ImageId='4254520'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='147619'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "147619"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "147619"
+    ],
+    "categories": [
+     "gensyn",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Gensyn,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Y's Fantom Farmor",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "ys-fantom-farmor_147619",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2561549845000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "147619",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1996-1997. Yrsa keder sig i sommerferien, men møder heldigvis sin magiske Fantom Farmor. Natasha Arthy står bag serien med den fantasifulde bedstemor, spillet af Anne Marie Helger.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Y's Fantom Farmor",
+    "vodItemWatchPath": "",
+    "path": "/serie/ys-fantom-farmor_147619"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422389'&Width=1920&Height=1080&ImageId='50419826'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422389'&Width=1440&Height=2160&ImageId='50419830'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422389'&Width=1920&Height=1080&ImageId='51037016'"
+    },
+    "duration": 4718,
+    "releaseYear": 2020,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "422389"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "422389"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "422389"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "FRANKRIG & MONACO",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Yakari på store eventyr",
+     "ExtraDetails": "Film | 1T 19M",
+     "TitleExtraDetails": "DR Ramasjang | 1T 19M",
+     "ShortVideoUrl": "https://drod24n.akamaized.net/all/clear/none/69/630dda02aa5a610a9003ae69/630dda00c348d510c4621330/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "yakari-paa-store-eventyr_422389",
+     "BroadcastTimeDK": "2024-02-03T07:30:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852201150",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "422389",
+    "type": "program",
+    "shortDescription": "Den lille Sioux-indianer Yakari drager alene ud i verden i jagten på vildhesten Lille Torden, som siges at være utæmmelig. På sin rejse møder Yakari mange farer, men opdager også, at han har fået evnen til at tale med dyrene. Udløber: 16. feb 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Ugens film",
+    "themes": [],
+    "title": "Yakari på store eventyr",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/yakari-paa-store-eventyr_422389",
+    "watchPath": "/se/yakari-paa-store-eventyr_422389"
+   }
+  ],
+  "size": 2,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

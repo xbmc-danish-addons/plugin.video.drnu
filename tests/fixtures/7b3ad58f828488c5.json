@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='352247'&Width=1920&Height=1080&ImageId='43228650'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='352247'&Width=1920&Height=1080&ImageId='43228652'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='352247'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3485,
+  "releaseYear": 2022,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-11-25T22:59:00Z",
+    "scopes": [
+     "352247"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-11-18T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-11-25T22:59:00Z",
+    "scopes": [
+     "352247"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EXGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-11-18T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "352247"
+  ],
+  "categories": [
+   "livsstil",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Livsstil",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "At køre er at leve - Motorcyklens magi",
+   "ExtraDetails": "Livsstil | 58M",
+   "TitleExtraDetails": "DR2 | 58M",
+   "ShortVideoUrl": "https://drod24t.akamaized.net/all/clear/none/ea/637489fba95a610eb093d2ea/637489ef1556091700111ab1/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "at-koere-er-at-leve-_-motorcyklens-magi_352247",
+   "BroadcastTimeDK": "2022-11-19T20:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00652216010",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "352247",
+  "type": "program",
+  "description": "Motorcyklen kan sætte dig fri! Tag med stjernefotograf Thomas Skou på hans odyssé gennem det danske motorcykellandsskab, hvor han på egen krop mærker, hvad motorcyklen kan gøre for mennesker, og også for ham selv. Tag med landets sejeste kvinder på camping, hop nøgen i Østersøen, slip din indre fartdjævel løs med Ducati fans, hav dybe samtaler i mandeskruefællesskabet, og opdag hvordan en af vores allerstørste kunstnere Michael Kvium, har fundet sin vej til at male.... For som Thomas Skou siger: \"Motorcyklen er et flyvende tæppe med gummi under. Hop på frihedsmaskinen og kør med!\" Udløber: 25. nov 2024",
+  "shortDescription": "Motorcyklen kan sætte dig fri! Tag med stjernefotograf Thomas Skou på hans odyssé gennem det danske motorcykellandsskab, hvor han på egen krop mærker, hvad motorcyklen kan gøre for mennesker, og også for ham selv. Tag med landets sejeste kvinder på campin",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Hop på frihedsmaskinen med Thomas Skou, og tag på eventyr i Danmark",
+  "themes": [],
+  "title": "At køre er at leve - Motorcyklens magi",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/at-koere-er-at-leve-_-motorcyklens-magi_352247",
+  "watchPath": "/se/at-koere-er-at-leve-_-motorcyklens-magi_352247",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

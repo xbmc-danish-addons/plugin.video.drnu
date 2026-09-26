@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432948'&Width=1440&Height=2160&ImageId='51116619'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432948'&Width=1280&Height=720&ImageId='51116617'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432948'&Width=1280&Height=720&ImageId='51116621'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5178,
+  "releaseYear": 2012,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-03-03T22:59:00Z",
+    "scopes": [
+     "432948"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-03T17:29:48Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-03-03T22:59:00Z",
+    "scopes": [
+     "432948"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-03T17:29:48Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "432948"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Skønheden og Monstret i Paris",
+   "ExtraDetails": "Film | 1T 26M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 26M",
+   "PathIdSegment": "skoenheden-og-monstret-i-paris_432948",
+   "BroadcastTimeDK": "2024-02-03T18:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851221660",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "432948",
+  "type": "program",
+  "description": "(A monster in Paris)\nTegnefilm med danske stemmer.\nEmile er en genert biografoperatør, som kastes ud i et halsbrækkende eventyr i selskab med sin frygtløse og sjove ven, Raoul. Tanken var, at de bare skulle købe en reservedel til Emiles filmprojektor, og pludselig har de brudt ind hos en botaniker, skabt fuldstændigt kaos og sluppet et monster løs i Paris' gader. Nu må Emilie og Raoul, sammen med et farverigt galleri af karakterer/figurer, finde monstret før det er for sent. Men ingenting er, som du tror. Udløber: 3. mar 2024",
+  "shortDescription": "(A monster in Paris)\nTegnefilm med danske stemmer.\nEmile er en genert biografoperatør, som kastes ud i et halsbrækkende eventyr i selskab med sin frygtløse og sjove ven, Raoul. Tanken var, at de bare skulle købe en reservedel til Emiles filmprojektor, og ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Skønheden og Monstret i Paris",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/skoenheden-og-monstret-i-paris_432948",
+  "watchPath": "/se/skoenheden-og-monstret-i-paris_432948",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

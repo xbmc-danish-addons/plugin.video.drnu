@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414523'&Width=1920&Height=1080&ImageId='51934133'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414523'&Width=1920&Height=1080&ImageId='51934135'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414523'&Width=1440&Height=2160&ImageId='51935031'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3877,
+  "releaseYear": 1993,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "414523"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "414523"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "414523"
+  ],
+  "categories": [
+   "film",
+   "teater og tv-film",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,Teater og TV-film,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film,Teater og TV-film,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-NOT-RATED",
+   "PageTitle": "De skrigende halse",
+   "ExtraDetails": "Film | 1T 5M",
+   "TitleExtraDetails": "DR Gensyn | 1T 5M",
+   "PathIdSegment": "de-skrigende-halse_414523",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00587016610",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "414523",
+  "type": "program",
+  "description": "Dansk komedie fra 1993. Søren Faulis groteske kultfilm om 80'ernes musikalske undergrund. Når man brænder for at blive accepteret i dødskult-miljøet, hvad gør man så? Man bilder de andre ind, at man snart skal dø. Det er hvad punkguitaristen Ronni griber til, da han står til at ryge ud af sit band. Men den ene løgn fører den anden med sig...\nMedvirkende: Kristian Holm Joensen, Thomas Bo Larsen, Martin Brygmann, Søren Pilmark, m.fl.\nManuskript: Bo hr. Hansen og Søren Fauli.\nInstruktion: Søren Fauli. Udløber: 13. sep 2025",
+  "shortDescription": "Dansk komedie fra 1993. Søren Faulis groteske kultfilm om 80'ernes musikalske undergrund. Når man brænder for at blive accepteret i dødskult-miljøet, hvad gør man så? Man bilder de andre ind, at man snart skal dø. Det er hvad punkguitaristen Ronni griber ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "De skrigende halse",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/de-skrigende-halse_414523",
+  "watchPath": "/se/de-skrigende-halse_414523",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

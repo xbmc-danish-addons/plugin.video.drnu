@@ -1,0 +1,105 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356470'&Width=1920&Height=1080&ImageId='43541292'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356470'&Width=1440&Height=2160&ImageId='43541306'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356470'&Width=1920&Height=1080&ImageId='48547013'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4385,
+  "releaseYear": 2013,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-12-31T22:59:00Z",
+    "scopes": [
+     "356470"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-01-22T06:29:56Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-12-31T22:59:00Z",
+    "scopes": [
+     "356470"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EOGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-01-22T06:29:56Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "356470"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Cykelmyggen og Minibillen",
+   "ExtraDetails": "Film | 1T 13M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 13M",
+   "ShortVideoUrl": "https://drod22n.akamaized.net/all/clear/none/6c/5f947229539f0230407d896c/5f9471ae539f0230407d8969/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "cykelmyggen-og-minibillen_356470",
+   "BroadcastTimeDK": "2023-01-22T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00961200160",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "356470",
+  "type": "program",
+  "description": "Minibillen Mini optræder i loppecirkus sammen med Cykelmyggen Egon og Dansemyggen Dagmar. Da Mini bliver mobbet af loppen Miranda, ender det med en forstuvet fod til Dagmar og en fiasko for det ellers dygtige cirkus. Mini bliver skældt ud og stikker efterfølgende af ud i skoven. Her møder han en røverbande, og selvom de er lidt uhyggelige og farlige, bliver han optaget som medlem af banden. Men for at være med i slænget, tvinger lederen, Skarnbassen Basse, Mini til at røve bikuben for lækker honning. Udløber: 31. dec 2025",
+  "shortDescription": "Minibillen Mini optræder i loppecirkus sammen med Cykelmyggen Egon og Dansemyggen Dagmar. Da Mini bliver mobbet af loppen Miranda, ender det med en forstuvet fod til Dagmar og en fiasko for det ellers dygtige cirkus. Mini bliver skældt ud og stikker efter",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Ugens film",
+  "themes": [],
+  "title": "Cykelmyggen og Minibillen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/cykelmyggen-og-minibillen_356470",
+  "watchPath": "/se/cykelmyggen-og-minibillen_356470",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

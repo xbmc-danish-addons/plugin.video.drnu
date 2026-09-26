@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442943'&Width=1920&Height=1080&ImageId='51790088'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442943'&Width=1440&Height=2160&ImageId='51790092'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442943'&Width=1920&Height=1080&ImageId='51913987'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4673,
+  "releaseYear": 2019,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-12T21:59:00Z",
+    "scopes": [
+     "442943"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T06:31:29Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-12T21:59:00Z",
+    "scopes": [
+     "442943"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ETGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T06:31:29Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442943"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "TYSKLAND",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Kagekampen",
+   "ExtraDetails": "Film | 1T 18M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 18M",
+   "PathIdSegment": "kagekampen_442943",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852011220",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442943",
+  "type": "program",
+  "description": "Animationsfilm fra 2019.\nAlflingerne har levet i skjul under jorden i mange år, og det passer dem sådan set meget godt. Men for Elfie er det anderledes. Hun kæmper med at bevise sit værd over for de andre og beslutter sig for, at finde ud af, hvad livet på overfladen kan tilbyde. Hvem ved; måske kan hun endda lære et håndværk, der kan gøre de andre alflinger misundelige! Sammen med sine venner, Kipp og Buller, kravler de op til jordens overflade, hvor de møder bageren Theo, der har problemer med sin bagerbutik. Den er nemlig i fare for at blive opkøbt af et stort og upersonligt kage-imperium. Heldigvis for Theo har alflingerne ét erklæret formål i livet: At hjælpe andre! De tre små venner sætter sig for at få gang i butikken igen og hjælpe Theo fra konkurs. Der er kun et problem: Ingen af dem ved noget som helst om at bage, så der er liiige lidt startvanskeligheder, inden de kan skumme fløden af deres arbejde. Udløber: 12. apr 2024",
+  "shortDescription": "Animationsfilm fra 2019.\nAlflingerne har levet i skjul under jorden i mange år, og det passer dem sådan set meget godt. Men for Elfie er det anderledes. Hun kæmper med at bevise sit værd over for de andre og beslutter sig for, at finde ud af, hvad livet p",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Kagekampen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/kagekampen_442943",
+  "watchPath": "/se/kagekampen_442943",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

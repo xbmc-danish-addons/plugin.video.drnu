@@ -1,0 +1,84 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1920&Height=1080&ImageId='41305969'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1440&Height=2160&ImageId='41305973'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1920&Height=1080&ImageId='50611484'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=2048&Height=2048&ImageId='41625133'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 2,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-08-19T21:59:59Z",
+    "scopes": [
+     "265150"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EAC",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-09-11T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "265150"
+  ],
+  "categories": [
+   "serie",
+   "dr ramasjang",
+   "musik"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Serie,DR Ramasjang",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Babylons stol",
+   "ExtraDetails": "Serie | 2 SÆSONER",
+   "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+   "BrandingChannelShort": "TVR",
+   "ShortVideoUrl": "https://drod09s-vh.akamaihd.net/i/all/clear/streaming/48/61350445af5a6122c4789f48/VSR-Babylons-stol-Loft_d2549bdfbeb042fcb447cbfe8f8d9466_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "babylons-stol_265150",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2997720802000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "265150",
+  "type": "show",
+  "description": "4 børn tilbringer sommeren på en gammel gård, og finder en mystisk stol på loftet. En talende stol som kalder sig Babylon - verdens sværeste spil. Men da børnene begynder at spille det gådefulde spil, som ingen nogensinde har gennemført, begynder der at ske mystiske ting på gården.",
+  "shortDescription": "4 børn tilbringer sommeren på en gammel gård, og finder en mystisk stol på loftet. En talende stol som kalder sig Babylon - verdens sværeste spil. Men da børnene begynder at spille det gådefulde spil, som ingen nogensinde har gennemført, begynder der at s",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Se hele serien nu",
+  "themes": [],
+  "title": "Babylons stol",
+  "vodItemWatchPath": "",
+  "path": "/serie/babylons-stol_265150",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

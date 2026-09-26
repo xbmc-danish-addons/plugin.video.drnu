@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='273533'&Width=1920&Height=1080&ImageId='14223304'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='273533'&Width=1440&Height=2160&ImageId='14208359'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='273533'&Width=1920&Height=1080&ImageId='14223306'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3824,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-08-14T21:59:00Z",
+    "scopes": [
+     "273533"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ECLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-10-11T04:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-08-14T21:59:00Z",
+    "scopes": [
+     "273533"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EPNAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-10-11T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "273533"
+  ],
+  "categories": [
+   "dokumentar",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PageTitle": "Amok-aktie på himmelflugt - kampen om GameStop",
+   "ExtraDetails": "Dokumentar | 1T 4M",
+   "TitleExtraDetails": "DR2 | 1T 4M",
+   "ShortVideoUrl": "https://drod02d-vh.akamaihd.net/i/all/clear/streaming/b0/615e9e27a95a61102cbce8b0/VS-AMOK-AKTIE-PAA-HIMM_ccc96f0860ff43e891dc9f9559e93841_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "amok_aktie-paa-himmelflugt-_-kampen-om-gamestop_273533",
+   "BroadcastTimeDK": "2021-10-12T21:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00022115540",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "273533",
+  "type": "program",
+  "description": "Amerikansk dokumentar fra 2021.\n(The Big Squeeze)\nComputerspilkæden GameStop skabte så meget kaos på aktiemarkedet, at det tvang store hedgefonde i knæ. Hvordan kunne det ske? Her følger vi forskellige mennesker, der i løbet af 2020 blev bragt sammen på grund af deres interesse i GameStops fremtid. Nogle havde investeret i kædens aktie, andre spekulerede i den. Mens kædens ansatte stolede på, at virksomheden ville udbetale deres løn på et tidspunkt, hvor millioner af mennesker gik fallit og blev arbejdsløse. Udløber: 14. aug 2026",
+  "shortDescription": "Amerikansk dokumentar fra 2021.\n(The Big Squeeze)\nComputerspilkæden GameStop skabte så meget kaos på aktiemarkedet, at det tvang store hedgefonde i knæ. Hvordan kunne det ske? Her følger vi forskellige mennesker, der i løbet af 2020 blev bragt sammen på g",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Aktien, der udløste krig mellem hedgefonde og småinvestorer",
+  "themes": [],
+  "title": "Amok-aktie på himmelflugt - kampen om GameStop",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/amok_aktie-paa-himmelflugt-_-kampen-om-gamestop_273533",
+  "watchPath": "/se/amok_aktie-paa-himmelflugt-_-kampen-om-gamestop_273533",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

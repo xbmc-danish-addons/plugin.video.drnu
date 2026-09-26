@@ -1,0 +1,490 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:f",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | F",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/f",
+  "items": [
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='7341'&Width=1920&Height=1080&ImageId='15636372'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='7341'&Width=2048&Height=2048&ImageId='6672830'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='7341'&Width=1920&Height=1080&ImageId='15636370'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='7341'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 3,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "7341"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "7341"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "F for Får",
+     "ExtraDetails": "Tegnefilm | 3 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 3 SÆSONER",
+     "PathIdSegment": "f-for-faar_7341",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:891422083000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "7341",
+    "type": "show",
+    "shortDescription": "Frode Får - og ikke bondemanden - styrer løjerne på bondegården i denne fine britiske stop-motion-serie. Og det er ikke helt nemt, for dyrene på gården er en broget flok!",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "F for Får",
+    "vodItemWatchPath": "",
+    "path": "/serie/f-for-faar_7341"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='149617'&Width=1920&Height=1080&ImageId='4255234'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='149617'&Width=1920&Height=1080&ImageId='4255230'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='149617'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "149617"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "149617"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Fanny Tingfinder",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "fanny-tingfinder_149617",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1911087731000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "149617",
+    "type": "show",
+    "shortDescription": "Finsk serie om pigen Fanny, som heldigvis altid er rigtig heldig og finder lige nøjagtigt det, hun har brug for.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Fanny Tingfinder",
+    "vodItemWatchPath": "",
+    "path": "/serie/fanny-tingfinder_149617"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='122550'&Width=1920&Height=1080&ImageId='4245169'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='122550'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='122550'&Width=1920&Height=1080&ImageId='4245185'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "122550"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "122550"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Far, Mor og Bjørn",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "far-mor-og-bjoern_122550",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1810398372000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "122550",
+    "type": "show",
+    "shortDescription": "Anders Lund Madsen og Signe Lindkvist har købt et hus, hvor det viser sig at bamsen Bruno allerede bor. En serie af Wikke & Rasmussen.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Far, Mor og Bjørn",
+    "vodItemWatchPath": "",
+    "path": "/serie/far-mor-og-bjoern_122550"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='343701'&Width=1920&Height=1080&ImageId='50177663'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='343701'&Width=1920&Height=1080&ImageId='50177665'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='343701'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "343701"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "343701"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Femlingerne",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "femlingerne_343701",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3440533114000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "343701",
+    "type": "show",
+    "shortDescription": "Allan, Allan, Allan, Allan og Allan er fem komplet identiske og lige vanvittige brødre, som bruger det meste af deres tid på at skabe mest muligt kaos på villavejen Düsseldorf allé. Men når skoleinspektøren Conny Lauridsen, som den absolut sidste mulighed",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Femlingerne",
+    "vodItemWatchPath": "",
+    "path": "/serie/femlingerne_343701"
+   },
+   {
+    "images": {
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6614'&Width=1440&Height=2160&ImageId='16099618'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6614'&Width=1920&Height=1080&ImageId='4376594'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6614'&Width=1920&Height=1080&ImageId='4376602'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6614"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6614"
+    ],
+    "categories": [
+     "fakta",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fakta,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Fakta",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Flaskepost fra Stillehavet",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "flaskepost-fra-stillehavet_6614",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1771571650000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6614",
+    "type": "show",
+    "shortDescription": "Ivi rejser med sin familie til den lille ø Tikopia i Stillehavet i denne norske dokumentarserie. Livet på tropeøen er meget anderledes end i Norge, og hver dag byder på nye udfordringer - og eventyr.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Flaskepost fra Stillehavet",
+    "vodItemWatchPath": "",
+    "path": "/serie/flaskepost-fra-stillehavet_6614"
+   },
+   {
+    "images": {
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425272'&Width=1440&Height=2160&ImageId='50611246'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425272'&Width=1920&Height=1080&ImageId='50611066'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425272'&Width=2048&Height=2048&ImageId='50847345'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425272'&Width=1920&Height=1080&ImageId='50611060'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "425272"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "425272"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Fluernes Herman",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "fluernes-herman_425272",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2349559764000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "425272",
+    "type": "show",
+    "shortDescription": "Der findes ikke et problem, som Herman ikke kan forkludre. Han og vennerne - og hans brogede og besværlige insektfamilie - er skabt af det prisbelønnede Aardman-studie, kendt for Walter og Trofast og F for Får.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Fluernes Herman",
+    "vodItemWatchPath": "",
+    "path": "/serie/fluernes-herman_425272"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438476'&Width=1920&Height=1080&ImageId='51493048'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438476'&Width=1440&Height=2160&ImageId='51493050'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438476'&Width=1920&Height=1080&ImageId='51493052'"
+    },
+    "duration": 5256,
+    "releaseYear": 2021,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "438476"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "438476"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "438476"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Forsvundet til Halloween",
+     "ExtraDetails": "Film | 1T 28M",
+     "TitleExtraDetails": "DR Ramasjang | 1T 28M",
+     "PathIdSegment": "forsvundet-til-halloween_438476",
+     "BroadcastTimeDK": "2024-03-01T20:00:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852109500",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "438476",
+    "type": "program",
+    "shortDescription": "Søskendeparret Asger og Petra skal traditionen tro holde halloween sammen med deres nabo Esther. Men dette år er alting anderledes, end det plejer. Asger og Petra har for nyligt mistet deres far, og det er nu første halloween uden ham. Udløber: 30. mar 20",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Forsvundet til Halloween",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/forsvundet-til-halloween_438476",
+    "watchPath": "/se/forsvundet-til-halloween_438476"
+   }
+  ],
+  "size": 7,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

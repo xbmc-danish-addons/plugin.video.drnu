@@ -1,0 +1,93 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:w",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show"
+  ],
+  "description": "",
+  "title": "Ramasjang | W",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/w",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442999'&Width=1920&Height=1080&ImageId='51790696'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442999'&Width=1000&Height=1426&ImageId='51790700'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442999'&Width=1920&Height=1080&ImageId='51951247'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "442999"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "442999"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Walter og Trofast",
+     "ExtraDetails": "Film | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "walter-og-trofast_442999",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1903233354000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "442999",
+    "type": "show",
+    "shortDescription": "Makkerparret Walther og hans trofaste hund Trofast oplever store og små eventyr i deres jagt på en hyggelig tilværelse - og god ost til kiksene. Oscar-belønnet filmserie af den engelske animator Nick Park.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Walter og Trofast",
+    "vodItemWatchPath": "",
+    "path": "/serie/walter-og-trofast_442999"
+   }
+  ],
+  "size": 1,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

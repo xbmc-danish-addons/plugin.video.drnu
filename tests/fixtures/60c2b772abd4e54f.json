@@ -1,0 +1,1632 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:s",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | S",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/s",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18855'&Width=1920&Height=1080&ImageId='4376582'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18855'&Width=1920&Height=1080&ImageId='4376590'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='18855'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "18855"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "18855"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang",
+     "ramasjang ø",
+     "serie"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Cirkus",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-cirkus_18855",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1901113377000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "18855",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Cirkus Summarum'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Cirkus",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-cirkus_18855"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391292'&Width=1920&Height=1080&ImageId='46966708'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391292'&Width=1920&Height=1080&ImageId='46966710'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='391292'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "391292"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "391292"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Elefantvask",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-elefantvask_391292",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4655671735000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "391292",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Elefantvask'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Elefantvask",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-elefantvask_391292"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='170694'&Width=1920&Height=1080&ImageId='4418437'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='170694'&Width=1920&Height=1080&ImageId='4418444'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='170694'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "170694"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "170694"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Gry og Regnbueriget",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-gry-og-regnbueriget_170694",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2669065143000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "170694",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Gry og Regnbueriget'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Gry og Regnbueriget",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-gry-og-regnbueriget_170694"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='96262'&Width=1920&Height=1080&ImageId='4298139'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='96262'&Width=1920&Height=1080&ImageId='4298143'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='96262'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='96262'&Width=2048&Height=2048&ImageId='14570863'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "96262"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "96262"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Luk op Luk i",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-luk-op-luk-i_96262",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2255450466000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "96262",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Luk op Luk i'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Luk op Luk i",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-luk-op-luk-i_96262"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='279631'&Width=1920&Height=1080&ImageId='14303909'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='279631'&Width=1920&Height=1080&ImageId='14303911'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='279631'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='279631'&Width=2048&Height=2048&ImageId='14570878'"
+    },
+    "availableSeasonCount": 6,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "279631"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "279631"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Mini MGP",
+     "ExtraDetails": "Musik | 6 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 6 SÆSONER",
+     "PathIdSegment": "sange-fra-mini-mgp_279631",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3208533555000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "279631",
+    "type": "show",
+    "shortDescription": "Her kan du se sangene fra Mini MGP.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Mini MGP",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-mini-mgp_279631"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='331701'&Width=1920&Height=1080&ImageId='41353502'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='331701'&Width=1920&Height=1080&ImageId='41353504'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='331701'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='331701'&Width=2048&Height=2048&ImageId='45252518'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "331701"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "331701"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Mission Valhalla",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-mission-valhalla_331701",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3787771177000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "331701",
+    "type": "show",
+    "shortDescription": "Alle sangene om de nordiske guder fra serien Mission Valhalla. Med Onkel Reje, Motor Mille, Silja og Hr. Skæg.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Mission Valhalla",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-mission-valhalla_331701"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='217591'&Width=1920&Height=1080&ImageId='5905027'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='217591'&Width=1920&Height=1080&ImageId='5905029'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='217591'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "217591"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "217591"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Nataben & Møgdyret",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-nataben-and-moegdyret_217591",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2892911349000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "217591",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Nataben & Møgdyret'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Nataben & Møgdyret",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-nataben-and-moegdyret_217591"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6556'&Width=1920&Height=1080&ImageId='4245252'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6556'&Width=1920&Height=1080&ImageId='4245265'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6556'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6556'&Width=2048&Height=2048&ImageId='14570853'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6556"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6556"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Ramasjang Mysteriet",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-ramasjang-mysteriet_6556",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1725790267000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6556",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Ramasjang Mysteriet'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Ramasjang Mysteriet",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-ramasjang-mysteriet_6556"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='284694'&Width=1920&Height=1080&ImageId='17382188'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='284694'&Width=1920&Height=1080&ImageId='17382190'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='284694'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "284694"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "284694"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Ramasjang Redder Verden",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-ramasjang-redder-verden_284694",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3047514462000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "284694",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Ramasjang Redder Verden'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Ramasjang Redder Verden",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-ramasjang-redder-verden_284694"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249919'&Width=1920&Height=1080&ImageId='10748342'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249919'&Width=1920&Height=1080&ImageId='10748344'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='249919'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "249919"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "249919"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange fra Vennerne og det grønne lys",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-fra-vennerne-og-det-groenne-lys_249919",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3066173975000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "249919",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Vennerne og det grønne lys'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange fra Vennerne og det grønne lys",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-fra-vennerne-og-det-groenne-lys_249919"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='186288'&Width=1920&Height=1080&ImageId='48676678'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='186288'&Width=1920&Height=1080&ImageId='48676680'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='186288'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='186288'&Width=2048&Height=2048&ImageId='14570855'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "186288"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "186288"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Bamselægen",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-med-bamselaegen_186288",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2486156841000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "186288",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Bamselægen'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Bamselægen",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-bamselaegen_186288"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='35502'&Width=1920&Height=1080&ImageId='4377266'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='35502'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='35502'&Width=1920&Height=1080&ImageId='4377284'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "35502"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "35502"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Det Kongelige Spektakel",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-med-det-kongelige-spektakel_35502",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1976547670000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "35502",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Det Kongelige Spektakel'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Det Kongelige Spektakel",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-det-kongelige-spektakel_35502"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='341620'&Width=1920&Height=1080&ImageId='42497309'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='341620'&Width=1920&Height=1080&ImageId='42497311'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='341620'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='341620'&Width=2048&Height=2048&ImageId='45252320'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "341620"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "341620"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Heksebeth",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-med-heksebeth_341620",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3930724305000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "341620",
+    "type": "show",
+    "shortDescription": "Sangene fra serien om Heksebeth, der bor i Ramasjang skoven sammen med sin trofaste ven Grishjørning.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Heksebeth",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-heksebeth_341620"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6519'&Width=1920&Height=1080&ImageId='4245149'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6519'&Width=1920&Height=1080&ImageId='4245133'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6519'&Width=2048&Height=2048&ImageId='14570874'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6519'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 4,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6519"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6519"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Hr. Skæg",
+     "ExtraDetails": "Musik | 4 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 4 SÆSONER",
+     "PathIdSegment": "sange-med-hr-skaeg_6519",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1390963071000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6519",
+    "type": "show",
+    "shortDescription": "Syng sammen med Hr. Skæg.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Hr. Skæg",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-hr-skaeg_6519"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6853'&Width=1920&Height=1080&ImageId='4375356'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6853'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6853'&Width=1920&Height=1080&ImageId='4375382'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6853"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6853"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Lille Nørd",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-med-lille-noerd_6853",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1834617542000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6853",
+    "type": "show",
+    "shortDescription": "Syng med på sangene fra 'Lille Nørd'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Lille Nørd",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-lille-noerd_6853"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6544'&Width=1920&Height=1080&ImageId='4376293'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6544'&Width=1920&Height=1080&ImageId='4376283'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6544'&Width=2048&Height=2048&ImageId='14570858'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6544'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6544"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6544"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Motor Mille",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-med-motor-mille_6544",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1725787549000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6544",
+    "type": "show",
+    "shortDescription": "Syng sammen med Motor Mille.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Motor Mille",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-motor-mille_6544"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6529'&Width=1920&Height=1080&ImageId='4377050'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6529'&Width=1920&Height=1080&ImageId='4377058'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6529'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6529'&Width=2048&Height=2048&ImageId='14570850'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6529"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6529"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Onkel Reje",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-med-onkel-reje_6529",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1725787542000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6529",
+    "type": "show",
+    "shortDescription": "Syng sammen med Onkel Reje.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Onkel Reje",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-onkel-reje_6529"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6631'&Width=1920&Height=1080&ImageId='4375574'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6631'&Width=1920&Height=1080&ImageId='4375584'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6631'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6631"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6631"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Ramajetterne",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-med-ramajetterne_6631",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1776305673000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6631",
+    "type": "show",
+    "shortDescription": "Syng sammen med Ramajetterne.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Ramajetterne",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-ramajetterne_6631"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6636'&Width=1920&Height=1080&ImageId='4244962'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6636'&Width=1920&Height=1080&ImageId='4244981'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6636'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6636'&Width=2048&Height=2048&ImageId='14570865'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6636"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6636"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Sange med Rosa",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "sange-med-rosa_6636",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1823482896000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6636",
+    "type": "show",
+    "shortDescription": "Syng sammen med Rosa.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sange med Rosa",
+    "vodItemWatchPath": "",
+    "path": "/serie/sange-med-rosa_6636"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249925'&Width=1920&Height=1080&ImageId='10746549'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249925'&Width=1920&Height=1080&ImageId='10746552'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='249925'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 150,
+    "releaseYear": 2018,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "249925"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "249925"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "249925"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "IKKE PLACERBART PÅ VERDENSDELE",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Sangen om Isabel og den skjulte skat",
+     "ExtraDetails": "Musik | 3M",
+     "TitleExtraDetails": "DR Ramasjang | 3M",
+     "PathIdSegment": "sangen-om-isabel-og-den-skjulte-skat_249925",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00951895090",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "249925",
+    "type": "program",
+    "shortDescription": "Udløber: 1. jun 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sangen om Isabel og den skjulte skat",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-isabel-og-den-skjulte-skat_249925",
+    "watchPath": "/se/sangen-om-isabel-og-den-skjulte-skat_249925"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249923'&Width=1920&Height=1080&ImageId='10746530'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249923'&Width=1920&Height=1080&ImageId='10746533'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='249923'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 164,
+    "releaseYear": 0,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "249923"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "249923"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "249923"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Sangen om Kanonkongen Freja",
+     "ExtraDetails": "Musik | 3M",
+     "TitleExtraDetails": "DR Ramasjang | 3M",
+     "PathIdSegment": "sangen-om-kanonkongen-freja_249923",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00921717310",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "249923",
+    "type": "program",
+    "shortDescription": "Udløber: 1. jun 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sangen om Kanonkongen Freja",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-kanonkongen-freja_249923",
+    "watchPath": "/se/sangen-om-kanonkongen-freja_249923"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='186291'&Width=1920&Height=1080&ImageId='4283896'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='186291'&Width=1920&Height=1080&ImageId='4283898'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='186291'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 83,
+    "releaseYear": 2019,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "186291"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "186291"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "186291"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-EXCEPT",
+     "PageTitle": "Sangen om Oda Omvendt",
+     "ExtraDetails": "Musik | 1M",
+     "TitleExtraDetails": "DR Ramasjang | 1M",
+     "PathIdSegment": "sangen-om-oda-omvendt_186291",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00921910860",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "186291",
+    "type": "program",
+    "shortDescription": "Udløber: 1. jun 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sangen om Oda Omvendt",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-oda-omvendt_186291",
+    "watchPath": "/se/sangen-om-oda-omvendt_186291"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249922'&Width=1920&Height=1080&ImageId='10746519'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249922'&Width=1920&Height=1080&ImageId='10746521'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='249922'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 159,
+    "releaseYear": 0,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "249922"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "249922"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "249922"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Sangen om Ramasjang Rally",
+     "ExtraDetails": "Musik | 3M",
+     "TitleExtraDetails": "DR Ramasjang | 3M",
+     "PathIdSegment": "sangen-om-ramasjang-rally_249922",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00921717620",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "249922",
+    "type": "program",
+    "shortDescription": "Udløber: 1. jun 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sangen om Ramasjang Rally",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-ramasjang-rally_249922",
+    "watchPath": "/se/sangen-om-ramasjang-rally_249922"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249918'&Width=1920&Height=1080&ImageId='10746218'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='249918'&Width=1920&Height=1080&ImageId='10746222'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='249918'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 102,
+    "releaseYear": 0,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "249918"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "249918"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "249918"
+    ],
+    "categories": [
+     "musik",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Musik",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Sangen om Sofus",
+     "ExtraDetails": "Musik | 2M",
+     "TitleExtraDetails": "DR Ramasjang | 2M",
+     "PathIdSegment": "sangen-om-sofus_249918",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00921718220",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "249918",
+    "type": "program",
+    "shortDescription": "Udløber: 1. jun 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Sangen om Sofus",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-sofus_249918",
+    "watchPath": "/se/sangen-om-sofus_249918"
+   }
+  ],
+  "size": 60,
+  "paging": {
+   "total": 3,
+   "page": 1,
+   "size": 24,
+   "next": "/lists/78113?page_size=24&page=2&param=TitleGroupKey%3As&lang=da&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

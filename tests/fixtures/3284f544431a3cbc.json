@@ -1,0 +1,111 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422579'&Width=1920&Height=1080&ImageId='50837509'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422579'&Width=1920&Height=1080&ImageId='50837511'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='422579'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3510,
+  "releaseYear": 2024,
+  "episodeNumber": 7,
+  "episodeName": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
+  "seasonId": "422575",
+  "showId": "7379",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-02-07T22:59:00Z",
+    "scopes": [
+     "422579"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-02-07T22:59:00Z",
+    "scopes": [
+     "422579"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EFDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "422579",
+   "422575"
+  ],
+  "categories": [
+   "livsstil",
+   "underholdning",
+   "hus og have",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Underholdning,Hus og have,DR1",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Livsstil,Underholdning,Hus og have",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PlayButtonExtraDetails": "S12:E7 Spøgelseshus nær tyren Svend Otto",
+   "ContextualTitleExtraDetails": "27. DEC 2023 | 59M",
+   "AvailableFrom": "2023-12-27T05:00:00.0000000Z",
+   "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "I hus til halsen: Sæson 12 – Spøgelseshus nær tyren Svend Otto",
+   "ExtraDetails": "SÆSON 12 EPISODE 7 | 59M",
+   "PathIdSegment": "i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579",
+   "ShortVideoUrl": "https://drod21s.akamaized.net/all/clear/none/62/65bb54757b41464764a1cf62/65bb5474ced5da1b405eb6b0/stream_fmp4/master_manifest.m3u8",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922401070",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "422579",
+  "type": "episode",
+  "description": "Om to måneder slipper pengene op for Jørgen og Susanne. Så går de 5.000 kr. i minus hver måned, hvis ikke huset bliver solgt.   \nMen landsbyen passer på sine børn, så alle der kan kravle og gå tropper op for at hjælpe. Designer Kalle Thesbjerg har en vild plan og bygger sofa et mystisk sted, ejendomsmægler Line Franck besøger slægtsgården, og tømrer Dennis Lindeqiust viser, hvordan man fikser et badeværelse for meget få penge. Udløber: 7. feb 2026",
+  "shortDescription": "Om to måneder slipper pengene op for Jørgen og Susanne. Så går de 5.000 kr. i minus hver måned, hvis ikke huset bliver solgt.   \nMen landsbyen passer på sine børn, så alle der kan kravle og gå tropper op for at hjælpe. Designer Kalle Thesbjerg har en vild",
+  "contextualTitle": "7. Spøgelseshus nær tyren Svend Otto",
+  "sports": [],
+  "tagline": "En hel landsby hjælper Jørgen og Susanne, så huset kan sælges",
+  "themes": [],
+  "title": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579",
+  "watchPath": "/se/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

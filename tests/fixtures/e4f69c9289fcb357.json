@@ -1,0 +1,88 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442944'&Width=1920&Height=1080&ImageId='51790108'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442944'&Width=1920&Height=1080&ImageId='51790112'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442944'&Width=1440&Height=2160&ImageId='51790110'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5453,
+  "releaseYear": 2019,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "442944"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ERCAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T19:00:32Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442944"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Mysteriet om Hr Link",
+   "ExtraDetails": "Film | 1T 31M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 31M",
+   "PathIdSegment": "mysteriet-om-hr-link_442944",
+   "BroadcastTimeDK": "2024-03-22T20:00:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00022330150",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442944",
+  "type": "program",
+  "description": "Den charmerende hr. Link leder efter sine fætre i den myteomspundne dal Shangri-La sammen med Lionel Frost, verdens bedste opdager af mytologiske væsener. Sammen med den talentfulde eventyrerske Adelina Fortnight tager de ud på en rejse Jorden rundt. Udløber: 20. apr 2024",
+  "shortDescription": "Den charmerende hr. Link leder efter sine fætre i den myteomspundne dal Shangri-La sammen med Lionel Frost, verdens bedste opdager af mytologiske væsener. Sammen med den talentfulde eventyrerske Adelina Fortnight tager de ud på en rejse Jorden rundt. Udlø",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Mysteriet om Hr Link",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/mysteriet-om-hr-link_442944",
+  "watchPath": "/se/mysteriet-om-hr-link_442944",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

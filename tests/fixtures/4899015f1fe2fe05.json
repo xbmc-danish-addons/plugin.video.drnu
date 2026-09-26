@@ -1,0 +1,89 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426234'&Width=1920&Height=1080&ImageId='50860688'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='426234'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426234'&Width=1920&Height=1080&ImageId='51050590'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "releaseYear": 2023,
+  "availableEpisodeCount": 6,
+  "seasonNumber": 5,
+  "showId": "261000",
+  "episodeCount": 6,
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2027-12-31T22:59:00Z",
+    "scopes": [
+     "426234"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EGD",
+    "name": "D430_Season Free HD-1080 Season Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-31T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "426234"
+  ],
+  "categories": [
+   "livsstil",
+   "kultur",
+   "underholdning",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Kultur,Underholdning,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Livsstil,Kultur,Underholdning",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "IsGeoRestricted": "False",
+   "PresentationTypeCode": "Ongoing",
+   "IsSeasonDRMPlayoutRequired": "False",
+   "PageTitle": "Danmarks bedste portrætmaler: Sæson 5",
+   "ExtraDetails": "Livsstil | SÆSON 5",
+   "ShortVideoUrl": "https://drod22r.akamaized.net/all/clear/none/fd/658de4ac4262312cf412bafd/658de4aa52b17d0dcc44f74f/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "danmarks-bedste-portraetmaler_426234",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:season:4672985184000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "426234",
+  "type": "season",
+  "description": "Igennem seks programmer skal otte talentfulde kunstnere dyste om at blive Danmarks bedste portrætmaler. Tre erfarne dommere vælger hver uge hvem, der har malet 'Dagens bedste portræt', og hvem, der skal forlade konkurrencen - for kun tre går hele vejen til finalen.",
+  "shortDescription": "Igennem seks programmer skal otte talentfulde kunstnere dyste om at blive Danmarks bedste portrætmaler. Tre erfarne dommere vælger hver uge hvem, der har malet 'Dagens bedste portræt', og hvem, der skal forlade konkurrencen - for kun tre går hele vejen ti",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Otte nye talentfulde kunstnere skal male kendte danskere",
+  "themes": [],
+  "title": "Danmarks bedste portrætmaler",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/saeson/danmarks-bedste-portraetmaler_426234",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

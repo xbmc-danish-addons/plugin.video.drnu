@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='346244'&Width=1920&Height=1080&ImageId='42757041'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='346244'&Width=1920&Height=1080&ImageId='42757039'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='346244'&Width=2048&Height=2048&ImageId='42911680'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='346244'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2028-02-28T22:59:00Z",
+    "scopes": [
+     "346244"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-11-01T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "346244"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Bedst & Bedster",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "bedst-and-bedster_346244",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2997610730000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "346244",
+  "type": "show",
+  "description": "Er du klar til at møde Bedst og Bedster? De er tvillinger i en vanvittig verden - og de har en vild evne til at omforme sig til hvad som helst og forhåbentlig lige det, situationen kræver. Problemet er bare, at de sjældent finder den rette form, og det giver bøvl.\nFinsk-engelsk-canadisk tegnefilmserie.",
+  "shortDescription": "Er du klar til at møde Bedst og Bedster? De er tvillinger i en vanvittig verden - og de har en vild evne til at omforme sig til hvad som helst og forhåbentlig lige det, situationen kræver. Problemet er bare, at de sjældent finder den rette form, og det gi",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Bedst & Bedster",
+  "vodItemWatchPath": "",
+  "path": "/serie/bedst-and-bedster_346244",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

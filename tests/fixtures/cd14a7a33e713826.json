@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441497'&Width=1920&Height=1080&ImageId='52010808'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441497'&Width=1920&Height=1080&ImageId='52010810'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441497'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1586,
+  "releaseYear": 1994,
+  "episodeNumber": 3,
+  "episodeName": "Hvor kommer tingene fra: Tyrkisk peber",
+  "seasonId": "441496",
+  "showId": "441495",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "441497"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "441497"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "441497",
+   "441496"
+  ],
+  "categories": [
+   "videnskab og teknologi",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Videnskab og teknologi,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S1:E3 Tyrkisk peber",
+   "ContextualTitleExtraDetails": "22. NOV 1994 | 26M",
+   "AvailableFrom": "1994-11-22T05:00:00.0000000Z",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Hvor kommer tingene fra: Sæson 1 – Tyrkisk peber",
+   "ExtraDetails": "SÆSON 1 EPISODE 3 | 26M",
+   "PathIdSegment": "hvor-kommer-tingene-fra_-tyrkisk-peber_441497",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00801762300",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "441497",
+  "type": "episode",
+  "description": "Dansk børneserie fra 1994. I denne udsendelse skal du se, hvordan man laver noget, der er hårdt og blødt, sejt og sprødt - og stærkt og sødt. Nemlig bolsjet, der hedder Tyrkisk peber. Og bagefter fortæller Lasse historien om 'Konen i muddergrøften'.\nMedvirkende: Lasse Lunderskov Udløber: 27. sep 2025",
+  "shortDescription": "Dansk børneserie fra 1994. I denne udsendelse skal du se, hvordan man laver noget, der er hårdt og blødt, sejt og sprødt - og stærkt og sødt. Nemlig bolsjet, der hedder Tyrkisk peber. Og bagefter fortæller Lasse historien om 'Konen i muddergrøften'.\nMedvi",
+  "contextualTitle": "3. Tyrkisk peber",
+  "sports": [],
+  "themes": [],
+  "title": "Hvor kommer tingene fra: Tyrkisk peber",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/hvor-kommer-tingene-fra_-tyrkisk-peber_441497",
+  "watchPath": "/se/hvor-kommer-tingene-fra_-tyrkisk-peber_441497",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438886'&Width=1920&Height=1080&ImageId='51865628'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438886'&Width=1440&Height=2160&ImageId='51865623'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438886'&Width=1920&Height=1080&ImageId='51865625'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 10006,
+  "releaseYear": 1999,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438886"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438886"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438886"
+  ],
+  "categories": [
+   "kultur",
+   "underholdning",
+   "musik",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Underholdning,Musik,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Kultur,Underholdning,Musik,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-NOT-RATED",
+   "PageTitle": "Mindekoncert - 100-årsdagen for kong Frederik 9.'s fødsel",
+   "ExtraDetails": "Kultur | 2T 47M",
+   "TitleExtraDetails": "DR Gensyn | 2T 47M",
+   "PathIdSegment": "mindekoncert-_-100_aarsdagen-for-kong-frederik-9s-foedsel_438886",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00591056000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438886",
+  "type": "program",
+  "description": "Dansk koncertoptagelse fra 1999. Mindekoncert fra Det Kgl. Teater i anledning af kong Frederik 9.'s 100-årsdag - tilrettelagt af Det Kgl. Kapel og Radiosymfoniorkestret i tæt samarbejde med dronning Ingrid og dronning Margrethe. På programmet står værker af bl.a. Sibelius, Wagner og Beethoven med solisterne Nikolaj Znaider, Inga Nielsen, Tina Kiberg og Lisbeth Balslev. Gallaforestillingens dirigent er Gerd Albrecht, mens Aage Haugland er konferencier. I pausen vises et uddrag af tv-serien 'Frederik - Konge til alle tider'. Udløber: 13. sep 2025",
+  "shortDescription": "Dansk koncertoptagelse fra 1999. Mindekoncert fra Det Kgl. Teater i anledning af kong Frederik 9.'s 100-årsdag - tilrettelagt af Det Kgl. Kapel og Radiosymfoniorkestret i tæt samarbejde med dronning Ingrid og dronning Margrethe. På programmet står værker ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Mindekoncert - 100-årsdagen for kong Frederik 9.'s fødsel",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/mindekoncert-_-100_aarsdagen-for-kong-frederik-9s-foedsel_438886",
+  "watchPath": "/se/mindekoncert-_-100_aarsdagen-for-kong-frederik-9s-foedsel_438886",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

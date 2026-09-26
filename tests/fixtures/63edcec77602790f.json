@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427116'&Width=1920&Height=1080&ImageId='50738170'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427116'&Width=1920&Height=1080&ImageId='50738172'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427116'&Width=1440&Height=2160&ImageId='50738176'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3511,
+  "releaseYear": 2023,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2028-12-13T22:59:00Z",
+    "scopes": [
+     "427116"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2028-12-13T22:59:00Z",
+    "scopes": [
+     "427116"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ERGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "427116"
+  ],
+  "categories": [
+   "dokumentar",
+   "p3",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,P3,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Albert mod stjernerne",
+   "ExtraDetails": "Dokumentar | 59M",
+   "TitleExtraDetails": "P3 | 59M",
+   "ShortVideoUrl": "https://drod21q.akamaized.net/all/clear/none/5c/6577f7672d026f3cb0b75a5c/6577f76524921515d86cf227/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "albert-mod-stjernerne_427116",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922316510",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "427116",
+  "type": "program",
+  "description": "Dansk portræt-dokumentar fra 2023.\nYouTuberen Albert Dyrlund døde som 22-årig i en tragisk ulykke på et bjerg i Italien.\nNu står forældrene, kæresten, YouTube-stjernerne Morten Münster, Rasmus Brohave, Julia Sofia, Eiqu Miller for første gang frem og fortæller Alberts historie. \nMed hidtil usete videoer kommer vi helt tæt på Alberts ustoppelige stræben efter succes og hans pludselige død. \nYouTube-vennerne fortæller om, hvordan det var at blive stjerner som helt unge. Novopleco-makkeren Anton Cornelius beretter om et konfliktfyldt forhold til Albert, dengang de var børnestjerner. Ingen kunne stoppe Albert, og i sin karriere opnåede han at få hits på Spotify, vinde en Robert for filmen Team Albert, at chokere med et mediestunt, hvor han foregav at være blevet vanvittig, og tage til Hollywood og få opmærksomhed fra YouTube-stjerner som KSI. \nAlberts kæreste Maria fortæller om deres stormende forelskelse. Og de to venner, der var med i Dolomitterne da han døde, beretter om det skæbnesvangre døgn i Italien. Udløber: 13. dec 2028",
+  "shortDescription": "Dansk portræt-dokumentar fra 2023.\nYouTuberen Albert Dyrlund døde som 22-årig i en tragisk ulykke på et bjerg i Italien.\nNu står forældrene, kæresten, YouTube-stjernerne Morten Münster, Rasmus Brohave, Julia Sofia, Eiqu Miller for første gang frem og fort",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Portræt af youtuberen Albert Dyrlund, der døde alt for ung",
+  "themes": [],
+  "title": "Albert mod stjernerne",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/albert-mod-stjernerne_427116",
+  "watchPath": "/se/albert-mod-stjernerne_427116",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

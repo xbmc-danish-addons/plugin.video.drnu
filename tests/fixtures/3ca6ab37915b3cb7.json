@@ -1,0 +1,85 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='188878'&Width=1920&Height=1080&ImageId='3426974'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='188878'&Width=1920&Height=1080&ImageId='48477235'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='188878'&Width=1440&Height=2160&ImageId='16099618'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='188878'&Width=2048&Height=2048&ImageId='6669490'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-03-20T22:59:00Z",
+    "scopes": [
+     "188878"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-12T07:56:31Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "188878"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Gigantosaurus",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "gigantosaurus_188878",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2648185885000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "188878",
+  "type": "show",
+  "description": "I denne franske animationsserie prøver fire unge dinosaurvenner at blive klogere på deres verden og løse forskellige udfordringer ved hjælp af samarbejde og snilde. Men de skal passe på de listige raptorer, der vil forpurre deres planer - og så har Gigantosaurus det også med at dukke op!",
+  "shortDescription": "I denne franske animationsserie prøver fire unge dinosaurvenner at blive klogere på deres verden og løse forskellige udfordringer ved hjælp af samarbejde og snilde. Men de skal passe på de listige raptorer, der vil forpurre deres planer - og så har Gigant",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Gigantosaurus",
+  "vodItemWatchPath": "",
+  "path": "/serie/gigantosaurus_188878",
+  "genrePaths": [],
+  "totalUserRatings": 0,
+  "nextEpisode": {
+   "available": "12. FEB 2024 | 9:04",
+   "availableUTC": "1707725045"
+  }
+ }
+}

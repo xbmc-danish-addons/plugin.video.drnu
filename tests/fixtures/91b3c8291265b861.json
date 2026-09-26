@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441995'&Width=1920&Height=1080&ImageId='52084270'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441995'&Width=1920&Height=1080&ImageId='52084274'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441995'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 785,
+  "releaseYear": 1994,
+  "episodeNumber": 8,
+  "episodeName": "Troldspejlet: ComputerXtra",
+  "seasonId": "441994",
+  "showId": "441991",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "441995"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "441995"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "441995",
+   "441994"
+  ],
+  "categories": [
+   "videnskab og teknologi",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Videnskab og teknologi,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PlayButtonExtraDetails": "S1994:E8 ComputerXtra",
+   "ContextualTitleExtraDetails": "14. MAJ 1994 | 13M",
+   "AvailableFrom": "1994-05-14T04:00:00.0000000Z",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Troldspejlet: Sæson 1994 – ComputerXtra",
+   "ExtraDetails": "SÆSON 1994 EPISODE 8 | 13M",
+   "PathIdSegment": "troldspejlet_-computerxtra_441995",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00801793610",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "441995",
+  "type": "episode",
+  "description": "Dansk kulturprogram fra 1994. I ComputerXtra kigger Troldspejlet lidt nærmere på nye programmer, computerspil og andet godt til computeren. Folkene bag 'Wolfenstein' har lanceret en slags efterfølger, der hedder 'Doom'. Få tips og tricks til computerspillet og tag et kig på det lidt gammeldags 'Breakline' og flipperspillet 'Epic Pinball'. I sidste halvdel forklarer Jakob Stegelmann om teknikker indenfor animationer og fortæller, hvad forskellige computerprogrammer kan præstere.\nVært: Jakob Stegelmann. Udløber: 27. mar 2026",
+  "shortDescription": "Dansk kulturprogram fra 1994. I ComputerXtra kigger Troldspejlet lidt nærmere på nye programmer, computerspil og andet godt til computeren. Folkene bag 'Wolfenstein' har lanceret en slags efterfølger, der hedder 'Doom'. Få tips og tricks til computerspill",
+  "contextualTitle": "8. ComputerXtra",
+  "sports": [],
+  "themes": [],
+  "title": "Troldspejlet: ComputerXtra",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/troldspejlet_-computerxtra_441995",
+  "watchPath": "/se/troldspejlet_-computerxtra_441995",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

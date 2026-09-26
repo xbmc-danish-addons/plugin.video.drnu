@@ -1,0 +1,302 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:e",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | E",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/e",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390674'&Width=1920&Height=1080&ImageId='46953320'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='390674'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390674'&Width=1920&Height=1080&ImageId='46953322'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "390674"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "390674"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Elefantvask",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "elefantvask_390674",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4643624189000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "390674",
+    "type": "show",
+    "shortDescription": "Rebecca og Johanne mødes hver dag i Ramasjangs eget vaskeri, der hedder 'Elefantvask'. Her klarer de dagens vasketøj med masser af sang og fantasi.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Elefantvask",
+    "vodItemWatchPath": "",
+    "path": "/serie/elefantvask_390674"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427618'&Width=1920&Height=1080&ImageId='50776842'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427618'&Width=1920&Height=1080&ImageId='50776840'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427618'&Width=1440&Height=2160&ImageId='50776844'"
+    },
+    "duration": 4581,
+    "releaseYear": 2019,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "427618"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "427618"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "427618"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "NORGE",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Ellevilde Ella",
+     "ExtraDetails": "Film | 1T 16M",
+     "TitleExtraDetails": "DR Ramasjang | 1T 16M",
+     "ShortVideoUrl": "https://drod20b.akamaized.net/all/clear/none/cd/6146f931a95a61102cbce0cd/6146f929e80194121461a6c4/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "ellevilde-ella_427618",
+     "BroadcastTimeDK": "2024-01-13T07:30:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852009460",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "427618",
+    "type": "program",
+    "shortDescription": "Animationsfilm fra 2020.\nElla er vild med cirkus, men endnu mere vild med sin bedste ven Mikkel, som hun vil have helt for sig selv. Da der kommer en ny dreng i kvarteret, bliver Ella jaloux og står over for en stor udfordring. Morsom familiefilm fuld af ",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Ugens film",
+    "themes": [],
+    "title": "Ellevilde Ella",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/ellevilde-ella_427618",
+    "watchPath": "/se/ellevilde-ella_427618"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6663'&Width=1920&Height=1080&ImageId='4410772'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6663'&Width=1920&Height=1080&ImageId='4410783'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6663'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6663"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6663"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Elsa",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "elsa_6663",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1735671129000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6663",
+    "type": "show",
+    "shortDescription": "Norsk serie om Elsa, som er 5 år og familiens mindste. Det er fint, men nogen gange også lidt svært at være den mindste.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Elsa",
+    "vodItemWatchPath": "",
+    "path": "/serie/elsa_6663"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='40205'&Width=1920&Height=1080&ImageId='43929730'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='40205'&Width=1440&Height=2160&ImageId='43929735'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='40205'&Width=1920&Height=1080&ImageId='43929732'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='40205'&Width=2048&Height=2048&ImageId='43946931'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "40205"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "40205"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Ernest & Celestine",
+     "ExtraDetails": "Tegnefilm | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "PathIdSegment": "ernest-and-celestine_40205",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1882469333000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "40205",
+    "type": "show",
+    "shortDescription": "Smuk og poetisk fransk/belgisk tegnefilm om bjørnen Ernest og musen Celestine - to diamentrale modsætninger der alligevel er hinandens bedste venner.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Ernest & Celestine",
+    "vodItemWatchPath": "",
+    "path": "/serie/ernest-and-celestine_40205"
+   }
+  ],
+  "size": 4,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

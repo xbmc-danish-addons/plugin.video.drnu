@@ -1,0 +1,3537 @@
+{
+ "status": 200,
+ "json": {
+  "id": "432549",
+  "isStatic": false,
+  "isSystemPage": false,
+  "metadata": {
+   "description": "Din indgang til DR's TV-arkiv fra 90'erne. Du finder historiske programmer, serier og film fra et udvalg af DR's arkiv her. De bedste ting fortjener et Gensyn",
+   "keywords": []
+  },
+  "key": "",
+  "path": "/gensyn/1990erne",
+  "template": "Standard List",
+  "themes": [],
+  "title": "Gensyn: 1990'erne - Se programmer fra DR's arkiv her",
+  "entries": [
+   {
+    "id": "h4p8sg3",
+    "type": "ListEntry",
+    "template": "Continuous Scroll Automatic",
+    "title": "Gensyn: 1990'erne - Se programmer fra DR's arkiv her",
+    "list": {
+     "id": "432550",
+     "customFields": {
+      "PathIdSegment": "gensyn-_-1990erne-_-a-_-aa_432550"
+     },
+     "itemTypes": [
+      "season",
+      "program"
+     ],
+     "description": "Din indgang til DR's TV-arkiv fra 90'erne. Du finder historiske programmer, serier og film fra et udvalg af DR's arkiv her. De bedste ting fortjener et Gensyn",
+     "title": "Gensyn: 1990'erne - Se programmer fra DR's arkiv her",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/liste/gensyn-_-1990erne-_-a-_-aa_432550",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439756'&Width=1920&Height=1080&ImageId='51581079'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439756'&Width=1920&Height=1080&ImageId='51581081'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='439756'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1995,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "439755",
+       "episodeCount": 10,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "439756"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "439756"
+       ],
+       "categories": [
+        "livsstil",
+        "mad",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Mad,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Livsstil,Mad,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Boserups Kærlighed: Sæson 1",
+        "ExtraDetails": "Livsstil | SÆSON 1",
+        "PathIdSegment": "boserups-kaerlighed_439756",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751943296000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "439756",
+       "type": "season",
+       "shortDescription": "Dansk madserie fra 1995. Henrik Boserup er en af de nye unge kokke med rockstjerneattitude i starten af 90'erne. Underholdning, fart og skæve kameravinkler er en del af stilen i 'Boserups Kærlighed'.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Boserups Kærlighed",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/boserups-kaerlighed_439756"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='150213'&Width=1440&Height=2160&ImageId='51613195'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='150213'&Width=1920&Height=1080&ImageId='51613193'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='150213'&Width=1920&Height=1080&ImageId='51613197'"
+       },
+       "releaseYear": 1999,
+       "availableEpisodeCount": 67,
+       "seasonNumber": 1,
+       "showId": "150181",
+       "episodeCount": 67,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "150213"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "150213"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Casper & Mandrilaftalen: Sæson 1",
+        "ExtraDetails": "Underholdning | SÆSON 1",
+        "PathIdSegment": "casper-and-mandrilaftalen_150213",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751941603000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "150213",
+       "type": "season",
+       "shortDescription": "Løs i hovedet og fast i troen boltrer Casper Christensen sig i et bassin af komik og absurditeter i den gale sketchserie, som opnåede øjeblikkelig kultstatus, da den blev vist for første gang i 1999.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Casper & Mandrilaftalen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/casper-and-mandrilaftalen_150213"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443644'&Width=1440&Height=2160&ImageId='51879504'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443644'&Width=1920&Height=1080&ImageId='51832162'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443644'&Width=1920&Height=1080&ImageId='51879512'"
+       },
+       "releaseYear": 1995,
+       "availableEpisodeCount": 4,
+       "seasonNumber": 1,
+       "showId": "443643",
+       "episodeCount": 4,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "443644"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "443644"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Charlot & Charlotte: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "PathIdSegment": "charlot-and-charlotte_443644",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751935333000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "443644",
+       "type": "season",
+       "shortDescription": "Ole Bornedals prisbelønnede serie fra 1996.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Charlot & Charlotte",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/charlot-and-charlotte_443644"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438457'&Width=1920&Height=1080&ImageId='51492560'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438457'&Width=1920&Height=1080&ImageId='51614128'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438457'&Width=1440&Height=2160&ImageId='51614126'"
+       },
+       "duration": 714,
+       "releaseYear": 1997,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438457"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438457"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438457"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Clintons tale til danskerne",
+        "ExtraDetails": "Gensyn | 12M",
+        "TitleExtraDetails": "DR Gensyn | 12M",
+        "PathIdSegment": "clintons-tale-til-danskerne_438457",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00102146390",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438457",
+       "type": "program",
+       "shortDescription": "Dansk reportage fra 1997. For første gang nogensinde er USA's præsident på officielt statsbesøg i Danmark. Bill Clinton bliver modtaget af jublende menneskemængder på sit lynvisit, og da han holder tale på Nytorv i København, er 80.000 mødt op. Præsidente",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Clintons tale til danskerne",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/clintons-tale-til-danskerne_438457",
+       "watchPath": "/se/clintons-tale-til-danskerne_438457"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366365'&Width=1920&Height=1080&ImageId='44151849'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366365'&Width=1920&Height=1080&ImageId='50404674'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366365'&Width=1440&Height=2160&ImageId='50404672'"
+       },
+       "releaseYear": 1999,
+       "availableEpisodeCount": 8,
+       "seasonNumber": 1,
+       "showId": "366364",
+       "episodeCount": 8,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "366365"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "366365"
+       ],
+       "categories": [
+        "dokumentar",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Dahlgårds Tivoli: Sæson 1",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "PathIdSegment": "dahlgaards-tivoli_366365",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751941442000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "366365",
+       "type": "season",
+       "shortDescription": "Familien Dahlgård har drevet deres tivoli i over 50 år. Fra påske og frem til oktober rejser familien og de mange ansatte rundt fra by til by med forlystelser, boder og beboelsesvogne. Her kan du følge Dahlgårds Tivoli, familien og de ansatte i glæder og ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Dahlgårds Tivoli",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/dahlgaards-tivoli_366365"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438724'&Width=1920&Height=1080&ImageId='51597600'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438724'&Width=1920&Height=1080&ImageId='51597594'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438724'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1991,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "438723",
+       "episodeCount": 0,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438724"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438724"
+       ],
+       "categories": [
+        "livsstil",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Livsstil,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Damernes magasin: Sæson 1",
+        "ExtraDetails": "Livsstil | SÆSON 1",
+        "PathIdSegment": "damernes-magasin_438724",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:5117950870000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438724",
+       "type": "season",
+       "shortDescription": "Dansk interviewserie 1991-1992. Camilla Miehe-Renard taler med mennesker om problemer, kriser og emner, der optager dem.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Damernes magasin",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/damernes-magasin_438724"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414228'&Width=1920&Height=1080&ImageId='49839538'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414228'&Width=1920&Height=1080&ImageId='49839542'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414228'&Width=1440&Height=2160&ImageId='51933835'"
+       },
+       "releaseYear": 1998,
+       "availableEpisodeCount": 10,
+       "seasonNumber": 1,
+       "showId": "414227",
+       "episodeCount": 10,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "414228"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "414228"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Historie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Danske drømme: Sæson 1",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "PathIdSegment": "danske-droemme_414228",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751939607000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "414228",
+       "type": "season",
+       "shortDescription": "Dansk dokumentarserie fra 1998. Leif Davidsen fortæller historien om det moderne Danmark. Han begynder, hvor Paul Hammerichs 'Gamle Danmark' slap i 70'erne, og kigger frem mod år 2000.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Danske drømme",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/danske-droemme_414228"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432952'&Width=1440&Height=2160&ImageId='51116761'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432952'&Width=1920&Height=1080&ImageId='51116759'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432952'&Width=1920&Height=1080&ImageId='51116763'"
+       },
+       "duration": 1715,
+       "releaseYear": 1999,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "432952"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "432952"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "432952"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "gensyn",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,Gensyn,DR1",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar,Historie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Danske kongers private arbejdsværelser",
+        "ExtraDetails": "Dokumentar | 29M",
+        "TitleExtraDetails": "DR1 | 29M",
+        "PathIdSegment": "danske-kongers-private-arbejdsvaerelser_432952",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00522249280",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "432952",
+       "type": "program",
+       "shortDescription": "På Amalienborg kan man se en udstilling med danske kongers private arbejdsværelser.\nI aften skal vi se Kong Frederik IX's værelse, der har en fin hjemlig atmosfære og samtidig viser nye sider af kongens liv og fortæller Danmarkshistorie og familiesaga. Ud",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Danske kongers private arbejdsværelser",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/danske-kongers-private-arbejdsvaerelser_432952",
+       "watchPath": "/se/danske-kongers-private-arbejdsvaerelser_432952"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414523'&Width=1920&Height=1080&ImageId='51934133'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414523'&Width=1920&Height=1080&ImageId='51934135'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414523'&Width=1440&Height=2160&ImageId='51935031'"
+       },
+       "duration": 3877,
+       "releaseYear": 1993,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "414523"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "414523"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "414523"
+       ],
+       "categories": [
+        "film",
+        "teater og tv-film",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,Teater og TV-film,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Film,Teater og TV-film,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-NOT-RATED",
+        "PageTitle": "De skrigende halse",
+        "ExtraDetails": "Film | 1T 5M",
+        "TitleExtraDetails": "DR Gensyn | 1T 5M",
+        "PathIdSegment": "de-skrigende-halse_414523",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00587016610",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "414523",
+       "type": "program",
+       "shortDescription": "Dansk komedie fra 1993. Søren Faulis groteske kultfilm om 80'ernes musikalske undergrund. Når man brænder for at blive accepteret i dødskult-miljøet, hvad gør man så? Man bilder de andre ind, at man snart skal dø. Det er hvad punkguitaristen Ronni griber ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "De skrigende halse",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/de-skrigende-halse_414523",
+       "watchPath": "/se/de-skrigende-halse_414523"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436992'&Width=1920&Height=1080&ImageId='51388171'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436992'&Width=1440&Height=2160&ImageId='51598602'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436992'&Width=1920&Height=1080&ImageId='51598608'"
+       },
+       "releaseYear": 1991,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "436991",
+       "episodeCount": 30,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "436992"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "436992"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Den gode, den onde og den virk'li sjove: Sæson 1",
+        "ExtraDetails": "Underholdning | SÆSON 1",
+        "PathIdSegment": "den-gode-den-onde-og-den-virkli-sjove_436992",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:1493240027000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "436992",
+       "type": "season",
+       "shortDescription": "Dansk satireserie 1990-1991. Ugens små og store begivenheder samt tidsånden i det hele taget bliver udlagt med humor i denne serie, som Ole Bornedal og Claus Flygare bl.a. har skrevet tekster til.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Den gode, den onde og den virk'li sjove",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/den-gode-den-onde-og-den-virkli-sjove_436992"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='145982'&Width=1920&Height=1080&ImageId='51291037'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='145982'&Width=1440&Height=2160&ImageId='51291027'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='145982'&Width=1920&Height=1080&ImageId='51291033'"
+       },
+       "releaseYear": 1997,
+       "availableEpisodeCount": 5,
+       "seasonNumber": 1,
+       "showId": "145979",
+       "episodeCount": 5,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "145982"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "145982"
+       ],
+       "categories": [
+        "gensyn",
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Gensyn,Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Drengen de kaldte kylling: Sæson 1",
+        "ExtraDetails": "Gensyn | SÆSON 1",
+        "PathIdSegment": "drengen-de-kaldte-kylling_145982",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:1791127192000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "145982",
+       "type": "season",
+       "shortDescription": "Dansk børneserie fra 1998. Syvårige Willy vil være lige så sej som sin fortælleglade far. Sidse Babett Knudsen og Martin Brygmann medvirker i Natasha Arthys skæve og musikalske univers.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Drengen de kaldte kylling",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/saeson/drengen-de-kaldte-kylling_145982"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='431913'&Width=1920&Height=1080&ImageId='51051496'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='431913'&Width=1920&Height=1080&ImageId='51104996'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='431913'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1996,
+       "availableEpisodeCount": 6,
+       "seasonNumber": 1,
+       "showId": "431911",
+       "episodeCount": 6,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "431913"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "431913"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Historie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Dronning til alle tider: Sæson 1",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "PathIdSegment": "dronning-til-alle-tider_431913",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:752006009000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "431913",
+       "type": "season",
+       "shortDescription": "Dokumentarserie om H.M. Dronning Ingrids liv. Fra hun kommer til verden i 1910 som svensk prinsesse, til hun som ældre får mere tid til sin store lidenskab - blomsterne.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Dronning til alle tider",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/dronning-til-alle-tider_431913"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438459'&Width=1440&Height=2160&ImageId='51646892'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438459'&Width=1920&Height=1080&ImageId='51492566'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438459'&Width=1920&Height=1080&ImageId='51646889'"
+       },
+       "duration": 2137,
+       "releaseYear": 1990,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438459"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438459"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438459"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Dronningen møder pressen - 50-års fødselsdag",
+        "ExtraDetails": "Gensyn | 36M",
+        "TitleExtraDetails": "DR Gensyn | 36M",
+        "PathIdSegment": "dronningen-moeder-pressen-_-50_aars-foedselsdag_438459",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00103612670",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438459",
+       "type": "program",
+       "shortDescription": "Dansk reportage fra 1990. Hvordan er det at have hund? Dronningen fylder 50 år, og i den forbindelse har hun inviteret til pressemøde - for første gang i gemakkerne på Amalienborg. Spørgsmålene spænder vidt. Hvilken del af det omfattende fødselsdagsprogra",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Dronningen møder pressen - 50-års fødselsdag",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/dronningen-moeder-pressen-_-50_aars-foedselsdag_438459",
+       "watchPath": "/se/dronningen-moeder-pressen-_-50_aars-foedselsdag_438459"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='178389'&Width=1920&Height=1080&ImageId='51018848'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='178389'&Width=1440&Height=2160&ImageId='51035665'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='178389'&Width=1920&Height=1080&ImageId='51018830'"
+       },
+       "releaseYear": 1999,
+       "availableEpisodeCount": 4,
+       "seasonNumber": 1,
+       "showId": "178382",
+       "episodeCount": 5,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "178389"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "178389"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "gensyn",
+        "dr2"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,Gensyn,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Dokumentar,Historie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Dronningen tager imod: Sæson 1",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "PathIdSegment": "dronningen-tager-imod_178389",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751940651000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "178389",
+       "type": "season",
+       "shortDescription": "I fem programmer fortæller Dronning Margrethe Piet van Deurs om de oldenborgske konger og menneskeskæbnerne bag kongekronerne gennem de seneste 200 år.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Dronningen tager imod",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/dronningen-tager-imod_178389"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='417941'&Width=1920&Height=1080&ImageId='50332284'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='417941'&Width=1440&Height=2160&ImageId='50332286'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='417941'&Width=1920&Height=1080&ImageId='50332288'"
+       },
+       "releaseYear": 1999,
+       "availableEpisodeCount": 2,
+       "seasonNumber": 1,
+       "showId": "417940",
+       "episodeCount": 2,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "417941"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "417941"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Dybt vand: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "PathIdSegment": "dybt-vand_417941",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751936501000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "417941",
+       "type": "season",
+       "shortDescription": "Dansk thrillerserie fra 1999. Ole Bornedals mørke, nervepirrende drama i to dele om politik, bedrag og mord.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Dybt vand",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/dybt-vand_417941"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426269'&Width=1440&Height=2160&ImageId='51036745'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426269'&Width=1920&Height=1080&ImageId='51036739'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426269'&Width=1920&Height=1080&ImageId='51036733'"
+       },
+       "releaseYear": 1995,
+       "availableEpisodeCount": 2,
+       "seasonNumber": 1,
+       "showId": "426268",
+       "episodeCount": 2,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "426269"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426269"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "En fri mand: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "PathIdSegment": "en-fri-mand_426269",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751940024000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426269",
+       "type": "season",
+       "shortDescription": "Dansk krimiserie fra 1996. Den røveridømte Frank forsøger at vende tilbage til et liv uden kriminalitet. Daniel Alfredson (Millennium-trilogien) har instrueret - Ole Ernst har hovedrollen.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "En fri mand",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/en-fri-mand_426269"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434122'&Width=1920&Height=1080&ImageId='51234451'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434122'&Width=1440&Height=2160&ImageId='51234445'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434122'&Width=1920&Height=1080&ImageId='51234440'"
+       },
+       "releaseYear": 1996,
+       "availableEpisodeCount": 9,
+       "seasonNumber": 1,
+       "showId": "434121",
+       "episodeCount": 9,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "434122"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "434122"
+       ],
+       "categories": [
+        "gensyn",
+        "serie",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,Serie,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Gensyn,Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Far, mor og Blyp: Sæson 1",
+        "ExtraDetails": "Gensyn | SÆSON 1",
+        "PathIdSegment": "far-mor-og-blyp_434122",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751935235000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "434122",
+       "type": "season",
+       "shortDescription": "Dansk børneserie fra 1996. Hella Joof og Peter Frödin spiller stewardessen Vivi og piloten Tom, som skal have et barn. Usynlige børn og talende træer forsøger at hjælpe dem med at blive gode forældre.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Far, mor og Blyp",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/saeson/far-mor-og-blyp_434122"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='431912'&Width=1920&Height=1080&ImageId='51093321'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='431912'&Width=1920&Height=1080&ImageId='51093542'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='431912'&Width=1440&Height=2160&ImageId='51093540'"
+       },
+       "releaseYear": 1998,
+       "availableEpisodeCount": 6,
+       "seasonNumber": 1,
+       "showId": "431910",
+       "episodeCount": 6,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "431912"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "431912"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "gensyn",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,Gensyn,DR2",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "DisplayCategory": "Dokumentar,Historie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Frederik - Konge til alle tider: Sæson 1",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "PathIdSegment": "frederik-_-konge-til-alle-tider_431912",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751936622000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "431912",
+       "type": "season",
+       "shortDescription": "Dansk dokumentarserie om Frederik IX.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Frederik - Konge til alle tider",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/frederik-_-konge-til-alle-tider_431912"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443952'&Width=1920&Height=1080&ImageId='51865938'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443952'&Width=1440&Height=2160&ImageId='51865940'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443952'&Width=1920&Height=1080&ImageId='51865942'"
+       },
+       "releaseYear": 1996,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "443951",
+       "episodeCount": 1,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "443952"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "443952"
+       ],
+       "categories": [
+        "dokumentar",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Grevinden på tredje: Sæson 1",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "PathIdSegment": "grevinden-paa-tredje_443952",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:1413056061000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "443952",
+       "type": "season",
+       "shortDescription": "Dansk dokumentarserie 1996-1997. Om millionøsen og grevinden Erna Hamilton.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Grevinden på tredje",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/grevinden-paa-tredje_443952"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439738'&Width=1920&Height=1080&ImageId='51646484'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439738'&Width=1920&Height=1080&ImageId='51646416'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='439738'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1998,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "439737",
+       "episodeCount": 12,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "439738"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "439738"
+       ],
+       "categories": [
+        "livsstil",
+        "mad",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Mad,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Livsstil,Mad,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Gæster på grillen: Sæson 1",
+        "ExtraDetails": "Livsstil | SÆSON 1",
+        "PathIdSegment": "gaester-paa-grillen_439738",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751939859000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "439738",
+       "type": "season",
+       "shortDescription": "_Jeanne_Boel tilbereder\nmad med de kendte.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Gæster på grillen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/gaester-paa-grillen_439738"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426018'&Width=1920&Height=1080&ImageId='50658277'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426018'&Width=1920&Height=1080&ImageId='50658281'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426018'&Width=1440&Height=2160&ImageId='50658279'"
+       },
+       "releaseYear": 1992,
+       "availableEpisodeCount": 13,
+       "seasonNumber": 1,
+       "showId": "426017",
+       "episodeCount": 13,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "426018"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426018"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Gøngehøvdingen: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "PathIdSegment": "goengehoevdingen_426018",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751940353000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426018",
+       "type": "season",
+       "shortDescription": "Dansk dramaserie fra 1992. Fægtekampe, forræderi og romantik. Det er nogle af ingredienserne i den historiske fortælling om Svend Poulsen, Ib og de tapre gøngers kamp mod svenskerne.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Gøngehøvdingen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/goengehoevdingen_426018"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439498'&Width=1920&Height=1080&ImageId='51598652'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439498'&Width=1440&Height=2160&ImageId='51598654'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439498'&Width=1920&Height=1080&ImageId='51598656'"
+       },
+       "duration": 726,
+       "releaseYear": 1997,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "439498"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "439498"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "439498"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-NOT-RATED",
+        "PageTitle": "Hans Engells spritkørsel",
+        "ExtraDetails": "Gensyn | 12M",
+        "TitleExtraDetails": "DR Gensyn | 12M",
+        "PathIdSegment": "hans-engells-spritkoersel_439498",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00502411020",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "439498",
+       "type": "program",
+       "shortDescription": "Dansk aktualitetsprogram fra 1997. En betonklods på Helsingørmotorvejen tager farten af Hans Engells politiske karriere. Han kører galt i spirituspåvirket tilstand, og derfor vælger han at gå af som leder af Det Konservative Folkeparti. I et interview med",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Hans Engells spritkørsel",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/hans-engells-spritkoersel_439498",
+       "watchPath": "/se/hans-engells-spritkoersel_439498"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438490'&Width=1920&Height=1080&ImageId='51878631'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438490'&Width=1920&Height=1080&ImageId='51878633'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438490'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1998,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "438489",
+       "episodeCount": 6,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438490"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438490"
+       ],
+       "categories": [
+        "dokumentar",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Helt ærligt, mand...: Sæson 1",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "PathIdSegment": "helt-aerligt-mand_438490",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751940775000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438490",
+       "type": "season",
+       "shortDescription": "Dansk interviewserie fra 1998. Journalisterne Mette Fugl og Karen Thisted kræver ærlige svar fra mænd, der har noget at skulle have sagt.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Helt ærligt, mand...",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/helt-aerligt-mand_438490"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='428305'&Width=1920&Height=1080&ImageId='50823750'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='428305'&Width=1440&Height=2160&ImageId='50823752'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='428305'&Width=1920&Height=1080&ImageId='50823754'"
+       },
+       "releaseYear": 1998,
+       "availableEpisodeCount": 10,
+       "seasonNumber": 1,
+       "showId": "428304",
+       "episodeCount": 10,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "428305"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "428305"
+       ],
+       "categories": [
+        "dokumentar",
+        "historie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Historie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Dokumentar,Historie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Hundrede års barndom: Sæson 1",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "PathIdSegment": "hundrede-aars-barndom_428305",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751935102000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "428305",
+       "type": "season",
+       "shortDescription": "Dansk dokumentarserie fra 1998. Børnene er i centrum i en af mosaik af levende billeder fra store og små begivenheder i Danmark gennem 100 år. Johannes Møllehave lægger stemme til.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Hundrede års barndom",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/hundrede-aars-barndom_428305"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426295'&Width=1920&Height=1080&ImageId='51789718'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426295'&Width=1440&Height=2160&ImageId='51789720'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426295'&Width=1920&Height=1080&ImageId='51789722'"
+       },
+       "duration": 3549,
+       "releaseYear": 1995,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "426295"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "426295"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426295"
+       ],
+       "categories": [
+        "kultur",
+        "underholdning",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Underholdning,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Underholdning,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Hvorfor er kvinder så hysteriske?",
+        "ExtraDetails": "Kultur | 59M",
+        "TitleExtraDetails": "DR Gensyn | 59M",
+        "PathIdSegment": "hvorfor-er-kvinder-saa-hysteriske_426295",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00522027110",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426295",
+       "type": "program",
+       "shortDescription": "Dansk standupshow fra 1995. Modellen og forfatteren Lotte Heise taler højt og hurtigt - og blander sig i midten af 90'erne i kønsdebatten. Med udgangspunkt i sin egen bog optræder hun med et standupshow, hvor hun sprudlende og underholdende prøver at rede",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Hvorfor er kvinder så hysteriske?",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/hvorfor-er-kvinder-saa-hysteriske_426295",
+       "watchPath": "/se/hvorfor-er-kvinder-saa-hysteriske_426295"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438462'&Width=1920&Height=1080&ImageId='51684853'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438462'&Width=1440&Height=2160&ImageId='51684858'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438462'&Width=1920&Height=1080&ImageId='51684855'"
+       },
+       "duration": 2568,
+       "releaseYear": 1992,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438462"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438462"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438462"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Interview med regentparret - sølvbryllup",
+        "ExtraDetails": "Gensyn | 43M",
+        "TitleExtraDetails": "DR Gensyn | 43M",
+        "PathIdSegment": "interview-med-regentparret-_-soelvbryllup_438462",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00103716610",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438462",
+       "type": "program",
+       "shortDescription": "Dansk portrætinterview fra 1992. Der er sølvbryllup i kongehuset. For 25 år siden sagde dronning Margrethe og prins Henrik ja til hinanden d. 10. juni 1967. Derfor giver regentparret et åbenhjertigt interview på Fredensborg Slot, hvor også brylluppet blev",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Interview med regentparret - sølvbryllup",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/interview-med-regentparret-_-soelvbryllup_438462",
+       "watchPath": "/se/interview-med-regentparret-_-soelvbryllup_438462"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438717'&Width=1920&Height=1080&ImageId='51790309'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438717'&Width=1440&Height=2160&ImageId='51790311'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438717'&Width=1920&Height=1080&ImageId='51509648'"
+       },
+       "duration": 5256,
+       "releaseYear": 1991,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438717"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438717"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438717"
+       ],
+       "categories": [
+        "kultur",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Klaus Rifbjergs verden",
+        "ExtraDetails": "Kultur | 1T 28M",
+        "TitleExtraDetails": "DR Gensyn | 1T 28M",
+        "PathIdSegment": "klaus-rifbjergs-verden_438717",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00202968640",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438717",
+       "type": "program",
+       "shortDescription": "Dansk portrætprogram fra 1991. Han har været et fyrtårn i mange årtiers kulturliv. Hans værker er beundrede og hadede, nedrakkede og rost til skyerne. Et tv-hold har fulgt den 58-årige Klaus Rifbjerg gennem et halvt år for at skildre forfatteren, privatme",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Klaus Rifbjergs verden",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/klaus-rifbjergs-verden_438717",
+       "watchPath": "/se/klaus-rifbjergs-verden_438717"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438478'&Width=1920&Height=1080&ImageId='51878849'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438478'&Width=1920&Height=1080&ImageId='51878859'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438478'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1996,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "438477",
+       "episodeCount": 6,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438478"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438478"
+       ],
+       "categories": [
+        "underholdning",
+        "gensyn",
+        "dr gensyn",
+        "politik"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Maraton - 24 timer med: Sæson 1",
+        "ExtraDetails": "Underholdning | SÆSON 1",
+        "PathIdSegment": "maraton-_-24-timer-med_438478",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751940116000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438478",
+       "type": "season",
+       "shortDescription": "Dansk portrætserie fra 1996. Lars von Trier er idemanden bag tv-eksperimentet, hvor en række kendte danskere bliver interviewet af journalisten Peter Øvig Knudsen i 24 timer.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Maraton - 24 timer med",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/maraton-_-24-timer-med_438478"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425324'&Width=1440&Height=2160&ImageId='51214539'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425324'&Width=1920&Height=1080&ImageId='51214537'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425324'&Width=1920&Height=1080&ImageId='51214541'"
+       },
+       "duration": 4484,
+       "releaseYear": 1992,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "425324"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "425324"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "425324"
+       ],
+       "categories": [
+        "kultur",
+        "politik",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Politik,Humor/satire,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Politik,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-NOT-RATED",
+        "PageTitle": "Mens vi venter på retfærdigheden",
+        "ExtraDetails": "Kultur | 1T 15M",
+        "TitleExtraDetails": "DR Gensyn | 1T 15M",
+        "PathIdSegment": "mens-vi-venter-paa-retfaerdigheden_425324",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00587026090",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "425324",
+       "type": "program",
+       "shortDescription": "Tv-udgave af teaterstykke fra 1992. Hvad handler Tamilsagen egentlig om? Statsminister Poul Schlüter erklærer i 1989, at der \"ikke er fejet noget ind under gulvtæppet\". Alligevel nedsættes en undersøgelsesret ledet af Mogens Hornslet. Journalisten Nils Uf",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Mens vi venter på retfærdigheden",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/mens-vi-venter-paa-retfaerdigheden_425324",
+       "watchPath": "/se/mens-vi-venter-paa-retfaerdigheden_425324"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439751'&Width=1920&Height=1080&ImageId='51935445'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439751'&Width=1920&Height=1080&ImageId='51935440'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='439751'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1993,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1993,
+       "showId": "439750",
+       "episodeCount": 0,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "439751"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "439751"
+       ],
+       "categories": [
+        "livsstil",
+        "mad",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Mad,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Livsstil,Mad,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Meyers Køkken: Sæson 1993",
+        "ExtraDetails": "Livsstil | SÆSON 1993",
+        "PathIdSegment": "meyers-koekken_439751",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751939359000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "439751",
+       "type": "season",
+       "shortDescription": "Dansk madserie 1992-1998. Claus Meyer belyser i sine programmer mange af de emner, som han er med til at sætte på dagsordenen i 90'erne - madkvalitet og lokale og underkendte råvarer.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Meyers Køkken",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/meyers-koekken_439751"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439753'&Width=1920&Height=1080&ImageId='51935404'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439753'&Width=1920&Height=1080&ImageId='51935419'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='439753'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1995,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1995,
+       "showId": "439750",
+       "episodeCount": 41,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "439753"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "439753"
+       ],
+       "categories": [
+        "livsstil",
+        "mad",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Mad,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Livsstil,Mad,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Meyers Køkken: Sæson 1995",
+        "ExtraDetails": "Livsstil | SÆSON 1995",
+        "PathIdSegment": "meyers-koekken_439753",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751935125000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "439753",
+       "type": "season",
+       "shortDescription": "Dansk madserie 1992-1998. Claus Meyer belyser i sine programmer mange af de emner, som han er med til at sætte på dagsordenen i 90'erne - madkvalitet og lokale og underkendte råvarer.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Meyers Køkken",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/meyers-koekken_439753"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438886'&Width=1920&Height=1080&ImageId='51865628'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438886'&Width=1440&Height=2160&ImageId='51865623'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438886'&Width=1920&Height=1080&ImageId='51865625'"
+       },
+       "duration": 10006,
+       "releaseYear": 1999,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438886"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438886"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438886"
+       ],
+       "categories": [
+        "kultur",
+        "underholdning",
+        "musik",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Underholdning,Musik,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Underholdning,Musik,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-NOT-RATED",
+        "PageTitle": "Mindekoncert - 100-årsdagen for kong Frederik 9.'s fødsel",
+        "ExtraDetails": "Kultur | 2T 47M",
+        "TitleExtraDetails": "DR Gensyn | 2T 47M",
+        "PathIdSegment": "mindekoncert-_-100_aarsdagen-for-kong-frederik-9s-foedsel_438886",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00591056000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438886",
+       "type": "program",
+       "shortDescription": "Dansk koncertoptagelse fra 1999. Mindekoncert fra Det Kgl. Teater i anledning af kong Frederik 9.'s 100-årsdag - tilrettelagt af Det Kgl. Kapel og Radiosymfoniorkestret i tæt samarbejde med dronning Ingrid og dronning Margrethe. På programmet står værker ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Mindekoncert - 100-årsdagen for kong Frederik 9.'s fødsel",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/mindekoncert-_-100_aarsdagen-for-kong-frederik-9s-foedsel_438886",
+       "watchPath": "/se/mindekoncert-_-100_aarsdagen-for-kong-frederik-9s-foedsel_438886"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438463'&Width=1920&Height=1080&ImageId='51492590'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438463'&Width=1920&Height=1080&ImageId='51951216'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438463'&Width=1440&Height=2160&ImageId='51614027'"
+       },
+       "duration": 1778,
+       "releaseYear": 1993,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438463"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438463"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438463"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-NOT-RATED",
+        "PageTitle": "Pistoler og brosten",
+        "ExtraDetails": "Gensyn | 30M",
+        "TitleExtraDetails": "DR Gensyn | 30M",
+        "PathIdSegment": "pistoler-og-brosten_438463",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00103748060",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438463",
+       "type": "program",
+       "shortDescription": "Dansk aktualitetsprogram fra 1993. Brosten, skud og mange sårede. En demonstration udvikler sig til dramatiske gadekampe på Nørrebro efter EU-folkeafstemningen 18. maj 1993. 'TVA-Indblik' undersøger baggrunden for optøjerne, der fører til skud direkte ind",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Pistoler og brosten",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/pistoler-og-brosten_438463",
+       "watchPath": "/se/pistoler-og-brosten_438463"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438465'&Width=1920&Height=1080&ImageId='51509418'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438465'&Width=1920&Height=1080&ImageId='51509422'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438465'&Width=1440&Height=2160&ImageId='51509420'"
+       },
+       "duration": 1324,
+       "releaseYear": 1995,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438465"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438465"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438465"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-NOT-RATED",
+        "PageTitle": "Pressemøde - prins Joachim og Alexandra Manleys forlovelse",
+        "ExtraDetails": "Gensyn | 22M",
+        "TitleExtraDetails": "DR Gensyn | 22M",
+        "PathIdSegment": "pressemoede-_-prins-joachim-og-alexandra-manleys-forlovelse_438465",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00103974070",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438465",
+       "type": "program",
+       "shortDescription": "Dansk reportage fra 1995. Den danske offentlighed bliver taget på sengen. Prins Joachim forlover sig pludseligt - med Alexandra Manley, en forretningskvinde fra Hongkong med asiatiske og østrigske rødder. I den anledning er der inviteret til pressemøde og",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Pressemøde - prins Joachim og Alexandra Manleys forlovelse",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/pressemoede-_-prins-joachim-og-alexandra-manleys-forlovelse_438465",
+       "watchPath": "/se/pressemoede-_-prins-joachim-og-alexandra-manleys-forlovelse_438465"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438464'&Width=1920&Height=1080&ImageId='51492595'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438464'&Width=1440&Height=2160&ImageId='51684880'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438464'&Width=1920&Height=1080&ImageId='51684882'"
+       },
+       "duration": 2065,
+       "releaseYear": 1996,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438464"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438464"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438464"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Pressemøde med dronning Margrethe - 25-års regeringsjubilæum",
+        "ExtraDetails": "Gensyn | 34M",
+        "TitleExtraDetails": "DR Gensyn | 34M",
+        "PathIdSegment": "pressemoede-med-dronning-margrethe-_-25_aars-regeringsjubilaeum_438464",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00102060320",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438464",
+       "type": "program",
+       "shortDescription": "Dansk reportage fra 1996. \"Man ville ikke dø af min mad, men jeg er ikke sikker på, at man ville overleve min kørsel\". I anledning af dronning Margrethes 25-års regeringsjubilæum i januar 1997 er den danske dagspresse inviteret til at møde dronningen og p",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Pressemøde med dronning Margrethe - 25-års regeringsjubilæum",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/pressemoede-med-dronning-margrethe-_-25_aars-regeringsjubilaeum_438464",
+       "watchPath": "/se/pressemoede-med-dronning-margrethe-_-25_aars-regeringsjubilaeum_438464"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439497'&Width=1920&Height=1080&ImageId='51598679'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439497'&Width=1440&Height=2160&ImageId='51598671'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439497'&Width=1920&Height=1080&ImageId='51598676'"
+       },
+       "duration": 206,
+       "releaseYear": 1994,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "439497"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "439497"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "439497"
+       ],
+       "categories": [
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-NOT-RATED",
+        "PageTitle": "Pressemøde med Morten Boje - om Estonias forlis",
+        "ExtraDetails": "Gensyn | 3M",
+        "TitleExtraDetails": "DR Gensyn | 3M",
+        "PathIdSegment": "pressemoede-med-morten-boje-_-om-estonias-forlis_439497",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00502411040",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "439497",
+       "type": "program",
+       "shortDescription": "Dansk reportage fra 1994. Færgen Estonia forliser d. 28. september 1994. En defekt borgport er skyld i en af de værste skibskatastrofer i Europa i fredstid. 28-årige Morten Boje når at bane sig vej ud af skibet, inden det synker, og han finder en plads i ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Pressemøde med Morten Boje - om Estonias forlis",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/pressemoede-med-morten-boje-_-om-estonias-forlis_439497",
+       "watchPath": "/se/pressemoede-med-morten-boje-_-om-estonias-forlis_439497"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426281'&Width=1920&Height=1080&ImageId='51037118'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426281'&Width=1920&Height=1080&ImageId='51037122'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426281'&Width=1440&Height=2160&ImageId='51037120'"
+       },
+       "releaseYear": 1996,
+       "availableEpisodeCount": 2,
+       "seasonNumber": 1,
+       "showId": "426280",
+       "episodeCount": 2,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "426281"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426281"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Renters rente: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "PathIdSegment": "renters-rente_426281",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751935332000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426281",
+       "type": "season",
+       "shortDescription": "Dansk krimiserie fra 1996. Fritz Helmuth har hovedrollen som alkoholiseret læge i en psykologisk thriller i to dele - baseret på Erik Amdrups prisbelønnede roman.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Renters rente",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/renters-rente_426281"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353453'&Width=1920&Height=1080&ImageId='44046149'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353453'&Width=1920&Height=1080&ImageId='44046151'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353453'&Width=1440&Height=2160&ImageId='44391824'"
+       },
+       "releaseYear": 1997,
+       "availableEpisodeCount": 4,
+       "seasonNumber": 2,
+       "showId": "353446",
+       "episodeCount": 4,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "353453"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "353453"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles",
+        "acc_audio_description"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "IsGeoRestricted": "True",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Riget: Sæson 2",
+        "ExtraDetails": "Fiktionsserie | SÆSON 2",
+        "PathIdSegment": "riget_353453",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:3927922832000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "353453",
+       "type": "season",
+       "shortDescription": "Det er uhyggeligt... og det er også morsomt og mystisk i Lars von Triers populære kultserie fra Rigshospitalet.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Riget",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/riget_353453"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425327'&Width=1920&Height=1080&ImageId='51192769'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425327'&Width=1440&Height=2160&ImageId='51192766'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425327'&Width=1920&Height=1080&ImageId='51192771'"
+       },
+       "duration": 1977,
+       "releaseYear": 1997,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "425327"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "425327"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "425327"
+       ],
+       "categories": [
+        "dokumentar",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-NOT-RATED",
+        "PageTitle": "Sandheden ifølge Anna Castberg",
+        "ExtraDetails": "Dokumentar | 33M",
+        "TitleExtraDetails": "DR Gensyn | 33M",
+        "PathIdSegment": "sandheden-ifoelge-anna-castberg_425327",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00213713430",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "425327",
+       "type": "program",
+       "shortDescription": "Dansk interviewprogram fra 1997. Anna Castberg får en kort, men opsigtsvækkende karriere i den danske museumsverden. Ud af ingenting dukker udlandsdanskeren op og bliver direktør for kunstmuseet Arken i 1993. Men et halvt år efter indvielsen i 1996 bliver",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Sandheden ifølge Anna Castberg",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/sandheden-ifoelge-anna-castberg_425327",
+       "watchPath": "/se/sandheden-ifoelge-anna-castberg_425327"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438485'&Width=1920&Height=1080&ImageId='51824350'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438485'&Width=1440&Height=2160&ImageId='51824353'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438485'&Width=1920&Height=1080&ImageId='51824343'"
+       },
+       "duration": 1755,
+       "releaseYear": 1992,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438485"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438485"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438485"
+       ],
+       "categories": [
+        "dokumentar",
+        "politik",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Politik,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar,Politik,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Schlüters Verden",
+        "ExtraDetails": "Dokumentar | 29M",
+        "TitleExtraDetails": "DR Gensyn | 29M",
+        "PathIdSegment": "schlueters-verden_438485",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00213245230",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438485",
+       "type": "program",
+       "shortDescription": "Dansk dokumentar fra 1992. Poul Schlüter har i ti år været statsminister i Danmark. Mange spåede den borgerlige regering en kort levetid, men det gik anderledes. Dette portræt forsøger at give et billede af både privatpersonen og politikeren Schlüter genn",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Schlüters Verden",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/schlueters-verden_438485",
+       "watchPath": "/se/schlueters-verden_438485"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438721'&Width=1920&Height=1080&ImageId='51846200'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438721'&Width=1440&Height=2160&ImageId='51846195'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438721'&Width=1920&Height=1080&ImageId='51846183'"
+       },
+       "duration": 2245,
+       "releaseYear": 1997,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438721"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "438721"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438721"
+       ],
+       "categories": [
+        "dokumentar",
+        "kultur",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,Kultur,Gensyn,DR Gensyn",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar,Kultur,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Suzanne Brøgger - en ganske almindelig familie",
+        "ExtraDetails": "Dokumentar | 37M",
+        "TitleExtraDetails": "DR Gensyn | 37M",
+        "PathIdSegment": "suzanne-broegger-_-en-ganske-almindelig-familie_438721",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00213783800",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438721",
+       "type": "program",
+       "shortDescription": "Dansk dokumentar fra 1997. Hanne-Vibeke Holst har besøgt kollegaen Suzanne Brøgger. Det er der kommet et helt specielt portræt ud af, som går tæt på den omstridte forfatters sind og tankeverden. Udgangspunktet er Suzanne Brøggers nyligt udgivne roman 'Jad",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Suzanne Brøgger - en ganske almindelig familie",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/suzanne-broegger-_-en-ganske-almindelig-familie_438721",
+       "watchPath": "/se/suzanne-broegger-_-en-ganske-almindelig-familie_438721"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438269'&Width=1920&Height=1080&ImageId='51647580'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438269'&Width=1920&Height=1080&ImageId='51647582'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438269'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1995,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "438268",
+       "episodeCount": 6,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438269"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438269"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Så du ansjosen: Sæson 1",
+        "ExtraDetails": "Underholdning | SÆSON 1",
+        "PathIdSegment": "saa-du-ansjosen_438269",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751940054000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438269",
+       "type": "season",
+       "shortDescription": "Dansk satireserie fra 1995. Friskfangede nyheder og dagligdagens genvordigheder spiddes med skarpsindig ironi.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Så du ansjosen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/saa-du-ansjosen_438269"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438293'&Width=1920&Height=1080&ImageId='51581640'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438293'&Width=1440&Height=2160&ImageId='51581650'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438293'&Width=1920&Height=1080&ImageId='51581642'"
+       },
+       "releaseYear": 1999,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "438292",
+       "episodeCount": 6,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438293"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438293"
+       ],
+       "categories": [
+        "livsstil",
+        "krop og sundhed",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Krop og sundhed,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Livsstil,Krop og sundhed,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Sådan er kvinder: Sæson 1",
+        "ExtraDetails": "Livsstil | SÆSON 1",
+        "PathIdSegment": "saadan-er-kvinder_438293",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751942420000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438293",
+       "type": "season",
+       "shortDescription": "Dansk dokumentarserie fra 2000. En række kendte danske kvinder udtaler sig bramfrit om kvindelivets mange facetter.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Sådan er kvinder",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/saadan-er-kvinder_438293"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436631'&Width=1920&Height=1080&ImageId='51376187'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436631'&Width=1440&Height=2160&ImageId='51376193'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436631'&Width=1920&Height=1080&ImageId='51963935'"
+       },
+       "releaseYear": 1996,
+       "availableEpisodeCount": 56,
+       "seasonNumber": 1,
+       "showId": "436630",
+       "episodeCount": 56,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "436631"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "436631"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "gensyn",
+        "dr gensyn",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Fiktionsserie,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Taxa: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "PathIdSegment": "taxa_436631",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751935782000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "436631",
+       "type": "season",
+       "shortDescription": "En stjerneparade af stærke navne medvirker i DR's klassiske dramaserie om livet omkring en lille københavnsk taxacentral.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Taxa",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/taxa_436631"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437000'&Width=1920&Height=1080&ImageId='51647260'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437000'&Width=1920&Height=1080&ImageId='51647257'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='437000'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1997,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "436999",
+       "episodeCount": 9,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "437000"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "437000"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Tv-Ansjosen: Sæson 1",
+        "ExtraDetails": "Underholdning | SÆSON 1",
+        "PathIdSegment": "tv_ansjosen_437000",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751943419000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "437000",
+       "type": "season",
+       "shortDescription": "Dansk satireserie 1995-1997. En lattervækkende underholdningsserie, der tager hårdt fat om mediernes form og indhold samt tidens aktuelle nyheder.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Tv-Ansjosen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/tv_ansjosen_437000"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436995'&Width=1920&Height=1080&ImageId='51614396'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436995'&Width=1440&Height=2160&ImageId='51614398'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='436995'&Width=1920&Height=1080&ImageId='51614400'"
+       },
+       "releaseYear": 1997,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "436994",
+       "episodeCount": 14,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "436995"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "436995"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Tæskeholdet: Sæson 1",
+        "ExtraDetails": "Underholdning | SÆSON 1",
+        "PathIdSegment": "taeskeholdet_436995",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751949908000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "436995",
+       "type": "season",
+       "shortDescription": "- med Casper Christensen.\nFarve-radio for voksne, som\nden kunne opleves på P3 for\nnogle år siden.\nProducer: Jens Svalgaard.\nSendt første gang 1997.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Tæskeholdet",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/taeskeholdet_436995"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438434'&Width=1920&Height=1080&ImageId='51613301'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438434'&Width=1920&Height=1080&ImageId='51613303'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438434'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "releaseYear": 1997,
+       "availableEpisodeCount": 1,
+       "seasonNumber": 1,
+       "showId": "438433",
+       "episodeCount": 12,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "438434"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "438434"
+       ],
+       "categories": [
+        "underholdning",
+        "humor/satire",
+        "gensyn",
+        "dr gensyn"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Underholdning,Humor/satire,Gensyn,DR Gensyn",
+        "BrandingChannelShort": "TVG",
+        "BrandingChannelDisplayName": "DR Gensyn",
+        "DisplayCategory": "Underholdning,Humor/satire,Gensyn",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Vladimir og Kennedy: Sæson 1",
+        "ExtraDetails": "Underholdning | SÆSON 1",
+        "PathIdSegment": "vladimir-og-kennedy_438434",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:752006018000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "438434",
+       "type": "season",
+       "shortDescription": "Dansk satireserie fra 1997. Comedyshows med Timm Vladimir og Gordon Kennedy, der i et stort studie præsenterer sketches og laver improviserede scener med Palle Strøm som tovholder.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Vladimir og Kennedy",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/vladimir-og-kennedy_438434"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='147620'&Width=1920&Height=1080&ImageId='51847309'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='147620'&Width=1440&Height=2160&ImageId='51847301'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='147620'&Width=1920&Height=1080&ImageId='51847303'"
+       },
+       "releaseYear": 1996,
+       "availableEpisodeCount": 3,
+       "seasonNumber": 1,
+       "showId": "147619",
+       "episodeCount": 3,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "147620"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "147620"
+       ],
+       "categories": [
+        "gensyn",
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Gensyn,Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PresentationTypeCode": "Show",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Y's Fantom Farmor: Sæson 1",
+        "ExtraDetails": "Gensyn | SÆSON 1",
+        "PathIdSegment": "ys-fantom-farmor_147620",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:751935606000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "147620",
+       "type": "season",
+       "shortDescription": "Dansk børneserie 1996-1997. Yrsa keder sig i sommerferien, men møder heldigvis sin magiske Fantom Farmor. Natasha Arthy står bag serien med den fantasifulde bedstemor, spillet af Anne Marie Helger.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Y's Fantom Farmor",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/saeson/ys-fantom-farmor_147620"
+      }
+     ],
+     "size": 48,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 50,
+      "options": {
+       "pageSize": 50
+      }
+     }
+    }
+   }
+  ]
+ }
+}

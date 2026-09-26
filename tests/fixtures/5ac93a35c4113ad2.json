@@ -1,0 +1,1026 @@
+{
+ "status": 200,
+ "json": {
+  "id": "305",
+  "isStatic": false,
+  "isSystemPage": true,
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "key": "List",
+  "path": "/liste/drtv-hero-saturday-18_00_89366",
+  "template": "List Page",
+  "themes": [],
+  "title": "DRTV Hero Saturday 18:00",
+  "entries": [
+   {
+    "id": "h4p8sg3",
+    "type": "ListEntry",
+    "template": "Continuous Scroll Automatic",
+    "title": "DRTV Hero Saturday 18:00",
+    "list": {
+     "id": "89366",
+     "customFields": {
+      "PathIdSegment": "drtv-hero-saturday-18_00_89366"
+     },
+     "itemTypes": [
+      "episode",
+      "program",
+      "season",
+      "link"
+     ],
+     "description": "",
+     "title": "DRTV Hero Saturday 18:00",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/liste/drtv-hero-saturday-18_00_89366",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434275'&Width=1920&Height=1080&ImageId='51340173'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434275'&Width=1920&Height=1080&ImageId='51340196'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='434275'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 1661,
+       "releaseYear": 2024,
+       "episodeNumber": 3,
+       "episodeName": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
+       "seasonId": "431291",
+       "showId": "6569",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "434275"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "434275"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "434275",
+        "431291"
+       ],
+       "categories": [
+        "nyheder og aktualitet",
+        "underholdning",
+        "humor/satire",
+        "dr2"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Nyheder og Aktualitet,Underholdning,Humor/satire,DR2",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Nyheder og Aktualitet,Underholdning,Humor/satire",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-EXCEPT",
+        "PlayButtonExtraDetails": "S12:E3 Programmet fra himlen",
+        "ContextualTitleExtraDetails": "10. FEB 2024 | 28M",
+        "AvailableFrom": "2024-02-10T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Tæt på sandheden med Jonatan Spang: Sæson 12 – Programmet fra himlen",
+        "ExtraDetails": "10. FEB 2024 | 28M",
+        "ShortVideoUrl": "https://drod22a.akamaized.net/all/clear/none/c1/65c4cd1ae264ef09a8a3fcc1/65c4cd19f1997015b80a127a/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275",
+        "BroadcastTimeDK": "2024-02-10T21:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00922415030",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "434275",
+       "type": "episode",
+       "shortDescription": "Vi er slet ikke færdige med at tale om mink, da det er kommet frem, at erstatningen til minkavlere formentlig vil stige med omkring seks milliarder kroner. Og så er der et nyt lovforslag under behandling. Det handler om, hvilket nationalflag du må have i ",
+       "contextualTitle": "Programmet fra himlen",
+       "sports": [],
+       "tagline": "Et satirisk blik på ugens nyheder og tendenser",
+       "themes": [],
+       "title": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275",
+       "watchPath": "/se/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437154'&Width=1920&Height=1080&ImageId='51416230'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437154'&Width=1920&Height=1080&ImageId='51416232'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='437154'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 3501,
+       "releaseYear": 2023,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "437154"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "437154"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "437154"
+       ],
+       "categories": [
+        "kultur",
+        "underholdning",
+        "musik",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Kultur,Underholdning,Musik,DR1,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Kultur,Underholdning,Musik",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "De udvalgte - Dansk Melodi Grand Prix 2024",
+        "ExtraDetails": "Kultur | 58M",
+        "TitleExtraDetails": "DR1 | 58M",
+        "ShortVideoUrl": "https://drod22h.akamaized.net/all/clear/none/f7/65c5bdcce264ef09a8a3fcf7/65c5bdca470c650dbca63413/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+        "BroadcastTimeDK": "2024-02-10T21:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00252406010",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "437154",
+       "type": "program",
+       "shortDescription": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøv",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Kom med bag kulisserne til dette års store Grand Prix-show",
+       "themes": [],
+       "title": "De udvalgte - Dansk Melodi Grand Prix 2024",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+       "watchPath": "/se/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='421736'&Width=1920&Height=1080&ImageId='51387341'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='421736'&Width=1920&Height=1080&ImageId='51387343'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='421736'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 1746,
+       "releaseYear": 2022,
+       "episodeNumber": 6,
+       "episodeName": "Signe Molde på udebane: De rige bliver mobbet",
+       "seasonId": "421732",
+       "showId": "220756",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "421736"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "421736"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "421736",
+        "421732"
+       ],
+       "categories": [
+        "humor/satire",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Humor/satire,DR2,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Humor/satire",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-11",
+        "PlayButtonExtraDetails": "S3:E6 De rige bliver mobbet",
+        "ContextualTitleExtraDetails": "10. FEB 2024 | 29M",
+        "AvailableFrom": "2024-02-10T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+        "PresentationTypeCode": "Ongoing",
+        "PageTitle": "Signe Molde på udebane: Sæson 3 – De rige bliver mobbet",
+        "ExtraDetails": "SÆSON 3 EPISODE 6 | 29M",
+        "ShortVideoUrl": "https://drod22m.akamaized.net/all/clear/none/be/65c37de42e57d704485328be/65c37de2f1997015b80a126a/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736",
+        "BroadcastTimeDK": "2024-02-10T21:30:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00212310060",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "421736",
+       "type": "episode",
+       "shortDescription": "Bliver de rige dæmoniseret, hetzet og faktisk direkte mobbet, bare fordi de er rige? Signe Molde møder milliardæren Niklas Nikolajsen, der hverken vil kaldes grisk eller egoistisk - også selvom han er flyttet til Schweiz. I Monaco møder Signe ejendomsmægl",
+       "contextualTitle": "6. De rige bliver mobbet",
+       "sports": [],
+       "tagline": "Bliver de rige dæmoniseret, hetzet og mistænkeliggjort?",
+       "themes": [],
+       "title": "Signe Molde på udebane: De rige bliver mobbet",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736",
+       "watchPath": "/se/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419277'&Width=1920&Height=1080&ImageId='51493829'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419277'&Width=1920&Height=1080&ImageId='51493831'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='419277'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 1530,
+       "releaseYear": 2023,
+       "episodeNumber": 22,
+       "episodeName": "SEX MED P3: Fantasi: Expectations vs. Reality",
+       "seasonId": "338759",
+       "showId": "338758",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "419277"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "419277"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "419277",
+        "338759"
+       ],
+       "badge": "Ny sæson",
+       "categories": [
+        "livsstil",
+        "krop og sundhed",
+        "p3"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Krop og sundhed,P3",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TP3",
+        "BrandingChannelDisplayName": "P3",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Livsstil,Krop og sundhed",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PlayButtonExtraDetails": "S1:E22 Fantasi: Expectations vs. Reality",
+        "ContextualTitleExtraDetails": "9. FEB 2024 | 26M",
+        "AvailableFrom": "2024-02-09T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "SEX MED P3: Sæson 1 – Fantasi: Expectations vs. Reality",
+        "ExtraDetails": "9. FEB 2024 | 26M",
+        "PathIdSegment": "sex-med-p3_-fantasi_-expectations-vs-reality_419277",
+        "ShortVideoUrl": "https://drod22n.akamaized.net/all/clear/none/a4/65c356482e57d704485328a4/65c356479619de1c28b16c88/stream_fmp4/master_manifest.m3u8",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00222415020",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "419277",
+       "type": "episode",
+       "shortDescription": "Trekanter, dominans eller gangbangs? Måske deler du sexfantasier med mange flere end du tror. Er du nysgerrig på at høre om andres frække fantasier? Og skal din fantasi udleves eller blive inde i hovedet? Vi giver dig den ultimative guide til, hvad du ska",
+       "contextualTitle": "Fantasi: Expectations vs. Reality",
+       "sports": [],
+       "tagline": "Episode 2:8 | Den ultimative guide til, hvad du skal stille op med din fantasi",
+       "themes": [],
+       "title": "SEX MED P3: Fantasi: Expectations vs. Reality",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/sex-med-p3_-fantasi_-expectations-vs-reality_419277",
+       "watchPath": "/se/sex-med-p3_-fantasi_-expectations-vs-reality_419277"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433819'&Width=3976&Height=2362&ImageId='51375974'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433819'&Width=2000&Height=3000&ImageId='51375976'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433819'&Width=3976&Height=2362&ImageId='51375978'"
+       },
+       "duration": 3506,
+       "releaseYear": 2023,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "433819"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "433819"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "433819"
+       ],
+       "categories": [
+        "dokumentar",
+        "dr2",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR2",
+        "BrandingChannelDisplayName": "DR2",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "PageTitle": "Fanget på havets bund",
+        "ExtraDetails": "Dokumentar | 58M",
+        "TitleExtraDetails": "DR2 | 58M",
+        "ShortVideoUrl": "https://drod21n.akamaized.net/all/clear/none/17/65c374a95d0e0d1680729f17/65c374a786cd6704581fad39/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "fanget-paa-havets-bund_433819",
+        "BroadcastTimeDK": "2024-02-10T20:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00922317650",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "433819",
+       "type": "program",
+       "shortDescription": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i ",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Skibskokken Harrison fanges i et vrag på 34 meters dybde",
+       "themes": [],
+       "title": "Fanget på havets bund",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/fanget-paa-havets-bund_433819",
+       "watchPath": "/se/fanget-paa-havets-bund_433819"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424457'&Width=1920&Height=1080&ImageId='51509409'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424457'&Width=1920&Height=1080&ImageId='51509414'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='424457'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 3499,
+       "releaseYear": 2023,
+       "episodeNumber": 6,
+       "episodeName": "Løvens Hule: Salg i højtiderne?",
+       "seasonId": "424451",
+       "showId": "69856",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "424457"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "424457"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "424457",
+        "424451"
+       ],
+       "categories": [
+        "livsstil",
+        "underholdning",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Underholdning,DR1",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Livsstil,Underholdning",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PlayButtonExtraDetails": "S9:E6 Salg i højtiderne?",
+        "ContextualTitleExtraDetails": "8. FEB 2024 | 58M",
+        "AvailableFrom": "2024-02-08T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Løvens Hule: Sæson 9 – Salg i højtiderne?",
+        "ExtraDetails": "8. FEB 2024 | 58M",
+        "ShortVideoUrl": "https://drod20t.akamaized.net/all/clear/none/b4/65c36e062e57d704485328b4/65c36e06f1997015b80a1267/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "loevens-hule_-salg-i-hoejtiderne_424457",
+        "BroadcastTimeDK": "2024-02-08T20:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00922315160",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "424457",
+       "type": "episode",
+       "shortDescription": "Natasja og Tina tager Løverne med storm, når de pitcher deres forretning. Men står de distancen med højtidsbestemte underholdningsprodukter og en drøm om at være julemanden? Udløber: 8. feb 2025",
+       "contextualTitle": "Salg i højtiderne?",
+       "sports": [],
+       "tagline": "Episode 6:9 | Magisk jul og påske: Natasja og Tina tager Løverne med storm",
+       "themes": [],
+       "title": "Løvens Hule: Salg i højtiderne?",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/loevens-hule_-salg-i-hoejtiderne_424457",
+       "watchPath": "/se/loevens-hule_-salg-i-hoejtiderne_424457"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433514'&Width=1920&Height=1080&ImageId='51154003'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433514'&Width=1440&Height=2160&ImageId='45861567'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433514'&Width=1920&Height=1080&ImageId='51154005'"
+       },
+       "duration": 1828,
+       "releaseYear": 2024,
+       "episodeNumber": 1,
+       "episodeName": "Kriminelt: Hestekrigen i Skals (1:2)",
+       "seasonId": "433513",
+       "showId": "168898",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "433514"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "433514"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "433514",
+        "433513"
+       ],
+       "categories": [
+        "nyheder og aktualitet",
+        "krimi",
+        "dr1",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Nyheder og Aktualitet,Krimi,DR1,acc_spoken_subtitles",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Nyheder og Aktualitet,Krimi",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-EXCEPT",
+        "PlayButtonExtraDetails": "S5:E1 Hestekrigen i Skals (1:2)",
+        "ContextualTitleExtraDetails": "8. FEB 2024 | 30M",
+        "AvailableFrom": "2024-02-08T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Kriminelt: Sæson 5 – Hestekrigen i Skals (1:2)",
+        "ExtraDetails": "8. FEB 2024 | 30M",
+        "ShortVideoUrl": "https://drod20d.akamaized.net/all/clear/none/01/65c34c125d0e0d1680729f01/65c34c119619de1c28b16c86/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "kriminelt_-hestekrigen-i-skals-_1_2__433514",
+        "BroadcastTimeDK": "2024-02-08T21:25:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00122498010",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "433514",
+       "type": "episode",
+       "shortDescription": "Amerikanske Tyrell er berider og arbejder en kort periode på Viegård Stutteri i Skals. Da han på Facebook deler billeder af stutteriets afmagrede heste, sætter det gang i vrede dyreaktivister fra nær og fjern. Udløber: 8. feb 2026",
+       "contextualTitle": "Hestekrigen i Skals (1:2)",
+       "sports": [],
+       "tagline": "Hundredvis af heste og deres ejer er centrum for en voldsom konflikt",
+       "themes": [],
+       "title": "Kriminelt: Hestekrigen i Skals (1:2)",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/kriminelt_-hestekrigen-i-skals-_1_2__433514",
+       "watchPath": "/se/kriminelt_-hestekrigen-i-skals-_1_2__433514"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423646'&Width=1920&Height=1080&ImageId='51429055'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423646'&Width=1440&Height=2160&ImageId='51429061'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423646'&Width=7680&Height=4320&ImageId='51429007'"
+       },
+       "releaseYear": 2023,
+       "availableEpisodeCount": 4,
+       "seasonNumber": 1,
+       "showId": "423645",
+       "episodeCount": 4,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "423646"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "423646"
+       ],
+       "categories": [
+        "fiktionsserie",
+        "krimi",
+        "drtv",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fiktionsserie,Krimi,DRTV",
+        "BrandingChannelShort": "DRT",
+        "BrandingChannelDisplayName": "DRTV",
+        "DisplayCategory": "Fiktionsserie,Krimi",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-15",
+        "IsGeoRestricted": "True",
+        "PresentationTypeCode": "Ongoing",
+        "IsSeasonDRMPlayoutRequired": "False",
+        "PageTitle": "Mordene i Port Talbot: Sæson 1",
+        "ExtraDetails": "Fiktionsserie | SÆSON 1",
+        "ShortVideoUrl": "https://drod24r.akamaized.net/all/clear/none/6d/65bb6ab67b41464764a1cf6d/65bb6ab613e28e190426bbd7/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "mordene-i-port-talbot_423646",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:season:5069619305000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "423646",
+       "type": "season",
+       "shortDescription": "Tre 30 år gamle uopklarede drabssager bliver genoptaget. Paul Bethell arbejdede med sagerne som ung betjent - nu begynder han en ny morderjagt. Krimiserie baseret på virkelige hændelser.",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Hele serien | Tre gamle mordsager genåbnes. Krimiserie bygget på virkelige hændelser",
+       "themes": [],
+       "title": "Mordene i Port Talbot",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/mordene-i-port-talbot_423646"
+      },
+      {
+       "images": {
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='301940'&Width=1920&Height=1080&ImageId='51535682'",
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='301940'&Width=1920&Height=1080&ImageId='51535684'"
+       },
+       "offers": [],
+       "scopes": [
+        "301940"
+       ],
+       "categories": [],
+       "channelPath": "",
+       "customFields": {
+        "PathIdSegment": "tva-live_-regeringen-vil-indfoere-automatisk-organdonation_301940",
+        "BrandingChannelShort": "EVA",
+        "ShortVideoUrl": "https://drevent01hls.akamaized.net/hls/live/2014198/drevent01/master.m3u8",
+        "LinkTextBadge_Max_20_Characters": "Seneste nyt",
+        "BadgeBackgroundColour_HexCode": "#ff001e"
+       },
+       "customId": "",
+       "genres": [],
+       "id": "301940",
+       "type": "link",
+       "shortDescription": "LinkItem",
+       "contextualTitle": "LIVE: Alpint skiløb med Casper Dyrbye",
+       "sports": [],
+       "themes": [],
+       "title": "TVA Live: Regeringen vil indføre automatisk organdonation",
+       "vodItemWatchPath": "",
+       "path": "/kanal/192099"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434766'&Width=1920&Height=1080&ImageId='51429420'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434766'&Width=1440&Height=2160&ImageId='51482062'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434766'&Width=1920&Height=1080&ImageId='51429477'"
+       },
+       "duration": 1700,
+       "releaseYear": 2024,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "434766"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "434766"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "434766"
+       ],
+       "categories": [
+        "dokumentar",
+        "dr1",
+        "acc_spoken_subtitles",
+        "acc_sign_language"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dokumentar,DR1,acc_spoken_subtitles,acc_sign_language",
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles,SignLanguage",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Dokumentar",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Dronning Mary - pigen fra Tasmanien",
+        "ExtraDetails": "Dokumentar | 28M",
+        "TitleExtraDetails": "DR1 | 28M",
+        "ShortVideoUrl": "https://drod22o.akamaized.net/all/clear/none/55/65bc95ec750a8622d49a1355/65bc95e3f1997015b80a1229/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "dronning-mary-_-pigen-fra-tasmanien_434766",
+        "BroadcastTimeDK": "2024-02-05T20:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00242406010",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "434766",
+       "type": "program",
+       "shortDescription": "Den 14. januar trådte Mary ud på balkonen på Christiansborg som Dronningen af Danmark. Men hvordan gik det egentlig til, at en helt almindelig pige fra Tasmanien endte med prinsen og det halve kongerige? Udløber: 5. feb 2026",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Hvordan endte en ung australsk kvinde med kronprinsen af Danmark?",
+       "themes": [],
+       "title": "Dronning Mary - pigen fra Tasmanien",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/dronning-mary-_-pigen-fra-tasmanien_434766",
+       "watchPath": "/se/dronning-mary-_-pigen-fra-tasmanien_434766"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426237'&Width=1920&Height=1080&ImageId='51291003'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426237'&Width=1920&Height=1080&ImageId='51291005'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='426237'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 3507,
+       "releaseYear": 2023,
+       "episodeNumber": 6,
+       "episodeName": "Danmarks bedste portrætmaler: Det helstøbte portræt",
+       "seasonId": "426234",
+       "showId": "261000",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "426237"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "426237"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "426237",
+        "426234"
+       ],
+       "categories": [
+        "livsstil",
+        "kultur",
+        "underholdning",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Kultur,Underholdning,DR1",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Livsstil,Kultur,Underholdning",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-ALL",
+        "PlayButtonExtraDetails": "S5:E6 Det helstøbte portræt",
+        "ContextualTitleExtraDetails": "6. FEB 2024 | 58M",
+        "AvailableFrom": "2024-02-06T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "Ongoing",
+        "PageTitle": "Danmarks bedste portrætmaler: Sæson 5 – Det helstøbte portræt",
+        "ExtraDetails": "SÆSON 5 EPISODE 6 | 58M",
+        "ShortVideoUrl": "https://drod23e.akamaized.net/all/clear/none/32/65bb49e61030de0830b87b32/65bb49e6ced5da1b405eb6af/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237",
+        "BroadcastTimeDK": "2024-02-06T20:00:00",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00922315250",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "426237",
+       "type": "episode",
+       "shortDescription": "Vi er nået til finalen i Danmarks bedste portrætmaler, som tradition tro finder sted på Ny Carlsberg Glyptotek i København. Det er nu, de tre finalister skal vise alt, hvad de har lært gennem konkurrencen, ved at lave det helstøbte portræt af modellen Sof",
+       "contextualTitle": "6. Det helstøbte portræt",
+       "sports": [],
+       "tagline": "Episode 6:6 | Modellen er Sofie Gråbøl. Hvilken kunstner løber med sejren?",
+       "themes": [],
+       "title": "Danmarks bedste portrætmaler: Det helstøbte portræt",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237",
+       "watchPath": "/se/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237"
+      },
+      {
+       "images": {
+        "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422579'&Width=1920&Height=1080&ImageId='50837509'",
+        "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422579'&Width=1920&Height=1080&ImageId='50837511'",
+        "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='422579'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 3510,
+       "releaseYear": 2024,
+       "episodeNumber": 7,
+       "episodeName": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
+       "seasonId": "422575",
+       "showId": "7379",
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "422579"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "422579"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "422579",
+        "422575"
+       ],
+       "categories": [
+        "livsstil",
+        "underholdning",
+        "hus og have",
+        "dr1"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Livsstil,Underholdning,Hus og have,DR1",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "DR1",
+        "BrandingChannelDisplayName": "DR1",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Livsstil,Underholdning,Hus og have",
+        "TargetAudience": "Adults",
+        "RatingSegment": "DRTV",
+        "PrimaryContentUniverse": "DRTV",
+        "ClassificationRating": "MRAM-07",
+        "PlayButtonExtraDetails": "S12:E7 Spøgelseshus nær tyren Svend Otto",
+        "ContextualTitleExtraDetails": "27. DEC 2023 | 59M",
+        "AvailableFrom": "2023-12-27T05:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "Ongoing",
+        "PageTitle": "I hus til halsen: Sæson 12 – Spøgelseshus nær tyren Svend Otto",
+        "ExtraDetails": "SÆSON 12 EPISODE 7 | 59M",
+        "PathIdSegment": "i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579",
+        "ShortVideoUrl": "https://drod21s.akamaized.net/all/clear/none/62/65bb54757b41464764a1cf62/65bb5474ced5da1b405eb6b0/stream_fmp4/master_manifest.m3u8",
+        "ContentUniverses": [
+         "drtv"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00922401070",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "422579",
+       "type": "episode",
+       "shortDescription": "Om to måneder slipper pengene op for Jørgen og Susanne. Så går de 5.000 kr. i minus hver måned, hvis ikke huset bliver solgt.   \nMen landsbyen passer på sine børn, så alle der kan kravle og gå tropper op for at hjælpe. Designer Kalle Thesbjerg har en vild",
+       "contextualTitle": "7. Spøgelseshus nær tyren Svend Otto",
+       "sports": [],
+       "tagline": "En hel landsby hjælper Jørgen og Susanne, så huset kan sælges",
+       "themes": [],
+       "title": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579",
+       "watchPath": "/se/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579"
+      }
+     ],
+     "size": 12,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 50,
+      "options": {
+       "pageSize": 50
+      }
+     }
+    }
+   }
+  ],
+  "canonical": "/liste/drtv-hero-saturday-18_00_89366"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='420884'&Width=1920&Height=1080&ImageId='50315616'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='420884'&Width=1920&Height=1080&ImageId='50315618'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='420884'&Width=1440&Height=2160&ImageId='50315620'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4673,
+  "releaseYear": 2019,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-02-10T22:59:00Z",
+    "scopes": [
+     "420884"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-28T06:30:18Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-02-10T22:59:00Z",
+    "scopes": [
+     "420884"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EOGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-28T06:30:18Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "420884"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "TYSKLAND",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Kagekampen",
+   "ExtraDetails": "Film | 1T 18M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 18M",
+   "ShortVideoUrl": "https://drod24s.akamaized.net/all/clear/none/4d/656f988d5bcad1249c9f214d/656f988c2fd3291a74b6fde4/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "kagekampen_420884",
+   "BroadcastTimeDK": "2024-01-28T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852011220",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "420884",
+  "type": "program",
+  "description": "Animationsfilm fra 2019.\nAlflingerne har levet i skjul under jorden i mange år, og det passer dem sådan set meget godt. Men for Elfie er det anderledes. Hun kæmper med at bevise sit værd over for de andre og beslutter sig for, at finde ud af, hvad livet på overfladen kan tilbyde. Hvem ved; måske kan hun endda lære et håndværk, der kan gøre de andre alflinger misundelige! Sammen med sine venner, Kipp og Buller, kravler de op til jordens overflade, hvor de møder bageren Theo, der har problemer med sin bagerbutik. Den er nemlig i fare for at blive opkøbt af et stort og upersonligt kage-imperium. Heldigvis for Theo har alflingerne ét erklæret formål i livet: At hjælpe andre! De tre små venner sætter sig for at få gang i butikken igen og hjælpe Theo fra konkurs. Der er kun et problem: Ingen af dem ved noget som helst om at bage, så der er liiige lidt startvanskeligheder, inden de kan skumme fløden af deres arbejde. Udløber: 10. feb 2024",
+  "shortDescription": "Animationsfilm fra 2019.\nAlflingerne har levet i skjul under jorden i mange år, og det passer dem sådan set meget godt. Men for Elfie er det anderledes. Hun kæmper med at bevise sit værd over for de andre og beslutter sig for, at finde ud af, hvad livet p",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Ugens film",
+  "themes": [],
+  "title": "Kagekampen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/kagekampen_420884",
+  "watchPath": "/se/kagekampen_420884",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441517'&Width=1920&Height=1080&ImageId='52048971'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441517'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441517'&Width=1920&Height=1080&ImageId='52048973'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1496,
+  "releaseYear": 2001,
+  "episodeNumber": 1,
+  "episodeName": "Sigurd og Symfoniorkesteret: Vidunderlige Violiner",
+  "seasonId": "441516",
+  "showId": "441515",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "441517"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "441517"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "441517",
+   "441516"
+  ],
+  "categories": [
+   "kultur",
+   "musik",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Musik,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Kultur,Musik,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S1:E1 Vidunderlige Violiner",
+   "ContextualTitleExtraDetails": "16. SEP 2001 | 25M",
+   "AvailableFrom": "2001-09-16T16:00:00.0000000Z",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Sigurd og Symfoniorkesteret: Sæson 1 – Vidunderlige Violiner",
+   "ExtraDetails": "SÆSON 1 EPISODE 1 | 25M",
+   "PathIdSegment": "sigurd-og-symfoniorkesteret_-vidunderlige-violiner_441517",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00802897870",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "441517",
+  "type": "episode",
+  "description": "Dansk børneserie fra 2001. I dag skal det handle om violiner. Sigurd besøger Radiosymfoniorkestret og dirigenten Hansen, som fortæller og spiller en historie om 'Valkyrien'. Og Johannes fortæller Sigurd om, hvordan han kom til at spille violin. Desuden er der dukketeater om Bach, Mozart og Beethoven.\nManuskript og medvirkende: Sigurd Barrett, Nikolaj Hansen m.fl. Udløber: 27. sep 2025",
+  "shortDescription": "Dansk børneserie fra 2001. I dag skal det handle om violiner. Sigurd besøger Radiosymfoniorkestret og dirigenten Hansen, som fortæller og spiller en historie om 'Valkyrien'. Og Johannes fortæller Sigurd om, hvordan han kom til at spille violin. Desuden er",
+  "contextualTitle": "1. Vidunderlige Violiner",
+  "sports": [],
+  "themes": [],
+  "title": "Sigurd og Symfoniorkesteret: Vidunderlige Violiner",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/sigurd-og-symfoniorkesteret_-vidunderlige-violiner_441517",
+  "watchPath": "/se/sigurd-og-symfoniorkesteret_-vidunderlige-violiner_441517",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

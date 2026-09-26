@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18876'&Width=1920&Height=1080&ImageId='4376631'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18876'&Width=1920&Height=1080&ImageId='49995214'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='18876'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-06-03T21:59:00Z",
+    "scopes": [
+     "18876"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2018-01-23T05:48:37Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "18876"
+  ],
+  "categories": [
+   "livsstil",
+   "rejse",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Rejse,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Livsstil,Rejse",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Anders Lund Madsen i Den Yderste By",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "PathIdSegment": "anders-lund-madsen-i-den-yderste-by_18876",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1896109540000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "18876",
+  "type": "show",
+  "description": "I det yderste Østgrønland ligger byen Ittoqqortoormiit - 171 træhuse på randen af verden. Bag byen er der isbjørne og stilhed og masser af ingenting i mange hundrede kilometers afstand. Anders Lund Madsen møder menneskene inde i de huse. Hvem er de? Og har de formet byen, eller har byen formet dem?",
+  "shortDescription": "I det yderste Østgrønland ligger byen Ittoqqortoormiit - 171 træhuse på randen af verden. Bag byen er der isbjørne og stilhed og masser af ingenting i mange hundrede kilometers afstand. Anders Lund Madsen møder menneskene inde i de huse. Hvem er de? Og ha",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Anders Lund Madsen i Den Yderste By",
+  "vodItemWatchPath": "",
+  "path": "/serie/anders-lund-madsen-i-den-yderste-by_18876",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

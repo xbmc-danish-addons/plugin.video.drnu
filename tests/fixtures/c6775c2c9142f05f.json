@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438459'&Width=1440&Height=2160&ImageId='51646892'",
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438459'&Width=1920&Height=1080&ImageId='51492566'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438459'&Width=1920&Height=1080&ImageId='51646889'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2137,
+  "releaseYear": 1990,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-01-08T22:59:59Z",
+    "scopes": [
+     "438459"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-08T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-01-08T22:59:59Z",
+    "scopes": [
+     "438459"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-08T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438459"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Dronningen møder pressen - 50-års fødselsdag",
+   "ExtraDetails": "Gensyn | 36M",
+   "TitleExtraDetails": "DR Gensyn | 36M",
+   "PathIdSegment": "dronningen-moeder-pressen-_-50_aars-foedselsdag_438459",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00103612670",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438459",
+  "type": "program",
+  "description": "Dansk reportage fra 1990. Hvordan er det at have hund? Dronningen fylder 50 år, og i den forbindelse har hun inviteret til pressemøde - for første gang i gemakkerne på Amalienborg. Spørgsmålene spænder vidt. Hvilken del af det omfattende fødselsdagsprogram glæder regenten sig mest til? Hvordan går det med ombygningen af Château de Cayx? Efter pressemødet giver regenten et kort interview. Emnerne omhandler bl.a. kritik af nytårstalerne, avisomtaler af dronningen og tolerance. Udløber: 8. jan 2026",
+  "shortDescription": "Dansk reportage fra 1990. Hvordan er det at have hund? Dronningen fylder 50 år, og i den forbindelse har hun inviteret til pressemøde - for første gang i gemakkerne på Amalienborg. Spørgsmålene spænder vidt. Hvilken del af det omfattende fødselsdagsprogra",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Dronningen møder pressen - 50-års fødselsdag",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/dronningen-moeder-pressen-_-50_aars-foedselsdag_438459",
+  "watchPath": "/se/dronningen-moeder-pressen-_-50_aars-foedselsdag_438459",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

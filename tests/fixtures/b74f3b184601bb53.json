@@ -1,0 +1,108 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441993'&Width=1920&Height=1080&ImageId='52038069'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441993'&Width=1920&Height=1080&ImageId='52038071'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441993'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1340,
+  "releaseYear": 1997,
+  "episodeNumber": 8,
+  "episodeName": "Troldspejlet",
+  "seasonId": "441992",
+  "showId": "441991",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "441993"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EOEAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "441993"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EVGAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "441993",
+   "441992"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PlayButtonExtraDetails": "S1997:E8",
+   "ContextualTitleExtraDetails": "24. FEB 1997 | 22M",
+   "AvailableFrom": "1997-02-24T05:00:00.0000000Z",
+   "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Troldspejlet: Sæson 1997 – 8. episode",
+   "ExtraDetails": "SÆSON 1997 EPISODE 8 | 22M",
+   "PathIdSegment": "troldspejlet_441993",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00802078960",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "441993",
+  "type": "episode",
+  "description": "Dansk kulturprogram fra 1997. Troldspejlet ser på nye spil til PlayStation, bl.a. 'Die Hard Trilogy', og anmelder en hel række nye videofilm med dyr som medvirkende - en chimpanse, en orangutang og en delfin. Og så tager Jakob Stegelmann et kig på et par nyheder fra rollespillenes verden - 'Heavy Gear', 'Dragonlance Fifth Age' og 'Hong Kong Action Theater'. Der er også et smugkig på Nintendos 'Super Mario 64'.\nVært og tilrettelægger: Jakob Stegelmann. Udløber: 27. mar 2026",
+  "shortDescription": "Dansk kulturprogram fra 1997. Troldspejlet ser på nye spil til PlayStation, bl.a. 'Die Hard Trilogy', og anmelder en hel række nye videofilm med dyr som medvirkende - en chimpanse, en orangutang og en delfin. Og så tager Jakob Stegelmann et kig på et par ",
+  "contextualTitle": "8. episode",
+  "sports": [],
+  "themes": [],
+  "title": "Troldspejlet",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/troldspejlet_441993",
+  "watchPath": "/se/troldspejlet_441993",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

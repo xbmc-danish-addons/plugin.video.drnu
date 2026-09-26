@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1920&Height=1080&ImageId='43063910'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1920&Height=1080&ImageId='43063908'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-10-31T22:59:00Z",
+    "scopes": [
+     "350296"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-03T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "350296"
+  ],
+  "categories": [
+   "serie",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Abe-aner",
+   "ExtraDetails": "Serie | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "abe_aner_350296",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3404285710000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "350296",
+  "type": "show",
+  "description": "Det er børnelærdom, at mennesket nedstammer fra aberne, men de færreste er så nært beslægtet med dem som pigen Lena i denne hollandske familieserie. Lena  bor nemlig sammen med sin nærmeste slægtning Benedict, der er en vaskeægte gorilla! Det giver selvfølgelig en del bøvl, især med Lenas tidligere plejeforældre, der gerne vil have fingre i hendes store formue.",
+  "shortDescription": "Det er børnelærdom, at mennesket nedstammer fra aberne, men de færreste er så nært beslægtet med dem som pigen Lena i denne hollandske familieserie. Lena  bor nemlig sammen med sin nærmeste slægtning Benedict, der er en vaskeægte gorilla! Det giver selvfø",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Abe-aner",
+  "vodItemWatchPath": "",
+  "path": "/serie/abe_aner_350296",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

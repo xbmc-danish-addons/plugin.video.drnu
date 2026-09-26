@@ -1,0 +1,749 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:g",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | G",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/g",
+  "items": [
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427847'&Width=1920&Height=1080&ImageId='50861612'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427847'&Width=1920&Height=1080&ImageId='50861610'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='427847'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427847'&Width=2048&Height=2048&ImageId='51052183'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "427847"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "427847"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Galaktiske Ella",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "galaktiske-ella_427847",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4247778825000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "427847",
+    "type": "show",
+    "shortDescription": "Et ægte rumeventyr med Galaktiske Ella. Hun er 8 år gammel - men helt vant til at tage på opdagelse på planeterne fra sin rumstation et sted mellem Mars og Jupiter.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Galaktiske Ella",
+    "vodItemWatchPath": "",
+    "path": "/serie/galaktiske-ella_427847"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423718'&Width=1920&Height=1080&ImageId='50507418'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423718'&Width=1920&Height=1080&ImageId='50507423'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='423718'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='423718'&Width=2048&Height=2048&ImageId='50597483'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "423718"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "423718"
+    ],
+    "categories": [
+     "dyr",
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dyr,Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Dyr,Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Garfield",
+     "ExtraDetails": "Dyr | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "PathIdSegment": "garfield_423718",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5009265605000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "423718",
+    "type": "show",
+    "shortDescription": "Der er dømt flabet hankat med hang til lasagne, når Garfield kæmper med omverdenen - og Futte og hans ejer Harald forsøger at hænge på. Bygget over Jim Davis' tegneserie, som er en af verdens mest læste.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Garfield",
+    "vodItemWatchPath": "",
+    "path": "/serie/garfield_423718"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='69825'&Width=1920&Height=1080&ImageId='4377494'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='69825'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='69825'&Width=1920&Height=1080&ImageId='4377498'"
+    },
+    "availableSeasonCount": 3,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "69825"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "69825"
+    ],
+    "categories": [
+     "humor",
+     "ramasjang ø",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Humor,Ramasjang ø,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Humor,Ramasjang ø",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Gepetto News",
+     "ExtraDetails": "Humor | 3 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 3 SÆSONER",
+     "PathIdSegment": "gepetto-news_69825",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:754495856000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "69825",
+    "type": "show",
+    "shortDescription": "Få alle de spritnye nyheder, som du ikke vidste, du havde brug for. Leveret af Jacob Riising og hans hårdtarbejdende, men også lettere forvirrede, dukke-kollegaer.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Gepetto News",
+    "vodItemWatchPath": "",
+    "path": "/serie/gepetto-news_69825"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='188878'&Width=1920&Height=1080&ImageId='3426974'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='188878'&Width=1920&Height=1080&ImageId='48477235'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='188878'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='188878'&Width=2048&Height=2048&ImageId='6669490'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "188878"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "188878"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Gigantosaurus",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "gigantosaurus_188878",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2648185885000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "188878",
+    "type": "show",
+    "shortDescription": "I denne franske animationsserie prøver fire unge dinosaurvenner at blive klogere på deres verden og løse forskellige udfordringer ved hjælp af samarbejde og snilde. Men de skal passe på de listige raptorer, der vil forpurre deres planer - og så har Gigant",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Gigantosaurus",
+    "vodItemWatchPath": "",
+    "path": "/serie/gigantosaurus_188878"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='194360'&Width=1920&Height=1080&ImageId='3607626'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='194360'&Width=1920&Height=1080&ImageId='3607628'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='194360'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "194360"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "194360"
+    ],
+    "badge": "RR 2020",
+    "categories": [
+     "dyr",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dyr,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Dyr,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Gro og Blå redder fuglene",
+     "ExtraDetails": "Dyr | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "BadgeBackgroundColour_HexCode": "#00a046",
+     "PathIdSegment": "gro-og-blaa-redder-fuglene_194360",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2785427515000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "194360",
+    "type": "show",
+    "shortDescription": "Ingen kan gøre alt, men alle kan gøre noget. Og Gro er fast besluttet på, at gøre alt for at redde fuglene og Bedstes gamle gård. Men den onde Arne Bjarne hader fugle og vil bygge verdens største parkeringshus lige dér, hvor Bedstes gård ligger.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Gro og Blå redder fuglene",
+    "vodItemWatchPath": "",
+    "path": "/serie/gro-og-blaa-redder-fuglene_194360"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390078'&Width=1920&Height=1080&ImageId='49886814'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390078'&Width=1440&Height=2160&ImageId='49886808'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390078'&Width=1920&Height=1080&ImageId='49886793'"
+    },
+    "duration": 1754,
+    "releaseYear": 2015,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "390078"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "390078"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "390078"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Grumme rim - Del 1",
+     "ExtraDetails": "Film | 29M",
+     "TitleExtraDetails": "DR Ramasjang | 29M",
+     "PathIdSegment": "grumme-rim-_-del-1_390078",
+     "BroadcastTimeDK": "2022-12-29T08:35:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00851503360",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "390078",
+    "type": "program",
+    "shortDescription": "Baseret på børnebøgerne skrevet af Roald Dahl.\nSnehvide og Den lille Rødhætte bliver bedstevenner, da Snehvide tager sig af den onde Dronning, mens Rødhætte bliver kaldt hjem for at tage sig af et par sultne ulve - den ene har spist hendes bedstemor og ha",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Grumme rim - Del 1",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/grumme-rim-_-del-1_390078",
+    "watchPath": "/se/grumme-rim-_-del-1_390078"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390077'&Width=1920&Height=1080&ImageId='46683756'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390077'&Width=1440&Height=2160&ImageId='49886805'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390077'&Width=1920&Height=1080&ImageId='49886811'"
+    },
+    "duration": 1728,
+    "releaseYear": 2015,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "390077"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "390077"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "390077"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Grumme rim - Del 2",
+     "ExtraDetails": "Film | 29M",
+     "TitleExtraDetails": "DR Ramasjang | 29M",
+     "PathIdSegment": "grumme-rim-_-del-2_390077",
+     "BroadcastTimeDK": "2022-12-29T09:00:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00851503370",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "390077",
+    "type": "program",
+    "shortDescription": "Baseret på børnebøgerne af Roald Dahl.\nJack vokser op med et godt øje til naboen Askepot. Men hun har kastet øjnene på prinsen til ballet, og Jack bliver distraheret af en kæmpe bønnestage for enden af haven. Vil de finde den ægte kærlighed? Udløber: 30. ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Grumme rim - Del 2",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/grumme-rim-_-del-2_390077",
+    "watchPath": "/se/grumme-rim-_-del-2_390077"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353481'&Width=1920&Height=1080&ImageId='43297143'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353481'&Width=1920&Height=1080&ImageId='48547021'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353481'&Width=1440&Height=2160&ImageId='43297151'"
+    },
+    "duration": 1616,
+    "releaseYear": 2009,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "353481"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "353481"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "353481"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Grøffeldyret",
+     "ExtraDetails": "Film | 27M",
+     "TitleExtraDetails": "DR Ramasjang | 27M",
+     "ShortVideoUrl": "https://drod24c.akamaized.net/all/clear/none/c9/60ec26f0ac5a6109d833a9c9/60ec26ecc93d8e0e18b46c95/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "groeffeldyret_353481",
+     "BroadcastTimeDK": "2022-12-27T09:00:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00850930660",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "353481",
+    "type": "program",
+    "shortDescription": "Hvad den lille mus ikke har i størrelse, har han i kløgt og snedighed - og det får han også brug for, da han støder på tre sultne dyr, der alle vil have ham som middagsmad. Måske kan Grøffeldyret hjælpe - men hvad sker der, når musen møder sit selvopfundn",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Et eventyr til dig",
+    "themes": [],
+    "title": "Grøffeldyret",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/groeffeldyret_353481",
+    "watchPath": "/se/groeffeldyret_353481"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353480'&Width=1920&Height=1080&ImageId='43297142'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353480'&Width=1440&Height=2160&ImageId='43297152'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353480'&Width=1920&Height=1080&ImageId='48547019'"
+    },
+    "duration": 1582,
+    "releaseYear": 2009,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "353480"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "353480"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "353480"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Grøflingen",
+     "ExtraDetails": "Film | 26M",
+     "TitleExtraDetails": "DR Ramasjang | 26M",
+     "ShortVideoUrl": "https://drod23f.akamaized.net/all/clear/none/97/5fdfdfd9539f0215e004da97/5fdfdf28539f0215e004da95/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "groeflingen_353480",
+     "BroadcastTimeDK": "2022-12-28T09:10:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00850930650",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "353480",
+    "type": "program",
+    "shortDescription": "Trods Grøffeldyrets advarsler beslutter hans datter Grøflingen sig for at snige sig ud i skoven for at finde den store, stygge mus, som hendes far har fortalt alle de uhyggelige historier om. Men da hun endelig finder ham, synes hun mest, han ligner aften",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Et eventyr til dig",
+    "themes": [],
+    "title": "Grøflingen",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/groeflingen_353480",
+    "watchPath": "/se/groeflingen_353480"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='7190'&Width=1920&Height=1080&ImageId='16424220'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='7190'&Width=1920&Height=1080&ImageId='50116144'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='7190'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='7190'&Width=2048&Height=2048&ImageId='17479589'"
+    },
+    "availableSeasonCount": 3,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "7190"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "7190"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "7190"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "YoungerKids",
+     "RatingSegment": "Minisjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "True",
+     "PageTitle": "Gurli Gris",
+     "ExtraDetails": "Tegnefilm | 3 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 3 SÆSONER",
+     "PathIdSegment": "gurli-gris_7190",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang",
+      "minisjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:754434374000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "7190",
+    "type": "show",
+    "shortDescription": "Gurli Gris er britiske tegnefilm om hverdagens små og store eventyr hos den elskelige lattermilde familien Gris og alle deres venner. Alle episoder af Gurli Gris er med dansk tale.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Gurli Gris",
+    "vodItemWatchPath": "",
+    "path": "/serie/gurli-gris_7190"
+   }
+  ],
+  "size": 10,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

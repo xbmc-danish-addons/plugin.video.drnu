@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440857'&Width=1920&Height=1080&ImageId='51738949'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440857'&Width=1440&Height=2160&ImageId='51738939'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440857'&Width=1920&Height=1080&ImageId='51738951'",
+   "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440857'&Width=2048&Height=2048&ImageId='51833851'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-11-30T22:59:00Z",
+    "scopes": [
+     "440857"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-04T15:50:50Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "440857"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Vestens vildeste hamster",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "vestens-vildeste-hamster_440857",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3349888248000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "440857",
+  "type": "show",
+  "description": "Hamsteren Billy vokser op i det vilde vesten med en brændende lyst til at drage ud i verden! Hver dag er en mulighed for at opleve et nyt eventyr, der er de største cowboys værdigt, og Billy er fast besluttet på ikke at gå glip af det. Han tager sin trofaste ven ormen Egon og sin medsammensvorne måren Sussi med sig, og så er de afsted!",
+  "shortDescription": "Hamsteren Billy vokser op i det vilde vesten med en brændende lyst til at drage ud i verden! Hver dag er en mulighed for at opleve et nyt eventyr, der er de største cowboys værdigt, og Billy er fast besluttet på ikke at gå glip af det. Han tager sin trofa",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Vestens vildeste hamster",
+  "vodItemWatchPath": "",
+  "path": "/serie/vestens-vildeste-hamster_440857",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

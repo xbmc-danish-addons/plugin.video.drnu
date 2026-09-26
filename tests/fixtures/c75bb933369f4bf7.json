@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442942'&Width=1920&Height=1080&ImageId='51913965'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442942'&Width=1440&Height=2160&ImageId='51913967'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442942'&Width=1920&Height=1080&ImageId='51913969'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4542,
+  "releaseYear": 2017,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-21T21:59:00Z",
+    "scopes": [
+     "442942"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T06:30:52Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-21T21:59:00Z",
+    "scopes": [
+     "442942"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E1GAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T06:30:52Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442942"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "TYSKLAND",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Harepatruljen - Vogterne af det gyldne æg",
+   "ExtraDetails": "Film | 1T 16M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 16M",
+   "ShortVideoUrl": "https://drod23d.akamaized.net/all/clear/none/ab/65f8ca643873e3350c531aab/65f8ca632839480a40b03acc/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "harepatruljen-_-vogterne-af-det-gyldne-aeg_442942",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852308100",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442942",
+  "type": "program",
+  "description": "Max har opnået sit livs drøm: Han er den første storbyhare, der nogensinde er blevet valgt til påskehare. Nu må han sammen med sine venner finde sin helt egen superkræft, så han kan beskytte påsken. Men så sker det utænkelige: Påskeharernes magtfulde og magiske Guldæg bliver sort - hvilket betyder, at påsken er i stor, stor fare! Leo, som er lederen af en bande bestående af storbyharer ønsker nemlig at afskaffe påsken, og han narrer en rævefamilie til at stjæle alle påskeæg. Max' eneste chance for at redde påsken er at samarbejde med den unge ræv Ferdinand, som tilbyder ham sin hjælp. Men kan en hare virkelig stole på en ræv? Udløber: 21. apr 2024",
+  "shortDescription": "Max har opnået sit livs drøm: Han er den første storbyhare, der nogensinde er blevet valgt til påskehare. Nu må han sammen med sine venner finde sin helt egen superkræft, så han kan beskytte påsken. Men så sker det utænkelige: Påskeharernes magtfulde og m",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Ugens film",
+  "themes": [],
+  "title": "Harepatruljen - Vogterne af det gyldne æg",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/harepatruljen-_-vogterne-af-det-gyldne-aeg_442942",
+  "watchPath": "/se/harepatruljen-_-vogterne-af-det-gyldne-aeg_442942",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

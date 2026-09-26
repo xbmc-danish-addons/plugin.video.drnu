@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424448'&Width=1440&Height=2160&ImageId='51018655'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424448'&Width=1920&Height=1080&ImageId='51018651'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='424448'&Width=1920&Height=1080&ImageId='51018658'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3124,
+  "releaseYear": 2022,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-10-31T22:59:00Z",
+    "scopes": [
+     "424448"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-11T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-10-31T22:59:00Z",
+    "scopes": [
+     "424448"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E1NAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-11T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "424448"
+  ],
+  "categories": [
+   "dokumentar",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "FRANKRIG & MONACO",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Al Pacino - Manden, myten, legenden",
+   "ExtraDetails": "Dokumentar | 52M",
+   "TitleExtraDetails": "DR2 | 52M",
+   "PathIdSegment": "al-pacino-_-manden-myten-legenden_424448",
+   "BroadcastTimeDK": "2024-01-11T19:05:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00022213050",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "424448",
+  "type": "program",
+  "description": "Fransk dokumentar fra 2022.\n(Al Pacino, le Bronx et la fureur)\n'Godfather'-filmene, 'Serpico' og 'Scarface'. Den Oscarvindende skuespiller Al Pacino er en legende, der allerede som 4-årig genopfører filmscener foran spejlet hjemme i Bronx. Som 26-årig bliver han optaget på Actors Studio i New York. Han er indbegrebet af byen med alle dens skyggesider. I gennembruddet 'Godfather' spiller han overfor barndomsidolet Marlon Brando, men udenfor lærredet kæmper han selv mod sine egne dæmoner. Udløber: 31. okt 2025",
+  "shortDescription": "Fransk dokumentar fra 2022.\n(Al Pacino, le Bronx et la fureur)\n'Godfather'-filmene, 'Serpico' og 'Scarface'. Den Oscarvindende skuespiller Al Pacino er en legende, der allerede som 4-årig genopfører filmscener foran spejlet hjemme i Bronx. Som 26-årig bli",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Al Pacino - Manden, myten, legenden",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/al-pacino-_-manden-myten-legenden_424448",
+  "watchPath": "/se/al-pacino-_-manden-myten-legenden_424448",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

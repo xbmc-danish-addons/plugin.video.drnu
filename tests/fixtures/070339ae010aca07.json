@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='152187'&Width=1920&Height=1080&ImageId='4424427'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='152187'&Width=1920&Height=1080&ImageId='4424425'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='152187'&Width=2048&Height=2048&ImageId='6672426'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='152187'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-11-30T22:59:00Z",
+    "scopes": [
+     "152187"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-11-06T08:39:50Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "152187"
+  ],
+  "categories": [
+   "serie",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Pippi Langstrømpe",
+   "ExtraDetails": "Serie | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "pippi-langstroempe_152187",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:754478870000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "152187",
+  "type": "show",
+  "description": "Pippi flytter ind i Villa Villekulla med sin abe hr. Nilsson, og hurtigt er Tommy og Annikas liv meget mere interessant! Astrid Lindgren skabte Pippi tilbage i 1945 - men hun er stadig verdens stærkeste pige i denne ny-restaurerede udgave af den udødelige klassiker.",
+  "shortDescription": "Pippi flytter ind i Villa Villekulla med sin abe hr. Nilsson, og hurtigt er Tommy og Annikas liv meget mere interessant! Astrid Lindgren skabte Pippi tilbage i 1945 - men hun er stadig verdens stærkeste pige i denne ny-restaurerede udgave af den udødelige",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Pippi Langstrømpe",
+  "vodItemWatchPath": "",
+  "path": "/serie/pippi-langstroempe_152187",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

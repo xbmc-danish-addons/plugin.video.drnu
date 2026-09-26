@@ -1,0 +1,90 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389862'&Width=1920&Height=1080&ImageId='46873499'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389862'&Width=1920&Height=1080&ImageId='47280083'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='389862'&Width=1440&Height=2160&ImageId='46983796'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 6044,
+  "releaseYear": 2019,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-07-11T21:59:59Z",
+    "scopes": [
+     "389862"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKIAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-10T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "389862"
+  ],
+  "categories": [
+   "dokumentar",
+   "politik",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Politik,DR1,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Politik",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PageTitle": "A Storm Foretold - det amerikanske oprør",
+   "ExtraDetails": "Dokumentar | 1T 41M",
+   "TitleExtraDetails": "DR1 | 1T 41M",
+   "ShortVideoUrl": "https://drod22h.akamaized.net/all/clear/none/5b/6482d37505fdf1224c847f5b/6482d372b437db1300a41d93/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "a-storm-foretold-_-det-amerikanske-oproer_389862",
+   "BroadcastTimeDK": "2023-06-12T21:25:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00921906100",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "389862",
+  "type": "program",
+  "description": "Dansk dokumentarfilm fra 2023.\nChristoffer Guldbrandsens dokumentarfilm giver et unikt indblik i magtens indre i Donald Trumps sidste måneder som præsident. Filmen følger kongemageren bag Trump, Roger Stone, som bevæger sig i en politisk verden og tankegang, hvor alt er tilladt. Her skifter alliancer og fjendskaber som i et Shakespeare-drama. Var det forudsigeligt, at Trumps præsidentperiode kulminerede med det dødbringende angreb på Kongressen i Washington D.C. i januar 2021? (Dokumania) Udløber: 11. jul 2024",
+  "shortDescription": "Dansk dokumentarfilm fra 2023.\nChristoffer Guldbrandsens dokumentarfilm giver et unikt indblik i magtens indre i Donald Trumps sidste måneder som præsident. Filmen følger kongemageren bag Trump, Roger Stone, som bevæger sig i en politisk verden og tankega",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Løgne, bedrag og hjertestop. Ny dansk dokumentar om Trumps rådgiver",
+  "themes": [],
+  "title": "A Storm Foretold - det amerikanske oprør",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/a-storm-foretold-_-det-amerikanske-oproer_389862",
+  "watchPath": "/se/a-storm-foretold-_-det-amerikanske-oproer_389862",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

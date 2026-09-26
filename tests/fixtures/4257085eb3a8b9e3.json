@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439497'&Width=1920&Height=1080&ImageId='51598679'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439497'&Width=1440&Height=2160&ImageId='51598671'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439497'&Width=1920&Height=1080&ImageId='51598676'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 206,
+  "releaseYear": 1994,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-13T22:59:59Z",
+    "scopes": [
+     "439497"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-13T22:59:59Z",
+    "scopes": [
+     "439497"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "439497"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-NOT-RATED",
+   "PageTitle": "Pressemøde med Morten Boje - om Estonias forlis",
+   "ExtraDetails": "Gensyn | 3M",
+   "TitleExtraDetails": "DR Gensyn | 3M",
+   "PathIdSegment": "pressemoede-med-morten-boje-_-om-estonias-forlis_439497",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00502411040",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "439497",
+  "type": "program",
+  "description": "Dansk reportage fra 1994. Færgen Estonia forliser d. 28. september 1994. En defekt borgport er skyld i en af de værste skibskatastrofer i Europa i fredstid. 28-årige Morten Boje når at bane sig vej ud af skibet, inden det synker, og han finder en plads i en punkteret redningsflåde. I seks timer kæmper han for sit liv i Østersøens storm og kulde, før han bliver fundet af en redningshelikopter. På et pressemøde to dage efter forklarer en rørt Morten Boje, at han tænkte på sin kæreste og på at overleve: \"Tiden var ikke inde til at dø\". 852 personer omkommer. Kun 137 overlever. Udløber: 13. mar 2026",
+  "shortDescription": "Dansk reportage fra 1994. Færgen Estonia forliser d. 28. september 1994. En defekt borgport er skyld i en af de værste skibskatastrofer i Europa i fredstid. 28-årige Morten Boje når at bane sig vej ud af skibet, inden det synker, og han finder en plads i ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Pressemøde med Morten Boje - om Estonias forlis",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/pressemoede-med-morten-boje-_-om-estonias-forlis_439497",
+  "watchPath": "/se/pressemoede-med-morten-boje-_-om-estonias-forlis_439497",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

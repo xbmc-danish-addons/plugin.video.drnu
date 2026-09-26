@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='341188'&Width=1920&Height=1080&ImageId='42819151'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='341188'&Width=1920&Height=1080&ImageId='42819153'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='341188'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 2,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-10-15T21:59:59Z",
+    "scopes": [
+     "341188"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-10-15T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "341188"
+  ],
+  "categories": [
+   "serie",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Spookys",
+   "ExtraDetails": "Serie | 2 SÆSONER",
+   "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+   "ShortVideoUrl": "https://drod22r.akamaized.net/all/clear/none/d1/633d686bac5a611364af63d1/633d686820f59327c425d644/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "spookys_341188",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3297383553000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "341188",
+  "type": "show",
+  "description": "Findes spøgelser virkelig? Ja, hvis du har evnen til at se dem! Spooky's er en hemmelig skole for grundlæggende spøgelsestræning. Her kommer specielle børn, der har evnen til at se spøgelser. Vi kommer til at følge eleverne Calle, Herman, Rio og Yousef på vanvittige og spændende spøgelsesjagter. Hvert spøgelse har sin svaghed, som man skal finde for at kunne besejre dem.",
+  "shortDescription": "Findes spøgelser virkelig? Ja, hvis du har evnen til at se dem! Spooky's er en hemmelig skole for grundlæggende spøgelsestræning. Her kommer specielle børn, der har evnen til at se spøgelser. Vi kommer til at følge eleverne Calle, Herman, Rio og Yousef på",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Se hele serien nu",
+  "themes": [],
+  "title": "Spookys",
+  "vodItemWatchPath": "",
+  "path": "/serie/spookys_341188",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

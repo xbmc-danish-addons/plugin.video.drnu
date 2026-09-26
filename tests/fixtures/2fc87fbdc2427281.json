@@ -1,0 +1,106 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='209732'&Width=1920&Height=1080&ImageId='6074643'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='209732'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='209732'&Width=1920&Height=1080&ImageId='6074647'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3515,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-10-26T22:59:00Z",
+    "scopes": [
+     "209732"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2020-10-26T17:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-10-26T22:59:00Z",
+    "scopes": [
+     "209732"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2020-10-26T17:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "209732"
+  ],
+  "categories": [
+   "dokumentar",
+   "historie",
+   "politik",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Historie,Politik,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Dokumentar,Historie,Politik",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Amerikanske taler der ændrede verden",
+   "ExtraDetails": "Dokumentar | 59M",
+   "TitleExtraDetails": "DR2 | 59M",
+   "ShortVideoUrl": "https://drod04m-vh.akamaihd.net/i/all/clear/streaming/1c/5f969eef539f022ef086c61c/VS-Amerikanske-taler-der-aendr_ca8b91ba154141fdbf9daa4fff925063_,3074,446,2161,808,1588,296,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "amerikanske-taler-der-aendrede-verden_209732",
+   "BroadcastTimeDK": "2020-10-28T20:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922022340",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "209732",
+  "type": "program",
+  "description": "\"Yes we can\" og \"Tear down this wall, mr. Gorbatjev\" er to citater vi alle kender. Men hvorfor er lige de citater blevet så berømte? I den danskproducerede dokumentar \"Amerikanske taler der ændrede verden,\" møder vi taleskriverne bag nogle af verdenshistoriens mest berømte præsidenttaler. Og så møder vi de danske statsministre, som blev påvirket af talerne - Anders Fogh Rasmussen, Lars Løkke Rasmussen og Helle Thorning Schmidt. Udløber: 26. okt 2025",
+  "shortDescription": "\"Yes we can\" og \"Tear down this wall, mr. Gorbatjev\" er to citater vi alle kender. Men hvorfor er lige de citater blevet så berømte? I den danskproducerede dokumentar \"Amerikanske taler der ændrede verden,\" møder vi taleskriverne bag nogle af verdenshisto",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "\"Yes we can\": Berømte præsidenttaler – og skribenterne bag dem",
+  "themes": [],
+  "title": "Amerikanske taler der ændrede verden",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/amerikanske-taler-der-aendrede-verden_209732",
+  "watchPath": "/se/amerikanske-taler-der-aendrede-verden_209732",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

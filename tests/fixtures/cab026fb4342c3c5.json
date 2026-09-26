@@ -1,0 +1,84 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='343701'&Width=1920&Height=1080&ImageId='50177663'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='343701'&Width=1920&Height=1080&ImageId='50177665'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='343701'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2033-02-01T22:59:00Z",
+    "scopes": [
+     "343701"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-10-28T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "343701"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Femlingerne",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "femlingerne_343701",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3440533114000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "343701",
+  "type": "show",
+  "description": "Allan, Allan, Allan, Allan og Allan er fem komplet identiske og lige vanvittige brødre, som bruger det meste af deres tid på at skabe mest muligt kaos på villavejen Düsseldorf allé. Men når skoleinspektøren Conny Lauridsen, som den absolut sidste mulighed, tilkalder femlingerne som vikarer til Basserup Kommuneskole, træder Allan'erne selvfølgelig til... Og i vild anarki og ekstatisk løssluppenhed vender de den normale undervisning på den ellers fredelige folkeskole fuldstændig på hovedet.",
+  "shortDescription": "Allan, Allan, Allan, Allan og Allan er fem komplet identiske og lige vanvittige brødre, som bruger det meste af deres tid på at skabe mest muligt kaos på villavejen Düsseldorf allé. Men når skoleinspektøren Conny Lauridsen, som den absolut sidste mulighed",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Femlingerne",
+  "vodItemWatchPath": "",
+  "path": "/serie/femlingerne_343701",
+  "genrePaths": [],
+  "totalUserRatings": 0,
+  "nextEpisode": {
+   "available": "16. FEB 2024 | 6:00",
+   "availableUTC": "1708059600"
+  }
+ }
+}

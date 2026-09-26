@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='93925'&Width=1920&Height=1080&ImageId='4137374'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='93925'&Width=1920&Height=1080&ImageId='4137379'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='93925'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2027-01-07T22:59:00Z",
+    "scopes": [
+     "93925"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2019-03-21T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "93925"
+  ],
+  "categories": [
+   "dokumentar",
+   "natur",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Natur,DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Dokumentar,Natur",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Arktisk kommando",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "BrandingChannelShort": "DR1",
+   "PathIdSegment": "arktisk-kommando_93925",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1845075111000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "93925",
+  "type": "show",
+  "description": "Hvert år søger Arktisk Kommando stationsspecialister og nye ansatte i slædepatruljen Sirius. 57 aspiranter møder op i Frederikshavn. Et krævende udskilningsforløb går i gang og kun få af ansøgerne vil ende med at få opfyldt deres drøm: en udstationering i Nordøstgrønland.",
+  "shortDescription": "Hvert år søger Arktisk Kommando stationsspecialister og nye ansatte i slædepatruljen Sirius. 57 aspiranter møder op i Frederikshavn. Et krævende udskilningsforløb går i gang og kun få af ansøgerne vil ende med at få opfyldt deres drøm: en udstationering i",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Arktisk kommando",
+  "vodItemWatchPath": "",
+  "path": "/serie/arktisk-kommando_93925",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

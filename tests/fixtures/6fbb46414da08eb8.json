@@ -1,0 +1,106 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437154'&Width=1920&Height=1080&ImageId='51416230'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='437154'&Width=1920&Height=1080&ImageId='51416232'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='437154'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3501,
+  "releaseYear": 2023,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-02-10T22:59:00Z",
+    "scopes": [
+     "437154"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-02-10T22:59:00Z",
+    "scopes": [
+     "437154"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "437154"
+  ],
+  "categories": [
+   "kultur",
+   "underholdning",
+   "musik",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Underholdning,Musik,DR1,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Kultur,Underholdning,Musik",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "De udvalgte - Dansk Melodi Grand Prix 2024",
+   "ExtraDetails": "Kultur | 58M",
+   "TitleExtraDetails": "DR1 | 58M",
+   "ShortVideoUrl": "https://drod22h.akamaized.net/all/clear/none/f7/65c5bdcce264ef09a8a3fcf7/65c5bdca470c650dbca63413/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+   "BroadcastTimeDK": "2024-02-10T21:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00252406010",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "437154",
+  "type": "program",
+  "description": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøver der liger forud for showet. Det bliver en unik mulighed for at lære artisterne og deres musik bedre at kende inden de ugen efter skal kæmpe om, hvem der skal repræsentere Danmark ved Eurovision Song Contest. Udløber: 10. feb 2025",
+  "shortDescription": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøv",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Kom med bag kulisserne til dette års store Grand Prix-show",
+  "themes": [],
+  "title": "De udvalgte - Dansk Melodi Grand Prix 2024",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+  "watchPath": "/se/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

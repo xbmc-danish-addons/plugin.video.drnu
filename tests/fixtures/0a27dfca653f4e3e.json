@@ -1,0 +1,105 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443474'&Width=1920&Height=1080&ImageId='51949854'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443474'&Width=1440&Height=2160&ImageId='51949851'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443474'&Width=1920&Height=1080&ImageId='51949877'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3494,
+  "releaseYear": 2024,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2029-03-24T22:59:00Z",
+    "scopes": [
+     "443474"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-24T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2029-03-24T22:59:00Z",
+    "scopes": [
+     "443474"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EXGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-24T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "443474"
+  ],
+  "categories": [
+   "dokumentar",
+   "krimi",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Krimi,DR1,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Krimi",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Konkurs på 1. klasse - Jagten på Lauritz-millionerne",
+   "ExtraDetails": "Dokumentar | 58M",
+   "TitleExtraDetails": "DR1 | 58M",
+   "ShortVideoUrl": "https://drod20f.akamaized.net/all/clear/none/9f/65fd5a6ba37f414278b3029f/65fd5a6b0264ad2ce0e6192d/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "konkurs-paa-1-klasse-_-jagten-paa-lauritz_millionerne_443474",
+   "BroadcastTimeDK": "2024-03-25T21:25:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922416190",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "443474",
+  "type": "program",
+  "description": "Ægteparret Mette og Bengt Sundstrøm var i årtier drivkraften bag det succesfulde og nytænkende auktionshus Lauritz.com. Men i juli 2023 endte auktionseventyret katastrofalt med en konkurs, hvor tusindvis af auktionskunder mangler at få udbetalt over 50 millioner kr. \nDR's journalister undersøger, hvad der gik galt, og hvad de mange penge, som Lauritz.coms kunder nu mangler, er blevet brugt til. Jagten fører bl.a. til et gods i Sverige, som Lauritz.com har betalt for, og et vinslot i Frankrig fyldt med kunst, som kuratorerne mener, tilhører konkursboet. Udløber: 24. mar 2029",
+  "shortDescription": "Ægteparret Mette og Bengt Sundstrøm var i årtier drivkraften bag det succesfulde og nytænkende auktionshus Lauritz.com. Men i juli 2023 endte auktionseventyret katastrofalt med en konkurs, hvor tusindvis af auktionskunder mangler at få udbetalt over 50 mi",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Hvor er de 50 millioner kr., som auktionskunderne mangler?",
+  "themes": [],
+  "title": "Konkurs på 1. klasse - Jagten på Lauritz-millionerne",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/konkurs-paa-1-klasse-_-jagten-paa-lauritz_millionerne_443474",
+  "watchPath": "/se/konkurs-paa-1-klasse-_-jagten-paa-lauritz_millionerne_443474",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

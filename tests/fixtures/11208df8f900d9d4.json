@@ -1,0 +1,105 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='411162'&Width=1920&Height=1080&ImageId='49839614'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='411162'&Width=1440&Height=2160&ImageId='49839616'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='411162'&Width=1920&Height=1080&ImageId='49839618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 6910,
+  "releaseYear": 2022,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-06-07T21:59:00Z",
+    "scopes": [
+     "411162"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EOLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-10-15T04:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-06-07T21:59:00Z",
+    "scopes": [
+     "411162"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E2NAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-10-15T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "411162"
+  ],
+  "categories": [
+   "dokumentar",
+   "kultur",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Kultur,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Kultur",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PageTitle": "Apolonia, Apolonia",
+   "ExtraDetails": "Dokumentar | 1T 55M",
+   "TitleExtraDetails": "DR2 | 1T 55M",
+   "ShortVideoUrl": "https://drod21h.akamaized.net/all/clear/none/5f/6523ec54020a901fc0e20b5f/6523ec52ce60db185408e4f3/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "apolonia-apolonia_411162",
+   "BroadcastTimeDK": "2023-10-15T22:15:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00921700600",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "411162",
+  "type": "program",
+  "description": "Prisvindende dansk dokumentarfilm fra 2022.\nEt usædvanligt nært og eksistentielt portræt af billedkunstneren Apolonia Sokol fortalt over hele 13 år af den danske dokumentarist Lea Glob. En af de helt store sensationer og en film af en sjælden dybde og styrke. Filmen var shortlisted til en Oscar og vandt fem Robert-priser i 2024, bl.a. årets instruktør og årets dokumentarfilm (Dokumania) Udløber: 7. jun 2026",
+  "shortDescription": "Prisvindende dansk dokumentarfilm fra 2022.\nEt usædvanligt nært og eksistentielt portræt af billedkunstneren Apolonia Sokol fortalt over hele 13 år af den danske dokumentarist Lea Glob. En af de helt store sensationer og en film af en sjælden dybde og sty",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Kunstner, outsider, rebel, kvinde. Prisvindende dansk dokumentar",
+  "themes": [],
+  "title": "Apolonia, Apolonia",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/apolonia-apolonia_411162",
+  "watchPath": "/se/apolonia-apolonia_411162",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

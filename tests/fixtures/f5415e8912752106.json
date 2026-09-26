@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353488'&Width=1920&Height=1080&ImageId='43297190'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353488'&Width=1440&Height=2160&ImageId='43297201'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353488'&Width=1920&Height=1080&ImageId='48547000'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3494,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-12-31T22:59:00Z",
+    "scopes": [
+     "353488"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-01-01T10:42:27Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-12-31T22:59:00Z",
+    "scopes": [
+     "353488"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EMGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-01-01T10:42:27Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "353488"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Cirkeline - Ost og kærlighed",
+   "ExtraDetails": "Film | 58M",
+   "TitleExtraDetails": "DR Ramasjang | 58M",
+   "PathIdSegment": "cirkeline-_-ost-og-kaerlighed_353488",
+   "BroadcastTimeDK": "2023-01-01T11:40:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00020883560",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "353488",
+  "type": "program",
+  "description": "På ostejagt møder Cirkeline og musene den lille og meget nærsynede Mille, der er faret vild. De inviterer hende med hjem. Da de finder ud af, at Mille har fødselsdag næste dag, beslutter de sig for at invitere hende til fødselsdagsfest. Men Milles far er rigtig ond. Mille skal skaffe ost til familien, så hun har slet ikke tid til at gå til fødselsdagsfest, siger han. Det er meget synd for Mille. En fødselsdag SKAL fejres. Så uanset hvad hendes far siger, så har Cirkeline og vennerne tænkt sig at holde en fødselsdag, Mille aldrig glemmer.... Udløber: 31. dec 2025",
+  "shortDescription": "På ostejagt møder Cirkeline og musene den lille og meget nærsynede Mille, der er faret vild. De inviterer hende med hjem. Da de finder ud af, at Mille har fødselsdag næste dag, beslutter de sig for at invitere hende til fødselsdagsfest. Men Milles far er ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Cirkeline - Ost og kærlighed",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/cirkeline-_-ost-og-kaerlighed_353488",
+  "watchPath": "/se/cirkeline-_-ost-og-kaerlighed_353488",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

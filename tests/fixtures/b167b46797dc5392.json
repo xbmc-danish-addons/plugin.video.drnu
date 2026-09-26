@@ -1,0 +1,112 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434275'&Width=1920&Height=1080&ImageId='51340173'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434275'&Width=1920&Height=1080&ImageId='51340196'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='434275'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1661,
+  "releaseYear": 2024,
+  "episodeNumber": 3,
+  "episodeName": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
+  "seasonId": "431291",
+  "showId": "6569",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-02-10T22:59:00Z",
+    "scopes": [
+     "434275"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-02-10T22:59:00Z",
+    "scopes": [
+     "434275"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "434275",
+   "431291"
+  ],
+  "categories": [
+   "nyheder og aktualitet",
+   "underholdning",
+   "humor/satire",
+   "dr2"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Nyheder og Aktualitet,Underholdning,Humor/satire,DR2",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Nyheder og Aktualitet,Underholdning,Humor/satire",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-EXCEPT",
+   "PlayButtonExtraDetails": "S12:E3 Programmet fra himlen",
+   "ContextualTitleExtraDetails": "10. FEB 2024 | 28M",
+   "AvailableFrom": "2024-02-10T05:00:00.0000000Z",
+   "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+   "PresentationTypeCode": "CurrentAffairs",
+   "PageTitle": "Tæt på sandheden med Jonatan Spang: Sæson 12 – Programmet fra himlen",
+   "ExtraDetails": "10. FEB 2024 | 28M",
+   "ShortVideoUrl": "https://drod22a.akamaized.net/all/clear/none/c1/65c4cd1ae264ef09a8a3fcc1/65c4cd19f1997015b80a127a/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275",
+   "BroadcastTimeDK": "2024-02-10T21:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922415030",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "434275",
+  "type": "episode",
+  "description": "Vi er slet ikke færdige med at tale om mink, da det er kommet frem, at erstatningen til minkavlere formentlig vil stige med omkring seks milliarder kroner. Og så er der et nyt lovforslag under behandling. Det handler om, hvilket nationalflag du må have i din flagstang. Vi tager også et kig på prisstigningen for at rejse med bus, tog eller metro. Og så har vi også nået vores klimamål for 2025 - eller har vi nu også det? Udløber: 10. feb 2025",
+  "shortDescription": "Vi er slet ikke færdige med at tale om mink, da det er kommet frem, at erstatningen til minkavlere formentlig vil stige med omkring seks milliarder kroner. Og så er der et nyt lovforslag under behandling. Det handler om, hvilket nationalflag du må have i ",
+  "contextualTitle": "Programmet fra himlen",
+  "sports": [],
+  "tagline": "Et satirisk blik på ugens nyheder og tendenser",
+  "themes": [],
+  "title": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275",
+  "watchPath": "/se/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

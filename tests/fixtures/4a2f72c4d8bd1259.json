@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6821'&Width=1920&Height=1080&ImageId='4395634'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6821'&Width=1920&Height=1080&ImageId='51037257'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6821'&Width=1440&Height=2160&ImageId='51037260'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-12-09T22:59:00Z",
+    "scopes": [
+     "6821"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2017-09-03T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "6821"
+  ],
+  "categories": [
+   "dokumentar",
+   "sport",
+   "p3",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Sport,P3",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "DisplayCategory": "Dokumentar,Sport",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Astralis - mod stjernerne",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "P3 | 1 SÆSON",
+   "PathIdSegment": "astralis-_-mod-stjernerne_6821",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1844973822000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "6821",
+  "type": "show",
+  "description": "I vinteren 2016 samles 5 af de bedste danske counterstrike-spillere og sammen stifter de holdet Astralis. De har to mål. De vil selv eje holdet og dermed kontrollere slagets gang. Og de vil være verdens bedste til counterstrike. I løbet af et år har DR3 fulgt holdet i bestræbelserne på at kravle helt op til toppen i en verden af esport, der samtidig eksploderer i pengepræmier og opmærksomhed fra fans og medier over hele verden.",
+  "shortDescription": "I vinteren 2016 samles 5 af de bedste danske counterstrike-spillere og sammen stifter de holdet Astralis. De har to mål. De vil selv eje holdet og dermed kontrollere slagets gang. Og de vil være verdens bedste til counterstrike. I løbet af et år har DR3 f",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Astralis - mod stjernerne",
+  "vodItemWatchPath": "",
+  "path": "/serie/astralis-_-mod-stjernerne_6821",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

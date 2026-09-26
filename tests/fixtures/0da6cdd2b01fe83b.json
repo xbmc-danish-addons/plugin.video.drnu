@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438721'&Width=1920&Height=1080&ImageId='51846200'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438721'&Width=1440&Height=2160&ImageId='51846195'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438721'&Width=1920&Height=1080&ImageId='51846183'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2245,
+  "releaseYear": 1997,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438721"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438721"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438721"
+  ],
+  "categories": [
+   "dokumentar",
+   "kultur",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Kultur,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Kultur,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Suzanne Brøgger - en ganske almindelig familie",
+   "ExtraDetails": "Dokumentar | 37M",
+   "TitleExtraDetails": "DR Gensyn | 37M",
+   "PathIdSegment": "suzanne-broegger-_-en-ganske-almindelig-familie_438721",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00213783800",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438721",
+  "type": "program",
+  "description": "Dansk dokumentar fra 1997. Hanne-Vibeke Holst har besøgt kollegaen Suzanne Brøgger. Det er der kommet et helt specielt portræt ud af, som går tæt på den omstridte forfatters sind og tankeverden. Udgangspunktet er Suzanne Brøggers nyligt udgivne roman 'Jadekatten' - en slægtssaga, der ligesom mange andre af hendes bøger trækker på det selvbiografiske. Som hun formulerer det - \"Jeg har et begrænset talent, jeg kan ikke skrive i alle mulige genrer\".\nTilrettelæggelse: Hanne-Vibeke Holst. Udløber: 13. sep 2025",
+  "shortDescription": "Dansk dokumentar fra 1997. Hanne-Vibeke Holst har besøgt kollegaen Suzanne Brøgger. Det er der kommet et helt specielt portræt ud af, som går tæt på den omstridte forfatters sind og tankeverden. Udgangspunktet er Suzanne Brøggers nyligt udgivne roman 'Jad",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Suzanne Brøgger - en ganske almindelig familie",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/suzanne-broegger-_-en-ganske-almindelig-familie_438721",
+  "watchPath": "/se/suzanne-broegger-_-en-ganske-almindelig-familie_438721",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

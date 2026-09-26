@@ -6,17 +6,8 @@
 
 from xbmcaddon import Addon
 from xbmcextra import kodi_to_ansi, uri_to_path
-
-try:  # Python 3
-    from urllib.error import HTTPError
-    from urllib.request import Request, urlopen
-except ImportError:  # Python 2
-    from urllib2 import HTTPError, Request, urlopen
-
-try:  # Python 2
-    basestring  # pylint: disable=used-before-assignment
-except NameError:  # Python 3
-    basestring = str  # pylint: disable=redefined-builtin
+from urllib.error import HTTPError
+from urllib.request import Request, urlopen
 
 SORT_METHOD_NONE = 0
 SORT_METHOD_LABEL = 1
@@ -97,7 +88,7 @@ def endOfDirectory(handle, succeeded=True, updateListing=True, cacheToDisc=True)
 
 def getSetting(handle, key):
     """A stub implementation of the xbmcplugin getSetting() function"""
-    assert isinstance(key, basestring)
+    assert isinstance(key, str)
     return Addon().getSetting(key)
 
 

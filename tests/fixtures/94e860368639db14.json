@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='217320'&Width=1920&Height=1080&ImageId='6308234'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='217320'&Width=1920&Height=1080&ImageId='6308208'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='217320'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3540,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-03-13T22:59:00Z",
+    "scopes": [
+     "217320"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2020-11-06T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-03-13T22:59:00Z",
+    "scopes": [
+     "217320"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2020-11-06T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "217320"
+  ],
+  "categories": [
+   "dokumentar",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Alle kan blive millionær",
+   "ExtraDetails": "Dokumentar | 59M",
+   "TitleExtraDetails": "DR2 | 59M",
+   "ShortVideoUrl": "https://drod04g-vh.akamaihd.net/i/all/clear/streaming/f7/5fa24cd7539f02254888f3f7/VS-TEMA-Alle-kan-blive-million_5473eb0f12f84a61add651d8e16330a5_,942,297,3811,480,2613,1928,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "alle-kan-blive-millionaer_217320",
+   "BroadcastTimeDK": "2020-11-07T21:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922014500",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "217320",
+  "type": "program",
+  "description": "Hvem drømmer ikke om at være uafhængig af en månedsløn? Hvem vil ikke gerne være økonomisk fri til at vælge det liv, man selv drømmer om? En stor gruppe danskere er i gang med at gøre drømmen til virkelighed. De er privatinvestorer og sætter kursen mod den første million. Og de deler gerne deres metoder.  Thea og Stefan sparer sig vej til millionerne. Linnea investerer på aktiemarkederne og vil have penge nok, inden hun er 45. Og supertraderen Tom Hougaard spiller det store spil. Han er forlængst millionær i alle verdens valutaer - og sætter hver dag nye millioner på højkant i jagten på endnu flere penge. Udløber: 13. mar 2024",
+  "shortDescription": "Hvem drømmer ikke om at være uafhængig af en månedsløn? Hvem vil ikke gerne være økonomisk fri til at vælge det liv, man selv drømmer om? En stor gruppe danskere er i gang med at gøre drømmen til virkelighed. De er privatinvestorer og sætter kursen mod de",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Danske privatinvestorer med kurs mod millionerne",
+  "themes": [],
+  "title": "Alle kan blive millionær",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/alle-kan-blive-millionaer_217320",
+  "watchPath": "/se/alle-kan-blive-millionaer_217320",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

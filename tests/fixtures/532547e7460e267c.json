@@ -1,0 +1,509 @@
+{
+ "status": 200,
+ "json": {
+  "id": "305",
+  "isStatic": false,
+  "isSystemPage": true,
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "key": "List",
+  "path": "/liste/369441",
+  "template": "List Page",
+  "themes": [],
+  "title": "Skab med Ramasjang",
+  "entries": [
+   {
+    "id": "h4p8sg3",
+    "type": "ListEntry",
+    "template": "Continuous Scroll Automatic",
+    "title": "Skab med Ramasjang",
+    "list": {
+     "id": "369441",
+     "images": {
+      "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='ItemList'&EntityId='369441'&Width=1920&Height=1080&ImageId='44517419'",
+      "custom": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='ItemList'&EntityId='369441'&Width=1600&Height=1600&ImageId='68502233'"
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-skab-med-ramasjang_369441"
+     },
+     "itemTypes": [
+      "episode"
+     ],
+     "description": "",
+     "title": "Skab med Ramasjang",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [
+      {
+       "colors": [
+        {
+         "name": "Primary",
+         "value": "#1affff"
+        }
+       ],
+       "type": "Background"
+      },
+      {
+       "colors": [
+        {
+         "name": "Custom1",
+         "value": "#000000"
+        }
+       ],
+       "type": "Custom"
+      }
+     ],
+     "path": "/liste/ramasjang_-skab-med-ramasjang_369441",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='546233'&Width=1920&Height=1080&ImageId='72447872'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='546233'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='546233'&Width=1920&Height=1080&ImageId='72447875'"
+       },
+       "duration": 673,
+       "releaseYear": 2025,
+       "episodeNumber": 5,
+       "episodeName": "Madmix: Sød æblemuffin",
+       "seasonId": "521922",
+       "showId": "521921",
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "546233"
+         ],
+         "resolution": "Unknown",
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "546233",
+        "521922"
+       ],
+       "categories": [
+        "krea",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Krea,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Krea",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PlayButtonExtraDetails": "S1:E5 Sød æblemuffin",
+        "ContextualTitleExtraDetails": "13. SEP 2025 | 11M",
+        "AvailableFrom": "2025-09-13T04:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Madmix: Sæson 1 – Sød æblemuffin",
+        "ExtraDetails": "13. SEP 2025 | 11M",
+        "ShortVideoUrl": "https://drod21d.akamaized.net/all/clear/none/6f/68b9ef85bf401e3210c1986f/68b9ef8445dc8f1d4cfd56ad/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "madmix_-soed-aeblemuffin_546233",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00952587050",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "546233",
+       "type": "episode",
+       "keywords": [
+        "editorialptaxtop_børn/fakta",
+        "editorialptaxsub_krea",
+        "editorialptaxsub_læring/viden"
+       ],
+       "shortDescription": "Sofus bager lækre æblemuffins med friske æbler fra haven og sødt kanel. Mums! Udløber: 13. sep 2027",
+       "contextualTitle": "Sød æblemuffin",
+       "sports": [],
+       "subtype": "",
+       "tagline": "Bag en dejlig kage med Ramasjang",
+       "themes": [],
+       "title": "Madmix: Sød æblemuffin",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/madmix_-soed-aeblemuffin_546233",
+       "watchPath": "/se/madmix_-soed-aeblemuffin_546233"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='533248'&Width=1920&Height=1080&ImageId='70945794'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='533248'&Width=1920&Height=1080&ImageId='70945796'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='533248'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 864,
+       "releaseYear": 2025,
+       "episodeNumber": 40,
+       "episodeName": "Kreabix: Blyantspynt og nipnapper",
+       "seasonId": "372191",
+       "showId": "372190",
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "533248"
+         ],
+         "resolution": "Unknown",
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "533248",
+        "372191"
+       ],
+       "categories": [
+        "krea",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Krea,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Krea",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PlayButtonExtraDetails": "S1:E40 Blyantspynt og nipnapper",
+        "ContextualTitleExtraDetails": "2. AUG 2025 | 14M",
+        "AvailableFrom": "2025-08-02T04:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Kreabix: Sæson 1 – Blyantspynt og nipnapper",
+        "ExtraDetails": "2. AUG 2025 | 14M",
+        "ShortVideoUrl": "https://drod21o.akamaized.net/all/clear/none/54/687622b3ef94c026a83cae54/687622b2f553c91f48d93a5e/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "kreabix_-blyantspynt-og-nipnapper_533248",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00952543090",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "533248",
+       "type": "episode",
+       "keywords": [
+        "editorialptaxtop_børn/fakta",
+        "editorialptaxsub_krea"
+       ],
+       "shortDescription": "Emma pynter blyanter! Én får en dinosaur med skoletaske på ryggen og en anden bliver fnulleret, så den kan dimses med. Emma laver også en nipnapper med lege-idéer. Udløber: 2. aug 2027",
+       "contextualTitle": "Blyantspynt og nipnapper",
+       "sports": [],
+       "subtype": "",
+       "tagline": "Bliv klar til skolestart med Emma",
+       "themes": [],
+       "title": "Kreabix: Blyantspynt og nipnapper",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/kreabix_-blyantspynt-og-nipnapper_533248",
+       "watchPath": "/se/kreabix_-blyantspynt-og-nipnapper_533248"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='550448'&Width=1920&Height=1080&ImageId='72947739'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='550448'&Width=1920&Height=1080&ImageId='72947752'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='550448'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 275,
+       "releaseYear": 2025,
+       "episodeNumber": 52,
+       "episodeName": "Tegnetrix: 3D-tegning",
+       "seasonId": "550441",
+       "showId": "357777",
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "550448"
+         ],
+         "resolution": "Unknown",
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "550448",
+        "550441"
+       ],
+       "categories": [
+        "krea",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Krea,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Krea",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PlayButtonExtraDetails": "S1:E52 3D-tegning",
+        "ContextualTitleExtraDetails": "4. OKT 2025 | 5M",
+        "AvailableFrom": "2025-10-04T03:55:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Tegnetrix: Sæson 1 – 3D-tegning",
+        "ExtraDetails": "4. OKT 2025 | 5M",
+        "ShortVideoUrl": "https://drod20c.akamaized.net/all/clear/none/d5/68d933dd2958d11ad8d300d5/68d933dd8b90450d9c4ff1c2/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "tegnetrix_-3d_tegning_550448",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00952541140",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "550448",
+       "type": "episode",
+       "keywords": [
+        "editorialptaxtop_børn/fakta",
+        "editorialptaxsub_krea"
+       ],
+       "shortDescription": "Få din hånd til at poppe op fra papiret. Lær hvordan du tegner i 3D! Udløber: 4. okt 2027",
+       "contextualTitle": "3D-tegning",
+       "sports": [],
+       "subtype": "",
+       "tagline": "En hånd der stikker ud af papiret!",
+       "themes": [],
+       "title": "Tegnetrix: 3D-tegning",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/tegnetrix_-3d_tegning_550448",
+       "watchPath": "/se/tegnetrix_-3d_tegning_550448"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='546378'&Width=1920&Height=1080&ImageId='72468646'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='546378'&Width=1920&Height=1080&ImageId='72468648'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='546378'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 205,
+       "releaseYear": 2025,
+       "episodeNumber": 59,
+       "episodeName": "Dansemix: Up",
+       "seasonId": "365739",
+       "showId": "365738",
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "546378"
+         ],
+         "resolution": "Unknown",
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "546378",
+        "365739"
+       ],
+       "categories": [
+        "krop",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Krop,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Krop",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PlayButtonExtraDetails": "S1:E59 Up",
+        "ContextualTitleExtraDetails": "20. SEP 2025 | 3M",
+        "AvailableFrom": "2025-09-20T04:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Dansemix: Sæson 1 – Up",
+        "ExtraDetails": "20. SEP 2025 | 3M",
+        "ShortVideoUrl": "https://drod23q.akamaized.net/all/clear/none/bc/68bae381108bfb23c475f9bc/68bae380d01a9e0b401f5e87/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "dansemix_-up_546378",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00952542160",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "546378",
+       "type": "episode",
+       "keywords": [
+        "thesaurus_dans",
+        "controlled_fællesdans",
+        "editorialptaxtop_børn/fakta",
+        "editorialptaxsub_krea",
+        "editorialptaxsub_læring/viden"
+       ],
+       "shortDescription": "Dansevennerne får besøg af Olivia! Hun skal vise de fede trin til sangen \"Up\". Udløber: 20. sep 2027",
+       "contextualTitle": "Up",
+       "sports": [],
+       "subtype": "",
+       "tagline": "Op fra sofaen of dans!",
+       "themes": [],
+       "title": "Dansemix: Up",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/dansemix_-up_546378",
+       "watchPath": "/se/dansemix_-up_546378"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='548392'&Width=1920&Height=1080&ImageId='72690288'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='548392'&Width=1920&Height=1080&ImageId='72690286'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='548392'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "duration": 554,
+       "releaseYear": 2025,
+       "episodeNumber": 23,
+       "episodeName": "Techfix: Saver med vand",
+       "seasonId": "373988",
+       "showId": "373987",
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "548392"
+         ],
+         "resolution": "Unknown",
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "548392",
+        "373988"
+       ],
+       "categories": [
+        "krea",
+        "viden og tech",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Krea,Viden og tech,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Krea,Viden og tech",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "IsGeoRestricted": "False",
+        "PlayButtonExtraDetails": "S1:E23 Saver med vand",
+        "ContextualTitleExtraDetails": "27. SEP 2025 | 9M",
+        "AvailableFrom": "2025-09-27T04:00:00.0000000Z",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PageTitle": "Techfix: Sæson 1 – Saver med vand",
+        "ExtraDetails": "27. SEP 2025 | 9M",
+        "ShortVideoUrl": "https://drod22b.akamaized.net/all/clear/none/77/68c594a5bf401e3210c19c77/68c594a58b90450d9c4ff087/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "techfix_-saver-med-vand_548392",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00952544040",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "548392",
+       "type": "episode",
+       "keywords": [
+        "thesaurus_fysiske egenskaber",
+        "thesaurus_fysiske processer",
+        "controlled_vand",
+        "editorialptaxtop_børn/fakta",
+        "editorialptaxsub_krea",
+        "editorialptaxsub_læring/viden"
+       ],
+       "shortDescription": "Lasse vil teste vandets kraft! Hvor vilde ting kan vand mon save over? Pølsebrød, vandmelon eller måske metal? Udløber: 27. sep 2027",
+       "contextualTitle": "Saver med vand",
+       "sports": [],
+       "subtype": "",
+       "tagline": "Wow! Vand er vildt!",
+       "themes": [],
+       "title": "Techfix: Saver med vand",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/techfix_-saver-med-vand_548392",
+       "watchPath": "/se/techfix_-saver-med-vand_548392"
+      }
+     ],
+     "size": 5,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 50,
+      "options": {
+       "pageSize": 50
+      }
+     }
+    }
+   }
+  ],
+  "canonical": "/liste/ramasjang_-skab-med-ramasjang_369441"
+ }
+}

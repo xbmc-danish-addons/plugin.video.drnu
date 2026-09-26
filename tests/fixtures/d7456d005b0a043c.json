@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443782'&Width=1920&Height=1080&ImageId='52049291'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443782'&Width=1920&Height=1080&ImageId='52049293'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443782'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3280,
+  "releaseYear": 1987,
+  "episodeNumber": 1,
+  "episodeName": "Vitek: Tidens gåde",
+  "seasonId": "443780",
+  "showId": "443778",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "443782"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "443782"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "443782",
+   "443780"
+  ],
+  "categories": [
+   "videnskab og teknologi",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Videnskab og teknologi,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S1987:E1 Tidens gåde",
+   "ContextualTitleExtraDetails": "2. JAN 1987 | 55M",
+   "AvailableFrom": "1987-01-02T05:00:00.0000000Z",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Vitek: Sæson 1987 – Tidens gåde",
+   "ExtraDetails": "SÆSON 1987 EPISODE 1 | 55M",
+   "PathIdSegment": "vitek_-tidens-gaade_443782",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00809663390",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "443782",
+  "type": "episode",
+  "description": "Dansk videnskabsprogram fra 1987. I denne udgave af Vitek besvares spørgsmål som - Kan man rejse i tiden? Hvem bestemmer, hvad klokken er? Kan man opleve to torsdage på én uge? Blandt de mange informative indslag i programmet er der et eksperiment om opfattelsen af tid i en skoleklasse og et specialfremstillet Vitek-kugleur. \nVært og tilrettelæggelse: Egon Schmidt. Udløber: 27. sep 2025",
+  "shortDescription": "Dansk videnskabsprogram fra 1987. I denne udgave af Vitek besvares spørgsmål som - Kan man rejse i tiden? Hvem bestemmer, hvad klokken er? Kan man opleve to torsdage på én uge? Blandt de mange informative indslag i programmet er der et eksperiment om opfa",
+  "contextualTitle": "1. Tidens gåde",
+  "sports": [],
+  "themes": [],
+  "title": "Vitek: Tidens gåde",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/vitek_-tidens-gaade_443782",
+  "watchPath": "/se/vitek_-tidens-gaade_443782",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

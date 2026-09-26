@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442941'&Width=1920&Height=1080&ImageId='51790081'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442941'&Width=1440&Height=2160&ImageId='51790083'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442941'&Width=1920&Height=1080&ImageId='51790085'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5075,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-09T21:59:00Z",
+    "scopes": [
+     "442941"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T06:29:33Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-09T21:59:00Z",
+    "scopes": [
+     "442941"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T06:29:33Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442941"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "FRANKRIG & MONACO",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Bien Maja og det gyldne æg",
+   "ExtraDetails": "Film | 1T 25M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 25M",
+   "PathIdSegment": "bien-maja-og-det-gyldne-aeg_442941",
+   "BroadcastTimeDK": "2024-03-27T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852202890",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442941",
+  "type": "program",
+  "description": "Bien Maja og hendes ven Willi går på opdagelse uden for bikuben. Pludselig hører de den grønne myre Chomp råbe på hjælp. Han er på flugt fra næsehornsbillerne Rumba, Henchie og Boof, som vil stjæle det gyldne æg, han er på vej til myrekolonien på toppen af Bonsai Bjerget med. Men Chomp har forstuvet foden, så Maja tilbyder at hjælpe. Sammen med deres gamle venner, de røde myrer Arnie og Barney, begiver Maja og Willi sig nu ud på en farefuld færd med mange overraskelser og forhindringer undervejs. Udløber: 9. apr 2024",
+  "shortDescription": "Bien Maja og hendes ven Willi går på opdagelse uden for bikuben. Pludselig hører de den grønne myre Chomp råbe på hjælp. Han er på flugt fra næsehornsbillerne Rumba, Henchie og Boof, som vil stjæle det gyldne æg, han er på vej til myrekolonien på toppen a",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Bien Maja og det gyldne æg",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/bien-maja-og-det-gyldne-aeg_442941",
+  "watchPath": "/se/bien-maja-og-det-gyldne-aeg_442941",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

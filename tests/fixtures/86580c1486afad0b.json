@@ -1,0 +1,1599 @@
+{
+ "status": 200,
+ "json": {
+  "id": "348",
+  "parameter": "TitleGroupKey:a",
+  "customFields": {
+   "PathIdSegment": "alt-indhold-_-_titlegroupkey__348"
+  },
+  "itemTypes": [
+   "program",
+   "show"
+  ],
+  "description": "",
+  "title": "A",
+  "shortDescription": "",
+  "themes": [],
+  "path": "/a-aa/a",
+  "items": [
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='206345'&Width=1920&Height=1080&ImageId='50011569'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='206345'&Width=1920&Height=1080&ImageId='4440394'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='206345'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "206345"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "206345"
+    ],
+    "categories": [
+     "livsstil",
+     "historie",
+     "rejse",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Historie,Rejse,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil,Historie,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders på sporet af det tabte land",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "anne-og-anders-paa-sporet-af-det-tabte-land_206345",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1902906978000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "206345",
+    "type": "show",
+    "shortDescription": "Anne Hjernøe og Anders Agger tager på opdagelse i det, der engang var dansk. De besøger De Vestindiske Øer, Island, Sydslesvig og Sverige for at lede efter tråde tilbage til Danmark.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anne og Anders på sporet af det tabte land",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-paa-sporet-af-det-tabte-land_206345"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18837'&Width=1920&Height=1080&ImageId='4377121'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18837'&Width=1920&Height=1080&ImageId='50011598'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='18837'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "18837"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "18837"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "rejse",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders tilbage til rødderne",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "anne-og-anders-tilbage-til-roedderne_18837",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1894377005000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "18837",
+    "type": "show",
+    "shortDescription": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe rejser på ferie med de nye danskere. Tilbage til Vietnam, Iran, Tyrkiet og Bosnien. Tilbage til rødderne og til alt det de forlod: Familien, kærligheden og maden.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anne og Anders tilbage til rødderne",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-tilbage-til-roedderne_18837"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='206176'&Width=1920&Height=1080&ImageId='4538547'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='206176'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='206176'&Width=1920&Height=1080&ImageId='50011612'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "206176"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "206176"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "rejse",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders vender hjem",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod05m-vh.akamaihd.net/i/all/clear/streaming/4b/5f44b98c714014486417d74b/VS-ANNE-OG-ANDERS-00952027010-_b3219147c117404f9dddb325ed1a5cdf_,2536,481,1870,3628,950,306,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "anne-og-anders-vender-hjem_206176",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2742941515000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "206176",
+    "type": "show",
+    "shortDescription": "Anne og Anders rejser rundt i et Danmark, vi næsten har glemt.\nI autocamper med indbygget køkken og cykler bagpå, vil de vise hinanden de varme, endeløse somre fra barndommen - med længsel, lyde og smage.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Episode 1:4 | På roadtrip i autocamper fra Lolland-Falster til Fyn",
+    "themes": [],
+    "title": "Anne og Anders vender hjem",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-vender-hjem_206176"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19019'&Width=1920&Height=1080&ImageId='4376639'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19019'&Width=1920&Height=1080&ImageId='50331538'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='19019'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 3,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "19019"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "19019"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "dr1",
+     "rejse",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Mad",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Annemad",
+     "ExtraDetails": "Livsstil | 3 SÆSONER",
+     "TitleExtraDetails": "DR1 | 3 SÆSONER",
+     "PathIdSegment": "annemad_19019",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:753503166000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "19019",
+    "type": "show",
+    "shortDescription": "Anne har inviteret internationale gæster med bopæl i Danmark til at sætte masser af blus på gryderne.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Annemad",
+    "vodItemWatchPath": "",
+    "path": "/serie/annemad_19019"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='397090'&Width=1920&Height=1080&ImageId='49238533'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='397090'&Width=1440&Height=2160&ImageId='49238537'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='397090'&Width=1920&Height=1080&ImageId='49238540'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "397090"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "397090"
+    ],
+    "categories": [
+     "fiktionsserie",
+     "krimi",
+     "drtv",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fiktionsserie,Krimi,DRTV",
+     "BrandingChannelShort": "DRT",
+     "BrandingChannelDisplayName": "DRTV",
+     "DisplayCategory": "Fiktionsserie,Krimi",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "True",
+     "PageTitle": "Annika",
+     "ExtraDetails": "Fiktionsserie | 2 SÆSONER",
+     "TitleExtraDetails": "DRTV | 2 SÆSONER",
+     "PathIdSegment": "annika_397090",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3042367544000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "397090",
+    "type": "show",
+    "shortDescription": "Væbnet med skæv humor og en skarp hjerne opklarer Annika Strandhed drabssager i farvandene i og omkring Skotland. Krimiserie med Nicola Walker fra serien 'Uforglemt'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Annika",
+    "vodItemWatchPath": "",
+    "path": "/serie/annika_397090"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='241431'&Width=1920&Height=1080&ImageId='9290647'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='241431'&Width=1920&Height=1080&ImageId='9290657'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='241431'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "241431"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "241431"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Annika og det svenske coronamysterium",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod10j-vh.akamaihd.net/i/all/clear/streaming/44/603f87e57140141a3cd06244/VS-Annika-og-det-svenske-coron_32fbc04023ac4978a06a6b9b339de77e_,3543,288,925,1844,455,2478,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "annika-og-det-svenske-coronamysterium_241431",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2860054098000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "241431",
+    "type": "show",
+    "shortDescription": "I foråret 2020 rapporterede journalist og dansk-svenske Annika Wetterling om de løsslupne svenskere, der holdt samfundet åbent, mens Danmark gik i lockdown. Nu tager hun på en personlig rejse tilbage til sit andet fædreland for at forstå, hvorfor svensker",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Se hele serien | Hvorfor reagerede Sverige og Danmark så forskelligt på corona?",
+    "themes": [],
+    "title": "Annika og det svenske coronamysterium",
+    "vodItemWatchPath": "",
+    "path": "/serie/annika-og-det-svenske-coronamysterium_241431"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='396038'&Width=1920&Height=1080&ImageId='47388797'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='396038'&Width=1920&Height=1080&ImageId='47388799'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='396038'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 1770,
+    "releaseYear": 2020,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "396038"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "396038"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "396038"
+    ],
+    "categories": [
+     "kultur",
+     "musik",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Kultur,Musik,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Kultur,Musik",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-EXCEPT",
+     "PageTitle": "Annisette møder DR Big Band - nysgerrig for evigt",
+     "ExtraDetails": "Kultur | 30M",
+     "TitleExtraDetails": "DR2 | 30M",
+     "PathIdSegment": "annisette-moeder-dr-big-band-_-nysgerrig-for-evigt_396038",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00452001520",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "396038",
+    "type": "program",
+    "shortDescription": "To verdener mødes, og Annisette deler refleksioner, tvivl og glæde omkring skabelsen af hendes koncert med DR Big Band. Det er følelsen af at være sprunget ud fra det højeste bjerg, hvor man må se, om man kan flyve - og hvor stor musik opstår.\nMedvirkende",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Annisette møder DR Big Band - nysgerrig for evigt",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/annisette-moeder-dr-big-band-_-nysgerrig-for-evigt_396038",
+    "watchPath": "/se/annisette-moeder-dr-big-band-_-nysgerrig-for-evigt_396038"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6940'&Width=1920&Height=1080&ImageId='4376128'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6940'&Width=1920&Height=1080&ImageId='50379481'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6940'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 7,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6940"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6940"
+    ],
+    "categories": [
+     "livsstil",
+     "hus og have",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Hus og have,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Hus og have",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Antikduellen",
+     "ExtraDetails": "Livsstil | 7 SÆSONER",
+     "TitleExtraDetails": "DR1 | 7 SÆSONER",
+     "PathIdSegment": "antikduellen_6940",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:753467130000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6940",
+    "type": "show",
+    "shortDescription": "To antikhandlere får hver 10.000 kroner at handle antikviteter og retroting for. Efter fem timer bliver deres ting vurderet af en vurderingsekspert, og dagens vinder er den antikhandler, som får den højeste vurdering.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Antikduellen",
+    "vodItemWatchPath": "",
+    "path": "/serie/antikduellen_6940"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='17843'&Width=1920&Height=1080&ImageId='50315522'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='17843'&Width=1920&Height=1080&ImageId='50315520'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='17843'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 9,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "17843"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "17843"
+    ],
+    "categories": [
+     "livsstil",
+     "hus og have",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Hus og have,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Hus og have",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Antikkrejlerne",
+     "ExtraDetails": "Livsstil | 9 SÆSONER",
+     "TitleExtraDetails": "DR1 | 9 SÆSONER",
+     "PathIdSegment": "antikkrejlerne_17843",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:754511108000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "17843",
+    "type": "show",
+    "shortDescription": "Antikvitetseksperter konkurrerer mod hinanden om at købe antikviteter og sælge dem på auktion.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Antikkrejlerne",
+    "vodItemWatchPath": "",
+    "path": "/serie/antikkrejlerne_17843"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416437'&Width=1920&Height=1080&ImageId='50505864'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416437'&Width=1920&Height=1080&ImageId='50505866'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='416437'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "416437"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "416437"
+    ],
+    "categories": [
+     "livsstil",
+     "hus og have",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Hus og have,DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Hus og have",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Antikkrejlerne med kendisser",
+     "ExtraDetails": "Livsstil | 2 SÆSONER",
+     "TitleExtraDetails": "DR1 | 2 SÆSONER",
+     "BrandingChannelShort": "DR1",
+     "PathIdSegment": "antikkrejlerne-med-kendisser_416437",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2295557629000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "416437",
+    "type": "show",
+    "shortDescription": "Nogle af Storbritanniens kendteste antikvitetseksperter slår sig sammen med en række kendte i jagten på antikviteter og loppemarkedsfund. Hvilket hold kan skabe den største fortjeneste?",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Antikkrejlerne med kendisser",
+    "vodItemWatchPath": "",
+    "path": "/serie/antikkrejlerne-med-kendisser_416437"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366797'&Width=1920&Height=1080&ImageId='44195501'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366797'&Width=1920&Height=1080&ImageId='50379595'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='366797'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "366797"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "366797"
+    ],
+    "categories": [
+     "livsstil",
+     "hus og have",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Hus og have,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Hus og have",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Antikmagasinet",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "antikmagasinet_366797",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4015049232000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "366797",
+    "type": "show",
+    "shortDescription": "Hvilke genstande bliver fremtidens antikviteter? Værten Anne Lundberg undersøger sammen med kendte gæster og eksperter klassiske genstande og vurderer deres fremtidige værdi.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Antikmagasinet",
+    "vodItemWatchPath": "",
+    "path": "/serie/antikmagasinet_366797"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19040'&Width=1920&Height=1080&ImageId='4375421'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19040'&Width=1920&Height=1080&ImageId='50332359'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='19040'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "19040"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "19040"
+    ],
+    "categories": [
+     "livsstil",
+     "quiz",
+     "dr1"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Quiz,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Quiz",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "AntikQuizzen",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "antikquizzen_19040",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1911075365000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "19040",
+    "type": "show",
+    "shortDescription": "I AntikQuizzen dyster tre danskere på viden og priser på alt fra sjove eller sjældne loppefund til klassiske designmøbler og kostbare antikviteter.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "AntikQuizzen",
+    "vodItemWatchPath": "",
+    "path": "/serie/antikquizzen_19040"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='403857'&Width=1920&Height=1080&ImageId='48815367'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='403857'&Width=1920&Height=1080&ImageId='48815371'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='403857'&Width=1440&Height=2160&ImageId='48815369'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "403857"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "403857"
+    ],
+    "categories": [
+     "dokumentar",
+     "historie",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Historie,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Historie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Apokalypsen - Hitler angriber mod vest",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "apokalypsen-_-hitler-angriber-mod-vest_403857",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2625718180000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "403857",
+    "type": "show",
+    "shortDescription": "Europa, 1940. Hitler igangsætter et storslået angreb på Belgien, Holland og Frankrig. I Dunkerque skal 300.000 britiske soldater evakueres fra Frankrig. Og nazisterne gør klar til at invadere England.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Apokalypsen - Hitler angriber mod vest",
+    "vodItemWatchPath": "",
+    "path": "/serie/apokalypsen-_-hitler-angriber-mod-vest_403857"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='411162'&Width=1920&Height=1080&ImageId='49839614'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='411162'&Width=1440&Height=2160&ImageId='49839616'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='411162'&Width=1920&Height=1080&ImageId='49839618'"
+    },
+    "duration": 6910,
+    "releaseYear": 2022,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "411162"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "411162"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "411162"
+    ],
+    "categories": [
+     "dokumentar",
+     "kultur",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Kultur,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar,Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PageTitle": "Apolonia, Apolonia",
+     "ExtraDetails": "Dokumentar | 1T 55M",
+     "TitleExtraDetails": "DR2 | 1T 55M",
+     "ShortVideoUrl": "https://drod21h.akamaized.net/all/clear/none/5f/6523ec54020a901fc0e20b5f/6523ec52ce60db185408e4f3/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "apolonia-apolonia_411162",
+     "BroadcastTimeDK": "2023-10-15T22:15:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00921700600",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "411162",
+    "type": "program",
+    "shortDescription": "Prisvindende dansk dokumentarfilm fra 2022.\nEt usædvanligt nært og eksistentielt portræt af billedkunstneren Apolonia Sokol fortalt over hele 13 år af den danske dokumentarist Lea Glob. En af de helt store sensationer og en film af en sjælden dybde og sty",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Kunstner, outsider, rebel, kvinde. Prisvindende dansk dokumentar",
+    "themes": [],
+    "title": "Apolonia, Apolonia",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/apolonia-apolonia_411162",
+    "watchPath": "/se/apolonia-apolonia_411162"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='205621'&Width=1920&Height=1080&ImageId='50331867'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='205621'&Width=1920&Height=1080&ImageId='4722924'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='205621'&Width=1800&Height=1800&ImageId='16099620'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='205621'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "205621"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "205621"
+    ],
+    "categories": [
+     "livsstil",
+     "hus og have",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Hus og have,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil,Hus og have",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Arkitektens Hjem",
+     "ExtraDetails": "Livsstil | 2 SÆSONER",
+     "TitleExtraDetails": "DR2 | 2 SÆSONER",
+     "PathIdSegment": "arkitektens-hjem_205621",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:755429703000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "205621",
+    "type": "show",
+    "shortDescription": "Arkitekter arbejder til daglig med at tegne boliger for andre, men hvordan bor de selv? Få svaret i den danske arkitekturserie 'Arkitektens hjem'.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Arkitektens Hjem",
+    "vodItemWatchPath": "",
+    "path": "/serie/arkitektens-hjem_205621"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='204007'&Width=1920&Height=1080&ImageId='4257580'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='204007'&Width=1920&Height=1080&ImageId='4257583'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='204007'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "204007"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "204007"
+    ],
+    "categories": [
+     "livsstil",
+     "hus og have",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Hus og have,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil,Hus og have",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Arkitektens hjem i udlandet",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "arkitektens-hjem-i-udlandet_204007",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2836351765000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "204007",
+    "type": "show",
+    "shortDescription": "Tag med Eva Harlou på besøg hos nogle af Danmarks førende arkitekter for at se og høre om, hvordan de har bosat sig i udlandet.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Arkitektens hjem i udlandet",
+    "vodItemWatchPath": "",
+    "path": "/serie/arkitektens-hjem-i-udlandet_204007"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='135985'&Width=1920&Height=1080&ImageId='4484179'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='135985'&Width=1920&Height=1080&ImageId='4484183'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='135985'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "135985"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "135985"
+    ],
+    "categories": [
+     "livsstil",
+     "hus og have",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Hus og have,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil,Hus og have",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Arkitektens sommerhus",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "arkitektens-sommerhus_135985",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2246002449000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "135985",
+    "type": "show",
+    "shortDescription": "Norsk boligserie fra 2018.\nHvem er de arkitekter, der tegner vores sommerhuse? Og hvordan har de selv indrettet sig i deres fritidshuse? Vi er i Norge, hvor vi besøger nogle af landets mest fremtrædende arkitekter. Dels for at se, hvordan de selv bor, del",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Arkitektens sommerhus",
+    "vodItemWatchPath": "",
+    "path": "/serie/arkitektens-sommerhus_135985"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='198115'&Width=1920&Height=1080&ImageId='3922711'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='198115'&Width=1920&Height=1080&ImageId='3922713'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='198115'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "198115"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "198115"
+    ],
+    "categories": [
+     "dokumentar",
+     "kultur",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Kultur,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Arkitektur der deler vandene",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "arkitektur-der-deler-vandene_198115",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2486302493000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "198115",
+    "type": "show",
+    "shortDescription": "Stor arkitektur kan både fascinere og forarge. Arkitekt Sonja Stockmarr besøger nyopførte bygninger rundt omkring i Europa for at undersøge, hvordan de påvirker deres omgivelser.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Arkitektur der deler vandene",
+    "vodItemWatchPath": "",
+    "path": "/serie/arkitektur-der-deler-vandene_198115"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='93925'&Width=1920&Height=1080&ImageId='4137374'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='93925'&Width=1920&Height=1080&ImageId='4137379'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='93925'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "93925"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "93925"
+    ],
+    "categories": [
+     "dokumentar",
+     "natur",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Natur,DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar,Natur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Arktisk kommando",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "BrandingChannelShort": "DR1",
+     "PathIdSegment": "arktisk-kommando_93925",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1845075111000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "93925",
+    "type": "show",
+    "shortDescription": "Hvert år søger Arktisk Kommando stationsspecialister og nye ansatte i slædepatruljen Sirius. 57 aspiranter møder op i Frederikshavn. Et krævende udskilningsforløb går i gang og kun få af ansøgerne vil ende med at få opfyldt deres drøm: en udstationering i",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Arktisk kommando",
+    "vodItemWatchPath": "",
+    "path": "/serie/arktisk-kommando_93925"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434381'&Width=1920&Height=1080&ImageId='51215112'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434381'&Width=1920&Height=1080&ImageId='51215114'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434381'&Width=1440&Height=2160&ImageId='51215116'"
+    },
+    "duration": 3490,
+    "releaseYear": 2021,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "434381"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "434381"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "434381"
+    ],
+    "categories": [
+     "dokumentar",
+     "kultur",
+     "dr2"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Kultur,DR2",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar,Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Arne Jacobsens moderne Danmark",
+     "ExtraDetails": "Dokumentar | 58M",
+     "TitleExtraDetails": "DR2 | 58M",
+     "PathIdSegment": "arne-jacobsens-moderne-danmark_434381",
+     "BroadcastTimeDK": "2024-01-28T20:00:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00922125390",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "434381",
+    "type": "program",
+    "shortDescription": "Dokumentar om den ulydige skoledreng med talent for at male, der blev en af vores største arkitekter. Hans ideer var forud for sin tid og fik ofte kritik, men i dag, 50 år efter hans død, står Arne Jacobsens skoler, rådhuse og biblioteker stadig og tegner",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Arne Jacobsens moderne Danmark",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/arne-jacobsens-moderne-danmark_434381",
+    "watchPath": "/se/arne-jacobsens-moderne-danmark_434381"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='121181'&Width=1920&Height=1080&ImageId='4143295'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='121181'&Width=1920&Height=1080&ImageId='4143281'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='121181'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "121181"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "121181"
+    ],
+    "categories": [
+     "dokumentar",
+     "kultur",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Kultur,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Arven fra kongerne",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "arven-fra-kongerne_121181",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2030573360000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "121181",
+    "type": "show",
+    "shortDescription": "Igennem halvandet år har DR fulgt to af den senere tids mest omfattende projekter: Restaureringen af Eremitageslottet og Kancellihuset. Serien 'Arven fra kongerne' sætter fokus på det særlige håndværk, der skal til for at genskabe bygningernes indre og yd",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Arven fra kongerne",
+    "vodItemWatchPath": "",
+    "path": "/serie/arven-fra-kongerne_121181"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='376236'&Width=1920&Height=1080&ImageId='45226490'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='376236'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='376236'&Width=1920&Height=1080&ImageId='45226492'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "376236"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "376236"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr1",
+     "acc_spoken_subtitles",
+     "dr2"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Arving ukendt",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "arving-ukendt_376236",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2044894839000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "376236",
+    "type": "show",
+    "shortDescription": "I Sverige dør der hvert år 600 personer, som tilsyneladende er alene. Kattis Ahlström og Niklas Källner forsøger at finde de ukendte arvinger.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Arving ukendt",
+    "vodItemWatchPath": "",
+    "path": "/serie/arving-ukendt_376236"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6821'&Width=1920&Height=1080&ImageId='4395634'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6821'&Width=1920&Height=1080&ImageId='51037257'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6821'&Width=1440&Height=2160&ImageId='51037260'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6821"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6821"
+    ],
+    "categories": [
+     "dokumentar",
+     "sport",
+     "p3",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Sport,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Dokumentar,Sport",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Astralis - mod stjernerne",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "PathIdSegment": "astralis-_-mod-stjernerne_6821",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1844973822000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6821",
+    "type": "show",
+    "shortDescription": "I vinteren 2016 samles 5 af de bedste danske counterstrike-spillere og sammen stifter de holdet Astralis. De har to mål. De vil selv eje holdet og dermed kontrollere slagets gang. Og de vil være verdens bedste til counterstrike. I løbet af et år har DR3 f",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Astralis - mod stjernerne",
+    "vodItemWatchPath": "",
+    "path": "/serie/astralis-_-mod-stjernerne_6821"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6539'&Width=1920&Height=1080&ImageId='4296934'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6539'&Width=1920&Height=1080&ImageId='4296937'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6539'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 3,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6539"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6539"
+    ],
+    "categories": [
+     "fakta",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fakta,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Fakta",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Astrid",
+     "ExtraDetails": "Fakta | 3 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 3 SÆSONER",
+     "PathIdSegment": "astrid_6539",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1508853254000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6539",
+    "type": "show",
+    "shortDescription": "Svensk dokumentarserie der følger pigen Astrid, fra hun er 5 år og får at vide, at hun skal have en lillebror - og helt til hun er 7 år og flytter til en ny by og en ny skole.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Astrid",
+    "vodItemWatchPath": "",
+    "path": "/serie/astrid_6539"
+   }
+  ],
+  "size": 102,
+  "paging": {
+   "total": 5,
+   "page": 4,
+   "size": 24,
+   "previous": "/lists/348?page_size=24&param=TitleGroupKey%3Aa&lang=da&page=3&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "next": "/lists/348?page_size=24&param=TitleGroupKey%3Aa&lang=da&page=5&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

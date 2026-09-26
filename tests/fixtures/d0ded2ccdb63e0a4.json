@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282619'&Width=1920&Height=1080&ImageId='14519502'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282619'&Width=1440&Height=2160&ImageId='50557419'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282619'&Width=1920&Height=1080&ImageId='50557421'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2943,
+  "releaseYear": 2013,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-10-28T22:59:00Z",
+    "scopes": [
+     "282619"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-10-28T04:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-10-28T22:59:00Z",
+    "scopes": [
+     "282619"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-10-28T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "282619"
+  ],
+  "categories": [
+   "dokumentar",
+   "historie",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Historie,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Historie",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PageTitle": "Angrebet på Shellhuset",
+   "ExtraDetails": "Dokumentar | 49M",
+   "TitleExtraDetails": "DR2 | 49M",
+   "BrandingChannelShort": "DR2",
+   "PathIdSegment": "angrebet-paa-shellhuset_282619",
+   "BroadcastTimeDK": "2021-10-30T16:15:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00831313010",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "282619",
+  "type": "program",
+  "description": "En gådefuld ulykke forvandler et af 2. Verdenskrigs mest komplekse flyangreb til en katastrofe. Denne dokumentar forsøger ved hjælp fra angrebets chef-navigatør Edward Sismore, eksperter og øjenvidner at genskabe angrebet og opklare, hvad der gik galt. Udløber: 28. okt 2024",
+  "shortDescription": "En gådefuld ulykke forvandler et af 2. Verdenskrigs mest komplekse flyangreb til en katastrofe. Denne dokumentar forsøger ved hjælp fra angrebets chef-navigatør Edward Sismore, eksperter og øjenvidner at genskabe angrebet og opklare, hvad der gik galt. Ud",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Angrebet på Shellhuset",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/angrebet-paa-shellhuset_282619",
+  "watchPath": "/se/angrebet-paa-shellhuset_282619",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

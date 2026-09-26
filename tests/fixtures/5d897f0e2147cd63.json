@@ -1,0 +1,433 @@
+{
+ "status": 200,
+ "json": {
+  "id": "346",
+  "isStatic": false,
+  "isSystemPage": true,
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "key": "ShowDetail",
+  "path": "/serie/hvaffor-en-haand_441490",
+  "template": "Item Detail",
+  "themes": [],
+  "title": "Hvaffor en hånd",
+  "entries": [
+   {
+    "id": "a4g02fm",
+    "type": "ItemEntry",
+    "template": "Item Detail Standard",
+    "title": "Hvaffor en hånd",
+    "item": {
+     "images": {
+      "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441493'&Width=1920&Height=1080&ImageId='52000609'",
+      "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441493'&Width=1440&Height=2160&ImageId='16099618'",
+      "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441493'&Width=1920&Height=1080&ImageId='52000611'"
+     },
+     "advisoryText": "",
+     "copyright": "",
+     "credits": [],
+     "customMetadata": [],
+     "distributor": "DRTV",
+     "releaseYear": 1994,
+     "availableEpisodeCount": 1,
+     "seasonNumber": 1994,
+     "showId": "441490",
+     "episodeCount": 0,
+     "offers": [
+      {
+       "deliveryType": "Stream",
+       "endDate": "2026-03-27T22:59:59Z",
+       "scopes": [
+        "441493"
+       ],
+       "exclusionRules": [],
+       "resolution": "HD-1080",
+       "id": "ID0EFD",
+       "name": "D430_Season Free HD-1080 Season Free Any User",
+       "availability": "Available",
+       "ownership": "Free",
+       "price": 0,
+       "startDate": "2024-03-27T05:00:00Z"
+      }
+     ],
+     "trailers": [],
+     "scopes": [
+      "441493"
+     ],
+     "categories": [
+      "gensyn",
+      "dr gensyn"
+     ],
+     "channelPath": "",
+     "customFields": {
+      "OwnedCategory": "Gensyn,DR Gensyn",
+      "BrandingChannelShort": "TVG",
+      "BrandingChannelDisplayName": "DR Gensyn",
+      "DisplayCategory": "Gensyn",
+      "TargetAudience": "Adults",
+      "RatingSegment": "DRTV",
+      "PrimaryContentUniverse": "DRTV",
+      "ClassificationRating": "MRAM-ALL",
+      "IsGeoRestricted": "False",
+      "PresentationTypeCode": "Ongoing",
+      "IsSeasonDRMPlayoutRequired": "False",
+      "PageTitle": "Hvaffor en hånd: Sæson 1994",
+      "ExtraDetails": "Gensyn | SÆSON 1994",
+      "PathIdSegment": "hvaffor-en-haand_441493",
+      "ContentUniverses": [
+       "drtv"
+      ]
+     },
+     "customId": "urn:dr:ocs:tv:content:season:751936781000",
+     "genres": [
+      "ukendt"
+     ],
+     "id": "441493",
+     "type": "season",
+     "description": "Dansk børneserie 1991-2003. Underholdende fjernsyn for de små - lavet af underholdende voksne.",
+     "shortDescription": "Dansk børneserie 1991-2003. Underholdende fjernsyn for de små - lavet af underholdende voksne.",
+     "contextualTitle": "",
+     "sports": [],
+     "themes": [],
+     "title": "Hvaffor en hånd",
+     "vodItemWatchPath": "",
+     "classification": {
+      "code": "DR-Voksen",
+      "name": "Voksen"
+     },
+     "path": "/saeson/hvaffor-en-haand_441493",
+     "genrePaths": [],
+     "totalUserRatings": 0,
+     "show": {
+      "images": {
+       "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441490'&Width=1920&Height=1080&ImageId='51999964'",
+       "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441490'&Width=1440&Height=2160&ImageId='16099618'",
+       "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441490'&Width=1920&Height=1080&ImageId='51999962'"
+      },
+      "advisoryText": "",
+      "copyright": "",
+      "credits": [],
+      "customMetadata": [],
+      "distributor": "",
+      "availableSeasonCount": 2,
+      "offers": [
+       {
+        "deliveryType": "None",
+        "endDate": "2026-03-27T22:59:59Z",
+        "scopes": [
+         "441490"
+        ],
+        "exclusionRules": [],
+        "resolution": "Unknown",
+        "id": "ID0EUB",
+        "name": "D430_Show Free  Show Free Any User",
+        "availability": "Available",
+        "ownership": "Free",
+        "price": 0,
+        "startDate": "2024-03-27T05:00:00Z"
+       }
+      ],
+      "trailers": [],
+      "scopes": [
+       "441490"
+      ],
+      "categories": [
+       "gensyn",
+       "dr gensyn"
+      ],
+      "channelPath": "",
+      "customFields": {
+       "OwnedCategory": "Gensyn,DR Gensyn",
+       "BrandingChannelShort": "TVG",
+       "BrandingChannelDisplayName": "DR Gensyn",
+       "DisplayCategory": "Gensyn",
+       "TargetAudience": "Adults",
+       "RatingSegment": "DRTV",
+       "PrimaryContentUniverse": "DRTV",
+       "ClassificationRating": "MRAM-ALL",
+       "PresentationTypeCode": "Ongoing",
+       "IsGeoRestricted": "False",
+       "IsSeriesDRMPlayoutRequired": "False",
+       "PageTitle": "Hvaffor en hånd",
+       "ExtraDetails": "Gensyn | 2 SÆSONER",
+       "TitleExtraDetails": "DR Gensyn | 2 SÆSONER",
+       "PathIdSegment": "hvaffor-en-haand_441490",
+       "ContentUniverses": [
+        "drtv"
+       ]
+      },
+      "customId": "urn:dr:ocs:tv:content:series:5341150418000",
+      "genres": [
+       "ukendt"
+      ],
+      "id": "441490",
+      "type": "show",
+      "description": "Dansk børneserie 1991-2003. Underholdende fjernsyn for de små - lavet af underholdende voksne.",
+      "shortDescription": "Dansk børneserie 1991-2003. Underholdende fjernsyn for de små - lavet af underholdende voksne.",
+      "contextualTitle": "",
+      "sports": [],
+      "themes": [],
+      "title": "Hvaffor en hånd",
+      "vodItemWatchPath": "",
+      "path": "/serie/hvaffor-en-haand_441490",
+      "genrePaths": [],
+      "totalUserRatings": 0,
+      "seasons": {
+       "id": "441490-seasons",
+       "path": "",
+       "items": [
+        {
+         "images": {
+          "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441491'&Width=1920&Height=1080&ImageId='52000618'",
+          "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441491'&Width=1440&Height=2160&ImageId='16099618'",
+          "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441491'&Width=1920&Height=1080&ImageId='52000624'"
+         },
+         "releaseYear": 1993,
+         "availableEpisodeCount": 1,
+         "seasonNumber": 1993,
+         "showId": "441490",
+         "episodeCount": 0,
+         "offers": [
+          {
+           "deliveryType": "Stream",
+           "scopes": [
+            "441491"
+           ],
+           "resolution": "HD-1080",
+           "availability": "Available",
+           "ownership": "Free",
+           "price": 0
+          }
+         ],
+         "scopes": [
+          "441491"
+         ],
+         "categories": [
+          "gensyn",
+          "dr gensyn"
+         ],
+         "channelPath": "",
+         "customFields": {
+          "OwnedCategory": "Gensyn,DR Gensyn",
+          "BrandingChannelShort": "TVG",
+          "BrandingChannelDisplayName": "DR Gensyn",
+          "DisplayCategory": "Gensyn",
+          "TargetAudience": "Adults",
+          "RatingSegment": "DRTV",
+          "PrimaryContentUniverse": "DRTV",
+          "ClassificationRating": "MRAM-ALL",
+          "IsGeoRestricted": "False",
+          "PresentationTypeCode": "Ongoing",
+          "IsSeasonDRMPlayoutRequired": "False",
+          "PageTitle": "Hvaffor en hånd: Sæson 1993",
+          "ExtraDetails": "Gensyn | SÆSON 1993",
+          "PathIdSegment": "hvaffor-en-haand_441491",
+          "ContentUniverses": [
+           "drtv"
+          ]
+         },
+         "customId": "urn:dr:ocs:tv:content:season:751937033000",
+         "genres": [
+          "ukendt"
+         ],
+         "id": "441491",
+         "type": "season",
+         "shortDescription": "Dansk børneserie 1991-2003. Underholdende fjernsyn for de små - lavet af underholdende voksne.",
+         "contextualTitle": "",
+         "sports": [],
+         "themes": [],
+         "title": "Hvaffor en hånd",
+         "vodItemWatchPath": "",
+         "classification": {
+          "code": "DR-Voksen",
+          "name": "Voksen"
+         },
+         "path": "/saeson/hvaffor-en-haand_441491"
+        },
+        {
+         "images": {
+          "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441493'&Width=1920&Height=1080&ImageId='52000609'",
+          "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441493'&Width=1440&Height=2160&ImageId='16099618'",
+          "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441493'&Width=1920&Height=1080&ImageId='52000611'"
+         },
+         "releaseYear": 1994,
+         "availableEpisodeCount": 1,
+         "seasonNumber": 1994,
+         "showId": "441490",
+         "episodeCount": 0,
+         "offers": [
+          {
+           "deliveryType": "Stream",
+           "scopes": [
+            "441493"
+           ],
+           "resolution": "HD-1080",
+           "availability": "Available",
+           "ownership": "Free",
+           "price": 0
+          }
+         ],
+         "scopes": [
+          "441493"
+         ],
+         "categories": [
+          "gensyn",
+          "dr gensyn"
+         ],
+         "channelPath": "",
+         "customFields": {
+          "OwnedCategory": "Gensyn,DR Gensyn",
+          "BrandingChannelShort": "TVG",
+          "BrandingChannelDisplayName": "DR Gensyn",
+          "DisplayCategory": "Gensyn",
+          "TargetAudience": "Adults",
+          "RatingSegment": "DRTV",
+          "PrimaryContentUniverse": "DRTV",
+          "ClassificationRating": "MRAM-ALL",
+          "IsGeoRestricted": "False",
+          "PresentationTypeCode": "Ongoing",
+          "IsSeasonDRMPlayoutRequired": "False",
+          "PageTitle": "Hvaffor en hånd: Sæson 1994",
+          "ExtraDetails": "Gensyn | SÆSON 1994",
+          "PathIdSegment": "hvaffor-en-haand_441493",
+          "ContentUniverses": [
+           "drtv"
+          ]
+         },
+         "customId": "urn:dr:ocs:tv:content:season:751936781000",
+         "genres": [
+          "ukendt"
+         ],
+         "id": "441493",
+         "type": "season",
+         "shortDescription": "Dansk børneserie 1991-2003. Underholdende fjernsyn for de små - lavet af underholdende voksne.",
+         "contextualTitle": "",
+         "sports": [],
+         "themes": [],
+         "title": "Hvaffor en hånd",
+         "vodItemWatchPath": "",
+         "classification": {
+          "code": "DR-Voksen",
+          "name": "Voksen"
+         },
+         "path": "/saeson/hvaffor-en-haand_441493"
+        }
+       ],
+       "size": 2,
+       "paging": {
+        "total": 1,
+        "page": 1,
+        "size": 200,
+        "options": {
+         "pageSize": 200
+        }
+       }
+      }
+     },
+     "episodes": {
+      "id": "441493-episodes",
+      "path": "",
+      "items": [
+       {
+        "images": {
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441494'&Width=1920&Height=1080&ImageId='52000557'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441494'&Width=1440&Height=2160&ImageId='16099618'",
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441494'&Width=1920&Height=1080&ImageId='52000559'"
+        },
+        "duration": 1438,
+        "releaseYear": 1994,
+        "episodeNumber": 29,
+        "episodeName": "Hvaffor en hånd",
+        "seasonId": "441493",
+        "showId": "441490",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "441494"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "441494"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "441494",
+         "441493"
+        ],
+        "categories": [
+         "gensyn",
+         "dr gensyn"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Gensyn,DR Gensyn",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVG",
+         "BrandingChannelDisplayName": "DR Gensyn",
+         "ProductionCountry": "DANMARK",
+         "DisplayCategory": "Gensyn",
+         "TargetAudience": "Adults",
+         "RatingSegment": "DRTV",
+         "PrimaryContentUniverse": "DRTV",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S1994:E29",
+         "ContextualTitleExtraDetails": "17. NOV 1994 | 24M",
+         "AvailableFrom": "1994-11-17T17:00:12.0000000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Hvaffor en hånd: Sæson 1994 – 29. episode",
+         "ExtraDetails": "SÆSON 1994 EPISODE 29 | 24M",
+         "PathIdSegment": "hvaffor-en-haand_441494",
+         "ContentUniverses": [
+          "drtv"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00801751530",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "441494",
+        "type": "episode",
+        "shortDescription": "Dansk børneserie fra 1994. Går du på wc eller lokum eller toilet? Laver du pølser eller puha eller lort? Alle mennesker og dyr gør det. De voksne siger det med mange forskellige ord, men det er jo bare det samme. Signe fortæller om, hvordan toiletter virk",
+        "contextualTitle": "29. episode",
+        "sports": [],
+        "themes": [],
+        "title": "Hvaffor en hånd",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Voksen",
+         "name": "Voksen"
+        },
+        "path": "/episode/hvaffor-en-haand_441494",
+        "watchPath": "/se/hvaffor-en-haand_441494"
+       }
+      ],
+      "size": 1,
+      "paging": {
+       "total": 1,
+       "page": 1,
+       "size": 200,
+       "options": {
+        "pageSize": 200
+       }
+      }
+     }
+    }
+   }
+  ],
+  "canonical": "/serie/hvaffor-en-haand_441490"
+ }
+}

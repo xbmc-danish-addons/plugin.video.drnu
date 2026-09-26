@@ -1,0 +1,83 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='225644'&Width=1920&Height=1080&ImageId='7244465'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='225644'&Width=1920&Height=1080&ImageId='7244468'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='225644'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-08-04T21:59:00Z",
+    "scopes": [
+     "225644"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2020-12-31T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "225644"
+  ],
+  "categories": [
+   "underholdning",
+   "natur",
+   "quiz",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Underholdning,Natur,Quiz,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Underholdning,Natur,Quiz",
+   "TargetAudience": "OlderKidsAndAdults",
+   "RatingSegment": "Ultra",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Hu Hej Vilde Dyr",
+   "ExtraDetails": "Underholdning | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "ShortVideoUrl": "https://drod03d-vh.akamaihd.net/i/all/clear/streaming/7c/6087b2beaf5a610f0cf81b7c/VS-Hu-Hej-Vilde-Dyr-1-_ca7e322ae19a437bad2402b0773b7d64_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "hu-hej-vilde-dyr_225644",
+   "ContentUniverses": [
+    "drtv",
+    "ultra"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2747342404000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "225644",
+  "type": "show",
+  "description": "Der er fart over feltet, når Joakim Ingversen byder velkommen til et nyt underholdningsprogram med Tina Müller og Kristian Gintberg som holdkaptajner. Hver uge dyster kendte danskere i dyrenes verden, når de skal fange fisk i den brusende flod, når de skal gengive dyrelyde, og når de bliver testet i hvilke myter om dyr, der er sande.",
+  "shortDescription": "Der er fart over feltet, når Joakim Ingversen byder velkommen til et nyt underholdningsprogram med Tina Müller og Kristian Gintberg som holdkaptajner. Hver uge dyster kendte danskere i dyrenes verden, når de skal fange fisk i den brusende flod, når de ska",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Episode 1:8 | Kendte danskere dyster i ny quiz om dyreriget",
+  "themes": [],
+  "title": "Hu Hej Vilde Dyr",
+  "vodItemWatchPath": "",
+  "path": "/serie/hu-hej-vilde-dyr_225644",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

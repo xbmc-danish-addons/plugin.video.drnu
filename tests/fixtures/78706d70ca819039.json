@@ -1,0 +1,101 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='446101'&Width=1920&Height=1080&ImageId='52084799'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='446101'&Width=1920&Height=1080&ImageId='52084803'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='446101'&Width=1440&Height=2160&ImageId='52084801'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1592,
+  "releaseYear": 1972,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "446101"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "446101"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "446101"
+  ],
+  "categories": [
+   "politik",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Politik,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Politik,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Statsministeren og børnene",
+   "ExtraDetails": "Politik | 27M",
+   "TitleExtraDetails": "DR Gensyn | 27M",
+   "PathIdSegment": "statsministeren-og-boernene_446101",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00502413030",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "446101",
+  "type": "program",
+  "description": "Dansk reportage fra 1972. Danmarks statsminister hedder i 1972 Jens Otto Krag. Han har indvilget i at mødes med en spørgelysten 6. klasse på en skole i Gladsaxe. Hvordan kan det være, der bliver bevilget så mange penge til militæret? Hvorfor danner SF ikke regering med Socialdemokratiet? Hvad er holdningen til Oluf Palmes tale ved miljøkongressen? Det er blot nogle af de spørgsmål, som statsministeren forsøger at svare på efter bedste evne. Udløber: 27. mar 2026",
+  "shortDescription": "Dansk reportage fra 1972. Danmarks statsminister hedder i 1972 Jens Otto Krag. Han har indvilget i at mødes med en spørgelysten 6. klasse på en skole i Gladsaxe. Hvordan kan det være, der bliver bevilget så mange penge til militæret? Hvorfor danner SF ikk",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Statsministeren og børnene",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/statsministeren-og-boernene_446101",
+  "watchPath": "/se/statsministeren-og-boernene_446101",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

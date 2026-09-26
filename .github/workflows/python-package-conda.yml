@@ -14,7 +14,7 @@ jobs:
       max-parallel: 5
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: setup-micromamba
       uses: mamba-org/setup-micromamba@v1
@@ -24,17 +24,16 @@ jobs:
         cache-environment: true
         post-cleanup: 'all'
 
-    - name: Lint with flake8
+    - name: Lint with ruff
       shell: bash -l {0}
       run: |
-        # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82,E501,E722 --max-line=200 --show-source --statistics
+        ruff check .
 
- 
     - name: Test with kodi-addon-checker
       shell: bash -l {0}
       run: |
         kodi-addon-checker --branch=nexus --allow-folder-id-mismatch
+        kodi-addon-checker --branch=omega --allow-folder-id-mismatch
 
     - name: Unit tests
       shell: bash -l {0}

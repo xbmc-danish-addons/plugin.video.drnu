@@ -1,0 +1,253 @@
+{
+ "status": 200,
+ "json": {
+  "id": "348",
+  "parameter": "TitleGroupKey:a",
+  "customFields": {
+   "PathIdSegment": "alt-indhold-_-_titlegroupkey__348"
+  },
+  "itemTypes": [
+   "program",
+   "show"
+  ],
+  "description": "",
+  "title": "A",
+  "shortDescription": "",
+  "themes": [],
+  "path": "/a-aa/a",
+  "items": [
+   {
+    "images": {
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='363112'&Width=1440&Height=2160&ImageId='44195444'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='363112'&Width=1920&Height=1080&ImageId='44175852'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='363112'&Width=1920&Height=1080&ImageId='44175855'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "363112"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "363112"
+    ],
+    "categories": [
+     "dokumentar",
+     "videnskab og teknologi",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Videnskab og teknologi,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar,Videnskab og teknologi",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Atomkraft - ja tak!",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod24t.akamaized.net/all/clear/none/33/63d23b99aa5a621f28c22333/63d23b95d52dd6100c55dfeb/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "atomkraft-_-ja-tak_363112",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2653200504000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "363112",
+    "type": "show",
+    "keywords": [
+     "thesaurus_atomkraft",
+     "thesaurus_atomkraftværker",
+     "thesaurus_atomkraftulykker",
+     "editorialptaxtop_dokumentar",
+     "editorialptaxsub_dansk aktualitet/samfundsforhold",
+     "editorialptaxsub_klima/miljø/bæredygtighed"
+    ],
+    "shortDescription": "Anders Lund Madsen har altid været stor modstander af kernekraft. Men energikrise, krig og klimaforandringer har nu bragt ham i tvivl. For hvad nu hvis det faktisk er en del af løsningen?",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hele serien | Anders Lund Madsen har altid været imod A-kraft, men nu tvivler han",
+    "themes": [],
+    "title": "Atomkraft - ja tak!",
+    "vodItemWatchPath": "",
+    "path": "/serie/atomkraft-_-ja-tak_363112"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='464101'&Width=1920&Height=1080&ImageId='53585629'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='464101'&Width=1440&Height=2160&ImageId='53585634'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='464101'&Width=1920&Height=1080&ImageId='53585636'"
+    },
+    "duration": 6707,
+    "releaseYear": 2021,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "464101"
+      ],
+      "resolution": "Unknown",
+      "availability": "ComingSoon",
+      "ownership": "None",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "464101"
+    ],
+    "categories": [
+     "dokumentar",
+     "historie",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Historie,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "USA",
+     "DisplayCategory": "Dokumentar,Historie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "IsGeoRestricted": "True",
+     "PageTitle": "Attica - USA's blodigste fængselsoprør",
+     "ExtraDetails": "Dokumentar | 1T 52M",
+     "TitleExtraDetails": "DR2 | 1T 52M",
+     "PathIdSegment": "attica-_-usas-blodigste-faengselsoproer_464101",
+     "ShortVideoUrl": "https://drod21n.akamaized.net/all/clear/none/fd/669a4952eb8e86280c569ffd/669a494fbaa6ad19bc8fdece/stream_fmp4/master_manifest.m3u8",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00022410970",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "464101",
+    "type": "program",
+    "keywords": [
+     "thesaurus_fængsler",
+     "controlled_attica",
+     "controlled_fængselsoprør",
+     "editorialptaxtop_dokumentar",
+     "editorialptaxsub_international aktualitet/samfundsforhold"
+    ],
+    "shortDescription": "Amerikansk dokumentar fra 2021.\n(Attica)\nDet endte i en massakre. Den 9. september 1971 koger vreden over hos de indsatte i Attica-fængslet i New York. I årevis har de været stuvet sammen som dyr under uhyrlige forhold med elendig mad, ingen adgang til læ",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hør historien om den fem dage lange besættelse",
+    "themes": [],
+    "title": "Attica - USA's blodigste fængselsoprør",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/attica-_-usas-blodigste-faengselsoproer_464101",
+    "watchPath": "/se/attica-_-usas-blodigste-faengselsoproer_464101"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6387'&Width=1920&Height=1080&ImageId='4375279'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6387'&Width=1920&Height=1080&ImageId='4375282'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6387'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 4,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6387"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6387"
+    ],
+    "categories": [
+     "dokumentar",
+     "livsstil",
+     "kultur",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Livsstil,Kultur,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar,Livsstil,Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Auktionshuset",
+     "ExtraDetails": "Dokumentar | 4 SÆSONER",
+     "TitleExtraDetails": "DR1 | 4 SÆSONER",
+     "PathIdSegment": "auktionshuset_6387",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1126155196000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6387",
+    "type": "show",
+    "keywords": [
+     "organization_bruun rasmussen kunstauktioner",
+     "thesaurus_antikviteter",
+     "thesaurus_auktioner",
+     "editorialptaxtop_tv-program",
+     "editorialptaxsub_livsstil"
+    ],
+    "shortDescription": "Drømme, forretning og følelser går hånd i hånd i et af Danmarks ældste auktionshuse Bruun Rasmussen. Her regerer husets herre og ejer, Jesper Bruun Rasmussen, der arvede hammeren af sin far i 1985 og har haft sin gang i huset i 50 år.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Auktionshuset",
+    "vodItemWatchPath": "",
+    "path": "/serie/auktionshuset_6387"
+   }
+  ],
+  "size": 123,
+  "paging": {
+   "total": 6,
+   "page": 6,
+   "size": 24,
+   "previous": "/lists/348?page=5&page_size=24&param=TitleGroupKey%3Aa&lang=da&segments=DRTV%2Cramasjang%2Cultra%2Cminisjang&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

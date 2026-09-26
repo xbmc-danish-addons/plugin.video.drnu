@@ -1,0 +1,112 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426237'&Width=1920&Height=1080&ImageId='51291003'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426237'&Width=1920&Height=1080&ImageId='51291005'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='426237'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3507,
+  "releaseYear": 2023,
+  "episodeNumber": 6,
+  "episodeName": "Danmarks bedste portrætmaler: Det helstøbte portræt",
+  "seasonId": "426234",
+  "showId": "261000",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2027-12-31T22:59:00Z",
+    "scopes": [
+     "426237"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-06T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2027-12-31T22:59:00Z",
+    "scopes": [
+     "426237"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-06T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "426237",
+   "426234"
+  ],
+  "categories": [
+   "livsstil",
+   "kultur",
+   "underholdning",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Kultur,Underholdning,DR1",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Livsstil,Kultur,Underholdning",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S5:E6 Det helstøbte portræt",
+   "ContextualTitleExtraDetails": "6. FEB 2024 | 58M",
+   "AvailableFrom": "2024-02-06T05:00:00.0000000Z",
+   "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Danmarks bedste portrætmaler: Sæson 5 – Det helstøbte portræt",
+   "ExtraDetails": "SÆSON 5 EPISODE 6 | 58M",
+   "ShortVideoUrl": "https://drod23e.akamaized.net/all/clear/none/32/65bb49e61030de0830b87b32/65bb49e6ced5da1b405eb6af/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237",
+   "BroadcastTimeDK": "2024-02-06T20:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922315250",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "426237",
+  "type": "episode",
+  "description": "Vi er nået til finalen i Danmarks bedste portrætmaler, som tradition tro finder sted på Ny Carlsberg Glyptotek i København. Det er nu, de tre finalister skal vise alt, hvad de har lært gennem konkurrencen, ved at lave det helstøbte portræt af modellen Sofie Gråbøl. Men hvem imponerer de tre dommere mest og får dermed titlen som Danmarks bedste portrætmaler? Udløber: 31. dec 2027",
+  "shortDescription": "Vi er nået til finalen i Danmarks bedste portrætmaler, som tradition tro finder sted på Ny Carlsberg Glyptotek i København. Det er nu, de tre finalister skal vise alt, hvad de har lært gennem konkurrencen, ved at lave det helstøbte portræt af modellen Sof",
+  "contextualTitle": "6. Det helstøbte portræt",
+  "sports": [],
+  "tagline": "Episode 6:6 | Modellen er Sofie Gråbøl. Hvilken kunstner løber med sejren?",
+  "themes": [],
+  "title": "Danmarks bedste portrætmaler: Det helstøbte portræt",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237",
+  "watchPath": "/se/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

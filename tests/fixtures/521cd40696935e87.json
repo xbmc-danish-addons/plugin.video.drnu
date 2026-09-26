@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419253'&Width=1920&Height=1080&ImageId='50860668'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419253'&Width=1920&Height=1080&ImageId='50860670'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='419253'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-02-10T22:59:00Z",
+    "scopes": [
+     "419253"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-31T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "419253"
+  ],
+  "categories": [
+   "underholdning",
+   "reality",
+   "p3",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Underholdning,Reality,P3",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "DisplayCategory": "Underholdning,Reality",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Camma bliver kendt",
+   "ExtraDetails": "Underholdning | 1 SÆSON",
+   "TitleExtraDetails": "P3 | 1 SÆSON",
+   "PathIdSegment": "camma-bliver-kendt_419253",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4551831878000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "419253",
+  "type": "show",
+  "description": "Camma VIL være kendt! Og hun er villig til at tage alle metoder i brug for at blive en celebrity med hundredtusindvis af følgere. Derfor teamer Camma op med sanger Barbara Moleko, realitystjernen Sy Lee og Boris fra Bachelorette. Hun får en kendt fake kæreste og crasher settet på tv-serien Salsa i sin jagt på berømmelse.",
+  "shortDescription": "Camma VIL være kendt! Og hun er villig til at tage alle metoder i brug for at blive en celebrity med hundredtusindvis af følgere. Derfor teamer Camma op med sanger Barbara Moleko, realitystjernen Sy Lee og Boris fra Bachelorette. Hun får en kendt fake kær",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Camma bliver kendt",
+  "vodItemWatchPath": "",
+  "path": "/serie/camma-bliver-kendt_419253",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

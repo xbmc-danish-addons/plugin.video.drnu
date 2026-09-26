@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442939'&Width=1920&Height=1080&ImageId='51790067'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442939'&Width=1440&Height=2160&ImageId='51790069'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442939'&Width=1920&Height=1080&ImageId='51951172'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4159,
+  "releaseYear": 1987,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "442939"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T06:30:40Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "442939"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T06:30:40Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442939"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "BELGIEN",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Asterix og Kleopatra",
+   "ExtraDetails": "Film | 1T 9M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 9M",
+   "PathIdSegment": "asterix-og-kleopatra_442939",
+   "BroadcastTimeDK": "2024-03-26T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00809419640",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442939",
+  "type": "program",
+  "description": "Cæsar siger til Kleopatra, at hendes folk, ægypterne, ikke er så stolte og dygtige som hans folk, romerne. For at modbevise dette indgår de et væddemål: Ægypterne skal bygge et prægtigt palads på tre måneder. Arkitekter og håndværkere går i gang, men det er kun ved Asterix' og hans venners hjælp, samt den uundværlige trylledrik, at foretagenet lykkes. Udløber: 20. apr 2024",
+  "shortDescription": "Cæsar siger til Kleopatra, at hendes folk, ægypterne, ikke er så stolte og dygtige som hans folk, romerne. For at modbevise dette indgår de et væddemål: Ægypterne skal bygge et prægtigt palads på tre måneder. Arkitekter og håndværkere går i gang, men det ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Asterix og Kleopatra",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/asterix-og-kleopatra_442939",
+  "watchPath": "/se/asterix-og-kleopatra_442939",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

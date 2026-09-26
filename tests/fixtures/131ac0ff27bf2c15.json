@@ -1,0 +1,303 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:n",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "program",
+   "show"
+  ],
+  "description": "",
+  "title": "Ramasjang | N",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/n",
+  "items": [
+   {
+    "images": {
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='143204'&Width=1440&Height=2160&ImageId='8984186'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='143204'&Width=1920&Height=1080&ImageId='4136509'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='143204'&Width=1920&Height=1080&ImageId='48547045'"
+    },
+    "duration": 4612,
+    "releaseYear": 2017,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "143204"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "143204"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "143204"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Nabospionen",
+     "ExtraDetails": "Film | 1T 17M",
+     "TitleExtraDetails": "DR Ramasjang | 1T 17M",
+     "ShortVideoUrl": "https://drod09e-vh.akamaihd.net/i/all/clear/streaming/a9/5efe40af7140160478efe6a9/VSR-Nabospionen-00961790030-MJ_72cb21bcfda14c4e830c267db28c86d1_,266,818,410,3647,2532,1831,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "nabospionen_143204",
+     "BroadcastTimeDK": "2019-10-20T07:30:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00961790030",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "143204",
+    "type": "program",
+    "shortDescription": "Dansk animationsfilm fra 2017.\nAC, Agathe Christine er 10 år. Hun drømmer om at være privatdetektiv og indretter kontor i familiens pulterkammer. Hun er ligeglad med, at alle synes hun er underlig, det passer godt med hendes profil som den ensomme detekti",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Dagens film",
+    "themes": [],
+    "title": "Nabospionen",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/nabospionen_143204",
+    "watchPath": "/se/nabospionen_143204"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434119'&Width=1920&Height=1080&ImageId='51215877'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434119'&Width=1920&Height=1080&ImageId='51215865'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434119'&Width=1440&Height=2160&ImageId='51215879'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "434119"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "434119"
+    ],
+    "categories": [
+     "gensyn",
+     "dr ramasjang",
+     "serie"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Nana",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "nana_434119",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1912351996000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "434119",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1988. Nana er seks år og starter i skolen. Hendes finurlige syn på verden udfordrer de voksne - især hendes lidt distræte far, spillet af Jesper Christensen.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Nana",
+    "vodItemWatchPath": "",
+    "path": "/serie/nana_434119"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='215989'&Width=1920&Height=1080&ImageId='5489066'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='215989'&Width=1920&Height=1080&ImageId='5489068'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='215989'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='215989'&Width=2048&Height=2048&ImageId='6669393'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "215989"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "215989"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Nataben & Møgdyret",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "nataben-and-moegdyret_215989",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2532420479000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "215989",
+    "type": "show",
+    "shortDescription": "Tre dyr sidder i en iskold skov og fortæller røverhistorier fra de varme lande. Den pelsede trio består af Nataben, Møgdyret - og en meget store bjørn.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Nataben & Møgdyret",
+    "vodItemWatchPath": "",
+    "path": "/serie/nataben-and-moegdyret_215989"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='151618'&Width=1920&Height=1080&ImageId='4254499'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='151618'&Width=1920&Height=1080&ImageId='4254524'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='151618'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "151618"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "151618"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Ninja i røret",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "ninja-i-roeret_151618",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1912358517000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "151618",
+    "type": "show",
+    "shortDescription": "Finsk serie om pigen Ninja, som keder sig i ejendommen, hvor hun ikke kender nogen. Men hun lærer en masse om de andre i ejendommen ved at lytte på varmerørene i kælderen.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Ninja i røret",
+    "vodItemWatchPath": "",
+    "path": "/serie/ninja-i-roeret_151618"
+   }
+  ],
+  "size": 4,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438465'&Width=1920&Height=1080&ImageId='51509418'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438465'&Width=1920&Height=1080&ImageId='51509422'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438465'&Width=1440&Height=2160&ImageId='51509420'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1324,
+  "releaseYear": 1995,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-13T22:59:59Z",
+    "scopes": [
+     "438465"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EJEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-13T22:59:59Z",
+    "scopes": [
+     "438465"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EQGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438465"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-NOT-RATED",
+   "PageTitle": "Pressemøde - prins Joachim og Alexandra Manleys forlovelse",
+   "ExtraDetails": "Gensyn | 22M",
+   "TitleExtraDetails": "DR Gensyn | 22M",
+   "PathIdSegment": "pressemoede-_-prins-joachim-og-alexandra-manleys-forlovelse_438465",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00103974070",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438465",
+  "type": "program",
+  "description": "Dansk reportage fra 1995. Den danske offentlighed bliver taget på sengen. Prins Joachim forlover sig pludseligt - med Alexandra Manley, en forretningskvinde fra Hongkong med asiatiske og østrigske rødder. I den anledning er der inviteret til pressemøde og interview på Fredensborg Slot. Alexandra må bl.a. svare på spørgsmål om udsigten til at bo på landet, udsigten til børn og sin højde uden hæle. Den kommende prinsesse kommer til at tage danskerne med storm - med sin stil og sin evne til hurtigt at mestre det danske sprog og integrere sig. Udløber: 13. mar 2026",
+  "shortDescription": "Dansk reportage fra 1995. Den danske offentlighed bliver taget på sengen. Prins Joachim forlover sig pludseligt - med Alexandra Manley, en forretningskvinde fra Hongkong med asiatiske og østrigske rødder. I den anledning er der inviteret til pressemøde og",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Pressemøde - prins Joachim og Alexandra Manleys forlovelse",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/pressemoede-_-prins-joachim-og-alexandra-manleys-forlovelse_438465",
+  "watchPath": "/se/pressemoede-_-prins-joachim-og-alexandra-manleys-forlovelse_438465",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

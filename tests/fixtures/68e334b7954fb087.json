@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='23990'&Width=1920&Height=1080&ImageId='4376043'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='23990'&Width=1920&Height=1080&ImageId='4376032'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='23990'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-07-01T21:59:00Z",
+    "scopes": [
+     "23990"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2018-08-01T18:00:04Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "23990"
+  ],
+  "categories": [
+   "kultur",
+   "rejse",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Rejse,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Kultur,Rejse",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Anne og Anders i Brexitland",
+   "ExtraDetails": "Kultur | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "PathIdSegment": "anne-og-anders-i-brexitland_23990",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1885800888000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "23990",
+  "type": "show",
+  "description": "I fire programmer rejser tv-journalisten Anders Agger og tv-kokken Anne Hjernøe ud til det Storbritannien, de færreste af os kender.\nHer besøger de en række dansk/britiske familier i Wales, England, Nordirland og Skotland for at blive klogere på, hvorfor briterne ikke mere vil være en del af EU. Og hvorfor vi vil komme til at savne dem.",
+  "shortDescription": "I fire programmer rejser tv-journalisten Anders Agger og tv-kokken Anne Hjernøe ud til det Storbritannien, de færreste af os kender.\nHer besøger de en række dansk/britiske familier i Wales, England, Nordirland og Skotland for at blive klogere på, hvorfor ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Anne og Anders i Brexitland",
+  "vodItemWatchPath": "",
+  "path": "/serie/anne-og-anders-i-brexitland_23990",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

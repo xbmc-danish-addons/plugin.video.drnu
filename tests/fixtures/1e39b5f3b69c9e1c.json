@@ -1,0 +1,89 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422583'&Width=1920&Height=1080&ImageId='50848581'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='422583'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422583'&Width=1920&Height=1080&ImageId='50848583'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "releaseYear": 2023,
+  "availableEpisodeCount": 5,
+  "seasonNumber": 3,
+  "showId": "313119",
+  "episodeCount": 5,
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-02-10T22:59:00Z",
+    "scopes": [
+     "422583"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EGD",
+    "name": "D430_Season Free HD-1080 Season Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-30T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "422583"
+  ],
+  "categories": [
+   "underholdning",
+   "dr1",
+   "acc_spoken_subtitles",
+   "acc_audio_description"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Underholdning,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Underholdning",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "IsGeoRestricted": "False",
+   "PresentationTypeCode": "Ongoing",
+   "IsSeasonDRMPlayoutRequired": "False",
+   "PageTitle": "I hjernen på stjernen: Sæson 3",
+   "ExtraDetails": "Underholdning | SÆSON 3",
+   "ShortVideoUrl": "https://drod22s.akamaized.net/all/clear/none/36/658dea080ddbab3b90aaaf36/658dea0724921515d86cf2fc/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "i-hjernen-paa-stjernen_422583",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:season:4664544241000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "422583",
+  "type": "season",
+  "description": "I denne programrække vil psykologisk manipulator Jan Hellesøe og psykolog og vært Josefine Høgh portrættere fem kendte danskere for seeren. I disse fem programmer vil Høgh og Hellesøe give hovedpersonen stof til eftertanke gennem spektakulære iscenesættelser. De to værter prøver sammen at lægge et puslespil ud af gæstens relationer, minder, sorger, tanker og følelser - som forhåbentlig til sidst vil give den kendte gæst et nyt blik på på dem selv - og på livet.",
+  "shortDescription": "I denne programrække vil psykologisk manipulator Jan Hellesøe og psykolog og vært Josefine Høgh portrættere fem kendte danskere for seeren. I disse fem programmer vil Høgh og Hellesøe give hovedpersonen stof til eftertanke gennem spektakulære iscenesættel",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Hele serien | Josefine og Jan møder bl.a. Ghita Nørby og Sofie Linde",
+  "themes": [],
+  "title": "I hjernen på stjernen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/saeson/i-hjernen-paa-stjernen_422583",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,3338 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78111",
+  "isStatic": false,
+  "isSystemPage": false,
+  "metadata": {
+   "description": "Find og se Ramasjang-Programmer her. Gå på opdagelse i alle programmer fra Ramasjang. Se eller gense dine yndlingsprogrammer her",
+   "keywords": []
+  },
+  "key": "RamasjangAZ",
+  "path": "/ramasjang_a-aa",
+  "template": "Home",
+  "themes": [],
+  "title": "Ramasjang | A-Å",
+  "entries": [
+   {
+    "customFields": {
+     "imageText": "Ramasjang | A - Å",
+     "textColor": {
+      "color": "#000000",
+      "opacity": 100
+     },
+     "textHorizontalAlignment": "left",
+     "textVerticalAlignment": "middle",
+     "imageWidth": "fullWidth",
+     "widthPercentage": null,
+     "imageHorizontalAlignment": "center",
+     "link": "",
+     "altText": ""
+    },
+    "type": "ImageEntry",
+    "id": "a442114",
+    "template": "H9",
+    "title": "",
+    "images": {
+     "hero7x1": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Page'&EntityId='78111'&Width=2100&Height=300&ImageId='45252710'"
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "57b215c",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "A",
+    "list": {
+     "id": "78113",
+     "parameter": "TitleGroupKey:a",
+     "customFields": {
+      "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+     },
+     "itemTypes": [
+      "show",
+      "program"
+     ],
+     "description": "",
+     "title": "Ramasjang | A",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/ramasjang_a-aa/a",
+     "items": [
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1920&Height=1080&ImageId='43063910'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1920&Height=1080&ImageId='43063908'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='350296'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "350296"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "350296"
+       ],
+       "categories": [
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Abe-aner",
+        "ExtraDetails": "Serie | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "abe_aner_350296",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3404285710000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "350296",
+       "type": "show",
+       "shortDescription": "Det er børnelærdom, at mennesket nedstammer fra aberne, men de færreste er så nært beslægtet med dem som pigen Lena i denne hollandske familieserie. Lena  bor nemlig sammen med sin nærmeste slægtning Benedict, der er en vaskeægte gorilla! Det giver selvfø",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Abe-aner",
+       "vodItemWatchPath": "",
+       "path": "/serie/abe_aner_350296"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1920&Height=1080&ImageId='51568695'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1920&Height=1080&ImageId='51568699'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1440&Height=2160&ImageId='51568697'"
+       },
+       "duration": 4421,
+       "releaseYear": 2021,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "439502"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "439502"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "439502"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "SVERIGE",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Abestjernen",
+        "ExtraDetails": "Film | 1T 14M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 14M",
+        "PathIdSegment": "abestjernen_439502",
+        "BroadcastTimeDK": "2024-03-16T18:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00851905090",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "439502",
+       "type": "program",
+       "shortDescription": "Animationsfilm fra 2020.\nForestil dig, at du lige pludselig fik en gorilla som mor! Jonna er forældreløs og drømmer om en mor. En dag ruller en skramlet bil op foran børnehjemmet, og Jonna bliver håbefuld. Men ud af bilen kommer en Gorilla! Jonna følger t",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Abestjernen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/abestjernen_439502",
+       "watchPath": "/se/abestjernen_439502"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369852'&Width=1920&Height=1080&ImageId='44580551'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='369852'&Width=1440&Height=2160&ImageId='16099618'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369852'&Width=1920&Height=1080&ImageId='44580549'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369852'&Width=2048&Height=2048&ImageId='50315514'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "369852"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "369852"
+       ],
+       "categories": [
+        "tegnefilm",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Tegnefilm",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Alfons Åberg",
+        "ExtraDetails": "Tegnefilm | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "alfons-aaberg_369852",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1480496039000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "369852",
+       "type": "show",
+       "shortDescription": "Gunilla Bergströms elskede bøger danner grundlag for denne svenske serie om drengen Alfons, der bor alene sammen med sin rare og tålmodige far.  Hans hverdag er fyldt med situationer og udfordringer, som børn kan relatere til.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Alfons Åberg",
+       "vodItemWatchPath": "",
+       "path": "/serie/alfons-aaberg_369852"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1920&Height=1080&ImageId='16489965'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1920&Height=1080&ImageId='16489970'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "309749"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "309749"
+       ],
+       "categories": [
+        "fakta",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fakta,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Fakta",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Alfred danser ballet",
+        "ExtraDetails": "Fakta | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "alfred-danser-ballet_309749",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2907488605000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "309749",
+       "type": "show",
+       "shortDescription": "Alfred har aldrig danset ballet før, men nu er han optaget på Den Kongelige Balletskole. Han er spændt på alt det nye der skal ske og fuld af gåpåmod, men lige om lidt venter en meget anderledes hverdag, og han skal vinke farvel til det han kender og er t",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Alfred danser ballet",
+       "vodItemWatchPath": "",
+       "path": "/serie/alfred-danser-ballet_309749"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='257122'&Width=1920&Height=1080&ImageId='12449046'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='257122'&Width=1920&Height=1080&ImageId='12449044'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='257122'&Width=1440&Height=2160&ImageId='12449113'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='257122'&Width=2048&Height=2048&ImageId='12738959'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "257122"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "257122"
+       ],
+       "categories": [
+        "tegnefilm",
+        "dr ramasjang"
+       ],
+       "customFields": {
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Tegnefilm",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Alices eventyr",
+        "ExtraDetails": "Tegnefilm | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "alices-eventyr_257122",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2836368730000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "257122",
+       "type": "show",
+       "shortDescription": "Alice har en hemmelighed: En særlig nøgle, som kan åbne døren et et fantastisk eventyrland. Her bor hendes gode ven, kaninen Lewis, men også den lunefulde dronning. Fransk animationsserie.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Alices eventyr",
+       "path": "/serie/alices-eventyr_257122"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='327488'&Width=1920&Height=1080&ImageId='40615085'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='327488'&Width=1920&Height=1080&ImageId='40615087'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='327488'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "327488"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "327488"
+       ],
+       "categories": [
+        "fakta",
+        "dr ramasjang"
+       ],
+       "customFields": {
+        "OwnedCategory": "Fakta,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Fakta",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Alma flytter på landet",
+        "ExtraDetails": "Fakta | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "alma-flytter-paa-landet_327488",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1903874122000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "327488",
+       "type": "show",
+       "shortDescription": "Hvad sker der når et barn flytter fra storbyen og ud på landet?",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Alma flytter på landet",
+       "path": "/serie/alma-flytter-paa-landet_327488"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442939'&Width=1920&Height=1080&ImageId='51790067'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442939'&Width=1440&Height=2160&ImageId='51790069'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442939'&Width=1920&Height=1080&ImageId='51951172'"
+       },
+       "duration": 4159,
+       "releaseYear": 1987,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "442939"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "442939"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "442939"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "BELGIEN",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Asterix og Kleopatra",
+        "ExtraDetails": "Film | 1T 9M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 9M",
+        "PathIdSegment": "asterix-og-kleopatra_442939",
+        "BroadcastTimeDK": "2024-03-26T07:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00809419640",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "442939",
+       "type": "program",
+       "shortDescription": "Cæsar siger til Kleopatra, at hendes folk, ægypterne, ikke er så stolte og dygtige som hans folk, romerne. For at modbevise dette indgår de et væddemål: Ægypterne skal bygge et prægtigt palads på tre måneder. Arkitekter og håndværkere går i gang, men det ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Asterix og Kleopatra",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/asterix-og-kleopatra_442939",
+       "watchPath": "/se/asterix-og-kleopatra_442939"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6539'&Width=1920&Height=1080&ImageId='4296934'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6539'&Width=1920&Height=1080&ImageId='4296937'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6539'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 3,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "6539"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "6539"
+       ],
+       "categories": [
+        "fakta",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fakta,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Fakta",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Astrid",
+        "ExtraDetails": "Fakta | 3 SÆSONER",
+        "TitleExtraDetails": "DR Ramasjang | 3 SÆSONER",
+        "PathIdSegment": "astrid_6539",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1508853254000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "6539",
+       "type": "show",
+       "shortDescription": "Svensk dokumentarserie der følger pigen Astrid, fra hun er 5 år og får at vide, at hun skal have en lillebror - og helt til hun er 7 år og flytter til en ny by og en ny skole.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Astrid",
+       "vodItemWatchPath": "",
+       "path": "/serie/astrid_6539"
+      }
+     ],
+     "size": 8,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 24,
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "398aab4",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "B",
+    "list": {
+     "id": "78113",
+     "parameter": "TitleGroupKey:b",
+     "customFields": {
+      "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+     },
+     "itemTypes": [
+      "show",
+      "program"
+     ],
+     "description": "",
+     "title": "Ramasjang | B",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/ramasjang_a-aa/b",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1920&Height=1080&ImageId='41305969'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1440&Height=2160&ImageId='41305973'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=1920&Height=1080&ImageId='50611484'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='265150'&Width=2048&Height=2048&ImageId='41625133'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "265150"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "265150"
+       ],
+       "categories": [
+        "serie",
+        "dr ramasjang",
+        "musik"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-07",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Babylons stol",
+        "ExtraDetails": "Serie | 2 SÆSONER",
+        "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+        "BrandingChannelShort": "TVR",
+        "ShortVideoUrl": "https://drod09s-vh.akamaihd.net/i/all/clear/streaming/48/61350445af5a6122c4789f48/VSR-Babylons-stol-Loft_d2549bdfbeb042fcb447cbfe8f8d9466_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+        "PathIdSegment": "babylons-stol_265150",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2997720802000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "265150",
+       "type": "show",
+       "shortDescription": "4 børn tilbringer sommeren på en gammel gård, og finder en mystisk stol på loftet. En talende stol som kalder sig Babylon - verdens sværeste spil. Men da børnene begynder at spille det gådefulde spil, som ingen nogensinde har gennemført, begynder der at s",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Se hele serien nu",
+       "themes": [],
+       "title": "Babylons stol",
+       "vodItemWatchPath": "",
+       "path": "/serie/babylons-stol_265150"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1920&Height=1080&ImageId='51790158'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1440&Height=2160&ImageId='51790165'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442946'&Width=1920&Height=1080&ImageId='51914111'"
+       },
+       "duration": 4497,
+       "releaseYear": 2004,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "442946"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "442946"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "442946"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "USA",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Balto - Den store forandring",
+        "ExtraDetails": "Film | 1T 15M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 15M",
+        "PathIdSegment": "balto-_-den-store-forandring_442946",
+        "BroadcastTimeDK": "2024-03-23T18:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00020730120",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "442946",
+       "type": "program",
+       "shortDescription": "Amerikansk animationsfilm fra 2004 med dansk tale.\n(Balto III)\nEn postflyver begynder at flyve forsyninger til den lille by Nome og truer med at gøre Balto og hans slædehundevenner arbejdsløse. Et væddeløb mellem slædehundene og flyet ender med sejr til h",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Balto - Den store forandring",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/balto-_-den-store-forandring_442946",
+       "watchPath": "/se/balto-_-den-store-forandring_442946"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6723'&Width=1920&Height=1080&ImageId='48710110'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6723'&Width=1440&Height=2160&ImageId='16099618'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6723'&Width=1920&Height=1080&ImageId='48710113'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6723'&Width=2048&Height=2048&ImageId='6669399'"
+       },
+       "availableSeasonCount": 4,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "6723"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "6723"
+       ],
+       "categories": [
+        "ramasjang ø",
+        "fakta",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Ramasjang ø,Fakta,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Ramasjang ø,Fakta",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bamselægen",
+        "ExtraDetails": "Ramasjang ø | 4 SÆSONER",
+        "TitleExtraDetails": "DR Ramasjang | 4 SÆSONER",
+        "PathIdSegment": "bamselaegen_6723",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1862391489000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "6723",
+       "type": "show",
+       "shortDescription": "Lær alt om kroppen og slip af med angsten for læger og hospitaler. Bamselægen Sandra tager sig af bamser i hele landet, der er syge eller kommet til skade.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bamselægen",
+       "vodItemWatchPath": "",
+       "path": "/serie/bamselaegen_6723"
+      },
+      {
+       "images": {
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413505'&Width=1440&Height=2160&ImageId='49801175'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413505'&Width=1920&Height=1080&ImageId='49801171'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='413505'&Width=1920&Height=1080&ImageId='51914043'"
+       },
+       "duration": 4845,
+       "releaseYear": 2019,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "413505"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "413505"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "413505"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "TYSKLAND",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Bayala - et magisk eventyr",
+        "ExtraDetails": "Film | 1T 21M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 21M",
+        "PathIdSegment": "bayala-_-et-magisk-eventyr_413505",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00852107990",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "413505",
+       "type": "program",
+       "shortDescription": "Dragerne er næsten forsvundet fra kongeriget Bayala, og derfor svækkes alfernes magiske kræfter. Alfeprinsesserne Sera og Surah bliver henrykte, da de opdager, at de har nøglen til at redde verden: et drageæg! Nu skal søstrene nå frem til dragebjergene, o",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bayala - et magisk eventyr",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/bayala-_-et-magisk-eventyr_413505",
+       "watchPath": "/se/bayala-_-et-magisk-eventyr_413505"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='346244'&Width=1920&Height=1080&ImageId='42757041'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='346244'&Width=1920&Height=1080&ImageId='42757039'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='346244'&Width=2048&Height=2048&ImageId='42911680'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='346244'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "346244"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "346244"
+       ],
+       "categories": [
+        "tegnefilm",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Tegnefilm",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bedst & Bedster",
+        "ExtraDetails": "Tegnefilm | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "bedst-and-bedster_346244",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2997610730000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "346244",
+       "type": "show",
+       "shortDescription": "Er du klar til at møde Bedst og Bedster? De er tvillinger i en vanvittig verden - og de har en vild evne til at omforme sig til hvad som helst og forhåbentlig lige det, situationen kræver. Problemet er bare, at de sjældent finder den rette form, og det gi",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bedst & Bedster",
+       "vodItemWatchPath": "",
+       "path": "/serie/bedst-and-bedster_346244"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='140053'&Width=1920&Height=1080&ImageId='4394601'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='140053'&Width=1920&Height=1080&ImageId='4394599'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='140053'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "140053"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "140053"
+       ],
+       "categories": [
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bella, Boris og Berta",
+        "ExtraDetails": "Serie | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "bella-boris-og-berta_140053",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1700348463000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "140053",
+       "type": "show",
+       "shortDescription": "Guld fra arkivet om venskaber og kærester. Oplev bl.a. Gordon Kennedy som Papa og Britt Bendixen som danselærer.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bella, Boris og Berta",
+       "vodItemWatchPath": "",
+       "path": "/serie/bella-boris-og-berta_140053"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442941'&Width=1920&Height=1080&ImageId='51790081'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442941'&Width=1440&Height=2160&ImageId='51790083'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442941'&Width=1920&Height=1080&ImageId='51790085'"
+       },
+       "duration": 5075,
+       "releaseYear": 2021,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "442941"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "442941"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "442941"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "FRANKRIG & MONACO",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Bien Maja og det gyldne æg",
+        "ExtraDetails": "Film | 1T 25M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 25M",
+        "PathIdSegment": "bien-maja-og-det-gyldne-aeg_442941",
+        "BroadcastTimeDK": "2024-03-27T07:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00852202890",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "442941",
+       "type": "program",
+       "shortDescription": "Bien Maja og hendes ven Willi går på opdagelse uden for bikuben. Pludselig hører de den grønne myre Chomp råbe på hjælp. Han er på flugt fra næsehornsbillerne Rumba, Henchie og Boof, som vil stjæle det gyldne æg, han er på vej til myrekolonien på toppen a",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bien Maja og det gyldne æg",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/bien-maja-og-det-gyldne-aeg_442941",
+       "watchPath": "/se/bien-maja-og-det-gyldne-aeg_442941"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227278'&Width=1920&Height=1080&ImageId='43180647'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227278'&Width=1440&Height=2160&ImageId='43180651'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227278'&Width=1920&Height=1080&ImageId='50166898'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227278'&Width=2048&Height=2048&ImageId='7961796'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "227278"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "227278"
+       ],
+       "categories": [
+        "tegnefilm",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Tegnefilm",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bluey",
+        "ExtraDetails": "Tegnefilm | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "bluey_227278",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2801700732000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "227278",
+       "type": "show",
+       "shortDescription": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bluey",
+       "vodItemWatchPath": "",
+       "path": "/serie/bluey_227278"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='149628'&Width=1920&Height=1080&ImageId='4255229'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='149628'&Width=1920&Height=1080&ImageId='4255225'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='149628'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "149628"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "149628"
+       ],
+       "categories": [
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bo flytter hjemmefra",
+        "ExtraDetails": "Serie | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "bo-flytter-hjemmefra_149628",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1558012707000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "149628",
+       "type": "show",
+       "shortDescription": "Hvorfor skal voksne bestemme alting?! Fiktionsserie instrueret af Nicolaj Kopernikus.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bo flytter hjemmefra",
+       "vodItemWatchPath": "",
+       "path": "/serie/bo-flytter-hjemmefra_149628"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='101437'&Width=1920&Height=1080&ImageId='4419941'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='101437'&Width=1920&Height=1080&ImageId='4419946'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='101437'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "101437"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "101437"
+       ],
+       "categories": [
+        "dyr",
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Dyr,Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Dyr,Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Bobbel og Gælles Mission",
+        "ExtraDetails": "Dyr | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "BadgeBackgroundColour_HexCode": "#00a046",
+        "PathIdSegment": "bobbel-og-gaelles-mission_101437",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2277681599000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "101437",
+       "type": "show",
+       "shortDescription": "Fiktionsserie om at redde havets dyr.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Bobbel og Gælles Mission",
+       "vodItemWatchPath": "",
+       "path": "/serie/bobbel-og-gaelles-mission_101437"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='395829'&Width=1920&Height=1080&ImageId='48373162'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='395829'&Width=1920&Height=1080&ImageId='47662536'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='395829'&Width=2048&Height=2048&ImageId='52021729'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='395829'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "395829"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "395829"
+       ],
+       "categories": [
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Brandbamsen Bjørnis",
+        "ExtraDetails": "Serie | 2 SÆSONER",
+        "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+        "PathIdSegment": "brandbamsen-bjoernis_395829",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:4164143353000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "395829",
+       "type": "show",
+       "shortDescription": "Kom med Brandbamsen Bjørnis på arbejde. Han ved, hvordan man fjerner væltede træer, redder katte op fra kloakker og slukker ildebrande.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Brandbamsen Bjørnis",
+       "vodItemWatchPath": "",
+       "path": "/serie/brandbamsen-bjoernis_395829"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='274495'&Width=1920&Height=1080&ImageId='14171140'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='274495'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='274495'&Width=1920&Height=1080&ImageId='14171142'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='274495'&Width=2048&Height=2048&ImageId='14351865'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "274495"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "274495"
+       ],
+       "categories": [
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Brillebjørns detektivbureau",
+        "ExtraDetails": "Serie | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "ShortVideoUrl": "https://drod03m-vh.akamaihd.net/i/all/clear/streaming/96/616a928aa95a61129c18c696/VSR-Brillebjorns-detek_09e091fd4250447399928d10b9ff61e5_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+        "PathIdSegment": "brillebjoerns-detektivbureau_274495",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3105909608000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "274495",
+       "type": "show",
+       "shortDescription": "Brillebjørn og hans venner er supergode til at løse megamystiske mysterier. Hvem ejer papkassen på vejen? Hvad er der blevet af leverpostejmadderne? Hvorfor er træhytten låst?",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Se hele serien",
+       "themes": [],
+       "title": "Brillebjørns detektivbureau",
+       "vodItemWatchPath": "",
+       "path": "/serie/brillebjoerns-detektivbureau_274495"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='69764'&Width=1920&Height=1080&ImageId='51300601'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='69764'&Width=1440&Height=2160&ImageId='51311136'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='69764'&Width=1920&Height=1080&ImageId='51300607'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "69764"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "69764"
+       ],
+       "categories": [
+        "gensyn",
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Gensyn,Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Gensyn,Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Busters verden",
+        "ExtraDetails": "Gensyn | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "busters-verden_69764",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1810389059000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "69764",
+       "type": "show",
+       "shortDescription": "Dansk børneserie fra 1984. Bille Agusts fine iscenesættelse af Bjarne Reuters roman om Buster Oregon Mortensen. Et humoristisk portræt af en ukuelig, trylleglad dreng og hans familie i Brønshøj.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Busters verden",
+       "vodItemWatchPath": "",
+       "path": "/serie/busters-verden_69764"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='308442'&Width=1920&Height=1080&ImageId='16393660'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='308442'&Width=1920&Height=1080&ImageId='16393663'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='308442'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "308442"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "308442"
+       ],
+       "categories": [
+        "fakta",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Fakta,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Fakta",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Byg et hus",
+        "ExtraDetails": "Fakta | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "byg-et-hus_308442",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:3349029873000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "308442",
+       "type": "show",
+       "shortDescription": "Silja viser, hvordan man selv kan bygge luksushuse og restauranter til pindsvin. Så de kan leve i sus og dus.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Byg et hus",
+       "vodItemWatchPath": "",
+       "path": "/serie/byg-et-hus_308442"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='429568'&Width=1920&Height=1080&ImageId='50889089'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='429568'&Width=1920&Height=1080&ImageId='50889087'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='429568'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "429568"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "429568"
+       ],
+       "categories": [
+        "ramasjang ø",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Ramasjang ø,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Ramasjang ø",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Byttebiksen",
+        "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "byttebiksen_429568",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1480658444000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "429568",
+       "type": "show",
+       "shortDescription": "Rosa og Lotte rejser rundt i landet og bytter brugt legetøj med legeglade børn.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Byttebiksen",
+       "vodItemWatchPath": "",
+       "path": "/serie/byttebiksen_429568"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6625'&Width=1920&Height=1080&ImageId='4281253'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6625'&Width=1440&Height=2160&ImageId='16099618'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6625'&Width=1920&Height=1080&ImageId='4281262'"
+       },
+       "availableSeasonCount": 2,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "6625"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "6625"
+       ],
+       "categories": [
+        "krea",
+        "tegnefilm",
+        "dr ramasjang",
+        "acc_spoken_subtitles"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Krea,Tegnefilm,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Krea,Tegnefilm",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Børns fantastiske fortællinger",
+        "ExtraDetails": "Krea | 2 SÆSONER",
+        "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+        "PathIdSegment": "boerns-fantastiske-fortaellinger_6625",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1732877286000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "6625",
+       "type": "show",
+       "shortDescription": "I Børns fantastiske fortællinger er det børnene, der er manusforfattere, instruktører og visuelle producere. Og børns fantasi er fantastisk - se og hør selv her.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Børns fantastiske fortællinger",
+       "vodItemWatchPath": "",
+       "path": "/serie/boerns-fantastiske-fortaellinger_6625"
+      }
+     ],
+     "size": 16,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 24,
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "dfd6ea1",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "C",
+    "list": {
+     "id": "78113",
+     "parameter": "TitleGroupKey:c",
+     "customFields": {
+      "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+     },
+     "itemTypes": [
+      "program",
+      "show"
+     ],
+     "description": "",
+     "title": "Ramasjang | C",
+     "shortDescription": "",
+     "tagline": "",
+     "themes": [],
+     "path": "/ramasjang_a-aa/c",
+     "items": [
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='322655'&Width=1920&Height=1080&ImageId='17727711'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='322655'&Width=1920&Height=1080&ImageId='48546791'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='322655'&Width=1440&Height=2160&ImageId='17727715'"
+       },
+       "duration": 4954,
+       "releaseYear": 2020,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "322655"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "322655"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "EF-LANDE",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-07",
+        "PageTitle": "Calamity Jane - Vestens vilde datter",
+        "ExtraDetails": "Film | 1T 23M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 23M",
+        "PathIdSegment": "calamity-jane-_-vestens-vilde-datter_322655",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00851810970",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "322655",
+       "type": "program",
+       "shortDescription": "Animationsfilm fra 2021.\nMartha Jane er i 1863 er sammen med en konvoj på vej mod et bedre liv i Vesten. Da hendes far kommer til skade, er det pludselig Martha, der skal køre familie-vognen, passe hestene og forsørge familien. Det er en hård og udfordren",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Calamity Jane - Vestens vilde datter",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/calamity-jane-_-vestens-vilde-datter_322655",
+       "watchPath": "/se/calamity-jane-_-vestens-vilde-datter_322655"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='321646'&Width=1920&Height=1080&ImageId='17621976'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='321646'&Width=1440&Height=2160&ImageId='16099618'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='321646'&Width=1920&Height=1080&ImageId='17621974'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='321646'&Width=2048&Height=2048&ImageId='17811777'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "321646"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "321646"
+       ],
+       "categories": [
+        "tegnefilm",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Tegnefilm",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "True",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Chuggington",
+        "ExtraDetails": "Tegnefilm | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "chuggington_321646",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:891432549000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "321646",
+       "type": "show",
+       "shortDescription": "I denne britiske animationsserie bliver nye, unge lokomotiver trænet op til at kunne klare alle opgaverne for borgerne i byen Chuggington - og det kræver sit tog!",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Chuggington",
+       "vodItemWatchPath": "",
+       "path": "/serie/chuggington_321646"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353279'&Width=1920&Height=1080&ImageId='43285230'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353279'&Width=1440&Height=2160&ImageId='43285234'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353279'&Width=1920&Height=1080&ImageId='48546794'"
+       },
+       "duration": 3700,
+       "releaseYear": 2015,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "353279"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "353279"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "353279"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Cirkeline - Coco og det vilde næsehorn",
+        "ExtraDetails": "Film | 1T 2M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 2M",
+        "PathIdSegment": "cirkeline-_-coco-og-det-vilde-naesehorn_353279",
+        "BroadcastTimeDK": "2022-12-29T07:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00851801590",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "353279",
+       "type": "program",
+       "shortDescription": "Cirkeline får en hjerteveninde med prinsessenykker, og Ingolf møder et næsehorn, der er træt af at være den lille. Sammen tager de på en rejse, der lærer dem, at det ikke altid er lykken at være den der bestemmer, og at selv et lillebitte næsehorn kan vis",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Cirkeline - Coco og det vilde næsehorn",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/cirkeline-_-coco-og-det-vilde-naesehorn_353279",
+       "watchPath": "/se/cirkeline-_-coco-og-det-vilde-naesehorn_353279"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353488'&Width=1920&Height=1080&ImageId='43297190'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353488'&Width=1440&Height=2160&ImageId='43297201'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353488'&Width=1920&Height=1080&ImageId='48547000'"
+       },
+       "duration": 3494,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "353488"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "353488"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "353488"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Cirkeline - Ost og kærlighed",
+        "ExtraDetails": "Film | 58M",
+        "TitleExtraDetails": "DR Ramasjang | 58M",
+        "PathIdSegment": "cirkeline-_-ost-og-kaerlighed_353488",
+        "BroadcastTimeDK": "2023-01-01T11:40:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00020883560",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "353488",
+       "type": "program",
+       "shortDescription": "På ostejagt møder Cirkeline og musene den lille og meget nærsynede Mille, der er faret vild. De inviterer hende med hjem. Da de finder ud af, at Mille har fødselsdag næste dag, beslutter de sig for at invitere hende til fødselsdagsfest. Men Milles far er ",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Cirkeline - Ost og kærlighed",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/cirkeline-_-ost-og-kaerlighed_353488",
+       "watchPath": "/se/cirkeline-_-ost-og-kaerlighed_353488"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='307043'&Width=1920&Height=1080&ImageId='16237176'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='307043'&Width=1440&Height=2160&ImageId='16237180'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='307043'&Width=1920&Height=1080&ImageId='48547006'"
+       },
+       "duration": 3405,
+       "releaseYear": 1998,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "307043"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "307043"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "307043"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Cirkeline - Storbyens Mus",
+        "ExtraDetails": "Film | 57M",
+        "TitleExtraDetails": "DR Ramasjang | 57M",
+        "ShortVideoUrl": "https://drod24p.akamaized.net/all/clear/none/c5/611976e5aa5a610c2ca3fec5/611976e050d3de1118f1aebd/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "cirkeline-_-storbyens-mus_307043",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00851607740",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "307043",
+       "type": "program",
+       "shortDescription": "Cirkeline flytter til byen sammen med sine venner, musene Ingolf og Frederik. Her møder de bymusen Sidse, der kender Hassan, der bor med sin familie hos en grønthandler. Hele flokken har det skægt og leger godt sammen. Men en dum kloakrotte forsøger at ød",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Ugens film",
+       "themes": [],
+       "title": "Cirkeline - Storbyens Mus",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/cirkeline-_-storbyens-mus_307043",
+       "watchPath": "/se/cirkeline-_-storbyens-mus_307043"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296122'&Width=1920&Height=1080&ImageId='15447304'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296122'&Width=1440&Height=2160&ImageId='15447345'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296122'&Width=1920&Height=1080&ImageId='48546797'"
+       },
+       "duration": 4648,
+       "releaseYear": 2004,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "296122"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "296122"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "296122"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Cirkeline og verdens mindste superhelt",
+        "ExtraDetails": "Film | 1T 17M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 17M",
+        "ShortVideoUrl": "https://drod01c-vh.akamaihd.net/i/all/clear/streaming/94/5f117cb3539f0217e8367394/VSR-Cirkeline-og-verdens-minds_d1308213953c439185124fb5fbd7f9f7_,1041,2698,336,1985,3806,508,.mp4.csmil/master.m3u8",
+        "PathIdSegment": "cirkeline-og-verdens-mindste-superhelt_296122",
+        "BroadcastTimeDK": "2022-02-18T07:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00801268290",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "296122",
+       "type": "program",
+       "shortDescription": "Dansk tegnefilm 2004.\nCirkeline er taget på ferie til Tyrkiet med sin tegner, så vennerne Ingolf, Frederik og Viktor sniger sig ombord på bedstefars skib, for at tage ned og besøge hende. På skibet møder de en anden blind passager - den barske og frygtløs",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Ugens film",
+       "themes": [],
+       "title": "Cirkeline og verdens mindste superhelt",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/cirkeline-og-verdens-mindste-superhelt_296122",
+       "watchPath": "/se/cirkeline-og-verdens-mindste-superhelt_296122"
+      },
+      {
+       "images": {
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='124786'&Width=1920&Height=1080&ImageId='4245125'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='124786'&Width=1440&Height=2160&ImageId='16099618'",
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='124786'&Width=1920&Height=1080&ImageId='4245113'",
+        "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='124786'&Width=2048&Height=2048&ImageId='51847414'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "124786"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "124786"
+       ],
+       "categories": [
+        "ramasjang ø",
+        "dr ramasjang",
+        "underholdning"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Ramasjang ø,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Ramasjang ø",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Ongoing",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Cirkus Summarum Shows",
+        "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "cirkus-summarum-shows_124786",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:2416903196000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "124786",
+       "type": "show",
+       "shortDescription": "Magiske musikalske cirkusshows for hele familien med Ramasjangs elskede figurer og DR Big Band.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Cirkus Summarum Shows",
+       "vodItemWatchPath": "",
+       "path": "/serie/cirkus-summarum-shows_124786"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='128190'&Width=1920&Height=1080&ImageId='4145872'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='128190'&Width=1920&Height=1080&ImageId='4145880'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='128190'&Width=1440&Height=2160&ImageId='16099618'"
+       },
+       "availableSeasonCount": 1,
+       "offers": [
+        {
+         "deliveryType": "None",
+         "scopes": [
+          "128190"
+         ],
+         "resolution": "Unknown",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "128190"
+       ],
+       "categories": [
+        "ramasjang ø",
+        "serie",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "DisplayCategory": "Ramasjang ø,Serie",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PresentationTypeCode": "Show",
+        "IsGeoRestricted": "False",
+        "IsSeriesDRMPlayoutRequired": "False",
+        "PageTitle": "Cirkusliv i savsmuld",
+        "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+        "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+        "PathIdSegment": "cirkusliv-i-savsmuld_128190",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:series:1901100211000",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "128190",
+       "type": "show",
+       "shortDescription": "Fiktionsserie om livet i Cirkus Summarum om vinteren.",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Cirkusliv i savsmuld",
+       "vodItemWatchPath": "",
+       "path": "/serie/cirkusliv-i-savsmuld_128190"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='299349'&Width=1920&Height=1080&ImageId='15692642'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='299349'&Width=1440&Height=2160&ImageId='15692646'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='299349'&Width=1920&Height=1080&ImageId='48547010'"
+       },
+       "duration": 4457,
+       "releaseYear": 2006,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "299349"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "299349"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "299349"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Cykelmyggen og Dansemyggen",
+        "ExtraDetails": "Film | 1T 14M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 14M",
+        "PathIdSegment": "cykelmyggen-og-dansemyggen_299349",
+        "BroadcastTimeDK": "2022-03-06T07:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00590680320",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "299349",
+       "type": "program",
+       "shortDescription": "Dansk animationsfilm fra 2007.\nDansemyggen Dagmar brænder for sin dans og er lun på Egon. Men Egon brænder mere for en hård spurt og vil ud at se verden. Kærligheden må vente, til drengetiden er forbi, mener han. Men da den onde, røde myredronning Dominel",
+       "contextualTitle": "",
+       "sports": [],
+       "themes": [],
+       "title": "Cykelmyggen og Dansemyggen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/cykelmyggen-og-dansemyggen_299349",
+       "watchPath": "/se/cykelmyggen-og-dansemyggen_299349"
+      },
+      {
+       "images": {
+        "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356470'&Width=1920&Height=1080&ImageId='43541292'",
+        "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356470'&Width=1440&Height=2160&ImageId='43541306'",
+        "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356470'&Width=1920&Height=1080&ImageId='48547013'"
+       },
+       "duration": 4385,
+       "releaseYear": 2013,
+       "offers": [
+        {
+         "deliveryType": "Stream",
+         "scopes": [
+          "356470"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        },
+        {
+         "deliveryType": "Download",
+         "scopes": [
+          "356470"
+         ],
+         "resolution": "HD-1080",
+         "availability": "Available",
+         "ownership": "Free",
+         "price": 0
+        }
+       ],
+       "scopes": [
+        "356470"
+       ],
+       "categories": [
+        "film",
+        "dr ramasjang"
+       ],
+       "channelPath": "",
+       "customFields": {
+        "OwnedCategory": "Film,DR Ramasjang",
+        "AccessServicesOffered": "StandardVideo",
+        "BrandingChannelShort": "TVR",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "DisplayCategory": "Film",
+        "TargetAudience": "All",
+        "RatingSegment": "Ramasjang",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ClassificationRating": "MRAM-ALL",
+        "PageTitle": "Cykelmyggen og Minibillen",
+        "ExtraDetails": "Film | 1T 13M",
+        "TitleExtraDetails": "DR Ramasjang | 1T 13M",
+        "ShortVideoUrl": "https://drod22n.akamaized.net/all/clear/none/6c/5f947229539f0230407d896c/5f9471ae539f0230407d8969/stream_fmp4/master_manifest.m3u8",
+        "PathIdSegment": "cykelmyggen-og-minibillen_356470",
+        "BroadcastTimeDK": "2023-01-22T07:30:00",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ]
+       },
+       "customId": "urn:dr:ocs:tv:content:playable:00961200160",
+       "genres": [
+        "ukendt"
+       ],
+       "id": "356470",
+       "type": "program",
+       "shortDescription": "Minibillen Mini optræder i loppecirkus sammen med Cykelmyggen Egon og Dansemyggen Dagmar. Da Mini bliver mobbet af loppen Miranda, ender det med en forstuvet fod til Dagmar og en fiasko for det ellers dygtige cirkus. Mini bliver skældt ud og stikker efter",
+       "contextualTitle": "",
+       "sports": [],
+       "tagline": "Ugens film",
+       "themes": [],
+       "title": "Cykelmyggen og Minibillen",
+       "vodItemWatchPath": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/cykelmyggen-og-minibillen_356470",
+       "watchPath": "/se/cykelmyggen-og-minibillen_356470"
+      }
+     ],
+     "size": 10,
+     "paging": {
+      "total": 1,
+      "page": 1,
+      "size": 24,
+      "options": {
+       "pageSize": 24
+      }
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "5743cda",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "D",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 17,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ad",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:d",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "e265a9b",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "E",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 3,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ae",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:e",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "676a474",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "F",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 7,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Af",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:f",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "7eec36d",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "G",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 10,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ag",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:g",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "3976983",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "H",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 13,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ah",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:h",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "2abb11c",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "I",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 2,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ai",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:i",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "ea9abb8",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "J",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 6,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Aj",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:j",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "1016095",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "K",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 14,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ak",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:k",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "aeff028",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "L",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 8,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Al",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:l",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "d550ac2",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "M",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 27,
+     "paging": {
+      "total": 2,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Am",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:m",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "9173fe2",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "N",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 4,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3An",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:n",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "dabad3f",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "O",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 10,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ao",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:o",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "1207fa3",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "P",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 15,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ap",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:p",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "a57b1b3",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Q",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 1,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Aq",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:q",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "513d476",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "R",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 13,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ar",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:r",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "1891d8c",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "S",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 58,
+     "paging": {
+      "total": 3,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3As",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:s",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "4b29184",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "T",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 8,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3At",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:t",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "728ca67",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "U",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 2,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Au",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:u",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "3e2de1b",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "V",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 15,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Av",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:v",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "2362380",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "W",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 1,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Aw",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:w",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "f34f538",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Y",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 1,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Ay",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:y",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "2d11f31",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Z",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 4,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3Az",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:z",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "7057a6b",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Æ",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 1,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3A%C3%A6",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:æ",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "c70129d",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "Å",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 1,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3A%C3%A5",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:å",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   },
+   {
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    },
+    "type": "ListEntry",
+    "id": "9af19ab",
+    "listMeta": {
+     "isProfileList": false
+    },
+    "template": "T1",
+    "title": "0-9",
+    "list": {
+     "id": "78113",
+     "path": "/liste/78113",
+     "items": [],
+     "size": 2,
+     "paging": {
+      "total": 1,
+      "page": 0,
+      "size": 24,
+      "next": "/lists/78113?page_size=24&page=1&sub=Registered&param=TitleGroupKey%3A0-9",
+      "options": {
+       "pageSize": 24
+      }
+     },
+     "parameter": "TitleGroupKey:0-9",
+     "listMeta": {
+      "isProfileList": false
+     }
+    }
+   }
+  ]
+ }
+}
