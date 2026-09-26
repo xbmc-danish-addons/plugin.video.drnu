@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433982'&Width=1920&Height=1080&ImageId='51300378'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433982'&Width=2000&Height=3000&ImageId='51300380'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433982'&Width=1920&Height=1080&ImageId='51300382'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2676,
+  "releaseYear": 2023,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-01-29T22:59:00Z",
+    "scopes": [
+     "433982"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-01-29T22:59:00Z",
+    "scopes": [
+     "433982"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E1CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "433982"
+  ],
+  "categories": [
+   "dokumentar",
+   "krimi",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Krimi,DR1",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Krimi",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PageTitle": "De mistænkte",
+   "ExtraDetails": "Dokumentar | 45M",
+   "TitleExtraDetails": "DR1 | 45M",
+   "ShortVideoUrl": "https://drod22k.akamaized.net/all/clear/none/43/65b201f81030de0830b87843/65b201f743298505f810d5c0/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "de-mistaenkte_433982",
+   "BroadcastTimeDK": "2024-01-29T21:25:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00242310010",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "433982",
+  "type": "program",
+  "description": "Pludselig bliver du anholdt. Mistænkt for svindel eller for at være i ledtog med narkokriminelle. Du siger, du er uskyldig. Men du sættes flere måneder i fængsel - varetægtsfængsel. To helt almindelige danskere sidder fængslet, mens deres sag undersøges af politiet. De fortæller om store tab, menneskeligt og økonomisk, og hvordan det rammer uskyldige og deres børn hårdt. Fire ud af ti fængselsceller i Danmark bruges konstant til varetægt. Det er et voksende problem - ikke kun for danskernes retssikkerhed - men også for hele retssystemet, siger flere dommere. Udløber: 29. jan 2026",
+  "shortDescription": "Pludselig bliver du anholdt. Mistænkt for svindel eller for at være i ledtog med narkokriminelle. Du siger, du er uskyldig. Men du sættes flere måneder i fængsel - varetægtsfængsel. To helt almindelige danskere sidder fængslet, mens deres sag undersøges a",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Varetægtsfængsling rammer uskyldige mennesker og deres børn hårdt",
+  "themes": [],
+  "title": "De mistænkte",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/de-mistaenkte_433982",
+  "watchPath": "/se/de-mistaenkte_433982",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

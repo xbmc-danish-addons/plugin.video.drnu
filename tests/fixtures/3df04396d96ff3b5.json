@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='366554'&Width=1440&Height=2160&ImageId='16099618'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366554'&Width=1920&Height=1080&ImageId='44174589'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366554'&Width=1920&Height=1080&ImageId='44174591'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366554'&Width=2048&Height=2048&ImageId='44684525'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-03-06T22:59:00Z",
+    "scopes": [
+     "366554"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-06T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "366554"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Den gule yeti",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "den-gule-yeti_366554",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2997606060000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "366554",
+  "type": "show",
+  "description": "Han er ustoppelig, og han hedder Gustav. Han er den gule yeti, og drengen Osmo er hans bedste ven. Sammen med de andre børn i Vinterby oplever de masser af skøre eventyr - for næsen af de voksne, der er optaget af byens mange regler. Finsk tegnefilmserie.",
+  "shortDescription": "Han er ustoppelig, og han hedder Gustav. Han er den gule yeti, og drengen Osmo er hans bedste ven. Sammen med de andre børn i Vinterby oplever de masser af skøre eventyr - for næsen af de voksne, der er optaget af byens mange regler. Finsk tegnefilmserie.",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Den gule yeti",
+  "vodItemWatchPath": "",
+  "path": "/serie/den-gule-yeti_366554",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

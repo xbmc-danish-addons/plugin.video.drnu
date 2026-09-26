@@ -1,0 +1,187 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:u",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | U",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/u",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442948'&Width=1920&Height=1080&ImageId='51790181'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442948'&Width=1440&Height=2160&ImageId='51790183'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442948'&Width=1920&Height=1080&ImageId='51790185'"
+    },
+    "duration": 4967,
+    "releaseYear": 2018,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "442948"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "442948"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "442948"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "FRANKRIG & MONACO",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Ulvehunden",
+     "ExtraDetails": "Film | 1T 23M",
+     "TitleExtraDetails": "DR Ramasjang | 1T 23M",
+     "PathIdSegment": "ulvehunden_442948",
+     "BroadcastTimeDK": "2024-03-26T18:30:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852206310",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "442948",
+    "type": "program",
+    "shortDescription": "Animationsfilm fra 2018.\nUlvehunden, Hvidtand, lever alene med sin mor i Alaskas vildmark, indtil han finder sit hjem hos indianerne, der bliver narret til at sælge ham til en brutal hundekamps-arrangør. Det er et forfærdeligt liv, men heldigvis findes de",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Ulvehunden",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/ulvehunden_442948",
+    "watchPath": "/se/ulvehunden_442948"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442950'&Width=1920&Height=1080&ImageId='51914035'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442950'&Width=1920&Height=1080&ImageId='51790205'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442950'&Width=1440&Height=2160&ImageId='51790207'"
+    },
+    "duration": 4939,
+    "releaseYear": 2020,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "442950"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "442950"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "442950"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "GRUPPER AF LANDE",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Uuups! Dyr over bord",
+     "ExtraDetails": "Film | 1T 22M",
+     "TitleExtraDetails": "DR Ramasjang | 1T 22M",
+     "PathIdSegment": "uuups-dyr-over-bord_442950",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852206300",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "442950",
+    "type": "program",
+    "shortDescription": "Vennerne Fini og Lea er om bord på Noahs ark, og efter flere uger til søs er der ingen land i sigte. Da Fini og Lea ender over bord med det sidste mad, må de redde deres venner og arken fra total ødelæggelse. Udløber: 4. apr 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Uuups! Dyr over bord",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/uuups-dyr-over-bord_442950",
+    "watchPath": "/se/uuups-dyr-over-bord_442950"
+   }
+  ],
+  "size": 2,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

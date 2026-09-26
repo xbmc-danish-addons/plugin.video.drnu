@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442938'&Width=1920&Height=1080&ImageId='51790058'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442938'&Width=1920&Height=1080&ImageId='52000811'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442938'&Width=1920&Height=1080&ImageId='52000809'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4811,
+  "releaseYear": 1990,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-03-31T21:59:00Z",
+    "scopes": [
+     "442938"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-24T06:30:22Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-03-31T21:59:00Z",
+    "scopes": [
+     "442938"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-24T06:30:22Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442938"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Peter Pedal - Filmen",
+   "ExtraDetails": "Film | 1T 20M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 20M",
+   "PathIdSegment": "peter-pedal-_-filmen_442938",
+   "BroadcastTimeDK": "2024-03-24T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00850860480",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442938",
+  "type": "program",
+  "description": "På en opdagelsesrejse finder manden med den gule hat en lille abe, som følger med ham hjem til storbyen. Den lille abe er mere nysgerrig end de fleste, og det kaster ham gang på gang ud i problemer, som dog alle ender godt.\nAmerikansk tegnefilm med dansk tale fra 2006, bygget over Margret og H.A.Reys børnebog. Udløber: 31. mar 2024",
+  "shortDescription": "På en opdagelsesrejse finder manden med den gule hat en lille abe, som følger med ham hjem til storbyen. Den lille abe er mere nysgerrig end de fleste, og det kaster ham gang på gang ud i problemer, som dog alle ender godt.\nAmerikansk tegnefilm med dansk ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Peter Pedal - Filmen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/peter-pedal-_-filmen_442938",
+  "watchPath": "/se/peter-pedal-_-filmen_442938",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

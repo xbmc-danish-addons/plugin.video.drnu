@@ -1,0 +1,460 @@
+{
+ "status": 200,
+ "json": {
+  "id": "348",
+  "parameter": "TitleGroupKey:a",
+  "customFields": {
+   "PathIdSegment": "alt-indhold-_-_titlegroupkey__348"
+  },
+  "itemTypes": [
+   "program",
+   "show"
+  ],
+  "description": "",
+  "title": "A",
+  "shortDescription": "",
+  "themes": [],
+  "path": "/a-aa/a",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='352247'&Width=1920&Height=1080&ImageId='43228650'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='352247'&Width=1920&Height=1080&ImageId='43228652'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='352247'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 3485,
+    "releaseYear": 2022,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "352247"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "352247"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "352247"
+    ],
+    "categories": [
+     "livsstil",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Livsstil",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "At køre er at leve - Motorcyklens magi",
+     "ExtraDetails": "Livsstil | 58M",
+     "TitleExtraDetails": "DR2 | 58M",
+     "ShortVideoUrl": "https://drod24t.akamaized.net/all/clear/none/ea/637489fba95a610eb093d2ea/637489ef1556091700111ab1/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "at-koere-er-at-leve-_-motorcyklens-magi_352247",
+     "BroadcastTimeDK": "2022-11-19T20:00:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00652216010",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "352247",
+    "type": "program",
+    "shortDescription": "Motorcyklen kan sætte dig fri! Tag med stjernefotograf Thomas Skou på hans odyssé gennem det danske motorcykellandsskab, hvor han på egen krop mærker, hvad motorcyklen kan gøre for mennesker, og også for ham selv. Tag med landets sejeste kvinder på campin",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hop på frihedsmaskinen med Thomas Skou, og tag på eventyr i Danmark",
+    "themes": [],
+    "title": "At køre er at leve - Motorcyklens magi",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/at-koere-er-at-leve-_-motorcyklens-magi_352247",
+    "watchPath": "/se/at-koere-er-at-leve-_-motorcyklens-magi_352247"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='370950'&Width=1920&Height=1080&ImageId='44706933'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='370950'&Width=1920&Height=1080&ImageId='44706935'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='370950'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 3586,
+    "releaseYear": 2016,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "370950"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "370950"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "370950"
+    ],
+    "categories": [
+     "dokumentar",
+     "videnskab og teknologi",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Videnskab og teknologi,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "SVERIGE",
+     "DisplayCategory": "Dokumentar,Videnskab og teknologi",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Atomkraft - hvorfor egentlig ikke?",
+     "ExtraDetails": "Dokumentar | 1T 0M",
+     "TitleExtraDetails": "DR2 | 1T 0M",
+     "PathIdSegment": "atomkraft-_-hvorfor-egentlig-ikke_370950",
+     "BroadcastTimeDK": "2023-02-27T23:55:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00211609020",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "370950",
+    "type": "program",
+    "shortDescription": "Dansk dokumentar fra 2016\nHvordan har vi tænkt os, at lave energi til det moderne samfund uden samtidig at ødelægge os selv?\nVidenskabsjournalisten Line Friis Frederiksen undrer sig over hvad der skal til, for at få danskerne til at se mulighederne ved mo",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Atomkraft - hvorfor egentlig ikke?",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/atomkraft-_-hvorfor-egentlig-ikke_370950",
+    "watchPath": "/se/atomkraft-_-hvorfor-egentlig-ikke_370950"
+   },
+   {
+    "images": {
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='363112'&Width=1440&Height=2160&ImageId='44195444'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='363112'&Width=1920&Height=1080&ImageId='44175852'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='363112'&Width=1920&Height=1080&ImageId='44175855'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "363112"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "363112"
+    ],
+    "categories": [
+     "dokumentar",
+     "videnskab og teknologi",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Videnskab og teknologi,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar,Videnskab og teknologi",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Atomkraft - ja tak!",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod24t.akamaized.net/all/clear/none/33/63d23b99aa5a621f28c22333/63d23b95d52dd6100c55dfeb/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "atomkraft-_-ja-tak_363112",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2653200504000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "363112",
+    "type": "show",
+    "shortDescription": "Anders Lund Madsen har altid været stor modstander af kernekraft. Men energikrise, krig og klimaforandringer har nu bragt ham i tvivl. For hvad nu hvis det faktisk er en del af løsningen?",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hele serien | Anders Lund Madsen har altid været imod A-kraft, men nu tvivler han",
+    "themes": [],
+    "title": "Atomkraft - ja tak!",
+    "vodItemWatchPath": "",
+    "path": "/serie/atomkraft-_-ja-tak_363112"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6387'&Width=1920&Height=1080&ImageId='4375279'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6387'&Width=1920&Height=1080&ImageId='4375282'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6387'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 4,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6387"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6387"
+    ],
+    "categories": [
+     "dokumentar",
+     "livsstil",
+     "kultur",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Livsstil,Kultur,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar,Livsstil,Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Auktionshuset",
+     "ExtraDetails": "Dokumentar | 4 SÆSONER",
+     "TitleExtraDetails": "DR1 | 4 SÆSONER",
+     "PathIdSegment": "auktionshuset_6387",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1126155196000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6387",
+    "type": "show",
+    "shortDescription": "Drømme, forretning og følelser går hånd i hånd i et af Danmarks ældste auktionshuse Bruun Rasmussen. Her regerer husets herre og ejer, Jesper Bruun Rasmussen, der arvede hammeren af sin far i 1985 og har haft sin gang i huset i 50 år.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Auktionshuset",
+    "vodItemWatchPath": "",
+    "path": "/serie/auktionshuset_6387"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434149'&Width=1920&Height=1080&ImageId='51311593'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434149'&Width=1440&Height=2160&ImageId='51311590'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434149'&Width=1920&Height=1080&ImageId='51311595'"
+    },
+    "duration": 5418,
+    "releaseYear": 2020,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "434149"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "434149"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "434149"
+    ],
+    "categories": [
+     "film",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR1,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "ProductionCountry": "USA",
+     "DisplayCategory": "Film",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PageTitle": "Ava",
+     "ExtraDetails": "Film | 1T 30M",
+     "TitleExtraDetails": "DR1 | 1T 30M",
+     "PathIdSegment": "ava_434149",
+     "BroadcastTimeDK": "2024-02-09T21:55:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00022030710",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "434149",
+    "type": "program",
+    "shortDescription": "Amerikansk thriller fra 2020.\nDræb - eller bliv dræbt. Ava er lejemorder for en hemmelig organisation. Hun rejser kloden rundt for at begå højprofilerede mord. Men da et job går galt, havner Ava selv på organisationens dødsliste. Pludselig må hun kæmpe fo",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Ava",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/ava_434149",
+    "watchPath": "/se/ava_434149"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282934'&Width=1920&Height=1080&ImageId='14863161'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282934'&Width=1920&Height=1080&ImageId='14863163'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='282934'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "282934"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "282934"
+    ],
+    "categories": [
+     "dokumentar",
+     "historie",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Historie,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Historie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Aztekernes glemte pyramider",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "aztekernes-glemte-pyramider_282934",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3160046941000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "282934",
+    "type": "show",
+    "shortDescription": "Forskere har i århundreder forsøgt at finde ud af, hvem aztekerne var, og hvordan de byggede deres storslåede imperium. Kan en række nye undersøgelser og et banebrydende eksperiment løse mysterierne?",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Aztekernes glemte pyramider",
+    "vodItemWatchPath": "",
+    "path": "/serie/aztekernes-glemte-pyramider_282934"
+   }
+  ],
+  "size": 102,
+  "paging": {
+   "total": 5,
+   "page": 5,
+   "size": 24,
+   "previous": "/lists/348?page_size=24&param=TitleGroupKey%3Aa&lang=da&page=4&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

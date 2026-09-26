@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18852'&Width=1920&Height=1080&ImageId='4376697'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='18852'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18852'&Width=1920&Height=1080&ImageId='50011273'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-04-18T21:59:59Z",
+    "scopes": [
+     "18852"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2018-03-28T13:19:45Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "18852"
+  ],
+  "categories": [
+   "livsstil",
+   "mad",
+   "rejse",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Livsstil,Mad,Rejse",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Anne og Anders på sommerferie",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "PathIdSegment": "anne-og-anders-paa-sommerferie_18852",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1902888189000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "18852",
+  "type": "show",
+  "description": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe tager på roadtrip for at finde hjem til den håndholdte sommerferie i Danmark. De har lånt et gammelt folkevognsrugbrød med en topfart på 90 og triller landet rundt fra Skagen til Sydfyn. Med indlagte kaffepauser, glemte grusveje og små, forførende madoplevelser.",
+  "shortDescription": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe tager på roadtrip for at finde hjem til den håndholdte sommerferie i Danmark. De har lånt et gammelt folkevognsrugbrød med en topfart på 90 og triller landet rundt fra Skagen til Sydfyn. Med indlagte ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Anne og Anders på sommerferie",
+  "vodItemWatchPath": "",
+  "path": "/serie/anne-og-anders-paa-sommerferie_18852",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

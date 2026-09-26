@@ -1,0 +1,439 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:j",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | J",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/j",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='281533'&Width=1920&Height=1080&ImageId='14547488'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='281533'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='281533'&Width=1920&Height=1080&ImageId='14547490'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='281533'&Width=2048&Height=2048&ImageId='14570429'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "281533"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "281533"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang",
+     "musik"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Jagten på regnbuens farver",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "ShortVideoUrl": "https://drod10r-vh.akamaihd.net/i/all/clear/streaming/27/6172bfb4a95a61129c18c927/VSR-Jagten-pa-regnbuen_a85bdb16f7a24c4dba91a7b5a3728764_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "jagten-paa-regnbuens-farver_281533",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2998399066000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "281533",
+    "type": "show",
+    "shortDescription": "Motor Mille og Hr. Skæg drager på en eventyrlig og actionfyldt mission for at redde alle regnbuens farver.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Se hele serien nu ",
+    "themes": [],
+    "title": "Jagten på regnbuens farver",
+    "vodItemWatchPath": "",
+    "path": "/serie/jagten-paa-regnbuens-farver_281533"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='346275'&Width=1920&Height=1080&ImageId='42775812'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='346275'&Width=1920&Height=1080&ImageId='42775814'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='346275'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "346275"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "346275"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang",
+     "musik"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Jagten på regnbuens guld",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "jagten-paa-regnbuens-guld_346275",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3216105945000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "346275",
+    "type": "show",
+    "shortDescription": "Regnbuen er gået i stykker, og Motor Mille og Hr. Skæg befinder sig på mystisk vis i Tunesien. Nu må de to venner finde ud af hvorfor - og hvordan regnbuen kan reddes.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Se hele serien nu",
+    "themes": [],
+    "title": "Jagten på regnbuens guld",
+    "vodItemWatchPath": "",
+    "path": "/serie/jagten-paa-regnbuens-guld_346275"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416471'&Width=1920&Height=1080&ImageId='50177163'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416471'&Width=1920&Height=1080&ImageId='50177157'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='416471'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "416471"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "416471"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang",
+     "musik"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Jagten på regnbuens magi",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "jagten-paa-regnbuens-magi_416471",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3888954032000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "416471",
+    "type": "show",
+    "shortDescription": "Hr. Skæg er på en dejlig badeferie i Sierra Leone, da han pludselig bliver hevet ud af feriestemningen. Motor Mille ringer nemlig og fortæller, at den er helt gal med regnbuen, og børnene i Danmark er blevet helt grå og triste! Motor Mille og Hr. Skæg må ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Jagten på regnbuens magi",
+    "vodItemWatchPath": "",
+    "path": "/serie/jagten-paa-regnbuens-magi_416471"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227277'&Width=1920&Height=1080&ImageId='7243731'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227277'&Width=1920&Height=1080&ImageId='7243736'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='227277'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227277'&Width=2048&Height=2048&ImageId='7586257'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "227277"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "227277"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "John Dillermand",
+     "ExtraDetails": "Tegnefilm | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "PathIdSegment": "john-dillermand_227277",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2712632488000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "227277",
+    "type": "show",
+    "shortDescription": "Danske tegnefilm om at stå ved sig selv, selvom man måske ikke er helt som alle andre.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "John Dillermand",
+    "vodItemWatchPath": "",
+    "path": "/serie/john-dillermand_227277"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='243583'&Width=1920&Height=1080&ImageId='10748074'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='243583'&Width=1920&Height=1080&ImageId='10748072'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='243583'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "243583"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "243583"
+    ],
+    "categories": [
+     "dyr",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dyr,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Dyr",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Jonahs dyreverden",
+     "ExtraDetails": "Dyr | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "ShortVideoUrl": "https://drod02f-vh.akamaihd.net/i/all/clear/streaming/75/606ddd05aa5a611bf0ef7c75/VSR-Jonahs-dyreverden-_34c1b6fe3f6e435d9d0f02ebc748e078_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "jonahs-dyreverden_243583",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2873019770000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "243583",
+    "type": "show",
+    "shortDescription": "Jonah elsker dyr mere end noget andet, og sammen med sin far rejser han ud og finder de sejeste - og mest skræmmende - dyr. Norsk dokumentarserie.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Se hele serien nu",
+    "themes": [],
+    "title": "Jonahs dyreverden",
+    "vodItemWatchPath": "",
+    "path": "/serie/jonahs-dyreverden_243583"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='286441'&Width=1920&Height=1080&ImageId='14833207'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='286441'&Width=1440&Height=2160&ImageId='14833216'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='286441'&Width=1920&Height=1080&ImageId='48547029'"
+    },
+    "duration": 1533,
+    "releaseYear": 2021,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "286441"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "286441"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "286441"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "FRANKRIG & MONACO",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Jul i øsende regn",
+     "ExtraDetails": "Film | 26M",
+     "TitleExtraDetails": "DR Ramasjang | 26M",
+     "ShortVideoUrl": "https://drod23m.akamaized.net/all/clear/none/82/6399b630aa5a611f00623482/6399b62cf8881123484ee498/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "jul-i-oesende-regn_286441",
+     "BroadcastTimeDK": "2021-12-05T15:30:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852108650",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "286441",
+    "type": "program",
+    "shortDescription": "Udløber: 14. sep 2024",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Jul i øsende regn",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/jul-i-oesende-regn_286441",
+    "watchPath": "/se/jul-i-oesende-regn_286441"
+   }
+  ],
+  "size": 6,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

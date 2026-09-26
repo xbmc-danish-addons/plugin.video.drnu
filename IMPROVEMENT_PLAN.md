@@ -93,21 +93,30 @@ There is no official Kodi test runner. The stub modules in `tests/`
 `inputstreamhelper.py`) emulating the Kodi API are the community-standard
 approach — keep that pattern, improve on top of it:
 
-- [ ] Add `conftest.py`: move `sys.path` injection and stub imports there; expose
+- [x] Add `conftest.py`: move `sys.path` injection and stub imports there; expose
       the addon `handle` as a fixture instead of module-level state (today
       `test_routing.py:28` replaces the handle with a plain dict — clever but fragile)
-- [ ] Make API tests hermetic: convert the recorded `requests.cache.sqlite`
-      responses to JSON fixtures under `tests/fixtures/`, served via `responses`
-      (or a small adapter). The current `assert u.from_cache` trick
-      (`test_routing.py:64`) silently does a live request when the cache misses
-- [ ] Split `test_basemenus` into one test per screen; reset state per test
-- [ ] Replace `UPDATE_TESTS`/`UPDATE_CACHE` module flags with a `--update-golden`
-      pytest option or a small script
-- [ ] Add pure unit tests (no Kodi needed):
-      - `vtt2srt` (golden output already exists as `tests/30050.da.srt`)
-      - `fix_query`, `generate_code_challenge` (RFC 7636 test vectors), `version()`
-      - `get_title`, `item_area`, `kids_item`
+- [x] Make API tests hermetic: convert the recorded `requests.cache.sqlite`
+      responses to JSON fixtures under `tests/fixtures/`, served via a small
+      adapter (`tests/fixtures_adapter.py`) that fails loudly on a cache miss.
+      The old `assert u.from_cache` trick silently did a live request on miss.
+      Fixture keys normalize params (sorted, `page=1` dropped, paging-context
+      params stripped) so recordings under multiple spellings collapse; on
+      collision the newest recording wins. Verified hermetic by banning
+      `requests`/`requests_cache` during a full test run.
+- [x] Split `test_basemenus` into one test per screen; reset state per test
+- [x] Replace `UPDATE_TESTS`/`UPDATE_CACHE` module flags with a `--update-golden`
+      pytest option (conftest.py); goldens regenerate byte-identical
+- [x] Add pure unit tests (no Kodi needed):
+      - `vtt2srt` (inline VTT fixture; the golden `tests/30050.da.srt` predates
+        the current subtitle code and no VTT exists in the recorded cache)
+      - `fix_query`, `generate_code_challenge` (RFC 7636 test vector),
+        `generate_code_verifier`, `cache_path`
+      - `get_title`, `item_area`, `kids_item` (called unbound with `None` self)
+      - fixture-key normalization (`tests/test_fixtures_adapter.py`)
       - route dispatch: table of query string → expected items
+      (`test_route_dispatch`, including the `AreaSelectorDialog` path via
+      extended xbmcgui stubs)
 - [ ] Optional: add `kodistubs` (pip) for IDE autocompletion/type-checking of the
       xbmc API; complements, does not replace, the test stubs
 

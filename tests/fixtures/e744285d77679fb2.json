@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282683'&Width=1920&Height=1080&ImageId='14531744'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282683'&Width=1920&Height=1080&ImageId='14531746'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='282683'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3111,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-05-31T21:59:00Z",
+    "scopes": [
+     "282683"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EBLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-11-07T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-05-31T21:59:00Z",
+    "scopes": [
+     "282683"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EONAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-11-07T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "282683"
+  ],
+  "categories": [
+   "kultur",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "FINLAND",
+   "DisplayCategory": "Kultur",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Alvar Aalto - lysets mester",
+   "ExtraDetails": "Kultur | 52M",
+   "TitleExtraDetails": "DR2 | 52M",
+   "PathIdSegment": "alvar-aalto-_-lysets-mester_282683",
+   "BroadcastTimeDK": "2021-11-07T23:35:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00021812530",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "282683",
+  "type": "program",
+  "description": "Finsk dokumentar fra 2020.\n(Aalto)\nDen finske arkitekt Alvar Aalto var en af det 20. århundredes førende modernister. En ambitiøs og intelligent pioner, der havde et unikt og nyskabende samarbejde med sin hustru Aino. Kom med på en rejse ind i ægteparret Alvar og Ainos inderste væsen - og hør om deres kærlighed, familieliv, arbejde og op- og nedture. Udløber: 31. maj 2024",
+  "shortDescription": "Finsk dokumentar fra 2020.\n(Aalto)\nDen finske arkitekt Alvar Aalto var en af det 20. århundredes førende modernister. En ambitiøs og intelligent pioner, der havde et unikt og nyskabende samarbejde med sin hustru Aino. Kom med på en rejse ind i ægteparret ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Alvar Aalto - lysets mester",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/alvar-aalto-_-lysets-mester_282683",
+  "watchPath": "/se/alvar-aalto-_-lysets-mester_282683",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

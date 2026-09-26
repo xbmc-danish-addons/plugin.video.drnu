@@ -1,0 +1,79 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='290265'&Width=1920&Height=1080&ImageId='42199020'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='290265'&Width=1920&Height=1080&ImageId='49995077'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='290265'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-12-11T22:59:00Z",
+    "scopes": [
+     "290265"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-12-11T04:55:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "290265"
+  ],
+  "categories": [
+   "livsstil",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Livsstil",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Alle hader feminister",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "PathIdSegment": "alle-hader-feminister_290265",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2623958877000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "290265",
+  "type": "show",
+  "description": "Alle hader feminister! De er skingre, besværlige, menstruerende og pisse irriterende. I dag er det nærmest et decideret skældsord i Danmark. Men virkeligheden er, at det er gået helt galt for ligestillingen i Danmark, og det er der ingen, der vil indse.\nKomiker Ane Høgsberg kaster sig ud i en indre og ydre kamp for feminismen, og det får store personlige konsekvenser: For kan man gøre det cool at være feminist i en verden, hvor alle hader feminister?",
+  "shortDescription": "Alle hader feminister! De er skingre, besværlige, menstruerende og pisse irriterende. I dag er det nærmest et decideret skældsord i Danmark. Men virkeligheden er, at det er gået helt galt for ligestillingen i Danmark, og det er der ingen, der vil indse.\nK",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Alle hader feminister",
+  "vodItemWatchPath": "",
+  "path": "/serie/alle-hader-feminister_290265",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

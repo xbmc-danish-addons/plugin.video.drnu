@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='150703'&Width=1920&Height=1080&ImageId='4424635'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='150703'&Width=1920&Height=1080&ImageId='4424638'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='150703'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2027-02-26T22:59:00Z",
+    "scopes": [
+     "150703"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2020-02-26T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "150703"
+  ],
+  "categories": [
+   "livsstil",
+   "krop og sundhed",
+   "videnskab og teknologi",
+   "dr2"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Krop og sundhed,Videnskab og teknologi,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Livsstil,Krop og sundhed,Videnskab og teknologi",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "En farlig arv",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "ShortVideoUrl": "https://drod03b-vh.akamaihd.net/i/all/clear/streaming/b6/5e4e4ffe539f0245cca886b6/VS-En-farlig-arv--B--009220013_f89a144d1691488ea42060246f360a59_,483,3667,293,1892,964,2534,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "en-farlig-arv_150703",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2338069221000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "150703",
+  "type": "show",
+  "description": "Hjerneforskningen og teknologien, der kan måle vores hjerne, er i rivende udvikling. Jon Sigurd Wegener, der har en grad i neurovidenskab, har altid været fascineret af hjernen og dens ubevidste processer. I mange år har han kigget på andre menneskers hjerner, men i denne serie, begiver han sig ud i at samle så meget data på sin egen hjerne som overhovedet muligt, for han har en følelse af, at han oplever verden anderledes end os andre. Og på trods af de ubehagelige overraskelser, der kan ligge forude, er han villig til at lade sig teste af nogle af landets førende forskere, for at finde svar på, hvad der foregår dybt i de ubevidste processer i hans hjerne.",
+  "shortDescription": "Hjerneforskningen og teknologien, der kan måle vores hjerne, er i rivende udvikling. Jon Sigurd Wegener, der har en grad i neurovidenskab, har altid været fascineret af hjernen og dens ubevidste processer. I mange år har han kigget på andre menneskers hje",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Se hele serien | Jon dykker ned i sin egen hjerne og dens ubevidste processer",
+  "themes": [],
+  "title": "En farlig arv",
+  "vodItemWatchPath": "",
+  "path": "/serie/en-farlig-arv_150703",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

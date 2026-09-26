@@ -1,0 +1,90 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422575'&Width=1920&Height=1080&ImageId='50847377'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422575'&Width=1920&Height=1080&ImageId='50847379'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='422575'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "releaseYear": 2024,
+  "availableEpisodeCount": 7,
+  "seasonNumber": 12,
+  "showId": "7379",
+  "episodeCount": 8,
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-02-21T22:59:00Z",
+    "scopes": [
+     "422575"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EGD",
+    "name": "D430_Season Free HD-1080 Season Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "422575"
+  ],
+  "categories": [
+   "livsstil",
+   "underholdning",
+   "hus og have",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Underholdning,Hus og have,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Livsstil,Underholdning,Hus og have",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "IsGeoRestricted": "False",
+   "PresentationTypeCode": "Ongoing",
+   "IsSeasonDRMPlayoutRequired": "False",
+   "PageTitle": "I hus til halsen: Sæson 12",
+   "ExtraDetails": "Livsstil | SÆSON 12",
+   "ShortVideoUrl": "https://drod20k.akamaized.net/all/clear/none/74/6584b258d2a97a20f80e9974/6584b25752b17d0dcc44f703/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "i-hus-til-halsen_422575",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:season:4517756423000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "422575",
+  "type": "season",
+  "description": "Programmets eksperter får til opgave at hjælpe familier ud af meget klemte situationer, hvor et hussalg nærmest virker utopisk. Eksperterne skal nu gøre alt hvad de kan, så familierne forhåbentlig få deres hus solgt og kan komme videre i livet.",
+  "shortDescription": "Programmets eksperter får til opgave at hjælpe familier ud af meget klemte situationer, hvor et hussalg nærmest virker utopisk. Eksperterne skal nu gøre alt hvad de kan, så familierne forhåbentlig få deres hus solgt og kan komme videre i livet.",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Eksperterne vender tilbage for at forvandle usælgelige huse",
+  "themes": [],
+  "title": "I hus til halsen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/saeson/i-hus-til-halsen_422575",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

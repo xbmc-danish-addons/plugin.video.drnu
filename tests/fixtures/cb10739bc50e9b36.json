@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='278596'&Width=1920&Height=1080&ImageId='15799626'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='278596'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='278596'&Width=1920&Height=1080&ImageId='51138047'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-10-26T22:59:00Z",
+    "scopes": [
+     "278596"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-10-26T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "278596"
+  ],
+  "categories": [
+   "politik",
+   "humor/satire",
+   "p3",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Politik,Humor/satire,P3",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "DisplayCategory": "Politik,Humor/satire",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Adnan & borgmestermoralen",
+   "ExtraDetails": "Politik | 1 SÆSON",
+   "TitleExtraDetails": "P3 | 1 SÆSON",
+   "ShortVideoUrl": "https://drod01d-vh.akamaihd.net/i/all/clear/streaming/ba/6183d79daa5a61257c1c83ba/VS-ADNAN-OG-BORGMESTER_52508dc846b64f79b5dc72a963930ff1_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "adnan-and-borgmestermoralen_278596",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3119674684000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "278596",
+  "type": "show",
+  "description": "I denne serie hylder Adnan borgmestrenes helt unikke moral. Han besøger fem forskellige kommuner, hvor borgmestrene har gjort sig særligt fortjent til at blive hædret! I mødet med borgmestre og borgere giver Adnan sit satiriske bud på, hvad der gør lige netop disse fem kommuner til noget særligt.",
+  "shortDescription": "I denne serie hylder Adnan borgmestrenes helt unikke moral. Han besøger fem forskellige kommuner, hvor borgmestrene har gjort sig særligt fortjent til at blive hædret! I mødet med borgmestre og borgere giver Adnan sit satiriske bud på, hvad der gør lige n",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Hele serien | Adnan hylder fem borgmestres helt unikke moral",
+  "themes": [],
+  "title": "Adnan & borgmestermoralen",
+  "vodItemWatchPath": "",
+  "path": "/serie/adnan-and-borgmestermoralen_278596",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

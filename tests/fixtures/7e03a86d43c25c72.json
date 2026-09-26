@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1920&Height=1080&ImageId='16489965'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1920&Height=1080&ImageId='16489970'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-04-18T21:59:59Z",
+    "scopes": [
+     "309749"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-04-18T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "309749"
+  ],
+  "categories": [
+   "fakta",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Fakta,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Fakta",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Alfred danser ballet",
+   "ExtraDetails": "Fakta | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "alfred-danser-ballet_309749",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2907488605000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "309749",
+  "type": "show",
+  "description": "Alfred har aldrig danset ballet før, men nu er han optaget på Den Kongelige Balletskole. Han er spændt på alt det nye der skal ske og fuld af gåpåmod, men lige om lidt venter en meget anderledes hverdag, og han skal vinke farvel til det han kender og er tryg ved.",
+  "shortDescription": "Alfred har aldrig danset ballet før, men nu er han optaget på Den Kongelige Balletskole. Han er spændt på alt det nye der skal ske og fuld af gåpåmod, men lige om lidt venter en meget anderledes hverdag, og han skal vinke farvel til det han kender og er t",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Alfred danser ballet",
+  "vodItemWatchPath": "",
+  "path": "/serie/alfred-danser-ballet_309749",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

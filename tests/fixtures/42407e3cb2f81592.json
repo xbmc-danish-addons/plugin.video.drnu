@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438464'&Width=1920&Height=1080&ImageId='51492595'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438464'&Width=1440&Height=2160&ImageId='51684880'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438464'&Width=1920&Height=1080&ImageId='51684882'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2065,
+  "releaseYear": 1996,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-01-08T22:59:59Z",
+    "scopes": [
+     "438464"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-08T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-01-08T22:59:59Z",
+    "scopes": [
+     "438464"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-08T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438464"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Pressemøde med dronning Margrethe - 25-års regeringsjubilæum",
+   "ExtraDetails": "Gensyn | 34M",
+   "TitleExtraDetails": "DR Gensyn | 34M",
+   "PathIdSegment": "pressemoede-med-dronning-margrethe-_-25_aars-regeringsjubilaeum_438464",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00102060320",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438464",
+  "type": "program",
+  "description": "Dansk reportage fra 1996. \"Man ville ikke dø af min mad, men jeg er ikke sikker på, at man ville overleve min kørsel\". I anledning af dronning Margrethes 25-års regeringsjubilæum i januar 1997 er den danske dagspresse inviteret til at møde dronningen og prinsgemalen. Udover at kommentere på sine huslige evner udtrykker regenten bekymring for den øgede opmærksomhed og snagen fra pressen. Og hun opfordrer til at lade svigerdatteren prinsesse Alexandra gå i butikker i fred og ro - og f.eks. kigge på sokker uden nysgerrige blikke. Udløber: 8. jan 2026",
+  "shortDescription": "Dansk reportage fra 1996. \"Man ville ikke dø af min mad, men jeg er ikke sikker på, at man ville overleve min kørsel\". I anledning af dronning Margrethes 25-års regeringsjubilæum i januar 1997 er den danske dagspresse inviteret til at møde dronningen og p",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Pressemøde med dronning Margrethe - 25-års regeringsjubilæum",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/pressemoede-med-dronning-margrethe-_-25_aars-regeringsjubilaeum_438464",
+  "watchPath": "/se/pressemoede-med-dronning-margrethe-_-25_aars-regeringsjubilaeum_438464",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

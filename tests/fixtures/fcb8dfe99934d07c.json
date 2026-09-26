@@ -1,0 +1,111 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419277'&Width=1920&Height=1080&ImageId='51493829'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419277'&Width=1920&Height=1080&ImageId='51493831'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='419277'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1530,
+  "releaseYear": 2023,
+  "episodeNumber": 22,
+  "episodeName": "SEX MED P3: Fantasi: Expectations vs. Reality",
+  "seasonId": "338759",
+  "showId": "338758",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-02-09T22:59:00Z",
+    "scopes": [
+     "419277"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EQEAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-09T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-02-09T22:59:00Z",
+    "scopes": [
+     "419277"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EXGAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-09T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "419277",
+   "338759"
+  ],
+  "badge": "Ny sæson",
+  "categories": [
+   "livsstil",
+   "krop og sundhed",
+   "p3"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Krop og sundhed,P3",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Livsstil,Krop og sundhed",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PlayButtonExtraDetails": "S1:E22 Fantasi: Expectations vs. Reality",
+   "ContextualTitleExtraDetails": "9. FEB 2024 | 26M",
+   "AvailableFrom": "2024-02-09T05:00:00.0000000Z",
+   "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+   "PresentationTypeCode": "CurrentAffairs",
+   "PageTitle": "SEX MED P3: Sæson 1 – Fantasi: Expectations vs. Reality",
+   "ExtraDetails": "9. FEB 2024 | 26M",
+   "PathIdSegment": "sex-med-p3_-fantasi_-expectations-vs-reality_419277",
+   "ShortVideoUrl": "https://drod22n.akamaized.net/all/clear/none/a4/65c356482e57d704485328a4/65c356479619de1c28b16c88/stream_fmp4/master_manifest.m3u8",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00222415020",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "419277",
+  "type": "episode",
+  "description": "Trekanter, dominans eller gangbangs? Måske deler du sexfantasier med mange flere end du tror. Er du nysgerrig på at høre om andres frække fantasier? Og skal din fantasi udleves eller blive inde i hovedet? Vi giver dig den ultimative guide til, hvad du skal stille op med din fantasi, og til at udleve den, hvis det er det, du drømmer om. Vi dykker også ned i, hvad dine fantasier i virkeligheden handler om og hvad du kan gøre, hvis du har en sexfantasi, som du gerne vil af med. Udløber: 9. feb 2026",
+  "shortDescription": "Trekanter, dominans eller gangbangs? Måske deler du sexfantasier med mange flere end du tror. Er du nysgerrig på at høre om andres frække fantasier? Og skal din fantasi udleves eller blive inde i hovedet? Vi giver dig den ultimative guide til, hvad du ska",
+  "contextualTitle": "Fantasi: Expectations vs. Reality",
+  "sports": [],
+  "tagline": "Episode 2:8 | Den ultimative guide til, hvad du skal stille op med din fantasi",
+  "themes": [],
+  "title": "SEX MED P3: Fantasi: Expectations vs. Reality",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/sex-med-p3_-fantasi_-expectations-vs-reality_419277",
+  "watchPath": "/se/sex-med-p3_-fantasi_-expectations-vs-reality_419277",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

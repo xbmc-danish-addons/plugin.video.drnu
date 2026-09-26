@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439498'&Width=1920&Height=1080&ImageId='51598652'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439498'&Width=1440&Height=2160&ImageId='51598654'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439498'&Width=1920&Height=1080&ImageId='51598656'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 726,
+  "releaseYear": 1997,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-13T22:59:59Z",
+    "scopes": [
+     "439498"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-13T22:59:59Z",
+    "scopes": [
+     "439498"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "439498"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-NOT-RATED",
+   "PageTitle": "Hans Engells spritkørsel",
+   "ExtraDetails": "Gensyn | 12M",
+   "TitleExtraDetails": "DR Gensyn | 12M",
+   "PathIdSegment": "hans-engells-spritkoersel_439498",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00502411020",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "439498",
+  "type": "program",
+  "description": "Dansk aktualitetsprogram fra 1997. En betonklods på Helsingørmotorvejen tager farten af Hans Engells politiske karriere. Han kører galt i spirituspåvirket tilstand, og derfor vælger han at gå af som leder af Det Konservative Folkeparti. I et interview med Steffen Kretz kommenterer den tidligere justitsminister på ulykken, hans syn på straffe til spritbilister og hans fremtid i politik. Per Stig Møller bliver partiets nye leder, men Hans Engell fortsætter dog som gruppeformand. Er det et springbræt til et comeback? Udløber: 13. mar 2026",
+  "shortDescription": "Dansk aktualitetsprogram fra 1997. En betonklods på Helsingørmotorvejen tager farten af Hans Engells politiske karriere. Han kører galt i spirituspåvirket tilstand, og derfor vælger han at gå af som leder af Det Konservative Folkeparti. I et interview med",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Hans Engells spritkørsel",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/hans-engells-spritkoersel_439498",
+  "watchPath": "/se/hans-engells-spritkoersel_439498",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

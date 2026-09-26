@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='370950'&Width=1920&Height=1080&ImageId='44706933'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='370950'&Width=1920&Height=1080&ImageId='44706935'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='370950'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3586,
+  "releaseYear": 2016,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-02-27T22:59:00Z",
+    "scopes": [
+     "370950"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-02-27T22:59:23Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-02-27T22:59:00Z",
+    "scopes": [
+     "370950"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-02-27T22:59:23Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "370950"
+  ],
+  "categories": [
+   "dokumentar",
+   "videnskab og teknologi",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Videnskab og teknologi,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "SVERIGE",
+   "DisplayCategory": "Dokumentar,Videnskab og teknologi",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Atomkraft - hvorfor egentlig ikke?",
+   "ExtraDetails": "Dokumentar | 1T 0M",
+   "TitleExtraDetails": "DR2 | 1T 0M",
+   "PathIdSegment": "atomkraft-_-hvorfor-egentlig-ikke_370950",
+   "BroadcastTimeDK": "2023-02-27T23:55:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00211609020",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "370950",
+  "type": "program",
+  "description": "Dansk dokumentar fra 2016\nHvordan har vi tænkt os, at lave energi til det moderne samfund uden samtidig at ødelægge os selv?\nVidenskabsjournalisten Line Friis Frederiksen undrer sig over hvad der skal til, for at få danskerne til at se mulighederne ved moderne og mere sikker atomkraft. For meldingen fra klimaforskere kloden rundt er klar: Vores planet er truet af klimaforandringer og vi bliver flere og flere mennesker med brug for energi - derfor er sikre atomkraftværker et nødvendigt bud på en CO2-venlig løsning. \nLine Friis Frederiksen taler med unge kernekraftentusiaster, der ønsker at redde jorden og kvinden bag halvfjerdsernes Plutoniumsang. Og hun rejser til Tjernobyl for at konfrontere det, de fleste frygter ved atomkraft - katastrofen der har efterladt spøgelsesbyer og  personer, der stadig mange år efter mærker konsekvenserne. Men er det egentlig så slemt?\nSendt første gang 23.04.2016 Udløber: 27. feb 2026",
+  "shortDescription": "Dansk dokumentar fra 2016\nHvordan har vi tænkt os, at lave energi til det moderne samfund uden samtidig at ødelægge os selv?\nVidenskabsjournalisten Line Friis Frederiksen undrer sig over hvad der skal til, for at få danskerne til at se mulighederne ved mo",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Atomkraft - hvorfor egentlig ikke?",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/atomkraft-_-hvorfor-egentlig-ikke_370950",
+  "watchPath": "/se/atomkraft-_-hvorfor-egentlig-ikke_370950",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

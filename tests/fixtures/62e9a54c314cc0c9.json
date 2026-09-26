@@ -1,0 +1,78 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416406'&Width=1920&Height=1080&ImageId='50837126'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416406'&Width=1920&Height=1080&ImageId='50837120'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416406'&Width=1440&Height=2160&ImageId='50837133'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-01-20T22:59:00Z",
+    "scopes": [
+     "416406"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-31T17:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "416406"
+  ],
+  "categories": [
+   "dokumentar",
+   "p3"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,P3",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Forelsket i en løgn",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "P3 | 1 SÆSON",
+   "PathIdSegment": "forelsket-i-en-loegn_416406",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4709785748000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "416406",
+  "type": "show",
+  "description": "Camilla troede, hun forelskede sig i den perfekte fyr. Men det viser sig, at han er alt andet end det. Historier om gæld til rockere, farlige forbindelser og kidnapning dukker op midt i Camillas stormende forelskelse. Og inden for ganske kort tid ser hun sig selv tømme sin konto, børneopsparing og optage lån for at hjælpe den fyr, hun har forelsket sig i. Der er bare et problem: Meget af det, Benjamin fortæller er opdigtet. Det finder Camilla dog først ud af alt for sent.",
+  "shortDescription": "Camilla troede, hun forelskede sig i den perfekte fyr. Men det viser sig, at han er alt andet end det. Historier om gæld til rockere, farlige forbindelser og kidnapning dukker op midt i Camillas stormende forelskelse. Og inden for ganske kort tid ser hun ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Forelsket i en løgn",
+  "vodItemWatchPath": "",
+  "path": "/serie/forelsket-i-en-loegn_416406",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,1161 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:d",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "description": "",
+  "title": "Ramasjang | D",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/d",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='128196'&Width=1920&Height=1080&ImageId='4245214'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='128196'&Width=1920&Height=1080&ImageId='4245225'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='128196'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "128196"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "128196"
+    ],
+    "categories": [
+     "fakta",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fakta,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Fakta",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dansebørnene i Cirkus Summarum",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "danseboernene-i-cirkus-summarum_128196",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1903385910000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "128196",
+    "type": "show",
+    "shortDescription": "Mød de seje dansebørn fra Cirkus Summarum i dette eksklusive kig bag om den kendte cirkusforestilling.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Dansebørnene i Cirkus Summarum",
+    "vodItemWatchPath": "",
+    "path": "/serie/danseboernene-i-cirkus-summarum_128196"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='365738'&Width=1920&Height=1080&ImageId='44128313'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='365738'&Width=1920&Height=1080&ImageId='44128315'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='365738'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='365738'&Width=2048&Height=2048&ImageId='44517436'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "365738"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "365738"
+    ],
+    "categories": [
+     "krea",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Krea,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Krea",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "CurrentAffairs",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dansemix",
+     "ExtraDetails": "Krea",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "dansemix_365738",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4073945962000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "365738",
+    "type": "show",
+    "shortDescription": "Ramasjangs dansecrew bliver stillet overfor en sjov udfordring, når 3 trin skal fortolkes med dans, der til sidst ender ud i én fed fællesdans. Rejs dig op fra sofaen og dans med!",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Dansemix",
+    "vodItemWatchPath": "",
+    "path": "/serie/dansemix_365738"
+   },
+   {
+    "images": {
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419251'&Width=1440&Height=2160&ImageId='50167106'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419251'&Width=1920&Height=1080&ImageId='50167101'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419251'&Width=1920&Height=1080&ImageId='50167108'"
+    },
+    "duration": 1470,
+    "releaseYear": 2021,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "419251"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "419251"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "419251"
+    ],
+    "categories": [
+     "film",
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,Tegnefilm,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "DisplayCategory": "Film,Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Den afskyelige Sne-baby",
+     "ExtraDetails": "Film | 25M",
+     "TitleExtraDetails": "DR Ramasjang | 25M",
+     "BrandingChannelShort": "TVR",
+     "PathIdSegment": "den-afskyelige-sne_baby_419251",
+     "BroadcastTimeDK": "2023-12-02T10:10:00",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852308070",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "419251",
+    "type": "program",
+    "shortDescription": "Et 14-fod stort snevæsen er ved at bringe en by i opløsning - kan bedstemor og barnebarnet Albert redde det hele? Udløber: 30. nov 2027",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Den afskyelige Sne-baby",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/den-afskyelige-sne_baby_419251",
+    "watchPath": "/se/den-afskyelige-sne_baby_419251"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366554'&Width=1920&Height=1080&ImageId='44174591'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366554'&Width=1920&Height=1080&ImageId='44174589'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366554'&Width=2048&Height=2048&ImageId='44684525'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='366554'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "366554"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "366554"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Den gule yeti",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "den-gule-yeti_366554",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2997606060000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "366554",
+    "type": "show",
+    "shortDescription": "Han er ustoppelig, og han hedder Gustav. Han er den gule yeti, og drengen Osmo er hans bedste ven. Sammen med de andre børn i Vinterby oplever de masser af skøre eventyr - for næsen af de voksne, der er optaget af byens mange regler. Finsk tegnefilmserie.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Den gule yeti",
+    "vodItemWatchPath": "",
+    "path": "/serie/den-gule-yeti_366554"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434949'&Width=1920&Height=1080&ImageId='51416677'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434949'&Width=1440&Height=2160&ImageId='51416689'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434949'&Width=1920&Height=1080&ImageId='51416679'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434949'&Width=2048&Height=2048&ImageId='51568553'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "434949"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "434949"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang",
+     "musik"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Den magiske klub",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "den-magiske-klub_434949",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3927381929000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "434949",
+    "type": "show",
+    "shortDescription": "MGP, magi og musical i Ramasjang.\nTag med i en ikke helt almindelig fritidsklub, hvor kælderen gemmer på en magisk kilde, så der hver dag sker magiske ting i klubben. Undervejs i serien er der sange fra de sidste 20 års MGP, udført som musical med masser ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Den magiske klub",
+    "vodItemWatchPath": "",
+    "path": "/serie/den-magiske-klub_434949"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438712'&Width=1920&Height=1080&ImageId='51612787'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='438712'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438712'&Width=1920&Height=1080&ImageId='51612789'"
+    },
+    "duration": 160,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "438712"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "438712"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "438712"
+    ],
+    "categories": [
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Den magiske klub Ekstra: Filmer med en KÆMPE skildpadde",
+     "ExtraDetails": "3M",
+     "TitleExtraDetails": "DR Ramasjang | 3M",
+     "PathIdSegment": "den-magiske-klub-ekstra_-filmer-med-en-kaempe-skildpadde_438712",
+     "ShortVideoUrl": "https://drod20t.akamaized.net/all/clear/none/56/65e0a9a80ba4911c50677056/65e0a9a701f1524aacd09f0e/stream_fmp4/master_manifest.m3u8",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00132420110",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "438712",
+    "type": "program",
+    "shortDescription": "Udløber: 28. feb 2025",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Kig med bag kulissen i Den magiske klub",
+    "themes": [],
+    "title": "Den magiske klub Ekstra: Filmer med en KÆMPE skildpadde",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/den-magiske-klub-ekstra_-filmer-med-en-kaempe-skildpadde_438712",
+    "watchPath": "/se/den-magiske-klub-ekstra_-filmer-med-en-kaempe-skildpadde_438712"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='171280'&Width=1920&Height=1080&ImageId='2563845'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='171280'&Width=1920&Height=1080&ImageId='2563847'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='171280'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "171280"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "171280"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Det Kongelige Spektakel",
+     "ExtraDetails": "Serie | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "PathIdSegment": "det-kongelige-spektakel_171280",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:891443488000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "171280",
+    "type": "show",
+    "shortDescription": "Hop på Det Kongelige Spektakel, når det kører ud i det blå. Og tag på eventyr sammen med cowboy-kongen Villy, rumvæsnet Luni, kokken Leo, robotten Dyt og prinsessen Habibi.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Det Kongelige Spektakel",
+    "vodItemWatchPath": "",
+    "path": "/serie/det-kongelige-spektakel_171280"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414516'&Width=1920&Height=1080&ImageId='49853201'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414516'&Width=1440&Height=2160&ImageId='49853203'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414516'&Width=1920&Height=1080&ImageId='49853205'"
+    },
+    "duration": 1687,
+    "releaseYear": 2022,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "414516"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "414516"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "414516"
+    ],
+    "categories": [
+     "film",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Film,DR Ramasjang",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "ProductionCountry": "IRLAND",
+     "DisplayCategory": "Film",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Det mageløse monster",
+     "ExtraDetails": "Film | 28M",
+     "TitleExtraDetails": "DR Ramasjang | 28M",
+     "PathIdSegment": "det-mageloese-monster_414516",
+     "ShortVideoUrl": "https://drod23d.akamaized.net/all/clear/none/1d/653a0dc691240928fc467a1d/653a0dc43aaf694448a97762/stream_fmp4/master_manifest.m3u8",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00852301640",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "414516",
+    "type": "program",
+    "shortDescription": "Udløber: 30. sep 2026",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Halloweens hyggeligste monster",
+    "themes": [],
+    "title": "Det mageløse monster",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/det-mageloese-monster_414516",
+    "watchPath": "/se/det-mageloese-monster_414516"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='140060'&Width=1920&Height=1080&ImageId='15799538'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='140060'&Width=1920&Height=1080&ImageId='15799540'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='140060'&Width=1440&Height=2160&ImageId='13706178'"
+    },
+    "availableSeasonCount": 3,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "140060"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "140060"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Det store Ramasjang Mysterie",
+     "ExtraDetails": "Ramasjang ø | 3 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 3 SÆSONER",
+     "PathIdSegment": "det-store-ramasjang-mysterie_140060",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2513101441000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "140060",
+    "type": "show",
+    "shortDescription": "Hvem mon har kidnappet Kristian - og hvorfor?",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Det store Ramasjang Mysterie",
+    "vodItemWatchPath": "",
+    "path": "/serie/det-store-ramasjang-mysterie_140060"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='149606'&Width=1920&Height=1080&ImageId='4254555'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='149606'&Width=1920&Height=1080&ImageId='4254568'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='149606'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "149606"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "149606"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dina Detektiv",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "dina-detektiv_149606",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1906328011000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "149606",
+    "type": "show",
+    "shortDescription": "Norsk serie om Dina, som er 7 år og elsker at løse mysterier i blokken, hvor hun bor.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Dina Detektiv",
+    "vodItemWatchPath": "",
+    "path": "/serie/dina-detektiv_149606"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='264135'&Width=1920&Height=1080&ImageId='46815047'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='264135'&Width=1920&Height=1080&ImageId='48614002'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='264135'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='264135'&Width=2048&Height=2048&ImageId='13856583'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "264135"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "264135"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dino-ranchen",
+     "ExtraDetails": "Tegnefilm | 2 SÆSONER",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER",
+     "PathIdSegment": "dino_ranchen_264135",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2983023670000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "264135",
+    "type": "show",
+    "shortDescription": "Hvad ville du sige til at bo på en gård, hvor alle dyrene er dinosaurer? Besøg familien Cassidys ranch, hvor hver dag byder på nye eventyr, spænding og godt kammeratskab mellem Cassidy-børnene og deres dino'er. Canadisk animationsserie.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Dino-ranchen",
+    "vodItemWatchPath": "",
+    "path": "/serie/dino_ranchen_264135"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227396'&Width=1920&Height=1080&ImageId='8301424'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227396'&Width=1920&Height=1080&ImageId='8301405'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='227396'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227396'&Width=2048&Height=2048&ImageId='8779550'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "227396"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "227396"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "fakta",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,Fakta,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Ramasjang ø,Fakta",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dinolaboratoriet",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "dinolaboratoriet_227396",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2704545042000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "227396",
+    "type": "show",
+    "shortDescription": "Alle dine yndlings-dinosaurer - helt tæt på. Tag med Kristian ind i Dino Laboratoriet og oplev dinosaurerne helt tæt på. Kristian gør alt, hvad han kan, for at få dinosaurerne til at opføre sig ordentligt i laboratoriet - men det lykkes ikke altid.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Dinolaboratoriet",
+    "vodItemWatchPath": "",
+    "path": "/serie/dinolaboratoriet_227396"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434988'&Width=1920&Height=1080&ImageId='51252364'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='434988'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434988'&Width=3840&Height=2160&ImageId='51399463'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434988'&Width=2048&Height=2048&ImageId='51568551'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "434988"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "434988"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dora Udforskeren",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "dora-udforskeren_434988",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1094097992000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "434988",
+    "type": "show",
+    "shortDescription": "Amerikansk animationsserie om pigen Dora der tager på eventyr med sin ven, aben Boots. Gennem en masse repetition og underholdende sange hjælper Dora med at lære de mindste børn deres første ord på engelsk.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Dora Udforskeren",
+    "vodItemWatchPath": "",
+    "path": "/serie/dora-udforskeren_434988"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='325238'&Width=1920&Height=1080&ImageId='40549666'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='325238'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='325238'&Width=1920&Height=1080&ImageId='40549668'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "325238"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "325238"
+    ],
+    "categories": [
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dragen og de syv prinsesser",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "ShortVideoUrl": "https://drod24h.akamaized.net/all/clear/none/b5/62fa9044aa5a61155882b4b5/62fa9035ca76ed0e484e105b/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "dragen-og-de-syv-prinsesser_325238",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3363843139000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "325238",
+    "type": "show",
+    "shortDescription": "En ond pruttende fe holder den sødeste drage indespærret i en eventyrverden. Måske kan syv små prinsesser fra den virkelige verden befri den?",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Se hele serien nu ",
+    "themes": [],
+    "title": "Dragen og de syv prinsesser",
+    "vodItemWatchPath": "",
+    "path": "/serie/dragen-og-de-syv-prinsesser_325238"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='145979'&Width=1920&Height=1080&ImageId='51291040'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='145979'&Width=1440&Height=2160&ImageId='51291024'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='145979'&Width=1920&Height=1080&ImageId='51291030'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "145979"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "145979"
+    ],
+    "categories": [
+     "gensyn",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Gensyn,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Drengen de kaldte kylling",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "drengen-de-kaldte-kylling_145979",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1901028793000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "145979",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1998. Syvårige Willy vil være lige så sej som sin fortælleglade far. Sidse Babett Knudsen og Martin Brygmann medvirker i Natasha Arthys skæve og musikalske univers.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Drengen de kaldte kylling",
+    "vodItemWatchPath": "",
+    "path": "/serie/drengen-de-kaldte-kylling_145979"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='303074'&Width=1920&Height=1080&ImageId='16067194'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='303074'&Width=1920&Height=1080&ImageId='16067197'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='303074'&Width=1440&Height=2160&ImageId='16099618'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='303074'&Width=2048&Height=2048&ImageId='16237094'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "303074"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "303074"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dyrepasser Pihl",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "dyrepasser-pihl_303074",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2988634769000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "303074",
+    "type": "show",
+    "shortDescription": "Bare man havde en zoologisk have! Det har dyrepasser Pihl, men han er ikke altid så god til at løse problemerne med de mange forskellige dyr. Så er det jo godt, at han har to børn, der kan hjælpe ham! Irsk tegnefilmserie.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Dyrepasser Pihl",
+    "path": "/serie/dyrepasser-pihl_303074"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426100'&Width=1920&Height=1080&ImageId='51963698'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426100'&Width=1920&Height=1080&ImageId='50660576'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='426100'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "426100"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "426100"
+    ],
+    "categories": [
+     "dyr",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dyr,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Dyr",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Dyrs våben",
+     "ExtraDetails": "Dyr | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "dyrs-vaaben_426100",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2490206236000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "426100",
+    "type": "show",
+    "shortDescription": "Ingen beskrivelse.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Dyrs våben",
+    "vodItemWatchPath": "",
+    "path": "/serie/dyrs-vaaben_426100"
+   }
+  ],
+  "size": 17,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

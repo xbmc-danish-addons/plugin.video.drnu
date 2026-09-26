@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='135985'&Width=1920&Height=1080&ImageId='4484179'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='135985'&Width=1920&Height=1080&ImageId='4484183'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='135985'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-08-07T21:59:00Z",
+    "scopes": [
+     "135985"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2019-09-25T12:10:07Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "135985"
+  ],
+  "categories": [
+   "livsstil",
+   "hus og have",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Hus og have,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Livsstil,Hus og have",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Arkitektens sommerhus",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "PathIdSegment": "arkitektens-sommerhus_135985",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2246002449000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "135985",
+  "type": "show",
+  "description": "Norsk boligserie fra 2018.\nHvem er de arkitekter, der tegner vores sommerhuse? Og hvordan har de selv indrettet sig i deres fritidshuse? Vi er i Norge, hvor vi besøger nogle af landets mest fremtrædende arkitekter. Dels for at se, hvordan de selv bor, dels for at høre, hvor de henter inspiration til arbejdet.",
+  "shortDescription": "Norsk boligserie fra 2018.\nHvem er de arkitekter, der tegner vores sommerhuse? Og hvordan har de selv indrettet sig i deres fritidshuse? Vi er i Norge, hvor vi besøger nogle af landets mest fremtrædende arkitekter. Dels for at se, hvordan de selv bor, del",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Arkitektens sommerhus",
+  "vodItemWatchPath": "",
+  "path": "/serie/arkitektens-sommerhus_135985",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

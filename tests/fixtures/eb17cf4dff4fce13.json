@@ -1,0 +1,101 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438717'&Width=1920&Height=1080&ImageId='51790309'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438717'&Width=1440&Height=2160&ImageId='51790311'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438717'&Width=1920&Height=1080&ImageId='51509648'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5256,
+  "releaseYear": 1991,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438717"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438717"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438717"
+  ],
+  "categories": [
+   "kultur",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Kultur,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Klaus Rifbjergs verden",
+   "ExtraDetails": "Kultur | 1T 28M",
+   "TitleExtraDetails": "DR Gensyn | 1T 28M",
+   "PathIdSegment": "klaus-rifbjergs-verden_438717",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00202968640",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438717",
+  "type": "program",
+  "description": "Dansk portrætprogram fra 1991. Han har været et fyrtårn i mange årtiers kulturliv. Hans værker er beundrede og hadede, nedrakkede og rost til skyerne. Et tv-hold har fulgt den 58-årige Klaus Rifbjerg gennem et halvt år for at skildre forfatteren, privatmennesket, forlagsdirektøren, jægeren, vennen og livsnyderen. \nTilrettelæggelse: Bente Hansen og Lars Engels. Udløber: 13. sep 2025",
+  "shortDescription": "Dansk portrætprogram fra 1991. Han har været et fyrtårn i mange årtiers kulturliv. Hans værker er beundrede og hadede, nedrakkede og rost til skyerne. Et tv-hold har fulgt den 58-årige Klaus Rifbjerg gennem et halvt år for at skildre forfatteren, privatme",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Klaus Rifbjergs verden",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/klaus-rifbjergs-verden_438717",
+  "watchPath": "/se/klaus-rifbjergs-verden_438717",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

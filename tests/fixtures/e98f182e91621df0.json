@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432952'&Width=1440&Height=2160&ImageId='51116761'",
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432952'&Width=1920&Height=1080&ImageId='51116759'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='432952'&Width=1920&Height=1080&ImageId='51116763'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1715,
+  "releaseYear": 1999,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-07-09T21:59:00Z",
+    "scopes": [
+     "432952"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EMAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-09T11:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-07-09T21:59:00Z",
+    "scopes": [
+     "432952"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ETCAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-09T11:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "432952"
+  ],
+  "categories": [
+   "dokumentar",
+   "historie",
+   "gensyn",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Historie,Gensyn,DR1",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Historie,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Danske kongers private arbejdsværelser",
+   "ExtraDetails": "Dokumentar | 29M",
+   "TitleExtraDetails": "DR1 | 29M",
+   "PathIdSegment": "danske-kongers-private-arbejdsvaerelser_432952",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00522249280",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "432952",
+  "type": "program",
+  "description": "På Amalienborg kan man se en udstilling med danske kongers private arbejdsværelser.\nI aften skal vi se Kong Frederik IX's værelse, der har en fin hjemlig atmosfære og samtidig viser nye sider af kongens liv og fortæller Danmarkshistorie og familiesaga. Udløber: 9. jul 2025",
+  "shortDescription": "På Amalienborg kan man se en udstilling med danske kongers private arbejdsværelser.\nI aften skal vi se Kong Frederik IX's værelse, der har en fin hjemlig atmosfære og samtidig viser nye sider af kongens liv og fortæller Danmarkshistorie og familiesaga. Ud",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Danske kongers private arbejdsværelser",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/danske-kongers-private-arbejdsvaerelser_432952",
+  "watchPath": "/se/danske-kongers-private-arbejdsvaerelser_432952",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

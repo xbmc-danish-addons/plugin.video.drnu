@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391284'&Width=1920&Height=1080&ImageId='47085434'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391284'&Width=1920&Height=1080&ImageId='50346048'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391284'&Width=1440&Height=2160&ImageId='50346064'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2918,
+  "releaseYear": 2022,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-05-20T21:59:00Z",
+    "scopes": [
+     "391284"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-20T04:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-05-20T21:59:00Z",
+    "scopes": [
+     "391284"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E1NAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-20T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "391284"
+  ],
+  "categories": [
+   "dokumentar",
+   "kultur",
+   "musik",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Kultur,Musik,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "STORBRITANNIEN",
+   "DisplayCategory": "Dokumentar,Kultur,Musik",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "ABBA - De bedste coversange",
+   "ExtraDetails": "Dokumentar | 49M",
+   "TitleExtraDetails": "DR2 | 49M",
+   "PathIdSegment": "abba-_-de-bedste-coversange_391284",
+   "BroadcastTimeDK": "2023-06-20T20:40:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00022214520",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "391284",
+  "type": "program",
+  "description": "Britisk musikdokumentar fra 2022.\n(ABBA: The Best Covers Ever)\nABBA har millioner af fans, og har skabt det ene hit efter det andet. De forstår vores glæde og dybeste smerte. Kendte musikere som Dannii Minogue, Carla Bruni og Cher er blevet inspireret til at lave blændende fortolkninger af deres sange. Deres versioner af 'Chiquita', 'SOS' og 'Dancing Queen' kan give sangene en ny mening. Hør produceren William Orbit fortælle om et forsvundet covernummer indspillet af Madonna. Udløber: 20. maj 2025",
+  "shortDescription": "Britisk musikdokumentar fra 2022.\n(ABBA: The Best Covers Ever)\nABBA har millioner af fans, og har skabt det ene hit efter det andet. De forstår vores glæde og dybeste smerte. Kendte musikere som Dannii Minogue, Carla Bruni og Cher er blevet inspireret til",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "ABBA - De bedste coversange",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/abba-_-de-bedste-coversange_391284",
+  "watchPath": "/se/abba-_-de-bedste-coversange_391284",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

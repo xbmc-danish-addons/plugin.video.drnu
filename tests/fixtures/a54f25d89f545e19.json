@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443788'&Width=1920&Height=1080&ImageId='52010358'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443788'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443788'&Width=1920&Height=1080&ImageId='52010360'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1723,
+  "releaseYear": 1964,
+  "episodeNumber": 3,
+  "episodeName": "Sundhedslære: Du og stimulanser",
+  "seasonId": "443785",
+  "showId": "443783",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "443788"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "443788"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "443788",
+   "443785"
+  ],
+  "categories": [
+   "krop og sundhed",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Krop og sundhed,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Krop og sundhed,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S1:E3 Du og stimulanser",
+   "ContextualTitleExtraDetails": "13. MAR 1964 | 29M",
+   "AvailableFrom": "1964-03-13T05:00:00.0000000Z",
+   "PresentationTypeCode": "Show",
+   "PageTitle": "Sundhedslære: Sæson 1 – Du og stimulanser",
+   "ExtraDetails": "SÆSON 1 EPISODE 3 | 29M",
+   "PathIdSegment": "sundhedslaere_-du-og-stimulanser_443788",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00707958400",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "443788",
+  "type": "episode",
+  "description": "Dansk dokumentarserie fra 1964. \"Jo mere man ryger, jo større er risikoen for lungekræft\". Sådan sammenfatter en læge sin gennemgang af undersøgelser om faren ved rygning. Det er absolut heller ikke sundt at indtage alkohol - og desuden isolerer fulde folk sig og bliver barnlige. Efter en videnskabelig forklaring på sammensætningen og effekten af tobak og alkohol advarer programmet unge mennesker om at begynde på disse laster. Og foreslår f.eks. at gå på en 'mælkepub' i stedet - for man kan sagtens more sig uden alkohol. Udløber: 27. mar 2026",
+  "shortDescription": "Dansk dokumentarserie fra 1964. \"Jo mere man ryger, jo større er risikoen for lungekræft\". Sådan sammenfatter en læge sin gennemgang af undersøgelser om faren ved rygning. Det er absolut heller ikke sundt at indtage alkohol - og desuden isolerer fulde fol",
+  "contextualTitle": "3. Du og stimulanser",
+  "sports": [],
+  "themes": [],
+  "title": "Sundhedslære: Du og stimulanser",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/sundhedslaere_-du-og-stimulanser_443788",
+  "watchPath": "/se/sundhedslaere_-du-og-stimulanser_443788",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

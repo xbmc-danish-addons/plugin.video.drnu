@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='340992'&Width=1920&Height=1080&ImageId='42221516'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='340992'&Width=1440&Height=2160&ImageId='49909841'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='340992'&Width=1920&Height=1080&ImageId='49909737'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='340992'&Width=2048&Height=2048&ImageId='42632365'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-10-15T21:59:00Z",
+    "scopes": [
+     "340992"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-10-15T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "340992"
+  ],
+  "categories": [
+   "ramasjang ø",
+   "serie",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Ramasjang ø,Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Heksebeth",
+   "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "heksebeth_340992",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3596404677000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "340992",
+  "type": "show",
+  "description": "Musikalske hekse-historier fra landet Ramasjang.\nI Ramasjang Skoven bor en lille heks. Hun hedder Heksebeth, og hun bor i en gryde sammen med sin trofaste ven Grishjørning. Heksebeth er 106 ½ år gammel, men det er ingen alder, når ens højeste ønske er at være lige så god til at trylle og flyve på heksekost, som ens tre storesøstre. Rollen som Heksebeth spilles af Ramasjangs elskede Rosa (Gjerluff).",
+  "shortDescription": "Musikalske hekse-historier fra landet Ramasjang.\nI Ramasjang Skoven bor en lille heks. Hun hedder Heksebeth, og hun bor i en gryde sammen med sin trofaste ven Grishjørning. Heksebeth er 106 ½ år gammel, men det er ingen alder, når ens højeste ønske er at ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Heksebeth",
+  "vodItemWatchPath": "",
+  "path": "/serie/heksebeth_340992",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

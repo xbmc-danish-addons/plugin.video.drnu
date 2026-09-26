@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='307043'&Width=1920&Height=1080&ImageId='16237176'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='307043'&Width=1440&Height=2160&ImageId='16237180'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='307043'&Width=1920&Height=1080&ImageId='48547006'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3405,
+  "releaseYear": 1998,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-03-14T22:59:00Z",
+    "scopes": [
+     "307043"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ECLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-03-19T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-03-14T22:59:00Z",
+    "scopes": [
+     "307043"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELNAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-03-19T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "307043"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Cirkeline - Storbyens Mus",
+   "ExtraDetails": "Film | 57M",
+   "TitleExtraDetails": "DR Ramasjang | 57M",
+   "ShortVideoUrl": "https://drod24p.akamaized.net/all/clear/none/c5/611976e5aa5a610c2ca3fec5/611976e050d3de1118f1aebd/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "cirkeline-_-storbyens-mus_307043",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851607740",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "307043",
+  "type": "program",
+  "description": "Cirkeline flytter til byen sammen med sine venner, musene Ingolf og Frederik. Her møder de bymusen Sidse, der kender Hassan, der bor med sin familie hos en grønthandler. Hele flokken har det skægt og leger godt sammen. Men en dum kloakrotte forsøger at ødelægge det hele. Heldigvis lykkes det ikke. Udløber: 14. mar 2025",
+  "shortDescription": "Cirkeline flytter til byen sammen med sine venner, musene Ingolf og Frederik. Her møder de bymusen Sidse, der kender Hassan, der bor med sin familie hos en grønthandler. Hele flokken har det skægt og leger godt sammen. Men en dum kloakrotte forsøger at ød",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Ugens film",
+  "themes": [],
+  "title": "Cirkeline - Storbyens Mus",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/cirkeline-_-storbyens-mus_307043",
+  "watchPath": "/se/cirkeline-_-storbyens-mus_307043",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

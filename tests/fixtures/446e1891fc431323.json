@@ -1,0 +1,105 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296122'&Width=1920&Height=1080&ImageId='15447304'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296122'&Width=1440&Height=2160&ImageId='15447345'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296122'&Width=1920&Height=1080&ImageId='48546797'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4648,
+  "releaseYear": 2004,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-12-31T22:59:00Z",
+    "scopes": [
+     "296122"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ECLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-02-18T06:30:18Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-12-31T22:59:00Z",
+    "scopes": [
+     "296122"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ERNAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-02-18T06:30:18Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "296122"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Cirkeline og verdens mindste superhelt",
+   "ExtraDetails": "Film | 1T 17M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 17M",
+   "ShortVideoUrl": "https://drod01c-vh.akamaihd.net/i/all/clear/streaming/94/5f117cb3539f0217e8367394/VSR-Cirkeline-og-verdens-minds_d1308213953c439185124fb5fbd7f9f7_,1041,2698,336,1985,3806,508,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "cirkeline-og-verdens-mindste-superhelt_296122",
+   "BroadcastTimeDK": "2022-02-18T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00801268290",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "296122",
+  "type": "program",
+  "description": "Dansk tegnefilm 2004.\nCirkeline er taget på ferie til Tyrkiet med sin tegner, så vennerne Ingolf, Frederik og Viktor sniger sig ombord på bedstefars skib, for at tage ned og besøge hende. På skibet møder de en anden blind passager - den barske og frygtløse mus Ali. Han lokker vores venner på nye spændende eventyr, så alle må grueligt mange prøvelser igennem for at nå helskindede igennem den farefulde færd. \nInstruktør: Jannik Hastrup\nManuskript: Jannik Hastrup & Kit Göetz\nMedvirkende: \nBjarke Kastberg Andersen (Viktor)\nAlberte Malling Skronski (Ingolf)\nKristoffer Thomas Schmidt (Frederik)\nTillie Emilia Bech (Özlem)\nAnna Gregorius (Cirkeline)\nMarlon Vilstrup (Ali)\nJoachim Boie Helvang (Tunkay)\nBodil Udsen (Bedstemor)\nJesper Klein (Bedstefar)\nKaya Brüel (Fatima)\nOle Thestrup (Mustafa) Udløber: 31. dec 2025",
+  "shortDescription": "Dansk tegnefilm 2004.\nCirkeline er taget på ferie til Tyrkiet med sin tegner, så vennerne Ingolf, Frederik og Viktor sniger sig ombord på bedstefars skib, for at tage ned og besøge hende. På skibet møder de en anden blind passager - den barske og frygtløs",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Ugens film",
+  "themes": [],
+  "title": "Cirkeline og verdens mindste superhelt",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/cirkeline-og-verdens-mindste-superhelt_296122",
+  "watchPath": "/se/cirkeline-og-verdens-mindste-superhelt_296122",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

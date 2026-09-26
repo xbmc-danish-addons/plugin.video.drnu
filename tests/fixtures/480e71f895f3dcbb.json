@@ -1,0 +1,1151 @@
+{
+ "status": 200,
+ "json": {
+  "id": "446625",
+  "customFields": {
+   "PathIdSegment": "noej-det-var-for-boern_446625"
+  },
+  "itemTypes": [
+   "show",
+   "episode",
+   "season",
+   "program"
+  ],
+  "description": "",
+  "title": "Nøj, det var for børn",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/liste/noej-det-var-for-boern_446625",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443788'&Width=1920&Height=1080&ImageId='52010358'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443788'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443788'&Width=1920&Height=1080&ImageId='52010360'"
+    },
+    "duration": 1723,
+    "releaseYear": 1964,
+    "episodeNumber": 3,
+    "episodeName": "Sundhedslære: Du og stimulanser",
+    "seasonId": "443785",
+    "showId": "443783",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "443788"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "443788"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443788",
+     "443785"
+    ],
+    "categories": [
+     "krop og sundhed",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Krop og sundhed,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Krop og sundhed,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PlayButtonExtraDetails": "S1:E3 Du og stimulanser",
+     "ContextualTitleExtraDetails": "13. MAR 1964 | 29M",
+     "AvailableFrom": "1964-03-13T05:00:00.0000000Z",
+     "PresentationTypeCode": "Show",
+     "PageTitle": "Sundhedslære: Sæson 1 – Du og stimulanser",
+     "ExtraDetails": "SÆSON 1 EPISODE 3 | 29M",
+     "PathIdSegment": "sundhedslaere_-du-og-stimulanser_443788",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00707958400",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443788",
+    "type": "episode",
+    "shortDescription": "Dansk dokumentarserie fra 1964. \"Jo mere man ryger, jo større er risikoen for lungekræft\". Sådan sammenfatter en læge sin gennemgang af undersøgelser om faren ved rygning. Det er absolut heller ikke sundt at indtage alkohol - og desuden isolerer fulde fol",
+    "contextualTitle": "3. Du og stimulanser",
+    "sports": [],
+    "themes": [],
+    "title": "Sundhedslære: Du og stimulanser",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/sundhedslaere_-du-og-stimulanser_443788",
+    "watchPath": "/se/sundhedslaere_-du-og-stimulanser_443788"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440039'&Width=1920&Height=1080&ImageId='52000450'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440039'&Width=1920&Height=1080&ImageId='52000448'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440039'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440039"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440039"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Døren går op - hvem kommer ind?",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "doeren-gaar-op-_-hvem-kommer-ind_440039",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5320328601000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440039",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1982. Bamse træder ind i tv-historien, da han går ind ad døren i et lyserødt dukkehusværelse. Hvor alverdens mennesker og væsner også dukker op. Heriblandt Aske og Pernille.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Døren går op - hvem kommer ind?",
+    "vodItemWatchPath": "",
+    "path": "/serie/doeren-gaar-op-_-hvem-kommer-ind_440039"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443796'&Width=1920&Height=1080&ImageId='52050099'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443796'&Width=1920&Height=1080&ImageId='52050101'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443796'&Width=1440&Height=2160&ImageId='52050241'"
+    },
+    "duration": 2279,
+    "releaseYear": 1987,
+    "episodeNumber": 1,
+    "episodeName": "Børn i andre lande: I palmernes skygge",
+    "seasonId": "443793",
+    "showId": "443790",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "443796"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "443796"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443796",
+     "443793"
+    ],
+    "categories": [
+     "dokumentar",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PlayButtonExtraDetails": "S1:E1 I palmernes skygge",
+     "ContextualTitleExtraDetails": "22. OKT 1987 | 38M",
+     "AvailableFrom": "1987-10-22T05:00:00.0000000Z",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Børn i andre lande: Sæson 1 – I palmernes skygge",
+     "ExtraDetails": "SÆSON 1 EPISODE 1 | 38M",
+     "PathIdSegment": "boern-i-andre-lande_-i-palmernes-skygge_443796",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00809711540",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443796",
+    "type": "episode",
+    "shortDescription": "Dansk dokumentarserie fra 1987. Ishaag bor på Maldiverne, der er et ørige i Det Indiske Ocean. Vi følger Ishaags hverdag på øerne og ser, hvad der skete den dag, hans søster døde. Landet modtog i 1983 overskuddet fra salget af 'Børnenes U-landskalender' f",
+    "contextualTitle": "1. I palmernes skygge",
+    "sports": [],
+    "themes": [],
+    "title": "Børn i andre lande: I palmernes skygge",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/boern-i-andre-lande_-i-palmernes-skygge_443796",
+    "watchPath": "/se/boern-i-andre-lande_-i-palmernes-skygge_443796"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441517'&Width=1920&Height=1080&ImageId='52048971'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441517'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441517'&Width=1920&Height=1080&ImageId='52048973'"
+    },
+    "duration": 1496,
+    "releaseYear": 2001,
+    "episodeNumber": 1,
+    "episodeName": "Sigurd og Symfoniorkesteret: Vidunderlige Violiner",
+    "seasonId": "441516",
+    "showId": "441515",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "441517"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "441517"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441517",
+     "441516"
+    ],
+    "categories": [
+     "kultur",
+     "musik",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Kultur,Musik,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Kultur,Musik,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PlayButtonExtraDetails": "S1:E1 Vidunderlige Violiner",
+     "ContextualTitleExtraDetails": "16. SEP 2001 | 25M",
+     "AvailableFrom": "2001-09-16T16:00:00.0000000Z",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Sigurd og Symfoniorkesteret: Sæson 1 – Vidunderlige Violiner",
+     "ExtraDetails": "SÆSON 1 EPISODE 1 | 25M",
+     "PathIdSegment": "sigurd-og-symfoniorkesteret_-vidunderlige-violiner_441517",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00802897870",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441517",
+    "type": "episode",
+    "shortDescription": "Dansk børneserie fra 2001. I dag skal det handle om violiner. Sigurd besøger Radiosymfoniorkestret og dirigenten Hansen, som fortæller og spiller en historie om 'Valkyrien'. Og Johannes fortæller Sigurd om, hvordan han kom til at spille violin. Desuden er",
+    "contextualTitle": "1. Vidunderlige Violiner",
+    "sports": [],
+    "themes": [],
+    "title": "Sigurd og Symfoniorkesteret: Vidunderlige Violiner",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/sigurd-og-symfoniorkesteret_-vidunderlige-violiner_441517",
+    "watchPath": "/se/sigurd-og-symfoniorkesteret_-vidunderlige-violiner_441517"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441995'&Width=1920&Height=1080&ImageId='52084270'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441995'&Width=1920&Height=1080&ImageId='52084274'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441995'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 785,
+    "releaseYear": 1994,
+    "episodeNumber": 8,
+    "episodeName": "Troldspejlet: ComputerXtra",
+    "seasonId": "441994",
+    "showId": "441991",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "441995"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "441995"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441995",
+     "441994"
+    ],
+    "categories": [
+     "videnskab og teknologi",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Videnskab og teknologi,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PlayButtonExtraDetails": "S1994:E8 ComputerXtra",
+     "ContextualTitleExtraDetails": "14. MAJ 1994 | 13M",
+     "AvailableFrom": "1994-05-14T04:00:00.0000000Z",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Troldspejlet: Sæson 1994 – ComputerXtra",
+     "ExtraDetails": "SÆSON 1994 EPISODE 8 | 13M",
+     "PathIdSegment": "troldspejlet_-computerxtra_441995",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00801793610",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441995",
+    "type": "episode",
+    "shortDescription": "Dansk kulturprogram fra 1994. I ComputerXtra kigger Troldspejlet lidt nærmere på nye programmer, computerspil og andet godt til computeren. Folkene bag 'Wolfenstein' har lanceret en slags efterfølger, der hedder 'Doom'. Få tips og tricks til computerspill",
+    "contextualTitle": "8. ComputerXtra",
+    "sports": [],
+    "themes": [],
+    "title": "Troldspejlet: ComputerXtra",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/troldspejlet_-computerxtra_441995",
+    "watchPath": "/se/troldspejlet_-computerxtra_441995"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443789'&Width=1920&Height=1080&ImageId='52050044'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443789'&Width=1920&Height=1080&ImageId='52050042'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443789'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "443789"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443789"
+    ],
+    "categories": [
+     "livsstil",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Livsstil,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "VIPiger",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "vipiger_443789",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5369700869000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443789",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 2002. Rikke Frøjk er vært i en serie for piger, der handler om mode, makeup, styling, veninder og kærlighed. Verden Ifølge Piger - Vildt Interessant og Vældig Intrigant.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "VIPiger",
+    "vodItemWatchPath": "",
+    "path": "/serie/vipiger_443789"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='446101'&Width=1920&Height=1080&ImageId='52084799'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='446101'&Width=1920&Height=1080&ImageId='52084803'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='446101'&Width=1440&Height=2160&ImageId='52084801'"
+    },
+    "duration": 1592,
+    "releaseYear": 1972,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "446101"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "446101"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "446101"
+    ],
+    "categories": [
+     "politik",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Politik,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Politik,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Statsministeren og børnene",
+     "ExtraDetails": "Politik | 27M",
+     "TitleExtraDetails": "DR Gensyn | 27M",
+     "PathIdSegment": "statsministeren-og-boernene_446101",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00502413030",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "446101",
+    "type": "program",
+    "shortDescription": "Dansk reportage fra 1972. Danmarks statsminister hedder i 1972 Jens Otto Krag. Han har indvilget i at mødes med en spørgelysten 6. klasse på en skole i Gladsaxe. Hvordan kan det være, der bliver bevilget så mange penge til militæret? Hvorfor danner SF ikk",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Statsministeren og børnene",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/statsministeren-og-boernene_446101",
+    "watchPath": "/se/statsministeren-og-boernene_446101"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445491'&Width=1920&Height=1080&ImageId='52085367'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445491'&Width=1920&Height=1080&ImageId='52085369'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='445491'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "445491"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "445491"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Trille synger",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "trille-synger_445491",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5395242340000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "445491",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1984-1985. Trille og bassisten Hugo Rasmussen synger og spiller børnesange for de små.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Trille synger",
+    "vodItemWatchPath": "",
+    "path": "/serie/trille-synger_445491"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443798'&Width=1920&Height=1080&ImageId='52096746'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443798'&Width=1920&Height=1080&ImageId='52096748'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443798'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "443798"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443798"
+    ],
+    "categories": [
+     "livsstil",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Livsstil,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Vi og vore omgivelser",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "vi-og-vore-omgivelser_443798",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5369759634000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443798",
+    "type": "show",
+    "shortDescription": "Dansk reportageserie fra 1975. Skole-TV om at bo i forskellige hjem og have forskellige job.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Vi og vore omgivelser",
+    "vodItemWatchPath": "",
+    "path": "/serie/vi-og-vore-omgivelser_443798"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440689'&Width=1920&Height=1080&ImageId='52096720'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440689'&Width=1920&Height=1080&ImageId='52096722'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440689'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440689"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440689"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Folk som går på gaden",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "folk-som-gaar-paa-gaden_440689",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5330674113000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440689",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1963-1967. Politimanden Chr. Holbøll forklarer færdselsreglerne for de mindste.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Folk som går på gaden",
+    "vodItemWatchPath": "",
+    "path": "/serie/folk-som-gaar-paa-gaden_440689"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445314'&Width=1920&Height=1080&ImageId='52097174'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445314'&Width=1920&Height=1080&ImageId='52097169'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='445314'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 1258,
+    "releaseYear": 1976,
+    "episodeNumber": 2,
+    "episodeName": "Her bor vi: I Tårnby",
+    "seasonId": "445313",
+    "showId": "445312",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "445314"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "445314"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "445314",
+     "445313"
+    ],
+    "categories": [
+     "dokumentar",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PlayButtonExtraDetails": "S1:E2 I Tårnby",
+     "ContextualTitleExtraDetails": "2. DEC 1976 | 21M",
+     "AvailableFrom": "1976-12-02T00:00:00.0000000Z",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Her bor vi: Sæson 1 – I Tårnby",
+     "ExtraDetails": "SÆSON 1 EPISODE 2 | 21M",
+     "PathIdSegment": "her-bor-vi_-i-taarnby_445314",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00707142750",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "445314",
+    "type": "episode",
+    "shortDescription": "Dansk dokumentar fra 1976. I Tårnby skole på Amager har en 4. klasse gruppearbejde. De skal indsamle materiale om deres kommune og lokalsamfund og bagefter fremlægge, hvad de har fundet ud af. Klassen vil rigtig gerne til øen Saltholm, som hører med til k",
+    "contextualTitle": "2. I Tårnby",
+    "sports": [],
+    "themes": [],
+    "title": "Her bor vi: I Tårnby",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/her-bor-vi_-i-taarnby_445314",
+    "watchPath": "/se/her-bor-vi_-i-taarnby_445314"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441497'&Width=1920&Height=1080&ImageId='52010808'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441497'&Width=1920&Height=1080&ImageId='52010810'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441497'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 1586,
+    "releaseYear": 1994,
+    "episodeNumber": 3,
+    "episodeName": "Hvor kommer tingene fra: Tyrkisk peber",
+    "seasonId": "441496",
+    "showId": "441495",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "441497"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "441497"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441497",
+     "441496"
+    ],
+    "categories": [
+     "videnskab og teknologi",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Videnskab og teknologi,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PlayButtonExtraDetails": "S1:E3 Tyrkisk peber",
+     "ContextualTitleExtraDetails": "22. NOV 1994 | 26M",
+     "AvailableFrom": "1994-11-22T05:00:00.0000000Z",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Hvor kommer tingene fra: Sæson 1 – Tyrkisk peber",
+     "ExtraDetails": "SÆSON 1 EPISODE 3 | 26M",
+     "PathIdSegment": "hvor-kommer-tingene-fra_-tyrkisk-peber_441497",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00801762300",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441497",
+    "type": "episode",
+    "shortDescription": "Dansk børneserie fra 1994. I denne udsendelse skal du se, hvordan man laver noget, der er hårdt og blødt, sejt og sprødt - og stærkt og sødt. Nemlig bolsjet, der hedder Tyrkisk peber. Og bagefter fortæller Lasse historien om 'Konen i muddergrøften'.\nMedvi",
+    "contextualTitle": "3. Tyrkisk peber",
+    "sports": [],
+    "themes": [],
+    "title": "Hvor kommer tingene fra: Tyrkisk peber",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/hvor-kommer-tingene-fra_-tyrkisk-peber_441497",
+    "watchPath": "/se/hvor-kommer-tingene-fra_-tyrkisk-peber_441497"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443791'&Width=1920&Height=1080&ImageId='52010586'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443791'&Width=1920&Height=1080&ImageId='52010588'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443791'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "443791"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443791"
+    ],
+    "categories": [
+     "videnskab og teknologi",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Videnskab og teknologi,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Leksikassen",
+     "ExtraDetails": "Videnskab og teknologi | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "leksikassen_443791",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5369674349000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443791",
+    "type": "show",
+    "shortDescription": "Dansk videnskabsserie 1979-1987. Bente Troense står i spidsen for en række videnskabsprogrammer for større børn, hvor der bliver svaret på spørgsmål om naturvidenskabelige emner.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Leksikassen",
+    "vodItemWatchPath": "",
+    "path": "/serie/leksikassen_443791"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443782'&Width=1920&Height=1080&ImageId='52049291'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443782'&Width=1920&Height=1080&ImageId='52049293'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443782'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 3280,
+    "releaseYear": 1987,
+    "episodeNumber": 1,
+    "episodeName": "Vitek: Tidens gåde",
+    "seasonId": "443780",
+    "showId": "443778",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "443782"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "443782"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443782",
+     "443780"
+    ],
+    "categories": [
+     "videnskab og teknologi",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Videnskab og teknologi,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PlayButtonExtraDetails": "S1987:E1 Tidens gåde",
+     "ContextualTitleExtraDetails": "2. JAN 1987 | 55M",
+     "AvailableFrom": "1987-01-02T05:00:00.0000000Z",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Vitek: Sæson 1987 – Tidens gåde",
+     "ExtraDetails": "SÆSON 1987 EPISODE 1 | 55M",
+     "PathIdSegment": "vitek_-tidens-gaade_443782",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00809663390",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443782",
+    "type": "episode",
+    "shortDescription": "Dansk videnskabsprogram fra 1987. I denne udgave af Vitek besvares spørgsmål som - Kan man rejse i tiden? Hvem bestemmer, hvad klokken er? Kan man opleve to torsdage på én uge? Blandt de mange informative indslag i programmet er der et eksperiment om opfa",
+    "contextualTitle": "1. Tidens gåde",
+    "sports": [],
+    "themes": [],
+    "title": "Vitek: Tidens gåde",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/vitek_-tidens-gaade_443782",
+    "watchPath": "/se/vitek_-tidens-gaade_443782"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445496'&Width=1920&Height=1080&ImageId='52049476'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445496'&Width=1440&Height=2160&ImageId='52049478'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445496'&Width=1920&Height=1080&ImageId='52049473'"
+    },
+    "duration": 2205,
+    "releaseYear": 1954,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "445496"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "445496"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "445496"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Børnetime",
+     "ExtraDetails": "Gensyn | 37M",
+     "TitleExtraDetails": "DR Gensyn | 37M",
+     "PathIdSegment": "boernetime_445496",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00502413010",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "445496",
+    "type": "program",
+    "shortDescription": "Dansk børneprogram fra 1954. I dagens Børnetime kan man blive meget klogere på dinosaurer. Først er der besøg på en fabrik, der laver legetøjsdyr - bl.a. tyrannosaurusser. Til at starte med skal støbemassen laves, så kommer den i støbeforme, og når figure",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Børnetime",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/boernetime_445496",
+    "watchPath": "/se/boernetime_445496"
+   }
+  ],
+  "size": 39,
+  "paging": {
+   "total": 2,
+   "page": 2,
+   "size": 24,
+   "previous": "/lists/446625?page_size=24&lang=da&page=1&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

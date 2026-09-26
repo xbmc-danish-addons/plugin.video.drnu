@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438463'&Width=1920&Height=1080&ImageId='51492590'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438463'&Width=1920&Height=1080&ImageId='51951216'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438463'&Width=1440&Height=2160&ImageId='51614027'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1778,
+  "releaseYear": 1993,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438463"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438463"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438463"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-NOT-RATED",
+   "PageTitle": "Pistoler og brosten",
+   "ExtraDetails": "Gensyn | 30M",
+   "TitleExtraDetails": "DR Gensyn | 30M",
+   "PathIdSegment": "pistoler-og-brosten_438463",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00103748060",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438463",
+  "type": "program",
+  "description": "Dansk aktualitetsprogram fra 1993. Brosten, skud og mange sårede. En demonstration udvikler sig til dramatiske gadekampe på Nørrebro efter EU-folkeafstemningen 18. maj 1993. 'TVA-Indblik' undersøger baggrunden for optøjerne, der fører til skud direkte ind i en menneskemængde - for første gang i Danmark siden 2. verdenskrig. Hvad ville de autonome unge? Var volden planlagt? Håndterede politiet situationen korrekt? Blandt dem, der udtaler sig, er autonome aktivister, politidirektør Poul Eefsen og politiker Helge Adam Møller. Udløber: 13. sep 2025",
+  "shortDescription": "Dansk aktualitetsprogram fra 1993. Brosten, skud og mange sårede. En demonstration udvikler sig til dramatiske gadekampe på Nørrebro efter EU-folkeafstemningen 18. maj 1993. 'TVA-Indblik' undersøger baggrunden for optøjerne, der fører til skud direkte ind",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Pistoler og brosten",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/pistoler-og-brosten_438463",
+  "watchPath": "/se/pistoler-og-brosten_438463",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

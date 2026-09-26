@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='373386'&Width=1920&Height=1080&ImageId='45538426'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='373386'&Width=1920&Height=1080&ImageId='45538432'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='373386'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-02-16T22:59:00Z",
+    "scopes": [
+     "373386"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-04-10T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "373386"
+  ],
+  "categories": [
+   "fakta",
+   "dr ramasjang",
+   "ramasjang ø"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Fakta,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Fakta",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Spørg Kristian",
+   "ExtraDetails": "Fakta | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "spoerg-kristian_373386",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4166172883000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "373386",
+  "type": "show",
+  "description": "Hvorfor er pizzabakker firkantede, når pizzaen er rund? Hvad er et sort hul egentlig? Og hvad sker der med lorten, når du trækker ud i toilettet? I \"Spørg Kristian\" er intet spørgsmål for småt eller for stort. Sammen med de sjoveste eksperter rejser Kristian Gintberg rundt i hele Danmark for at finde svar på børns gode spørgsmål.",
+  "shortDescription": "Hvorfor er pizzabakker firkantede, når pizzaen er rund? Hvad er et sort hul egentlig? Og hvad sker der med lorten, når du trækker ud i toilettet? I \"Spørg Kristian\" er intet spørgsmål for småt eller for stort. Sammen med de sjoveste eksperter rejser Krist",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Spørg Kristian",
+  "vodItemWatchPath": "",
+  "path": "/serie/spoerg-kristian_373386",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

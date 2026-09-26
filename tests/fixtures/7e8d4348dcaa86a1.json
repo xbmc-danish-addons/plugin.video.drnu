@@ -1,0 +1,94 @@
+{
+ "status": 200,
+ "json": {
+  "id": "78113",
+  "parameter": "TitleGroupKey:y",
+  "customFields": {
+   "PathIdSegment": "ramasjang-list-_-_titlegroupkey__78113"
+  },
+  "itemTypes": [
+   "show"
+  ],
+  "description": "",
+  "title": "Ramasjang | Y",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/ramasjang_a-aa/y",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='147619'&Width=1920&Height=1080&ImageId='51847306'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='147619'&Width=1440&Height=2160&ImageId='51847296'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='147619'&Width=1920&Height=1080&ImageId='51847298'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "147619"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "147619"
+    ],
+    "categories": [
+     "gensyn",
+     "serie",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,Serie,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Gensyn,Serie",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Y's Fantom Farmor",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "ys-fantom-farmor_147619",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2561549845000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "147619",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1996-1997. Yrsa keder sig i sommerferien, men møder heldigvis sin magiske Fantom Farmor. Natasha Arthy står bag serien med den fantasifulde bedstemor, spillet af Anne Marie Helger.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Y's Fantom Farmor",
+    "vodItemWatchPath": "",
+    "path": "/serie/ys-fantom-farmor_147619"
+   }
+  ],
+  "size": 1,
+  "paging": {
+   "total": 1,
+   "page": 1,
+   "size": 24,
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

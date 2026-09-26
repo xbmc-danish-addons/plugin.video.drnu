@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434269'&Width=1920&Height=1080&ImageId='51214267'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434269'&Width=1440&Height=2160&ImageId='51214269'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434269'&Width=1920&Height=1080&ImageId='51214271'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4852,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-02-23T22:59:00Z",
+    "scopes": [
+     "434269"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T17:32:12Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-02-23T22:59:00Z",
+    "scopes": [
+     "434269"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T17:32:12Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "434269"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "PERU",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Ainbo - Amazonas Vogter",
+   "ExtraDetails": "Film | 1T 21M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 21M",
+   "PathIdSegment": "ainbo-_-amazonas-vogter_434269",
+   "BroadcastTimeDK": "2024-02-10T18:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852202880",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "434269",
+  "type": "program",
+  "description": "En fortælling om en ung pige, der vokser op i den dybeste jungle i Amazonas. En dag opdager hun, at hendes hjemland er truet, og indser, at der er andre mennesker i verden, udover hendes eget folk. Med hjælp fra hendes åndelige guider, bæltedyret \"Dillo\" og tapiren \"Vaca\", begiver hun sig ud på en rejse for at søge hjælp hos Amazonas mest kraftfulde modersjæl, den enorme skildpadde \"Motelo Mama\". Hun kæmper for at redde sit paradis fra grådighed, udnyttelse og ulovlig guldminedrift. Udløber: 23. feb 2024",
+  "shortDescription": "En fortælling om en ung pige, der vokser op i den dybeste jungle i Amazonas. En dag opdager hun, at hendes hjemland er truet, og indser, at der er andre mennesker i verden, udover hendes eget folk. Med hjælp fra hendes åndelige guider, bæltedyret \"Dillo\" ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Ainbo - Amazonas Vogter",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/ainbo-_-amazonas-vogter_434269",
+  "watchPath": "/se/ainbo-_-amazonas-vogter_434269",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

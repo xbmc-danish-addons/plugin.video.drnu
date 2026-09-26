@@ -11,21 +11,40 @@ from xbmcextra import kodi_to_ansi
 class Control:
     """A reimplementation of the xbmcgui Control class"""
 
+    _next_id = 1
+
     def __init__(self):
         """A stub constructor for the xbmcgui Control class"""
+        self._control_id = Control._next_id
+        Control._next_id += 1
+        self._neighbors = {}
+
+    def getId(self):
+        """A working implementation of the xbmcgui Control getId() method"""
+        return self._control_id
+
+    def controlRight(self, pControl):
+        """A working implementation of the xbmcgui Control controlRight() method"""
+        self._neighbors['right'] = pControl
+
+    def controlLeft(self, pControl):
+        """A working implementation of the xbmcgui Control controlLeft() method"""
+        self._neighbors['left'] = pControl
+
+    def controlUp(self, pControl):
+        """A working implementation of the xbmcgui Control controlUp() method"""
+        self._neighbors['up'] = pControl
+
+    def controlDown(self, pControl):
+        """A working implementation of the xbmcgui Control controlDown() method"""
+        self._neighbors['down'] = pControl
 
     @staticmethod
     def addControl(pControl):
         """A stub implementation for the xbmcgui Control class addControl() method"""
 
-    @staticmethod
-    def doModal():
+    def doModal(self):
         """A stub implementation for the xbmcgui Control class doModal() method"""
-
-    @staticmethod
-    def getId():
-        """A stub implementation for the xbmcgui Control class getId() method"""
-        return 0
 
     @staticmethod
     def selectItem(index):
@@ -182,8 +201,44 @@ class Dialog:
 class WindowDialog:
     """A reimplementation of the xbmcgui WindowDialog class"""
 
+    # class-level defaults: AreaSelectorDialog does not call super().__init__()
+    _controls = None
+    _focused = None
+    _closed = False
+
     def __init__(self):
-        """A stub constructor for the xbmcgui Dialog class"""
+        """A stub constructor for the xbmcgui WindowDialog class"""
+        self._controls = []
+        self._focused = None
+        self._closed = False
+
+    def addControls(self, controls):
+        """A working implementation of the xbmcgui Window addControls() method"""
+        for control in controls:
+            self.addControl(control)
+
+    def addControl(self, pControl):
+        """A working implementation of the xbmcgui Window addControl() method"""
+        if self._controls is None:
+            self._controls = []
+        self._controls.append(pControl)
+
+    def setFocus(self, pControl):
+        """A working implementation of the xbmcgui Window setFocus() method"""
+        self._focused = pControl
+
+    def getFocus(self):
+        """A working implementation of the xbmcgui Window getFocus() method"""
+        return self._focused
+
+    def close(self):
+        """A working implementation of the xbmcgui Window close() method"""
+        self._closed = True
+
+    def doModal(self):
+        """Emulates the addon's AlarmClock(drnuclosedialog, Action(Select)):
+        the dialog closes with the current focus selected."""
+        self.onControl(self._focused)
 
     @staticmethod
     def notification(heading, message, icon=None, time=None, sound=None):

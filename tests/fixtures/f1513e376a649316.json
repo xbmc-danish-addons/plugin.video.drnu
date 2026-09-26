@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='400996'&Width=1920&Height=1080&ImageId='48137595'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='400996'&Width=1920&Height=1080&ImageId='48137597'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='400996'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-06-01T21:59:59Z",
+    "scopes": [
+     "400996"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-07-18T22:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "400996"
+  ],
+  "categories": [
+   "ramasjang ø",
+   "serie",
+   "dr ramasjang",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Ramasjang ø,Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Onkel Rejes fede sommerferie",
+   "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "onkel-rejes-fede-sommerferie_400996",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2794827316000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "400996",
+  "type": "show",
+  "description": "Det er sommer og Onkel Reje og Brille har travlt med at lave ingenting i deres lille kolonihave sammen med drengen Krølle, Onkel Bum, Doktor Mogens, Mormor og de andre beboere i nabolaget. Det hele tager en uventet drejning, da Onkel Reje opdager, at han som den første mand nogensinde er blevet gravid og bliver sat til at føde i afsnit 12.",
+  "shortDescription": "Det er sommer og Onkel Reje og Brille har travlt med at lave ingenting i deres lille kolonihave sammen med drengen Krølle, Onkel Bum, Doktor Mogens, Mormor og de andre beboere i nabolaget. Det hele tager en uventet drejning, da Onkel Reje opdager, at han ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Onkel Rejes fede sommerferie",
+  "vodItemWatchPath": "",
+  "path": "/serie/onkel-rejes-fede-sommerferie_400996",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

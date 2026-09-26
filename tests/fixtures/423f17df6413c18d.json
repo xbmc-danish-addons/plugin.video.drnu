@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416471'&Width=1920&Height=1080&ImageId='50177163'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='416471'&Width=1920&Height=1080&ImageId='50177157'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='416471'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-11-04T22:59:59Z",
+    "scopes": [
+     "416471"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-11-04T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "416471"
+  ],
+  "categories": [
+   "ramasjang ø",
+   "serie",
+   "dr ramasjang",
+   "musik"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Ramasjang ø,Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Jagten på regnbuens magi",
+   "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "jagten-paa-regnbuens-magi_416471",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3888954032000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "416471",
+  "type": "show",
+  "description": "Hr. Skæg er på en dejlig badeferie i Sierra Leone, da han pludselig bliver hevet ud af feriestemningen. Motor Mille ringer nemlig og fortæller, at den er helt gal med regnbuen, og børnene i Danmark er blevet helt grå og triste! Motor Mille og Hr. Skæg må derfor endnu en gang på en stor opgave om at redde regnbuen, før det er for sent.",
+  "shortDescription": "Hr. Skæg er på en dejlig badeferie i Sierra Leone, da han pludselig bliver hevet ud af feriestemningen. Motor Mille ringer nemlig og fortæller, at den er helt gal med regnbuen, og børnene i Danmark er blevet helt grå og triste! Motor Mille og Hr. Skæg må ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Jagten på regnbuens magi",
+  "vodItemWatchPath": "",
+  "path": "/serie/jagten-paa-regnbuens-magi_416471",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

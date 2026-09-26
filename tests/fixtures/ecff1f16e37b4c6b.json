@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356187'&Width=1920&Height=1080&ImageId='50738736'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356187'&Width=1440&Height=2160&ImageId='43522925'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='356187'&Width=1920&Height=1080&ImageId='50738707'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4741,
+  "releaseYear": 2019,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-12-01T22:59:00Z",
+    "scopes": [
+     "356187"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-05T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-12-01T22:59:00Z",
+    "scopes": [
+     "356187"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EXGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-05T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "356187"
+  ],
+  "categories": [
+   "dokumentar",
+   "krop og sundhed",
+   "dr2"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Krop og sundhed,DR2",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Krop og sundhed",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Albert og Sanne - en evighed af dig og mig",
+   "ExtraDetails": "Dokumentar | 1T 19M",
+   "TitleExtraDetails": "DR2 | 1T 19M",
+   "PathIdSegment": "albert-og-sanne-_-en-evighed-af-dig-og-mig_356187",
+   "BroadcastTimeDK": "2022-12-06T20:30:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00921904290",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "356187",
+  "type": "program",
+  "description": "Albert og Sanne bor i hus med katten Figaro og høns i baghaven. Og så drømmer de mere end noget andet om at få et barn. Men hvad der skulle være legende og lystfuldt, bliver i stedet et anstrengende projekt med skemaer, frustrationer og altopædende usikkerhed. Som taget ud af myten om Sisyfos, ruller Albert og Sanne den ene Webergrill efter den anden op ad bjergsiden, kun for at se dem rulle ned igen lige inden de når bjergets top. Sanne vil tale om det, hun frygter allermest, men ingeniøren Albert kender ikke til nogle rapporter, der viser, at det hjælper at tale om tingene. Albert og Sanne - en evighed af dig og mig er et musikalsk kammerspil fortalt i joggingbukser om parforholdet, indgroede kønsroller og om alle de drømme, man bliver nødt til at begrave - eller grave op igen - når ræven har været der. Udløber: 1. dec 2025",
+  "shortDescription": "Albert og Sanne bor i hus med katten Figaro og høns i baghaven. Og så drømmer de mere end noget andet om at få et barn. Men hvad der skulle være legende og lystfuldt, bliver i stedet et anstrengende projekt med skemaer, frustrationer og altopædende usikke",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Albert og Sanne - en evighed af dig og mig",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/albert-og-sanne-_-en-evighed-af-dig-og-mig_356187",
+  "watchPath": "/se/albert-og-sanne-_-en-evighed-af-dig-og-mig_356187",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

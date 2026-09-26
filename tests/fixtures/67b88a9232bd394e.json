@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442951'&Width=1920&Height=1080&ImageId='51881553'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442951'&Width=1920&Height=1080&ImageId='51880649'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442951'&Width=1440&Height=2160&ImageId='51880669'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5271,
+  "releaseYear": 2022,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "442951"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T19:00:17Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "442951"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ETGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T19:00:17Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442951"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "FRANKRIG & MONACO",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Hopper og jagten på mørkets hamster",
+   "ExtraDetails": "Film | 1T 28M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 28M",
+   "PathIdSegment": "hopper-og-jagten-paa-moerkets-hamster_442951",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852301100",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442951",
+  "type": "program",
+  "description": "Hopper er en blanding af en kylling og en hare og blev adopteret af Kong Peter, som var en berømt opdagelsesrejsende. Selvom Hopper ved, at han er klodset, har han altid drømt om at blive en stor eventyrer. Så da kongen trues af sin onde bror, som vil stjæle det magiske scepter og overtage tronen, ved Hopper, at tiden er inde til at udføre en heltegerning. Han er altid blevet drillet, fordi han ser anderledes ud, men nu forstår han, at det kan være en stor fordel for en helt at være helt særlig. Udløber: 20. apr 2024",
+  "shortDescription": "Hopper er en blanding af en kylling og en hare og blev adopteret af Kong Peter, som var en berømt opdagelsesrejsende. Selvom Hopper ved, at han er klodset, har han altid drømt om at blive en stor eventyrer. Så da kongen trues af sin onde bror, som vil stj",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Hopper og jagten på mørkets hamster",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/hopper-og-jagten-paa-moerkets-hamster_442951",
+  "watchPath": "/se/hopper-og-jagten-paa-moerkets-hamster_442951",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

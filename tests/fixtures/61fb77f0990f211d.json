@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443499'&Width=1920&Height=1080&ImageId='51951267'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443499'&Width=1920&Height=1080&ImageId='51951269'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443499'&Width=1440&Height=2160&ImageId='51951274'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 807,
+  "releaseYear": 1967,
+  "episodeNumber": 6,
+  "episodeName": "Cirkeline: Cirkeline besøger skovalferne",
+  "seasonId": "443498",
+  "showId": "238549",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "443499"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "443499"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "443499",
+   "443498"
+  ],
+  "categories": [
+   "gensyn",
+   "tegnefilm",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,Tegnefilm,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn,Tegnefilm",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S1967:E6 Cirkeline besøger skovalferne",
+   "ContextualTitleExtraDetails": "18. SEP 1967 | 13M",
+   "AvailableFrom": "1967-09-18T05:00:00.0000000Z",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Cirkeline: Sæson 1967 – Cirkeline besøger skovalferne",
+   "ExtraDetails": "SÆSON 1967 EPISODE 6 | 13M",
+   "PathIdSegment": "cirkeline_-cirkeline-besoeger-skovalferne_443499",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00808172500",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "443499",
+  "type": "episode",
+  "description": "Dansk børneserie fra 1967. Cirkeline besøger tre fugleunger og fortæller dem om den store verden udenfor reden. Og så prøver ungerne at flyve for første gang nogensinde. Bagefter møder Cirkeline de sødeste skovalfer, der drysser tryllestøv på hende, så hun får vinger og kan flyve hele natten.\nManuskript og tegninger: Hanne Hastrup.\nAnimation: Jannik Hastrup. Udløber: 27. sep 2025",
+  "shortDescription": "Dansk børneserie fra 1967. Cirkeline besøger tre fugleunger og fortæller dem om den store verden udenfor reden. Og så prøver ungerne at flyve for første gang nogensinde. Bagefter møder Cirkeline de sødeste skovalfer, der drysser tryllestøv på hende, så hu",
+  "contextualTitle": "6. Cirkeline besøger skovalferne",
+  "sports": [],
+  "themes": [],
+  "title": "Cirkeline: Cirkeline besøger skovalferne",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/cirkeline_-cirkeline-besoeger-skovalferne_443499",
+  "watchPath": "/se/cirkeline_-cirkeline-besoeger-skovalferne_443499",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

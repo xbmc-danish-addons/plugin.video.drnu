@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='241431'&Width=1920&Height=1080&ImageId='9290647'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='241431'&Width=1920&Height=1080&ImageId='9290657'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='241431'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-03-10T22:59:00Z",
+    "scopes": [
+     "241431"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2021-03-11T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "241431"
+  ],
+  "categories": [
+   "dokumentar",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Annika og det svenske coronamysterium",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "ShortVideoUrl": "https://drod10j-vh.akamaihd.net/i/all/clear/streaming/44/603f87e57140141a3cd06244/VS-Annika-og-det-svenske-coron_32fbc04023ac4978a06a6b9b339de77e_,3543,288,925,1844,455,2478,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "annika-og-det-svenske-coronamysterium_241431",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2860054098000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "241431",
+  "type": "show",
+  "description": "I foråret 2020 rapporterede journalist og dansk-svenske Annika Wetterling om de løsslupne svenskere, der holdt samfundet åbent, mens Danmark gik i lockdown. Nu tager hun på en personlig rejse tilbage til sit andet fædreland for at forstå, hvorfor svenskerne handlede så forskelligt fra danskerne. En rejse fuld af splittelse og coronavirus, der kommer ubehageligt tæt på Annika og hendes svenske familie.",
+  "shortDescription": "I foråret 2020 rapporterede journalist og dansk-svenske Annika Wetterling om de løsslupne svenskere, der holdt samfundet åbent, mens Danmark gik i lockdown. Nu tager hun på en personlig rejse tilbage til sit andet fædreland for at forstå, hvorfor svensker",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Se hele serien | Hvorfor reagerede Sverige og Danmark så forskelligt på corona?",
+  "themes": [],
+  "title": "Annika og det svenske coronamysterium",
+  "vodItemWatchPath": "",
+  "path": "/serie/annika-og-det-svenske-coronamysterium_241431",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

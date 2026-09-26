@@ -1,0 +1,1603 @@
+{
+ "status": 200,
+ "json": {
+  "id": "348",
+  "parameter": "TitleGroupKey:a",
+  "customFields": {
+   "PathIdSegment": "alt-indhold-_-_titlegroupkey__348"
+  },
+  "itemTypes": [
+   "program",
+   "show"
+  ],
+  "description": "",
+  "title": "A",
+  "shortDescription": "",
+  "themes": [],
+  "path": "/a-aa/a",
+  "items": [
+   {
+    "images": {
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414573'&Width=1440&Height=2160&ImageId='49939558'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414573'&Width=1920&Height=1080&ImageId='49939553'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414573'&Width=1920&Height=1080&ImageId='49939555'"
+    },
+    "duration": 2898,
+    "releaseYear": 2023,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "414573"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "414573"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "414573"
+    ],
+    "categories": [
+     "dokumentar",
+     "livsstil",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Livsstil,DR1,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "ProductionCountry": "SVERIGE",
+     "DisplayCategory": "Dokumentar,Livsstil",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PageTitle": "Aldrig mere kebab",
+     "ExtraDetails": "Dokumentar | 48M",
+     "TitleExtraDetails": "DR1 | 48M",
+     "PathIdSegment": "aldrig-mere-kebab_414573",
+     "BroadcastTimeDK": "2023-10-17T09:00:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00292300900",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "414573",
+    "type": "program",
+    "shortDescription": "Svensk dokumentar fra 2023.\n(Aldrig mer kebab)\nJournalisten Gurgin opsiger sit job hos Sveriges Radio, flytter ud af sin lejlighed og ind i en autocamper sammen med hunden Ronja - alt sammen for at mindske sin klimapåvirkning. Men Gurgins forældre forstår",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Aldrig mere kebab",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/aldrig-mere-kebab_414573",
+    "watchPath": "/se/aldrig-mere-kebab_414573"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='69758'&Width=1920&Height=1080&ImageId='45250533'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='69758'&Width=1440&Height=2160&ImageId='45250535'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='69758'&Width=1920&Height=1080&ImageId='45250530'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='69758'&Width=1800&Height=1800&ImageId='16099620'"
+    },
+    "availableSeasonCount": 7,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "69758"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "69758"
+    ],
+    "averageUserRating": 6,
+    "categories": [
+     "livsstil",
+     "underholdning",
+     "natur",
+     "reality",
+     "dr1",
+     "acc_spoken_subtitles",
+     "acc_audio_description",
+     "acc_sign_language"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Underholdning,Natur,Reality,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Underholdning,Natur,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alene i vildmarken",
+     "ExtraDetails": "Livsstil | 7 SÆSONER",
+     "TitleExtraDetails": "DR1 | 7 SÆSONER",
+     "ShortVideoUrl": "https://drod20i.akamaized.net/all/clear/none/fe/640f223fac5a6222a086f0fe/640f223dd86de116acbfcacb/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "alene-i-vildmarken_69758",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1620512323000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "69758",
+    "type": "show",
+    "shortDescription": "For første gang vender otte tidligere deltagere tilbage til vildmarken i den norske natur. De er kommet for endnu engang at prøve kræfter med ensomheden, sulten og den indre kamp. Men får de oprejsning fra fortidens uheld og skæbnesvangre beslutninger, nå",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Episode 1:7 | Otte tidligere deltagere vender tilbage til den norske natur",
+    "themes": [],
+    "title": "Alene i vildmarken",
+    "vodItemWatchPath": "",
+    "path": "/serie/alene-i-vildmarken_69758"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='415993'&Width=1920&Height=1080&ImageId='50255879'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='415993'&Width=1440&Height=2160&ImageId='50255881'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='415993'&Width=1920&Height=1080&ImageId='50255883'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "415993"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "415993"
+    ],
+    "categories": [
+     "livsstil",
+     "underholdning",
+     "natur",
+     "reality",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Underholdning,Natur,Reality,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Underholdning,Natur,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alene i vildmarken Australien",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "alene-i-vildmarken-australien_415993",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4974431425000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "415993",
+    "type": "show",
+    "shortDescription": "Ti modige mænd og kvinder bliver efterladt i Tasmaniens nådesløse vildmark midt om vinteren. De skal overleve helt alene og uden hjælp så længe som muligt. Vinderen får 250.000 australske dollars.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alene i vildmarken Australien",
+    "vodItemWatchPath": "",
+    "path": "/serie/alene-i-vildmarken-australien_415993"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='365583'&Width=1920&Height=1080&ImageId='46060130'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='365583'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='365583'&Width=1920&Height=1080&ImageId='46060132'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "365583"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "365583"
+    ],
+    "categories": [
+     "livsstil",
+     "underholdning",
+     "natur",
+     "reality",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Underholdning,Natur,Reality,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Underholdning,Natur,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alene i vildmarken USA",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "alene-i-vildmarken-usa_365583",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1270223940000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "365583",
+    "type": "show",
+    "shortDescription": "Ekstremt overlevelseseksperiment i ødemarken.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alene i vildmarken USA",
+    "vodItemWatchPath": "",
+    "path": "/serie/alene-i-vildmarken-usa_365583"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366232'&Width=1920&Height=1080&ImageId='45521241'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366232'&Width=1920&Height=1080&ImageId='45834380'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366232'&Width=1440&Height=2160&ImageId='45521245'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "366232"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "366232"
+    ],
+    "categories": [
+     "livsstil",
+     "underholdning",
+     "natur",
+     "reality",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Underholdning,Natur,Reality,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Underholdning,Natur,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alene i vildmarken USA - The Skills Challenge",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod24m.akamaized.net/all/clear/none/0c/64268035ab5a6214d4adab0c/642680324737411ce4f7ffc2/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "alene-i-vildmarken-usa-_-the-skills-challenge_366232",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3974566088000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "366232",
+    "type": "show",
+    "shortDescription": "Hvem har de bedste evner til at bygge i vildmarken? Under vanskelige forhold og med kun basale redskaber dyster tre overlevelseseksperter i opfindsomhed og håndværk.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hele serien | Shelter, bål og fælder. Hvem kan bygge det bedste på kun tre dage?",
+    "themes": [],
+    "title": "Alene i vildmarken USA - The Skills Challenge",
+    "vodItemWatchPath": "",
+    "path": "/serie/alene-i-vildmarken-usa-_-the-skills-challenge_366232"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='345310'&Width=1920&Height=1080&ImageId='43243108'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='345310'&Width=1920&Height=1080&ImageId='49995044'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='345310'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "345310"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "345310"
+    ],
+    "categories": [
+     "livsstil",
+     "underholdning",
+     "natur",
+     "reality",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Underholdning,Natur,Reality,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Underholdning,Natur,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alene i vildmarken USA - Winter is coming",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod24b.akamaized.net/all/clear/none/21/6380b186ac5a610188a80721/6380b1824e98401420a3ff08/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "alene-i-vildmarken-usa-_-winter-is-coming_345310",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3974553161000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "345310",
+    "type": "show",
+    "shortDescription": "Glubske bjørne, minusgrader og et ubarmhjertigt terræn. Seks tidligere deltagere kaster sig ud i den koldeste og mest ekstreme udfordring nogensinde i jagten på 500.000 dollars.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hele serien | Det er det hårdeste og farligste overlevelseseksperiment nogensinde",
+    "themes": [],
+    "title": "Alene i vildmarken USA - Winter is coming",
+    "vodItemWatchPath": "",
+    "path": "/serie/alene-i-vildmarken-usa-_-winter-is-coming_345310"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='386103'&Width=1920&Height=1080&ImageId='46871459'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='386103'&Width=1440&Height=2160&ImageId='46871453'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='386103'&Width=1920&Height=1080&ImageId='46871447'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "386103"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "386103"
+    ],
+    "categories": [
+     "dokumentar",
+     "p3",
+     "acc_spoken_subtitles",
+     "acc_sign_language"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alexanders krig",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "PathIdSegment": "alexanders-krig_386103",
+     "ShortVideoUrl": "https://drod21f.akamaized.net/all/clear/none/af/64882f5f2442d61f0c8219af/64882f5a3cfb033514ff21c2/stream_fmp4/master_manifest.m3u8",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4030056121000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "386103",
+    "type": "show",
+    "shortDescription": "Bevæbnet med et kamera sender Alexander live på Instagram fra fronten i Ukraine. Som uafhængig fotograf rapporterer han alle krigens rædsler, råt og ufiltreret. Hans mission er at få folk til at forstå konsekvenserne for krigens mange civile ofre. Men bil",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hele serien | Et liv i undtagelsestilstand – i Ukraine og hjemme i Danmark",
+    "themes": [],
+    "title": "Alexanders krig",
+    "vodItemWatchPath": "",
+    "path": "/serie/alexanders-krig_386103"
+   },
+   {
+    "images": {
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='278024'&Width=1440&Height=2160&ImageId='50379381'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='278024'&Width=1920&Height=1080&ImageId='14280272'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='278024'&Width=1920&Height=1080&ImageId='50379368'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "278024"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "278024"
+    ],
+    "categories": [
+     "dokumentar",
+     "historie",
+     "videnskab og teknologi",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Historie,Videnskab og teknologi,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Historie,Videnskab og teknologi",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alfabetets oprindelse",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "alfabetets-oprindelse_278024",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3072906643000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "278024",
+    "type": "show",
+    "shortDescription": "Fra ældgamle inskriptioner i en egyptisk turkismine til nutidens moderne alfabeter. Denne serie undersøger udviklingen af det skrevne ord fra A til Z.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alfabetets oprindelse",
+    "vodItemWatchPath": "",
+    "path": "/serie/alfabetets-oprindelse_278024"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369852'&Width=1920&Height=1080&ImageId='44580551'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='369852'&Width=1440&Height=2160&ImageId='16099618'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369852'&Width=1920&Height=1080&ImageId='44580549'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369852'&Width=2048&Height=2048&ImageId='50315514'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "369852"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "369852"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alfons Åberg",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "alfons-aaberg_369852",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1480496039000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "369852",
+    "type": "show",
+    "shortDescription": "Gunilla Bergströms elskede bøger danner grundlag for denne svenske serie om drengen Alfons, der bor alene sammen med sin rare og tålmodige far.  Hans hverdag er fyldt med situationer og udfordringer, som børn kan relatere til.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alfons Åberg",
+    "vodItemWatchPath": "",
+    "path": "/serie/alfons-aaberg_369852"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1920&Height=1080&ImageId='16489965'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1920&Height=1080&ImageId='16489970'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='309749'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "309749"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "309749"
+    ],
+    "categories": [
+     "fakta",
+     "dr ramasjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fakta,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Fakta",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alfred danser ballet",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "alfred-danser-ballet_309749",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2907488605000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "309749",
+    "type": "show",
+    "shortDescription": "Alfred har aldrig danset ballet før, men nu er han optaget på Den Kongelige Balletskole. Han er spændt på alt det nye der skal ske og fuld af gåpåmod, men lige om lidt venter en meget anderledes hverdag, og han skal vinke farvel til det han kender og er t",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alfred danser ballet",
+    "vodItemWatchPath": "",
+    "path": "/serie/alfred-danser-ballet_309749"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='315517'&Width=1920&Height=1080&ImageId='17880834'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='315517'&Width=1440&Height=2160&ImageId='40550971'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='315517'&Width=1920&Height=1080&ImageId='48528954'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "315517"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "315517"
+    ],
+    "categories": [
+     "fiktionsserie",
+     "humor/satire",
+     "p3",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fiktionsserie,Humor/satire,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Fiktionsserie,Humor/satire",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "True",
+     "PageTitle": "Alice alene i verden",
+     "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod24q.akamaized.net/all/clear/none/8c/62c29eb7ac5a611b006e968c/62c29eb2773062077480ea7a/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "alice-alene-i-verden_315517",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3508074359000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "315517",
+    "type": "show",
+    "shortDescription": "Erklæret rask efter cancer, dumpet af kæresten og tvunget hjem til forældrene. 26-årige Alice er nødt til at bevise, at det ikke var meningsløst at overleve. Allervigtigst: Virker hendes vagina stadig?",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hele serien | Rask efter kræft, men kan hun have sex? Ny, svensk komedieserie",
+    "themes": [],
+    "title": "Alice alene i verden",
+    "vodItemWatchPath": "",
+    "path": "/serie/alice-alene-i-verden_315517"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419460'&Width=1920&Height=1080&ImageId='51138086'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419460'&Width=1440&Height=2160&ImageId='51138088'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419460'&Width=1920&Height=1080&ImageId='51138075'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "419460"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "419460"
+    ],
+    "categories": [
+     "fiktionsserie",
+     "drtv",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fiktionsserie,DRTV",
+     "BrandingChannelShort": "DRT",
+     "BrandingChannelDisplayName": "DRTV",
+     "DisplayCategory": "Fiktionsserie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alice og Jack",
+     "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+     "TitleExtraDetails": "DRTV | 1 SÆSON",
+     "PathIdSegment": "alice-og-jack_419460",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4976626943000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "419460",
+    "type": "show",
+    "shortDescription": "Da Alice og Jack mødes, knytter de et stærkt bånd. Men vil de opleve lykke og samhørighed? Eller vil livet stille sig i vejen? Britisk romantisk dramaserie med Andrea Riseborough og Domhnall Gleeson.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alice og Jack",
+    "vodItemWatchPath": "",
+    "path": "/serie/alice-og-jack_419460"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='257122'&Width=1920&Height=1080&ImageId='12449046'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='257122'&Width=1920&Height=1080&ImageId='12449044'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='257122'&Width=1440&Height=2160&ImageId='12449113'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='257122'&Width=2048&Height=2048&ImageId='12738959'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "257122"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "257122"
+    ],
+    "categories": [
+     "tegnefilm",
+     "dr ramasjang"
+    ],
+    "customFields": {
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Tegnefilm",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alices eventyr",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "alices-eventyr_257122",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2836368730000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "257122",
+    "type": "show",
+    "shortDescription": "Alice har en hemmelighed: En særlig nøgle, som kan åbne døren et et fantastisk eventyrland. Her bor hendes gode ven, kaninen Lewis, men også den lunefulde dronning. Fransk animationsserie.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alices eventyr",
+    "path": "/serie/alices-eventyr_257122"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419258'&Width=1920&Height=1080&ImageId='50847920'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='419258'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419258'&Width=1920&Height=1080&ImageId='50847922'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "419258"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "419258"
+    ],
+    "categories": [
+     "livsstil",
+     "reality",
+     "p3",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Reality,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Livsstil,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alle elsker Sinan",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "PathIdSegment": "alle-elsker-sinan_419258",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4551807113000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "419258",
+    "type": "show",
+    "shortDescription": "Flamboyant, provokerende, irriterende. Sinan er nogle gange lidt for meget - synes hans familie. Men selvom mor Ceylan har svært ved at acceptere alt fra hans croptops, hans venner og (især) hans seksualitet, elsker hun alligevel sin \"lille diamant\" overa",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alle elsker Sinan",
+    "vodItemWatchPath": "",
+    "path": "/serie/alle-elsker-sinan_419258"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369386'&Width=1920&Height=1080&ImageId='45578635'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369386'&Width=1440&Height=2160&ImageId='45578639'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='369386'&Width=1920&Height=1080&ImageId='45861543'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "369386"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "369386"
+    ],
+    "categories": [
+     "fiktionsserie",
+     "drtv",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fiktionsserie,DRTV",
+     "BrandingChannelShort": "DRT",
+     "BrandingChannelDisplayName": "DRTV",
+     "DisplayCategory": "Fiktionsserie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "True",
+     "PageTitle": "Alle elsker Tom",
+     "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+     "TitleExtraDetails": "DRTV | 1 SÆSON",
+     "ShortVideoUrl": "https://drod21n.akamaized.net/all/clear/none/b4/6437a52bab5a6218109638b4/6437a523e6d48618902b8a9d/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "alle-elsker-tom_369386",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4290805261000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "369386",
+    "type": "show",
+    "shortDescription": "Tom Jones forelsker sig i sin smukke nabo. Men han er fattig, og hun er rig, så deres familier forsøger at holde dem fra hinanden. Vil kærligheden sejre? Komedieserie efter Henry Fieldings roman.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hele serien | Vil kærligheden sejre? Komedieserie efter Henry Fieldings roman",
+    "themes": [],
+    "title": "Alle elsker Tom",
+    "vodItemWatchPath": "",
+    "path": "/serie/alle-elsker-tom_369386"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='290265'&Width=1920&Height=1080&ImageId='42199020'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='290265'&Width=1920&Height=1080&ImageId='49995077'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='290265'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "290265"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "290265"
+    ],
+    "categories": [
+     "livsstil",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alle hader feminister",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "alle-hader-feminister_290265",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2623958877000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "290265",
+    "type": "show",
+    "shortDescription": "Alle hader feminister! De er skingre, besværlige, menstruerende og pisse irriterende. I dag er det nærmest et decideret skældsord i Danmark. Men virkeligheden er, at det er gået helt galt for ligestillingen i Danmark, og det er der ingen, der vil indse.\nK",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alle hader feminister",
+    "vodItemWatchPath": "",
+    "path": "/serie/alle-hader-feminister_290265"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='217320'&Width=1920&Height=1080&ImageId='6308234'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='217320'&Width=1920&Height=1080&ImageId='6308208'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='217320'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 3540,
+    "releaseYear": 2020,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "217320"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "217320"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "217320"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Alle kan blive millionær",
+     "ExtraDetails": "Dokumentar | 59M",
+     "TitleExtraDetails": "DR2 | 59M",
+     "ShortVideoUrl": "https://drod04g-vh.akamaihd.net/i/all/clear/streaming/f7/5fa24cd7539f02254888f3f7/VS-TEMA-Alle-kan-blive-million_5473eb0f12f84a61add651d8e16330a5_,942,297,3811,480,2613,1928,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "alle-kan-blive-millionaer_217320",
+     "BroadcastTimeDK": "2020-11-07T21:00:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00922014500",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "217320",
+    "type": "program",
+    "shortDescription": "Hvem drømmer ikke om at være uafhængig af en månedsløn? Hvem vil ikke gerne være økonomisk fri til at vælge det liv, man selv drømmer om? En stor gruppe danskere er i gang med at gøre drømmen til virkelighed. De er privatinvestorer og sætter kursen mod de",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Danske privatinvestorer med kurs mod millionerne",
+    "themes": [],
+    "title": "Alle kan blive millionær",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alle-kan-blive-millionaer_217320",
+    "watchPath": "/se/alle-kan-blive-millionaer_217320"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='203869'&Width=1920&Height=1080&ImageId='49423981'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='203869'&Width=1920&Height=1080&ImageId='49423983'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='203869'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "203869"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "203869"
+    ],
+    "categories": [
+     "underholdning",
+     "quiz",
+     "dr1",
+     "acc_audio_description"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Underholdning,Quiz,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Underholdning,Quiz",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alle mod 1",
+     "ExtraDetails": "Underholdning | 2 SÆSONER",
+     "TitleExtraDetails": "DR1 | 2 SÆSONER",
+     "ShortVideoUrl": "https://drod02o-vh.akamaihd.net/i/all/clear/streaming/5e/5f3251d9539f021c4432665e/VS-ALLE-MOD-1-00922021620-ANNI_e266ba64625d459e9c4b3a6773e014ae_,3616,512,1875,2470,974,335,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "alle-mod-1_203869",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1447587359000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "203869",
+    "type": "show",
+    "shortDescription": "Alle mod 1 er Danmarks sjoveste fysiktime. En modig dansker stiller op mod resten af Danmark i konkurrencen om at komme tættest på det rigtige svar, og tage 100.000 kr. med hjem.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Mads og Joakim udfordrer danskerne i ny sæson",
+    "themes": [],
+    "title": "Alle mod 1",
+    "vodItemWatchPath": "",
+    "path": "/serie/alle-mod-1_203869"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='412933'&Width=1920&Height=1080&ImageId='50177842'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='412933'&Width=1440&Height=2160&ImageId='50085301'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='412933'&Width=1920&Height=1080&ImageId='50085303'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "412933"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "412933"
+    ],
+    "categories": [
+     "dokumentar",
+     "kultur",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Kultur,DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alletiders julefilm",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "BrandingChannelShort": "DR2",
+     "PathIdSegment": "alletiders-julefilm_412933",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4939194550000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "412933",
+    "type": "show",
+    "shortDescription": "Et muntert og kærligt kig på en række højtelskede julefilm - fra 'Fars fede juleferie' til 'Alene hjemme'. Præsenteret af blandt andre Tom Hanks.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alletiders julefilm",
+    "vodItemWatchPath": "",
+    "path": "/serie/alletiders-julefilm_412933"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='95011'&Width=1920&Height=1080&ImageId='4137383'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='95011'&Width=1920&Height=1080&ImageId='4137393'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='95011'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "95011"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "95011"
+    ],
+    "categories": [
+     "fakta",
+     "dr ultra"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fakta,DR Ultra",
+     "BrandingChannelShort": "TVL",
+     "BrandingChannelDisplayName": "DR Ultra",
+     "DisplayCategory": "Fakta",
+     "TargetAudience": "OlderKidsAndAdults",
+     "RatingSegment": "Ultra",
+     "PrimaryContentUniverse": "Ultra",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alletiders kok",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "TitleExtraDetails": "DR Ultra | 1 SÆSON",
+     "PathIdSegment": "alletiders-kok_95011",
+     "ContentUniverses": [
+      "drtv",
+      "ultra"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1956618207000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "95011",
+    "type": "show",
+    "shortDescription": "Hvordan ville du klare dig, hvis du en dag blev fanget i fortiden?\nDR Ultra overrasker to madglade venner med en udfordring. De skal lave deres livret i en helt anden historisk tid - kun med de redskaber og madvarer, der fandtes dengang.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alletiders kok",
+    "vodItemWatchPath": "",
+    "path": "/serie/alletiders-kok_95011"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='327488'&Width=1920&Height=1080&ImageId='40615085'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='327488'&Width=1920&Height=1080&ImageId='40615087'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='327488'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "327488"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "327488"
+    ],
+    "categories": [
+     "fakta",
+     "dr ramasjang"
+    ],
+    "customFields": {
+     "OwnedCategory": "Fakta,DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "DisplayCategory": "Fakta",
+     "TargetAudience": "All",
+     "RatingSegment": "Ramasjang",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alma flytter på landet",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+     "PathIdSegment": "alma-flytter-paa-landet_327488",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1903874122000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "327488",
+    "type": "show",
+    "shortDescription": "Hvad sker der når et barn flytter fra storbyen og ud på landet?",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alma flytter på landet",
+    "path": "/serie/alma-flytter-paa-landet_327488"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='144603'&Width=1920&Height=1080&ImageId='50955198'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='144603'&Width=1440&Height=2160&ImageId='50955195'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='144603'&Width=1920&Height=1080&ImageId='50955192'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "144603"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "144603"
+    ],
+    "categories": [
+     "dokumentar",
+     "kultur",
+     "musik",
+     "p3",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Kultur,Musik,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Dokumentar,Kultur,Musik",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alphabeat - Da festen forsvandt",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "PathIdSegment": "alphabeat-_-da-festen-forsvandt_144603",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2224985943000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "144603",
+    "type": "show",
+    "shortDescription": "Alphabeat har fundet sammen igen, men kan de hele fortidens sår? Vi følger den danske popgruppe gennem deres private optagelser fra den spæde start i Silkeborg i 2003.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alphabeat - Da festen forsvandt",
+    "vodItemWatchPath": "",
+    "path": "/serie/alphabeat-_-da-festen-forsvandt_144603"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='168887'&Width=1920&Height=1080&ImageId='4298541'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='168887'&Width=1920&Height=1080&ImageId='50303789'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='168887'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "168887"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "168887"
+    ],
+    "categories": [
+     "livsstil",
+     "reality",
+     "p3",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Reality,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Livsstil,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alphaeksperimentet",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod04e-vh.akamaihd.net/i/all/clear/streaming/8a/5e4ce86771401534a0fa088a/VS-Alphaeksperimentet-1-8-0092_05ef0cc0ecf84e939d6b7f4e8da23a6f_,932,485,319,3723,2558,1858,.mp4.csmil/master.m3u8?cc1=name=Dansk~default=no~forced=no~lang=da~uri=https://mu.net.dr.dk/api/subtitles/playlist/urn:dr:mu:manifest:5e4ce86771401534a0fa088a%3Fsegmentsizeinms=60000%26subtitleType=HardOfHearing",
+     "PathIdSegment": "alphaeksperimentet_168887",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2654314922000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "168887",
+    "type": "show",
+    "shortDescription": "I dyreflokke er der kun en alpha til at styre flokken. Gælder det samme for mennesket? Det undersøger DR3 nu og sætter ni alpha-mennesker sammen i et kollektiv og beder dem om at få en hverdag til at fungere.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Se hele serien | Ni unge alfa-typer i et kollektiv – vi følger kampene",
+    "themes": [],
+    "title": "Alphaeksperimentet",
+    "vodItemWatchPath": "",
+    "path": "/serie/alphaeksperimentet_168887"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='83955'&Width=1920&Height=1080&ImageId='4122655'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='83955'&Width=1920&Height=1080&ImageId='50304026'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='83955'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "83955"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "83955"
+    ],
+    "categories": [
+     "dokumentar",
+     "livsstil",
+     "p3",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Livsstil,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Dokumentar,Livsstil",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alt for kliken",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "PathIdSegment": "alt-for-kliken_83955",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2015805063000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "83955",
+    "type": "show",
+    "shortDescription": "På \"Gym\" har du brug for en gruppe. Du skal have nogen at sidde med i kantinen og at hænge med til festerne. DR3's reportageserie er et tidsbillede på dét at være ung og gå i gymnasiet anno 2019.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alt for kliken",
+    "vodItemWatchPath": "",
+    "path": "/serie/alt-for-kliken_83955"
+   }
+  ],
+  "size": 102,
+  "paging": {
+   "total": 5,
+   "page": 2,
+   "size": 24,
+   "previous": "/lists/348?page_size=24&param=TitleGroupKey%3Aa&lang=da&page=1&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "next": "/lists/348?page_size=24&param=TitleGroupKey%3Aa&lang=da&page=3&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422594'&Width=1440&Height=2160&ImageId='50776494'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422594'&Width=1920&Height=1080&ImageId='50776546'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='422594'&Width=1920&Height=1080&ImageId='50776488'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2027-12-31T22:59:00Z",
+    "scopes": [
+     "422594"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-31T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "422594"
+  ],
+  "categories": [
+   "dokumentar",
+   "krop og sundhed",
+   "dr1",
+   "acc_spoken_subtitles",
+   "acc_sign_language"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Krop og sundhed,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Dokumentar,Krop og sundhed",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Din krop indefra",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "PathIdSegment": "din-krop-indefra_422594",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4517410578000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "422594",
+  "type": "show",
+  "description": "I denne serie får danskere med alvorlige diagnoser en konsultation, som de aldrig har prøvet før. Med hjælp af banebrydende teknologi viser nogle af Danmarks dygtigste læger, hvordan kroppen bliver påvirket af sygdommen. Og de forklarer patienterne, hvilket forløb de skal igennem for at komme raske ud på den anden side. Med sig har de Peter Qvortrup Geisling og Josefine Høgh, der sammen er med til at gøre os klogere på både krop og sind.",
+  "shortDescription": "I denne serie får danskere med alvorlige diagnoser en konsultation, som de aldrig har prøvet før. Med hjælp af banebrydende teknologi viser nogle af Danmarks dygtigste læger, hvordan kroppen bliver påvirket af sygdommen. Og de forklarer patienterne, hvilk",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Din krop indefra",
+  "vodItemWatchPath": "",
+  "path": "/serie/din-krop-indefra_422594",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

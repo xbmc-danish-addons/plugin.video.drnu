@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443781'&Width=1920&Height=1080&ImageId='52049449'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443781'&Width=1920&Height=1080&ImageId='52049451'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443781'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2622,
+  "releaseYear": 1985,
+  "episodeNumber": 7,
+  "episodeName": "Vitek: Universets gåder",
+  "seasonId": "443779",
+  "showId": "443778",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "443781"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-27T21:59:59Z",
+    "scopes": [
+     "443781"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "443781",
+   "443779"
+  ],
+  "categories": [
+   "videnskab og teknologi",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Videnskab og teknologi,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S1985:E7 Universets gåder",
+   "ContextualTitleExtraDetails": "21. OKT 1985 | 44M",
+   "AvailableFrom": "1985-10-21T05:00:00.0000000Z",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Vitek: Sæson 1985 – Universets gåder",
+   "ExtraDetails": "SÆSON 1985 EPISODE 7 | 44M",
+   "PathIdSegment": "vitek_-universets-gaader_443781",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00809187760",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "443781",
+  "type": "episode",
+  "description": "Dansk videnskabsprogram fra 1985. Vi ved i dag en masse om vores solsystem og universet. Men der er endnu mere, som vi ikke ved. I denne udsendelse fortæller Egon Schmidt og Lisbet Hermansen om nogle af universets mange gåder. Hvornår blev det til? Hvor stort er det? Er tiden den fjerde dimension? Og så prøver de at forklare Einsteins relativitetsteori ved hjælp af rullende fortove.  \nVærter: Egon Schmidt, Lisbet Hermansen. Udløber: 27. sep 2025",
+  "shortDescription": "Dansk videnskabsprogram fra 1985. Vi ved i dag en masse om vores solsystem og universet. Men der er endnu mere, som vi ikke ved. I denne udsendelse fortæller Egon Schmidt og Lisbet Hermansen om nogle af universets mange gåder. Hvornår blev det til? Hvor s",
+  "contextualTitle": "7. Universets gåder",
+  "sports": [],
+  "themes": [],
+  "title": "Vitek: Universets gåder",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/vitek_-universets-gaader_443781",
+  "watchPath": "/se/vitek_-universets-gaader_443781",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

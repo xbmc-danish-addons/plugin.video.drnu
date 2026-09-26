@@ -1,0 +1,105 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='143204'&Width=1440&Height=2160&ImageId='8984186'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='143204'&Width=1920&Height=1080&ImageId='4136509'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='143204'&Width=1920&Height=1080&ImageId='48547045'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4612,
+  "releaseYear": 2017,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-02-10T22:59:00Z",
+    "scopes": [
+     "143204"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2019-10-20T05:32:01Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-02-10T22:59:00Z",
+    "scopes": [
+     "143204"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E3CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2019-10-20T05:32:01Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "143204"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Nabospionen",
+   "ExtraDetails": "Film | 1T 17M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 17M",
+   "ShortVideoUrl": "https://drod09e-vh.akamaihd.net/i/all/clear/streaming/a9/5efe40af7140160478efe6a9/VSR-Nabospionen-00961790030-MJ_72cb21bcfda14c4e830c267db28c86d1_,266,818,410,3647,2532,1831,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "nabospionen_143204",
+   "BroadcastTimeDK": "2019-10-20T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00961790030",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "143204",
+  "type": "program",
+  "description": "Dansk animationsfilm fra 2017.\nAC, Agathe Christine er 10 år. Hun drømmer om at være privatdetektiv og indretter kontor i familiens pulterkammer. Hun er ligeglad med, at alle synes hun er underlig, det passer godt med hendes profil som den ensomme detektiv. En dag møder hun Vincent i den lokale kiosk. Vincent er smuk og mystisk. En enspænder. Præcis som hende selv. AC mærker et sug i maven og tager det som et varsel. Men der er noget mystisk ved den dreng. Hun skrotter al anden efterforskning og sætter kræfterne ind på overvågningen af Vincent.\nManuskript og instruktion: Karla von Bengtson.\nProduktion: CopenhagenBombay i samarbejde med bl.a. New Danish Screen og DR. Udløber: 10. feb 2025",
+  "shortDescription": "Dansk animationsfilm fra 2017.\nAC, Agathe Christine er 10 år. Hun drømmer om at være privatdetektiv og indretter kontor i familiens pulterkammer. Hun er ligeglad med, at alle synes hun er underlig, det passer godt med hendes profil som den ensomme detekti",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Dagens film",
+  "themes": [],
+  "title": "Nabospionen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/nabospionen_143204",
+  "watchPath": "/se/nabospionen_143204",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

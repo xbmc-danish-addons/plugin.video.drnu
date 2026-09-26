@@ -1,0 +1,105 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427618'&Width=1920&Height=1080&ImageId='50776842'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427618'&Width=1920&Height=1080&ImageId='50776840'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='427618'&Width=1440&Height=2160&ImageId='50776844'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4581,
+  "releaseYear": 2019,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-02-11T22:59:00Z",
+    "scopes": [
+     "427618"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-13T06:31:31Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-02-11T22:59:00Z",
+    "scopes": [
+     "427618"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EOGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-13T06:31:31Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "427618"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "NORGE",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Ellevilde Ella",
+   "ExtraDetails": "Film | 1T 16M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 16M",
+   "ShortVideoUrl": "https://drod20b.akamaized.net/all/clear/none/cd/6146f931a95a61102cbce0cd/6146f929e80194121461a6c4/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "ellevilde-ella_427618",
+   "BroadcastTimeDK": "2024-01-13T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852009460",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "427618",
+  "type": "program",
+  "description": "Animationsfilm fra 2020.\nElla er vild med cirkus, men endnu mere vild med sin bedste ven Mikkel, som hun vil have helt for sig selv. Da der kommer en ny dreng i kvarteret, bliver Ella jaloux og står over for en stor udfordring. Morsom familiefilm fuld af fart, fantasi og tre børn på cykeleventyr, der opdager, hvor magiske venskaber kan være. Udløber: 11. feb 2024",
+  "shortDescription": "Animationsfilm fra 2020.\nElla er vild med cirkus, men endnu mere vild med sin bedste ven Mikkel, som hun vil have helt for sig selv. Da der kommer en ny dreng i kvarteret, bliver Ella jaloux og står over for en stor udfordring. Morsom familiefilm fuld af ",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Ugens film",
+  "themes": [],
+  "title": "Ellevilde Ella",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/ellevilde-ella_427618",
+  "watchPath": "/se/ellevilde-ella_427618",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

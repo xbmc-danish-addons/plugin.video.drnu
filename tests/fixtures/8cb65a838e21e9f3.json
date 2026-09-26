@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='123493'&Width=1920&Height=1080&ImageId='4142630'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='123493'&Width=1920&Height=1080&ImageId='50011153'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='123493'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2034-06-06T21:59:00Z",
+    "scopes": [
+     "123493"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2019-07-22T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "123493"
+  ],
+  "categories": [
+   "livsstil",
+   "mad",
+   "rejse",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Livsstil,Mad,Rejse",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Anne og Anders i Mellemøsten",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "PathIdSegment": "anne-og-anders-i-mellemoesten_123493",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1991836713000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "123493",
+  "type": "show",
+  "description": "Vi er vokset op med Mellemøsten som et blodigt brændpunkt. Men måske har vi glemt, at området er så uendelig meget mere end kaos og konflikter. \nI fire udsendelser forsøger Anne og Anders at rejse væk fra fronterne og fordommene og ind i nuancerne af et andet Mellemøsten.",
+  "shortDescription": "Vi er vokset op med Mellemøsten som et blodigt brændpunkt. Men måske har vi glemt, at området er så uendelig meget mere end kaos og konflikter. \nI fire udsendelser forsøger Anne og Anders at rejse væk fra fronterne og fordommene og ind i nuancerne af et a",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Anne og Anders i Mellemøsten",
+  "vodItemWatchPath": "",
+  "path": "/serie/anne-og-anders-i-mellemoesten_123493",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

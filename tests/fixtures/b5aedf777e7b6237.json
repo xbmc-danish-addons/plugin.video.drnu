@@ -1,0 +1,101 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438457'&Width=1920&Height=1080&ImageId='51492560'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438457'&Width=1920&Height=1080&ImageId='51614128'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438457'&Width=1440&Height=2160&ImageId='51614126'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 714,
+  "releaseYear": 1997,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438457"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EJEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "438457"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EQGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438457"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Clintons tale til danskerne",
+   "ExtraDetails": "Gensyn | 12M",
+   "TitleExtraDetails": "DR Gensyn | 12M",
+   "PathIdSegment": "clintons-tale-til-danskerne_438457",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00102146390",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438457",
+  "type": "program",
+  "description": "Dansk reportage fra 1997. For første gang nogensinde er USA's præsident på officielt statsbesøg i Danmark. Bill Clinton bliver modtaget af jublende menneskemængder på sit lynvisit, og da han holder tale på Nytorv i København, er 80.000 mødt op. Præsidenten lovpriser store danskere som Blixen og Bohr samt vores involvering i menneskerettigheder og NATO. Og de mange danske immigranter i USA får et ord med på vejen: \"It is said that every Dane has a relative in America. Today, I can tell you, all Americans know they have a friend in Denmark\". Udløber: 13. sep 2025",
+  "shortDescription": "Dansk reportage fra 1997. For første gang nogensinde er USA's præsident på officielt statsbesøg i Danmark. Bill Clinton bliver modtaget af jublende menneskemængder på sit lynvisit, og da han holder tale på Nytorv i København, er 80.000 mødt op. Præsidente",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Clintons tale til danskerne",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/clintons-tale-til-danskerne_438457",
+  "watchPath": "/se/clintons-tale-til-danskerne_438457",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

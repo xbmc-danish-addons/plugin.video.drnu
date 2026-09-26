@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445496'&Width=1920&Height=1080&ImageId='52049476'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445496'&Width=1440&Height=2160&ImageId='52049478'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445496'&Width=1920&Height=1080&ImageId='52049473'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2205,
+  "releaseYear": 1954,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "445496"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "445496"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "445496"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Børnetime",
+   "ExtraDetails": "Gensyn | 37M",
+   "TitleExtraDetails": "DR Gensyn | 37M",
+   "PathIdSegment": "boernetime_445496",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00502413010",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "445496",
+  "type": "program",
+  "description": "Dansk børneprogram fra 1954. I dagens Børnetime kan man blive meget klogere på dinosaurer. Først er der besøg på en fabrik, der laver legetøjsdyr - bl.a. tyrannosaurusser. Til at starte med skal støbemassen laves, så kommer den i støbeforme, og når figurerne er stivnede, skal de males. En museumsinspektør forklarer to børn om evolutionsteorier, og hvordan forskellige dinosaurer levede og fandt føde. Udløber: 27. mar 2026",
+  "shortDescription": "Dansk børneprogram fra 1954. I dagens Børnetime kan man blive meget klogere på dinosaurer. Først er der besøg på en fabrik, der laver legetøjsdyr - bl.a. tyrannosaurusser. Til at starte med skal støbemassen laves, så kommer den i støbeforme, og når figure",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Børnetime",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/boernetime_445496",
+  "watchPath": "/se/boernetime_445496",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

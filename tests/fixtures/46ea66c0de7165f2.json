@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1920&Height=1080&ImageId='51568695'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1920&Height=1080&ImageId='51568699'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='439502'&Width=1440&Height=2160&ImageId='51568697'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4421,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-14T21:59:00Z",
+    "scopes": [
+     "439502"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-16T17:30:49Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-14T21:59:00Z",
+    "scopes": [
+     "439502"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-16T17:30:49Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "439502"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "SVERIGE",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Abestjernen",
+   "ExtraDetails": "Film | 1T 14M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 14M",
+   "PathIdSegment": "abestjernen_439502",
+   "BroadcastTimeDK": "2024-03-16T18:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851905090",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "439502",
+  "type": "program",
+  "description": "Animationsfilm fra 2020.\nForestil dig, at du lige pludselig fik en gorilla som mor! Jonna er forældreløs og drømmer om en mor. En dag ruller en skramlet bil op foran børnehjemmet, og Jonna bliver håbefuld. Men ud af bilen kommer en Gorilla! Jonna følger tøvende med Gorilla hjem. Her er alt anderledes og skræmmende, og Jonna er bange for at blive ædt, men Gorilla viser sig at være den bedste mor, Jonna kunne ønske sig. Udløber: 14. apr 2024",
+  "shortDescription": "Animationsfilm fra 2020.\nForestil dig, at du lige pludselig fik en gorilla som mor! Jonna er forældreløs og drømmer om en mor. En dag ruller en skramlet bil op foran børnehjemmet, og Jonna bliver håbefuld. Men ud af bilen kommer en Gorilla! Jonna følger t",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Abestjernen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/abestjernen_439502",
+  "watchPath": "/se/abestjernen_439502",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

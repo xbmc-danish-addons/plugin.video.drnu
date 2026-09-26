@@ -1,0 +1,19 @@
+{
+ "status": 200,
+ "json": {
+  "id": "305",
+  "isStatic": false,
+  "isSystemPage": true,
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "key": "List",
+  "path": "/liste/402866",
+  "template": "List Page",
+  "themes": [],
+  "title": "De største programmer lige nu",
+  "entries": [],
+  "canonical": "/liste/ta-drtv-stoerste-programmer-saturday_402866"
+ }
+}

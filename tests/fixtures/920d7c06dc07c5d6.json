@@ -1,0 +1,104 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433819'&Width=3976&Height=2362&ImageId='51375974'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433819'&Width=2000&Height=3000&ImageId='51375976'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='433819'&Width=3976&Height=2362&ImageId='51375978'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3506,
+  "releaseYear": 2023,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2028-12-29T22:59:00Z",
+    "scopes": [
+     "433819"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EOLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2028-12-29T22:59:00Z",
+    "scopes": [
+     "433819"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E2NAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "433819"
+  ],
+  "categories": [
+   "dokumentar",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PageTitle": "Fanget på havets bund",
+   "ExtraDetails": "Dokumentar | 58M",
+   "TitleExtraDetails": "DR2 | 58M",
+   "ShortVideoUrl": "https://drod21n.akamaized.net/all/clear/none/17/65c374a95d0e0d1680729f17/65c374a786cd6704581fad39/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "fanget-paa-havets-bund_433819",
+   "BroadcastTimeDK": "2024-02-10T20:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922317650",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "433819",
+  "type": "program",
+  "description": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i live. Men nogen kommer ham alligevel til undsætning. Tre dage efter forliset ankommer et redningsskib for at bjærge de døde fra vraget. En nyuddannet dykker bliver som den første sendt ind, og til sin skræk og store overraskelse finder han skibskokken i live dybt inde i det sunkne skib. Men det er først nu, at problemerne virkelig begynder, og de er begge i livsfare. Helt unikt blev hele den mirakuløse redningsaktion filmet af dykkernes hjelmkameraer og al deres kommunikation blev optaget. I tre år har Lasse Spang Olsen rejst verden rundt og fundet de involverede som - for første gang - nu selv fortæller om deres oplevelser på bunden af Atlanterhavet i en af verdens mest besynderlige redningsaktioner. Udløber: 29. dec 2028",
+  "shortDescription": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i ",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Skibskokken Harrison fanges i et vrag på 34 meters dybde",
+  "themes": [],
+  "title": "Fanget på havets bund",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/fanget-paa-havets-bund_433819",
+  "watchPath": "/se/fanget-paa-havets-bund_433819",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

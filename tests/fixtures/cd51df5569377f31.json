@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='64682'&Width=2362&Height=1329&ImageId='368202'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='64682'&Width=2362&Height=1329&ImageId='368228'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='64682'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5326,
+  "releaseYear": 2014,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-01-20T22:59:00Z",
+    "scopes": [
+     "64682"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2018-01-20T18:59:45Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-01-20T22:59:00Z",
+    "scopes": [
+     "64682"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2018-01-20T18:59:45Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "64682"
+  ],
+  "categories": [
+   "dokumentar",
+   "krop og sundhed",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Krop og sundhed,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Krop og sundhed",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Alternativ helbredelse",
+   "ExtraDetails": "Dokumentar | 1T 29M",
+   "TitleExtraDetails": "DR2 | 1T 29M",
+   "PathIdSegment": "alternativ-helbredelse_64682",
+   "BroadcastTimeDK": "2018-01-20T19:55:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00921409400",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "64682",
+  "type": "program",
+  "description": "På opdagelse i det alternative behandlingssystem.\nLasse Spang Olsen og to overlæger Jannik Helweg-Larsen og Asbjørn Mohr Drewes går på opdagelse i det alternative behandlingssystem. I 2014 foretog de et forsøg med alternativ behandling på personer med bl.a migræne og allergi . I 2018 har Lasse Spang Olsen og lægerne igen besøgt de forsøgspersoner, der medvirkede i programmet for at se, hvorvidt den alternative behandling de dengang fik - stadig virker.\nGennem de sidste tyve år er der sket en fordobling af antallet af dem der søger alternativ behandling og over halvdelen af alle danskere har været i berøring med alternative behandlingsformer i dag. Men virker det - og i givet fald hvorfor ? Udløber: 20. jan 2026",
+  "shortDescription": "På opdagelse i det alternative behandlingssystem.\nLasse Spang Olsen og to overlæger Jannik Helweg-Larsen og Asbjørn Mohr Drewes går på opdagelse i det alternative behandlingssystem. I 2014 foretog de et forsøg med alternativ behandling på personer med bl.",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Alternativ helbredelse",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/alternativ-helbredelse_64682",
+  "watchPath": "/se/alternativ-helbredelse_64682",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

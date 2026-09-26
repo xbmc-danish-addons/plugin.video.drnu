@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296699'&Width=1440&Height=2160&ImageId='50419905'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296699'&Width=1920&Height=1080&ImageId='15504175'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='296699'&Width=1920&Height=1080&ImageId='50419882'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3001,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-10-31T22:59:00Z",
+    "scopes": [
+     "296699"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-01-30T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-10-31T22:59:00Z",
+    "scopes": [
+     "296699"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-01-30T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "296699"
+  ],
+  "categories": [
+   "dokumentar",
+   "natur",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Natur,DR1",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "ØSTRIG",
+   "DisplayCategory": "Dokumentar,Natur",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Alaskas dyre-refugium",
+   "ExtraDetails": "Dokumentar | 50M",
+   "TitleExtraDetails": "DR1 | 50M",
+   "PathIdSegment": "alaskas-dyre_refugium_296699",
+   "BroadcastTimeDK": "2022-01-30T19:05:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00022110590",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "296699",
+  "type": "program",
+  "description": "Østrigsk naturprogram fra 2020.\n(America's Arctic - A Refuge Imperiled)\nDet er en af de sidste urørte ødemarker i verden. Det nordlige Alaska. Kilometervis af uspolerede vidder og bjergtagende skønhed, hvor rensdyr, elge, isbjørne og ørne trives. Men området er i fare. De globale klimaændringer rammer hårdt, og Trump-administrationen har givet grønt lys til salg af olie-borerettigheder. Hvor meget længere vil dette dyre-refugium eksistere? Og kan vi stoppe ødelæggelsen af det? Udløber: 31. okt 2024",
+  "shortDescription": "Østrigsk naturprogram fra 2020.\n(America's Arctic - A Refuge Imperiled)\nDet er en af de sidste urørte ødemarker i verden. Det nordlige Alaska. Kilometervis af uspolerede vidder og bjergtagende skønhed, hvor rensdyr, elge, isbjørne og ørne trives. Men områ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Alaskas dyre-refugium",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/alaskas-dyre_refugium_296699",
+  "watchPath": "/se/alaskas-dyre_refugium_296699",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

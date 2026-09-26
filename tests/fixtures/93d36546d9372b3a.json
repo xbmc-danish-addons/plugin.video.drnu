@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='24045'&Width=1920&Height=1080&ImageId='4376632'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='24045'&Width=1920&Height=1080&ImageId='50011270'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='24045'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2027-10-19T21:58:00Z",
+    "scopes": [
+     "24045"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2018-07-01T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "24045"
+  ],
+  "categories": [
+   "livsstil",
+   "mad",
+   "rejse",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Livsstil,Mad,Rejse",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Anne og Anders i USA",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "PathIdSegment": "anne-og-anders-i-usa_24045",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1912635413000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "24045",
+  "type": "show",
+  "description": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe besøger fire dansk/amerikanske familier i fire vidt forskellige stater: Arizona, South Carolina, Montana og Michigan. Familierne fortæller om deres vej til USA, og Anne og Anders går på opdagelse i statens køkken, historie og møder spændende personer på deres vej.",
+  "shortDescription": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe besøger fire dansk/amerikanske familier i fire vidt forskellige stater: Arizona, South Carolina, Montana og Michigan. Familierne fortæller om deres vej til USA, og Anne og Anders går på opdagelse i st",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Anne og Anders i USA",
+  "vodItemWatchPath": "",
+  "path": "/serie/anne-og-anders-i-usa_24045",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='348015'&Width=1920&Height=1080&ImageId='42839888'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='348015'&Width=1920&Height=1080&ImageId='42839890'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='348015'&Width=1440&Height=2160&ImageId='43285391'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='348015'&Width=2048&Height=2048&ImageId='43394856'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-04-30T21:59:00Z",
+    "scopes": [
+     "348015"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-01T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "348015"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Petronix",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "petronix_348015",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3505747530000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "348015",
+  "type": "show",
+  "description": "Når dyr er i fare kommer de fire Petronix-reddere til undsætning - hvad enten det er en isbjørneunge på nordpolen eller en tiger i Kina! Det er nødvendige, men farlige missioner - og heldigvis kan deres rygsække forvandles til hjælpsomme robotter på et øjeblik.",
+  "shortDescription": "Når dyr er i fare kommer de fire Petronix-reddere til undsætning - hvad enten det er en isbjørneunge på nordpolen eller en tiger i Kina! Det er nødvendige, men farlige missioner - og heldigvis kan deres rygsække forvandles til hjælpsomme robotter på et øj",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Petronix",
+  "vodItemWatchPath": "",
+  "path": "/serie/petronix_348015",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

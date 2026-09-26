@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414963'&Width=1920&Height=1080&ImageId='49885194'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414963'&Width=1920&Height=1080&ImageId='49885196'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='414963'&Width=1440&Height=2160&ImageId='49885198'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1553,
+  "releaseYear": 2015,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-11-30T22:59:00Z",
+    "scopes": [
+     "414963"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-10-10T04:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-11-30T22:59:00Z",
+    "scopes": [
+     "414963"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EHGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-10-10T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "414963"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "STORBRITANNIEN",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Landevejsrotten",
+   "ExtraDetails": "Film | 26M",
+   "TitleExtraDetails": "DR Ramasjang | 26M",
+   "BrandingChannelShort": "TVR",
+   "PathIdSegment": "landevejsrotten_414963",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851800790",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "414963",
+  "type": "program",
+  "description": "En halv times animeret familiefilm baseret på den elskede børnebog skrevet af Julia Donaldson og illustreret af Axel Scheffler. Historien om en skrupsulten rotte, som elsker muffins, småkager og alt, der er sødt. Langs landevejen leder han efter sukkersager, han kan stjæle, indtil hans søde tand fører ham til den klistrede ende. \"Giv mig jeres wienerbrød og tærter! Giv mig jeres chokolade og kager! For jeg er Landevejsrotten, og jeg tager og tager.\" En eventyrlig historie om stratenrøvere og søde sager, som hele familien vil elske. Udløber: 30. nov 2024",
+  "shortDescription": "En halv times animeret familiefilm baseret på den elskede børnebog skrevet af Julia Donaldson og illustreret af Axel Scheffler. Historien om en skrupsulten rotte, som elsker muffins, småkager og alt, der er sødt. Langs landevejen leder han efter sukkersag",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Landevejsrotten",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/landevejsrotten_414963",
+  "watchPath": "/se/landevejsrotten_414963",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390078'&Width=1920&Height=1080&ImageId='49886814'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390078'&Width=1440&Height=2160&ImageId='49886808'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390078'&Width=1920&Height=1080&ImageId='49886793'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1754,
+  "releaseYear": 2015,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-11-30T22:59:00Z",
+    "scopes": [
+     "390078"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-29T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-11-30T22:59:00Z",
+    "scopes": [
+     "390078"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-29T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "390078"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "STORBRITANNIEN",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Grumme rim - Del 1",
+   "ExtraDetails": "Film | 29M",
+   "TitleExtraDetails": "DR Ramasjang | 29M",
+   "PathIdSegment": "grumme-rim-_-del-1_390078",
+   "BroadcastTimeDK": "2022-12-29T08:35:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851503360",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "390078",
+  "type": "program",
+  "description": "Baseret på børnebøgerne skrevet af Roald Dahl.\nSnehvide og Den lille Rødhætte bliver bedstevenner, da Snehvide tager sig af den onde Dronning, mens Rødhætte bliver kaldt hjem for at tage sig af et par sultne ulve - den ene har spist hendes bedstemor og har taget hendes tøj på, mens den anden ikke kan lade være at spise et par uanende grise. Udløber: 30. nov 2024",
+  "shortDescription": "Baseret på børnebøgerne skrevet af Roald Dahl.\nSnehvide og Den lille Rødhætte bliver bedstevenner, da Snehvide tager sig af den onde Dronning, mens Rødhætte bliver kaldt hjem for at tage sig af et par sultne ulve - den ene har spist hendes bedstemor og ha",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Grumme rim - Del 1",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/grumme-rim-_-del-1_390078",
+  "watchPath": "/se/grumme-rim-_-del-1_390078",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438462'&Width=1920&Height=1080&ImageId='51684853'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438462'&Width=1440&Height=2160&ImageId='51684858'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438462'&Width=1920&Height=1080&ImageId='51684855'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2568,
+  "releaseYear": 1992,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-01-08T22:59:59Z",
+    "scopes": [
+     "438462"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-08T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-01-08T22:59:59Z",
+    "scopes": [
+     "438462"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-08T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438462"
+  ],
+  "categories": [
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Interview med regentparret - sølvbryllup",
+   "ExtraDetails": "Gensyn | 43M",
+   "TitleExtraDetails": "DR Gensyn | 43M",
+   "PathIdSegment": "interview-med-regentparret-_-soelvbryllup_438462",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00103716610",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438462",
+  "type": "program",
+  "description": "Dansk portrætinterview fra 1992. Der er sølvbryllup i kongehuset. For 25 år siden sagde dronning Margrethe og prins Henrik ja til hinanden d. 10. juni 1967. Derfor giver regentparret et åbenhjertigt interview på Fredensborg Slot, hvor også brylluppet blev holdt. Talen falder på familie, fritid, jantelov, nytårstaler og selvfølgelig ægteskab. Ifølge prinsgemalen skal det dyrkes, \"som var det en have\". Og ifølge dronningen er der tre parter i et ægteskab - \"Der er dig, og der er mig, og der er os. Det er os, man skal tage sig af\". Udløber: 8. jan 2026",
+  "shortDescription": "Dansk portrætinterview fra 1992. Der er sølvbryllup i kongehuset. For 25 år siden sagde dronning Margrethe og prins Henrik ja til hinanden d. 10. juni 1967. Derfor giver regentparret et åbenhjertigt interview på Fredensborg Slot, hvor også brylluppet blev",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Interview med regentparret - sølvbryllup",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/interview-med-regentparret-_-soelvbryllup_438462",
+  "watchPath": "/se/interview-med-regentparret-_-soelvbryllup_438462",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

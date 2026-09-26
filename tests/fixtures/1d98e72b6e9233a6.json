@@ -1,0 +1,111 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='421736'&Width=1920&Height=1080&ImageId='51387341'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='421736'&Width=1920&Height=1080&ImageId='51387343'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='421736'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1746,
+  "releaseYear": 2022,
+  "episodeNumber": 6,
+  "episodeName": "Signe Molde på udebane: De rige bliver mobbet",
+  "seasonId": "421732",
+  "showId": "220756",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-02-10T22:59:00Z",
+    "scopes": [
+     "421736"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EDEAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-02-10T22:59:00Z",
+    "scopes": [
+     "421736"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EQGAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-10T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "421736",
+   "421732"
+  ],
+  "categories": [
+   "humor/satire",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Humor/satire,DR2,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Humor/satire",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PlayButtonExtraDetails": "S3:E6 De rige bliver mobbet",
+   "ContextualTitleExtraDetails": "10. FEB 2024 | 29M",
+   "AvailableFrom": "2024-02-10T05:00:00.0000000Z",
+   "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Signe Molde på udebane: Sæson 3 – De rige bliver mobbet",
+   "ExtraDetails": "SÆSON 3 EPISODE 6 | 29M",
+   "ShortVideoUrl": "https://drod22m.akamaized.net/all/clear/none/be/65c37de42e57d704485328be/65c37de2f1997015b80a126a/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736",
+   "BroadcastTimeDK": "2024-02-10T21:30:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00212310060",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "421736",
+  "type": "episode",
+  "description": "Bliver de rige dæmoniseret, hetzet og faktisk direkte mobbet, bare fordi de er rige? Signe Molde møder milliardæren Niklas Nikolajsen, der hverken vil kaldes grisk eller egoistisk - også selvom han er flyttet til Schweiz. I Monaco møder Signe ejendomsmægleren Helle Skovby, der er træt af alle fordommene om fyrstendømmet. Udløber: 10. feb 2026",
+  "shortDescription": "Bliver de rige dæmoniseret, hetzet og faktisk direkte mobbet, bare fordi de er rige? Signe Molde møder milliardæren Niklas Nikolajsen, der hverken vil kaldes grisk eller egoistisk - også selvom han er flyttet til Schweiz. I Monaco møder Signe ejendomsmægl",
+  "contextualTitle": "6. De rige bliver mobbet",
+  "sports": [],
+  "tagline": "Bliver de rige dæmoniseret, hetzet og mistænkeliggjort?",
+  "themes": [],
+  "title": "Signe Molde på udebane: De rige bliver mobbet",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736",
+  "watchPath": "/se/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

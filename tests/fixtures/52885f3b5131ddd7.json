@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442949'&Width=1920&Height=1080&ImageId='51790190'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442949'&Width=1440&Height=2160&ImageId='51790197'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442949'&Width=1920&Height=1080&ImageId='51913933'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5805,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-04T21:59:00Z",
+    "scopes": [
+     "442949"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T17:30:28Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-04T21:59:00Z",
+    "scopes": [
+     "442949"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T17:30:28Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442949"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "TYSKLAND",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Lassie kommer hjem",
+   "ExtraDetails": "Film | 1T 37M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 37M",
+   "PathIdSegment": "lassie-kommer-hjem_442949",
+   "BroadcastTimeDK": "2024-03-27T18:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852011210",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442949",
+  "type": "program",
+  "description": "Lassie og den 12-årige Frederik er uadskillelige. Da Frederiks far mister sit job, flytter familien til en mindre lejlighed, hvor det ikke er tilladt at have hund. Frederik er knust! De er nødt til at aflevere Lassie til Greve von Springer, som lover at passe godt på Lassie. Men en af grevens ansatte er ond mod Lassie, og hunden flygter for at lede efter Frederik. Frederik kan heller ikke længere undvære Lassie, så da han hører, at Lassie er stukket af, sætter han sig for - sammen med grevens barnebarn, Pernille - at finde Lassie.\nEn eventyrlig rejse begynder for både Frederik og Lassie - begge på jagt efter deres bedste ven! Den hjertevarme historie om venskabet mellem en dreng og hans hund er baseret på roman af Eric Knight. Udløber: 4. apr 2024",
+  "shortDescription": "Lassie og den 12-årige Frederik er uadskillelige. Da Frederiks far mister sit job, flytter familien til en mindre lejlighed, hvor det ikke er tilladt at have hund. Frederik er knust! De er nødt til at aflevere Lassie til Greve von Springer, som lover at p",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Lassie kommer hjem",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/lassie-kommer-hjem_442949",
+  "watchPath": "/se/lassie-kommer-hjem_442949",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

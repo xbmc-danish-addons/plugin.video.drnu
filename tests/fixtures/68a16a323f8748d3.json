@@ -1,0 +1,87 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366365'&Width=1920&Height=1080&ImageId='44151849'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366365'&Width=1920&Height=1080&ImageId='50404674'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='366365'&Width=1440&Height=2160&ImageId='50404672'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "releaseYear": 1999,
+  "availableEpisodeCount": 8,
+  "seasonNumber": 1,
+  "showId": "366364",
+  "episodeCount": 8,
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-06-11T21:59:59Z",
+    "scopes": [
+     "366365"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EFD",
+    "name": "D430_Season Free HD-1080 Season Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-11T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "366365"
+  ],
+  "categories": [
+   "dokumentar",
+   "gensyn",
+   "dr gensyn",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "DisplayCategory": "Dokumentar,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "IsGeoRestricted": "False",
+   "PresentationTypeCode": "Show",
+   "IsSeasonDRMPlayoutRequired": "False",
+   "PageTitle": "Dahlgårds Tivoli: Sæson 1",
+   "ExtraDetails": "Dokumentar | SÆSON 1",
+   "PathIdSegment": "dahlgaards-tivoli_366365",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:season:751941442000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "366365",
+  "type": "season",
+  "description": "Familien Dahlgård har drevet deres tivoli i over 50 år. Fra påske og frem til oktober rejser familien og de mange ansatte rundt fra by til by med forlystelser, boder og beboelsesvogne. Her kan du følge Dahlgårds Tivoli, familien og de ansatte i glæder og sorger på vej gennem en række jyske byer.",
+  "shortDescription": "Familien Dahlgård har drevet deres tivoli i over 50 år. Fra påske og frem til oktober rejser familien og de mange ansatte rundt fra by til by med forlystelser, boder og beboelsesvogne. Her kan du følge Dahlgårds Tivoli, familien og de ansatte i glæder og ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Dahlgårds Tivoli",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/saeson/dahlgaards-tivoli_366365",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

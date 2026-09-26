@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442940'&Width=1920&Height=1080&ImageId='51790072'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442940'&Width=1440&Height=2160&ImageId='51790077'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442940'&Width=1920&Height=1080&ImageId='52000790'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4201,
+  "releaseYear": 1990,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-01T21:59:00Z",
+    "scopes": [
+     "442940"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-25T06:29:37Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-01T21:59:00Z",
+    "scopes": [
+     "442940"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-25T06:29:37Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442940"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Landet for længe siden: Den Store Dal",
+   "ExtraDetails": "Film | 1T 10M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 10M",
+   "PathIdSegment": "landet-for-laenge-siden_-den-store-dal_442940",
+   "BroadcastTimeDK": "2024-03-25T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00850860390",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442940",
+  "type": "program",
+  "description": "Vi befinder os i tidernes begyndelse, da dinosaurerne levede. Verden var fuld af eventyr og fantasi, men også af farer og fjendtlighed.\nFor den lille dinosaurus Lillefod, en af de sidste af sin art, er det en besværlig tid. Hans mål er Den Store Dal langt ude i bjergene, hvor der stadig er grønt og frodigt, og hvor ondskaben ikke findes. På hans vej lurer farer og onde dinosaurer,  men han møder også gode venner, som gør ham selskab på vejen. Udløber: 1. apr 2024",
+  "shortDescription": "Vi befinder os i tidernes begyndelse, da dinosaurerne levede. Verden var fuld af eventyr og fantasi, men også af farer og fjendtlighed.\nFor den lille dinosaurus Lillefod, en af de sidste af sin art, er det en besværlig tid. Hans mål er Den Store Dal langt",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Landet for længe siden: Den Store Dal",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/landet-for-laenge-siden_-den-store-dal_442940",
+  "watchPath": "/se/landet-for-laenge-siden_-den-store-dal_442940",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='290061'&Width=1920&Height=1080&ImageId='15857257'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='290061'&Width=1920&Height=1080&ImageId='15857259'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='290061'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-10-01T21:59:00Z",
+    "scopes": [
+     "290061"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-02-22T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "290061"
+  ],
+  "categories": [
+   "fakta",
+   "dr ramasjang",
+   "musik"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Fakta,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Fakta",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Vores børnehjem",
+   "ExtraDetails": "Fakta | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "ShortVideoUrl": "https://drod07q-vh.akamaihd.net/i/all/clear/streaming/27/6208d9fbaa5a610f9090c727/VSR-Vores-bornehjem-Th_7ad7ffd7d72145ed9af1b4823c1495f8_,419,956,1808,3262,5500,.mp4.csmil/master.m3u8",
+   "PathIdSegment": "vores-boernehjem_290061",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2883119983000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "290061",
+  "type": "show",
+  "description": "På børnehjemmet Skovgården bor 18 børn, som ikke kan være hos deres forældre, fordi de ikke kan passe godt nok på dem. De børster tænder om morgenen, går i skole og glæder sig til fødselsdage, slikdage og iPad-tid. Men meget er alligevel anderledes, og livet kan være svært, fordi de savner deres forældre. I serien følger vi børnenes liv igennem et år og oplever med deres øjne, hvordan det er at bo et sted som Skovgården.",
+  "shortDescription": "På børnehjemmet Skovgården bor 18 børn, som ikke kan være hos deres forældre, fordi de ikke kan passe godt nok på dem. De børster tænder om morgenen, går i skole og glæder sig til fødselsdage, slikdage og iPad-tid. Men meget er alligevel anderledes, og li",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Ny serie om at bo uden mor og far",
+  "themes": [],
+  "title": "Vores børnehjem",
+  "vodItemWatchPath": "",
+  "path": "/serie/vores-boernehjem_290061",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442953'&Width=1920&Height=1080&ImageId='51790220'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442953'&Width=1920&Height=1080&ImageId='51913779'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442953'&Width=1440&Height=2160&ImageId='51790224'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5375,
+  "releaseYear": 2015,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "442953"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T17:29:38Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-20T21:59:00Z",
+    "scopes": [
+     "442953"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ETGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T17:29:38Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442953"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Ratchet & Clank",
+   "ExtraDetails": "Film | 1T 30M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 30M",
+   "PathIdSegment": "ratchet-and-clank_442953",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851704030",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442953",
+  "type": "program",
+  "description": "Animationsfilmen 'Ratchet & Clank' er baseret på computerspilserien af samme navn.\nTo umage individer slår sig sammen for at stoppe den onde Chariman Drek og derved afholde ham fra at ødelægge en planet. Sammen med et hold kaldet The Galactic Rangers forsøger Ratchet og Clank at redde galaksen. Udløber: 20. apr 2024",
+  "shortDescription": "Animationsfilmen 'Ratchet & Clank' er baseret på computerspilserien af samme navn.\nTo umage individer slår sig sammen for at stoppe den onde Chariman Drek og derved afholde ham fra at ødelægge en planet. Sammen med et hold kaldet The Galactic Rangers fors",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Ratchet & Clank",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/ratchet-and-clank_442953",
+  "watchPath": "/se/ratchet-and-clank_442953",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

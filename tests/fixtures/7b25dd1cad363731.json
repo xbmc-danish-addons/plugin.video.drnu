@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434381'&Width=1920&Height=1080&ImageId='51215112'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434381'&Width=1920&Height=1080&ImageId='51215114'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434381'&Width=1440&Height=2160&ImageId='51215116'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3490,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-02-26T22:59:00Z",
+    "scopes": [
+     "434381"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-28T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-02-26T22:59:00Z",
+    "scopes": [
+     "434381"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-01-28T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "434381"
+  ],
+  "categories": [
+   "dokumentar",
+   "kultur",
+   "dr2"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Kultur,DR2",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Kultur",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Arne Jacobsens moderne Danmark",
+   "ExtraDetails": "Dokumentar | 58M",
+   "TitleExtraDetails": "DR2 | 58M",
+   "PathIdSegment": "arne-jacobsens-moderne-danmark_434381",
+   "BroadcastTimeDK": "2024-01-28T20:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00922125390",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "434381",
+  "type": "program",
+  "description": "Dokumentar om den ulydige skoledreng med talent for at male, der blev en af vores største arkitekter. Hans ideer var forud for sin tid og fik ofte kritik, men i dag, 50 år efter hans død, står Arne Jacobsens skoler, rådhuse og biblioteker stadig og tegner det moderne Danmark. Udløber: 26. feb 2024",
+  "shortDescription": "Dokumentar om den ulydige skoledreng med talent for at male, der blev en af vores største arkitekter. Hans ideer var forud for sin tid og fik ofte kritik, men i dag, 50 år efter hans død, står Arne Jacobsens skoler, rådhuse og biblioteker stadig og tegner",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Arne Jacobsens moderne Danmark",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/arne-jacobsens-moderne-danmark_434381",
+  "watchPath": "/se/arne-jacobsens-moderne-danmark_434381",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

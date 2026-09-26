@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='121181'&Width=1920&Height=1080&ImageId='4143295'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='121181'&Width=1920&Height=1080&ImageId='4143281'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='121181'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-06-10T21:59:00Z",
+    "scopes": [
+     "121181"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2019-07-23T14:10:17Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "121181"
+  ],
+  "categories": [
+   "dokumentar",
+   "kultur",
+   "dr2",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Kultur,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Dokumentar,Kultur",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Arven fra kongerne",
+   "ExtraDetails": "Dokumentar | 1 SÆSON",
+   "TitleExtraDetails": "DR2 | 1 SÆSON",
+   "PathIdSegment": "arven-fra-kongerne_121181",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2030573360000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "121181",
+  "type": "show",
+  "description": "Igennem halvandet år har DR fulgt to af den senere tids mest omfattende projekter: Restaureringen af Eremitageslottet og Kancellihuset. Serien 'Arven fra kongerne' sætter fokus på det særlige håndværk, der skal til for at genskabe bygningernes indre og ydre pragt.",
+  "shortDescription": "Igennem halvandet år har DR fulgt to af den senere tids mest omfattende projekter: Restaureringen af Eremitageslottet og Kancellihuset. Serien 'Arven fra kongerne' sætter fokus på det særlige håndværk, der skal til for at genskabe bygningernes indre og yd",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Arven fra kongerne",
+  "vodItemWatchPath": "",
+  "path": "/serie/arven-fra-kongerne_121181",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

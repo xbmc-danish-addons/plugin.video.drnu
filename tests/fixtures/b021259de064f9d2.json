@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443796'&Width=1920&Height=1080&ImageId='52050099'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443796'&Width=1920&Height=1080&ImageId='52050101'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443796'&Width=1440&Height=2160&ImageId='52050241'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 2279,
+  "releaseYear": 1987,
+  "episodeNumber": 1,
+  "episodeName": "Børn i andre lande: I palmernes skygge",
+  "seasonId": "443793",
+  "showId": "443790",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "443796"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "443796"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "443796",
+   "443793"
+  ],
+  "categories": [
+   "dokumentar",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PlayButtonExtraDetails": "S1:E1 I palmernes skygge",
+   "ContextualTitleExtraDetails": "22. OKT 1987 | 38M",
+   "AvailableFrom": "1987-10-22T05:00:00.0000000Z",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Børn i andre lande: Sæson 1 – I palmernes skygge",
+   "ExtraDetails": "SÆSON 1 EPISODE 1 | 38M",
+   "PathIdSegment": "boern-i-andre-lande_-i-palmernes-skygge_443796",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00809711540",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "443796",
+  "type": "episode",
+  "description": "Dansk dokumentarserie fra 1987. Ishaag bor på Maldiverne, der er et ørige i Det Indiske Ocean. Vi følger Ishaags hverdag på øerne og ser, hvad der skete den dag, hans søster døde. Landet modtog i 1983 overskuddet fra salget af 'Børnenes U-landskalender' for at nedbringe den store børnedødelighed. I studiet er der information om UNICEF's arbejde og om danske børns muligheder for at hjælpe.\nTilrettelæggelse: Frode Pedersen. Udløber: 27. mar 2026",
+  "shortDescription": "Dansk dokumentarserie fra 1987. Ishaag bor på Maldiverne, der er et ørige i Det Indiske Ocean. Vi følger Ishaags hverdag på øerne og ser, hvad der skete den dag, hans søster døde. Landet modtog i 1983 overskuddet fra salget af 'Børnenes U-landskalender' f",
+  "contextualTitle": "1. I palmernes skygge",
+  "sports": [],
+  "themes": [],
+  "title": "Børn i andre lande: I palmernes skygge",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/boern-i-andre-lande_-i-palmernes-skygge_443796",
+  "watchPath": "/se/boern-i-andre-lande_-i-palmernes-skygge_443796",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

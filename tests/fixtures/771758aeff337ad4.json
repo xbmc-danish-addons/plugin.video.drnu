@@ -1,0 +1,101 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425327'&Width=1920&Height=1080&ImageId='51192769'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425327'&Width=1440&Height=2160&ImageId='51192766'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='425327'&Width=1920&Height=1080&ImageId='51192771'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1977,
+  "releaseYear": 1997,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "425327"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "425327"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "425327"
+  ],
+  "categories": [
+   "dokumentar",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-NOT-RATED",
+   "PageTitle": "Sandheden ifølge Anna Castberg",
+   "ExtraDetails": "Dokumentar | 33M",
+   "TitleExtraDetails": "DR Gensyn | 33M",
+   "PathIdSegment": "sandheden-ifoelge-anna-castberg_425327",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00213713430",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "425327",
+  "type": "program",
+  "description": "Dansk interviewprogram fra 1997. Anna Castberg får en kort, men opsigtsvækkende karriere i den danske museumsverden. Ud af ingenting dukker udlandsdanskeren op og bliver direktør for kunstmuseet Arken i 1993. Men et halvt år efter indvielsen i 1996 bliver hun fyret. Hun har løjet om sine akademiske uddannelser og tidligere arbejdspladser. Den pressesky Anna Castberg forlader Danmark, men DR opsporer hende i England, og hun giver et eksklusivt interview. Hvad er sandheden ifølge Anna Castberg? Udløber: 13. sep 2025",
+  "shortDescription": "Dansk interviewprogram fra 1997. Anna Castberg får en kort, men opsigtsvækkende karriere i den danske museumsverden. Ud af ingenting dukker udlandsdanskeren op og bliver direktør for kunstmuseet Arken i 1993. Men et halvt år efter indvielsen i 1996 bliver",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Sandheden ifølge Anna Castberg",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/sandheden-ifoelge-anna-castberg_425327",
+  "watchPath": "/se/sandheden-ifoelge-anna-castberg_425327",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

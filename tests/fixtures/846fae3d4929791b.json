@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='373997'&Width=1920&Height=1080&ImageId='45088085'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='373997'&Width=1920&Height=1080&ImageId='45088087'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='373997'&Width=1440&Height=2160&ImageId='16099618'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='373997'&Width=2048&Height=2048&ImageId='45559162'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-01-06T22:59:00Z",
+    "scopes": [
+     "373997"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-03-31T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "373997"
+  ],
+  "categories": [
+   "tegnefilm",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Tegnefilm,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Tegnefilm",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Karlas Fantalastiske Klasse",
+   "ExtraDetails": "Tegnefilm | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "karlas-fantalastiske-klasse_373997",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2896195671000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "373997",
+  "type": "show",
+  "description": "Den sprudlende og energifulde kylling Karla på 8 år elsker skolen og sine venner - hun brænder for at gøre alle glade, men ender alligevel nogle gange med at skuffe en ven. Karlas Fantalastiske Klasse er danske tegnefilm, som handler om at være barn og alle de følelser det indebærer.",
+  "shortDescription": "Den sprudlende og energifulde kylling Karla på 8 år elsker skolen og sine venner - hun brænder for at gøre alle glade, men ender alligevel nogle gange med at skuffe en ven. Karlas Fantalastiske Klasse er danske tegnefilm, som handler om at være barn og al",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Karlas Fantalastiske Klasse",
+  "vodItemWatchPath": "",
+  "path": "/serie/karlas-fantalastiske-klasse_373997",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

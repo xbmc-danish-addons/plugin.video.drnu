@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390077'&Width=1920&Height=1080&ImageId='46683756'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390077'&Width=1440&Height=2160&ImageId='49886805'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='390077'&Width=1920&Height=1080&ImageId='49886811'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1728,
+  "releaseYear": 2015,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-11-30T22:59:00Z",
+    "scopes": [
+     "390077"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-29T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-11-30T22:59:00Z",
+    "scopes": [
+     "390077"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ENGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-29T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "390077"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "STORBRITANNIEN",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Grumme rim - Del 2",
+   "ExtraDetails": "Film | 29M",
+   "TitleExtraDetails": "DR Ramasjang | 29M",
+   "PathIdSegment": "grumme-rim-_-del-2_390077",
+   "BroadcastTimeDK": "2022-12-29T09:00:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851503370",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "390077",
+  "type": "program",
+  "description": "Baseret på børnebøgerne af Roald Dahl.\nJack vokser op med et godt øje til naboen Askepot. Men hun har kastet øjnene på prinsen til ballet, og Jack bliver distraheret af en kæmpe bønnestage for enden af haven. Vil de finde den ægte kærlighed? Udløber: 30. nov 2024",
+  "shortDescription": "Baseret på børnebøgerne af Roald Dahl.\nJack vokser op med et godt øje til naboen Askepot. Men hun har kastet øjnene på prinsen til ballet, og Jack bliver distraheret af en kæmpe bønnestage for enden af haven. Vil de finde den ægte kærlighed? Udløber: 30. ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Grumme rim - Del 2",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/grumme-rim-_-del-2_390077",
+  "watchPath": "/se/grumme-rim-_-del-2_390077",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

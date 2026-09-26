@@ -1,0 +1,82 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='320320'&Width=1920&Height=1080&ImageId='17683372'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='320320'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='320320'&Width=1920&Height=1080&ImageId='17683374'",
+   "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='320320'&Width=2048&Height=2048&ImageId='17894459'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-07-01T21:59:59Z",
+    "scopes": [
+     "320320"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0E6B",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-07-01T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "320320"
+  ],
+  "categories": [
+   "ramasjang ø",
+   "serie",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "DisplayCategory": "Ramasjang ø,Serie",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "True",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Mission Valhalla",
+   "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+   "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+   "PathIdSegment": "mission-valhalla_320320",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2972911113000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "320320",
+  "type": "show",
+  "description": "Ragnarok er nær! De onde jætter er i hvert fald begyndt at lave lige vel meget ballade i rigerne rundt om Asgård. Sammen med modige, jordiske helte-børn må de nordiske guders alfader Odin, tordenguden Thor, kærlighedsgudinden Freja og ungdommens gudinde Idun atter drage ud på en række farlige missioner for at holde dommedag - Ragnarok - for døren. For Valhalla!",
+  "shortDescription": "Ragnarok er nær! De onde jætter er i hvert fald begyndt at lave lige vel meget ballade i rigerne rundt om Asgård. Sammen med modige, jordiske helte-børn må de nordiske guders alfader Odin, tordenguden Thor, kærlighedsgudinden Freja og ungdommens gudinde I",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Mission Valhalla",
+  "vodItemWatchPath": "",
+  "path": "/serie/mission-valhalla_320320",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

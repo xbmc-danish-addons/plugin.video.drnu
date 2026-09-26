@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19005'&Width=1920&Height=1080&ImageId='50331445'",
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19005'&Width=1920&Height=1080&ImageId='4376605'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='19005'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2026-07-01T21:59:00Z",
+    "scopes": [
+     "19005"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2017-12-06T19:30:29Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "19005"
+  ],
+  "categories": [
+   "livsstil",
+   "rejse",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Rejse,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Livsstil,Rejse",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Anders Lund Madsen på Den Yderste Ø",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "PathIdSegment": "anders-lund-madsen-paa-den-yderste-oe_19005",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1903480719000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "19005",
+  "type": "show",
+  "description": "I den fjerneste ende af Færøerne ligger Fugloy. 800 får og 44 færinger ved bredden af verdenshavet. Som brændingen gnaver af klipperne i den sidste vig, så æder nutiden sig ind på øen. Men stadig hænger øboerne fast på fjeldet med det yderste af neglene. Hvem er de?",
+  "shortDescription": "I den fjerneste ende af Færøerne ligger Fugloy. 800 får og 44 færinger ved bredden af verdenshavet. Som brændingen gnaver af klipperne i den sidste vig, så æder nutiden sig ind på øen. Men stadig hænger øboerne fast på fjeldet med det yderste af neglene. ",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Anders Lund Madsen på Den Yderste Ø",
+  "vodItemWatchPath": "",
+  "path": "/serie/anders-lund-madsen-paa-den-yderste-oe_19005",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419258'&Width=1920&Height=1080&ImageId='50847920'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='419258'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='419258'&Width=1920&Height=1080&ImageId='50847922'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-12-30T22:59:00Z",
+    "scopes": [
+     "419258"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-12-30T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "419258"
+  ],
+  "categories": [
+   "livsstil",
+   "reality",
+   "p3",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Reality,P3",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "DisplayCategory": "Livsstil,Reality",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PresentationTypeCode": "Show",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Alle elsker Sinan",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "P3 | 1 SÆSON",
+   "PathIdSegment": "alle-elsker-sinan_419258",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:4551807113000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "419258",
+  "type": "show",
+  "description": "Flamboyant, provokerende, irriterende. Sinan er nogle gange lidt for meget - synes hans familie. Men selvom mor Ceylan har svært ved at acceptere alt fra hans croptops, hans venner og (især) hans seksualitet, elsker hun alligevel sin \"lille diamant\" overalt på jorden. Endda også lidt mere end sine andre børn... Når Sinan skruer op for charmen, kan han slippe af sted med hvad som helst. Til hans mere afdæmpede bror Aykuts store irritation!",
+  "shortDescription": "Flamboyant, provokerende, irriterende. Sinan er nogle gange lidt for meget - synes hans familie. Men selvom mor Ceylan har svært ved at acceptere alt fra hans croptops, hans venner og (især) hans seksualitet, elsker hun alligevel sin \"lille diamant\" overa",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Alle elsker Sinan",
+  "vodItemWatchPath": "",
+  "path": "/serie/alle-elsker-sinan_419258",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

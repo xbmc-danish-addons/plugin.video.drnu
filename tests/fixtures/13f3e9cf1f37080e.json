@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442952'&Width=1920&Height=1080&ImageId='51790212'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442952'&Width=1920&Height=1080&ImageId='51914023'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='442952'&Width=1920&Height=1080&ImageId='51914025'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5749,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-04-04T21:59:00Z",
+    "scopes": [
+     "442952"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T17:30:19Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-04-04T21:59:00Z",
+    "scopes": [
+     "442952"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ETGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-22T17:30:19Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "442952"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "AUSTRALIEN",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "100% Ulv",
+   "ExtraDetails": "Film | 1T 36M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 36M",
+   "PathIdSegment": "100-ulv_442952",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852011240",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "442952",
+  "type": "program",
+  "description": "Drengen Freddy er arvtager i en familie bestående af stolte varulve. Han er overbevist om, at han, når tiden kommer, skal blive den mest frygtindgydende varulv af dem alle. Freddy får dog en ubehagelig og ydmygende overraskelse, da han under fuldmånen til sin første \"forulvning\" ikke forvandles til en varulv, men derimod en knap så frygtindgydende puddelhund! Det ser ikke godt ud for Freddy, der nu må bevise overfor flokkens ældste, at han er en varulv i hjertet. Hvis ikke det lykkes ham inden næste måneopgang, vil han blive smidt ud af flokken for altid. Undervejs møder han gadehunden Batty, som bliver en uventet hjælp for Freddy, der nu skal bevise, at han - trods sit bløde og nuttede ydre - stadig er 100% ulv. Udløber: 4. apr 2024",
+  "shortDescription": "Drengen Freddy er arvtager i en familie bestående af stolte varulve. Han er overbevist om, at han, når tiden kommer, skal blive den mest frygtindgydende varulv af dem alle. Freddy får dog en ubehagelig og ydmygende overraskelse, da han under fuldmånen til",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "100% Ulv",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/100-ulv_442952",
+  "watchPath": "/se/100-ulv_442952",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

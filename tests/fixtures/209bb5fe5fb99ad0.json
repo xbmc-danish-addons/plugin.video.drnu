@@ -1,0 +1,1597 @@
+{
+ "status": 200,
+ "json": {
+  "id": "446625",
+  "customFields": {
+   "PathIdSegment": "noej-det-var-for-boern_446625"
+  },
+  "itemTypes": [
+   "show",
+   "episode",
+   "season",
+   "program"
+  ],
+  "description": "",
+  "title": "Nøj, det var for børn",
+  "shortDescription": "",
+  "tagline": "",
+  "themes": [],
+  "path": "/liste/noej-det-var-for-boern_446625",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441506'&Width=1920&Height=1080&ImageId='52020810'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441506'&Width=1920&Height=1080&ImageId='52020812'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441506'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "441506"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441506"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Kikkassen",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "kikkassen_441506",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5341417190000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441506",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1965-1981. Fjernsyn for små størrelser med film, sange og leg.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Kikkassen",
+    "vodItemWatchPath": "",
+    "path": "/serie/kikkassen_441506"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440043'&Width=1920&Height=1080&ImageId='51598266'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440043'&Width=1920&Height=1080&ImageId='51598264'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440043'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440043"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440043"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Fjernsyn for dyr",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "fjernsyn-for-dyr_440043",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4955015447000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440043",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1983. Tag med Bamse op på planeten Joakim, hvor han møder de sammengroede væsner Forlæns og Baglæns. Og viser klip fra fjernsynet.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Fjernsyn for dyr",
+    "vodItemWatchPath": "",
+    "path": "/serie/fjernsyn-for-dyr_440043"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440698'&Width=1920&Height=1080&ImageId='51951228'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440698'&Width=1920&Height=1080&ImageId='51951230'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440698'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440698"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440698"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Bullerfnis",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "bullerfnis_440698",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:753442645000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440698",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1990-1992. Hella Joof og Peter Frödin spiller Buller og Fnis, der husker tilbage på deres barndom. Godt hjulpet på vej af gamle klip fra tegnefilm, tv og film - og med masser af sang.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Bullerfnis",
+    "vodItemWatchPath": "",
+    "path": "/serie/bullerfnis_440698"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443508'&Width=1920&Height=1080&ImageId='52009927'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443508'&Width=1920&Height=1080&ImageId='52009929'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443508'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "443508"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443508"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Legestue",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "legestue_443508",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5341449908000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443508",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1969-1981. Børnefjernsyn for de små.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Legestue",
+    "vodItemWatchPath": "",
+    "path": "/serie/legestue_443508"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441490'&Width=1920&Height=1080&ImageId='51999964'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441490'&Width=1440&Height=2160&ImageId='16099618'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441490'&Width=1920&Height=1080&ImageId='51999962'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "441490"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441490"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Hvaffor en hånd",
+     "ExtraDetails": "Gensyn | 2 SÆSONER",
+     "TitleExtraDetails": "DR Gensyn | 2 SÆSONER",
+     "PathIdSegment": "hvaffor-en-haand_441490",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5341150418000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441490",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1991-2003. Underholdende fjernsyn for de små - lavet af underholdende voksne.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Hvaffor en hånd",
+    "vodItemWatchPath": "",
+    "path": "/serie/hvaffor-en-haand_441490"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445946'&Width=1920&Height=1080&ImageId='52000280'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445946'&Width=1920&Height=1080&ImageId='52000282'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='445946'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "445946"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "445946"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Flid, fedt og snyd",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "flid-fedt-og-snyd_445946",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5330870105000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "445946",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1981-1982. Hvis du gerne vil blive til noget stort, mens du er lille - så giver Gotha Andersen gode råd til at komme nemt gennem skoletiden i denne ikoniske satireserie.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Flid, fedt og snyd",
+    "vodItemWatchPath": "",
+    "path": "/serie/flid-fedt-og-snyd_445946"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440059'&Width=1920&Height=1080&ImageId='52049167'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440059'&Width=1920&Height=1080&ImageId='52049165'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440059'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440059"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440059"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Nu er det ikke sjovt længere",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "nu-er-det-ikke-sjovt-laengere_440059",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5320532057000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440059",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1982. Musikalske programmer med Jess Ingerslev og Tom McEwan, der undersøger og afprøver børneting på den sjove måde.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Nu er det ikke sjovt længere",
+    "vodItemWatchPath": "",
+    "path": "/serie/nu-er-det-ikke-sjovt-laengere_440059"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443781'&Width=1920&Height=1080&ImageId='52049449'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443781'&Width=1920&Height=1080&ImageId='52049451'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443781'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 2622,
+    "releaseYear": 1985,
+    "episodeNumber": 7,
+    "episodeName": "Vitek: Universets gåder",
+    "seasonId": "443779",
+    "showId": "443778",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "443781"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "443781"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443781",
+     "443779"
+    ],
+    "categories": [
+     "videnskab og teknologi",
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Videnskab og teknologi,Gensyn,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Videnskab og teknologi,Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PlayButtonExtraDetails": "S1985:E7 Universets gåder",
+     "ContextualTitleExtraDetails": "21. OKT 1985 | 44M",
+     "AvailableFrom": "1985-10-21T05:00:00.0000000Z",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Vitek: Sæson 1985 – Universets gåder",
+     "ExtraDetails": "SÆSON 1985 EPISODE 7 | 44M",
+     "PathIdSegment": "vitek_-universets-gaader_443781",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00809187760",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443781",
+    "type": "episode",
+    "shortDescription": "Dansk videnskabsprogram fra 1985. Vi ved i dag en masse om vores solsystem og universet. Men der er endnu mere, som vi ikke ved. I denne udsendelse fortæller Egon Schmidt og Lisbet Hermansen om nogle af universets mange gåder. Hvornår blev det til? Hvor s",
+    "contextualTitle": "7. Universets gåder",
+    "sports": [],
+    "themes": [],
+    "title": "Vitek: Universets gåder",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/vitek_-universets-gaader_443781",
+    "watchPath": "/se/vitek_-universets-gaader_443781"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441518'&Width=1920&Height=1080&ImageId='52038160'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441518'&Width=1920&Height=1080&ImageId='52038158'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441518'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "441518"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441518"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Op på ørerne vi er kørende",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "op-paa-oererne-vi-er-koerende_441518",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5341612932000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441518",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1978. Poul Nesgaard og Thomas Windings skæve serie med finurlige samtaler og besøg i 'Omvendtslev', hvor alting vender på hovedet.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Op på ørerne vi er kørende",
+    "vodItemWatchPath": "",
+    "path": "/serie/op-paa-oererne-vi-er-koerende_441518"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441509'&Width=1920&Height=1080&ImageId='52010024'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441509'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441509'&Width=1920&Height=1080&ImageId='52010026'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "441509"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441509"
+    ],
+    "categories": [
+     "gensyn",
+     "humor",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,Humor,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn,Humor",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Score-Kaj",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "score_kaj_441509",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5341501908000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441509",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1995. Charme, selvtillid og lækkert hår - det er Score-Kajs opskrift på succes hos lamsebamserne. Peter Mygind spiller Score-Kaj, der oprindelig var en del af serien TV 10 Lørdag.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Score-Kaj",
+    "vodItemWatchPath": "",
+    "path": "/serie/score_kaj_441509"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6959'&Width=1920&Height=1080&ImageId='52085473'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6959'&Width=1440&Height=2160&ImageId='52085483'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6959'&Width=1920&Height=1080&ImageId='52095870'",
+     "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6959'&Width=2048&Height=2048&ImageId='6700703'"
+    },
+    "availableSeasonCount": 3,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6959"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6959"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6959"
+    ],
+    "categories": [
+     "ramasjang ø",
+     "dr gensyn",
+     "dr minisjang",
+     "gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Ramasjang ø,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Ramasjang ø",
+     "TargetAudience": "YoungerKids",
+     "RatingSegment": "Minisjang",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Kaj og Andrea",
+     "ExtraDetails": "Ramasjang ø | 3 SÆSONER",
+     "TitleExtraDetails": "DR Gensyn | 3 SÆSONER",
+     "PathIdSegment": "kaj-og-andrea_6959",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang",
+      "minisjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:753428749000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6959",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1971-2007. Kaj og Andrea underholder børn og barnlige sjæle med lege, sange og spøjse samtaler.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Kaj og Andrea",
+    "vodItemWatchPath": "",
+    "path": "/serie/kaj-og-andrea_6959"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441500'&Width=1920&Height=1080&ImageId='52021327'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441500'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441500'&Width=1920&Height=1080&ImageId='52021361'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "441500"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441500"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Nu skal du se. Alabadig",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "nu-skal-du-se-alabadig_441500",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5341370890000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441500",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1988. Pigen Marie har en dukke, der hedder Alabadig, som kan blive levende. Og Alabadig elsker at tage på ture og snakke med folk.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Nu skal du se. Alabadig",
+    "vodItemWatchPath": "",
+    "path": "/serie/nu-skal-du-se-alabadig_441500"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441993'&Width=1920&Height=1080&ImageId='52038069'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441993'&Width=1920&Height=1080&ImageId='52038071'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441993'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 1340,
+    "releaseYear": 1997,
+    "episodeNumber": 8,
+    "episodeName": "Troldspejlet",
+    "seasonId": "441992",
+    "showId": "441991",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "441993"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "441993"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441993",
+     "441992"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PlayButtonExtraDetails": "S1997:E8",
+     "ContextualTitleExtraDetails": "24. FEB 1997 | 22M",
+     "AvailableFrom": "1997-02-24T05:00:00.0000000Z",
+     "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Troldspejlet: Sæson 1997 – 8. episode",
+     "ExtraDetails": "SÆSON 1997 EPISODE 8 | 22M",
+     "PathIdSegment": "troldspejlet_441993",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00802078960",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441993",
+    "type": "episode",
+    "shortDescription": "Dansk kulturprogram fra 1997. Troldspejlet ser på nye spil til PlayStation, bl.a. 'Die Hard Trilogy', og anmelder en hel række nye videofilm med dyr som medvirkende - en chimpanse, en orangutang og en delfin. Og så tager Jakob Stegelmann et kig på et par ",
+    "contextualTitle": "8. episode",
+    "sports": [],
+    "themes": [],
+    "title": "Troldspejlet",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/troldspejlet_441993",
+    "watchPath": "/se/troldspejlet_441993"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440692'&Width=1920&Height=1080&ImageId='51963507'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440692'&Width=1920&Height=1080&ImageId='51963509'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440692'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440692"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440692"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Fredagsbio",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "fredagsbio_440692",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:754391518000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440692",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1980-2006. Når dukkerne Anna og Lotte ikke leger eller laver ballade, viser de små film. Og hygger med deres dukkevenner eller måske en sød voksen.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Fredagsbio",
+    "vodItemWatchPath": "",
+    "path": "/serie/fredagsbio_440692"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440052'&Width=1920&Height=1080&ImageId='52000799'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440052'&Width=1920&Height=1080&ImageId='52000801'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440052'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440052"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440052"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Helmer har et hus",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "helmer-har-et-hus_440052",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5320490064000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440052",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1976. Godnat-udsendelser med Jesper Klein som Helmer, der kan trylle, og som bor sammen med en stor bamse i sit sort-hvide hus.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Helmer har et hus",
+    "vodItemWatchPath": "",
+    "path": "/serie/helmer-har-et-hus_440052"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440701'&Width=1920&Height=1080&ImageId='52011050'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440701'&Width=1920&Height=1080&ImageId='52011052'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440701'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440701"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440701"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Hvorfor uglen i hulen",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "hvorfor-uglen-i-hulen_440701",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5330820793000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440701",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1990-1991. Werner og Muldeberg viser klip og svarer på spørgsmål fra nysgerrige børn.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Hvorfor uglen i hulen",
+    "vodItemWatchPath": "",
+    "path": "/serie/hvorfor-uglen-i-hulen_440701"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445315'&Width=1920&Height=1080&ImageId='52084584'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445315'&Width=1920&Height=1080&ImageId='52084582'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='445315'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "445315"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "445315"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Teleklub",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "teleklub_445315",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5393058366000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "445315",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1966-72. Oplysende programserie krydret med gode ideer og underholdning. Med værter som Jørgen Clevin, Egon Schmidt og Jesper Klein.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Teleklub",
+    "vodItemWatchPath": "",
+    "path": "/serie/teleklub_445315"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440686'&Width=1920&Height=1080&ImageId='52000304'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440686'&Width=1920&Height=1080&ImageId='52000308'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440686'&Width=1440&Height=2160&ImageId='52000306'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440686"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440686"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Et lille øjeblik",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "et-lille-oejeblik_440686",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5330644951000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440686",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1986-1988. Jannie Faurschou og hunden Sigurd synger sange, viser film og præsenterer en masse klip med dygtige børn - og også med dyr og voksne.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Et lille øjeblik",
+    "vodItemWatchPath": "",
+    "path": "/serie/et-lille-oejeblik_440686"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440695'&Width=1920&Height=1080&ImageId='52036775'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440695'&Width=1920&Height=1080&ImageId='52036777'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440695'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440695"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440695"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Omsen og Momsen",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "omsen-og-momsen_440695",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5330727591000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440695",
+    "type": "show",
+    "shortDescription": "Dansk børneserie fra 1987. Jess Ingerslev og Tom McEwan spiller to fremmelige små brødre, som bliver kaldt Omsen og Momsen af deres forældre.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Omsen og Momsen",
+    "vodItemWatchPath": "",
+    "path": "/serie/omsen-og-momsen_440695"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441512'&Width=1920&Height=1080&ImageId='52049055'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='441512'&Width=1920&Height=1080&ImageId='52049057'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='441512'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "441512"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "441512"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Se Hundested og gø",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "se-hundested-og-goe_441512",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5341545689000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "441512",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1979-1980. Thomas Winding er en af skaberne bag de uberegnelige programmer for små børn og voksne. Med fortællinger, tegninger, musik og en hel del snak.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Se Hundested og gø",
+    "vodItemWatchPath": "",
+    "path": "/serie/se-hundested-og-goe_441512"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443476'&Width=1920&Height=1080&ImageId='51948555'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443476'&Width=1920&Height=1080&ImageId='51948557'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443476'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "443476"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443476"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Barda",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "barda_443476",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:754419442000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443476",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 2006-2013. Spilmesteren Martin får i hvert program besøg af to børn, som skal på mission i rollespilsuniverset Barda.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Barda",
+    "vodItemWatchPath": "",
+    "path": "/serie/barda_443476"
+   },
+   {
+    "images": {
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440033'&Width=1920&Height=1080&ImageId='52009304'",
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440033'&Width=1920&Height=1080&ImageId='52009302'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='440033'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "releaseYear": 1983,
+    "availableEpisodeCount": 1,
+    "seasonNumber": 1983,
+    "showId": "440031",
+    "episodeCount": 0,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "440033"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440033"
+    ],
+    "categories": [
+     "gensyn",
+     "dr minisjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Minisjang",
+     "BrandingChannelShort": "TVM",
+     "BrandingChannelDisplayName": "DR Minisjang",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "YoungerKids",
+     "RatingSegment": "Minisjang",
+     "PrimaryContentUniverse": "Minisjang",
+     "ClassificationRating": "MRAM-ALL",
+     "IsGeoRestricted": "False",
+     "PresentationTypeCode": "Ongoing",
+     "IsSeasonDRMPlayoutRequired": "False",
+     "PageTitle": "Bamses Billedbog: Sæson 1983",
+     "ExtraDetails": "Gensyn | SÆSON 1983",
+     "PathIdSegment": "bamses-billedbog_440033",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang",
+      "minisjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:season:751947513000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440033",
+    "type": "season",
+    "shortDescription": "Fortællinger fra Bamses billedbog om Bamse, Kylling og Ælling.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Bamses Billedbog",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Alle",
+     "name": "Alle"
+    },
+    "path": "/saeson/bamses-billedbog_440033"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443499'&Width=1920&Height=1080&ImageId='51951267'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443499'&Width=1920&Height=1080&ImageId='51951269'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443499'&Width=1440&Height=2160&ImageId='51951274'"
+    },
+    "duration": 807,
+    "releaseYear": 1967,
+    "episodeNumber": 6,
+    "episodeName": "Cirkeline: Cirkeline besøger skovalferne",
+    "seasonId": "443498",
+    "showId": "238549",
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "443499"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "443499"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "443499",
+     "443498"
+    ],
+    "categories": [
+     "gensyn",
+     "tegnefilm",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,Tegnefilm,DR Gensyn",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Gensyn,Tegnefilm",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PlayButtonExtraDetails": "S1967:E6 Cirkeline besøger skovalferne",
+     "ContextualTitleExtraDetails": "18. SEP 1967 | 13M",
+     "AvailableFrom": "1967-09-18T05:00:00.0000000Z",
+     "PresentationTypeCode": "Ongoing",
+     "PageTitle": "Cirkeline: Sæson 1967 – Cirkeline besøger skovalferne",
+     "ExtraDetails": "SÆSON 1967 EPISODE 6 | 13M",
+     "PathIdSegment": "cirkeline_-cirkeline-besoeger-skovalferne_443499",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00808172500",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "443499",
+    "type": "episode",
+    "shortDescription": "Dansk børneserie fra 1967. Cirkeline besøger tre fugleunger og fortæller dem om den store verden udenfor reden. Og så prøver ungerne at flyve for første gang nogensinde. Bagefter møder Cirkeline de sødeste skovalfer, der drysser tryllestøv på hende, så hu",
+    "contextualTitle": "6. Cirkeline besøger skovalferne",
+    "sports": [],
+    "themes": [],
+    "title": "Cirkeline: Cirkeline besøger skovalferne",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/episode/cirkeline_-cirkeline-besoeger-skovalferne_443499",
+    "watchPath": "/se/cirkeline_-cirkeline-besoeger-skovalferne_443499"
+   },
+   {
+    "images": {
+     "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440036'&Width=1920&Height=1080&ImageId='52000343'",
+     "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440036'&Width=1440&Height=2160&ImageId='52000357'",
+     "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='440036'&Width=1920&Height=1080&ImageId='52000384'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "440036"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "440036"
+    ],
+    "categories": [
+     "gensyn",
+     "dr gensyn"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "DisplayCategory": "Gensyn",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Den blå æske",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON",
+     "PathIdSegment": "den-blaa-aeske_440036",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:5320141775000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "440036",
+    "type": "show",
+    "shortDescription": "Dansk børneserie 1987-1989. Om nogle af de ting, der kan være spændende for små børn.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Den blå æske",
+    "vodItemWatchPath": "",
+    "path": "/serie/den-blaa-aeske_440036"
+   }
+  ],
+  "size": 39,
+  "paging": {
+   "total": 2,
+   "page": 1,
+   "size": 24,
+   "next": "/lists/446625?page_size=24&lang=da&page=2&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

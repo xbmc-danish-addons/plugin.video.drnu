@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='45783'&Width=1920&Height=1080&ImageId='4377311'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='45783'&Width=1440&Height=2160&ImageId='16099618'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='45783'&Width=1920&Height=1080&ImageId='49994941'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2024-10-25T21:59:00Z",
+    "scopes": [
+     "45783"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2018-10-25T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "45783"
+  ],
+  "categories": [
+   "livsstil",
+   "underholdning",
+   "humor/satire",
+   "p3",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Underholdning,Humor/satire,P3",
+   "BrandingChannelShort": "TP3",
+   "BrandingChannelDisplayName": "P3",
+   "DisplayCategory": "Livsstil,Underholdning,Humor/satire",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-11",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Absurdistan",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "P3 | 1 SÆSON",
+   "PathIdSegment": "absurdistan_45783",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:2051962403000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "45783",
+  "type": "show",
+  "description": "Denne programserie er et indholdmæssigt skridtspark til hverdagens små irritationsmomenter og livets generelle meningsløshed. Jesper Juhl og Kristoffer Eriksen spreder med humoristisk, aktivistisk reportage og perspektiverende interviews overblik'lig munterhed til alle os som ikke er med på hvad som helst (men som gerne vil vide hvorfor).",
+  "shortDescription": "Denne programserie er et indholdmæssigt skridtspark til hverdagens små irritationsmomenter og livets generelle meningsløshed. Jesper Juhl og Kristoffer Eriksen spreder med humoristisk, aktivistisk reportage og perspektiverende interviews overblik'lig munt",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Absurdistan",
+  "vodItemWatchPath": "",
+  "path": "/serie/absurdistan_45783",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='322655'&Width=1920&Height=1080&ImageId='17727711'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='322655'&Width=1920&Height=1080&ImageId='48546791'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='322655'&Width=1440&Height=2160&ImageId='17727715'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4954,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-03-28T22:59:00Z",
+    "scopes": [
+     "322655"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EJCAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-06-24T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "322655"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "EF-LANDE",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Calamity Jane - Vestens vilde datter",
+   "ExtraDetails": "Film | 1T 23M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 23M",
+   "PathIdSegment": "calamity-jane-_-vestens-vilde-datter_322655",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00851810970",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "322655",
+  "type": "program",
+  "description": "Animationsfilm fra 2021.\nMartha Jane er i 1863 er sammen med en konvoj på vej mod et bedre liv i Vesten. Da hendes far kommer til skade, er det pludselig Martha, der skal køre familie-vognen, passe hestene og forsørge familien. Det er en hård og udfordrende omvæltning, og alligevel har Martha aldrig følt sig så fri. Men ikke alle ser positivt på Marthas fritænkning - især ikke Abrahams, konvojens leder. Ond bliver værre da Martha bliver anklaget for tyveri, og tvinges på flugt. Iført drengeklæder, søger hun desperat efter beviset for sin uskyld. Det bliver starten på et eventyr fuld af farer, oplevelser og personlig udvikling! Udløber: 28. mar 2025",
+  "shortDescription": "Animationsfilm fra 2021.\nMartha Jane er i 1863 er sammen med en konvoj på vej mod et bedre liv i Vesten. Da hendes far kommer til skade, er det pludselig Martha, der skal køre familie-vognen, passe hestene og forsørge familien. Det er en hård og udfordren",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Calamity Jane - Vestens vilde datter",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/calamity-jane-_-vestens-vilde-datter_322655",
+  "watchPath": "/se/calamity-jane-_-vestens-vilde-datter_322655",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

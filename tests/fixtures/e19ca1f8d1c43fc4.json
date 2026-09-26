@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445314'&Width=1920&Height=1080&ImageId='52097174'",
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445314'&Width=1920&Height=1080&ImageId='52097169'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='445314'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1258,
+  "releaseYear": 1976,
+  "episodeNumber": 2,
+  "episodeName": "Her bor vi: I Tårnby",
+  "seasonId": "445313",
+  "showId": "445312",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "445314"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E4AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-27T22:59:59Z",
+    "scopes": [
+     "445314"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EEDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-27T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "445314",
+   "445313"
+  ],
+  "categories": [
+   "dokumentar",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Dokumentar,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S1:E2 I Tårnby",
+   "ContextualTitleExtraDetails": "2. DEC 1976 | 21M",
+   "AvailableFrom": "1976-12-02T00:00:00.0000000Z",
+   "PresentationTypeCode": "Ongoing",
+   "PageTitle": "Her bor vi: Sæson 1 – I Tårnby",
+   "ExtraDetails": "SÆSON 1 EPISODE 2 | 21M",
+   "PathIdSegment": "her-bor-vi_-i-taarnby_445314",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00707142750",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "445314",
+  "type": "episode",
+  "description": "Dansk dokumentar fra 1976. I Tårnby skole på Amager har en 4. klasse gruppearbejde. De skal indsamle materiale om deres kommune og lokalsamfund og bagefter fremlægge, hvad de har fundet ud af. Klassen vil rigtig gerne til øen Saltholm, som hører med til kommunen, men skolen har ikke råd til at sende dem afsted. Så nogle af eleverne interviewer borgmesteren om muligheden for at få flere penge til skoleekskursioner. Udløber: 27. mar 2026",
+  "shortDescription": "Dansk dokumentar fra 1976. I Tårnby skole på Amager har en 4. klasse gruppearbejde. De skal indsamle materiale om deres kommune og lokalsamfund og bagefter fremlægge, hvad de har fundet ud af. Klassen vil rigtig gerne til øen Saltholm, som hører med til k",
+  "contextualTitle": "2. I Tårnby",
+  "sports": [],
+  "themes": [],
+  "title": "Her bor vi: I Tårnby",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/her-bor-vi_-i-taarnby_445314",
+  "watchPath": "/se/her-bor-vi_-i-taarnby_445314",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,1667 @@
+{
+ "status": 200,
+ "json": {
+  "id": "348",
+  "parameter": "TitleGroupKey:a",
+  "customFields": {
+   "PathIdSegment": "alt-indhold-_-_titlegroupkey__348"
+  },
+  "itemTypes": [
+   "program",
+   "show"
+  ],
+  "description": "",
+  "title": "A",
+  "shortDescription": "",
+  "themes": [],
+  "path": "/a-aa/a",
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='24046'&Width=1920&Height=1080&ImageId='4375711'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='24046'&Width=1920&Height=1080&ImageId='4375715'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='24046'&Width=1440&Height=2160&ImageId='50507690'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "24046"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "24046"
+    ],
+    "categories": [
+     "dokumentar",
+     "underholdning",
+     "historie",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Underholdning,Historie,DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Underholdning,Historie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alt forladt",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "BrandingChannelShort": "DR2",
+     "PathIdSegment": "alt-forladt_24046",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1912587056000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "24046",
+    "type": "show",
+    "shortDescription": "De to Urban Explorers Jan Elhøj og Morten Kirckhoff udforsker forladte steder.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alt forladt",
+    "vodItemWatchPath": "",
+    "path": "/serie/alt-forladt_24046"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='130152'&Width=1920&Height=1080&ImageId='4254549'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='130152'&Width=1920&Height=1080&ImageId='50304344'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='130152'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "130152"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "130152"
+    ],
+    "categories": [
+     "livsstil",
+     "krop og sundhed",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Krop og sundhed,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil,Krop og sundhed",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alternativ behandling",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "alternativ-behandling_130152",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1873062240000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "130152",
+    "type": "show",
+    "shortDescription": "Lasse Spang Olsen går på opdagelsesrejse i den alternative helbredelse.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alternativ behandling",
+    "vodItemWatchPath": "",
+    "path": "/serie/alternativ-behandling_130152"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='64682'&Width=2362&Height=1329&ImageId='368202'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='64682'&Width=2362&Height=1329&ImageId='368228'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='64682'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 5326,
+    "releaseYear": 2014,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "64682"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "64682"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "64682"
+    ],
+    "categories": [
+     "dokumentar",
+     "krop og sundhed",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Krop og sundhed,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar,Krop og sundhed",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "Alternativ helbredelse",
+     "ExtraDetails": "Dokumentar | 1T 29M",
+     "TitleExtraDetails": "DR2 | 1T 29M",
+     "PathIdSegment": "alternativ-helbredelse_64682",
+     "BroadcastTimeDK": "2018-01-20T19:55:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00921409400",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "64682",
+    "type": "program",
+    "shortDescription": "På opdagelse i det alternative behandlingssystem.\nLasse Spang Olsen og to overlæger Jannik Helweg-Larsen og Asbjørn Mohr Drewes går på opdagelse i det alternative behandlingssystem. I 2014 foretog de et forsøg med alternativ behandling på personer med bl.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alternativ helbredelse",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alternativ-helbredelse_64682",
+    "watchPath": "/se/alternativ-helbredelse_64682"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282683'&Width=1920&Height=1080&ImageId='14531744'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282683'&Width=1920&Height=1080&ImageId='14531746'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='282683'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 3111,
+    "releaseYear": 2020,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "282683"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "282683"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "282683"
+    ],
+    "categories": [
+     "kultur",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Kultur,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "FINLAND",
+     "DisplayCategory": "Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Alvar Aalto - lysets mester",
+     "ExtraDetails": "Kultur | 52M",
+     "TitleExtraDetails": "DR2 | 52M",
+     "PathIdSegment": "alvar-aalto-_-lysets-mester_282683",
+     "BroadcastTimeDK": "2021-11-07T23:35:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00021812530",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "282683",
+    "type": "program",
+    "shortDescription": "Finsk dokumentar fra 2020.\n(Aalto)\nDen finske arkitekt Alvar Aalto var en af det 20. århundredes førende modernister. En ambitiøs og intelligent pioner, der havde et unikt og nyskabende samarbejde med sin hustru Aino. Kom med på en rejse ind i ægteparret ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Alvar Aalto - lysets mester",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alvar-aalto-_-lysets-mester_282683",
+    "watchPath": "/se/alvar-aalto-_-lysets-mester_282683"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='60618'&Width=1920&Height=1080&ImageId='4415844'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='60618'&Width=1920&Height=1080&ImageId='4415864'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='60618'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "duration": 5225,
+    "releaseYear": 2018,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "60618"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "60618"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "60618"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "HOLLAND",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PageTitle": "Amazon kommer - verdens største netbutik",
+     "ExtraDetails": "Dokumentar | 1T 27M",
+     "TitleExtraDetails": "DR2 | 1T 27M",
+     "PathIdSegment": "amazon-kommer-_-verdens-stoerste-netbutik_60618",
+     "BroadcastTimeDK": "2018-09-19T23:00:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00021814750",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "60618",
+    "type": "program",
+    "shortDescription": "Hollandsk dokumentar fra 2018.\n(In Amazon We Trust)\nVerdens største netbutik er på vej, og to spørgsmål presser sig på: Er Amazon en trussel? Hvorfor er Amazon så populær? Det næste store spørgsmål er, hvordan vi takler kæmpe virksomheder som Amazon, der ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Amazon kommer - verdens største netbutik",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/amazon-kommer-_-verdens-stoerste-netbutik_60618",
+    "watchPath": "/se/amazon-kommer-_-verdens-stoerste-netbutik_60618"
+   },
+   {
+    "images": {
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='283125'&Width=1440&Height=2160&ImageId='50404620'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='283125'&Width=1920&Height=1080&ImageId='14832718'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='283125'&Width=1920&Height=1080&ImageId='50404613'"
+    },
+    "duration": 3150,
+    "releaseYear": 2021,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "283125"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "283125"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "283125"
+    ],
+    "categories": [
+     "dokumentar",
+     "historie",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Historie,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "FRANKRIG & MONACO",
+     "DisplayCategory": "Dokumentar,Historie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PageTitle": "Ambassadørerne i Berlin: Whistleblowere under 2. Verdenskrig",
+     "ExtraDetails": "Dokumentar | 53M",
+     "TitleExtraDetails": "DR2 | 53M",
+     "PathIdSegment": "ambassadoererne-i-berlin_-whistleblowere-under-2-verdenskrig_283125",
+     "BroadcastTimeDK": "2021-12-01T20:05:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00022116250",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "283125",
+    "type": "program",
+    "shortDescription": "Fransk dokumentar fra 2021.\n(Ambassadors in Berlin : The Whistleblowers of WWII)\nDen 30. januar 1933 blev Hitler udnævnt til rigskansler: en revolution var i gang. Hele verden så interesseret og bekymret til. Blandt øjenvidnerne var ambassadører, der blev",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Ambassadørerne i Berlin: Whistleblowere under 2. Verdenskrig",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/ambassadoererne-i-berlin_-whistleblowere-under-2-verdenskrig_283125",
+    "watchPath": "/se/ambassadoererne-i-berlin_-whistleblowere-under-2-verdenskrig_283125"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='209732'&Width=1920&Height=1080&ImageId='6074643'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='209732'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='209732'&Width=1920&Height=1080&ImageId='6074647'"
+    },
+    "duration": 3515,
+    "releaseYear": 2020,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "209732"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "209732"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "209732"
+    ],
+    "categories": [
+     "dokumentar",
+     "historie",
+     "politik",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Historie,Politik,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "USA",
+     "DisplayCategory": "Dokumentar,Historie,Politik",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PageTitle": "Amerikanske taler der ændrede verden",
+     "ExtraDetails": "Dokumentar | 59M",
+     "TitleExtraDetails": "DR2 | 59M",
+     "ShortVideoUrl": "https://drod04m-vh.akamaihd.net/i/all/clear/streaming/1c/5f969eef539f022ef086c61c/VS-Amerikanske-taler-der-aendr_ca8b91ba154141fdbf9daa4fff925063_,3074,446,2161,808,1588,296,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "amerikanske-taler-der-aendrede-verden_209732",
+     "BroadcastTimeDK": "2020-10-28T20:00:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00922022340",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "209732",
+    "type": "program",
+    "shortDescription": "\"Yes we can\" og \"Tear down this wall, mr. Gorbatjev\" er to citater vi alle kender. Men hvorfor er lige de citater blevet så berømte? I den danskproducerede dokumentar \"Amerikanske taler der ændrede verden,\" møder vi taleskriverne bag nogle af verdenshisto",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "\"Yes we can\": Berømte præsidenttaler – og skribenterne bag dem",
+    "themes": [],
+    "title": "Amerikanske taler der ændrede verden",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/amerikanske-taler-der-aendrede-verden_209732",
+    "watchPath": "/se/amerikanske-taler-der-aendrede-verden_209732"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='273533'&Width=1920&Height=1080&ImageId='14223304'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='273533'&Width=1440&Height=2160&ImageId='14208359'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='273533'&Width=1920&Height=1080&ImageId='14223306'"
+    },
+    "duration": 3824,
+    "releaseYear": 2021,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "273533"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "273533"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "273533"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "USA",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PageTitle": "Amok-aktie på himmelflugt - kampen om GameStop",
+     "ExtraDetails": "Dokumentar | 1T 4M",
+     "TitleExtraDetails": "DR2 | 1T 4M",
+     "ShortVideoUrl": "https://drod02d-vh.akamaihd.net/i/all/clear/streaming/b0/615e9e27a95a61102cbce8b0/VS-AMOK-AKTIE-PAA-HIMM_ccc96f0860ff43e891dc9f9559e93841_,300,512,1000,2200,3000,4300,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "amok_aktie-paa-himmelflugt-_-kampen-om-gamestop_273533",
+     "BroadcastTimeDK": "2021-10-12T21:00:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00022115540",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "273533",
+    "type": "program",
+    "shortDescription": "Amerikansk dokumentar fra 2021.\n(The Big Squeeze)\nComputerspilkæden GameStop skabte så meget kaos på aktiemarkedet, at det tvang store hedgefonde i knæ. Hvordan kunne det ske? Her følger vi forskellige mennesker, der i løbet af 2020 blev bragt sammen på g",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Aktien, der udløste krig mellem hedgefonde og småinvestorer",
+    "themes": [],
+    "title": "Amok-aktie på himmelflugt - kampen om GameStop",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/amok_aktie-paa-himmelflugt-_-kampen-om-gamestop_273533",
+    "watchPath": "/se/amok_aktie-paa-himmelflugt-_-kampen-om-gamestop_273533"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18876'&Width=1920&Height=1080&ImageId='4376631'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18876'&Width=1920&Height=1080&ImageId='49995214'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='18876'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "18876"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "18876"
+    ],
+    "categories": [
+     "livsstil",
+     "rejse",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Rejse,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anders Lund Madsen i Den Yderste By",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "anders-lund-madsen-i-den-yderste-by_18876",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1896109540000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "18876",
+    "type": "show",
+    "shortDescription": "I det yderste Østgrønland ligger byen Ittoqqortoormiit - 171 træhuse på randen af verden. Bag byen er der isbjørne og stilhed og masser af ingenting i mange hundrede kilometers afstand. Anders Lund Madsen møder menneskene inde i de huse. Hvem er de? Og ha",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anders Lund Madsen i Den Yderste By",
+    "vodItemWatchPath": "",
+    "path": "/serie/anders-lund-madsen-i-den-yderste-by_18876"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19005'&Width=1920&Height=1080&ImageId='50331445'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='19005'&Width=1920&Height=1080&ImageId='4376605'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='19005'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "19005"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "19005"
+    ],
+    "categories": [
+     "livsstil",
+     "rejse",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Rejse,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anders Lund Madsen på Den Yderste Ø",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "anders-lund-madsen-paa-den-yderste-oe_19005",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1903480719000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "19005",
+    "type": "show",
+    "shortDescription": "I den fjerneste ende af Færøerne ligger Fugloy. 800 får og 44 færinger ved bredden af verdenshavet. Som brændingen gnaver af klipperne i den sidste vig, så æder nutiden sig ind på øen. Men stadig hænger øboerne fast på fjeldet med det yderste af neglene. ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anders Lund Madsen på Den Yderste Ø",
+    "vodItemWatchPath": "",
+    "path": "/serie/anders-lund-madsen-paa-den-yderste-oe_19005"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='171857'&Width=1920&Height=1080&ImageId='4418871'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='171857'&Width=1440&Height=2160&ImageId='15741517'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='171857'&Width=1920&Height=1080&ImageId='50393115'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "171857"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "171857"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Angrebet - Omars vej til Krudttønden",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod03f-vh.akamaihd.net/i/all/clear/streaming/e5/5e590ba0539f022764034ae5/VS-Angrebet---Omars-vej-til-Kr_7ad6bd21392a4a19852d95dd9e5401c9_,2448,3447,941,461,1837,299,.mp4.csmil/master.m3u8",
+     "PathIdSegment": "angrebet-_-omars-vej-til-krudttoenden_171857",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2669215028000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "171857",
+    "type": "show",
+    "shortDescription": "I 2015 angriber Omar el-Hussein Krudttønden og den jødiske synagoge i København. Dokumentarfilmen kortlægger Omar el-Husseins liv og radikalisering. Kunne terrorangrebet have været undgået?",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Se hele serien | Kunne terrorangrebet i 2015 have været undgået?",
+    "themes": [],
+    "title": "Angrebet - Omars vej til Krudttønden",
+    "vodItemWatchPath": "",
+    "path": "/serie/angrebet-_-omars-vej-til-krudttoenden_171857"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='421728'&Width=1920&Height=1080&ImageId='50519761'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='421728'&Width=1440&Height=2160&ImageId='50519771'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='421728'&Width=1920&Height=1080&ImageId='50519763'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "421728"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "421728"
+    ],
+    "categories": [
+     "dokumentar",
+     "historie",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Historie,DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Historie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Angrebet på Pearl Harbor",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "BrandingChannelShort": "DR2",
+     "PathIdSegment": "angrebet-paa-pearl-harbor_421728",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3770704261000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "421728",
+    "type": "show",
+    "shortDescription": "I 1941 angriber Japan uden varsel den amerikanske flådebase ved Pearl Harbor. Hvorfor? Serien udforsker 2. verdenskrigs vendepunkt og det diplomatiske og militære spil på tværs af lande og tidszoner.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Angrebet på Pearl Harbor",
+    "vodItemWatchPath": "",
+    "path": "/serie/angrebet-paa-pearl-harbor_421728"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282619'&Width=1920&Height=1080&ImageId='14519502'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282619'&Width=1440&Height=2160&ImageId='50557419'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='282619'&Width=1920&Height=1080&ImageId='50557421'"
+    },
+    "duration": 2943,
+    "releaseYear": 2013,
+    "offers": [
+     {
+      "deliveryType": "Stream",
+      "scopes": [
+       "282619"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     },
+     {
+      "deliveryType": "Download",
+      "scopes": [
+       "282619"
+      ],
+      "resolution": "HD-1080",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "282619"
+    ],
+    "categories": [
+     "dokumentar",
+     "historie",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Historie,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar,Historie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PageTitle": "Angrebet på Shellhuset",
+     "ExtraDetails": "Dokumentar | 49M",
+     "TitleExtraDetails": "DR2 | 49M",
+     "BrandingChannelShort": "DR2",
+     "PathIdSegment": "angrebet-paa-shellhuset_282619",
+     "BroadcastTimeDK": "2021-10-30T16:15:00",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00831313010",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "282619",
+    "type": "program",
+    "shortDescription": "En gådefuld ulykke forvandler et af 2. Verdenskrigs mest komplekse flyangreb til en katastrofe. Denne dokumentar forsøger ved hjælp fra angrebets chef-navigatør Edward Sismore, eksperter og øjenvidner at genskabe angrebet og opklare, hvad der gik galt. Ud",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Angrebet på Shellhuset",
+    "vodItemWatchPath": "",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/angrebet-paa-shellhuset_282619",
+    "watchPath": "/se/angrebet-paa-shellhuset_282619"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6628'&Width=1920&Height=1080&ImageId='4375783'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='6628'&Width=1920&Height=1080&ImageId='4375790'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='6628'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 2,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "6628"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "6628"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anjas børnehjem",
+     "ExtraDetails": "Dokumentar | 2 SÆSONER",
+     "TitleExtraDetails": "DR2 | 2 SÆSONER",
+     "PathIdSegment": "anjas-boernehjem_6628",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1843439260000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "6628",
+    "type": "show",
+    "shortDescription": "Danske Anja Lovén redder børn, der er beskyldt for at være hekse i Nigeria og er i gang med at indrette sit børnehjem i et af verdens farligste områder.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anjas børnehjem",
+    "vodItemWatchPath": "",
+    "path": "/serie/anjas-boernehjem_6628"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391778'&Width=1920&Height=1080&ImageId='47132692'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391778'&Width=1920&Height=1080&ImageId='47132696'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391778'&Width=1440&Height=2160&ImageId='47132694'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "391778"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "391778"
+    ],
+    "categories": [
+     "livsstil",
+     "krop og sundhed",
+     "dr1"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Krop og sundhed,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Krop og sundhed",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anna Lin har det fint",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod20s.akamaized.net/all/clear/none/e1/649a76426a3bbd395834eae1/649a762e74c61b28d4739b2f/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "anna-lin-har-det-fint_391778",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3993235844000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "391778",
+    "type": "show",
+    "shortDescription": "Anna Lin har aldrig fortalt nogen, hvordan hun egentligt har det. På overfladen lever hun et succesfuldt liv som TV-vært med masser af venner og en fuld kalender. Men indadtil kæmper Anna med følelser af angst og ensomhed. Derfor starter hun i terapi for ",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Hele serien | Selvsikker, sjov og succesfuld – men Anna kæmper også med angst",
+    "themes": [],
+    "title": "Anna Lin har det fint",
+    "vodItemWatchPath": "",
+    "path": "/serie/anna-lin-har-det-fint_391778"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='242021'&Width=1920&Height=1080&ImageId='9731536'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='242021'&Width=1920&Height=1080&ImageId='9731531'",
+     "square": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='242021'&Width=2048&Height=2048&ImageId='40550325'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='242021'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "242021"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "242021"
+    ],
+    "categories": [
+     "dr minisjang"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "DR Minisjang",
+     "BrandingChannelShort": "TVM",
+     "BrandingChannelDisplayName": "DR Minisjang",
+     "TargetAudience": "YoungerKids",
+     "RatingSegment": "Minisjang",
+     "PrimaryContentUniverse": "Minisjang",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anna og Lotte",
+     "ExtraDetails": "1 SÆSON",
+     "TitleExtraDetails": "DR Minisjang | 1 SÆSON",
+     "PathIdSegment": "anna-og-lotte_242021",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang",
+      "minisjang"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3023758761000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "242021",
+    "type": "show",
+    "shortDescription": "Herligt gensyn med de hittepåsomme venner Anna og Lotte, lillebror Bulder og dukken Georg, som børn og voksne sammen har grinet af i mere end 40 år.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anna og Lotte",
+    "vodItemWatchPath": "",
+    "path": "/serie/anna-og-lotte_242021"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='384589'&Width=1920&Height=1080&ImageId='46116532'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='384589'&Width=1920&Height=1080&ImageId='46116530'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='384589'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "384589"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "384589"
+    ],
+    "categories": [
+     "fakta",
+     "dr ultra"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Fakta,DR Ultra",
+     "BrandingChannelShort": "TVL",
+     "BrandingChannelDisplayName": "DR Ultra",
+     "DisplayCategory": "Fakta",
+     "TargetAudience": "OlderKidsAndAdults",
+     "RatingSegment": "Ultra",
+     "PrimaryContentUniverse": "Ultra",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anna Olympia",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "TitleExtraDetails": "DR Ultra | 1 SÆSON",
+     "PathIdSegment": "anna-olympia_384589",
+     "ContentUniverses": [
+      "drtv",
+      "ultra"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:2282701631000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "384589",
+    "type": "show",
+    "shortDescription": "Anna Olympia er 12 år gammel og drømmer om at blive influencer.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anna Olympia",
+    "vodItemWatchPath": "",
+    "path": "/serie/anna-olympia_384589"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='23990'&Width=1920&Height=1080&ImageId='4376043'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='23990'&Width=1920&Height=1080&ImageId='4376032'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='23990'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "23990"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "23990"
+    ],
+    "categories": [
+     "kultur",
+     "rejse",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Kultur,Rejse,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Kultur,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders i Brexitland",
+     "ExtraDetails": "Kultur | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "anne-og-anders-i-brexitland_23990",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1885800888000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "23990",
+    "type": "show",
+    "shortDescription": "I fire programmer rejser tv-journalisten Anders Agger og tv-kokken Anne Hjernøe ud til det Storbritannien, de færreste af os kender.\nHer besøger de en række dansk/britiske familier i Wales, England, Nordirland og Skotland for at blive klogere på, hvorfor ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anne og Anders i Brexitland",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-i-brexitland_23990"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='396764'&Width=1920&Height=1080&ImageId='47628143'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='396764'&Width=1920&Height=1080&ImageId='47628153'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='396764'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "396764"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "396764"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "rejse",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders i Canada",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "anne-og-anders-i-canada_396764",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4707855425000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "396764",
+    "type": "show",
+    "shortDescription": "Anne og Anders rejser fra British Columbia i vest til Nova Scotia i øst. De prøver at forstå det enorme, multikulturelle land og møder nogle af de 200.000 danskere og deres efterkommere, der har været med til at forme landet.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anne og Anders i Canada",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-i-canada_396764"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='321644'&Width=1920&Height=1080&ImageId='41508946'",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='321644'&Width=1920&Height=1080&ImageId='17824367'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='321644'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "321644"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "321644"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "rejse",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders i Europa",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "ShortVideoUrl": "https://drod22c.akamaized.net/all/clear/none/67/62e78666ac5a612a3c4c4667/62e7865c61e1b20d98dafb30/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "anne-og-anders-i-europa_321644",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3625809885000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "321644",
+    "type": "show",
+    "shortDescription": "Duoen Anne Hjernøe og Anders Agger tager på eventyrlig rejse til Europas kanter.",
+    "contextualTitle": "",
+    "sports": [],
+    "tagline": "Episode 6:6 | Smukke sange og sikkerhedspolitik i den tidligere Sovjetstat",
+    "themes": [],
+    "title": "Anne og Anders i Europa",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-i-europa_321644"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='123493'&Width=1920&Height=1080&ImageId='4142630'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='123493'&Width=1920&Height=1080&ImageId='50011153'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='123493'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "123493"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "123493"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "rejse",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders i Mellemøsten",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "anne-og-anders-i-mellemoesten_123493",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1991836713000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "123493",
+    "type": "show",
+    "shortDescription": "Vi er vokset op med Mellemøsten som et blodigt brændpunkt. Men måske har vi glemt, at området er så uendelig meget mere end kaos og konflikter. \nI fire udsendelser forsøger Anne og Anders at rejse væk fra fronterne og fordommene og ind i nuancerne af et a",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anne og Anders i Mellemøsten",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-i-mellemoesten_123493"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='275568'&Width=1920&Height=1080&ImageId='13998512'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='275568'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='275568'&Width=1920&Height=1080&ImageId='50011200'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "275568"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "275568"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "rejse",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders i Norden",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "anne-og-anders-i-norden_275568",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3202232393000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "275568",
+    "type": "show",
+    "shortDescription": "Findes der en fælles nordisk følelse? Det har makkerparret Anne Hjernøe og Anders Agger sat sig for at undersøge, og derfor tager de på rundtur i den gamle nordiske union.",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anne og Anders i Norden",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-i-norden_275568"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='24045'&Width=1920&Height=1080&ImageId='4376632'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='24045'&Width=1920&Height=1080&ImageId='50011270'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='24045'&Width=1440&Height=2160&ImageId='16099618'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "24045"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "24045"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "rejse",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders i USA",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "anne-og-anders-i-usa_24045",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1912635413000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "24045",
+    "type": "show",
+    "shortDescription": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe besøger fire dansk/amerikanske familier i fire vidt forskellige stater: Arizona, South Carolina, Montana og Michigan. Familierne fortæller om deres vej til USA, og Anne og Anders går på opdagelse i st",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anne og Anders i USA",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-i-usa_24045"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18852'&Width=1920&Height=1080&ImageId='4376697'",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='18852'&Width=1440&Height=2160&ImageId='16099618'",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='18852'&Width=1920&Height=1080&ImageId='50011273'"
+    },
+    "availableSeasonCount": 1,
+    "offers": [
+     {
+      "deliveryType": "None",
+      "scopes": [
+       "18852"
+      ],
+      "resolution": "Unknown",
+      "availability": "Available",
+      "ownership": "Free",
+      "price": 0
+     }
+    ],
+    "scopes": [
+     "18852"
+    ],
+    "categories": [
+     "livsstil",
+     "mad",
+     "rejse",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "channelPath": "",
+    "customFields": {
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Anne og Anders på sommerferie",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "anne-og-anders-paa-sommerferie_18852",
+     "ContentUniverses": [
+      "drtv"
+     ]
+    },
+    "customId": "urn:dr:ocs:tv:content:series:1902888189000",
+    "genres": [
+     "ukendt"
+    ],
+    "id": "18852",
+    "type": "show",
+    "shortDescription": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe tager på roadtrip for at finde hjem til den håndholdte sommerferie i Danmark. De har lånt et gammelt folkevognsrugbrød med en topfart på 90 og triller landet rundt fra Skagen til Sydfyn. Med indlagte ",
+    "contextualTitle": "",
+    "sports": [],
+    "themes": [],
+    "title": "Anne og Anders på sommerferie",
+    "vodItemWatchPath": "",
+    "path": "/serie/anne-og-anders-paa-sommerferie_18852"
+   }
+  ],
+  "size": 102,
+  "paging": {
+   "total": 5,
+   "page": 3,
+   "size": 24,
+   "previous": "/lists/348?page_size=24&param=TitleGroupKey%3Aa&lang=da&page=2&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "next": "/lists/348?page_size=24&param=TitleGroupKey%3Aa&lang=da&page=4&segments=DRTV%2Cminisjang%2Cramasjang%2Cultra&isDeviceAbroad=false&isLive2VodSupported=true",
+   "options": {
+    "pageSize": 24
+   }
+  }
+ }
+}

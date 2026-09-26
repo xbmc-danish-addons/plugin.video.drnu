@@ -1,0 +1,105 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353480'&Width=1920&Height=1080&ImageId='43297142'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353480'&Width=1440&Height=2160&ImageId='43297152'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='353480'&Width=1920&Height=1080&ImageId='48547019'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1582,
+  "releaseYear": 2009,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-11-30T22:59:00Z",
+    "scopes": [
+     "353480"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6DAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-28T08:09:36Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-11-30T22:59:00Z",
+    "scopes": [
+     "353480"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EOGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-12-28T08:09:36Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "353480"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "STORBRITANNIEN",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Grøflingen",
+   "ExtraDetails": "Film | 26M",
+   "TitleExtraDetails": "DR Ramasjang | 26M",
+   "ShortVideoUrl": "https://drod23f.akamaized.net/all/clear/none/97/5fdfdfd9539f0215e004da97/5fdfdf28539f0215e004da95/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "groeflingen_353480",
+   "BroadcastTimeDK": "2022-12-28T09:10:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00850930650",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "353480",
+  "type": "program",
+  "description": "Trods Grøffeldyrets advarsler beslutter hans datter Grøflingen sig for at snige sig ud i skoven for at finde den store, stygge mus, som hendes far har fortalt alle de uhyggelige historier om. Men da hun endelig finder ham, synes hun mest, han ligner aftensmad. Og så er gode råd dyre for den snedige mus. Udløber: 30. nov 2024",
+  "shortDescription": "Trods Grøffeldyrets advarsler beslutter hans datter Grøflingen sig for at snige sig ud i skoven for at finde den store, stygge mus, som hendes far har fortalt alle de uhyggelige historier om. Men da hun endelig finder ham, synes hun mest, han ligner aften",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Et eventyr til dig",
+  "themes": [],
+  "title": "Grøflingen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/groeflingen_353480",
+  "watchPath": "/se/groeflingen_353480",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

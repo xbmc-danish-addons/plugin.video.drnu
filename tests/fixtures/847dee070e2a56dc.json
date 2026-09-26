@@ -1,0 +1,977 @@
+{
+ "status": 200,
+ "json": {
+  "id": "402866",
+  "title": "[TA] DRTV Største programmer Saturday",
+  "description": "",
+  "shortDescription": "",
+  "path": "/liste/ta-drtv-stoerste-programmer-saturday_402866",
+  "itemTypes": [
+   "show",
+   "season",
+   "program"
+  ],
+  "items": [
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51115939'&EntityType='Item'&EntityId='419740'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51153516'&EntityType='Item'&EntityId='419740'&Width=1440&Height=2160",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51153604'&EntityType='Item'&EntityId='419740'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "419740"
+    ],
+    "categories": [
+     "dokumentar",
+     "kultur",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Kultur,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Dokumentar,Kultur",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Store danske kunstnere",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR2 | 1 SÆSON",
+     "PathIdSegment": "store-danske-kunstnere_419740",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4322310138000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "419740",
+    "type": "show",
+    "shortDescription": "Med deres skulpturer og malerier formede de det Danmark, vi kender i dag. Det krævede kampe mod egne dæmoner, normer og kønsroller. Oplev kunstnerne Bertel Thorvaldsen, Anne Marie Carl-Nielsen, Johan Thomas Lundbye og Elisabeth Jerichau Baumann i denne dr",
+    "contextualTitle": "",
+    "title": "Store danske kunstnere",
+    "path": "/serie/store-danske-kunstnere_419740",
+    "themes": []
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50847377'&EntityType='Item'&EntityId='422575'&Width=1920&Height=1080",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50847379'&EntityType='Item'&EntityId='422575'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='422575'&Width=1440&Height=2160"
+    },
+    "offers": [],
+    "scopes": [
+     "422575"
+    ],
+    "categories": [
+     "livsstil",
+     "underholdning",
+     "hus og have",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Livsstil,Underholdning,Hus og have,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Underholdning,Hus og have",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "IsGeoRestricted": "False",
+     "PresentationTypeCode": "Ongoing",
+     "IsSeasonDRMPlayoutRequired": "False",
+     "PageTitle": "I hus til halsen: Sæson 12",
+     "ExtraDetails": "Livsstil | SÆSON 12",
+     "ShortVideoUrl": "https://drod20k.akamaized.net/all/clear/none/74/6584b258d2a97a20f80e9974/6584b25752b17d0dcc44f703/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "i-hus-til-halsen_422575",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:season:4517756423000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "422575",
+    "type": "season",
+    "shortDescription": "Programmets eksperter får til opgave at hjælpe familier ud af meget klemte situationer, hvor et hussalg nærmest virker utopisk. Eksperterne skal nu gøre alt hvad de kan, så familierne forhåbentlig få deres hus solgt og kan komme videre i livet.",
+    "contextualTitle": "",
+    "title": "I hus til halsen",
+    "path": "/saeson/i-hus-til-halsen_422575",
+    "releaseYear": 2024,
+    "episodeCount": 8,
+    "seasonNumber": 12,
+    "showId": "7379",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "themes": [],
+    "tagline": "Eksperterne vender tilbage for at forvandle usælgelige huse"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51291063'&EntityType='Item'&EntityId='434279'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51252830'&EntityType='Item'&EntityId='434279'&Width=1440&Height=2160",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51291065'&EntityType='Item'&EntityId='434279'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "434279"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr1",
+     "acc_spoken_subtitles",
+     "acc_sign_language"
+    ],
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Det store adoptionstyveri",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "det-store-adoptionstyveri_434279",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3911568727000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "434279",
+    "type": "show",
+    "shortDescription": "David Kildendal bliver adopteret fra Indien til Lolland i 1979, og da han begynder at undersøge sin sag, dukker chokerende hemmeligheder op. Hans efterforskning fører ham på sporet af en meget større historie, hvor indiske forældre systematisk blev franar",
+    "contextualTitle": "",
+    "title": "Det store adoptionstyveri",
+    "path": "/serie/det-store-adoptionstyveri_434279",
+    "themes": []
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50847920'&EntityType='Item'&EntityId='419258'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='419258'&Width=1440&Height=2160",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50847922'&EntityType='Item'&EntityId='419258'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "419258"
+    ],
+    "categories": [
+     "livsstil",
+     "reality",
+     "p3",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Livsstil,Reality,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Livsstil,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alle elsker Sinan",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "PathIdSegment": "alle-elsker-sinan_419258",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4551807113000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "419258",
+    "type": "show",
+    "shortDescription": "Flamboyant, provokerende, irriterende. Sinan er nogle gange lidt for meget - synes hans familie. Men selvom mor Ceylan har svært ved at acceptere alt fra hans croptops, hans venner og (især) hans seksualitet, elsker hun alligevel sin \"lille diamant\" overa",
+    "contextualTitle": "",
+    "title": "Alle elsker Sinan",
+    "path": "/serie/alle-elsker-sinan_419258",
+    "themes": []
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50860668'&EntityType='Item'&EntityId='419253'&Width=1920&Height=1080",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50860670'&EntityType='Item'&EntityId='419253'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='419253'&Width=1440&Height=2160"
+    },
+    "offers": [],
+    "scopes": [
+     "419253"
+    ],
+    "categories": [
+     "underholdning",
+     "reality",
+     "p3",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Underholdning,Reality,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Underholdning,Reality",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Camma bliver kendt",
+     "ExtraDetails": "Underholdning | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "PathIdSegment": "camma-bliver-kendt_419253",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4551831878000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "419253",
+    "type": "show",
+    "shortDescription": "Camma VIL være kendt! Og hun er villig til at tage alle metoder i brug for at blive en celebrity med hundredtusindvis af følgere. Derfor teamer Camma op med sanger Barbara Moleko, realitystjernen Sy Lee og Boris fra Bachelorette. Hun får en kendt fake kær",
+    "contextualTitle": "",
+    "title": "Camma bliver kendt",
+    "path": "/serie/camma-bliver-kendt_419253",
+    "themes": []
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50848581'&EntityType='Item'&EntityId='422583'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='422583'&Width=1440&Height=2160",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50848583'&EntityType='Item'&EntityId='422583'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "422583"
+    ],
+    "categories": [
+     "underholdning",
+     "dr1",
+     "acc_spoken_subtitles",
+     "acc_audio_description"
+    ],
+    "customFields": {
+     "OwnedCategory": "Underholdning,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Underholdning",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "IsGeoRestricted": "False",
+     "PresentationTypeCode": "Ongoing",
+     "IsSeasonDRMPlayoutRequired": "False",
+     "PageTitle": "I hjernen på stjernen: Sæson 3",
+     "ExtraDetails": "Underholdning | SÆSON 3",
+     "ShortVideoUrl": "https://drod22s.akamaized.net/all/clear/none/36/658dea080ddbab3b90aaaf36/658dea0724921515d86cf2fc/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "i-hjernen-paa-stjernen_422583",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:season:4664544241000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "422583",
+    "type": "season",
+    "shortDescription": "I denne programrække vil psykologisk manipulator Jan Hellesøe og psykolog og vært Josefine Høgh portrættere fem kendte danskere for seeren. I disse fem programmer vil Høgh og Hellesøe give hovedpersonen stof til eftertanke gennem spektakulære iscenesættel",
+    "contextualTitle": "",
+    "title": "I hjernen på stjernen",
+    "path": "/saeson/i-hjernen-paa-stjernen_422583",
+    "releaseYear": 2023,
+    "episodeCount": 5,
+    "seasonNumber": 3,
+    "showId": "313119",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "themes": [],
+    "tagline": "Hele serien | Josefine og Jan møder bl.a. Ghita Nørby og Sofie Linde"
+   },
+   {
+    "images": {
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50776494'&EntityType='Item'&EntityId='422594'&Width=1440&Height=2160",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50776546'&EntityType='Item'&EntityId='422594'&Width=1920&Height=1080",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50776488'&EntityType='Item'&EntityId='422594'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "422594"
+    ],
+    "categories": [
+     "dokumentar",
+     "krop og sundhed",
+     "dr1",
+     "acc_spoken_subtitles",
+     "acc_sign_language"
+    ],
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Krop og sundhed,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Dokumentar,Krop og sundhed",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-07",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Din krop indefra",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "din-krop-indefra_422594",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4517410578000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "422594",
+    "type": "show",
+    "shortDescription": "I denne serie får danskere med alvorlige diagnoser en konsultation, som de aldrig har prøvet før. Med hjælp af banebrydende teknologi viser nogle af Danmarks dygtigste læger, hvordan kroppen bliver påvirket af sygdommen. Og de forklarer patienterne, hvilk",
+    "contextualTitle": "",
+    "title": "Din krop indefra",
+    "path": "/serie/din-krop-indefra_422594",
+    "themes": []
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50419933'&EntityType='Item'&EntityId='411303'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50419948'&EntityType='Item'&EntityId='411303'&Width=1440&Height=2160",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50419939'&EntityType='Item'&EntityId='411303'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "411303"
+    ],
+    "categories": [
+     "fiktionsserie",
+     "drtv",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Fiktionsserie,DRTV",
+     "BrandingChannelDisplayName": "DRTV",
+     "DisplayCategory": "Fiktionsserie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "IsGeoRestricted": "True",
+     "PresentationTypeCode": "Ongoing",
+     "IsSeasonDRMPlayoutRequired": "True",
+     "PageTitle": "World on Fire: Sæson 2",
+     "ExtraDetails": "Fiktionsserie | SÆSON 2",
+     "BrandingChannelShort": "DR1",
+     "ShortVideoUrl": "https://drod24f.akamaized.net/all/clear/none/20/65645efea78e511928950420/65645efc48b64109646c3a65/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "world-on-fire_411303",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:season:4290848860000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "411303",
+    "type": "season",
+    "shortDescription": "Den stort anlagte BBC-dramaserie 'World on Fire' fortæller historien om 2. verdenskrig som oplevet af en række helt almindelige mennesker.",
+    "contextualTitle": "",
+    "title": "World on Fire",
+    "path": "/saeson/world-on-fire_411303",
+    "releaseYear": 2023,
+    "episodeCount": 6,
+    "seasonNumber": 2,
+    "showId": "393744",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "themes": [],
+    "tagline": "Hele serien | I stormens øje – britisk dramaserie om 2. verdenskrig"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50556106'&EntityType='Item'&EntityId='424417'&Width=1920&Height=1080",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50556110'&EntityType='Item'&EntityId='424417'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50556108'&EntityType='Item'&EntityId='424417'&Width=2000&Height=3000"
+    },
+    "offers": [],
+    "scopes": [
+     "424417"
+    ],
+    "categories": [
+     "fiktionsserie",
+     "dr1",
+     "acc_spoken_subtitles",
+     "acc_audio_description"
+    ],
+    "customFields": {
+     "OwnedCategory": "Fiktionsserie,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Fiktionsserie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PresentationTypeCode": "Show",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Bag enhver mand",
+     "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+     "TitleExtraDetails": "DR1 | 1 SÆSON",
+     "PathIdSegment": "bag-enhver-mand_424417",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:series:3373764778000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "424417",
+    "type": "show",
+    "shortDescription": "En komediedramaserie om køn, magt og forandring. Af og med Julie Rudbæk og Jesper Zuschlag.",
+    "contextualTitle": "",
+    "title": "Bag enhver mand",
+    "path": "/serie/bag-enhver-mand_424417",
+    "themes": []
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51138086'&EntityType='Item'&EntityId='419460'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51138088'&EntityType='Item'&EntityId='419460'&Width=1440&Height=2160",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51138075'&EntityType='Item'&EntityId='419460'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "419460"
+    ],
+    "categories": [
+     "fiktionsserie",
+     "drtv",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Fiktionsserie,DRTV",
+     "BrandingChannelShort": "DRT",
+     "BrandingChannelDisplayName": "DRTV",
+     "DisplayCategory": "Fiktionsserie",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "True",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Alice og Jack",
+     "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+     "TitleExtraDetails": "DRTV | 1 SÆSON",
+     "PathIdSegment": "alice-og-jack_419460",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4976626943000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "419460",
+    "type": "show",
+    "shortDescription": "Da Alice og Jack mødes, knytter de et stærkt bånd. Men vil de opleve lykke og samhørighed? Eller vil livet stille sig i vejen? Britisk romantisk dramaserie med Andrea Riseborough og Domhnall Gleeson.",
+    "contextualTitle": "",
+    "title": "Alice og Jack",
+    "path": "/serie/alice-og-jack_419460",
+    "themes": []
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50860688'&EntityType='Item'&EntityId='426234'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='426234'&Width=1440&Height=2160",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51050590'&EntityType='Item'&EntityId='426234'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "426234"
+    ],
+    "categories": [
+     "livsstil",
+     "kultur",
+     "underholdning",
+     "dr1"
+    ],
+    "customFields": {
+     "OwnedCategory": "Livsstil,Kultur,Underholdning,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Kultur,Underholdning",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "IsGeoRestricted": "False",
+     "PresentationTypeCode": "Ongoing",
+     "IsSeasonDRMPlayoutRequired": "False",
+     "PageTitle": "Danmarks bedste portrætmaler: Sæson 5",
+     "ExtraDetails": "Livsstil | SÆSON 5",
+     "ShortVideoUrl": "https://drod22r.akamaized.net/all/clear/none/fd/658de4ac4262312cf412bafd/658de4aa52b17d0dcc44f74f/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "danmarks-bedste-portraetmaler_426234",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:season:4672985184000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "426234",
+    "type": "season",
+    "shortDescription": "Igennem seks programmer skal otte talentfulde kunstnere dyste om at blive Danmarks bedste portrætmaler. Tre erfarne dommere vælger hver uge hvem, der har malet 'Dagens bedste portræt', og hvem, der skal forlade konkurrencen - for kun tre går hele vejen ti",
+    "contextualTitle": "",
+    "title": "Danmarks bedste portrætmaler",
+    "path": "/saeson/danmarks-bedste-portraetmaler_426234",
+    "releaseYear": 2023,
+    "episodeCount": 6,
+    "seasonNumber": 5,
+    "showId": "261000",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "themes": [],
+    "tagline": "Otte nye talentfulde kunstnere skal male kendte danskere"
+   },
+   {
+    "images": {
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50944317'&EntityType='Item'&EntityId='424451'&Width=1920&Height=1080",
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50944296'&EntityType='Item'&EntityId='424451'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='424451'&Width=1440&Height=2160"
+    },
+    "offers": [],
+    "scopes": [
+     "424451"
+    ],
+    "categories": [
+     "livsstil",
+     "underholdning",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Livsstil,Underholdning,DR1",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "DisplayCategory": "Livsstil,Underholdning",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "IsGeoRestricted": "False",
+     "PresentationTypeCode": "CurrentAffairs",
+     "IsSeasonDRMPlayoutRequired": "False",
+     "PageTitle": "Løvens Hule: Sæson 9",
+     "ExtraDetails": "Livsstil | SÆSON 9",
+     "ShortVideoUrl": "https://drod20d.akamaized.net/all/clear/none/0f/6593cb5ed2912a2564870b0f/6593cb5dced5da1b405eb4f1/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "loevens-hule_424451",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:season:4664569143000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "424451",
+    "type": "season",
+    "shortDescription": "Fem investorer sidder igen klar i Løvens Hule, denne gang med to nye løver. De byder velkommen til et væld af nye modige iværksættere, som pitcher deres forretningsideer i håb om at lande en investering",
+    "contextualTitle": "",
+    "title": "Løvens Hule",
+    "path": "/saeson/loevens-hule_424451",
+    "releaseYear": 2023,
+    "episodeCount": 9,
+    "seasonNumber": 9,
+    "showId": "69856",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "themes": [],
+    "tagline": "Nye løver og iværksættere - hvem kan sikre sig en investering?"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50568608'&EntityType='Item'&EntityId='421732'&Width=1920&Height=1080",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50568605'&EntityType='Item'&EntityId='421732'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='421732'&Width=1440&Height=2160"
+    },
+    "offers": [],
+    "scopes": [
+     "421732"
+    ],
+    "categories": [
+     "humor/satire",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Humor/satire,DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Humor/satire",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "IsGeoRestricted": "False",
+     "PresentationTypeCode": "Ongoing",
+     "IsSeasonDRMPlayoutRequired": "False",
+     "PageTitle": "Signe Molde på udebane: Sæson 3",
+     "ExtraDetails": "Humor/satire | SÆSON 3",
+     "BrandingChannelShort": "DR2",
+     "ShortVideoUrl": "https://drod22o.akamaized.net/all/clear/none/e0/65705ad8bbc88a2ed07819e0/65705ad6f567c40408c4ce34/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "signe-molde-paa-udebane_421732",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:season:3967615149000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "421732",
+    "type": "season",
+    "shortDescription": "Signe Molde møder med humor og nysgerrighed danskere med kontroversielle holdninger - fra mænd der savner ligestilling, og ulvehadere der vil gå meget langt for at slippe af med ulven, til en gruppe der bare gerne vil køre stærkt uden at kaldes for \"vanvi",
+    "contextualTitle": "",
+    "title": "Signe Molde på udebane",
+    "path": "/saeson/signe-molde-paa-udebane_421732",
+    "releaseYear": 2022,
+    "episodeCount": 6,
+    "seasonNumber": 3,
+    "showId": "220756",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "themes": [],
+    "tagline": "Tv-værten er tilbage med nye seriøse og nysgerrige spørgsmål"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51340173'&EntityType='Item'&EntityId='431291'&Width=1920&Height=1080",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51340196'&EntityType='Item'&EntityId='431291'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='431291'&Width=1440&Height=2160"
+    },
+    "offers": [],
+    "scopes": [
+     "431291"
+    ],
+    "categories": [
+     "nyheder og aktualitet",
+     "underholdning",
+     "humor/satire",
+     "dr2"
+    ],
+    "customFields": {
+     "OwnedCategory": "Nyheder og Aktualitet,Underholdning,Humor/satire,DR2",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "DisplayCategory": "Nyheder og Aktualitet,Underholdning,Humor/satire",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-EXCEPT",
+     "IsGeoRestricted": "False",
+     "PresentationTypeCode": "CurrentAffairs",
+     "IsSeasonDRMPlayoutRequired": "False",
+     "PageTitle": "Tæt på sandheden med Jonatan Spang: Sæson 12",
+     "ExtraDetails": "Nyheder og Aktualitet | SÆSON 12",
+     "PathIdSegment": "taet-paa-sandheden-med-jonatan-spang_431291",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:season:4712471732000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "431291",
+    "type": "season",
+    "shortDescription": "Comedyshow, hvor ugens nyheder og tidsaktuelle tendenser tages under kærlig, men bestemt behandling af Jonatan Spang.",
+    "contextualTitle": "",
+    "title": "Tæt på sandheden med Jonatan Spang",
+    "path": "/saeson/taet-paa-sandheden-med-jonatan-spang_431291",
+    "releaseYear": 2024,
+    "episodeCount": 30,
+    "seasonNumber": 12,
+    "showId": "6569",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "themes": []
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51416230'&EntityType='Item'&EntityId='437154'&Width=1920&Height=1080",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51416232'&EntityType='Item'&EntityId='437154'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16099618'&EntityType='Item'&EntityId='437154'&Width=1440&Height=2160"
+    },
+    "offers": [],
+    "scopes": [
+     "437154"
+    ],
+    "categories": [
+     "kultur",
+     "underholdning",
+     "musik",
+     "dr1",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Kultur,Underholdning,Musik,DR1,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Kultur,Underholdning,Musik",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-ALL",
+     "PageTitle": "De udvalgte - Dansk Melodi Grand Prix 2024",
+     "ExtraDetails": "Kultur | 58M",
+     "TitleExtraDetails": "DR1 | 58M",
+     "ShortVideoUrl": "https://drod22h.akamaized.net/all/clear/none/f7/65c5bdcce264ef09a8a3fcf7/65c5bdca470c650dbca63413/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00252406010",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "437154",
+    "type": "program",
+    "shortDescription": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøv",
+    "contextualTitle": "",
+    "title": "De udvalgte - Dansk Melodi Grand Prix 2024",
+    "path": "/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+    "duration": 3501,
+    "releaseYear": 2023,
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "watchPath": "/se/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+    "themes": [],
+    "tagline": "Kom med bag kulisserne til dette års store Grand Prix-show"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51375974'&EntityType='Item'&EntityId='433819'&Width=3976&Height=2362",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51375976'&EntityType='Item'&EntityId='433819'&Width=2000&Height=3000",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51375978'&EntityType='Item'&EntityId='433819'&Width=3976&Height=2362"
+    },
+    "offers": [],
+    "scopes": [
+     "433819"
+    ],
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "acc_spoken_subtitles"
+    ],
+    "customFields": {
+     "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "BrandingChannelShort": "DR2",
+     "BrandingChannelDisplayName": "DR2",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PageTitle": "Fanget på havets bund",
+     "ExtraDetails": "Dokumentar | 58M",
+     "TitleExtraDetails": "DR2 | 58M",
+     "ShortVideoUrl": "https://drod21n.akamaized.net/all/clear/none/17/65c374a95d0e0d1680729f17/65c374a786cd6704581fad39/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "fanget-paa-havets-bund_433819",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00922317650",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "433819",
+    "type": "program",
+    "shortDescription": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i ",
+    "contextualTitle": "",
+    "title": "Fanget på havets bund",
+    "path": "/program/fanget-paa-havets-bund_433819",
+    "duration": 3506,
+    "releaseYear": 2023,
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "watchPath": "/se/fanget-paa-havets-bund_433819",
+    "themes": [],
+    "tagline": "Skibskokken Harrison fanges i et vrag på 34 meters dybde"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51300378'&EntityType='Item'&EntityId='433982'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51300380'&EntityType='Item'&EntityId='433982'&Width=2000&Height=3000",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='51300382'&EntityType='Item'&EntityId='433982'&Width=1920&Height=1080"
+    },
+    "offers": [],
+    "scopes": [
+     "433982"
+    ],
+    "categories": [
+     "dokumentar",
+     "krimi",
+     "dr1"
+    ],
+    "customFields": {
+     "OwnedCategory": "Dokumentar,Krimi,DR1",
+     "AccessServicesOffered": "StandardVideo",
+     "BrandingChannelShort": "DR1",
+     "BrandingChannelDisplayName": "DR1",
+     "ProductionCountry": "DANMARK",
+     "DisplayCategory": "Dokumentar,Krimi",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-11",
+     "PageTitle": "De mistænkte",
+     "ExtraDetails": "Dokumentar | 45M",
+     "TitleExtraDetails": "DR1 | 45M",
+     "ShortVideoUrl": "https://drod22k.akamaized.net/all/clear/none/43/65b201f81030de0830b87843/65b201f743298505f810d5c0/stream_fmp4/master_manifest.m3u8",
+     "PathIdSegment": "de-mistaenkte_433982",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:playable:00242310010",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "433982",
+    "type": "program",
+    "shortDescription": "Pludselig bliver du anholdt. Mistænkt for svindel eller for at være i ledtog med narkokriminelle. Du siger, du er uskyldig. Men du sættes flere måneder i fængsel - varetægtsfængsel. To helt almindelige danskere sidder fængslet, mens deres sag undersøges a",
+    "contextualTitle": "",
+    "title": "De mistænkte",
+    "path": "/program/de-mistaenkte_433982",
+    "duration": 2676,
+    "releaseYear": 2023,
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "watchPath": "/se/de-mistaenkte_433982",
+    "themes": [],
+    "tagline": "Varetægtsfængsling rammer uskyldige mennesker og deres børn hårdt"
+   },
+   {
+    "images": {
+     "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50837126'&EntityType='Item'&EntityId='416406'&Width=1920&Height=1080",
+     "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50837120'&EntityType='Item'&EntityId='416406'&Width=1920&Height=1080",
+     "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='50837133'&EntityType='Item'&EntityId='416406'&Width=1440&Height=2160"
+    },
+    "offers": [],
+    "scopes": [
+     "416406"
+    ],
+    "categories": [
+     "dokumentar",
+     "p3"
+    ],
+    "customFields": {
+     "OwnedCategory": "Dokumentar,P3",
+     "BrandingChannelShort": "TP3",
+     "BrandingChannelDisplayName": "P3",
+     "DisplayCategory": "Dokumentar",
+     "TargetAudience": "Adults",
+     "RatingSegment": "DRTV",
+     "PrimaryContentUniverse": "DRTV",
+     "ClassificationRating": "MRAM-15",
+     "PresentationTypeCode": "Ongoing",
+     "IsGeoRestricted": "False",
+     "IsSeriesDRMPlayoutRequired": "False",
+     "PageTitle": "Forelsket i en løgn",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "TitleExtraDetails": "P3 | 1 SÆSON",
+     "PathIdSegment": "forelsket-i-en-loegn_416406",
+     "IsPostProcessed": true
+    },
+    "customId": "urn:dr:ocs:tv:content:series:4709785748000",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "id": "416406",
+    "type": "show",
+    "shortDescription": "Camilla troede, hun forelskede sig i den perfekte fyr. Men det viser sig, at han er alt andet end det. Historier om gæld til rockere, farlige forbindelser og kidnapning dukker op midt i Camillas stormende forelskelse. Og inden for ganske kort tid ser hun ",
+    "contextualTitle": "",
+    "title": "Forelsket i en løgn",
+    "path": "/serie/forelsket-i-en-loegn_416406",
+    "themes": []
+   }
+  ],
+  "size": 18,
+  "paging": {
+   "size": 18,
+   "total": 1,
+   "page": 1
+  },
+  "customFields": {
+   "UsecaseId": "DRTV/production/FL_7/Forside/FL_52-De-stoerste-programmer-lige-nu/Lørdag",
+   "PathIdSegment": "ta-drtv-stoerste-programmer-saturday_402866",
+   "ColdStartLists": [
+    {
+     "CustomIds": [],
+     "SegmentationTag": "DRTV",
+     "UpdateDateTime": "2023-08-03T01:01:00.2758854+00:00"
+    },
+    {
+     "CustomIds": [],
+     "SegmentationTag": "Ramasjang",
+     "UpdateDateTime": "2023-08-03T01:01:00.2888954+00:00"
+    },
+    {
+     "CustomIds": [],
+     "SegmentationTag": "Ultra",
+     "UpdateDateTime": "2023-08-03T01:01:00.297937+00:00"
+    },
+    {
+     "CustomIds": [],
+     "SegmentationTag": "Minisjang",
+     "UpdateDateTime": "2023-08-03T01:01:00.3059692+00:00"
+    }
+   ],
+   "UseCaseVariantId": "drtv/production/fl_7/forside/fl_52-de-stoerste-programmer-lige-nu/lørdag_variant_2"
+  }
+ }
+}

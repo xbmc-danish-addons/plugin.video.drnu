@@ -1,0 +1,81 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391778'&Width=1920&Height=1080&ImageId='47132692'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391778'&Width=1920&Height=1080&ImageId='47132696'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='391778'&Width=1440&Height=2160&ImageId='47132694'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 1,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2025-10-30T22:59:00Z",
+    "scopes": [
+     "391778"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EVB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2023-06-29T04:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "391778"
+  ],
+  "categories": [
+   "livsstil",
+   "krop og sundhed",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Krop og sundhed,DR1",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "DisplayCategory": "Livsstil,Krop og sundhed",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Anna Lin har det fint",
+   "ExtraDetails": "Livsstil | 1 SÆSON",
+   "TitleExtraDetails": "DR1 | 1 SÆSON",
+   "ShortVideoUrl": "https://drod20s.akamaized.net/all/clear/none/e1/649a76426a3bbd395834eae1/649a762e74c61b28d4739b2f/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "anna-lin-har-det-fint_391778",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:3993235844000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "391778",
+  "type": "show",
+  "description": "Anna Lin har aldrig fortalt nogen, hvordan hun egentligt har det. På overfladen lever hun et succesfuldt liv som TV-vært med masser af venner og en fuld kalender. Men indadtil kæmper Anna med følelser af angst og ensomhed. Derfor starter hun i terapi for første gang i sit liv. Målet er til sidst at konfrontere sine nærmeste venner og fortælle dem, hvordan hun egentlig har det.",
+  "shortDescription": "Anna Lin har aldrig fortalt nogen, hvordan hun egentligt har det. På overfladen lever hun et succesfuldt liv som TV-vært med masser af venner og en fuld kalender. Men indadtil kæmper Anna med følelser af angst og ensomhed. Derfor starter hun i terapi for ",
+  "contextualTitle": "",
+  "sports": [],
+  "tagline": "Hele serien | Selvsikker, sjov og succesfuld – men Anna kæmper også med angst",
+  "themes": [],
+  "title": "Anna Lin har det fint",
+  "vodItemWatchPath": "",
+  "path": "/serie/anna-lin-har-det-fint_391778",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

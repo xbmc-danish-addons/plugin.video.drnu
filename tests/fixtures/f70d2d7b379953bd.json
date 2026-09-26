@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438476'&Width=1920&Height=1080&ImageId='51493048'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438476'&Width=1440&Height=2160&ImageId='51493050'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='438476'&Width=1920&Height=1080&ImageId='51493052'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5256,
+  "releaseYear": 2021,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-03-30T22:59:00Z",
+    "scopes": [
+     "438476"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EKEAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-01T19:06:33Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-03-30T22:59:00Z",
+    "scopes": [
+     "438476"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EZGAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-01T19:06:33Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "438476"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-07",
+   "PageTitle": "Forsvundet til Halloween",
+   "ExtraDetails": "Film | 1T 28M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 28M",
+   "PathIdSegment": "forsvundet-til-halloween_438476",
+   "BroadcastTimeDK": "2024-03-01T20:00:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00852109500",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "438476",
+  "type": "program",
+  "description": "Søskendeparret Asger og Petra skal traditionen tro holde halloween sammen med deres nabo Esther. Men dette år er alting anderledes, end det plejer. Asger og Petra har for nyligt mistet deres far, og det er nu første halloween uden ham. Udløber: 30. mar 2024",
+  "shortDescription": "Søskendeparret Asger og Petra skal traditionen tro holde halloween sammen med deres nabo Esther. Men dette år er alting anderledes, end det plejer. Asger og Petra har for nyligt mistet deres far, og det er nu første halloween uden ham. Udløber: 30. mar 20",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Forsvundet til Halloween",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/forsvundet-til-halloween_438476",
+  "watchPath": "/se/forsvundet-til-halloween_438476",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,1336 @@
+{
+ "status": 200,
+ "json": {
+  "id": "346",
+  "isStatic": false,
+  "isSystemPage": true,
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "key": "ShowDetail",
+  "path": "/serie/bluey_227278",
+  "template": "Item Detail",
+  "themes": [],
+  "title": "Bluey",
+  "entries": [
+   {
+    "id": "a4g02fm",
+    "type": "ItemEntry",
+    "template": "Item Detail Standard",
+    "title": "Bluey",
+    "item": {
+     "images": {
+      "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='378684'&Width=1920&Height=1080&ImageId='45465985'",
+      "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='378684'&Width=1440&Height=2160&ImageId='45465989'",
+      "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='378684'&Width=1920&Height=1080&ImageId='50166937'"
+     },
+     "advisoryText": "",
+     "copyright": "",
+     "credits": [],
+     "customMetadata": [],
+     "distributor": "DRTV",
+     "releaseYear": 2021,
+     "availableEpisodeCount": 12,
+     "seasonNumber": 2,
+     "showId": "227278",
+     "episodeCount": 52,
+     "offers": [
+      {
+       "deliveryType": "Stream",
+       "endDate": "2024-04-10T21:59:00Z",
+       "scopes": [
+        "378684"
+       ],
+       "exclusionRules": [],
+       "resolution": "HD-1080",
+       "id": "ID0EFD",
+       "name": "D430_Season Free HD-1080 Season Free Any User",
+       "availability": "Available",
+       "ownership": "Free",
+       "price": 0,
+       "startDate": "2024-03-16T06:22:44Z"
+      }
+     ],
+     "trailers": [],
+     "scopes": [
+      "378684"
+     ],
+     "categories": [
+      "tegnefilm",
+      "dr ramasjang"
+     ],
+     "channelPath": "",
+     "customFields": {
+      "OwnedCategory": "Tegnefilm,DR Ramasjang",
+      "BrandingChannelShort": "TVR",
+      "BrandingChannelDisplayName": "DR Ramasjang",
+      "DisplayCategory": "Tegnefilm",
+      "TargetAudience": "All",
+      "RatingSegment": "Ramasjang",
+      "PrimaryContentUniverse": "Ramasjang",
+      "ClassificationRating": "MRAM-ALL",
+      "IsGeoRestricted": "True",
+      "PresentationTypeCode": "Ongoing",
+      "IsSeasonDRMPlayoutRequired": "False",
+      "PageTitle": "Bluey: Sæson 2",
+      "ExtraDetails": "Tegnefilm | SÆSON 2",
+      "PathIdSegment": "bluey_378684",
+      "ContentUniverses": [
+       "drtv",
+       "ultra",
+       "ramasjang"
+      ]
+     },
+     "customId": "urn:dr:ocs:tv:content:season:3948630631000",
+     "genres": [
+      "ukendt"
+     ],
+     "id": "378684",
+     "type": "season",
+     "description": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+     "shortDescription": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+     "contextualTitle": "",
+     "sports": [],
+     "themes": [],
+     "title": "Bluey",
+     "vodItemWatchPath": "",
+     "classification": {
+      "code": "DR-Ramasjang",
+      "name": "Ramasjang"
+     },
+     "path": "/saeson/bluey_378684",
+     "genrePaths": [],
+     "totalUserRatings": 0,
+     "show": {
+      "images": {
+       "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227278'&Width=1920&Height=1080&ImageId='43180647'",
+       "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227278'&Width=1440&Height=2160&ImageId='43180651'",
+       "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227278'&Width=1920&Height=1080&ImageId='50166898'",
+       "square": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='227278'&Width=2048&Height=2048&ImageId='7961796'"
+      },
+      "advisoryText": "",
+      "copyright": "",
+      "credits": [],
+      "customMetadata": [],
+      "distributor": "",
+      "availableSeasonCount": 1,
+      "offers": [
+       {
+        "deliveryType": "None",
+        "endDate": "2024-05-23T21:59:00Z",
+        "scopes": [
+         "227278"
+        ],
+        "exclusionRules": [],
+        "resolution": "Unknown",
+        "id": "ID0E6B",
+        "name": "D430_Show Free  Show Free Any User",
+        "availability": "Available",
+        "ownership": "Free",
+        "price": 0,
+        "startDate": "2024-03-16T06:22:44Z"
+       }
+      ],
+      "trailers": [],
+      "scopes": [
+       "227278"
+      ],
+      "categories": [
+       "tegnefilm",
+       "dr ramasjang"
+      ],
+      "channelPath": "",
+      "customFields": {
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "DisplayCategory": "Tegnefilm",
+       "TargetAudience": "All",
+       "RatingSegment": "Ramasjang",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ClassificationRating": "MRAM-ALL",
+       "PresentationTypeCode": "Ongoing",
+       "IsGeoRestricted": "True",
+       "IsSeriesDRMPlayoutRequired": "False",
+       "PageTitle": "Bluey",
+       "ExtraDetails": "Tegnefilm | 1 SÆSON",
+       "TitleExtraDetails": "DR Ramasjang | 1 SÆSON",
+       "PathIdSegment": "bluey_227278",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ]
+      },
+      "customId": "urn:dr:ocs:tv:content:series:2801700732000",
+      "genres": [
+       "ukendt"
+      ],
+      "id": "227278",
+      "type": "show",
+      "description": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+      "shortDescription": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+      "contextualTitle": "",
+      "sports": [],
+      "themes": [],
+      "title": "Bluey",
+      "vodItemWatchPath": "",
+      "path": "/serie/bluey_227278",
+      "genrePaths": [],
+      "totalUserRatings": 0,
+      "seasons": {
+       "id": "227278-seasons",
+       "path": "",
+       "items": [
+        {
+         "images": {
+          "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='378684'&Width=1920&Height=1080&ImageId='45465985'",
+          "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='378684'&Width=1440&Height=2160&ImageId='45465989'",
+          "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='378684'&Width=1920&Height=1080&ImageId='50166937'"
+         },
+         "releaseYear": 2021,
+         "availableEpisodeCount": 12,
+         "seasonNumber": 2,
+         "showId": "227278",
+         "episodeCount": 52,
+         "offers": [
+          {
+           "deliveryType": "Stream",
+           "scopes": [
+            "378684"
+           ],
+           "resolution": "HD-1080",
+           "availability": "Available",
+           "ownership": "Free",
+           "price": 0
+          }
+         ],
+         "scopes": [
+          "378684"
+         ],
+         "categories": [
+          "tegnefilm",
+          "dr ramasjang"
+         ],
+         "channelPath": "",
+         "customFields": {
+          "OwnedCategory": "Tegnefilm,DR Ramasjang",
+          "BrandingChannelShort": "TVR",
+          "BrandingChannelDisplayName": "DR Ramasjang",
+          "DisplayCategory": "Tegnefilm",
+          "TargetAudience": "All",
+          "RatingSegment": "Ramasjang",
+          "PrimaryContentUniverse": "Ramasjang",
+          "ClassificationRating": "MRAM-ALL",
+          "IsGeoRestricted": "True",
+          "PresentationTypeCode": "Ongoing",
+          "IsSeasonDRMPlayoutRequired": "False",
+          "PageTitle": "Bluey: Sæson 2",
+          "ExtraDetails": "Tegnefilm | SÆSON 2",
+          "PathIdSegment": "bluey_378684",
+          "ContentUniverses": [
+           "drtv",
+           "ultra",
+           "ramasjang"
+          ]
+         },
+         "customId": "urn:dr:ocs:tv:content:season:3948630631000",
+         "genres": [
+          "ukendt"
+         ],
+         "id": "378684",
+         "type": "season",
+         "shortDescription": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+         "contextualTitle": "",
+         "sports": [],
+         "themes": [],
+         "title": "Bluey",
+         "vodItemWatchPath": "",
+         "classification": {
+          "code": "DR-Ramasjang",
+          "name": "Ramasjang"
+         },
+         "path": "/saeson/bluey_378684"
+        }
+       ],
+       "size": 1,
+       "paging": {
+        "total": 1,
+        "page": 1,
+        "size": 200,
+        "options": {
+         "pageSize": 200
+        }
+       }
+      },
+      "nextEpisode": {
+       "available": "28. MAR 2024 | 7:22",
+       "availableUTC": "1711606951"
+      }
+     },
+     "episodes": {
+      "id": "378684-episodes",
+      "path": "",
+      "items": [
+       {
+        "images": {
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444396'&Width=1920&Height=1080&ImageId='51884857'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444396'&Width=1440&Height=2160&ImageId='45465989'",
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444396'&Width=1920&Height=1080&ImageId='51884863'"
+        },
+        "duration": 424,
+        "releaseYear": 2021,
+        "episodeNumber": 1,
+        "episodeName": "Bluey: Dansedukke",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "444396"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "444396"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "444396",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E1 Dansedukke",
+         "ContextualTitleExtraDetails": "14. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-14T06:28:24.8400000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Dansedukke",
+         "ExtraDetails": "SÆSON 2 EPISODE 1 | 7M",
+         "PathIdSegment": "bluey_-dansedukke_444396",
+         "BroadcastTimeDK": "2024-03-19T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209550",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "444396",
+        "type": "episode",
+        "shortDescription": "Udløber: 30. mar 2024",
+        "contextualTitle": "1. Dansedukke",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Dansedukke",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-dansedukke_444396",
+        "watchPath": "/se/bluey_-dansedukke_444396"
+       },
+       {
+        "images": {
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444503'&Width=1920&Height=1080&ImageId='51895316'",
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444503'&Width=1920&Height=1080&ImageId='51895307'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444503'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 425,
+        "releaseYear": 2021,
+        "episodeNumber": 2,
+        "episodeName": "Bluey: Hammerfiks",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "444503"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "444503"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "444503",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E2 Hammerfiks",
+         "ContextualTitleExtraDetails": "15. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-15T06:27:35.8400000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Hammerfiks",
+         "ExtraDetails": "SÆSON 2 EPISODE 2 | 7M",
+         "PathIdSegment": "bluey_-hammerfiks_444503",
+         "BroadcastTimeDK": "2024-03-20T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209560",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "444503",
+        "type": "episode",
+        "shortDescription": "Udløber: 31. mar 2024",
+        "contextualTitle": "2. Hammerfiks",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Hammerfiks",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-hammerfiks_444503",
+        "watchPath": "/se/bluey_-hammerfiks_444503"
+       },
+       {
+        "images": {
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444635'&Width=1920&Height=1080&ImageId='51905270'",
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444635'&Width=1920&Height=1080&ImageId='51905276'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444635'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 425,
+        "releaseYear": 2021,
+        "episodeNumber": 3,
+        "episodeName": "Bluey: Tryllefjer",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "444635"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "444635"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "444635",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E3 Tryllefjer",
+         "ContextualTitleExtraDetails": "16. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-16T06:22:46.3600000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Tryllefjer",
+         "ExtraDetails": "SÆSON 2 EPISODE 3 | 7M",
+         "PathIdSegment": "bluey_-tryllefjer_444635",
+         "BroadcastTimeDK": "2024-03-21T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209570",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "444635",
+        "type": "episode",
+        "shortDescription": "Udløber: 1. apr 2024",
+        "contextualTitle": "3. Tryllefjer",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Tryllefjer",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-tryllefjer_444635",
+        "watchPath": "/se/bluey_-tryllefjer_444635"
+       },
+       {
+        "images": {
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444803'&Width=1920&Height=1080&ImageId='51915387'",
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444803'&Width=1920&Height=1080&ImageId='51915385'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444803'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 425,
+        "releaseYear": 2021,
+        "episodeNumber": 4,
+        "episodeName": "Bluey: Squash",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "444803"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "444803"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "444803",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E4 Squash",
+         "ContextualTitleExtraDetails": "17. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-17T06:25:05.8800000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Squash",
+         "ExtraDetails": "SÆSON 2 EPISODE 4 | 7M",
+         "PathIdSegment": "bluey_-squash_444803",
+         "BroadcastTimeDK": "2024-03-22T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209580",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "444803",
+        "type": "episode",
+        "shortDescription": "Udløber: 2. apr 2024",
+        "contextualTitle": "4. Squash",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Squash",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-squash_444803",
+        "watchPath": "/se/bluey_-squash_444803"
+       },
+       {
+        "images": {
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444964'&Width=1920&Height=1080&ImageId='51926059'",
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444964'&Width=1920&Height=1080&ImageId='51926055'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444964'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 425,
+        "releaseYear": 2021,
+        "episodeNumber": 5,
+        "episodeName": "Bluey: Frisør",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "444964"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "444964"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "444964",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E5 Frisør",
+         "ContextualTitleExtraDetails": "18. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-18T06:24:52.1200000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Frisør",
+         "ExtraDetails": "SÆSON 2 EPISODE 5 | 7M",
+         "PathIdSegment": "bluey_-frisoer_444964",
+         "BroadcastTimeDK": "2024-03-23T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209590",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "444964",
+        "type": "episode",
+        "shortDescription": "Udløber: 3. apr 2024",
+        "contextualTitle": "5. Frisør",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Frisør",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-frisoer_444964",
+        "watchPath": "/se/bluey_-frisoer_444964"
+       },
+       {
+        "images": {
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445118'&Width=1920&Height=1080&ImageId='51936761'",
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445118'&Width=1920&Height=1080&ImageId='51936759'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445118'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 424,
+        "releaseYear": 2021,
+        "episodeNumber": 6,
+        "episodeName": "Bluey: Stubfest",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "445118"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "445118"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "445118",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E6 Stubfest",
+         "ContextualTitleExtraDetails": "19. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-19T06:22:42.3600000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Stubfest",
+         "ExtraDetails": "SÆSON 2 EPISODE 6 | 7M",
+         "PathIdSegment": "bluey_-stubfest_445118",
+         "BroadcastTimeDK": "2024-03-24T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209600",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "445118",
+        "type": "episode",
+        "shortDescription": "Udløber: 4. apr 2024",
+        "contextualTitle": "6. Stubfest",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Stubfest",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-stubfest_445118",
+        "watchPath": "/se/bluey_-stubfest_445118"
+       },
+       {
+        "images": {
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445354'&Width=1920&Height=1080&ImageId='51953689'",
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445354'&Width=1920&Height=1080&ImageId='51953691'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445354'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 424,
+        "releaseYear": 2021,
+        "episodeNumber": 7,
+        "episodeName": "Bluey: Det bedste jeg ved",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "445354"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "445354"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "445354",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E7 Det bedste jeg ved",
+         "ContextualTitleExtraDetails": "20. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-20T06:23:45.4000000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Det bedste jeg ved",
+         "ExtraDetails": "SÆSON 2 EPISODE 7 | 7M",
+         "PathIdSegment": "bluey_-det-bedste-jeg-ved_445354",
+         "BroadcastTimeDK": "2024-03-25T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209610",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "445354",
+        "type": "episode",
+        "shortDescription": "Udløber: 5. apr 2024",
+        "contextualTitle": "7. Det bedste jeg ved",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Det bedste jeg ved",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-det-bedste-jeg-ved_445354",
+        "watchPath": "/se/bluey_-det-bedste-jeg-ved_445354"
+       },
+       {
+        "images": {
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445533'&Width=1920&Height=1080&ImageId='51966555'",
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445533'&Width=1920&Height=1080&ImageId='51966553'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445533'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 424,
+        "releaseYear": 2021,
+        "episodeNumber": 8,
+        "episodeName": "Bluey: Far afleverer",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "445533"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "445533"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "445533",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E8 Far afleverer",
+         "ContextualTitleExtraDetails": "21. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-21T06:26:46.4800000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Far afleverer",
+         "ExtraDetails": "SÆSON 2 EPISODE 8 | 7M",
+         "PathIdSegment": "bluey_-far-afleverer_445533",
+         "BroadcastTimeDK": "2024-03-26T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209620",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "445533",
+        "type": "episode",
+        "shortDescription": "Udløber: 6. apr 2024",
+        "contextualTitle": "8. Far afleverer",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Far afleverer",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-far-afleverer_445533",
+        "watchPath": "/se/bluey_-far-afleverer_445533"
+       },
+       {
+        "images": {
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445670'&Width=1920&Height=1080&ImageId='51979523'",
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445670'&Width=1920&Height=1080&ImageId='51979535'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='445670'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 424,
+        "releaseYear": 2021,
+        "episodeNumber": 9,
+        "episodeName": "Bluey: Bingo",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "445670"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "445670"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "445670",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E9 Bingo",
+         "ContextualTitleExtraDetails": "22. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-22T06:26:20.2800000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Bingo",
+         "ExtraDetails": "SÆSON 2 EPISODE 9 | 7M",
+         "PathIdSegment": "bluey_-bingo_445670",
+         "BroadcastTimeDK": "2024-03-27T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852209630",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "445670",
+        "type": "episode",
+        "shortDescription": "Udløber: 7. apr 2024",
+        "contextualTitle": "9. Bingo",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Bingo",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-bingo_445670",
+        "watchPath": "/se/bluey_-bingo_445670"
+       },
+       {
+        "images": {
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443818'&Width=1920&Height=1080&ImageId='51837424'",
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443818'&Width=1920&Height=1080&ImageId='51837428'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443818'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 424,
+        "releaseYear": 2021,
+        "episodeNumber": 50,
+        "episodeName": "Bluey: Bedstefar",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "443818"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "443818"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "443818",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E50 Bedstefar",
+         "ContextualTitleExtraDetails": "22. FEB 2023 | 7M",
+         "AvailableFrom": "2023-02-22T06:26:26.0400000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Bedstefar",
+         "ExtraDetails": "SÆSON 2 EPISODE 50 | 7M",
+         "PathIdSegment": "bluey_-bedstefar_443818",
+         "BroadcastTimeDK": "2024-03-16T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852210040",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "443818",
+        "type": "episode",
+        "shortDescription": "Udløber: 27. mar 2024",
+        "contextualTitle": "50. Bedstefar",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Bedstefar",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-bedstefar_443818",
+        "watchPath": "/se/bluey_-bedstefar_443818"
+       },
+       {
+        "images": {
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443985'&Width=1920&Height=1080&ImageId='51849325'",
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443985'&Width=1920&Height=1080&ImageId='51849330'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443985'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 424,
+        "releaseYear": 2021,
+        "episodeNumber": 51,
+        "episodeName": "Bluey: Jul i pool",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "443985"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "443985"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "443985",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E51 Jul i pool",
+         "ContextualTitleExtraDetails": "26. NOV 2022 | 7M",
+         "AvailableFrom": "2022-11-26T06:25:02.1200000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Jul i pool",
+         "ExtraDetails": "SÆSON 2 EPISODE 51 | 7M",
+         "PathIdSegment": "bluey_-jul-i-pool_443985",
+         "BroadcastTimeDK": "2024-03-17T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852210050",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "443985",
+        "type": "episode",
+        "shortDescription": "Udløber: 28. mar 2024",
+        "contextualTitle": "51. Jul i pool",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Jul i pool",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-jul-i-pool_443985",
+        "watchPath": "/se/bluey_-jul-i-pool_443985"
+       },
+       {
+        "images": {
+         "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444198'&Width=1920&Height=1080&ImageId='51868426'",
+         "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444198'&Width=1920&Height=1080&ImageId='51868435'",
+         "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='444198'&Width=1440&Height=2160&ImageId='45465989'"
+        },
+        "duration": 424,
+        "releaseYear": 2021,
+        "episodeNumber": 52,
+        "episodeName": "Bluey: Påske",
+        "seasonId": "378684",
+        "showId": "227278",
+        "offers": [
+         {
+          "deliveryType": "Stream",
+          "scopes": [
+           "444198"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         },
+         {
+          "deliveryType": "Download",
+          "scopes": [
+           "444198"
+          ],
+          "resolution": "HD-1080",
+          "availability": "Available",
+          "ownership": "Free",
+          "price": 0
+         }
+        ],
+        "scopes": [
+         "444198",
+         "378684"
+        ],
+        "categories": [
+         "tegnefilm",
+         "dr ramasjang"
+        ],
+        "channelPath": "",
+        "customFields": {
+         "OwnedCategory": "Tegnefilm,DR Ramasjang",
+         "AccessServicesOffered": "StandardVideo",
+         "BrandingChannelShort": "TVR",
+         "BrandingChannelDisplayName": "DR Ramasjang",
+         "ProductionCountry": "AUSTRALIEN",
+         "DisplayCategory": "Tegnefilm",
+         "TargetAudience": "All",
+         "RatingSegment": "Ramasjang",
+         "PrimaryContentUniverse": "Ramasjang",
+         "ClassificationRating": "MRAM-ALL",
+         "PlayButtonExtraDetails": "S2:E52 Påske",
+         "ContextualTitleExtraDetails": "24. FEB 2023 | 7M",
+         "AvailableFrom": "2023-02-24T06:24:21.7200000Z",
+         "PresentationTypeCode": "Ongoing",
+         "PageTitle": "Bluey: Sæson 2 – Påske",
+         "ExtraDetails": "SÆSON 2 EPISODE 52 | 7M",
+         "PathIdSegment": "bluey_-paaske_444198",
+         "BroadcastTimeDK": "2024-03-18T07:20:00",
+         "ContentUniverses": [
+          "drtv",
+          "ultra",
+          "ramasjang"
+         ]
+        },
+        "customId": "urn:dr:ocs:tv:content:playable:00852210060",
+        "genres": [
+         "ukendt"
+        ],
+        "id": "444198",
+        "type": "episode",
+        "shortDescription": "Udløber: 29. mar 2024",
+        "contextualTitle": "52. Påske",
+        "sports": [],
+        "themes": [],
+        "title": "Bluey: Påske",
+        "vodItemWatchPath": "",
+        "classification": {
+         "code": "DR-Ramasjang",
+         "name": "Ramasjang"
+        },
+        "path": "/episode/bluey_-paaske_444198",
+        "watchPath": "/se/bluey_-paaske_444198"
+       }
+      ],
+      "size": 12,
+      "paging": {
+       "total": 1,
+       "page": 1,
+       "size": 200,
+       "options": {
+        "pageSize": 200
+       }
+      }
+     }
+    }
+   }
+  ],
+  "canonical": "/serie/bluey_227278"
+ }
+}

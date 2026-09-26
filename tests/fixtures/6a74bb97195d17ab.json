@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='299349'&Width=1920&Height=1080&ImageId='15692642'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='299349'&Width=1440&Height=2160&ImageId='15692646'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='299349'&Width=1920&Height=1080&ImageId='48547010'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 4457,
+  "releaseYear": 2006,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-03-14T22:59:00Z",
+    "scopes": [
+     "299349"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EBLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-03-06T06:29:14Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-03-14T22:59:00Z",
+    "scopes": [
+     "299349"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EQNAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2022-03-06T06:29:14Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "299349"
+  ],
+  "categories": [
+   "film",
+   "dr ramasjang"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR Ramasjang",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVR",
+   "BrandingChannelDisplayName": "DR Ramasjang",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Film",
+   "TargetAudience": "All",
+   "RatingSegment": "Ramasjang",
+   "PrimaryContentUniverse": "Ramasjang",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Cykelmyggen og Dansemyggen",
+   "ExtraDetails": "Film | 1T 14M",
+   "TitleExtraDetails": "DR Ramasjang | 1T 14M",
+   "PathIdSegment": "cykelmyggen-og-dansemyggen_299349",
+   "BroadcastTimeDK": "2022-03-06T07:30:00",
+   "ContentUniverses": [
+    "drtv",
+    "ultra",
+    "ramasjang"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00590680320",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "299349",
+  "type": "program",
+  "description": "Dansk animationsfilm fra 2007.\nDansemyggen Dagmar brænder for sin dans og er lun på Egon. Men Egon brænder mere for en hård spurt og vil ud at se verden. Kærligheden må vente, til drengetiden er forbi, mener han. Men da den onde, røde myredronning Dominella og hendes soldater dræber den sorte myredronning og overtager magten  i hendes tue, inddrages Egon og Dagmar mere eller mindre frivilligt i et skovbundsdrama, som sætter deres venskab på prøve og kræver, at de udnytter deres talenter til det yderste.\nStemmer:\nEgon: Fabian August Harlang.\nDagmar: Selma Quist Møller.\nMinibillen: Bjarke Kastberg Andersen.\nDidrik von Drone: Peter Frödin.\nDronning Flora: Ellen Hillingsø.\nDronning Dominella: Lisbet Dahl.\nInstruktør: Jannik Hastrup & Flemming Quist Møller.\nManuskript og design: Flemming Quist Møller.\nMusik: Jesper Mechlenburg.\nProduktion: Dansk Tegnefilm 2 ApS i samarbejde med bl.a. DR. Udløber: 14. mar 2025",
+  "shortDescription": "Dansk animationsfilm fra 2007.\nDansemyggen Dagmar brænder for sin dans og er lun på Egon. Men Egon brænder mere for en hård spurt og vil ud at se verden. Kærligheden må vente, til drengetiden er forbi, mener han. Men da den onde, røde myredronning Dominel",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Cykelmyggen og Dansemyggen",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Ramasjang",
+   "name": "Ramasjang"
+  },
+  "path": "/program/cykelmyggen-og-dansemyggen_299349",
+  "watchPath": "/se/cykelmyggen-og-dansemyggen_299349",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

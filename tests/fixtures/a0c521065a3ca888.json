@@ -1,0 +1,83 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='29266'&Width=1920&Height=1080&ImageId='4442374'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='29266'&Width=1920&Height=1080&ImageId='49994981'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='29266'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "",
+  "availableSeasonCount": 2,
+  "offers": [
+   {
+    "deliveryType": "None",
+    "endDate": "2027-02-25T22:59:00Z",
+    "scopes": [
+     "29266"
+    ],
+    "exclusionRules": [],
+    "resolution": "Unknown",
+    "id": "ID0EUB",
+    "name": "D430_Show Free  Show Free Any User",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2018-08-21T19:31:12Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "29266"
+  ],
+  "categories": [
+   "livsstil",
+   "kultur",
+   "krop og sundhed",
+   "debat",
+   "dr2",
+   "dr k",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Kultur,Krop og sundhed,Debat,DR2",
+   "BrandingChannelShort": "DR2",
+   "BrandingChannelDisplayName": "DR2",
+   "DisplayCategory": "Livsstil,Kultur,Krop og sundhed,Debat",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PresentationTypeCode": "Ongoing",
+   "IsGeoRestricted": "False",
+   "IsSeriesDRMPlayoutRequired": "False",
+   "PageTitle": "Adam & Eva",
+   "ExtraDetails": "Livsstil | 2 SÆSONER",
+   "TitleExtraDetails": "DR2 | 2 SÆSONER",
+   "PathIdSegment": "adam-and-eva_29266",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:series:1914008593000",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "29266",
+  "type": "show",
+  "description": "Er vores moderne verden blevet et frisindets paradis på jord eller har vi helt glemt vores kristne moralske kompas? Det skal debattørerne Adam Holm og Eva Selsing diskutere, når de bevæger sig gennem det danske land for at møde virkelighedens moralske dilemmaer.",
+  "shortDescription": "Er vores moderne verden blevet et frisindets paradis på jord eller har vi helt glemt vores kristne moralske kompas? Det skal debattørerne Adam Holm og Eva Selsing diskutere, når de bevæger sig gennem det danske land for at møde virkelighedens moralske dil",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Adam & Eva",
+  "vodItemWatchPath": "",
+  "path": "/serie/adam-and-eva_29266",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

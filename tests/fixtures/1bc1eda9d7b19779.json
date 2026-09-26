@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434149'&Width=1920&Height=1080&ImageId='51311593'",
+   "poster": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434149'&Width=1440&Height=2160&ImageId='51311590'",
+   "tile": "https://production-static.dr-massive.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='434149'&Width=1920&Height=1080&ImageId='51311595'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 5418,
+  "releaseYear": 2020,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2024-03-09T22:59:00Z",
+    "scopes": [
+     "434149"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EBLAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-09T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2024-03-09T22:59:00Z",
+    "scopes": [
+     "434149"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EONAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-02-09T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "434149"
+  ],
+  "categories": [
+   "film",
+   "dr1",
+   "acc_spoken_subtitles"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Film,DR1,acc_spoken_subtitles",
+   "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "USA",
+   "DisplayCategory": "Film",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-15",
+   "PageTitle": "Ava",
+   "ExtraDetails": "Film | 1T 30M",
+   "TitleExtraDetails": "DR1 | 1T 30M",
+   "PathIdSegment": "ava_434149",
+   "BroadcastTimeDK": "2024-02-09T21:55:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00022030710",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "434149",
+  "type": "program",
+  "description": "Amerikansk thriller fra 2020.\nDræb - eller bliv dræbt. Ava er lejemorder for en hemmelig organisation. Hun rejser kloden rundt for at begå højprofilerede mord. Men da et job går galt, havner Ava selv på organisationens dødsliste. Pludselig må hun kæmpe for sit liv.\nMedvirkende: Jessica Chastain, John Malkovich, Common, Colin Farrell m.fl.\nInstruktion: Tate Taylor. Udløber: 9. mar 2024",
+  "shortDescription": "Amerikansk thriller fra 2020.\nDræb - eller bliv dræbt. Ava er lejemorder for en hemmelig organisation. Hun rejser kloden rundt for at begå højprofilerede mord. Men da et job går galt, havner Ava selv på organisationens dødsliste. Pludselig må hun kæmpe fo",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Ava",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/ava_434149",
+  "watchPath": "/se/ava_434149",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

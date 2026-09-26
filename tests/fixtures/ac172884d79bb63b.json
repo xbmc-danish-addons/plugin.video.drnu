@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426295'&Width=1920&Height=1080&ImageId='51789718'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426295'&Width=1440&Height=2160&ImageId='51789720'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='426295'&Width=1920&Height=1080&ImageId='51789722'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 3549,
+  "releaseYear": 1995,
+  "location": "",
+  "venue": "",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "426295"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0EYAAC",
+    "name": "D430_Program Free HD-1080 Program Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2025-09-13T21:59:59Z",
+    "scopes": [
+     "426295"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E6CAC",
+    "name": "D430_Program Free HD-1080 Program Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-13T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "426295"
+  ],
+  "categories": [
+   "kultur",
+   "underholdning",
+   "gensyn",
+   "dr gensyn"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Kultur,Underholdning,Gensyn,DR Gensyn",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "TVG",
+   "BrandingChannelDisplayName": "DR Gensyn",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Kultur,Underholdning,Gensyn",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PageTitle": "Hvorfor er kvinder så hysteriske?",
+   "ExtraDetails": "Kultur | 59M",
+   "TitleExtraDetails": "DR Gensyn | 59M",
+   "PathIdSegment": "hvorfor-er-kvinder-saa-hysteriske_426295",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00522027110",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "426295",
+  "type": "program",
+  "description": "Dansk standupshow fra 1995. Modellen og forfatteren Lotte Heise taler højt og hurtigt - og blander sig i midten af 90'erne i kønsdebatten. Med udgangspunkt i sin egen bog optræder hun med et standupshow, hvor hun sprudlende og underholdende prøver at redegøre for, hvordan mænd og kvinder tænker og opfatter ting forskelligt. Og kvinder er ikke født hysteriske - de skal bare blive bedre til at udtrykke deres behov og meninger. Udløber: 13. sep 2025",
+  "shortDescription": "Dansk standupshow fra 1995. Modellen og forfatteren Lotte Heise taler højt og hurtigt - og blander sig i midten af 90'erne i kønsdebatten. Med udgangspunkt i sin egen bog optræder hun med et standupshow, hvor hun sprudlende og underholdende prøver at rede",
+  "contextualTitle": "",
+  "sports": [],
+  "themes": [],
+  "title": "Hvorfor er kvinder så hysteriske?",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/program/hvorfor-er-kvinder-saa-hysteriske_426295",
+  "watchPath": "/se/hvorfor-er-kvinder-saa-hysteriske_426295",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "status": 200,
+ "json": {
+  "images": {
+   "wallpaper": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443464'&Width=1920&Height=1080&ImageId='51934474'",
+   "tile": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&EntityType='Item'&EntityId='443464'&Width=1920&Height=1080&ImageId='51934476'",
+   "poster": "https://prod95-static.dr-massive.com/api/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&EntityType='Item'&EntityId='443464'&Width=1440&Height=2160&ImageId='16099618'"
+  },
+  "advisoryText": "",
+  "copyright": "",
+  "credits": [],
+  "customMetadata": [],
+  "distributor": "DRTV",
+  "duration": 1694,
+  "releaseYear": 2024,
+  "episodeNumber": 2,
+  "episodeName": "Hammerslag: Husbåden",
+  "seasonId": "425338",
+  "showId": "7290",
+  "offers": [
+   {
+    "deliveryType": "Stream",
+    "endDate": "2026-03-26T22:59:00Z",
+    "scopes": [
+     "443464"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0E5AAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Stream",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-26T05:00:00Z"
+   },
+   {
+    "deliveryType": "Download",
+    "endDate": "2026-03-26T22:59:00Z",
+    "scopes": [
+     "443464"
+    ],
+    "exclusionRules": [],
+    "resolution": "HD-1080",
+    "id": "ID0ELDAC",
+    "name": "D430_Episode Free HD-1080 Episode Free Download",
+    "availability": "Available",
+    "ownership": "Free",
+    "price": 0,
+    "startDate": "2024-03-26T05:00:00Z"
+   }
+  ],
+  "trailers": [],
+  "scopes": [
+   "443464",
+   "425338"
+  ],
+  "categories": [
+   "livsstil",
+   "underholdning",
+   "hus og have",
+   "dr1"
+  ],
+  "channelPath": "",
+  "customFields": {
+   "OwnedCategory": "Livsstil,Underholdning,Hus og have,DR1",
+   "AccessServicesOffered": "StandardVideo",
+   "BrandingChannelShort": "DR1",
+   "BrandingChannelDisplayName": "DR1",
+   "ProductionCountry": "DANMARK",
+   "DisplayCategory": "Livsstil,Underholdning,Hus og have",
+   "TargetAudience": "Adults",
+   "RatingSegment": "DRTV",
+   "PrimaryContentUniverse": "DRTV",
+   "ClassificationRating": "MRAM-ALL",
+   "PlayButtonExtraDetails": "S2024:E2 Husbåden",
+   "ContextualTitleExtraDetails": "26. MAR 2024 | 28M",
+   "AvailableFrom": "2024-03-26T05:00:00.0000000Z",
+   "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+   "PresentationTypeCode": "CurrentAffairs",
+   "PageTitle": "Hammerslag: Sæson 2024 – Husbåden",
+   "ExtraDetails": "26. MAR 2024 | 28M",
+   "ShortVideoUrl": "https://drod20c.akamaized.net/all/clear/none/c9/6600acde54a05a448ce776c9/6600acdc4a867e319c85f7cb/stream_fmp4/master_manifest.m3u8",
+   "PathIdSegment": "hammerslag_-husbaaden_443464",
+   "BroadcastTimeDK": "2024-03-26T20:00:00",
+   "ContentUniverses": [
+    "drtv"
+   ]
+  },
+  "customId": "urn:dr:ocs:tv:content:playable:00952416010",
+  "genres": [
+   "ukendt"
+  ],
+  "id": "443464",
+  "type": "episode",
+  "description": "Husbåde i København er på programmet, når Sofie Østergaard byder velkommen indenfor i to meget forskellige hjem. Kristine Virén og Lars Lyng konkurrerer mod Mira Lie Nielsen og Christian Torp Carlsen om at gætte prisen på en gammel flodpram fra Holland, der nu er omdannet til 50 kvadratmeter husbåd. Til slut bliver eksperterne blæst bagover af begejstring over en gammel bilfærge, der er blevet forvandlet til et hjem med et utal af kreative løsninger. Udløber: 26. mar 2026",
+  "shortDescription": "Husbåde i København er på programmet, når Sofie Østergaard byder velkommen indenfor i to meget forskellige hjem. Kristine Virén og Lars Lyng konkurrerer mod Mira Lie Nielsen og Christian Torp Carlsen om at gætte prisen på en gammel flodpram fra Holland, d",
+  "contextualTitle": "Husbåden",
+  "sports": [],
+  "tagline": "En flodpram og en gammel bilfærge er blevet forvandlet til husbåde",
+  "themes": [],
+  "title": "Hammerslag: Husbåden",
+  "vodItemWatchPath": "",
+  "classification": {
+   "code": "DR-Voksen",
+   "name": "Voksen"
+  },
+  "path": "/episode/hammerslag_-husbaaden_443464",
+  "watchPath": "/se/hammerslag_-husbaaden_443464",
+  "genrePaths": [],
+  "totalUserRatings": 0
+ }
+}
