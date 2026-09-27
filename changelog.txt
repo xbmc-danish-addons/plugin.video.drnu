@@ -1,3 +1,14 @@
+[B]Version 7.0.0 - 2026-09-27[/B]
+- Major internal rewrite: the API client is split into auth, subtitles and
+  constants modules, and menu building is extracted into its own module
+- Addon state is created lazily instead of at import time
+- Fix crash when local subtitles are enabled but the subtitle download fails;
+  playback now falls back to the embedded subtitle stream
+- Test suite expanded to 40 tests running against recorded API fixtures
+  (no test touches the live DR API)
+- CI: ruff linting replaces flake8, addon checker runs for both Nexus and Omega
+- Removed Python 2/3 compatibility code
+
 [B]Version 6.7.0 - 2025-10-05[/B]
 - Add option to show minisjang and ramasjang with normal menu items
 - Add new icons for base menu entries
