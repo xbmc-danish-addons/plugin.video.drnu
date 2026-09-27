@@ -9,6 +9,10 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
+# needed to publish the coverage badge from master runs
+permissions:
+  contents: write
+
 jobs:
   build-linux:
     runs-on: ubuntu-latest
