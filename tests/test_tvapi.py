@@ -64,3 +64,24 @@ def test_cache_path():
     assert tvapi.cache_path('/serie/bluey_227278')
     assert not tvapi.cache_path('/liste/drtv-hero')
     assert not tvapi.cache_path('/liste/drtv-hero-saturday-18_00_89366')
+
+
+def test_schedule_windows_single_request():
+    # durations <= 24 never reach _schedule_windows (single request branch)
+    assert tvapi.Api._schedule_windows(6) == [(0, 6)]
+
+
+def test_schedule_windows_full_days():
+    assert tvapi.Api._schedule_windows(48) == [(0, 24), (1, 24)]
+
+
+def test_schedule_windows_partial_tail():
+    assert tvapi.Api._schedule_windows(50) == [(0, 24), (1, 24), (2, 2)]
+    assert tvapi.Api._schedule_windows(167) == [(i, 24) for i in range(6)] + [(6, 23)]
+
+
+def test_schedule_windows_caps_at_seven_days():
+    # a tail that would need an 8th day is dropped, like the old loop
+    assert tvapi.Api._schedule_windows(168) == [(i, 24) for i in range(7)]
+    assert tvapi.Api._schedule_windows(169) == [(i, 24) for i in range(7)]
+    assert tvapi.Api._schedule_windows(200) == [(i, 24) for i in range(7)]

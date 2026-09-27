@@ -172,7 +172,9 @@ approach — keep that pattern, improve on top of it:
 
 ## Bugs noticed along the way (worth tickets regardless)
 
-- `search()` with zero results never calls `endOfDirectory` (`addon.py:332`) —
-  Kodi can be left showing a busy spinner
-- `get_schedules` recursion math (`tvapi.py:727`) works, but `divmod(duration, 24)`
-  would express the intent clearly
+- [x] `search()` with zero results never called `endOfDirectory` — Kodi was
+      left showing a busy spinner. `search()` now always ends the directory,
+      also on keyboard cancel or zero hits (test: `test_search_zero_results_ends_directory`).
+- [x] `get_schedules` recursion math: the day-splitting loop is extracted into
+      the pure `Api._schedule_windows(duration)` helper using `divmod`, capped
+      at 7 days exactly like the old loop (tests in `test_tvapi.py`).

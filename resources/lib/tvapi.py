@@ -29,7 +29,7 @@ import pickle
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional, Union
+from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 from urllib.parse import parse_qsl, urlencode, urlparse
 
 import requests
@@ -532,6 +532,22 @@ class Api:
         if item.get('ResumeTime', False):
             tag.setResumePoint(float(item['ResumeTime']))
 
+    @staticmethod
+    def _schedule_windows(duration: int) -> List[Tuple[int, int]]:
+        """Split a duration in hours into (day_offset, hours) windows of max 24h.
+
+        Each window starts at the requested hour of the day, matching the
+        pre-divmod behavior, and the total is capped at 7 days (a remainder
+        that would need an 8th day is dropped).
+        """
+        days, remainder = divmod(duration, 24)
+        if days >= 7:
+            days, remainder = 7, 0
+        windows = [(i, 24) for i in range(days)]
+        if remainder:
+            windows.append((days, remainder))
+        return windows
+
     def get_schedules(self, channels: List[int] = CHANNEL_IDS, date: Optional[str] = None, hour: Optional[int] = None, duration: int = 6) -> List[Dict]:
         url = URL + '/schedules?'
         now = datetime.now(timezone.utc)
@@ -553,15 +569,9 @@ class Api:
                 raise ApiException(u.text)
 
         schedules = []
-        for i in range(1, 8):
-            iter_date = (now + timedelta(days=i-1)).strftime("%Y-%m-%d")
-            if i*24 > duration:
-                hours = duration % ((i-1)*24)
-                if hours != 0:
-                    schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=hours)
-                break
-            else:
-                schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=24)
+        for day_offset, hours in self._schedule_windows(duration):
+            iter_date = (now + timedelta(days=day_offset)).strftime("%Y-%m-%d")
+            schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=hours)
         return schedules
 
     def get_channel_schedule_strings(self, channels: List[int] = CHANNEL_IDS) -> Dict[int, str]:

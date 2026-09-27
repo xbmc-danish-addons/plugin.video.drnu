@@ -144,6 +144,23 @@ def test_search(handle):
     assert len(res) == 14
 
 
+def test_search_zero_results_ends_directory(handle, monkeypatch):
+    """Zero hits must still end the directory, or Kodi spins forever."""
+    empty = {key: {'size': 0, 'items': []} for key in [
+        'series', 'playable', 'competitions', 'confederations', 'events',
+        'movies', 'newshighlights', 'persons', 'teams', 'tv']}
+    monkeypatch.setattr(handle.api, 'search', lambda term: empty)
+    handle.search()
+    items = get_items(handle)
+    assert items == {}  # no category items added
+
+    import xbmcplugin
+    ended = []
+    monkeypatch.setattr(xbmcplugin, 'endOfDirectory', lambda h, **kw: ended.append(h))
+    handle.search()
+    assert ended  # endOfDirectory was called despite zero results
+
+
 def test_route_dispatch(handle):
     """route() dispatch table: query string -> expected item count and first label."""
     expected = {

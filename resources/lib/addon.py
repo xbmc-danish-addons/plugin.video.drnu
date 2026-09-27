@@ -221,10 +221,10 @@ class DrDkTvAddon:
     def search(self):
         keyboard = xbmc.Keyboard('', tr(30002))
         keyboard.doModal()
+        directoryItems = []
         if keyboard.isConfirmed():
             keyword = keyboard.getText()
             search_results = self.api.search(keyword)
-            directoryItems = []
             for key in [
                     'series',
                     'playable',
@@ -244,8 +244,11 @@ class DrDkTvAddon:
             if directoryItems:
                 with self.search_path.open('wb') as fh:
                     pickle.dump(search_results, fh)
-                xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
-                xbmcplugin.endOfDirectory(self._plugin_handle)
+
+        # always end the directory, also on cancel or zero results,
+        # otherwise Kodi is left showing a busy spinner
+        xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
+        xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def kodi_item(self, item, is_season=False):
         return gui.kodi_item(self._plugin_url, self.api, self.menuItems, self.fanart_image, item, is_season)
