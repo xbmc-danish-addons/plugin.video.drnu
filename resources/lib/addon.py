@@ -44,6 +44,7 @@ from resources.lib.kodiutils import (
     tr,
     version,
 )
+from resources.lib.subtitles import resolve_subtitle_action
 
 
 class DrDkTvAddon:
@@ -301,12 +302,13 @@ class DrDkTvAddon:
 
         listItem = xbmcgui.ListItem(path=video['url'], offscreen=True)
 
-        if int(get_setting('inputstream')) == 0:
+        inputstream_setting = int(get_setting('inputstream'))
+        if inputstream_setting == 0:
             listItem.setProperty('inputstream', 'inputstream.adaptive')
             if kodi_version_major() <= 20:
                 listItem.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
-        local_subs_bool = bool_setting('enable.localsubtitles') or int(get_setting('inputstream')) == 1
+        local_subs_bool = bool_setting('enable.localsubtitles') or inputstream_setting == 1
         if local_subs_bool and video['srt_subtitles']:
             listItem.setSubtitles(video['srt_subtitles'])
         xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, listItem)
@@ -328,29 +330,21 @@ class DrDkTvAddon:
 
         # Set subtitles according to setting wishes
         if player.isPlaying():
-            if all([bool_setting('disable.kids.subtitles') and kids_channel]):
+            settings = {
+                'disable.kids.subtitles': bool_setting('disable.kids.subtitles'),
+                'enable.subtitles': bool_setting('enable.subtitles'),
+                'enable.localsubtitles': local_subs_bool,
+                'inputstream': inputstream_setting,
+            }
+            action, value = resolve_subtitle_action(settings, subs, kids_channel, video['srt_subtitles'])
+            if action == 'off':
                 player.showSubtitles(False)
-            elif bool_setting('enable.subtitles'):
-                if local_subs_bool:
-                    player.setSubtitles(video['srt_subtitles'][-1])
-                    player.showSubtitles(True)
-                    return
-
-                for type in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles', 'ForeignLanguageSubtitles']:
-                    if type in subs:
-                        player.setSubtitleStream(subs[type])
-                        player.showSubtitles(True)
-                        return
-            else:
-                if 'ForeignLanguageSubtitles' in subs:
-                    if local_subs_bool:
-                        player.setSubtitles(video['srt_subtitles'][0])
-                        player.showSubtitles(True)
-                        return
-                    player.setSubtitleStream(subs['ForeignLanguageSubtitles'])
-                    player.showSubtitles(True)
-                else:
-                    player.showSubtitles(False)
+            elif action == 'stream':
+                player.setSubtitleStream(value)
+                player.showSubtitles(True)
+            elif action == 'local':
+                player.setSubtitles([video['srt_subtitles'][value]])
+                player.showSubtitles(True)
 
     def refresh_ui(self, params=''):
         xbmc.executebuiltin(f'Container.Update({self._plugin_url + params})')
@@ -382,77 +376,25 @@ class DrDkTvAddon:
     def route(self, query):
         try:
             PARAMS = dict(urlparse.parse_qsl(query[1:]))
-            # log(f'{PARAMS}', level=1)
-            if 'show' in PARAMS:
-                if PARAMS['show'] == 'liveTV':
-                    self.showLiveTV()
-                elif PARAMS['show'] == 'search':
-                    self.search()
-                elif PARAMS['show'] == 'areaselector':
-                    self.showAreaSelector()
-                elif PARAMS['show'] == 'mylist':
-                    self.listEpisodes(self.api.get_mylist())
-                elif PARAMS['show'] == 'continue':
-                    self.listEpisodes(self.api.get_continue())
-
-            # iptv manager integration
-            elif 'iptv' in PARAMS:
-                if PARAMS['iptv'] == 'channels':
-                    IPTVManager(int(PARAMS['port']), channels=self.getIptvLiveChannels()).send_channels()
-                elif PARAMS['iptv'] == 'epg':
-                    IPTVManager(int(PARAMS['port']), epg=self.getIptvEpg()).send_epg()
-            elif 'searchresult' in PARAMS:
-                with self.search_path.open('rb') as fh:
-                    search_results = pickle.load(fh)
-                self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
-            elif 'listVideos' in PARAMS:
-                seasons = PARAMS.get('seasons', 'False') == 'True'
-                caching = PARAMS.get('nocache', '0') != '1'
-                if PARAMS['listVideos'].startswith('ID_'):
-                    if caching is False:
-                        self.api.caching = False
-                    items = self.api.get_list(PARAMS['listVideos'], PARAMS['list_param'])
-                    area = self.api.item_area(items['items'][0])
-                    filter_kids = False
-                    if area in ['drtv', 'gensyn']:
-                        filter_kids = bool_setting('disable.kids')
-                    items = self.api.unfold_list(items, filter_kids=filter_kids)
-                    if caching is False:
-                        self.api.caching = True
-                    self.listEpisodes(items)
-                else:
-                    self.list_entries(PARAMS['listVideos'], caching=caching, seasons=seasons)
-
-            elif 'playVideo' in PARAMS:
-                self.playVideo(PARAMS['playVideo'], PARAMS['kids'], PARAMS['idpath'])
-
-            elif 'addfavorite' in PARAMS:
-                self.api.add_to_mylist(PARAMS['addfavorite'])
-            elif 'delfavorite' in PARAMS:
-                self.api.delete_from_mylist(PARAMS['delfavorite'])
-                self.refresh_ui('?show=mylist')
-            elif 'delwatched' in PARAMS:
-                self.api.delete_from_watched(PARAMS['delwatched'])
-                self.refresh_ui('?show=continue')
-
-            elif 'loginnow' in PARAMS:
-                self.login()
-
-            elif 're-cache' in PARAMS:
-                progress = xbmcgui.DialogProgress()
-                progress.create("video.drnu")
-                progress.update(0)
-                self.api.recache_items(clear_expired=True, progress=progress)
-                progress.update(100)
-                progress.close()
-                if PARAMS['re-cache'] == '2':
-                    self.showSimpleAreaSelector()
-                    xbmc.executebuiltin('ActivateWindow(home)')
-
-            else:
-                areas = ['none', 'drtv', 'minisjang', 'ramasjang', 'ultra', 'gensyn']
-                area = PARAMS.get('area', areas[int(get_setting('area'))])
-                self.showArea(area)
+            routes = {
+                'show': self._route_show,
+                'iptv': self._route_iptv,
+                'searchresult': self._route_searchresult,
+                'listVideos': self._route_listvideos,
+                'playVideo': self._route_playvideo,
+                'addfavorite': self._route_addfavorite,
+                'delfavorite': self._route_delfavorite,
+                'delwatched': self._route_delwatched,
+                'loginnow': self._route_login,
+                're-cache': self._route_recache,
+            }
+            for key, handler in routes.items():
+                if key in PARAMS:
+                    handler(PARAMS)
+                    return
+            areas = ['none', 'drtv', 'minisjang', 'ramasjang', 'ultra', 'gensyn']
+            area = PARAMS.get('area', areas[int(get_setting('area'))])
+            self.showArea(area)
 
         except tvapi.ApiException as ex:
             log(['API exception', query], level=1)
@@ -468,3 +410,72 @@ class DrDkTvAddon:
             heading = 'drnu addon crash'
             xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), str(stack)]))
             raise ex
+
+    def _route_show(self, params):
+        routes = {
+            'liveTV': self.showLiveTV,
+            'search': self.search,
+            'areaselector': self.showAreaSelector,
+            'mylist': lambda: self.listEpisodes(self.api.get_mylist()),
+            'continue': lambda: self.listEpisodes(self.api.get_continue()),
+        }
+        handler = routes.get(params['show'])
+        if handler:
+            handler()
+
+    def _route_iptv(self, params):
+        if params['iptv'] == 'channels':
+            IPTVManager(int(params['port']), channels=self.getIptvLiveChannels()).send_channels()
+        elif params['iptv'] == 'epg':
+            IPTVManager(int(params['port']), epg=self.getIptvEpg()).send_epg()
+
+    def _route_searchresult(self, params):
+        with self.search_path.open('rb') as fh:
+            search_results = pickle.load(fh)
+        self.listEpisodes(search_results[params['searchresult']]['items'])
+
+    def _route_listvideos(self, params):
+        seasons = params.get('seasons', 'False') == 'True'
+        caching = params.get('nocache', '0') != '1'
+        if params['listVideos'].startswith('ID_'):
+            if caching is False:
+                self.api.caching = False
+            items = self.api.get_list(params['listVideos'], params['list_param'])
+            area = self.api.item_area(items['items'][0])
+            filter_kids = False
+            if area in ['drtv', 'gensyn']:
+                filter_kids = bool_setting('disable.kids')
+            items = self.api.unfold_list(items, filter_kids=filter_kids)
+            if caching is False:
+                self.api.caching = True
+            self.listEpisodes(items)
+        else:
+            self.list_entries(params['listVideos'], caching=caching, seasons=seasons)
+
+    def _route_playvideo(self, params):
+        self.playVideo(params['playVideo'], params['kids'], params['idpath'])
+
+    def _route_addfavorite(self, params):
+        self.api.add_to_mylist(params['addfavorite'])
+
+    def _route_delfavorite(self, params):
+        self.api.delete_from_mylist(params['delfavorite'])
+        self.refresh_ui('?show=mylist')
+
+    def _route_delwatched(self, params):
+        self.api.delete_from_watched(params['delwatched'])
+        self.refresh_ui('?show=continue')
+
+    def _route_login(self, params):
+        self.login()
+
+    def _route_recache(self, params):
+        progress = xbmcgui.DialogProgress()
+        progress.create('video.drnu')
+        progress.update(0)
+        self.api.recache_items(clear_expired=True, progress=progress)
+        progress.update(100)
+        progress.close()
+        if params['re-cache'] == '2':
+            self.showSimpleAreaSelector()
+            xbmc.executebuiltin('ActivateWindow(home)')

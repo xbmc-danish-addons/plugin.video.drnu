@@ -66,3 +66,34 @@ def handle_subtitle_vtts(subs, cache_path, tr_func, session):
         u.close()
         subtitles_uri.append(name)
     return subtitles_uri
+
+
+def resolve_subtitle_action(settings, subs, kids_channel, srt_subtitles):
+    """Decide which subtitle action to take once playback has started.
+
+    settings holds the relevant addon settings (disable.kids.subtitles,
+    enable.subtitles, enable.localsubtitles, inputstream), subs maps subtitle
+    language codes to their stream index and srt_subtitles is the list of
+    locally downloaded SRT files.
+
+    Returns one of:
+        ('off', None)          hide subtitles
+        ('stream', index)      enable embedded subtitle stream at index
+        ('local', file_index)  enable local SRT file at file_index
+        (None, None)           leave subtitles untouched
+    """
+    local_subs = settings['enable.localsubtitles'] or settings['inputstream'] == 1
+    if settings['disable.kids.subtitles'] and kids_channel:
+        return ('off', None)
+    if settings['enable.subtitles']:
+        if local_subs and srt_subtitles:
+            return ('local', len(srt_subtitles) - 1)
+        for language in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles', 'ForeignLanguageSubtitles']:
+            if language in subs:
+                return ('stream', subs[language])
+        return (None, None)
+    if 'ForeignLanguageSubtitles' in subs:
+        if local_subs and srt_subtitles:
+            return ('local', 0)
+        return ('stream', subs['ForeignLanguageSubtitles'])
+    return ('off', None)

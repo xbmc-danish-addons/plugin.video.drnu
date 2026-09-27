@@ -1,5 +1,5 @@
 """Unit tests for resources/lib/subtitles.py (no Kodi needed)."""
-from resources.lib.subtitles import vtt2srt
+from resources.lib.subtitles import resolve_subtitle_action, vtt2srt
 
 VTT = (
     "WEBVTT\r\n"
@@ -12,6 +12,83 @@ VTT = (
     "00:00:03.000 --> 00:00:04.000\r\n"
     "World\r\n"
 )
+
+# subs: language -> stream index, as built by playVideo
+SUBS_DK_COMBINED_FI = {'DanishLanguageSubtitles': 0, 'CombinedLanguageSubtitles': 1, 'ForeignLanguageSubtitles': 2}
+SUBS_DK_ONLY = {'DanishLanguageSubtitles': 0, 'CombinedLanguageSubtitles': 1}
+SUBS_FI_ONLY = {'ForeignLanguageSubtitles': 0}
+SUBS_NONE = {}
+
+DEFAULTS = {
+    'disable.kids.subtitles': False,
+    'enable.subtitles': True,
+    'enable.localsubtitles': True,
+    'inputstream': 0,
+}
+
+
+def settings(**overrides):
+    s = dict(DEFAULTS)
+    s.update(overrides)
+    return s
+
+
+def test_kids_channel_disables_subtitles():
+    # kids_channel only forces subtitles off when the setting is on
+    assert resolve_subtitle_action(settings(), SUBS_DK_COMBINED_FI, True, ['a.srt']) == ('local', 0)
+    s = _with(settings(), {'disable.kids.subtitles': True})
+    assert resolve_subtitle_action(s, SUBS_DK_COMBINED_FI, True, ['a.srt']) == ('off', None)
+
+
+def _with(base, updates):
+    s = dict(base)
+    s.update(updates)
+    return s
+
+
+def test_enable_subtitles_prefers_last_local_file():
+    assert resolve_subtitle_action(settings(), SUBS_DK_COMBINED_FI, False, ['a.srt', 'b.srt']) == ('local', 1)
+
+
+def test_enable_subtitles_falls_back_to_stream_without_local_files():
+    s = _with(settings(), {'enable.localsubtitles': False})
+    assert resolve_subtitle_action(s, SUBS_DK_COMBINED_FI, False, []) == ('stream', 0)
+
+
+def test_enable_subtitles_empty_local_list_falls_back_to_stream():
+    # the pre-refactor code indexed [-1] into an empty list here (IndexError);
+    # falling back to the embedded stream is the sane behavior
+    assert resolve_subtitle_action(settings(), SUBS_DK_COMBINED_FI, False, []) == ('stream', 0)
+
+
+def test_enable_subtitles_stream_priority_danish_first():
+    assert resolve_subtitle_action(settings(), SUBS_DK_COMBINED_FI, False, []) == ('stream', 0)
+    assert resolve_subtitle_action(settings(), SUBS_DK_COMBINED_FI, False, []) != ('stream', 2)
+
+
+def test_enable_subtitles_no_matching_language_leaves_subtitles_untouched():
+    assert resolve_subtitle_action(settings(), SUBS_NONE, False, []) == (None, None)
+
+
+def test_subtitles_disabled_foreign_uses_stream():
+    s = _with(settings(), {'enable.subtitles': False, 'enable.localsubtitles': False})
+    assert resolve_subtitle_action(s, SUBS_FI_ONLY, False, []) == ('stream', 0)
+
+
+def test_subtitles_disabled_foreign_uses_first_local_file():
+    s = _with(settings(), {'enable.subtitles': False})
+    assert resolve_subtitle_action(s, SUBS_FI_ONLY, False, ['a.srt', 'b.srt']) == ('local', 0)
+
+
+def test_subtitles_disabled_no_foreign_turns_off():
+    s = _with(settings(), {'enable.subtitles': False})
+    assert resolve_subtitle_action(s, SUBS_DK_ONLY, False, ['a.srt']) == ('off', None)
+    assert resolve_subtitle_action(s, SUBS_NONE, False, []) == ('off', None)
+
+
+def test_inputstream_1_implies_local_subtitles():
+    s = _with(settings(), {'enable.localsubtitles': False, 'inputstream': 1})
+    assert resolve_subtitle_action(s, SUBS_DK_COMBINED_FI, False, ['a.srt']) == ('local', 0)
 
 
 def test_vtt2srt():
