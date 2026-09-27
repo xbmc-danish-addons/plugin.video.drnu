@@ -155,11 +155,20 @@ approach — keep that pattern, improve on top of it:
 
 ## Phase 4 — Optional later
 
-- [ ] Type hints on `tvapi.py` / `gui.py`; ruff `ANN` subset or pyright in CI
-- [ ] Coverage badge (`pytest-cov`) — only meaningful once tests are hermetic
-- [ ] Replace the blocking `time.sleep` polling in `playVideo`
-      (`addon.py:487-494`) with a `Monitor`-based wait; note the comment says 10 s
-      while the code waits 5 s
+- [x] Type hints on `tvapi.py` / `gui.py` (plus `drauth.py`, `subtitles.py`);
+      ruff `ANN001`+`ANN2` subset in CI. The Kodi-glue modules (`addon.py`,
+      `kodiutils.py`, `tvgui.py`, `cronjob.py`, `iptvmanager.py`, `default.py`)
+      are exempt via per-file-ignores — annotations there would just restate
+      the xbmc API signatures. (pyright not added; ruff ANN chosen.)
+- [x] Coverage badge (`pytest-cov`): `--cov` in CI, badge JSON pushed to
+      `.github/coverage-badge.json` from master runs via the workflow
+      `GITHUB_TOKEN`, shields.io endpoint badge in README (stale PEP8 badge
+      replaced with ruff). Badge pushes are excluded via `paths-ignore` to
+      avoid a CI loop. Locally: `pytest tests --cov`.
+- [x] Replace the blocking `time.sleep` polling in `playVideo` with a
+      `Monitor.waitForAbort`-based wait (`_wait_for_playback`), so Kodi
+      shutdown interrupts it; the 10 s/5 s comment mismatch is fixed and the
+      loop is unit-tested (`tests/test_playvideo_wait.py`).
 
 ## Bugs noticed along the way (worth tickets regardless)
 

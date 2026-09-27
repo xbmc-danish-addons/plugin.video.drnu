@@ -2,11 +2,14 @@
 - Major internal rewrite: the API client is split into auth, subtitles and
   constants modules, and menu building is extracted into its own module
 - Addon state is created lazily instead of at import time
+- Playback start wait is now interruptible by Kodi shutdown
 - Fix crash when local subtitles are enabled but the subtitle download fails;
   playback now falls back to the embedded subtitle stream
-- Test suite expanded to 40 tests running against recorded API fixtures
+- Test suite expanded to 43 tests running against recorded API fixtures
   (no test touches the live DR API)
-- CI: ruff linting replaces flake8, addon checker runs for both Nexus and Omega
+- Type hints on the API and menu modules, checked by ruff in CI
+- CI: ruff linting replaces flake8, addon checker runs for both Nexus and Omega,
+  test coverage measured with badge
 - Removed Python 2/3 compatibility code
 
 [B]Version 6.7.0 - 2025-10-05[/B]

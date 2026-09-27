@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - '.github/coverage-badge.json'
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -35,7 +37,23 @@ jobs:
         kodi-addon-checker --branch=nexus --allow-folder-id-mismatch
         kodi-addon-checker --branch=omega --allow-folder-id-mismatch
 
-    - name: Unit tests
+    - name: Unit tests with coverage
       shell: bash -l {0}
       run: |
-        pytest tests --disable-warnings
+        pytest tests --disable-warnings --cov --cov-report=term --cov-report=json:coverage.json
+
+    - name: Update coverage badge (master only)
+      if: github.ref == 'refs/heads/master'
+      shell: bash -l {0}
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        pct=$(python -c "import json; print(int(float(json.load(open('coverage.json'))['totals']['percent_covered_display'])))")
+        color=red
+        if [ "$pct" -ge 90 ]; then color=green; elif [ "$pct" -ge 70 ]; then color=yellow; fi
+        printf '{"schemaVersion":1,"label":"coverage","message":"%s%%","color":"%s"}' "$pct" "$color" > coverage-badge.json
+        curl -sf -X PUT \
+          -H "Authorization: Bearer ${GH_TOKEN}" \
+          -H "Accept: application/vnd.github+json" \
+          "https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/.github/coverage-badge.json" \
+          -d "{\"message\":\"update coverage badge\",\"content\":\"$(base64 -w0 coverage-badge.json)\"}"
