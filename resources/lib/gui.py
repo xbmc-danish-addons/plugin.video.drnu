@@ -24,6 +24,8 @@ The functions construct (url, ListItem, isFolder) tuples from API data and
 addon state passed in as arguments, which makes menu output testable without
 instantiating DrDkTvAddon.
 """
+from typing import Any, Dict, List, Optional, Tuple
+
 import xbmcgui
 
 from resources.lib.kodiutils import bool_setting, log, resources_path, tr
@@ -38,7 +40,7 @@ AREA_ITEMS = [
 ]
 
 
-def area_selector_items(plugin_url, menu_items):
+def area_selector_items(plugin_url: str, menu_items: List[Tuple[str, str]]) -> List[Tuple[str, xbmcgui.ListItem, bool]]:
     """(url, ListItem, isFolder) tuples for the simple area selector."""
     items = []
     for label, area, image in AREA_ITEMS:
@@ -50,7 +52,7 @@ def area_selector_items(plugin_url, menu_items):
     return items
 
 
-def main_menu_items(plugin_url, api, menu_items, fanart_image, area):
+def main_menu_items(plugin_url: str, api: Any, menu_items: List[Tuple[str, str]], fanart_image: str, area: str) -> List[Tuple[str, xbmcgui.ListItem, bool]]:
     """(url, ListItem, isFolder) tuples for an area's main menu."""
     items = []
 
@@ -94,7 +96,7 @@ def main_menu_items(plugin_url, api, menu_items, fanart_image, area):
     return items
 
 
-def kodi_item(plugin_url, api, menu_items, fanart_image, item, is_season=False):
+def kodi_item(plugin_url: str, api: Any, menu_items: List[Tuple[str, str]], fanart_image: str, item: Dict, is_season: bool = False) -> Optional[Tuple[str, xbmcgui.ListItem, bool]]:
     """Build the (url, ListItem, isFolder) tuple for an API item, or None."""
     menuItems = list(menu_items)
     isFolder = item['type'] not in ['program', 'episode']

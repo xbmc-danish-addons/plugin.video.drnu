@@ -21,11 +21,13 @@
 """WebVTT to SRT subtitle conversion and subtitle file handling."""
 
 import re
+from pathlib import Path
+from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 LOCAL_SUBTITLE_LANGUAGES = ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles']
 
 
-def vtt2srt(vtt):
+def vtt2srt(vtt: Union[str, bytes]) -> str:
     """Convert a WebVTT subtitle (str or bytes) to SRT format."""
     if isinstance(vtt, bytes):
         vtt = vtt.decode('utf-8')
@@ -46,7 +48,7 @@ def vtt2srt(vtt):
     return '\n'.join(srtout)
 
 
-def handle_subtitle_vtts(subs, cache_path, tr_func, session):
+def handle_subtitle_vtts(subs: List[Dict], cache_path: Path, tr_func: Callable[[int], str], session: Any) -> List[str]:
     """Download subtitle VTTs and store them as local SRT files.
 
     Returns the list of written SRT file paths (str). Download of one
@@ -68,7 +70,7 @@ def handle_subtitle_vtts(subs, cache_path, tr_func, session):
     return subtitles_uri
 
 
-def resolve_subtitle_action(settings, subs, kids_channel, srt_subtitles):
+def resolve_subtitle_action(settings: Dict, subs: Dict, kids_channel: bool, srt_subtitles: List[str]) -> Tuple[Optional[str], Optional[Union[int, str]]]:
     """Decide which subtitle action to take once playback has started.
 
     settings holds the relevant addon settings (disable.kids.subtitles,

@@ -29,6 +29,7 @@ import hashlib
 import json
 import secrets
 from pathlib import Path
+from typing import Callable, Dict, Optional
 from urllib.parse import parse_qs, urlparse
 
 import requests
@@ -49,7 +50,7 @@ def generate_code_challenge(code_verifier: str) -> str:
     return base64.urlsafe_b64encode(sha256).decode().rstrip('=')
 
 
-def full_login(user, password, log_func=None):
+def full_login(user: str, password: str, log_func: Optional[Callable] = None) -> Dict:
     ses = requests.Session()
 
     # start login flow
@@ -116,7 +117,7 @@ def full_login(user, password, log_func=None):
     return oidc_token(data)
 
 
-def oidc_token(data):
+def oidc_token(data: Dict) -> Dict:
     headers = {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"}
     res = requests.post('https://login.dr.dk/oidc/token', data=data, headers=headers)
     if res.status_code != 200:
@@ -124,12 +125,12 @@ def oidc_token(data):
     return res.json()
 
 
-def refresh_token(refresh_token):  # noqa: A001 - mirrors the oidc grant name
+def refresh_token(refresh_token: str) -> Dict:  # noqa: A001 - mirrors the oidc grant name
     data = {"client_id": CLIENT_ID, "refresh_token": refresh_token, "grant_type": "refresh_token"}
     return oidc_token(data)
 
 
-def exchange_token(tokens):
+def exchange_token(tokens: Dict) -> Dict:
     data = {
         "accessToken": tokens['access_token'], "identityToken": tokens['id_token'],
         "scopes": ["Catalog"], "device": "web_browser", "optout": False,
@@ -142,13 +143,13 @@ def exchange_token(tokens):
     return res.json()
 
 
-def deviceid():
+def deviceid() -> str:
     v = int(Path(__file__).stat().st_mtime)
     h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
     return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
 
 
-def anonymous_tokens():
+def anonymous_tokens() -> Dict:
     data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
     params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
 

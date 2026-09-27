@@ -29,6 +29,7 @@ import pickle
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Any, Callable, Dict, List, Optional, Union
 from urllib.parse import parse_qsl, urlencode, urlparse
 
 import requests
@@ -55,12 +56,12 @@ from resources.lib.drauth import (  # noqa: F401
 from resources.lib.subtitles import vtt2srt  # noqa: F401
 
 
-def cache_path(path):
+def cache_path(path: str) -> bool:
     NO_CACHING = ['/liste/drtv-hero']
     return not any(path.startswith(item) for item in NO_CACHING)
 
 
-def fix_query(url, remove=None, add=None, remove_keys=None):
+def fix_query(url: str, remove: Optional[Dict[str, str]] = None, add: Optional[Dict[str, str]] = None, remove_keys: Optional[List[str]] = None) -> str:
     if remove is None:
         remove = {}
     if add is None:
@@ -81,7 +82,7 @@ def fix_query(url, remove=None, add=None, remove_keys=None):
 
 
 class Api:
-    def __init__(self, cachePath, getLocalizedString, get_setting, log_func=None):
+    def __init__(self, cachePath: Path, getLocalizedString: Callable[[int], str], get_setting: Callable[[str], str], log_func: Optional[Callable] = None) -> None:
         self.cachePath = cachePath
         self.tr = getLocalizedString
         self.log = log_func
@@ -101,12 +102,12 @@ class Api:
         self._refresh_settings()
         self.refresh_tokens()
 
-    def _refresh_settings(self):
+    def _refresh_settings(self) -> None:
         self.user = self.get_setting('drtv_username')
         self.password = self.get_setting('drtv_password')
         self._user_name = ''
 
-    def init_sqlite_db(self):
+    def init_sqlite_db(self) -> None:
         if not (self.cachePath/'requests_cleaned').exists() and (self.cachePath/'requests.cache.sqlite').exists():
             (self.cachePath/'requests.cache.sqlite').unlink()
         request_fname = str(self.cachePath/'requests.cache')
@@ -130,12 +131,12 @@ class Api:
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
     @property
-    def user_name(self):
+    def user_name(self) -> str:
         if self._user_name == '':
             self._user_name = self.get_profile()['name']
         return self._user_name
 
-    def read_tokens(self, tokens):
+    def read_tokens(self, tokens: List[Dict]) -> None:
         if 'value' in tokens[0]:
             # old flow, anonymous
             time_str = tokens[0]['expirationDate'].split('.')[0]
@@ -153,7 +154,7 @@ class Api:
             time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
 
-    def request_tokens(self):
+    def request_tokens(self) -> Optional[str]:
         self._user_token = None
         self._profile_token = None
 
@@ -172,7 +173,7 @@ class Api:
             pickle.dump([tokens, self.access_tokens], fh)
         return None
 
-    def refresh_tokens(self):
+    def refresh_tokens(self) -> None:
         if self._user_token is None and self.token_file.exists():
             with self.token_file.open('rb') as fh:
                 [tokens, self.access_tokens] = pickle.load(fh)
@@ -210,15 +211,15 @@ class Api:
                 with self.token_file.open('wb') as fh:
                     pickle.dump([tokens, self.access_tokens], fh)
 
-    def user_token(self):
+    def user_token(self) -> Optional[str]:
         self.refresh_tokens()
         return self._user_token
 
-    def profile_token(self):
+    def profile_token(self) -> Optional[str]:
         self.refresh_tokens()
         return self._profile_token
 
-    def _request_get(self, url, params=None, headers=None, use_cache=True):
+    def _request_get(self, url: str, params: Optional[Dict] = None, headers: Optional[Dict] = None, use_cache: bool = True) -> Any:
         u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT) if use_cache and self.caching else requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
 
         if u.status_code == 200:
@@ -226,7 +227,7 @@ class Api:
         else:
             raise ApiException(u.text)
 
-    def get_programcard(self, path, data=None, use_cache=True):
+    def get_programcard(self, path: str, data: Optional[Dict] = None, use_cache: bool = True) -> Dict:
         url = URL + '/page?'
         if data is None:
             data = {
@@ -237,17 +238,17 @@ class Api:
             }
         return self._request_get(url, params=data, use_cache=use_cache)
 
-    def get_item(self, id, use_cache=True):
+    def get_item(self, id: Union[int, str], use_cache: bool = True) -> Dict:
         url = URL + f'/items/{int(id)}?'
         return self._request_get(url)
 
-    def get_next(self, path, use_cache=True, headers=None):
+    def get_next(self, path: str, use_cache: bool = True, headers: Optional[Dict] = None) -> Dict:
         remove = {'sub': 'Emergency'}
         remove_keys = ['lang', 'segments', 'isDeviceAbroad', 'isLive2VodSupported']
         url = URL + fix_query(path, remove=remove, remove_keys=remove_keys)
         return self._request_get(url, headers=headers, use_cache=use_cache)
 
-    def get_list(self, id, param, use_cache=True):
+    def get_list(self, id: Union[int, str], param: str, use_cache: bool = True) -> Dict:
         if isinstance(id, str):
             id = int(id.replace('ID_', ''))
         url = URL + f'/lists/{id}'
@@ -259,7 +260,7 @@ class Api:
             ret = self.get_recommendations(id, use_cache=use_cache, param=param)
         return ret
 
-    def get_recommendations(self, id, use_cache=True, param=None):
+    def get_recommendations(self, id: int, use_cache: bool = True, param: Optional[str] = None) -> Dict:
         url = URL + f'/recommendations/{id}'
         data = {'page_size': '24'}
         if param:
@@ -267,28 +268,28 @@ class Api:
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
 
-    def delete_from_watched(self, id):
+    def delete_from_watched(self, id: int) -> None:
         url = f'{URL}/account/profile/continue-watching/{id}'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         u = self.session.delete(url, headers=headers)
         if u.status_code != 204:
             raise ApiException(u.text)
 
-    def delete_from_mylist(self, id):
+    def delete_from_mylist(self, id: int) -> None:
         url = f'{URL}/account/profile/bookmarks/{id}'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         u = self.session.delete(url, headers=headers)
         if u.status_code != 204:
             raise ApiException(u.text)
 
-    def add_to_mylist(self, id):
+    def add_to_mylist(self, id: int) -> None:
         url = f'{URL}/account/profile/bookmarks/{id}'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         u = self.session.put(url, headers=headers)
         if u.status_code != 200:
             raise ApiException(u.text)
 
-    def get_mylist(self, use_cache=False):
+    def get_mylist(self, use_cache: bool = False) -> List[Dict]:
         url = URL + '/account/profile/bookmarks/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -298,7 +299,7 @@ class Api:
             item['in_mylist'] = True
         return items
 
-    def get_continue(self, use_cache=False):
+    def get_continue(self, use_cache: bool = False) -> List[Dict]:
         url = URL + '/account/profile/continue-watching/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -309,13 +310,13 @@ class Api:
             item['ResumeTime'] = float(watched.get(str(item['id']), {'position': 0.0})['position'])
         return items
 
-    def get_profile(self, use_cache=False):
+    def get_profile(self, use_cache: bool = False) -> Dict:
         url = URL + '/account/profile'
         headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
         params = {"ff": "idp,ldp,rpt", "lang": "da"}
         return self._request_get(url, headers=headers, params=params, use_cache=use_cache)
 
-    def item_area(self, item):
+    def item_area(self, item: Dict) -> str:
         label = ''
         if 'classification' in item:
             label = item['classification']['code'].lower()
@@ -327,7 +328,7 @@ class Api:
                     return area
         return 'drtv'  # fall back to general
 
-    def kids_item(self, item):
+    def kids_item(self, item: Dict) -> bool:
         if 'classification' in item and item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
             return True
         if 'categories' in item:
@@ -336,7 +337,7 @@ class Api:
                     return True
         return False
 
-    def unfold_list(self, item, filter_kids=False, headers=None, progress=None):
+    def unfold_list(self, item: Dict, filter_kids: bool = False, headers: Optional[Dict] = None, progress: Any = None) -> List[Dict]:
         items = item['items']
         if 'next' in item['paging']:
             if progress is not None:
@@ -357,7 +358,7 @@ class Api:
             items = [item for item in items if not self.kids_item(item)]
         return items
 
-    def search(self, term):
+    def search(self, term: str) -> Dict:
         url = URL + '/search'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         data = {
@@ -372,7 +373,7 @@ class Api:
         else:
             raise ApiException(u.text)
 
-    def get_home(self, area='drtv'):
+    def get_home(self, area: str = 'drtv') -> List[Dict]:
         data = {
             'list_page_size': 24,
             'max_list_prefetch': 1,
@@ -396,7 +397,7 @@ class Api:
                     items.append({'title': title, 'path': item['list']['path']})
         return items
 
-    def getLiveTV(self):
+    def getLiveTV(self) -> List[Dict]:
         channels = []
         schedules = self.get_channel_schedule_strings()
         for id in CHANNEL_IDS:
@@ -405,7 +406,7 @@ class Api:
             channels += card['entries']
         return channels
 
-    def recache_items(self, progress=None, clear_expired=False):
+    def recache_items(self, progress: Any = None, clear_expired: bool = False) -> None:
         if clear_expired:
             self.session.remove_expired_responses()
             (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
@@ -434,7 +435,7 @@ class Api:
             self.get_children_front_items(channel)
             i += 1
 
-    def get_children_front_items(self, channel):
+    def get_children_front_items(self, channel: str) -> List[Dict]:
         name = A_AA[channel]
         js = self.get_programcard(name)
         items = []
@@ -443,7 +444,7 @@ class Api:
                 items += self.unfold_list(item['list'])
         return items
 
-    def get_stream(self, id):
+    def get_stream(self, id: int) -> Optional[Dict]:
         url = URL + f'/account/items/{int(id)}/videos?'
         headers = {"X-Authorization": f'Bearer {self.user_token()}'}
         data = {
@@ -469,7 +470,7 @@ class Api:
         else:
             raise ApiException(u.text)
 
-    def get_livestream(self, path, with_subtitles=False):
+    def get_livestream(self, path: str, with_subtitles: bool = False) -> Dict:
         channel = self.get_programcard(path)['entries'][0]
         stream = {
             'subtitles': [],
@@ -477,7 +478,7 @@ class Api:
             }
         return stream
 
-    def get_channel_url(self, channel, with_subtitles=False, use_cache=True):
+    def get_channel_url(self, channel: Dict, with_subtitles: bool = False, use_cache: bool = True) -> str:
         id = channel['item']['id']
         url = URL + f'/channels/{id}/liveStreams?'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -488,17 +489,17 @@ class Api:
         url = links['hlsWithSubtitlesURL' + EU] if with_subtitles else links['hlsURL' + EU]
         return url
 
-    def get_title(self, item):
+    def get_title(self, item: Dict) -> str:
         title = item['title']
         if item['type'] == 'season':
             title += f" {item['seasonNumber']}"
-        elif item.get('contextualTitle', None):
+        elif item.get('contextualTitle'):
             cont = item['contextualTitle']
             if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
                 title += f" ({item['contextualTitle']})"
         return title
 
-    def fix_item_description(self, item):
+    def fix_item_description(self, item: Dict) -> Dict:
         if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
             resumetime_save = float(item.get('ResumeTime', 0.0))
             item = self.get_item(item['id'])
@@ -506,7 +507,7 @@ class Api:
                 item['ResumeTime'] = resumetime_save
         return item
 
-    def set_info(self, item, tag, title):
+    def set_info(self, item: Dict, tag: Any, title: str) -> None:
         if self.fetch_full_plot:
             item = self.fix_item_description(item)
         tag.setTitle(title)
@@ -531,7 +532,7 @@ class Api:
         if item.get('ResumeTime', False):
             tag.setResumePoint(float(item['ResumeTime']))
 
-    def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
+    def get_schedules(self, channels: List[int] = CHANNEL_IDS, date: Optional[str] = None, hour: Optional[int] = None, duration: int = 6) -> List[Dict]:
         url = URL + '/schedules?'
         now = datetime.now(timezone.utc)
         if date is None:
@@ -563,7 +564,7 @@ class Api:
                 schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=24)
         return schedules
 
-    def get_channel_schedule_strings(self, channels=CHANNEL_IDS):
+    def get_channel_schedule_strings(self, channels: List[int] = CHANNEL_IDS) -> Dict[int, str]:
         out = {}
         now = datetime.now(timezone.utc)
         for channel in self.get_schedules():
