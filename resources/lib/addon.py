@@ -19,7 +19,6 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 import pickle
-import time
 import traceback
 import urllib.parse as urlparse
 from pathlib import Path
@@ -45,6 +44,25 @@ from resources.lib.kodiutils import (
     version,
 )
 from resources.lib.subtitles import resolve_subtitle_action
+
+
+def _wait_for_playback(player, monitor):
+    """Wait until the player confirms playback, or give up after 5 seconds.
+
+    Uses Monitor.waitForAbort so Kodi shutdown interrupts the wait; returns
+    once playback is confirmed, after a 1 second settle wait.
+    """
+    dt = 0.2
+    waited = 0.0
+    while not player.isPlaying():
+        if monitor.waitForAbort(dt):
+            # Kodi is shutting down
+            return
+        waited += dt
+        if waited >= 5:
+            # Still not playing after 5 seconds, giving up...
+            return
+    monitor.waitForAbort(1)  # wait 1 more second to make sure it has fully started
 
 
 class DrDkTvAddon:
@@ -316,17 +334,7 @@ class DrDkTvAddon:
             return
 
         player = xbmc.Player()
-        # Wait for positive confirmation of playback
-        t = 0
-        dt = 0.2
-        while not player.isPlaying():
-            t += dt
-            if t >= 5:
-                # Still not playing after 10 seconds, giving up...
-                return
-            else:
-                time.sleep(dt)
-        time.sleep(1)  # wait 1 more second to make sure it has fully started
+        _wait_for_playback(player, xbmc.Monitor())
 
         # Set subtitles according to setting wishes
         if player.isPlaying():
