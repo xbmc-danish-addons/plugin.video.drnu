@@ -21,9 +21,8 @@
 """Common Kodi-specific utilities for the DRNU addon"""
 
 __all__ = [
-    # Module-level addon instance and helpers
-    'addon', 'get_setting', 'set_setting', 'get_addon_info',
-    'addon_id', 'addon_path', 'addon_name', 'addon_fanart', 'resources_path',
+    # Addon instance accessors
+    'get_addon', 'get_setting', 'set_setting', 'get_addon_info', 'resources_path',
     # Utility functions
     'tr', 'bool_setting', 'log',
     'kodi_version', 'kodi_version_major', 'version',
@@ -40,23 +39,43 @@ __all__ = [
     'execute_builtin',
 ]
 
-from pathlib import Path
-
 import xbmc
 import xbmcaddon
 import xbmcgui
 import xbmcplugin
 
-# Module-level addon instance and helpers
-addon = xbmcaddon.Addon()
-get_setting = addon.getSetting
-set_setting = addon.setSetting
-get_addon_info = addon.getAddonInfo
-addon_id = get_addon_info('id')
-addon_path = get_addon_info('path')
-addon_name = get_addon_info('name')
-addon_fanart = get_addon_info('fanart')
-resources_path = Path(addon_path) / 'resources'
+# The addon instance is created on first use, not at import time, so that
+# importing kodiutils does not require a Kodi environment.
+_addon = None
+
+
+def get_addon():
+    """Return the xbmcaddon.Addon() instance, creating it on first use."""
+    global _addon
+    if _addon is None:
+        _addon = xbmcaddon.Addon()
+    return _addon
+
+
+def get_setting(name):
+    """Get a setting value as string"""
+    return get_addon().getSetting(name)
+
+
+def set_setting(name, value):
+    """Set a setting value"""
+    get_addon().setSetting(name, value)
+
+
+def get_addon_info(key):
+    """Get addon metadata (id, path, version, ...)"""
+    return get_addon().getAddonInfo(key)
+
+
+def resources_path():
+    """Path to the addon's resources directory (lazy: needs get_addon_info)"""
+    from pathlib import Path
+    return Path(get_addon_info('path')) / 'resources'
 
 
 def tr(id):
@@ -69,8 +88,8 @@ def tr(id):
         Localized string, or multiple strings joined by newlines if id is a list
     """
     if isinstance(id, list):
-        return '\n'.join([addon.getLocalizedString(item) for item in id])
-    return addon.getLocalizedString(id)
+        return '\n'.join([get_addon().getLocalizedString(item) for item in id])
+    return get_addon().getLocalizedString(id)
 
 
 def bool_setting(name, default=False):

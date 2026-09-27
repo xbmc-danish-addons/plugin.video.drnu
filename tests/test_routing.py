@@ -8,6 +8,7 @@ import urllib.parse as urlparse
 
 
 from resources.lib import addon
+from resources.lib.kodiutils import get_addon
 
 plugin_url = 'plugin://plugin.video.drnu/'
 
@@ -79,17 +80,17 @@ def test_ramasjang(handle):
     bluey = item_from_label(a_aa, 'Bluey')
     assert bluey, 'Bluey not found in ramasjang A-Å list'
 
-    addon.addon.settings['disable.kids.seasons'] = 'true'
+    get_addon().settings['disable.kids.seasons'] = 'true'
     handle.route(bluey['url'])
     episodes = [iteminfo(item) for item in get_items(handle).values()]
     assert len(episodes) == 12
 
-    addon.addon.settings['disable.kids.seasons'] = 'false'
+    get_addon().settings['disable.kids.seasons'] = 'false'
     handle.route(bluey['url'])
     episodes = [iteminfo(item) for item in get_items(handle).values()]
     assert len(episodes) == 12
 
-    addon.addon.settings['disable.kids.menu'] = 'false'
+    get_addon().settings['disable.kids.menu'] = 'false'
     handle.route('?area=ramasjang')
     home_items = [iteminfo(item) for item in get_items(handle).values()]
     from_home = item_from_label(home_items, 'Skab med Ramasjang')

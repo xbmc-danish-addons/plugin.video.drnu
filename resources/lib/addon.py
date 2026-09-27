@@ -29,12 +29,21 @@ import xbmcgui
 import xbmcplugin
 from xbmcvfs import translatePath
 
-from resources.lib import tvapi, tvgui
+from resources.lib import gui, tvapi, tvgui
 from resources.lib.cronjob import setup_cronjob
 from resources.lib.iptvmanager import IPTVManager
-
-# Import everything from kodiutils for backward compatibility
-from resources.lib.kodiutils import *
+from resources.lib.kodiutils import (
+    bool_setting,
+    get_addon,
+    get_addon_info,
+    get_setting,
+    kodi_version_major,
+    log,
+    resources_path,
+    set_setting,
+    tr,
+    version,
+)
 
 
 class DrDkTvAddon:
@@ -42,11 +51,11 @@ class DrDkTvAddon:
         self._plugin_url = plugin_url
         self._plugin_handle = plugin_handle
 
-        self.cache_path = Path(translatePath(addon.getAddonInfo('profile')))
+        self.cache_path = Path(translatePath(get_addon().getAddonInfo('profile')))
         self.cache_path.mkdir(parents=True, exist_ok=True)
 
         self.search_path = self.cache_path / 'search6.pickle'
-        self.fanart_image = str(resources_path / 'fanart.jpg')
+        self.fanart_image = str(resources_path() / 'fanart.jpg')
 
         self.api = tvapi.Api(self.cache_path, tr, get_setting, log)
 
@@ -54,11 +63,7 @@ class DrDkTvAddon:
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
         self.menuItems.append((tr(30205), runScript))
 
-        # Area Selector
-        self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
-        self.area_item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/all.png')})
-
-        setup_cronjob(addon_path, bool_setting, get_setting)
+        setup_cronjob(get_addon_info('path'), bool_setting, get_setting)
         self._version_change_fixes()
 
     def _version_change_fixes(self):
@@ -92,7 +97,7 @@ class DrDkTvAddon:
         if bool_setting('use.simpleareaitem'):
             self.showSimpleAreaSelector()
         else:
-            gui = tvgui.AreaSelectorDialog(tr, resources_path)
+            gui = tvgui.AreaSelectorDialog(tr, resources_path())
             gui.doModal()
             areaSelected = gui.areaSelected
             del gui
@@ -117,84 +122,11 @@ class DrDkTvAddon:
             self.list_entries(f'/{area}')
 
     def showSimpleAreaSelector(self):
-        items = []
-        # DRTV
-        item = xbmcgui.ListItem('DR TV', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/button-drtv.png'),
-                     'icon': str(resources_path / 'media/button-drtv.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=drtv', item, True))
-        # Minisjang
-        item = xbmcgui.ListItem('Minisjang', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/button-minisjang.png'),
-                     'icon': str(resources_path / 'media/button-minisjang.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=minisjang', item, True))
-        # Ramasjang
-        item = xbmcgui.ListItem('Ramasjang', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/button-ramasjang.png'),
-                     'icon': str(resources_path / 'media/button-ramasjang.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=ramasjang', item, True))
-        # Ultra
-        item = xbmcgui.ListItem('Ultra', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/button-ultra.png'),
-                     'icon': str(resources_path / 'media/button-ultra.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=ultra', item, True))
-        # Gensyn
-        item = xbmcgui.ListItem('Gensyn', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/gensyn.png'),
-                     'icon': str(resources_path / 'media/gensyn.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=gensyn', item, True))
-
-        xbmcplugin.addDirectoryItems(self._plugin_handle, items)
+        xbmcplugin.addDirectoryItems(self._plugin_handle, gui.area_selector_items(self._plugin_url, self.menuItems))
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def showMainMenu(self, area):
-        items = []
-
-        # Live TV
-        item = xbmcgui.ListItem(tr(30001), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/livetv.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=liveTV', item, True))
-
-        if self.api.user_name != 'anonymous' and area == 'drtv':
-            # Mylist
-            item = xbmcgui.ListItem(f'{tr(30004)} ({self.api.user_name})', offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/drtv.png')})
-            item.addContextMenuItems(self.menuItems, False)
-            items.append((self._plugin_url + '?show=mylist', item, True))
-
-            # Continue watching
-            item = xbmcgui.ListItem(f'{tr(30003)} ({self.api.user_name})', offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/drtv.png')})
-            item.addContextMenuItems(self.menuItems, False)
-            items.append((self._plugin_url + '?show=continue', item, True))
-
-        for hitem in self.api.get_home(area=area):
-            if hitem['path']:
-                item = xbmcgui.ListItem(hitem['title'], offscreen=True)
-                png = hitem.get('icon', 'star.png')
-                if area in ['drtv', 'minisjang', 'ramasjang', 'ultra']:
-                    png = hitem.get('icon', f'{area}.png')
-                item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / f'icons/{png}')})
-                item_params = '?listVideos=' + hitem['path']
-                runScript = f"RunAddon(plugin.video.drnu,{item_params}&nocache=1)"
-                item.addContextMenuItems(self.menuItems + [(tr(30217), runScript)], False)
-                items.append((self._plugin_url + item_params, item, True))
-
-        # Search videos
-        item = xbmcgui.ListItem(tr(30002), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/search.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=search', item, True))
-
-        if bool_setting('enable.areaitem'):
-            items.append((self._plugin_url + '?show=areaselector', self.area_item, True))
-
+        items = gui.main_menu_items(self._plugin_url, self.api, self.menuItems, self.fanart_image, area)
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
@@ -297,67 +229,7 @@ class DrDkTvAddon:
                 xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def kodi_item(self, item, is_season=False):
-        menuItems = list(self.menuItems)
-        isFolder = item['type'] not in ['program', 'episode']
-        if item.get('path', '').startswith('/kanal/') and item['type'] == 'link':
-            isFolder = False
-        if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
-            return None
-        if 'kodi_seasons' in item:
-            is_season = item['kodi_seasons']
-
-        title = self.api.get_title(item)
-        listItem = xbmcgui.ListItem(title, offscreen=True)
-        videoInfoTag = listItem.getVideoInfoTag()
-        self.api.set_info(item, videoInfoTag, title)
-        if 'images' in item:
-            img = {}
-            for label in ['tile', 'poster', 'square']:
-                if label in item['images']:
-                    img['thumb'] = item['images'][label]
-                    img['icon'] = item['images'][label]
-                    break
-            for label in ['wallpaper', 'square', 'poster']:
-                if label in item['images']:
-                    img['fanart'] = item['images'][label]
-            listItem.setArt(img)
-        else:
-            area = self.api.item_area(item)
-            icon_file = str(resources_path / f'icons/{area}.png')
-            listItem.setArt({'fanart': self.fanart_image, 'icon': icon_file})
-
-        log(f'{title} -- {item["id"]} | {item["type"]} | {item.get("path")}', level=1)
-        if item.get('in_mylist', False):
-            runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={item['id']})"
-            menuItems.append((tr(30010), runScript))
-        elif item.get('ResumeTime', False):
-            runScript = f"RunPlugin(plugin://plugin.video.drnu/?delwatched={item['id']})"
-            menuItems.append((tr(30008), runScript))
-        else:
-            if item['type'] not in ['ListEntry', 'RecommendationEntry']:
-                runScript = f"RunPlugin(plugin://plugin.video.drnu/?addfavorite={item['id']})"
-                menuItems.append((tr(30009), runScript))
-
-        if isFolder:
-            if item.get('path', False):
-                url = self._plugin_url + f"?listVideos={item['path']}&seasons={is_season}"
-            elif 'list' in item:
-                param = item['list'].get('parameter', 'NoParam')
-                url = self._plugin_url + \
-                    f"?listVideos=ID_{item['list']['id']}&list_param={param}&seasons={is_season}"
-            else:
-                return None
-            runScript = f"RunAddon(plugin.video.drnu,?{url.split('?')[1]}&nocache=1)"
-            menuItems.append((tr(30217), runScript))
-            listItem.setIsFolder(True)
-        else:
-            listItem.setIsFolder(False)
-            kids = self.api.kids_item(item)
-            url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}&idpath={item['path']}"
-            listItem.setProperty('IsPlayable', 'true')
-
-        listItem.addContextMenuItems(menuItems, False)
-        return (url, listItem, isFolder,)
+        return gui.kodi_item(self._plugin_url, self.api, self.menuItems, self.fanart_image, item, is_season)
 
     def listEpisodes(self, items, addSortMethods=False, seasons=False):
         directoryItems = []
