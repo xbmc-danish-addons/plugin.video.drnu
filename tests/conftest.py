@@ -65,7 +65,6 @@ def addon_handle():
     """
     from fixtures_adapter import install_fake_session, install_fixture_adapter
 
-    addon.tvapi.cache_path = lambda path: True
     addon.tvapi.Api.refresh_tokens = lambda self: None
     addon.tvapi.Api.init_sqlite_db = lambda self: None
     handle = addon.DrDkTvAddon(plugin_url=PLUGIN_URL, plugin_handle=1)

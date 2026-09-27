@@ -14,21 +14,22 @@
 #  GNU General Public License for more details.
 #
 #  You should have received a copy of the GNU General Public License
-#  along with XBMC; see the file COPYING.  If not, write to
+#  along with this Program; see the file LICENSE.txt.  If not, write to
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
+"""DR API client: auth token bookkeeping, listings, schedules and streams.
 
-import base64
-import hashlib
-import json
+Auth protocol functions live in drauth, subtitle handling in subtitles and
+shared constants in constants. The names are re-exported here so existing
+imports of tvapi keep working.
+"""
+
 import pickle
-import re
-import secrets
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import parse_qs, parse_qsl, urlencode, urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse
 
 import requests
 import requests_cache
@@ -36,24 +37,22 @@ from dateutil import parser
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
-CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
-CHANNEL_PRESET = {
-    'DR1': 1,
-    'DR2': 2,
-    'DR Ramasjang': 3,
-    'TVA Live': 4,
-    'DRTV Ekstra': 5
-}
-URL = 'https://production.dr-massive.com/api'
-CLIENT_ID = "283ba39a2cf31d3b81e922b8"
-GET_TIMEOUT = 10
-A_AA = {
-    'ramasjang': '/ramasjang_a-aa',
-    'minisjang': '/minisjang/a-aa',
-    'ultra': '/ultra_a-aa',
-    'drtv': '/kategorier/a-aa',
-    'gensyn': '/gensyn/a-aa',
-}
+from resources.lib import subtitles
+
+# Re-export the names that used to live in this module
+from resources.lib.constants import A_AA, CHANNEL_IDS, CHANNEL_PRESET, GET_TIMEOUT, URL  # noqa: F401
+from resources.lib.drauth import (  # noqa: F401
+    CLIENT_ID,
+    anonymous_tokens,
+    deviceid,
+    exchange_token,
+    full_login,
+    generate_code_challenge,
+    generate_code_verifier,
+    oidc_token,
+    refresh_token,
+)
+from resources.lib.subtitles import vtt2srt  # noqa: F401
 
 
 def cache_path(path):
@@ -73,135 +72,13 @@ def fix_query(url, remove=None, add=None, remove_keys=None):
     for k in remove_keys:
         if k in qs:
             del qs[k]
-    for k,v in remove.items():
+    for k, v in remove.items():
         if qs.get(k) == v:
             del qs[k]
     qs.update(add)
     qs = dict(sorted(qs.items()))
     return o._replace(query=urlencode(qs)).geturl()
 
-
-def generate_code_verifier(length: int = 64) -> str:
-    # Generate a secure random string (length between 43 and 128 chars)
-    return secrets.token_urlsafe(length)[:length]
-
-
-def generate_code_challenge(code_verifier: str) -> str:
-    # SHA256 hash of the verifier, then base64-url encode without padding
-    sha256 = hashlib.sha256(code_verifier.encode()).digest()
-    return base64.urlsafe_b64encode(sha256).decode().rstrip('=')
-
-
-def full_login(user, password, log_func=None):
-    ses = requests.Session()
-
-    # start login flow
-    code_verifier = generate_code_verifier()
-    code_challenge = generate_code_challenge(code_verifier)
-
-    params = {
-        "client_id": CLIENT_ID,
-        "code_challenge": code_challenge,
-        "code_challenge_method": "S256",
-        "redirect_uri": "https://www.dr.dk/drtv/callback",
-        "state": f'{{"code_verifier":"{code_verifier}","logonRedirectPath":"/","optout":false}}',
-        "response_type": "code",
-        "scope": "openid roles tracking profile email offline_access"
-    }
-    res = ses.get('https://login.dr.dk/oidc/authorize', params=params)
-    if res.status_code != 200:
-        return {'status_code': res.status_code, 'error': res.text}
-
-    trans = urlparse(res.url).path.split('/')[-1]
-    headers = {'content-type': 'application/json'}
-
-    transaction_fragment = "fragment useTransactionTransactionFragment on Transaction { ... on AuthenticatedAuthenticationTransaction { id email registration href __typename } ... on UnauthenticatedAuthenticationTransaction { id email __typename } ... on UnverifiedAuthenticationTransaction { id email name __typename } ... on UnrecognizedAuthenticationTransaction { id email statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } __typename } ... on UnidentifiedAuthenticationTransaction { id __typename } ... on CompletedEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on PendingEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on CompletedPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingDeletionConfirmationTransaction { id __typename } ... on CompletedDeletionConfirmationTransaction { id __typename } ... on SettingsTransaction { id identity { id email name roles __typename } statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } statisticsConsentRevision { id status definition createdAt __typename } preferencesConsentRevision { id status definition createdAt __typename } newsletterConsentRevision { id status definition createdAt __typename } referBackUri referBackName sessionState expiresAt __typename } ... on PendingEUPTransaction { id href __typename } ... on CompletedEUPTransaction { id __typename } __typename }"  # noqa: E501
-    trans_query = "query useTransactionTransactionQuery($id: ID!) { transaction(id: $id) { ... on Node { id __typename } ...useTransactionTransactionFragment  __typename } }" + transaction_fragment  # noqa: E501
-    identify_query = "mutation useTransactionIdentificationMutation($input: IdentificationInput!) { identify(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment  # noqa: E501
-    authenticate_query = "mutation useTransactionAuthenticationMutation($input: AuthenticationInput!) { authenticate(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment  # noqa: E501
-
-    trans_data = {
-        "operationName": "useTransactionTransactionQuery",
-        "variables": {"id": trans}, "query": trans_query
-    }
-    identify_data = {
-        "operationName": "useTransactionIdentificationMutation",
-        "variables": {"input": {"transaction": trans, "email": user }}, "query": identify_query
-    }
-    authenticate_data = {
-        "operationName": "useTransactionAuthenticationMutation",
-        "variables": {"input": {"transaction": trans, "password": password }}, "query": authenticate_query
-    }
-
-    url = 'https://login.dr.dk/graphql'
-
-    u1 = ses.post(url, json=trans_data, headers=headers)
-    if log_func:
-        log_func(u1.json())
-    u2 = ses.post(url, json=identify_data, headers=headers)
-    if log_func:
-        log_func(u2.json())
-
-    u3 = ses.post(url, json=authenticate_data, headers=headers)
-    if log_func:
-        log_func(u3.json())
-
-    res2 = ses.get(u3.json()['data']['authenticate']['href'])
-    if res2.status_code != 200:
-        return {'status_code': res2.status_code, 'error': res2.text}
-    code = parse_qs(urlparse(res2.url).query)['code'][0]
-
-    data = {
-        "client_id": CLIENT_ID,
-        "redirect_uri": "https://www.dr.dk/drtv/callback",
-        "code_verifier": code_verifier, "code": code,
-        "grant_type": "authorization_code",
-    }
-    return oidc_token(data)
-
-
-def oidc_token(data):
-    headers = {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"}
-    res = requests.post('https://login.dr.dk/oidc/token', data=data, headers=headers)
-    if res.status_code != 200:
-        return {'status_code': res.status_code, 'error': res.text}
-    return res.json()
-
-
-def refresh_token(refresh_token):
-    data = {"client_id": CLIENT_ID, "refresh_token": refresh_token, "grant_type": "refresh_token"}
-    return oidc_token(data)
-
-
-def exchange_token(tokens):
-    data = {
-        "accessToken": tokens['access_token'], "identityToken": tokens['id_token'],
-        "scopes": ["Catalog"], "device": "web_browser", "optout": False,
-    }
-
-    headers = {"Content-Type": "application/json", "Accept": "application/json"}
-    res = requests.post(URL + '/authorization/exchange', json=data, headers=headers)
-    if res.status_code != 200:
-        return {'status_code': res.status_code, 'error': res.text}
-    return res.json()
-
-
-def deviceid():
-    v = int(Path(__file__).stat().st_mtime)
-    h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
-    return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
-
-
-def anonymous_tokens():
-    data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
-    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
-
-    url = URL + '/authorization/anonymous-sso?'
-    u = requests.post(url, json=data, params=params)
-    if u.status_code != 200:
-        return {'status_code': u.status_code, 'error': u.text}
-    tokens = json.loads(u.content)
-    return tokens
 
 class Api:
     def __init__(self, cachePath, getLocalizedString, get_setting, log_func=None):
@@ -260,7 +137,7 @@ class Api:
 
     def read_tokens(self, tokens):
         if 'value' in tokens[0]:
-            #old flow, anonymous
+            # old flow, anonymous
             time_str = tokens[0]['expirationDate'].split('.')[0]
             self._user_token = tokens[0]['value']
             self._profile_token = tokens[1]['value']
@@ -321,7 +198,7 @@ class Api:
                     tokens = exchange_token(access_tokens)
                     self.access_tokens = access_tokens
             else:
-                #old flow, anonymous
+                # old flow, anonymous
                 failed_refresh = True
 
             if failed_refresh:
@@ -365,7 +242,7 @@ class Api:
         return self._request_get(url)
 
     def get_next(self, path, use_cache=True, headers=None):
-        remove = {'sub':'Emergency'}
+        remove = {'sub': 'Emergency'}
         remove_keys = ['lang', 'segments', 'isDeviceAbroad', 'isLive2VodSupported']
         url = URL + fix_query(path, remove=remove, remove_keys=remove_keys)
         return self._request_get(url, headers=headers, use_cache=use_cache)
@@ -429,7 +306,7 @@ class Api:
         items = self.unfold_list(item, headers=headers)
         watched = self.get_profile()['watched']
         for item in items:
-            item['ResumeTime'] = float(watched.get(str(item['id']), {'position':0.0})['position'])
+            item['ResumeTime'] = float(watched.get(str(item['id']), {'position': 0.0})['position'])
         return items
 
     def get_profile(self, use_cache=False):
@@ -448,7 +325,7 @@ class Api:
             for area in A_AA:
                 if area in label:
                     return area
-        return 'drtv' # fall back to general
+        return 'drtv'  # fall back to general
 
     def kids_item(self, item):
         if 'classification' in item and item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
@@ -511,7 +388,7 @@ class Api:
             title = item['title']
             if title not in ['Se live tv']:
                 if title == '' and item['type'] == 'ListEntry':
-                    title = item['list'].get('title', '') # get the top spinner item
+                    title = item['list'].get('title', '')  # get the top spinner item
                 for HERO in ['DRTV Hero', 'Ramasjang: Hero', 'Ultra Hero']:
                     if title.startswith(HERO):
                         title = 'Daglige forslag'
@@ -585,45 +462,12 @@ class Api:
         if u.status_code == 200:
             for stream in u.json():
                 if stream['accessService'] == 'StandardVideo':
-                    stream['srt_subtitles'] = self.handle_subtitle_vtts(stream['subtitles'])
+                    stream['srt_subtitles'] = subtitles.handle_subtitle_vtts(
+                        stream['subtitles'], self.cachePath, self.tr, self.session)
                     return stream
             return None
         else:
             raise ApiException(u.text)
-
-    def handle_subtitle_vtts(self, subs):
-        subtitlesUri = []
-        for sub in subs:
-            name = f'{self.cachePath}/{self.tr(30050)}.da.srt' if sub['language'] in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles'] else f'{self.cachePath}/{self.tr(30051)}.da.srt'
-            u = self.session.get(sub['link'], timeout=10)
-            if u.status_code != 200:
-                u.close()
-                break
-            srt = self.vtt2srt(u.content)
-            with open(name.encode('utf-8'), 'wb') as fh:
-                fh.write(srt.encode('utf-8'))
-            u.close()
-            subtitlesUri.append(name)
-        return subtitlesUri
-
-    def vtt2srt(self, vtt):
-        if isinstance(vtt, bytes):
-            vtt = vtt.decode('utf-8')
-        srt = vtt.replace("\r\n", "\n")
-        srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
-        srt = re.sub(r'WEBVTT\n\n', '', srt)
-        srt = re.sub(r'^\d+\n', '', srt)
-        srt = re.sub(r'\n\d+\n', '\n', srt)
-        srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
-
-        srtout = ['1']
-        idx = 2
-        for line in srt.splitlines():
-            if line == 'putINDEXhere':
-                line = str(idx)
-                idx += 1
-            srtout.append(line)
-        return '\n'.join(srtout)
 
     def get_livestream(self, path, with_subtitles=False):
         channel = self.get_programcard(path)['entries'][0]
@@ -638,7 +482,7 @@ class Api:
         url = URL + f'/channels/{id}/liveStreams?'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         js = self._request_get(url, headers=headers, use_cache=use_cache)
-        links = {item['type']:item['link'] for item in js}
+        links = {item['type']: item['link'] for item in js}
 
         EU = 'Eu' if 'hlsURLEu' in links else ''
         url = links['hlsWithSubtitlesURL' + EU] if with_subtitles else links['hlsURL' + EU]

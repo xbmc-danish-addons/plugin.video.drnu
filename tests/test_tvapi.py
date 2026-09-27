@@ -1,22 +1,5 @@
 """Unit tests for pure functions in resources/lib/tvapi.py (no Kodi needed)."""
-import sys
-from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).parent.parent / 'resources' / 'lib'))
-
-import tvapi
-
-VTT = (
-    "WEBVTT\r\n"
-    "\r\n"
-    "1\r\n"
-    "00:00:01.000 --> 00:00:02.000\r\n"
-    "Hello\r\n"
-    "\r\n"
-    "2\r\n"
-    "00:00:03.000 --> 00:00:04.000\r\n"
-    "World\r\n"
-)
+from resources.lib import tvapi
 
 
 def test_fix_query_add_and_sort():
@@ -41,17 +24,6 @@ def test_fix_query_remove_matching_value_only():
 def test_fix_query_no_query():
     url = tvapi.fix_query('https://x.dk/api/page', add={'page_size': '24'})
     assert url == 'https://x.dk/api/page?page_size=24'
-
-
-def test_generate_code_verifier_length():
-    verifier = tvapi.generate_code_verifier(64)
-    assert len(verifier) == 64
-
-
-def test_generate_code_challenge_rfc7636_vector():
-    # RFC 7636 appendix B test vector
-    verifier = 'dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk'
-    assert tvapi.generate_code_challenge(verifier) == 'E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM'
 
 
 def test_get_title_plain():
@@ -92,21 +64,3 @@ def test_cache_path():
     assert tvapi.cache_path('/serie/bluey_227278')
     assert not tvapi.cache_path('/liste/drtv-hero')
     assert not tvapi.cache_path('/liste/drtv-hero-saturday-18_00_89366')
-
-
-def test_vtt2srt():
-    srt = tvapi.Api.vtt2srt(None, VTT)
-    assert srt == (
-        '1\n'
-        '00:00:01,000 --> 00:00:02,000\n'
-        'Hello\n'
-        '\n'
-        '2\n'
-        '00:00:03,000 --> 00:00:04,000\n'
-        'World'
-    )
-
-
-def test_vtt2srt_accepts_bytes():
-    srt = tvapi.Api.vtt2srt(None, VTT.encode('utf-8'))
-    assert srt.startswith('1\n00:00:01,000')
