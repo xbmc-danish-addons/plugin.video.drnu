@@ -3,6 +3,3 @@ line-length = 200
 target-version = "py38"
 select = ["E", "F", "W", "B", "UP", "SIM", "I", "C4"]
 exclude = ["tests/*"]
-
-[tool.ruff.per-file-ignores]
-"resources/lib/addon.py" = ["F405", "F403"]
