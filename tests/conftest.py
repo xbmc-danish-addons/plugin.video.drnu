@@ -28,6 +28,7 @@ import xbmcvfs  # noqa: E402
 import inputstreamhelper  # noqa: E402
 
 from resources.lib import addon  # noqa: E402
+from resources.lib.kodiutils import get_addon  # noqa: E402
 
 PLUGIN_URL = 'plugin://plugin.video.drnu/'
 
@@ -65,7 +66,6 @@ def addon_handle():
     """
     from fixtures_adapter import install_fake_session, install_fixture_adapter
 
-    addon.tvapi.cache_path = lambda path: True
     addon.tvapi.Api.refresh_tokens = lambda self: None
     addon.tvapi.Api.init_sqlite_db = lambda self: None
     handle = addon.DrDkTvAddon(plugin_url=PLUGIN_URL, plugin_handle=1)
@@ -81,8 +81,8 @@ def addon_handle():
 def handle(addon_handle, tmp_path):
     """Fresh handle state and default settings per test."""
     addon_handle._plugin_handle = {}
-    addon.addon.settings.clear()
-    addon.addon.settings.update(DEFAULT_SETTINGS)
+    get_addon().settings.clear()
+    get_addon().settings.update(DEFAULT_SETTINGS)
     # keep the search pickle out of the tracked userdata tree
     addon_handle.search_path = tmp_path / 'search6.pickle'
     return addon_handle
@@ -91,10 +91,10 @@ def handle(addon_handle, tmp_path):
 @pytest.fixture(scope='session')
 def menudata_dir(addon_handle):
     """Path to the golden menu JSON files."""
-    userdata = Path(addon.translatePath(addon.addon.getAddonInfo('profile')))
+    userdata = Path(addon.translatePath(get_addon().getAddonInfo('profile')))
     menudata = userdata / 'menudata'
     menudata.mkdir(parents=True, exist_ok=True)
     return menudata
 
 
-DEFAULT_SETTINGS = dict(addon.addon.settings)
+DEFAULT_SETTINGS = dict(get_addon().settings)

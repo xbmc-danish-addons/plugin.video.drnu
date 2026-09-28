@@ -20,5 +20,12 @@ search6.pickle
 requests.cache*
 requests_cleaned
 
+# Coverage
+.coverage
+coverage.json
+
 # Shell scripts
 *.sh
+
+# Editor swap files
+.*.swp

@@ -1,8 +1,22 @@
 [tool.ruff]
 line-length = 200
 target-version = "py38"
-select = ["E", "F", "W", "B", "UP", "SIM", "I", "C4"]
 exclude = ["tests/*"]
 
-[tool.ruff.per-file-ignores]
-"resources/lib/addon.py" = ["F405", "F403"]
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "UP", "SIM", "I", "C4", "ANN001", "ANN2"]
+
+[tool.ruff.lint.per-file-ignores]
+# Kodi-glue modules: annotations would just restate the xbmc API signatures
+"resources/lib/addon.py" = ["ANN"]
+"resources/lib/kodiutils.py" = ["ANN"]
+"resources/lib/tvgui.py" = ["ANN"]
+"resources/lib/cronjob.py" = ["ANN"]
+"resources/lib/iptvmanager.py" = ["ANN"]
+"default.py" = ["ANN"]
+
+[tool.coverage.run]
+source = ["resources/lib"]
+
+[tool.coverage.report]
+show_missing = true

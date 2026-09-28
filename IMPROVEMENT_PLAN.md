@@ -122,42 +122,59 @@ approach — keep that pattern, improve on top of it:
 
 ## Phase 3 — Structure
 
-- [ ] Split `tvapi.py` (750 lines, four responsibilities):
+- [x] Split `tvapi.py` (750 lines, four responsibilities):
       ```
       resources/lib/
       ├── tvapi.py        # Api class: programcards, lists, schedules, streams
       ├── drauth.py       # full_login, oidc_token, exchange_token, tokens, deviceid
-      ├── subtitles.py    # vtt2srt, handle_subtitle_vtts
+      ├── subtitles.py    # vtt2srt, handle_subtitle_vtts, resolve_subtitle_action
       └── constants.py    # CHANNEL_IDS, CHANNEL_PRESET, A_AA, CLIENT_ID
       ```
       Auth is the most likely part to break when DR changes their login flow;
-      isolating it makes that churn reviewable. Keep `tvapi.py` re-exporting the
-      old names so `addon.py` imports stay valid during the transition.
-- [ ] Split `addon.py`: extract ListItem construction (`kodi_item`,
-      `showSimpleAreaSelector`, `showMainMenu`) into a `gui.py` of pure functions
-      taking `(api, items)` — this is what makes routing tests meaningful
-- [ ] Convert `route()`'s if/elif chain (`addon.py:549-622`) into a dict dispatch
-      `{key: method}`
-- [ ] Data-driven menus: `showSimpleAreaSelector` (`addon.py:158-192`) is five
-      near-identical blocks — collapse into a `(label, area, image)` table
-- [ ] Kill module-level side effects: `addon = xbmcaddon.Addon()` at import time
-      (`addon.py:38`) makes importing the module require a Kodi environment. Move
-      into `DrDkTvAddon.__init__` (or a lazy accessor) — simplifies unit tests a lot
-- [ ] Extract the subtitle decision logic from `playVideo` (`addon.py:496-520`)
-      into a pure function `resolve_subtitle_action(settings, subs, kids_channel)`
-      and unit-test it — it is the fiddliest logic in the addon
+      isolating it makes that churn reviewable. `tvapi.py` re-exports the old
+      names so existing imports stay valid. `vtt2srt`/`handle_subtitle_vtts`
+      are module-level functions taking their dependencies as parameters.
+- [x] Split `addon.py`: ListItem construction (`kodi_item`, `showMainMenu`,
+      `showSimpleAreaSelector`) moved to `gui.py` as pure functions taking
+      `(plugin_url, api, menu_items, fanart_image)` — this is what makes
+      routing tests meaningful
+- [x] Convert `route()`'s if/elif chain into dict dispatch: an ordered
+      key→handler table with one `_route_*` method per key
+- [x] Data-driven menus: the simple area selector is now the `AREA_ITEMS`
+      (label, area, image) table in `gui.py`
+- [x] Kill module-level side effects: `xbmcaddon.Addon()` now lives behind
+      `kodiutils.get_addon()` (created on first use); importing kodiutils no
+      longer requires a Kodi environment. `addon.py` imports explicit names
+      from kodiutils (wildcard import and its ruff ignores dropped).
+      `resources_path` is a function now.
+- [x] Extract the subtitle decision logic from `playVideo` into the pure
+      function `resolve_subtitle_action(settings, subs, kids_channel,
+      srt_subtitles)` in `subtitles.py`, unit-tested in `test_subtitles.py`.
+      Behavior fix: with local subtitles enabled but no downloaded SRTs, the
+      old code crashed on `[-1]`; it now falls back to the embedded stream.
 
 ## Phase 4 — Optional later
 
-- [ ] Type hints on `tvapi.py` / `gui.py`; ruff `ANN` subset or pyright in CI
-- [ ] Coverage badge (`pytest-cov`) — only meaningful once tests are hermetic
-- [ ] Replace the blocking `time.sleep` polling in `playVideo`
-      (`addon.py:487-494`) with a `Monitor`-based wait; note the comment says 10 s
-      while the code waits 5 s
+- [x] Type hints on `tvapi.py` / `gui.py` (plus `drauth.py`, `subtitles.py`);
+      ruff `ANN001`+`ANN2` subset in CI. The Kodi-glue modules (`addon.py`,
+      `kodiutils.py`, `tvgui.py`, `cronjob.py`, `iptvmanager.py`, `default.py`)
+      are exempt via per-file-ignores — annotations there would just restate
+      the xbmc API signatures. (pyright not added; ruff ANN chosen.)
+- [x] Coverage badge (`pytest-cov`): `--cov` in CI, badge JSON pushed to
+      `.github/coverage-badge.json` from master runs via the workflow
+      `GITHUB_TOKEN`, shields.io endpoint badge in README (stale PEP8 badge
+      replaced with ruff). Badge pushes are excluded via `paths-ignore` to
+      avoid a CI loop. Locally: `pytest tests --cov`.
+- [x] Replace the blocking `time.sleep` polling in `playVideo` with a
+      `Monitor.waitForAbort`-based wait (`_wait_for_playback`), so Kodi
+      shutdown interrupts it; the 10 s/5 s comment mismatch is fixed and the
+      loop is unit-tested (`tests/test_playvideo_wait.py`).
 
 ## Bugs noticed along the way (worth tickets regardless)
 
-- `search()` with zero results never calls `endOfDirectory` (`addon.py:332`) —
-  Kodi can be left showing a busy spinner
-- `get_schedules` recursion math (`tvapi.py:727`) works, but `divmod(duration, 24)`
-  would express the intent clearly
+- [x] `search()` with zero results never called `endOfDirectory` — Kodi was
+      left showing a busy spinner. `search()` now always ends the directory,
+      also on keyboard cancel or zero hits (test: `test_search_zero_results_ends_directory`).
+- [x] `get_schedules` recursion math: the day-splitting loop is extracted into
+      the pure `Api._schedule_windows(duration)` helper using `divmod`, capped
+      at 7 days exactly like the old loop (tests in `test_tvapi.py`).

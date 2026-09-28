@@ -8,6 +8,7 @@ import urllib.parse as urlparse
 
 
 from resources.lib import addon
+from resources.lib.kodiutils import get_addon
 
 plugin_url = 'plugin://plugin.video.drnu/'
 
@@ -79,17 +80,17 @@ def test_ramasjang(handle):
     bluey = item_from_label(a_aa, 'Bluey')
     assert bluey, 'Bluey not found in ramasjang A-Å list'
 
-    addon.addon.settings['disable.kids.seasons'] = 'true'
+    get_addon().settings['disable.kids.seasons'] = 'true'
     handle.route(bluey['url'])
     episodes = [iteminfo(item) for item in get_items(handle).values()]
     assert len(episodes) == 12
 
-    addon.addon.settings['disable.kids.seasons'] = 'false'
+    get_addon().settings['disable.kids.seasons'] = 'false'
     handle.route(bluey['url'])
     episodes = [iteminfo(item) for item in get_items(handle).values()]
     assert len(episodes) == 12
 
-    addon.addon.settings['disable.kids.menu'] = 'false'
+    get_addon().settings['disable.kids.menu'] = 'false'
     handle.route('?area=ramasjang')
     home_items = [iteminfo(item) for item in get_items(handle).values()]
     from_home = item_from_label(home_items, 'Skab med Ramasjang')
@@ -141,6 +142,23 @@ def test_search(handle):
     handle.route(res[0]['url'])
     res = [iteminfo(item) for item in get_items(handle).values()]
     assert len(res) == 14
+
+
+def test_search_zero_results_ends_directory(handle, monkeypatch):
+    """Zero hits must still end the directory, or Kodi spins forever."""
+    empty = {key: {'size': 0, 'items': []} for key in [
+        'series', 'playable', 'competitions', 'confederations', 'events',
+        'movies', 'newshighlights', 'persons', 'teams', 'tv']}
+    monkeypatch.setattr(handle.api, 'search', lambda term: empty)
+    handle.search()
+    items = get_items(handle)
+    assert items == {}  # no category items added
+
+    import xbmcplugin
+    ended = []
+    monkeypatch.setattr(xbmcplugin, 'endOfDirectory', lambda h, **kw: ended.append(h))
+    handle.search()
+    assert ended  # endOfDirectory was called despite zero results
 
 
 def test_route_dispatch(handle):

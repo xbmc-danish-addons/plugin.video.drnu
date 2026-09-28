@@ -19,7 +19,6 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 import pickle
-import time
 import traceback
 import urllib.parse as urlparse
 from pathlib import Path
@@ -29,12 +28,41 @@ import xbmcgui
 import xbmcplugin
 from xbmcvfs import translatePath
 
-from resources.lib import tvapi, tvgui
+from resources.lib import gui, tvapi, tvgui
 from resources.lib.cronjob import setup_cronjob
 from resources.lib.iptvmanager import IPTVManager
+from resources.lib.kodiutils import (
+    bool_setting,
+    get_addon,
+    get_addon_info,
+    get_setting,
+    kodi_version_major,
+    log,
+    resources_path,
+    set_setting,
+    tr,
+    version,
+)
+from resources.lib.subtitles import resolve_subtitle_action
 
-# Import everything from kodiutils for backward compatibility
-from resources.lib.kodiutils import *
+
+def _wait_for_playback(player, monitor):
+    """Wait until the player confirms playback, or give up after 5 seconds.
+
+    Uses Monitor.waitForAbort so Kodi shutdown interrupts the wait; returns
+    once playback is confirmed, after a 1 second settle wait.
+    """
+    dt = 0.2
+    waited = 0.0
+    while not player.isPlaying():
+        if monitor.waitForAbort(dt):
+            # Kodi is shutting down
+            return
+        waited += dt
+        if waited >= 5:
+            # Still not playing after 5 seconds, giving up...
+            return
+    monitor.waitForAbort(1)  # wait 1 more second to make sure it has fully started
 
 
 class DrDkTvAddon:
@@ -42,11 +70,11 @@ class DrDkTvAddon:
         self._plugin_url = plugin_url
         self._plugin_handle = plugin_handle
 
-        self.cache_path = Path(translatePath(addon.getAddonInfo('profile')))
+        self.cache_path = Path(translatePath(get_addon().getAddonInfo('profile')))
         self.cache_path.mkdir(parents=True, exist_ok=True)
 
         self.search_path = self.cache_path / 'search6.pickle'
-        self.fanart_image = str(resources_path / 'fanart.jpg')
+        self.fanart_image = str(resources_path() / 'fanart.jpg')
 
         self.api = tvapi.Api(self.cache_path, tr, get_setting, log)
 
@@ -54,11 +82,7 @@ class DrDkTvAddon:
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
         self.menuItems.append((tr(30205), runScript))
 
-        # Area Selector
-        self.area_item = xbmcgui.ListItem(tr(30101), offscreen=True)
-        self.area_item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/all.png')})
-
-        setup_cronjob(addon_path, bool_setting, get_setting)
+        setup_cronjob(get_addon_info('path'), bool_setting, get_setting)
         self._version_change_fixes()
 
     def _version_change_fixes(self):
@@ -92,7 +116,7 @@ class DrDkTvAddon:
         if bool_setting('use.simpleareaitem'):
             self.showSimpleAreaSelector()
         else:
-            gui = tvgui.AreaSelectorDialog(tr, resources_path)
+            gui = tvgui.AreaSelectorDialog(tr, resources_path())
             gui.doModal()
             areaSelected = gui.areaSelected
             del gui
@@ -117,84 +141,11 @@ class DrDkTvAddon:
             self.list_entries(f'/{area}')
 
     def showSimpleAreaSelector(self):
-        items = []
-        # DRTV
-        item = xbmcgui.ListItem('DR TV', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/button-drtv.png'),
-                     'icon': str(resources_path / 'media/button-drtv.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=drtv', item, True))
-        # Minisjang
-        item = xbmcgui.ListItem('Minisjang', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/button-minisjang.png'),
-                     'icon': str(resources_path / 'media/button-minisjang.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=minisjang', item, True))
-        # Ramasjang
-        item = xbmcgui.ListItem('Ramasjang', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/button-ramasjang.png'),
-                     'icon': str(resources_path / 'media/button-ramasjang.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=ramasjang', item, True))
-        # Ultra
-        item = xbmcgui.ListItem('Ultra', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/button-ultra.png'),
-                     'icon': str(resources_path / 'media/button-ultra.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=ultra', item, True))
-        # Gensyn
-        item = xbmcgui.ListItem('Gensyn', offscreen=True)
-        item.setArt({'fanart': str(resources_path / 'media/gensyn.png'),
-                     'icon': str(resources_path / 'media/gensyn.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?area=gensyn', item, True))
-
-        xbmcplugin.addDirectoryItems(self._plugin_handle, items)
+        xbmcplugin.addDirectoryItems(self._plugin_handle, gui.area_selector_items(self._plugin_url, self.menuItems))
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def showMainMenu(self, area):
-        items = []
-
-        # Live TV
-        item = xbmcgui.ListItem(tr(30001), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/livetv.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=liveTV', item, True))
-
-        if self.api.user_name != 'anonymous' and area == 'drtv':
-            # Mylist
-            item = xbmcgui.ListItem(f'{tr(30004)} ({self.api.user_name})', offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/drtv.png')})
-            item.addContextMenuItems(self.menuItems, False)
-            items.append((self._plugin_url + '?show=mylist', item, True))
-
-            # Continue watching
-            item = xbmcgui.ListItem(f'{tr(30003)} ({self.api.user_name})', offscreen=True)
-            item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/drtv.png')})
-            item.addContextMenuItems(self.menuItems, False)
-            items.append((self._plugin_url + '?show=continue', item, True))
-
-        for hitem in self.api.get_home(area=area):
-            if hitem['path']:
-                item = xbmcgui.ListItem(hitem['title'], offscreen=True)
-                png = hitem.get('icon', 'star.png')
-                if area in ['drtv', 'minisjang', 'ramasjang', 'ultra']:
-                    png = hitem.get('icon', f'{area}.png')
-                item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / f'icons/{png}')})
-                item_params = '?listVideos=' + hitem['path']
-                runScript = f"RunAddon(plugin.video.drnu,{item_params}&nocache=1)"
-                item.addContextMenuItems(self.menuItems + [(tr(30217), runScript)], False)
-                items.append((self._plugin_url + item_params, item, True))
-
-        # Search videos
-        item = xbmcgui.ListItem(tr(30002), offscreen=True)
-        item.setArt({'fanart': self.fanart_image, 'icon': str(resources_path / 'icons/search.png')})
-        item.addContextMenuItems(self.menuItems, False)
-        items.append((self._plugin_url + '?show=search', item, True))
-
-        if bool_setting('enable.areaitem'):
-            items.append((self._plugin_url + '?show=areaselector', self.area_item, True))
-
+        items = gui.main_menu_items(self._plugin_url, self.api, self.menuItems, self.fanart_image, area)
         xbmcplugin.addDirectoryItems(self._plugin_handle, items)
         xbmcplugin.endOfDirectory(self._plugin_handle)
 
@@ -270,10 +221,10 @@ class DrDkTvAddon:
     def search(self):
         keyboard = xbmc.Keyboard('', tr(30002))
         keyboard.doModal()
+        directoryItems = []
         if keyboard.isConfirmed():
             keyword = keyboard.getText()
             search_results = self.api.search(keyword)
-            directoryItems = []
             for key in [
                     'series',
                     'playable',
@@ -293,71 +244,14 @@ class DrDkTvAddon:
             if directoryItems:
                 with self.search_path.open('wb') as fh:
                     pickle.dump(search_results, fh)
-                xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
-                xbmcplugin.endOfDirectory(self._plugin_handle)
+
+        # always end the directory, also on cancel or zero results,
+        # otherwise Kodi is left showing a busy spinner
+        xbmcplugin.addDirectoryItems(self._plugin_handle, directoryItems)
+        xbmcplugin.endOfDirectory(self._plugin_handle)
 
     def kodi_item(self, item, is_season=False):
-        menuItems = list(self.menuItems)
-        isFolder = item['type'] not in ['program', 'episode']
-        if item.get('path', '').startswith('/kanal/') and item['type'] == 'link':
-            isFolder = False
-        if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
-            return None
-        if 'kodi_seasons' in item:
-            is_season = item['kodi_seasons']
-
-        title = self.api.get_title(item)
-        listItem = xbmcgui.ListItem(title, offscreen=True)
-        videoInfoTag = listItem.getVideoInfoTag()
-        self.api.set_info(item, videoInfoTag, title)
-        if 'images' in item:
-            img = {}
-            for label in ['tile', 'poster', 'square']:
-                if label in item['images']:
-                    img['thumb'] = item['images'][label]
-                    img['icon'] = item['images'][label]
-                    break
-            for label in ['wallpaper', 'square', 'poster']:
-                if label in item['images']:
-                    img['fanart'] = item['images'][label]
-            listItem.setArt(img)
-        else:
-            area = self.api.item_area(item)
-            icon_file = str(resources_path / f'icons/{area}.png')
-            listItem.setArt({'fanart': self.fanart_image, 'icon': icon_file})
-
-        log(f'{title} -- {item["id"]} | {item["type"]} | {item.get("path")}', level=1)
-        if item.get('in_mylist', False):
-            runScript = f"RunPlugin(plugin://plugin.video.drnu/?delfavorite={item['id']})"
-            menuItems.append((tr(30010), runScript))
-        elif item.get('ResumeTime', False):
-            runScript = f"RunPlugin(plugin://plugin.video.drnu/?delwatched={item['id']})"
-            menuItems.append((tr(30008), runScript))
-        else:
-            if item['type'] not in ['ListEntry', 'RecommendationEntry']:
-                runScript = f"RunPlugin(plugin://plugin.video.drnu/?addfavorite={item['id']})"
-                menuItems.append((tr(30009), runScript))
-
-        if isFolder:
-            if item.get('path', False):
-                url = self._plugin_url + f"?listVideos={item['path']}&seasons={is_season}"
-            elif 'list' in item:
-                param = item['list'].get('parameter', 'NoParam')
-                url = self._plugin_url + \
-                    f"?listVideos=ID_{item['list']['id']}&list_param={param}&seasons={is_season}"
-            else:
-                return None
-            runScript = f"RunAddon(plugin.video.drnu,?{url.split('?')[1]}&nocache=1)"
-            menuItems.append((tr(30217), runScript))
-            listItem.setIsFolder(True)
-        else:
-            listItem.setIsFolder(False)
-            kids = self.api.kids_item(item)
-            url = self._plugin_url + f"?playVideo={item['id']}&kids={str(kids)}&idpath={item['path']}"
-            listItem.setProperty('IsPlayable', 'true')
-
-        listItem.addContextMenuItems(menuItems, False)
-        return (url, listItem, isFolder,)
+        return gui.kodi_item(self._plugin_url, self.api, self.menuItems, self.fanart_image, item, is_season)
 
     def listEpisodes(self, items, addSortMethods=False, seasons=False):
         directoryItems = []
@@ -429,12 +323,13 @@ class DrDkTvAddon:
 
         listItem = xbmcgui.ListItem(path=video['url'], offscreen=True)
 
-        if int(get_setting('inputstream')) == 0:
+        inputstream_setting = int(get_setting('inputstream'))
+        if inputstream_setting == 0:
             listItem.setProperty('inputstream', 'inputstream.adaptive')
             if kodi_version_major() <= 20:
                 listItem.setProperty('inputstream.adaptive.manifest_type', 'hls')
 
-        local_subs_bool = bool_setting('enable.localsubtitles') or int(get_setting('inputstream')) == 1
+        local_subs_bool = bool_setting('enable.localsubtitles') or inputstream_setting == 1
         if local_subs_bool and video['srt_subtitles']:
             listItem.setSubtitles(video['srt_subtitles'])
         xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, listItem)
@@ -442,43 +337,25 @@ class DrDkTvAddon:
             return
 
         player = xbmc.Player()
-        # Wait for positive confirmation of playback
-        t = 0
-        dt = 0.2
-        while not player.isPlaying():
-            t += dt
-            if t >= 5:
-                # Still not playing after 10 seconds, giving up...
-                return
-            else:
-                time.sleep(dt)
-        time.sleep(1)  # wait 1 more second to make sure it has fully started
+        _wait_for_playback(player, xbmc.Monitor())
 
         # Set subtitles according to setting wishes
         if player.isPlaying():
-            if all([bool_setting('disable.kids.subtitles') and kids_channel]):
+            settings = {
+                'disable.kids.subtitles': bool_setting('disable.kids.subtitles'),
+                'enable.subtitles': bool_setting('enable.subtitles'),
+                'enable.localsubtitles': local_subs_bool,
+                'inputstream': inputstream_setting,
+            }
+            action, value = resolve_subtitle_action(settings, subs, kids_channel, video['srt_subtitles'])
+            if action == 'off':
                 player.showSubtitles(False)
-            elif bool_setting('enable.subtitles'):
-                if local_subs_bool:
-                    player.setSubtitles(video['srt_subtitles'][-1])
-                    player.showSubtitles(True)
-                    return
-
-                for type in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles', 'ForeignLanguageSubtitles']:
-                    if type in subs:
-                        player.setSubtitleStream(subs[type])
-                        player.showSubtitles(True)
-                        return
-            else:
-                if 'ForeignLanguageSubtitles' in subs:
-                    if local_subs_bool:
-                        player.setSubtitles(video['srt_subtitles'][0])
-                        player.showSubtitles(True)
-                        return
-                    player.setSubtitleStream(subs['ForeignLanguageSubtitles'])
-                    player.showSubtitles(True)
-                else:
-                    player.showSubtitles(False)
+            elif action == 'stream':
+                player.setSubtitleStream(value)
+                player.showSubtitles(True)
+            elif action == 'local':
+                player.setSubtitles(video['srt_subtitles'][value])
+                player.showSubtitles(True)
 
     def refresh_ui(self, params=''):
         xbmc.executebuiltin(f'Container.Update({self._plugin_url + params})')
@@ -510,77 +387,25 @@ class DrDkTvAddon:
     def route(self, query):
         try:
             PARAMS = dict(urlparse.parse_qsl(query[1:]))
-            # log(f'{PARAMS}', level=1)
-            if 'show' in PARAMS:
-                if PARAMS['show'] == 'liveTV':
-                    self.showLiveTV()
-                elif PARAMS['show'] == 'search':
-                    self.search()
-                elif PARAMS['show'] == 'areaselector':
-                    self.showAreaSelector()
-                elif PARAMS['show'] == 'mylist':
-                    self.listEpisodes(self.api.get_mylist())
-                elif PARAMS['show'] == 'continue':
-                    self.listEpisodes(self.api.get_continue())
-
-            # iptv manager integration
-            elif 'iptv' in PARAMS:
-                if PARAMS['iptv'] == 'channels':
-                    IPTVManager(int(PARAMS['port']), channels=self.getIptvLiveChannels()).send_channels()
-                elif PARAMS['iptv'] == 'epg':
-                    IPTVManager(int(PARAMS['port']), epg=self.getIptvEpg()).send_epg()
-            elif 'searchresult' in PARAMS:
-                with self.search_path.open('rb') as fh:
-                    search_results = pickle.load(fh)
-                self.listEpisodes(search_results[PARAMS['searchresult']]['items'])
-            elif 'listVideos' in PARAMS:
-                seasons = PARAMS.get('seasons', 'False') == 'True'
-                caching = PARAMS.get('nocache', '0') != '1'
-                if PARAMS['listVideos'].startswith('ID_'):
-                    if caching is False:
-                        self.api.caching = False
-                    items = self.api.get_list(PARAMS['listVideos'], PARAMS['list_param'])
-                    area = self.api.item_area(items['items'][0])
-                    filter_kids = False
-                    if area in ['drtv', 'gensyn']:
-                        filter_kids = bool_setting('disable.kids')
-                    items = self.api.unfold_list(items, filter_kids=filter_kids)
-                    if caching is False:
-                        self.api.caching = True
-                    self.listEpisodes(items)
-                else:
-                    self.list_entries(PARAMS['listVideos'], caching=caching, seasons=seasons)
-
-            elif 'playVideo' in PARAMS:
-                self.playVideo(PARAMS['playVideo'], PARAMS['kids'], PARAMS['idpath'])
-
-            elif 'addfavorite' in PARAMS:
-                self.api.add_to_mylist(PARAMS['addfavorite'])
-            elif 'delfavorite' in PARAMS:
-                self.api.delete_from_mylist(PARAMS['delfavorite'])
-                self.refresh_ui('?show=mylist')
-            elif 'delwatched' in PARAMS:
-                self.api.delete_from_watched(PARAMS['delwatched'])
-                self.refresh_ui('?show=continue')
-
-            elif 'loginnow' in PARAMS:
-                self.login()
-
-            elif 're-cache' in PARAMS:
-                progress = xbmcgui.DialogProgress()
-                progress.create("video.drnu")
-                progress.update(0)
-                self.api.recache_items(clear_expired=True, progress=progress)
-                progress.update(100)
-                progress.close()
-                if PARAMS['re-cache'] == '2':
-                    self.showSimpleAreaSelector()
-                    xbmc.executebuiltin('ActivateWindow(home)')
-
-            else:
-                areas = ['none', 'drtv', 'minisjang', 'ramasjang', 'ultra', 'gensyn']
-                area = PARAMS.get('area', areas[int(get_setting('area'))])
-                self.showArea(area)
+            routes = {
+                'show': self._route_show,
+                'iptv': self._route_iptv,
+                'searchresult': self._route_searchresult,
+                'listVideos': self._route_listvideos,
+                'playVideo': self._route_playvideo,
+                'addfavorite': self._route_addfavorite,
+                'delfavorite': self._route_delfavorite,
+                'delwatched': self._route_delwatched,
+                'loginnow': self._route_login,
+                're-cache': self._route_recache,
+            }
+            for key, handler in routes.items():
+                if key in PARAMS:
+                    handler(PARAMS)
+                    return
+            areas = ['none', 'drtv', 'minisjang', 'ramasjang', 'ultra', 'gensyn']
+            area = PARAMS.get('area', areas[int(get_setting('area'))])
+            self.showArea(area)
 
         except tvapi.ApiException as ex:
             log(['API exception', query], level=1)
@@ -596,3 +421,72 @@ class DrDkTvAddon:
             heading = 'drnu addon crash'
             xbmcgui.Dialog().ok(heading, '\n'.join([tr(30906), tr(30907), str(stack)]))
             raise ex
+
+    def _route_show(self, params):
+        routes = {
+            'liveTV': self.showLiveTV,
+            'search': self.search,
+            'areaselector': self.showAreaSelector,
+            'mylist': lambda: self.listEpisodes(self.api.get_mylist()),
+            'continue': lambda: self.listEpisodes(self.api.get_continue()),
+        }
+        handler = routes.get(params['show'])
+        if handler:
+            handler()
+
+    def _route_iptv(self, params):
+        if params['iptv'] == 'channels':
+            IPTVManager(int(params['port']), channels=self.getIptvLiveChannels()).send_channels()
+        elif params['iptv'] == 'epg':
+            IPTVManager(int(params['port']), epg=self.getIptvEpg()).send_epg()
+
+    def _route_searchresult(self, params):
+        with self.search_path.open('rb') as fh:
+            search_results = pickle.load(fh)
+        self.listEpisodes(search_results[params['searchresult']]['items'])
+
+    def _route_listvideos(self, params):
+        seasons = params.get('seasons', 'False') == 'True'
+        caching = params.get('nocache', '0') != '1'
+        if params['listVideos'].startswith('ID_'):
+            if caching is False:
+                self.api.caching = False
+            items = self.api.get_list(params['listVideos'], params['list_param'])
+            area = self.api.item_area(items['items'][0])
+            filter_kids = False
+            if area in ['drtv', 'gensyn']:
+                filter_kids = bool_setting('disable.kids')
+            items = self.api.unfold_list(items, filter_kids=filter_kids)
+            if caching is False:
+                self.api.caching = True
+            self.listEpisodes(items)
+        else:
+            self.list_entries(params['listVideos'], caching=caching, seasons=seasons)
+
+    def _route_playvideo(self, params):
+        self.playVideo(params['playVideo'], params['kids'], params['idpath'])
+
+    def _route_addfavorite(self, params):
+        self.api.add_to_mylist(params['addfavorite'])
+
+    def _route_delfavorite(self, params):
+        self.api.delete_from_mylist(params['delfavorite'])
+        self.refresh_ui('?show=mylist')
+
+    def _route_delwatched(self, params):
+        self.api.delete_from_watched(params['delwatched'])
+        self.refresh_ui('?show=continue')
+
+    def _route_login(self, params):
+        self.login()
+
+    def _route_recache(self, params):
+        progress = xbmcgui.DialogProgress()
+        progress.create('video.drnu')
+        progress.update(0)
+        self.api.recache_items(clear_expired=True, progress=progress)
+        progress.update(100)
+        progress.close()
+        if params['re-cache'] == '2':
+            self.showSimpleAreaSelector()
+            xbmc.executebuiltin('ActivateWindow(home)')

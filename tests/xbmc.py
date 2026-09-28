@@ -136,6 +136,13 @@ class Player:  # pylint: disable=useless-object-inheritance
         """A stub implementation for the xbmc Player class getVideoInfoTag() method"""
         return VideoInfoTag()
 
+    def setSubtitles(self, subtitleFile):
+        """A stub implementation for the xbmc Player class setSubtitles() method"""
+        # The real API takes a single file path, not a list
+        assert isinstance(subtitleFile, str), 'Player.setSubtitles() takes a single path str, got: %r' % (subtitleFile,)
+        self.subtitle_file = subtitleFile
+        return
+
     def setSubtitleStream(self, url):
         """A stub implementation for the xbmc Player class setSubtitleStream() method"""
         self.subtitle_url = url

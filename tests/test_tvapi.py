@@ -1,22 +1,5 @@
 """Unit tests for pure functions in resources/lib/tvapi.py (no Kodi needed)."""
-import sys
-from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).parent.parent / 'resources' / 'lib'))
-
-import tvapi
-
-VTT = (
-    "WEBVTT\r\n"
-    "\r\n"
-    "1\r\n"
-    "00:00:01.000 --> 00:00:02.000\r\n"
-    "Hello\r\n"
-    "\r\n"
-    "2\r\n"
-    "00:00:03.000 --> 00:00:04.000\r\n"
-    "World\r\n"
-)
+from resources.lib import tvapi
 
 
 def test_fix_query_add_and_sort():
@@ -41,17 +24,6 @@ def test_fix_query_remove_matching_value_only():
 def test_fix_query_no_query():
     url = tvapi.fix_query('https://x.dk/api/page', add={'page_size': '24'})
     assert url == 'https://x.dk/api/page?page_size=24'
-
-
-def test_generate_code_verifier_length():
-    verifier = tvapi.generate_code_verifier(64)
-    assert len(verifier) == 64
-
-
-def test_generate_code_challenge_rfc7636_vector():
-    # RFC 7636 appendix B test vector
-    verifier = 'dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk'
-    assert tvapi.generate_code_challenge(verifier) == 'E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM'
 
 
 def test_get_title_plain():
@@ -94,19 +66,22 @@ def test_cache_path():
     assert not tvapi.cache_path('/liste/drtv-hero-saturday-18_00_89366')
 
 
-def test_vtt2srt():
-    srt = tvapi.Api.vtt2srt(None, VTT)
-    assert srt == (
-        '1\n'
-        '00:00:01,000 --> 00:00:02,000\n'
-        'Hello\n'
-        '\n'
-        '2\n'
-        '00:00:03,000 --> 00:00:04,000\n'
-        'World'
-    )
+def test_schedule_windows_single_request():
+    # durations <= 24 never reach _schedule_windows (single request branch)
+    assert tvapi.Api._schedule_windows(6) == [(0, 6)]
 
 
-def test_vtt2srt_accepts_bytes():
-    srt = tvapi.Api.vtt2srt(None, VTT.encode('utf-8'))
-    assert srt.startswith('1\n00:00:01,000')
+def test_schedule_windows_full_days():
+    assert tvapi.Api._schedule_windows(48) == [(0, 24), (1, 24)]
+
+
+def test_schedule_windows_partial_tail():
+    assert tvapi.Api._schedule_windows(50) == [(0, 24), (1, 24), (2, 2)]
+    assert tvapi.Api._schedule_windows(167) == [(i, 24) for i in range(6)] + [(6, 23)]
+
+
+def test_schedule_windows_caps_at_seven_days():
+    # a tail that would need an 8th day is dropped, like the old loop
+    assert tvapi.Api._schedule_windows(168) == [(i, 24) for i in range(7)]
+    assert tvapi.Api._schedule_windows(169) == [(i, 24) for i in range(7)]
+    assert tvapi.Api._schedule_windows(200) == [(i, 24) for i in range(7)]

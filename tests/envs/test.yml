@@ -11,3 +11,4 @@ dependencies:
   - ruff
   - pip:
     - kodi-addon-checker
+    - pytest-cov

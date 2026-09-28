@@ -14,21 +14,23 @@
 #  GNU General Public License for more details.
 #
 #  You should have received a copy of the GNU General Public License
-#  along with XBMC; see the file COPYING.  If not, write to
+#  along with this Program; see the file LICENSE.txt.  If not, write to
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
+"""DR API client: auth token bookkeeping, listings, schedules and streams.
 
-import base64
-import hashlib
-import json
+Auth protocol functions live in drauth, subtitle handling in subtitles and
+shared constants in constants. The names are re-exported here so existing
+imports of tvapi keep working.
+"""
+
 import pickle
-import re
-import secrets
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import parse_qs, parse_qsl, urlencode, urlparse
+from typing import Any, Callable, Dict, List, Optional, Tuple, Union
+from urllib.parse import parse_qsl, urlencode, urlparse
 
 import requests
 import requests_cache
@@ -36,32 +38,30 @@ from dateutil import parser
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
-CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
-CHANNEL_PRESET = {
-    'DR1': 1,
-    'DR2': 2,
-    'DR Ramasjang': 3,
-    'TVA Live': 4,
-    'DRTV Ekstra': 5
-}
-URL = 'https://production.dr-massive.com/api'
-CLIENT_ID = "283ba39a2cf31d3b81e922b8"
-GET_TIMEOUT = 10
-A_AA = {
-    'ramasjang': '/ramasjang_a-aa',
-    'minisjang': '/minisjang/a-aa',
-    'ultra': '/ultra_a-aa',
-    'drtv': '/kategorier/a-aa',
-    'gensyn': '/gensyn/a-aa',
-}
+from resources.lib import subtitles
+
+# Re-export the names that used to live in this module
+from resources.lib.constants import A_AA, CHANNEL_IDS, CHANNEL_PRESET, GET_TIMEOUT, URL  # noqa: F401
+from resources.lib.drauth import (  # noqa: F401
+    CLIENT_ID,
+    anonymous_tokens,
+    deviceid,
+    exchange_token,
+    full_login,
+    generate_code_challenge,
+    generate_code_verifier,
+    oidc_token,
+    refresh_token,
+)
+from resources.lib.subtitles import vtt2srt  # noqa: F401
 
 
-def cache_path(path):
+def cache_path(path: str) -> bool:
     NO_CACHING = ['/liste/drtv-hero']
     return not any(path.startswith(item) for item in NO_CACHING)
 
 
-def fix_query(url, remove=None, add=None, remove_keys=None):
+def fix_query(url: str, remove: Optional[Dict[str, str]] = None, add: Optional[Dict[str, str]] = None, remove_keys: Optional[List[str]] = None) -> str:
     if remove is None:
         remove = {}
     if add is None:
@@ -73,7 +73,7 @@ def fix_query(url, remove=None, add=None, remove_keys=None):
     for k in remove_keys:
         if k in qs:
             del qs[k]
-    for k,v in remove.items():
+    for k, v in remove.items():
         if qs.get(k) == v:
             del qs[k]
     qs.update(add)
@@ -81,130 +81,8 @@ def fix_query(url, remove=None, add=None, remove_keys=None):
     return o._replace(query=urlencode(qs)).geturl()
 
 
-def generate_code_verifier(length: int = 64) -> str:
-    # Generate a secure random string (length between 43 and 128 chars)
-    return secrets.token_urlsafe(length)[:length]
-
-
-def generate_code_challenge(code_verifier: str) -> str:
-    # SHA256 hash of the verifier, then base64-url encode without padding
-    sha256 = hashlib.sha256(code_verifier.encode()).digest()
-    return base64.urlsafe_b64encode(sha256).decode().rstrip('=')
-
-
-def full_login(user, password, log_func=None):
-    ses = requests.Session()
-
-    # start login flow
-    code_verifier = generate_code_verifier()
-    code_challenge = generate_code_challenge(code_verifier)
-
-    params = {
-        "client_id": CLIENT_ID,
-        "code_challenge": code_challenge,
-        "code_challenge_method": "S256",
-        "redirect_uri": "https://www.dr.dk/drtv/callback",
-        "state": f'{{"code_verifier":"{code_verifier}","logonRedirectPath":"/","optout":false}}',
-        "response_type": "code",
-        "scope": "openid roles tracking profile email offline_access"
-    }
-    res = ses.get('https://login.dr.dk/oidc/authorize', params=params)
-    if res.status_code != 200:
-        return {'status_code': res.status_code, 'error': res.text}
-
-    trans = urlparse(res.url).path.split('/')[-1]
-    headers = {'content-type': 'application/json'}
-
-    transaction_fragment = "fragment useTransactionTransactionFragment on Transaction { ... on AuthenticatedAuthenticationTransaction { id email registration href __typename } ... on UnauthenticatedAuthenticationTransaction { id email __typename } ... on UnverifiedAuthenticationTransaction { id email name __typename } ... on UnrecognizedAuthenticationTransaction { id email statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } __typename } ... on UnidentifiedAuthenticationTransaction { id __typename } ... on CompletedEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on PendingEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on CompletedPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingDeletionConfirmationTransaction { id __typename } ... on CompletedDeletionConfirmationTransaction { id __typename } ... on SettingsTransaction { id identity { id email name roles __typename } statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } statisticsConsentRevision { id status definition createdAt __typename } preferencesConsentRevision { id status definition createdAt __typename } newsletterConsentRevision { id status definition createdAt __typename } referBackUri referBackName sessionState expiresAt __typename } ... on PendingEUPTransaction { id href __typename } ... on CompletedEUPTransaction { id __typename } __typename }"  # noqa: E501
-    trans_query = "query useTransactionTransactionQuery($id: ID!) { transaction(id: $id) { ... on Node { id __typename } ...useTransactionTransactionFragment  __typename } }" + transaction_fragment  # noqa: E501
-    identify_query = "mutation useTransactionIdentificationMutation($input: IdentificationInput!) { identify(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment  # noqa: E501
-    authenticate_query = "mutation useTransactionAuthenticationMutation($input: AuthenticationInput!) { authenticate(input: $input) { ... on Node { id __typename } ... on Error { code message __typename } ...useTransactionTransactionFragment __typename } } " + transaction_fragment  # noqa: E501
-
-    trans_data = {
-        "operationName": "useTransactionTransactionQuery",
-        "variables": {"id": trans}, "query": trans_query
-    }
-    identify_data = {
-        "operationName": "useTransactionIdentificationMutation",
-        "variables": {"input": {"transaction": trans, "email": user }}, "query": identify_query
-    }
-    authenticate_data = {
-        "operationName": "useTransactionAuthenticationMutation",
-        "variables": {"input": {"transaction": trans, "password": password }}, "query": authenticate_query
-    }
-
-    url = 'https://login.dr.dk/graphql'
-
-    u1 = ses.post(url, json=trans_data, headers=headers)
-    if log_func:
-        log_func(u1.json())
-    u2 = ses.post(url, json=identify_data, headers=headers)
-    if log_func:
-        log_func(u2.json())
-
-    u3 = ses.post(url, json=authenticate_data, headers=headers)
-    if log_func:
-        log_func(u3.json())
-
-    res2 = ses.get(u3.json()['data']['authenticate']['href'])
-    if res2.status_code != 200:
-        return {'status_code': res2.status_code, 'error': res2.text}
-    code = parse_qs(urlparse(res2.url).query)['code'][0]
-
-    data = {
-        "client_id": CLIENT_ID,
-        "redirect_uri": "https://www.dr.dk/drtv/callback",
-        "code_verifier": code_verifier, "code": code,
-        "grant_type": "authorization_code",
-    }
-    return oidc_token(data)
-
-
-def oidc_token(data):
-    headers = {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"}
-    res = requests.post('https://login.dr.dk/oidc/token', data=data, headers=headers)
-    if res.status_code != 200:
-        return {'status_code': res.status_code, 'error': res.text}
-    return res.json()
-
-
-def refresh_token(refresh_token):
-    data = {"client_id": CLIENT_ID, "refresh_token": refresh_token, "grant_type": "refresh_token"}
-    return oidc_token(data)
-
-
-def exchange_token(tokens):
-    data = {
-        "accessToken": tokens['access_token'], "identityToken": tokens['id_token'],
-        "scopes": ["Catalog"], "device": "web_browser", "optout": False,
-    }
-
-    headers = {"Content-Type": "application/json", "Accept": "application/json"}
-    res = requests.post(URL + '/authorization/exchange', json=data, headers=headers)
-    if res.status_code != 200:
-        return {'status_code': res.status_code, 'error': res.text}
-    return res.json()
-
-
-def deviceid():
-    v = int(Path(__file__).stat().st_mtime)
-    h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
-    return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
-
-
-def anonymous_tokens():
-    data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
-    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
-
-    url = URL + '/authorization/anonymous-sso?'
-    u = requests.post(url, json=data, params=params)
-    if u.status_code != 200:
-        return {'status_code': u.status_code, 'error': u.text}
-    tokens = json.loads(u.content)
-    return tokens
-
 class Api:
-    def __init__(self, cachePath, getLocalizedString, get_setting, log_func=None):
+    def __init__(self, cachePath: Path, getLocalizedString: Callable[[int], str], get_setting: Callable[[str], str], log_func: Optional[Callable] = None) -> None:
         self.cachePath = cachePath
         self.tr = getLocalizedString
         self.log = log_func
@@ -224,12 +102,12 @@ class Api:
         self._refresh_settings()
         self.refresh_tokens()
 
-    def _refresh_settings(self):
+    def _refresh_settings(self) -> None:
         self.user = self.get_setting('drtv_username')
         self.password = self.get_setting('drtv_password')
         self._user_name = ''
 
-    def init_sqlite_db(self):
+    def init_sqlite_db(self) -> None:
         if not (self.cachePath/'requests_cleaned').exists() and (self.cachePath/'requests.cache.sqlite').exists():
             (self.cachePath/'requests.cache.sqlite').unlink()
         request_fname = str(self.cachePath/'requests.cache')
@@ -253,14 +131,14 @@ class Api:
         (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
 
     @property
-    def user_name(self):
+    def user_name(self) -> str:
         if self._user_name == '':
             self._user_name = self.get_profile()['name']
         return self._user_name
 
-    def read_tokens(self, tokens):
+    def read_tokens(self, tokens: List[Dict]) -> None:
         if 'value' in tokens[0]:
-            #old flow, anonymous
+            # old flow, anonymous
             time_str = tokens[0]['expirationDate'].split('.')[0]
             self._user_token = tokens[0]['value']
             self._profile_token = tokens[1]['value']
@@ -276,7 +154,7 @@ class Api:
             time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
 
-    def request_tokens(self):
+    def request_tokens(self) -> Optional[str]:
         self._user_token = None
         self._profile_token = None
 
@@ -295,7 +173,7 @@ class Api:
             pickle.dump([tokens, self.access_tokens], fh)
         return None
 
-    def refresh_tokens(self):
+    def refresh_tokens(self) -> None:
         if self._user_token is None and self.token_file.exists():
             with self.token_file.open('rb') as fh:
                 [tokens, self.access_tokens] = pickle.load(fh)
@@ -321,7 +199,7 @@ class Api:
                     tokens = exchange_token(access_tokens)
                     self.access_tokens = access_tokens
             else:
-                #old flow, anonymous
+                # old flow, anonymous
                 failed_refresh = True
 
             if failed_refresh:
@@ -333,15 +211,15 @@ class Api:
                 with self.token_file.open('wb') as fh:
                     pickle.dump([tokens, self.access_tokens], fh)
 
-    def user_token(self):
+    def user_token(self) -> Optional[str]:
         self.refresh_tokens()
         return self._user_token
 
-    def profile_token(self):
+    def profile_token(self) -> Optional[str]:
         self.refresh_tokens()
         return self._profile_token
 
-    def _request_get(self, url, params=None, headers=None, use_cache=True):
+    def _request_get(self, url: str, params: Optional[Dict] = None, headers: Optional[Dict] = None, use_cache: bool = True) -> Any:
         u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT) if use_cache and self.caching else requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
 
         if u.status_code == 200:
@@ -349,7 +227,7 @@ class Api:
         else:
             raise ApiException(u.text)
 
-    def get_programcard(self, path, data=None, use_cache=True):
+    def get_programcard(self, path: str, data: Optional[Dict] = None, use_cache: bool = True) -> Dict:
         url = URL + '/page?'
         if data is None:
             data = {
@@ -360,17 +238,17 @@ class Api:
             }
         return self._request_get(url, params=data, use_cache=use_cache)
 
-    def get_item(self, id, use_cache=True):
+    def get_item(self, id: Union[int, str], use_cache: bool = True) -> Dict:
         url = URL + f'/items/{int(id)}?'
         return self._request_get(url)
 
-    def get_next(self, path, use_cache=True, headers=None):
-        remove = {'sub':'Emergency'}
+    def get_next(self, path: str, use_cache: bool = True, headers: Optional[Dict] = None) -> Dict:
+        remove = {'sub': 'Emergency'}
         remove_keys = ['lang', 'segments', 'isDeviceAbroad', 'isLive2VodSupported']
         url = URL + fix_query(path, remove=remove, remove_keys=remove_keys)
         return self._request_get(url, headers=headers, use_cache=use_cache)
 
-    def get_list(self, id, param, use_cache=True):
+    def get_list(self, id: Union[int, str], param: str, use_cache: bool = True) -> Dict:
         if isinstance(id, str):
             id = int(id.replace('ID_', ''))
         url = URL + f'/lists/{id}'
@@ -382,7 +260,7 @@ class Api:
             ret = self.get_recommendations(id, use_cache=use_cache, param=param)
         return ret
 
-    def get_recommendations(self, id, use_cache=True, param=None):
+    def get_recommendations(self, id: int, use_cache: bool = True, param: Optional[str] = None) -> Dict:
         url = URL + f'/recommendations/{id}'
         data = {'page_size': '24'}
         if param:
@@ -390,28 +268,28 @@ class Api:
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
 
-    def delete_from_watched(self, id):
+    def delete_from_watched(self, id: int) -> None:
         url = f'{URL}/account/profile/continue-watching/{id}'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         u = self.session.delete(url, headers=headers)
         if u.status_code != 204:
             raise ApiException(u.text)
 
-    def delete_from_mylist(self, id):
+    def delete_from_mylist(self, id: int) -> None:
         url = f'{URL}/account/profile/bookmarks/{id}'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         u = self.session.delete(url, headers=headers)
         if u.status_code != 204:
             raise ApiException(u.text)
 
-    def add_to_mylist(self, id):
+    def add_to_mylist(self, id: int) -> None:
         url = f'{URL}/account/profile/bookmarks/{id}'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         u = self.session.put(url, headers=headers)
         if u.status_code != 200:
             raise ApiException(u.text)
 
-    def get_mylist(self, use_cache=False):
+    def get_mylist(self, use_cache: bool = False) -> List[Dict]:
         url = URL + '/account/profile/bookmarks/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -421,7 +299,7 @@ class Api:
             item['in_mylist'] = True
         return items
 
-    def get_continue(self, use_cache=False):
+    def get_continue(self, use_cache: bool = False) -> List[Dict]:
         url = URL + '/account/profile/continue-watching/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -429,16 +307,16 @@ class Api:
         items = self.unfold_list(item, headers=headers)
         watched = self.get_profile()['watched']
         for item in items:
-            item['ResumeTime'] = float(watched.get(str(item['id']), {'position':0.0})['position'])
+            item['ResumeTime'] = float(watched.get(str(item['id']), {'position': 0.0})['position'])
         return items
 
-    def get_profile(self, use_cache=False):
+    def get_profile(self, use_cache: bool = False) -> Dict:
         url = URL + '/account/profile'
         headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
         params = {"ff": "idp,ldp,rpt", "lang": "da"}
         return self._request_get(url, headers=headers, params=params, use_cache=use_cache)
 
-    def item_area(self, item):
+    def item_area(self, item: Dict) -> str:
         label = ''
         if 'classification' in item:
             label = item['classification']['code'].lower()
@@ -448,9 +326,9 @@ class Api:
             for area in A_AA:
                 if area in label:
                     return area
-        return 'drtv' # fall back to general
+        return 'drtv'  # fall back to general
 
-    def kids_item(self, item):
+    def kids_item(self, item: Dict) -> bool:
         if 'classification' in item and item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
             return True
         if 'categories' in item:
@@ -459,7 +337,7 @@ class Api:
                     return True
         return False
 
-    def unfold_list(self, item, filter_kids=False, headers=None, progress=None):
+    def unfold_list(self, item: Dict, filter_kids: bool = False, headers: Optional[Dict] = None, progress: Any = None) -> List[Dict]:
         items = item['items']
         if 'next' in item['paging']:
             if progress is not None:
@@ -480,7 +358,7 @@ class Api:
             items = [item for item in items if not self.kids_item(item)]
         return items
 
-    def search(self, term):
+    def search(self, term: str) -> Dict:
         url = URL + '/search'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         data = {
@@ -495,7 +373,7 @@ class Api:
         else:
             raise ApiException(u.text)
 
-    def get_home(self, area='drtv'):
+    def get_home(self, area: str = 'drtv') -> List[Dict]:
         data = {
             'list_page_size': 24,
             'max_list_prefetch': 1,
@@ -511,7 +389,7 @@ class Api:
             title = item['title']
             if title not in ['Se live tv']:
                 if title == '' and item['type'] == 'ListEntry':
-                    title = item['list'].get('title', '') # get the top spinner item
+                    title = item['list'].get('title', '')  # get the top spinner item
                 for HERO in ['DRTV Hero', 'Ramasjang: Hero', 'Ultra Hero']:
                     if title.startswith(HERO):
                         title = 'Daglige forslag'
@@ -519,7 +397,7 @@ class Api:
                     items.append({'title': title, 'path': item['list']['path']})
         return items
 
-    def getLiveTV(self):
+    def getLiveTV(self) -> List[Dict]:
         channels = []
         schedules = self.get_channel_schedule_strings()
         for id in CHANNEL_IDS:
@@ -528,7 +406,7 @@ class Api:
             channels += card['entries']
         return channels
 
-    def recache_items(self, progress=None, clear_expired=False):
+    def recache_items(self, progress: Any = None, clear_expired: bool = False) -> None:
         if clear_expired:
             self.session.remove_expired_responses()
             (self.cachePath/'requests_cleaned').write_text(str(datetime.now()))
@@ -557,7 +435,7 @@ class Api:
             self.get_children_front_items(channel)
             i += 1
 
-    def get_children_front_items(self, channel):
+    def get_children_front_items(self, channel: str) -> List[Dict]:
         name = A_AA[channel]
         js = self.get_programcard(name)
         items = []
@@ -566,7 +444,7 @@ class Api:
                 items += self.unfold_list(item['list'])
         return items
 
-    def get_stream(self, id):
+    def get_stream(self, id: int) -> Optional[Dict]:
         url = URL + f'/account/items/{int(id)}/videos?'
         headers = {"X-Authorization": f'Bearer {self.user_token()}'}
         data = {
@@ -585,47 +463,14 @@ class Api:
         if u.status_code == 200:
             for stream in u.json():
                 if stream['accessService'] == 'StandardVideo':
-                    stream['srt_subtitles'] = self.handle_subtitle_vtts(stream['subtitles'])
+                    stream['srt_subtitles'] = subtitles.handle_subtitle_vtts(
+                        stream['subtitles'], self.cachePath, self.tr, self.session)
                     return stream
             return None
         else:
             raise ApiException(u.text)
 
-    def handle_subtitle_vtts(self, subs):
-        subtitlesUri = []
-        for sub in subs:
-            name = f'{self.cachePath}/{self.tr(30050)}.da.srt' if sub['language'] in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles'] else f'{self.cachePath}/{self.tr(30051)}.da.srt'
-            u = self.session.get(sub['link'], timeout=10)
-            if u.status_code != 200:
-                u.close()
-                break
-            srt = self.vtt2srt(u.content)
-            with open(name.encode('utf-8'), 'wb') as fh:
-                fh.write(srt.encode('utf-8'))
-            u.close()
-            subtitlesUri.append(name)
-        return subtitlesUri
-
-    def vtt2srt(self, vtt):
-        if isinstance(vtt, bytes):
-            vtt = vtt.decode('utf-8')
-        srt = vtt.replace("\r\n", "\n")
-        srt = re.sub(r'([\d]+)\.([\d]+)', r'\1,\2', srt)
-        srt = re.sub(r'WEBVTT\n\n', '', srt)
-        srt = re.sub(r'^\d+\n', '', srt)
-        srt = re.sub(r'\n\d+\n', '\n', srt)
-        srt = re.sub(r'\n([\d]+)', r'\nputINDEXhere\n\1', srt)
-
-        srtout = ['1']
-        idx = 2
-        for line in srt.splitlines():
-            if line == 'putINDEXhere':
-                line = str(idx)
-                idx += 1
-            srtout.append(line)
-        return '\n'.join(srtout)
-
-    def get_livestream(self, path, with_subtitles=False):
+    def get_livestream(self, path: str, with_subtitles: bool = False) -> Dict:
         channel = self.get_programcard(path)['entries'][0]
         stream = {
             'subtitles': [],
@@ -633,28 +478,28 @@ class Api:
             }
         return stream
 
-    def get_channel_url(self, channel, with_subtitles=False, use_cache=True):
+    def get_channel_url(self, channel: Dict, with_subtitles: bool = False, use_cache: bool = True) -> str:
         id = channel['item']['id']
         url = URL + f'/channels/{id}/liveStreams?'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         js = self._request_get(url, headers=headers, use_cache=use_cache)
-        links = {item['type']:item['link'] for item in js}
+        links = {item['type']: item['link'] for item in js}
 
         EU = 'Eu' if 'hlsURLEu' in links else ''
         url = links['hlsWithSubtitlesURL' + EU] if with_subtitles else links['hlsURL' + EU]
         return url
 
-    def get_title(self, item):
+    def get_title(self, item: Dict) -> str:
         title = item['title']
         if item['type'] == 'season':
             title += f" {item['seasonNumber']}"
-        elif item.get('contextualTitle', None):
+        elif item.get('contextualTitle'):
             cont = item['contextualTitle']
             if cont.count('.') >= 1 and cont.split('.', 1)[1].strip() not in title:
                 title += f" ({item['contextualTitle']})"
         return title
 
-    def fix_item_description(self, item):
+    def fix_item_description(self, item: Dict) -> Dict:
         if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
             resumetime_save = float(item.get('ResumeTime', 0.0))
             item = self.get_item(item['id'])
@@ -662,7 +507,7 @@ class Api:
                 item['ResumeTime'] = resumetime_save
         return item
 
-    def set_info(self, item, tag, title):
+    def set_info(self, item: Dict, tag: Any, title: str) -> None:
         if self.fetch_full_plot:
             item = self.fix_item_description(item)
         tag.setTitle(title)
@@ -687,7 +532,23 @@ class Api:
         if item.get('ResumeTime', False):
             tag.setResumePoint(float(item['ResumeTime']))
 
-    def get_schedules(self, channels=CHANNEL_IDS, date=None, hour=None, duration=6):
+    @staticmethod
+    def _schedule_windows(duration: int) -> List[Tuple[int, int]]:
+        """Split a duration in hours into (day_offset, hours) windows of max 24h.
+
+        Each window starts at the requested hour of the day, matching the
+        pre-divmod behavior, and the total is capped at 7 days (a remainder
+        that would need an 8th day is dropped).
+        """
+        days, remainder = divmod(duration, 24)
+        if days >= 7:
+            days, remainder = 7, 0
+        windows = [(i, 24) for i in range(days)]
+        if remainder:
+            windows.append((days, remainder))
+        return windows
+
+    def get_schedules(self, channels: List[int] = CHANNEL_IDS, date: Optional[str] = None, hour: Optional[int] = None, duration: int = 6) -> List[Dict]:
         url = URL + '/schedules?'
         now = datetime.now(timezone.utc)
         if date is None:
@@ -708,18 +569,12 @@ class Api:
                 raise ApiException(u.text)
 
         schedules = []
-        for i in range(1, 8):
-            iter_date = (now + timedelta(days=i-1)).strftime("%Y-%m-%d")
-            if i*24 > duration:
-                hours = duration % ((i-1)*24)
-                if hours != 0:
-                    schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=hours)
-                break
-            else:
-                schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=24)
+        for day_offset, hours in self._schedule_windows(duration):
+            iter_date = (now + timedelta(days=day_offset)).strftime("%Y-%m-%d")
+            schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=hours)
         return schedules
 
-    def get_channel_schedule_strings(self, channels=CHANNEL_IDS):
+    def get_channel_schedule_strings(self, channels: List[int] = CHANNEL_IDS) -> Dict[int, str]:
         out = {}
         now = datetime.now(timezone.utc)
         for channel in self.get_schedules():
