@@ -6,6 +6,8 @@
 - Fix search with no results leaving Kodi showing a busy spinner
 - Fix crash when local subtitles are enabled but the subtitle download fails;
   playback now falls back to the embedded subtitle stream
+- Fix crash after playback starts with local subtitles enabled
+  (Player.setSubtitles takes a single path, not a list)
 - Test suite expanded to 48 tests running against recorded API fixtures
   (no test touches the live DR API)
 - Type hints on the API and menu modules, checked by ruff in CI

@@ -354,7 +354,7 @@ class DrDkTvAddon:
                 player.setSubtitleStream(value)
                 player.showSubtitles(True)
             elif action == 'local':
-                player.setSubtitles([video['srt_subtitles'][value]])
+                player.setSubtitles(video['srt_subtitles'][value])
                 player.showSubtitles(True)
 
     def refresh_ui(self, params=''):
