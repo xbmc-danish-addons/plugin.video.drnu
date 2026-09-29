@@ -353,22 +353,25 @@ class DialogProgressBG:
     def __init__(self):
         """A stub constructor for the xbmcgui DialogProgressBG class"""
         self.percentage = 0
+        self.canceled = False
 
-    @staticmethod
-    def close():
+    def close(self):
         """A stub implementation for the xbmcgui DialogProgressBG class close() method"""
         print()
 
-    @staticmethod
-    def create(heading, message):
+    def create(self, heading, message):
         """A stub implementation for the xbmcgui DialogProgressBG class create() method"""
         heading = kodi_to_ansi(heading)
         message = kodi_to_ansi(message)
         print('\033[37;44;1mPROGRESS:\033[35;49;1m [%s] \033[37;1m%s\033[39;0m' % (heading, message))
 
-    @staticmethod
-    def isfinished():
+    def isfinished(self):
         """A stub implementation for the xbmcgui DialogProgressBG class isfinished() method"""
+        return False
+
+    def iscanceled(self):
+        """A stub implementation for the xbmcgui DialogProgressBG class iscanceled() method"""
+        return self.canceled
 
     def update(self, percentage, heading=None, message=None):
         """A stub implementation for the xbmcgui DialogProgressBG class update() method"""

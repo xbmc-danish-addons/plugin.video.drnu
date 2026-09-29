@@ -246,6 +246,12 @@
         <heading>30226</heading>
       </control>
     </setting>
+    <setting id="recache.service" label="30227" type="boolean">
+      <level>0</level> <default>true</default> <control type="toggle"/>
+    </setting>
+    <setting id="recache.service.idle" label="30228" type="boolean">
+      <level>0</level> <default>true</default> <control type="toggle"/>
+    </setting>
 		</group>
   </category>
 
