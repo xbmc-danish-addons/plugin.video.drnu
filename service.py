@@ -29,7 +29,7 @@ Runs for the lifetime of Kodi and hourly:
 import traceback
 from datetime import datetime
 from pathlib import Path
-from typing import Callable
+from typing import Callable, Optional
 
 import xbmc
 import xbmcaddon
@@ -61,11 +61,26 @@ def cleanup_once(cache_path: Path) -> None:
         log('servicecleanup: expired and vacuumed the request cache db')
 
 
+def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
+    """Create the background progress dialog, or None if Kodi refuses.
+
+    DialogProgressBG.create() raises RuntimeError outside a GUI context
+    (e.g. a headless service start); the crawl itself does not need the
+    dialog, so degrade to running without progress instead of failing.
+    """
+    dialog = xbmcgui.DialogProgressBG()
+    try:
+        dialog.create('DR TV', tr(30524))
+        return dialog
+    except RuntimeError:
+        return None
+
+
 def recache_once(cache_path: Path) -> None:
     """Run the scheduled re-cache crawl when due (idle-gated by default)."""
     if recache_pass(get_setting, lambda: tvapi.Api(cache_path, tr, get_setting, log),
                     cache_path, datetime.now(), idle_and_not_playing,
-                    xbmcgui.DialogProgressBG):
+                    make_bg_dialog):
         log('servicecleanup: background re-cache finished')
 
 

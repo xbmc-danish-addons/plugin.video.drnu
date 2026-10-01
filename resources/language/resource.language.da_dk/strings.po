@@ -195,6 +195,10 @@ msgctxt "#30228"
 msgid "re-cache only when Kodi is idle"
 msgstr "re-cache kun når Kodi er inaktiv"
 
+msgctxt "#30524"
+msgid "re-caching programs..."
+msgstr "genindlæser programmer..."
+
 # Login
 msgctxt "#30300"
 msgid "drtv username"

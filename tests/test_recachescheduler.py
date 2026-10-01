@@ -46,9 +46,17 @@ def test_recache_due_not_yet(tmp_path):
 class FakeDialog:
     def __init__(self):
         self.updates: List[tuple] = []
+        self.created = False
+        self.closed = False
+
+    def create(self, heading, message):
+        self.created = True
 
     def update(self, percentage, heading=None, message=None):
         self.updates.append((percentage, message))
+
+    def close(self):
+        self.closed = True
 
 
 class FakeApi:
@@ -70,26 +78,35 @@ def _settings(overrides: Optional[Dict[str, str]] = None):
     return s.get
 
 
-def _run_pass(tmp_path, settings, idle=True, api=None, last=None):
-    """Run one recache_pass with fakes; returns (result, api, progress_seen)."""
+_USE_DEFAULT_DIALOG = object()
+
+
+def _run_pass(tmp_path, settings, idle=True, api=None, last=None, dialog=_USE_DEFAULT_DIALOG):
+    """Run one recache_pass with fakes; returns (result, api, progress, dialogs)."""
     api = api or FakeApi()
     if last is not None:
         RecacheState(tmp_path).save(last)
     progress_seen = []
+    dialog_seen = []
 
-    def progress_factory(dialog, idle_check):
-        p = IdleAbortProgress(dialog, idle_check)
+    def dialog_factory():
+        d = FakeDialog() if dialog is _USE_DEFAULT_DIALOG else dialog
+        dialog_seen.append(d)
+        return d
+
+    def progress_factory(d, idle_check):
+        p = IdleAbortProgress(d, idle_check)
         progress_seen.append(p)
         return p
 
     result = recache_pass(settings, lambda: api, tmp_path, NOW,
-                          lambda: idle, FakeDialog, progress_factory)
-    return result, api, (progress_seen[0] if progress_seen else None)
+                          lambda: idle, dialog_factory, progress_factory)
+    return result, api, (progress_seen[0] if progress_seen else None), dialog_seen
 
 
 def test_pass_runs_when_due_and_idle(tmp_path):
     last = datetime(2026, 9, 28, 12, 0)
-    result, api, progress = _run_pass(tmp_path, _settings(), idle=True, last=last)
+    result, api, progress, _ = _run_pass(tmp_path, _settings(), idle=True, last=last)
     assert result is True
     assert len(api.calls) == 1
     assert api.calls[0]['clear_expired'] is True
@@ -100,7 +117,7 @@ def test_pass_runs_when_due_and_idle(tmp_path):
 
 def test_pass_blocked_by_idle_gate(tmp_path):
     last = datetime(2026, 9, 28, 12, 0)
-    result, api, progress = _run_pass(tmp_path, _settings(), idle=False, last=last)
+    result, api, progress, _ = _run_pass(tmp_path, _settings(), idle=False, last=last)
     assert result is False
     assert api.calls == []
     # slot NOT marked done — retried on a later idle pass
@@ -109,21 +126,21 @@ def test_pass_blocked_by_idle_gate(tmp_path):
 
 def test_pass_idle_gate_disabled_setting(tmp_path):
     last = datetime(2026, 9, 28, 12, 0)
-    result, api, _ = _run_pass(tmp_path, _settings({'recache.service.idle': 'false'}),
+    result, api, _, _ = _run_pass(tmp_path, _settings({'recache.service.idle': 'false'}),
                                idle=False, last=last)
     assert result is True
     assert len(api.calls) == 1
 
 
 def test_pass_not_due(tmp_path):
-    result, api, _ = _run_pass(tmp_path, _settings(), idle=True, last=NOW)
+    result, api, _, _ = _run_pass(tmp_path, _settings(), idle=True, last=NOW)
     assert result is False
     assert api.calls == []
 
 
 def test_pass_disabled_settings(tmp_path):
     for key in ['recache.enabled', 'recache.service']:
-        result, api, _ = _run_pass(tmp_path, _settings({key: 'false'}), idle=True,
+        result, api, _, _ = _run_pass(tmp_path, _settings({key: 'false'}), idle=True,
                                    last=datetime(2026, 9, 28, 12, 0))
         assert result is False
         assert api.calls == []
@@ -140,7 +157,7 @@ def test_pass_aborts_when_user_becomes_active(tmp_path):
             return  # recache_items returns early on iscanceled
 
     last = datetime(2026, 9, 28, 12, 0)
-    result, api, progress = _run_pass(tmp_path, _settings(), idle=True, api=AbortingApi(), last=last)
+    result, api, progress, _ = _run_pass(tmp_path, _settings(), idle=True, api=AbortingApi(), last=last)
     assert result is False
     assert progress.was_aborted is True
     # slot left unsaved so the job retries on the next idle pass
@@ -160,3 +177,40 @@ def test_idle_abort_progress_forwards_updates():
     p = IdleAbortProgress(dialog, lambda: True)
     p.update(42.6, 'msg')
     assert dialog.updates == [(42, 'msg')]
+
+
+def test_idle_abort_progress_without_dialog_drops_updates():
+    p = IdleAbortProgress(None, lambda: True)
+    p.update(42.6, 'msg')  # must not raise
+    assert p.iscanceled() is False
+
+
+def test_pass_closes_dialog_after_run(tmp_path):
+    last = datetime(2026, 9, 28, 12, 0)
+    dialog = FakeDialog()
+    result, _, _, seen = _run_pass(tmp_path, _settings(), idle=True, last=last, dialog=dialog)
+    assert result is True
+    assert seen == [dialog]
+    assert dialog.closed is True
+
+
+def test_pass_closes_dialog_even_when_aborted(tmp_path):
+    class AbortingApi(FakeApi):
+        def recache_items(self, progress=None, clear_expired=False):
+            progress.was_aborted = True
+
+    dialog = FakeDialog()
+    last = datetime(2026, 9, 28, 12, 0)
+    result, _, _, _ = _run_pass(tmp_path, _settings(), idle=True, api=AbortingApi(),
+                                last=last, dialog=dialog)
+    assert result is False
+    assert dialog.closed is True
+
+
+def test_pass_runs_without_dialog(tmp_path):
+    last = datetime(2026, 9, 28, 12, 0)
+    result, api, progress, seen = _run_pass(tmp_path, _settings(), idle=True, last=last, dialog=None)
+    assert result is True
+    assert seen == [None]
+    assert progress.dialog is None
+    assert len(api.calls) == 1

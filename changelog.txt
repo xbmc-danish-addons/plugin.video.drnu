@@ -6,7 +6,9 @@
   when the cron expression is due and, by default, only while Kodi is idle
   (setting to disable the idle gate), with a corner progress dialog
   instead of a blocking one; the crawl aborts within seconds when the
-  user becomes active and retries on the next idle pass
+  user becomes active and retries on the next idle pass. The dialog is
+  created before use and skipped if Kodi has no GUI, so the service no
+  longer fails with "Dialog not created"
 - The service reuses the existing recache settings (enabled/cleanup/
   expiration/cron expression); the cronxbmc job still works and can be
   turned off when the service handles the schedule

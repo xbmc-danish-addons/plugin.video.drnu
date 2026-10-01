@@ -78,8 +78,34 @@ def test_recache_once_wires_pass(monkeypatch, tmp_path):
     monkeypatch.setattr(service_module, 'log', lambda *a, **k: seen.setdefault('logged', True))
     service_module.recache_once(tmp_path)
     assert seen['cache_path'] == tmp_path
-    assert seen['dialog_factory'] is service_module.xbmcgui.DialogProgressBG
+    assert seen['dialog_factory'] is service_module.make_bg_dialog
     assert 'logged' in seen
+
+
+def test_make_bg_dialog_creates_dialog(monkeypatch):
+    created = {}
+
+    class FakeDialog:
+        def create(self, heading, message):
+            created['heading'] = heading
+            created['message'] = message
+
+    monkeypatch.setattr(service_module.xbmcgui, 'DialogProgressBG', FakeDialog)
+    monkeypatch.setattr(service_module, 'tr', lambda i: 'localized')
+    dialog = service_module.make_bg_dialog()
+    assert isinstance(dialog, FakeDialog)
+    assert created['heading'] == 'DR TV'
+    assert created['message'] == 'localized'
+
+
+def test_make_bg_dialog_degrades_without_gui(monkeypatch):
+    class RaisingDialog:
+        def create(self, heading, message):
+            raise RuntimeError('Dialog not created.')
+
+    monkeypatch.setattr(service_module.xbmcgui, 'DialogProgressBG', RaisingDialog)
+    monkeypatch.setattr(service_module, 'tr', lambda i: 'localized')
+    assert service_module.make_bg_dialog() is None
 
 
 def test_recache_once_silent_when_not_due(monkeypatch, tmp_path):

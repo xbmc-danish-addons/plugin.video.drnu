@@ -80,6 +80,9 @@ class IdleAbortProgress:
     The background dialog has no cancel button; 'canceled' instead means
     the user became active again, so recache_items() aborts between pages
     and the slot is left unsaved for the next idle pass.
+
+    The dialog is optional: when it is None (the service could not create
+    one) progress updates are dropped and only the abort signal remains.
     """
 
     def __init__(self, dialog: Any, idle_check: Optional[Callable[[], bool]] = None) -> None:
@@ -88,7 +91,8 @@ class IdleAbortProgress:
         self.was_aborted = False
 
     def update(self, percent: int, msg: str) -> None:
-        self.dialog.update(int(percent), message=msg)
+        if self.dialog is not None:
+            self.dialog.update(int(percent), message=msg)
 
     def iscanceled(self) -> bool:
         if self.was_aborted:
@@ -122,11 +126,17 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         progress_factory = IdleAbortProgress
     # with the gate disabled the crawl runs to completion like the cronjob
     # variant; the abort signal only makes sense while the gate is active
-    progress = progress_factory(dialog_factory(), idle_check if gate_enabled else None)
+    # the factory returns a created dialog (or None when Kodi has no GUI)
+    dialog = dialog_factory()
+    progress = progress_factory(dialog, idle_check if gate_enabled else None)
 
-    api = api_factory()
-    api.recache_items(progress=progress, clear_expired=True)
-    if progress.was_aborted:
-        return False
-    state.save(slot)
-    return True
+    try:
+        api = api_factory()
+        api.recache_items(progress=progress, clear_expired=True)
+        if progress.was_aborted:
+            return False
+        state.save(slot)
+        return True
+    finally:
+        if dialog is not None:
+            dialog.close()
