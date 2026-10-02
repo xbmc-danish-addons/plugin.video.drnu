@@ -58,7 +58,7 @@ def cleanup_once(cache_path: Path) -> None:
     if xbmc.getCondVisibility('Player.playing'):
         return
     if run_cleanup(get_setting, cache_path, log):
-        log('servicecleanup: expired and vacuumed the request cache db')
+        log('servicecleanup: expired and vacuumed the request cache db', xbmc.LOGINFO)
 
 
 def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
@@ -81,7 +81,7 @@ def recache_once(cache_path: Path) -> None:
     if recache_pass(get_setting, lambda: tvapi.Api(cache_path, tr, get_setting, log),
                     cache_path, datetime.now(), idle_and_not_playing,
                     make_bg_dialog):
-        log('servicecleanup: background re-cache finished')
+        log('servicecleanup: background re-cache finished', xbmc.LOGINFO)
 
 
 def run(monitor: xbmc.Monitor, cleanup: Callable[[], None], interval_seconds: int) -> None:
