@@ -294,6 +294,14 @@ def getCondVisibility(string):
     return True
 
 
+def getGlobalIdleTime():
+    """A reimplementation of the xbmc getGlobalIdleTime() function
+
+    Returns 0 (user active now); tests monkeypatch this for idle scenarios.
+    """
+    return 0
+
+
 def getInfoLabel(key):
     """A reimplementation of the xbmc getInfoLabel() function"""
     assert isinstance(key, str)

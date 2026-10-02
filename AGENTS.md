@@ -13,11 +13,14 @@ program. License: GPL-2.0-only — keep headers on existing files.
 
 ```
 default.py                 entry point, calls DrDkTvAddon.route()
+service.py                 background service: periodic request-cache cleanup (expire + VACUUM)
 addon.xml                  addon metadata, version, dependencies
 resources/lib/addon.py     routing + GUI construction (DrDkTvAddon)
 resources/lib/tvapi.py     DR API client: auth, caching, listings, streams
 resources/lib/tvgui.py     AreaSelectorDialog (xbmcgui.WindowDialog)
 resources/lib/cronjob.py   service.cronxbmc integration for cache refresh
+resources/lib/cronmatch.py 5-field cron matcher (used by the service scheduler)
+resources/lib/recachescheduler.py  service-side scheduling of the re-cache crawl
 resources/lib/iptvmanager.py  IPTV Manager (pvr.iptvsimple) socket interface
 resources/language/*/strings.po  localized strings (tr(id) reads these)
 resources/settings.xml     addon settings

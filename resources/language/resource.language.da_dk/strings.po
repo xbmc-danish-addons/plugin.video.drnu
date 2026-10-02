@@ -187,6 +187,18 @@ msgctxt "#30226"
 msgid "cron expression"
 msgstr "cron tidskode"
 
+msgctxt "#30227"
+msgid "re-cache from background service"
+msgstr "re-cache fra baggrundsservice"
+
+msgctxt "#30228"
+msgid "re-cache only when Kodi is idle"
+msgstr "re-cache kun når Kodi er inaktiv"
+
+msgctxt "#30524"
+msgid "re-caching programs..."
+msgstr "genindlæser programmer..."
+
 # Login
 msgctxt "#30300"
 msgid "drtv username"
