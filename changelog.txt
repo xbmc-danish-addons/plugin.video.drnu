@@ -12,8 +12,9 @@
 - The service reuses the existing recache settings (enabled/cleanup/
   expiration); cleanup is skipped while playback is active
 - The cronxbmc integration is removed: the addon no longer depends on
-  service.cronxbmc, and any job left by an older version is deleted on
-  startup; the manual "re-cache all" settings button is unchanged
+  service.cronxbmc, and upgrading from before 7.1 deletes any job an older
+  version left behind and resets the new recache settings to their 7.1
+  defaults; the manual "re-cache all" settings button is unchanged
 - Log service success lines at INFO level so they show in default logs
 - Fix request cache file never returning deleted space to the filesystem
 

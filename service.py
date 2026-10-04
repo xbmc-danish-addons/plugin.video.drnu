@@ -37,7 +37,6 @@ import xbmcgui
 from xbmcvfs import translatePath
 
 from resources.lib import tvapi
-from resources.lib.cronjob import remove_cronjob
 from resources.lib.kodiutils import get_setting, log, tr
 from resources.lib.recachescheduler import recache_pass
 from resources.lib.servicecleanup import run_cleanup
@@ -97,12 +96,6 @@ def run(monitor: xbmc.Monitor, cleanup: Callable[[], None], interval_seconds: in
 
 def main() -> None:
     cache_path = Path(translatePath(xbmcaddon.Addon().getAddonInfo('profile')))
-    try:
-        # delete the deprecated cronxbmc job left by older versions, also
-        # when the addon itself is never opened
-        remove_cronjob()
-    except Exception:
-        log(traceback.format_exc(), xbmc.LOGERROR)
     monitor = xbmc.Monitor()
     run(monitor, lambda: (cleanup_once(cache_path), recache_once(cache_path)), CHECK_INTERVAL_SECONDS)
 
