@@ -20,25 +20,52 @@
 #
 """Scheduling and running of the background re-cache job.
 
-The job is the same recache_items() crawl the cronxbmc job triggers via
-'?re-cache=2', but run from the addon's service: it fires when the
-'recache.cronexpression' setting last matched (persisted across restarts
+The job is the same recache_items() crawl the addon's settings button
+triggers via '?re-cache=1', but run from the addon's service: it fires
+daily at the time configured in 'recache.time' (persisted across restarts
 in a small state file), and only while Kodi is idle if the idle gate is
 enabled. Deliberately free of Kodi imports: the progress dialog, idle
 check and Api construction are injected, which keeps the logic unit-
 testable without the Kodi stub modules.
 """
-from datetime import datetime
+from datetime import datetime, time, timedelta
 from pathlib import Path
 from typing import Any, Callable, Optional
-
-from resources.lib.cronmatch import matched_since
 
 STATE_FILE = 'recache.state'
 
 
+def parse_time_setting(value: str) -> Optional[time]:
+    """Parse a Kodi time setting ('HH:MM') into a datetime.time.
+
+    Tolerates 'H:MM' and 'HH:MM:SS'; returns None for anything invalid.
+    """
+    try:
+        parts = [int(p) for p in value.strip().split(':')]
+        hour, minute = parts[0], parts[1]
+    except (ValueError, IndexError):
+        return None
+    if not 0 <= hour <= 23 or not 0 <= minute <= 59:
+        return None
+    return time(hour, minute)
+
+
+def due_slot(last: Optional[datetime], now: datetime, at: time) -> Optional[datetime]:
+    """The most recent daily slot at time 'at' in (last, now], or None.
+
+    A slot at exactly 'last' is not re-reported. With last=None only the
+    slot at 'now' itself matches (used right after seeding).
+    """
+    candidate = datetime.combine(now.date(), at)
+    if candidate > now:
+        candidate = datetime.combine(now.date() - timedelta(days=1), at)
+    if candidate <= now and (last is None or candidate > last):
+        return candidate
+    return None
+
+
 class RecacheState:
-    """Persists the last cron slot the service acted on."""
+    """Persists the last daily slot the service acted on."""
 
     def __init__(self, cache_path: Path) -> None:
         self.path = cache_path / STATE_FILE
@@ -57,12 +84,12 @@ class RecacheState:
         self.last_slot = slot
 
 
-def recache_due(state: RecacheState, expression: str, now: datetime) -> Optional[datetime]:
-    """The cron slot to act on in this pass, or None.
+def recache_due(state: RecacheState, at: time, now: datetime) -> Optional[datetime]:
+    """The daily slot to act on in this pass, or None.
 
-    A missing state file means the service (or a new expression) has never
-    run: seed it with 'now' so a fresh install does not fire immediately.
-    A slot missed while Kodi was down is caught up on the first pass.
+    A missing state file means the service has never run: seed it with
+    'now' so a fresh install does not fire immediately. A slot missed
+    while Kodi was down is caught up on the first pass.
     """
     if not state.path.exists():
         state.save(now)
@@ -71,7 +98,7 @@ def recache_due(state: RecacheState, expression: str, now: datetime) -> Optional
     if last is None:
         state.save(now)
         return None
-    return matched_since(expression, last, now)
+    return due_slot(last, now, at)
 
 
 class IdleAbortProgress:
@@ -114,8 +141,11 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
     """
     if get_setting('recache.enabled') != 'true' or get_setting('recache.service') != 'true':
         return False
+    at = parse_time_setting(get_setting('recache.time'))
+    if at is None:
+        return False
     state = RecacheState(cache_path)
-    slot = recache_due(state, get_setting('recache.cronexpression'), now)
+    slot = recache_due(state, at, now)
     if slot is None:
         return False
     gate_enabled = get_setting('recache.service.idle') != 'false'
@@ -124,7 +154,7 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
 
     if progress_factory is None:
         progress_factory = IdleAbortProgress
-    # with the gate disabled the crawl runs to completion like the cronjob
+    # with the gate disabled the crawl runs to completion like the manual
     # variant; the abort signal only makes sense while the gate is active
     # the factory returns a created dialog (or None when Kodi has no GUI)
     dialog = dialog_factory()

@@ -179,13 +179,9 @@ msgctxt "#30224"
 msgid "Request caching"
 msgstr "Brug caching for online requests"
 
-msgctxt "#30225"
-msgid "re-cache cron job"
-msgstr "re-cache cron job"
-
-msgctxt "#30226"
-msgid "cron expression"
-msgstr "cron tidskode"
+msgctxt "#30229"
+msgid "re-cache time of day"
+msgstr "re-cache klokkeslæt"
 
 msgctxt "#30227"
 msgid "re-cache from background service"

@@ -180,12 +180,8 @@ msgctxt "#30224"
 msgid "Request caching"
 msgstr ""
 
-msgctxt "#30225"
-msgid "re-cache cron job"
-msgstr ""
-
-msgctxt "#30226"
-msgid "cron expression"
+msgctxt "#30229"
+msgid "re-cache time of day"
 msgstr ""
 
 msgctxt "#30227"

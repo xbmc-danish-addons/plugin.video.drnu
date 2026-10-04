@@ -18,8 +18,7 @@ addon.xml                  addon metadata, version, dependencies
 resources/lib/addon.py     routing + GUI construction (DrDkTvAddon)
 resources/lib/tvapi.py     DR API client: auth, caching, listings, streams
 resources/lib/tvgui.py     AreaSelectorDialog (xbmcgui.WindowDialog)
-resources/lib/cronjob.py   service.cronxbmc integration for cache refresh
-resources/lib/cronmatch.py 5-field cron matcher (used by the service scheduler)
+resources/lib/cronjob.py   removal of the deprecated service.cronxbmc job
 resources/lib/recachescheduler.py  service-side scheduling of the re-cache crawl
 resources/lib/iptvmanager.py  IPTV Manager (pvr.iptvsimple) socket interface
 resources/language/*/strings.po  localized strings (tr(id) reads these)

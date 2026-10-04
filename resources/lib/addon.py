@@ -29,7 +29,7 @@ import xbmcplugin
 from xbmcvfs import translatePath
 
 from resources.lib import gui, tvapi, tvgui
-from resources.lib.cronjob import setup_cronjob
+from resources.lib.cronjob import remove_cronjob
 from resources.lib.iptvmanager import IPTVManager
 from resources.lib.kodiutils import (
     bool_setting,
@@ -82,7 +82,7 @@ class DrDkTvAddon:
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
         self.menuItems.append((tr(30205), runScript))
 
-        setup_cronjob(get_addon_info('path'), bool_setting, get_setting)
+        remove_cronjob()
         self._version_change_fixes()
 
     def _version_change_fixes(self):
@@ -487,6 +487,5 @@ class DrDkTvAddon:
         self.api.recache_items(clear_expired=True, progress=progress)
         progress.update(100)
         progress.close()
-        if params['re-cache'] == '2':
-            self.showSimpleAreaSelector()
-            xbmc.executebuiltin('ActivateWindow(home)')
+        # legacy '?re-cache=2' (old cronxbmc job) and '?re-cache=1' now do
+        # the same thing: just the crawl, no GUI side effects

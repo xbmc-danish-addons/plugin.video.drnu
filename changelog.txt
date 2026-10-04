@@ -1,19 +1,20 @@
-[B]Version 7.1.0 - 2026-09-29[/B]
+[B]Version 7.1.0 - 2026-10-04[/B]
 - Add Kodi background service that periodically expires old responses and
   VACUUMs the request cache database, so the cache file no longer only
   shrinks when the addon is opened (or never, if expire is disabled)
-- Move the scheduled re-cache crawl into the background service: it runs
-  when the cron expression is due and, by default, only while Kodi is idle
-  (setting to disable the idle gate), with a corner progress dialog
-  instead of a blocking one; the crawl aborts within seconds when the
-  user becomes active and retries on the next idle pass. The dialog is
-  created before use and skipped if Kodi has no GUI, so the service no
-  longer fails with "Dialog not created"
+- The scheduled re-cache crawl now runs from the background service by
+  default, daily at a set time of day (default 03:00) and, by default,
+  only while Kodi is idle (setting to disable the idle gate), with a
+  corner progress dialog instead of a blocking one; the crawl aborts
+  within seconds when the user becomes active and retries on the next
+  idle pass. The dialog is created before use and skipped if Kodi has no
+  GUI, so the service no longer fails with "Dialog not created"
 - The service reuses the existing recache settings (enabled/cleanup/
-  expiration/cron expression); the cronxbmc job still works and can be
-  turned off when the service handles the schedule
-- Reuse the existing recache settings (enabled/cleanup/expiration) for the
-  service; cleanup is skipped while playback is active
+  expiration); cleanup is skipped while playback is active
+- The cronxbmc integration is removed: the addon no longer depends on
+  service.cronxbmc, and any job left by an older version is deleted on
+  startup; the manual "re-cache all" settings button is unchanged
+- Log service success lines at INFO level so they show in default logs
 - Fix request cache file never returning deleted space to the filesystem
 
 [B]Version 7.0.0 - 2026-09-27[/B]

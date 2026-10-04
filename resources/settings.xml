@@ -233,17 +233,11 @@
     <setting id="recache.enabled" label="30224" type="boolean">
       <level>0</level> <default>true</default> <control type="toggle"/>
     </setting>
-    <setting id="recache.cronjob" label="30225" type="boolean">
-      <level>0</level> <default>false</default> <control type="toggle"/>
-    </setting>
-    <setting id="recache.cronexpression" label="30226" type="string">
+    <setting id="recache.time" label="30229" type="time">
       <level>0</level>
-      <default>0 3 * * *</default>
-      <constraints>
-        <allowempty>false</allowempty>
-      </constraints>
-      <control type="edit" format="string">
-        <heading>30226</heading>
+      <default>03:00</default>
+      <control type="button" format="time">
+        <heading>30229</heading>
       </control>
     </setting>
     <setting id="recache.service" label="30227" type="boolean">
