@@ -80,6 +80,28 @@ def test_schedule_windows_partial_tail():
     assert tvapi.Api._schedule_windows(167) == [(i, 24) for i in range(6)] + [(6, 23)]
 
 
+def test_get_continue_reads_positions_from_watched_endpoint(monkeypatch):
+    """Resume positions come from /account/profile/watched, not /account/profile."""
+    api = tvapi.Api.__new__(tvapi.Api)
+    api.profile_token = lambda: 'ptoken'
+    api.caching = False
+
+    def fake_get(url, params=None, headers=None, use_cache=True):
+        if url.endswith('/continue-watching/list'):
+            return {'items': [{'id': '100'}, {'id': '200'}, {'id': '300'}],
+                    'paging': {'page': 1, 'total': 1}}
+        if url.endswith('/account/profile/watched'):
+            return {'100': {'position': 541}, '200': {'position': 0}}
+        raise AssertionError(f'unexpected url {url}')
+
+    api._request_get = fake_get
+    api.unfold_list = lambda item, headers=None: item['items']
+
+    items = api.get_continue()
+    assert [i['ResumeTime'] for i in items] == [541.0, 0.0, 0.0]
+
+
+
 def test_schedule_windows_caps_at_seven_days():
     # a tail that would need an 8th day is dropped, like the old loop
     assert tvapi.Api._schedule_windows(168) == [(i, 24) for i in range(7)]

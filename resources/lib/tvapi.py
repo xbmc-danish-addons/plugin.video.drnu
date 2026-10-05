@@ -305,9 +305,12 @@ class Api:
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         item = self._request_get(url, params=data, headers=headers, use_cache=use_cache)
         items = self.unfold_list(item, headers=headers)
-        watched = self.get_profile()['watched']
+        # resume positions used to ride along in /account/profile as 'watched';
+        # DR moved them to their own endpoint returning {item id: {position, ...}}
+        watched = self._request_get(URL + '/account/profile/watched',
+                                    headers=headers, use_cache=use_cache)
         for item in items:
-            item['ResumeTime'] = float(watched.get(str(item['id']), {'position': 0.0})['position'])
+            item['ResumeTime'] = float(watched.get(str(item['id']), {}).get('position', 0.0))
         return items
 
     def get_profile(self, use_cache: bool = False) -> Dict:

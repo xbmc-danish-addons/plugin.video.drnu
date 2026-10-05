@@ -19,6 +19,7 @@ token.p
 search6.pickle
 requests.cache*
 requests_cleaned
+secrets
 
 # Coverage
 .coverage

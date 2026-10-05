@@ -21,6 +21,8 @@
   login could hang the background re-cache crawl indefinitely), and let the
   crawl skip an item that fails after its retries instead of aborting the
   whole run
+- Fix "Continue watching" crashing with a KeyError after DR moved the resume
+  positions out of the account profile into their own endpoint
 
 [B]Version 7.0.0 - 2026-09-27[/B]
 - Major internal rewrite: the API client is split into auth, subtitles and
