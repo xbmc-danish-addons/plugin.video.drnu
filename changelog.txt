@@ -17,6 +17,10 @@
   defaults; the manual "re-cache all" settings button is unchanged
 - Log service success lines at INFO level so they show in default logs
 - Fix request cache file never returning deleted space to the filesystem
+- Give the login/token requests a 10s timeout (they had none, so a stalled
+  login could hang the background re-cache crawl indefinitely), and let the
+  crawl skip an item that fails after its retries instead of aborting the
+  whole run
 
 [B]Version 7.0.0 - 2026-09-27[/B]
 - Major internal rewrite: the API client is split into auth, subtitles and

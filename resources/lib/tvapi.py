@@ -418,13 +418,16 @@ class Api:
             if item['type'] == 'ListEntry':
                 self.msg = f"{self.tr(30523)}'{item['title']}'\n"
                 self.progress_prc = int(100 * (i + 1) / maxidx)
-                for sub_item in self.unfold_list(item['list'], progress=progress):
-                    if self.fetch_full_plot:
-                        if progress is not None:
-                            if progress.iscanceled():
-                                return
-                            progress.update(self.progress_prc, self.msg + 'updating descriptions...')
-                        self.fix_item_description(sub_item)
+                try:
+                    for sub_item in self.unfold_list(item['list'], progress=progress):
+                        if self.fetch_full_plot:
+                            if progress is not None:
+                                if progress.iscanceled():
+                                    return
+                                progress.update(self.progress_prc, self.msg + 'updating descriptions...')
+                            self.fix_item_description(sub_item)
+                except Exception as e:
+                    self._log_recache_error(f"'{item['title']}'", e)
             i += 1
         for channel in ['ramasjang', 'minisjang', 'ultra']:
             msg = f"{self.tr(30523)}'{channel}'\n"
@@ -432,8 +435,16 @@ class Api:
                 if progress.iscanceled():
                     return
                 progress.update(int(100*(i+1)/maxidx), msg)
-            self.get_children_front_items(channel)
+            try:
+                self.get_children_front_items(channel)
+            except Exception as e:
+                self._log_recache_error(channel, e)
             i += 1
+
+    def _log_recache_error(self, what: str, exc: Exception) -> None:
+        """Log a recache failure and let the crawl carry on with the next item."""
+        if self.log is not None:
+            self.log(f'recache: skipped {what}: {exc}')
 
     def get_children_front_items(self, channel: str) -> List[Dict]:
         name = A_AA[channel]
