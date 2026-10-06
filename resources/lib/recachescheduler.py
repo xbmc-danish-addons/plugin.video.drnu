@@ -34,6 +34,7 @@ from pathlib import Path
 from typing import Any, Callable, Optional
 
 STATE_FILE = 'recache.state'
+DEFAULT_MAX_SECONDS = 30 * 60
 
 
 def parse_time_setting(value: str) -> Optional[time]:
@@ -111,11 +112,17 @@ class IdleAbortProgress:
 
     The dialog is optional: when it is None (the service could not create
     one) progress updates are dropped and only the abort signal remains.
+
+    The deadline is a wall-clock cap: when passed, the crawl reports
+    canceled once it is exceeded, so a wedged crawl (network stall, skin
+    issue) cannot hold the dialog open forever.
     """
 
-    def __init__(self, dialog: Any, idle_check: Optional[Callable[[], bool]] = None) -> None:
+    def __init__(self, dialog: Any, idle_check: Optional[Callable[[], bool]] = None,
+                 deadline: Optional[datetime] = None) -> None:
         self.dialog = dialog
         self.idle_check = idle_check or (lambda: True)
+        self.deadline = deadline
         self.was_aborted = False
 
     def update(self, percent: int, msg: str) -> None:
@@ -124,6 +131,9 @@ class IdleAbortProgress:
 
     def iscanceled(self) -> bool:
         if self.was_aborted:
+            return True
+        if self.deadline is not None and datetime.now() >= self.deadline:
+            self.was_aborted = True
             return True
         if self.idle_check():
             return False
@@ -176,7 +186,10 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
     try:
         # the factory returns a created dialog (or None when Kodi has no GUI)
         dialog = dialog_factory()
-        progress = progress_factory(dialog, idle_check if gate_enabled else None)
+        # deadline on the real wall clock: IdleAbortProgress compares it
+        # against datetime.now(), not the injected scheduling 'now'
+        progress = progress_factory(dialog, idle_check if gate_enabled else None,
+                                    datetime.now() + timedelta(seconds=DEFAULT_MAX_SECONDS))
 
         api = api_factory()
         api.recache_items(progress=progress, clear_expired=True)

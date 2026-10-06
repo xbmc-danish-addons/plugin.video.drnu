@@ -1,5 +1,5 @@
 """Unit tests for resources/lib/recachescheduler.py (no Kodi needed)."""
-from datetime import datetime, time
+from datetime import datetime, time, timedelta
 from typing import Dict, List, Optional
 
 from resources.lib import recachescheduler
@@ -114,8 +114,8 @@ def _run_pass(tmp_path, settings, idle=True, api=None, last=None):
         RecacheState(tmp_path).save(last)
     progress_seen = []
 
-    def progress_factory(dialog, idle_check):
-        p = IdleAbortProgress(dialog, idle_check)
+    def progress_factory(dialog, idle_check, deadline=None):
+        p = IdleAbortProgress(dialog, idle_check, deadline)
         progress_seen.append(p)
         return p
 
@@ -197,6 +197,19 @@ def test_idle_abort_progress_latches_abort():
     # stays aborted even if idle_check flips back
     p.idle_check = lambda: True
     assert p.iscanceled() is True
+
+
+def test_idle_abort_progress_deadline_expires():
+    p = IdleAbortProgress(FakeDialog(), lambda: True, deadline=datetime(2000, 1, 1))
+    assert p.iscanceled() is True
+    assert p.was_aborted is True
+
+
+def test_idle_abort_progress_deadline_in_future():
+    p = IdleAbortProgress(FakeDialog(), lambda: True,
+                          deadline=datetime.now() + timedelta(hours=1))
+    assert p.iscanceled() is False
+    assert p.was_aborted is False
 
 
 def test_idle_abort_progress_forwards_updates():

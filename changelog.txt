@@ -16,6 +16,8 @@
   version left behind and resets the new recache settings to their 7.1
   defaults; the manual "re-cache all" settings button is unchanged
 - Log service success lines at INFO level so they show in default logs
+- The service crawl has a 30 minute wall-clock cap, so a wedged crawl
+  cannot hold the progress dialog open forever
 - Fix request cache file never returning deleted space to the filesystem
 - Give the login/token requests a 10s timeout (they had none, so a stalled
   login could hang the background re-cache crawl indefinitely), and let the
