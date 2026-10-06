@@ -38,7 +38,7 @@ from xbmcvfs import translatePath
 
 from resources.lib import tvapi
 from resources.lib.kodiutils import get_setting, log, tr
-from resources.lib.recachescheduler import recache_pass
+from resources.lib.recachescheduler import _close_dialog, recache_pass
 from resources.lib.servicecleanup import run_cleanup
 
 CHECK_INTERVAL_SECONDS = 60 * 60
@@ -64,15 +64,18 @@ def cleanup_once(cache_path: Path) -> None:
 def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
     """Create the background progress dialog, or None if Kodi refuses.
 
-    DialogProgressBG.create() raises RuntimeError outside a GUI context
-    (e.g. a headless service start); the crawl itself does not need the
-    dialog, so degrade to running without progress instead of failing.
+    DialogProgressBG.create() raises outside a GUI context (e.g. a headless
+    service start) and can raise after Kodi has already registered the
+    handle; the crawl itself does not need the dialog, so degrade to running
+    without progress instead of failing, closing any half-created dialog so
+    a leak cannot leave the corner progress bar stuck at 0%.
     """
     dialog = xbmcgui.DialogProgressBG()
     try:
         dialog.create('DR TV', tr(30524))
         return dialog
     except RuntimeError:
+        _close_dialog(dialog)
         return None
 
 

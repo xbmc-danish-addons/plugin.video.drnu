@@ -23,6 +23,10 @@
   whole run
 - Fix "Continue watching" crashing with a KeyError after DR moved the resume
   positions out of the account profile into their own endpoint
+- Harden the background re-cache progress dialog: it is now dismissed on
+  every exit path (a failing dialog creation or a failing close can no
+  longer leave Kodi's progress handle behind, which could show up as a
+  corner progress bar stuck at 0% until the next full-screen redraw)
 
 [B]Version 7.0.0 - 2026-09-27[/B]
 - Major internal rewrite: the API client is split into auth, subtitles and

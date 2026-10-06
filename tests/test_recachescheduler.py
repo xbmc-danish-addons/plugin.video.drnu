@@ -204,3 +204,89 @@ def test_idle_abort_progress_forwards_updates():
     p = IdleAbortProgress(dialog, lambda: True)
     p.update(42.6, 'msg')
     assert dialog.updates == [(42, 'msg')]
+
+
+def _pass_with_dialog(tmp_path, factory=None, api=None, last=None):
+    """Run recache_pass with a dialog we keep a reference to.
+
+    Returns (result, dialog, raised). 'factory' builds the dialog
+    (FakeDialog by default); 'api' is called after the dialog exists.
+    """
+    if last is not None:
+        RecacheState(tmp_path).save(last)
+    dialog = FakeDialog()
+    api = api or FakeApi()
+    settings = _settings({'recache.service.idle': 'true'})
+    raised = None
+    try:
+        result = recache_pass(settings, lambda: api, tmp_path, NOW,
+                              lambda: True, factory or (lambda: dialog))
+    except Exception as exc:  # the pass is expected to close before re-raising
+        result, raised = None, exc
+    return result, dialog, raised
+
+
+def test_pass_closes_dialog_on_success(tmp_path):
+    result, dialog, raised = _pass_with_dialog(tmp_path, last=datetime(2026, 10, 2, 12, 0))
+    assert result is True
+    assert raised is None
+    assert dialog.closed is True
+
+
+def test_pass_closes_dialog_when_crawl_raises(tmp_path):
+    class BoomApi(FakeApi):
+        def recache_items(self, progress=None, clear_expired=False):
+            raise RuntimeError('network died')
+
+    _, dialog, raised = _pass_with_dialog(tmp_path, api=BoomApi(),
+                                          last=datetime(2026, 10, 2, 12, 0))
+    assert isinstance(raised, RuntimeError)
+    assert dialog.closed is True
+    # slot not marked done, so the crawl retries on the next idle pass
+    assert RecacheState(tmp_path).load() == datetime(2026, 10, 2, 12, 0)
+
+
+def test_pass_propagates_factory_error(tmp_path):
+    def factory():
+        raise RuntimeError('Dialog not created.')
+
+    result, _, raised = _pass_with_dialog(tmp_path, factory=factory,
+                                          last=datetime(2026, 10, 2, 12, 0))
+    assert result is None
+    assert isinstance(raised, RuntimeError)
+    # the crawl never ran, so the slot stays open for the next pass
+    assert RecacheState(tmp_path).load() == datetime(2026, 10, 2, 12, 0)
+
+
+def test_pass_close_failure_does_not_mask_result(tmp_path):
+    class StubbornDialog(FakeDialog):
+        def close(self):
+            raise RuntimeError('Dialog not created.')
+
+    result, _, raised = _pass_with_dialog(tmp_path, factory=StubbornDialog,
+                                          last=datetime(2026, 10, 2, 12, 0))
+    assert raised is None
+    assert result is True
+
+
+def test_close_dialog_tolerates_none_and_errors():
+    recachescheduler._close_dialog(None)
+
+    class Stubborn(FakeDialog):
+        def close(self):
+            raise RuntimeError('nope')
+
+    recachescheduler._close_dialog(Stubborn())
+
+
+def test_pass_closes_dialog_when_aborted(tmp_path):
+    class AbortingApi(FakeApi):
+        def recache_items(self, progress=None, clear_expired=False):
+            self.calls.append({'progress': progress, 'clear_expired': clear_expired})
+            progress.idle_check = lambda: False
+            progress.iscanceled()
+
+    _, dialog, raised = _pass_with_dialog(tmp_path, api=AbortingApi(),
+                                          last=datetime(2026, 10, 2, 12, 0))
+    assert raised is None
+    assert dialog.closed is True

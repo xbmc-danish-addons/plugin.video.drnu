@@ -28,6 +28,7 @@ enabled. Deliberately free of Kodi imports: the progress dialog, idle
 check and Api construction are injected, which keeps the logic unit-
 testable without the Kodi stub modules.
 """
+from contextlib import suppress
 from datetime import datetime, time, timedelta
 from pathlib import Path
 from typing import Any, Callable, Optional
@@ -130,6 +131,20 @@ class IdleAbortProgress:
         return True
 
 
+def _close_dialog(dialog: Any) -> None:
+    """Dismiss the background progress dialog, tolerating a missing one.
+
+    DialogProgressBG.close() only marks Kodi's handle finished; Kodi removes
+    the handle and closes the window on a later GUI frame. A handle that is
+    never closed stays in Kodi's list, so close it on every exit path, and
+    swallow a close failure rather than masking the crawl result with it.
+    """
+    if dialog is None:
+        return
+    with suppress(Exception):
+        dialog.close()
+
+
 def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], Any],
                  cache_path: Path, now: datetime, idle_check: Callable[[], bool],
                  dialog_factory: Callable[[], Any],
@@ -156,11 +171,13 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         progress_factory = IdleAbortProgress
     # with the gate disabled the crawl runs to completion like the manual
     # variant; the abort signal only makes sense while the gate is active
-    # the factory returns a created dialog (or None when Kodi has no GUI)
-    dialog = dialog_factory()
-    progress = progress_factory(dialog, idle_check if gate_enabled else None)
+    dialog: Any = None
 
     try:
+        # the factory returns a created dialog (or None when Kodi has no GUI)
+        dialog = dialog_factory()
+        progress = progress_factory(dialog, idle_check if gate_enabled else None)
+
         api = api_factory()
         api.recache_items(progress=progress, clear_expired=True)
         if progress.was_aborted:
@@ -168,5 +185,4 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         state.save(slot)
         return True
     finally:
-        if dialog is not None:
-            dialog.close()
+        _close_dialog(dialog)

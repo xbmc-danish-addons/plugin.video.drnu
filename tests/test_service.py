@@ -108,6 +108,24 @@ def test_make_bg_dialog_degrades_without_gui(monkeypatch):
     assert service_module.make_bg_dialog() is None
 
 
+def test_make_bg_dialog_closes_dialog_that_failed_create(monkeypatch):
+    """create() can raise after Kodi registered the handle (e.g. the service
+    starts before the GUI is up); that handle must not be left at 0%."""
+    closed = []
+
+    class RaisingDialog:
+        def create(self, heading, message):
+            raise RuntimeError('Dialog not created.')
+
+        def close(self):
+            closed.append(True)
+
+    monkeypatch.setattr(service_module.xbmcgui, 'DialogProgressBG', RaisingDialog)
+    monkeypatch.setattr(service_module, 'tr', lambda i: 'localized')
+    assert service_module.make_bg_dialog() is None
+    assert closed == [True]
+
+
 def test_recache_once_silent_when_not_due(monkeypatch, tmp_path):
     monkeypatch.setattr(service_module, 'recache_pass', lambda *a, **k: False)
     logged = []
