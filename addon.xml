@@ -31,6 +31,17 @@
             <screenshot>resources/media/Screenshot3.jpg</screenshot>
             <screenshot>resources/media/Screenshot4.jpg</screenshot>
        </assets>
+       <news>[B]Version 7.1.0 - 2026-10-04[/B]
+        - Background service: request cache is expired and vacuumed automatically
+        - Scheduled re-cache runs from the service at a set time of day (default 03:00), only while Kodi is idle
+        - service.cronxbmc dependency removed; old cron jobs are cleaned up on upgrade
+       </news>
+       <news>[B]Version 7.0.0 - 2026-09-27[/B]
+        - Major internal rewrite: API client split into auth, subtitles, constants and menu modules
+        - Addon state created lazily; playback start wait interruptible by Kodi shutdown
+        - Fixes: search busy spinner, subtitle download crash, resume positions after DR API change
+        - Test suite runs against recorded API fixtures; ruff linting in CI
+       </news>
        <news>[B]Version 6.7.0 - 2025-10-05[/B]
         - Add option to show minisjang and ramasjang with normal menu items
         - Add new icons for base menu entries
