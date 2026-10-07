@@ -68,10 +68,11 @@ def test_idle_and_not_playing(monkeypatch):
 def test_recache_once_wires_pass(monkeypatch, tmp_path):
     seen = {}
 
-    def fake_pass(get_setting, api_factory, cache_path, now, idle_check, dialog_factory):
+    def fake_pass(get_setting, api_factory, cache_path, now, idle_check, dialog_factory, log_func=None):
         seen['cache_path'] = cache_path
         seen['dialog_factory'] = dialog_factory
         seen['now'] = now
+        seen['log_func'] = log_func
         return True
 
     monkeypatch.setattr(service_module, 'recache_pass', fake_pass)
@@ -79,6 +80,8 @@ def test_recache_once_wires_pass(monkeypatch, tmp_path):
     service_module.recache_once(tmp_path)
     assert seen['cache_path'] == tmp_path
     assert seen['dialog_factory'] is service_module.make_bg_dialog
+    # log_func is the INFO-level wrapper, not raw log()
+    assert seen['log_func'] is service_module._log_info
     assert 'logged' in seen
 
 

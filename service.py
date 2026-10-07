@@ -73,17 +73,24 @@ def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
     dialog = xbmcgui.DialogProgressBG()
     try:
         dialog.create('DR TV', tr(30524))
-        return dialog
-    except RuntimeError:
+    except RuntimeError as e:
+        log(f'servicecleanup: DialogProgressBG.create FAILED: {e}', xbmc.LOGINFO)
         _close_dialog(dialog)
         return None
+    return dialog
+
+
+def _log_info(msg: str) -> None:
+    """kodiutils.log defaults to LOGDEBUG, which a default Kodi log drops;
+    the service diagnostics must be visible without debug logging."""
+    log(msg, xbmc.LOGINFO)
 
 
 def recache_once(cache_path: Path) -> None:
     """Run the scheduled re-cache crawl when due (idle-gated by default)."""
     if recache_pass(get_setting, lambda: tvapi.Api(cache_path, tr, get_setting, log),
                     cache_path, datetime.now(), idle_and_not_playing,
-                    make_bg_dialog):
+                    make_bg_dialog, log_func=_log_info):
         log('servicecleanup: background re-cache finished', xbmc.LOGINFO)
 
 

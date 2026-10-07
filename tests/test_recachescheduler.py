@@ -239,6 +239,36 @@ def _pass_with_dialog(tmp_path, factory=None, api=None, last=None):
     return result, dialog, raised
 
 
+def test_pass_logs_lifecycle_lines(tmp_path):
+    """log_func gets one-line start/finish (or abort) diagnostics, no spam."""
+    last = datetime(2026, 10, 2, 12, 0)
+    RecacheState(tmp_path).save(last)
+    api = FakeApi()
+    lines: List[str] = []
+    result = recache_pass(_settings(), lambda: api, tmp_path, NOW, lambda: True,
+                          FakeDialog, log_func=lines.append)
+    assert result is True
+    assert any('starting re-cache crawl' in line for line in lines)
+    assert any('re-cache finished for slot 2026-10-03 03:00:00' in line for line in lines)
+    assert not any('progress update #' in line for line in lines)
+
+
+def test_pass_logs_abort_reason(tmp_path):
+    class AbortingApi(FakeApi):
+        def recache_items(self, progress=None, clear_expired=False):
+            self.calls.append({'progress': progress, 'clear_expired': clear_expired})
+            progress.idle_check = lambda: False
+            progress.iscanceled()
+
+    last = datetime(2026, 10, 2, 12, 0)
+    RecacheState(tmp_path).save(last)
+    lines: List[str] = []
+    result = recache_pass(_settings(), lambda: AbortingApi(), tmp_path, NOW,
+                          lambda: True, FakeDialog, log_func=lines.append)
+    assert result is False
+    assert any('did not finish: user became active' in line for line in lines)
+
+
 def test_pass_closes_dialog_on_success(tmp_path):
     result, dialog, raised = _pass_with_dialog(tmp_path, last=datetime(2026, 10, 2, 12, 0))
     assert result is True

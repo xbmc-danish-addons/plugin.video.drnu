@@ -116,6 +116,9 @@ class IdleAbortProgress:
     The deadline is a wall-clock cap: when passed, the crawl reports
     canceled once it is exceeded, so a wedged crawl (network stall, skin
     issue) cannot hold the dialog open forever.
+
+    updates counts the progress callbacks and abort_reason records why
+    the crawl stopped, for the service log.
     """
 
     def __init__(self, dialog: Any, idle_check: Optional[Callable[[], bool]] = None,
@@ -124,8 +127,11 @@ class IdleAbortProgress:
         self.idle_check = idle_check or (lambda: True)
         self.deadline = deadline
         self.was_aborted = False
+        self.abort_reason = ''
+        self.updates = 0
 
     def update(self, percent: int, msg: str) -> None:
+        self.updates += 1
         if self.dialog is not None:
             self.dialog.update(int(percent), message=msg)
 
@@ -134,11 +140,18 @@ class IdleAbortProgress:
             return True
         if self.deadline is not None and datetime.now() >= self.deadline:
             self.was_aborted = True
+            self.abort_reason = f'deadline exceeded after {self.updates} progress updates'
             return True
         if self.idle_check():
             return False
         self.was_aborted = True
+        self.abort_reason = 'user became active'
         return True
+
+
+def _log(log_func: Optional[Callable[[str], None]], msg: str) -> None:
+    if log_func:
+        log_func(msg)
 
 
 def _close_dialog(dialog: Any) -> None:
@@ -158,7 +171,8 @@ def _close_dialog(dialog: Any) -> None:
 def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], Any],
                  cache_path: Path, now: datetime, idle_check: Callable[[], bool],
                  dialog_factory: Callable[[], Any],
-                 progress_factory: Optional[Callable[[Any, Callable[[], bool]], Any]] = None) -> bool:
+                 progress_factory: Optional[Callable[[Any, Callable[[], bool]], Any]] = None,
+                 log_func: Optional[Callable[[str], None]] = None) -> bool:
     """One service pass: run the recache crawl if the cron slot is due.
 
     Returns True when the crawl ran to completion (slot is marked done),
@@ -168,6 +182,8 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         return False
     at = parse_time_setting(get_setting('recache.time'))
     if at is None:
+        _log(log_func, f'servicecleanup: invalid recache.time setting '
+                       f'{get_setting("recache.time")!r}, skipping re-cache')
         return False
     state = RecacheState(cache_path)
     slot = recache_due(state, at, now)
@@ -175,6 +191,7 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         return False
     gate_enabled = get_setting('recache.service.idle') != 'false'
     if gate_enabled and not idle_check():
+        _log(log_func, f'servicecleanup: re-cache due for {slot} but idle gate blocked it')
         return False
 
     if progress_factory is None:
@@ -190,12 +207,16 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         # against datetime.now(), not the injected scheduling 'now'
         progress = progress_factory(dialog, idle_check if gate_enabled else None,
                                     datetime.now() + timedelta(seconds=DEFAULT_MAX_SECONDS))
+        _log(log_func, 'servicecleanup: starting re-cache crawl')
 
         api = api_factory()
         api.recache_items(progress=progress, clear_expired=True)
         if progress.was_aborted:
+            _log(log_func, f'servicecleanup: re-cache did not finish: {progress.abort_reason}')
             return False
         state.save(slot)
+        _log(log_func, f'servicecleanup: re-cache finished for slot {slot} '
+                       f'after {progress.updates} progress updates')
         return True
     finally:
         _close_dialog(dialog)
