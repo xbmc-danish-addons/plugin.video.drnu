@@ -243,5 +243,8 @@
  "/api/page?item_detail_expand=all&list_page_size=24&max_list_prefetch=3&path=%2Fserie%2Fhvaffor-en-haand_441490&sub=Registered": "5d897f0e2147cd63.json",
  "/api/lists/348?page=6&page_size=24&param=TitleGroupKey%3Aa": "5b1b699a5a1fe71e.json",
  "/api/page?item_detail_expand=all&list_page_size=24&max_list_prefetch=1&path=%2Framasjang": "a9f9113b0151f192.json",
- "/api/page?item_detail_expand=all&list_page_size=24&max_list_prefetch=3&path=%2Fliste%2F369441": "532547e7460e267c.json"
+ "/api/page?item_detail_expand=all&list_page_size=24&max_list_prefetch=3&path=%2Fliste%2F369441": "532547e7460e267c.json",
+ "/api/lists/348?page_size=100&param=TitleGroupKey%3Aa": "5c2ddda9387961f6.json",
+ "/api/lists/436043?page_size=100": "8929a6ae34451168.json",
+ "/api/lists/348?page=2&page_size=100&param=TitleGroupKey%3Aa": "062293ebc27504a8.json"
 }

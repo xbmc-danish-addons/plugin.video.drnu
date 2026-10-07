@@ -1,3 +1,14 @@
+[B]Version 7.1.1 - 2026-10-07[/B]
+- Speed up long menu lists (especially the alphabet A-Å lists): the full
+  plot for items whose list payload is truncated is now fetched in one
+  batched pass through a small thread pool, instead of one blocking request
+  per item while the menu is built. On a letter list this cuts the time to
+  fill descriptions by roughly 4x and applies to both the interactive menus
+  and the background re-cache crawl
+- Request larger list pages from the API (up to its 100-item maximum, 50 for
+  the profile lists), so long lists need far fewer paging round-trips; the
+  total bytes fetched are essentially unchanged
+
 [B]Version 7.1.0 - 2026-10-04[/B]
 - Add Kodi background service that periodically expires old responses and
   VACUUMs the request cache database, so the cache file no longer only

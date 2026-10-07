@@ -31,6 +31,10 @@ CHANNEL_PRESET = {
 URL = 'https://production.dr-massive.com/api'
 CLIENT_ID = '283ba39a2cf31d3b81e922b8'
 GET_TIMEOUT = 10
+# detail (full plot) fetches have no batch endpoint, so they run through a
+# small thread pool; the chunk size bounds how long a cancel waits
+DETAIL_WORKERS = 5
+DETAIL_CHUNK = 25
 A_AA = {
     'ramasjang': '/ramasjang_a-aa',
     'minisjang': '/minisjang/a-aa',

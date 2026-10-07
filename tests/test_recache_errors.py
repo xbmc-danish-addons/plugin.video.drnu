@@ -157,3 +157,21 @@ def test_log_recache_error_tolerates_missing_logger():
     api = _make_api()
     api.log = None
     api._log_recache_error('something', RuntimeError('boom'))
+
+
+def test_recache_items_resolves_descriptions_per_list_in_one_batch():
+    """The crawl batches each list's detail fetches instead of per-item calls."""
+    api = _make_api()
+    api.fetch_full_plot = True
+    api.get_programcard = lambda path, data=None, use_cache=True: {
+        'entries': [{'type': 'ListEntry', 'title': 'A', 'list': {'name': 'A'}}]
+    }
+    api.unfold_list = lambda item, progress=None: [{'id': 1}, {'id': 2}]
+    api.get_children_front_items = lambda channel: []
+    batches = []
+    api.resolve_descriptions = lambda items, progress=None: batches.append(list(items))
+
+    api.recache_items(progress=FakeProgress())
+
+    assert batches == [[{'id': 1}, {'id': 2}]]
+

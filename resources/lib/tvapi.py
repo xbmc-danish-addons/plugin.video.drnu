@@ -27,6 +27,7 @@ imports of tvapi keep working.
 
 import pickle
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
@@ -41,7 +42,7 @@ from urllib3.util import Retry
 from resources.lib import subtitles
 
 # Re-export the names that used to live in this module
-from resources.lib.constants import A_AA, CHANNEL_IDS, CHANNEL_PRESET, GET_TIMEOUT, URL  # noqa: F401
+from resources.lib.constants import A_AA, CHANNEL_IDS, CHANNEL_PRESET, DETAIL_CHUNK, DETAIL_WORKERS, GET_TIMEOUT, URL  # noqa: F401
 from resources.lib.drauth import (  # noqa: F401
     CLIENT_ID,
     anonymous_tokens,
@@ -252,7 +253,7 @@ class Api:
         if isinstance(id, str):
             id = int(id.replace('ID_', ''))
         url = URL + f'/lists/{id}'
-        data = {'page_size': '24'}
+        data = {'page_size': '100'}
         if param != 'NoParam':
             data['param'] = param
         ret = self._request_get(url, params=data, use_cache=use_cache)
@@ -291,7 +292,7 @@ class Api:
 
     def get_mylist(self, use_cache: bool = False) -> List[Dict]:
         url = URL + '/account/profile/bookmarks/list'
-        data = {'page_size': '24'}
+        data = {'page_size': '50'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         item = self._request_get(url, params=data, headers=headers, use_cache=use_cache)
         items = self.unfold_list(item, headers=headers)
@@ -301,7 +302,7 @@ class Api:
 
     def get_continue(self, use_cache: bool = False) -> List[Dict]:
         url = URL + '/account/profile/continue-watching/list'
-        data = {'page_size': '24'}
+        data = {'page_size': '50'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         item = self._request_get(url, params=data, headers=headers, use_cache=use_cache)
         items = self.unfold_list(item, headers=headers)
@@ -422,13 +423,13 @@ class Api:
                 self.msg = f"{self.tr(30523)}'{item['title']}'\n"
                 self.progress_prc = int(100 * (i + 1) / maxidx)
                 try:
-                    for sub_item in self.unfold_list(item['list'], progress=progress):
-                        if self.fetch_full_plot:
-                            if progress is not None:
-                                if progress.iscanceled():
-                                    return
-                                progress.update(self.progress_prc, self.msg + 'updating descriptions...')
-                            self.fix_item_description(sub_item)
+                    sub_items = self.unfold_list(item['list'], progress=progress)
+                    if self.fetch_full_plot:
+                        if progress is not None:
+                            if progress.iscanceled():
+                                return
+                            progress.update(self.progress_prc, self.msg + 'updating descriptions...')
+                        self.resolve_descriptions(sub_items, progress=progress)
                 except Exception as e:
                     self._log_recache_error(f"'{item['title']}'", e)
             i += 1
@@ -513,17 +514,44 @@ class Api:
                 title += f" ({item['contextualTitle']})"
         return title
 
-    def fix_item_description(self, item: Dict) -> Dict:
-        if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
-            resumetime_save = float(item.get('ResumeTime', 0.0))
-            item = self.get_item(item['id'])
-            if resumetime_save > 0:
-                item['ResumeTime'] = resumetime_save
-        return item
+    def _needs_description(self, item: Dict) -> bool:
+        """True when the list payload truncated the plot and a detail call is needed."""
+        return len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == ''
+
+    def resolve_descriptions(self, items: List[Dict], progress: Any = None) -> None:
+        """Fill in the full plot for a whole batch of items.
+
+        List, search and page payloads cap shortDescription at 255 characters
+        and omit description, so items sitting at that cap each need a
+        GET /items/{id}. There is no batch endpoint, but the calls are
+        independent, so they run through a small thread pool instead of one
+        after another. Only description is copied back onto the original
+        dicts, which keeps ResumeTime/in_mylist and the rest of the list
+        payload intact.
+        """
+        if not self.fetch_full_plot:
+            return
+        todo = [item for item in items if self._needs_description(item)]
+        if not todo:
+            return
+
+        def fetch(item: Dict) -> Tuple[Dict, Optional[Dict]]:
+            try:
+                return item, self.get_item(item['id'])
+            except Exception as e:
+                if self.log is not None:
+                    self.log(f'description fetch failed for {item.get("id")}: {e}')
+                return item, None
+
+        with ThreadPoolExecutor(max_workers=DETAIL_WORKERS) as pool:
+            for start in range(0, len(todo), DETAIL_CHUNK):
+                if progress is not None and progress.iscanceled():
+                    return
+                for item, detail in pool.map(fetch, todo[start:start + DETAIL_CHUNK]):
+                    if detail is not None and detail.get('description'):
+                        item['description'] = detail['description']
 
     def set_info(self, item: Dict, tag: Any, title: str) -> None:
-        if self.fetch_full_plot:
-            item = self.fix_item_description(item)
         tag.setTitle(title)
         if item.get('shortDescription', '') and item['shortDescription'] != 'LinkItem':
             tag.setPlot(item['shortDescription'])

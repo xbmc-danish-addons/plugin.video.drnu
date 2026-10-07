@@ -275,6 +275,9 @@ class DrDkTvAddon:
         return gui.kodi_item(self._plugin_url, self.api, self.menuItems, self.fanart_image, item, is_season)
 
     def listEpisodes(self, items, addSortMethods=False, seasons=False):
+        # one batched detail pass for the whole list, instead of a detail
+        # request per item as each ListItem is built
+        self.api.resolve_descriptions(items)
         directoryItems = []
         for item in items:
             gui_item = self.kodi_item(item, is_season=seasons)
