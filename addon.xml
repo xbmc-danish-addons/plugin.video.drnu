@@ -33,7 +33,7 @@
        </assets>
        <news>[B]Version 7.1.0 - 2026-10-04[/B]
         - Fix "Continue watching" crash.
-        - Background service: request cache is expired and vacuumed automatically
+        - Background service: request cache db is expired and vacuumed automatically
         - Scheduled re-cache runs from the service at a set time of day (default 03:00), only while Kodi is idle
         - service.cronxbmc dependency removed; old cron jobs are cleaned up on upgrade
        </news>
