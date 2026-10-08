@@ -42,6 +42,28 @@ def test_write_tokens_does_not_truncate_existing_file_first(tmp_path):
         assert pickle.load(fh) == [{'Token': 'old'}, {}]
 
 
+def test_write_tokens_uses_a_per_process_temp_file(tmp_path, monkeypatch):
+    """The service and the plugin share token.p but are separate processes;
+    a shared token.tmp could be corrupted by interleaved writes and then
+    installed over token.p. The temp name must be per process."""
+    monkeypatch.setattr(tvapi.os, 'getpid', lambda: 4242)
+    api = _api(tmp_path)
+    seen = {}
+    real_replace = tvapi.os.replace
+
+    def spy_replace(src, dst):
+        seen['src'] = str(src)
+        seen['dst'] = str(dst)
+        real_replace(src, dst)
+
+    monkeypatch.setattr(tvapi.os, 'replace', spy_replace)
+    api.write_tokens([{'Token': 't'}])
+
+    # a write must never target the plain shared name
+    assert seen['src'].endswith('token.p.4242.tmp')
+    assert seen['dst'].endswith('token.p')
+
+
 def test_refresh_tokens_recovers_from_corrupt_file(tmp_path, monkeypatch):
     api = _api(tmp_path)
     api.token_file.write_bytes(b'\x80\x04garbage')  # truncated pickle

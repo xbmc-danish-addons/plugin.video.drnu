@@ -159,8 +159,13 @@ class Api:
         """Persist the tokens by writing a temp file and atomically replacing
         token.p, so a concurrent reader (the service and the plugin share this
         file) can never observe an empty or partially written file.
+
+        The temp name carries the process id: the service and the plugin are
+        separate processes and may both save tokens, so a shared temp path
+        could be corrupted by two interleaved writes and then be installed
+        over token.p by os.replace.
         """
-        tmp_file = self.token_file.with_suffix('.tmp')
+        tmp_file = self.token_file.with_name(f'{self.token_file.name}.{os.getpid()}.tmp')
         with tmp_file.open('wb') as fh:
             pickle.dump([tokens, self.access_tokens], fh)
         os.replace(tmp_file, self.token_file)
