@@ -107,21 +107,73 @@ def _settings(overrides: Optional[Dict[str, str]] = None):
     return s.get
 
 
-def _run_pass(tmp_path, settings, idle=True, api=None, last=None):
+def _run_pass(tmp_path, settings, idle=True, api=None, last=None, shutdown_check=None):
     """Run one recache_pass with fakes; returns (result, api, progress_seen)."""
     api = api or FakeApi()
     if last is not None:
         RecacheState(tmp_path).save(last)
-    progress_seen = []
+    seen_progress = []
 
     def progress_factory(dialog, idle_check, deadline=None):
         p = IdleAbortProgress(dialog, idle_check, deadline)
-        progress_seen.append(p)
+        seen_progress.append(p)
         return p
 
     result = recache_pass(settings, lambda: api, tmp_path, NOW,
-                          lambda: idle, FakeDialog, progress_factory)
-    return result, api, (progress_seen[0] if progress_seen else None)
+                          lambda: idle, FakeDialog, progress_factory,
+                          shutdown_check=shutdown_check)
+    return result, api, (seen_progress[0] if seen_progress else None)
+
+
+def test_pass_idle_abort_progress_latches_shutdown():
+    p = IdleAbortProgress(FakeDialog(), lambda: True, shutdown_check=lambda: False)
+    assert p.iscanceled() is False
+    p.shutdown_check = lambda: True
+    assert p.iscanceled() is True
+    assert p.was_aborted is True
+    assert p.abort_reason == 'Kodi is shutting down'
+
+
+def test_idle_abort_progress_shutdown_check_overrides_disabled_idle():
+    """With the idle gate disabled the progress object gets idle_check=None,
+    which defaults to always-idle; the shutdown check must still stop it."""
+    p = IdleAbortProgress(FakeDialog(), None, shutdown_check=lambda: True)
+    assert p.iscanceled() is True
+    assert p.abort_reason == 'Kodi is shutting down'
+
+
+def test_pass_aborts_on_shutdown_even_with_idle_gate_disabled(tmp_path):
+    """A Kodi exit must stop the crawl between requests even when
+    recache.service.idle is disabled and nothing else would abort it."""
+    class AbortingApi(FakeApi):
+        def recache_items(self, progress=None, clear_expired=False):
+            self.calls.append({'progress': progress, 'clear_expired': clear_expired})
+            # Kodi starts exiting mid-crawl
+            progress.shutdown_check = lambda: True
+            assert progress.iscanceled() is True
+
+    last = datetime(2026, 10, 2, 12, 0)
+    result, api, progress = _run_pass(tmp_path, _settings({'recache.service.idle': 'false'}),
+                                      idle=False, api=AbortingApi(), last=last,
+                                      shutdown_check=lambda: False)
+    assert result is False
+    assert progress.abort_reason == 'Kodi is shutting down'
+    # slot left unsaved so the job retries on the next pass
+    assert RecacheState(tmp_path).load() == last
+
+
+def test_pass_shutdown_check_reaches_progress(tmp_path):
+    """recache_pass must set the injected shutdown check on the progress
+    object the crawl uses."""
+    state = {'shutdown': False}
+    result, api, progress = _run_pass(tmp_path, _settings(), idle=True,
+                                      last=datetime(2026, 10, 2, 12, 0),
+                                      shutdown_check=lambda: state['shutdown'])
+    assert result is True
+    assert progress.iscanceled() is False
+    state['shutdown'] = True
+    assert progress.iscanceled() is True
+    assert progress.abort_reason == 'Kodi is shutting down'
 
 
 def test_pass_runs_when_due_and_idle(tmp_path):

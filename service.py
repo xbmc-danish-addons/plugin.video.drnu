@@ -90,11 +90,15 @@ def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
     return dialog
 
 
-def recache_once(cache_path: Path) -> None:
-    """Run the scheduled re-cache crawl when due (idle-gated by default)."""
+def recache_once(cache_path: Path, shutdown_check: Callable[[], bool]) -> None:
+    """Run the scheduled re-cache crawl when due (idle-gated by default).
+
+    shutdown_check is passed on to the crawl so an exit request can stop it
+    between requests, independent of the idle gate setting.
+    """
     if recache_pass(get_setting, lambda: tvapi.Api(cache_path, tr, get_setting, _log),
                     cache_path, datetime.now(), idle_and_not_playing,
-                    make_bg_dialog, log_func=_log):
+                    make_bg_dialog, log_func=_log, shutdown_check=shutdown_check):
         _log('drnu service: re-cache job finished')
 
 
@@ -110,8 +114,14 @@ def run(monitor: xbmc.Monitor, cleanup: Callable[[], None], interval_seconds: in
 
 def main() -> None:
     cache_path = Path(translatePath(xbmcaddon.Addon().getAddonInfo('profile')))
+    # the profile directory does not exist on a fresh install; without it the
+    # first RecacheState.save would raise FileNotFoundError every hour until
+    # the user opens the add-on
+    cache_path.mkdir(parents=True, exist_ok=True)
     monitor = xbmc.Monitor()
-    run(monitor, lambda: (cleanup_once(cache_path), recache_once(cache_path)), CHECK_INTERVAL_SECONDS)
+    run(monitor, lambda: (cleanup_once(cache_path),
+                          recache_once(cache_path, monitor.abortRequested)),
+        CHECK_INTERVAL_SECONDS)
 
 
 if __name__ == '__main__':

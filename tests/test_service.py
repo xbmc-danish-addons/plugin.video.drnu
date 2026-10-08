@@ -68,20 +68,25 @@ def test_idle_and_not_playing(monkeypatch):
 def test_recache_once_wires_pass(monkeypatch, tmp_path):
     seen = {}
 
-    def fake_pass(get_setting, api_factory, cache_path, now, idle_check, dialog_factory, log_func=None):
+    def fake_pass(get_setting, api_factory, cache_path, now, idle_check, dialog_factory,
+                  log_func=None, shutdown_check=None):
         seen['cache_path'] = cache_path
         seen['dialog_factory'] = dialog_factory
         seen['now'] = now
         seen['log_func'] = log_func
+        seen['shutdown_check'] = shutdown_check
         return True
 
     monkeypatch.setattr(service_module, 'recache_pass', fake_pass)
     monkeypatch.setattr(service_module, '_log', lambda *a, **k: seen.setdefault('logged', True))
-    service_module.recache_once(tmp_path)
+    shutdown = lambda: False
+    service_module.recache_once(tmp_path, shutdown)
     assert seen['cache_path'] == tmp_path
     assert seen['dialog_factory'] is service_module.make_bg_dialog
     # log_func is the INFO-level logger that bypasses the log.debug gate
     assert seen['log_func'] is service_module._log
+    # the shutdown check is threaded through to the crawl
+    assert seen['shutdown_check'] is shutdown
     assert 'logged' in seen
 
 
@@ -133,5 +138,53 @@ def test_recache_once_silent_when_not_due(monkeypatch, tmp_path):
     monkeypatch.setattr(service_module, 'recache_pass', lambda *a, **k: False)
     logged = []
     monkeypatch.setattr(service_module, '_log', lambda *a, **k: logged.append(a))
-    service_module.recache_once(tmp_path)
+    service_module.recache_once(tmp_path, lambda: False)
     assert logged == []
+
+
+def test_main_creates_profile_dir(monkeypatch, tmp_path):
+    """A fresh install has no profile dir; main() must create it before the
+    first pass writes recache.state, or every pass raises FileNotFoundError."""
+    profile = tmp_path / 'profile'
+    assert not profile.exists()
+
+    class FakeAddon:
+        def getAddonInfo(self, key):
+            return str(profile)
+
+    class FakeMonitor:
+        def abortRequested(self):
+            return True
+
+    monkeypatch.setattr(service_module.xbmcaddon, 'Addon', FakeAddon)
+    monkeypatch.setattr(service_module.xbmc, 'Monitor', FakeMonitor)
+    service_module.main()
+    assert profile.is_dir()
+
+
+def test_run_wires_monitor_shutdown_into_recache(monkeypatch):
+    """run() must hand the crawl the monitor's abortRequested, so exiting Kodi
+    stops a running re-cache."""
+    seen = {}
+
+    def fake_recache(cache_path, shutdown_check):
+        seen['shutdown_check'] = shutdown_check
+
+    class Monitor:
+        def __init__(self):
+            self.aborted = False
+
+        def abortRequested(self):
+            return self.aborted
+
+        def waitForAbort(self, timeout):
+            self.aborted = True  # end the loop after the first pass
+            return True
+
+    monkeypatch.setattr(service_module, 'cleanup_once', lambda cache_path: None)
+    monkeypatch.setattr(service_module, 'recache_once', fake_recache)
+    monitor = Monitor()
+    service_module.run(monitor, lambda: (service_module.cleanup_once('x'),
+                                         service_module.recache_once('x', monitor.abortRequested)), 0)
+    # the crawl's check reflects the monitor state, so it aborts on exit
+    assert seen['shutdown_check']() is True

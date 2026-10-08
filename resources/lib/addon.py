@@ -175,6 +175,10 @@ class DrDkTvAddon:
         for api_channel in self.api.getLiveTV():
 
             lowername = api_channel['title'].lower().replace(' ', '')
+            # DR renamed the fifth channel to 'TVA Live'; the setting keeps its
+            # original id, so map the new title back to it
+            if lowername == 'tvalive':
+                lowername = 'drtv'
             if not bool_setting('iptv.channels.include.' + lowername):
                 continue
 
