@@ -58,7 +58,7 @@ def cleanup_once(cache_path: Path) -> None:
     if xbmc.getCondVisibility('Player.playing'):
         return
     if run_cleanup(get_setting, cache_path, log):
-        log('servicecleanup: expired and vacuumed the request cache db', xbmc.LOGINFO)
+        log('drnu service: vacuumed the request cache db', xbmc.LOGINFO)
 
 
 def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
@@ -74,7 +74,7 @@ def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
     try:
         dialog.create('DR TV', tr(30524))
     except RuntimeError as e:
-        log(f'servicecleanup: DialogProgressBG.create FAILED: {e}', xbmc.LOGINFO)
+        log(f'drnu service: DialogProgressBG.create FAILED: {e}', xbmc.LOGWARNING)
         _close_dialog(dialog)
         return None
     return dialog
@@ -91,7 +91,7 @@ def recache_once(cache_path: Path) -> None:
     if recache_pass(get_setting, lambda: tvapi.Api(cache_path, tr, get_setting, log),
                     cache_path, datetime.now(), idle_and_not_playing,
                     make_bg_dialog, log_func=_log_info):
-        log('servicecleanup: background re-cache finished', xbmc.LOGINFO)
+        log('drnu service: re-cache job finished', xbmc.LOGINFO)
 
 
 def run(monitor: xbmc.Monitor, cleanup: Callable[[], None], interval_seconds: int) -> None:

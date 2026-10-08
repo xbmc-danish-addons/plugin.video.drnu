@@ -73,7 +73,7 @@ def vacuum_db(db: Path, log_func: Optional[Callable] = None) -> bool:
         return True
     except sqlite3.Error as e:
         if log_func:
-            log_func(f'servicecleanup: VACUUM failed on {db}: {e}')
+            log_func(f'drnu service: VACUUM failed on {db}: {e}')
         return False
 
 
@@ -102,7 +102,7 @@ def cleanup_cache(cache_path: Path, expire_hours: int, log_func: Optional[Callab
             gc.collect()
     except Exception as e:
         if log_func:
-            log_func(f'servicecleanup: cache cleanup failed: {e}')
+            log_func(f'drnu service: cache cleanup failed: {e}')
         return False
 
     if not vacuum_db(db, log_func):

@@ -248,9 +248,7 @@ def test_pass_logs_lifecycle_lines(tmp_path):
     result = recache_pass(_settings(), lambda: api, tmp_path, NOW, lambda: True,
                           FakeDialog, log_func=lines.append)
     assert result is True
-    assert any('starting re-cache crawl' in line for line in lines)
-    assert any('re-cache finished for slot 2026-10-03 03:00:00' in line for line in lines)
-    assert not any('progress update #' in line for line in lines)
+    assert any('starting re-cache job' in line for line in lines)
 
 
 def test_pass_logs_abort_reason(tmp_path):

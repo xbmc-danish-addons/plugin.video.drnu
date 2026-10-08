@@ -182,7 +182,7 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         return False
     at = parse_time_setting(get_setting('recache.time'))
     if at is None:
-        _log(log_func, f'servicecleanup: invalid recache.time setting '
+        _log(log_func, f'drnu service: invalid recache.time setting '
                        f'{get_setting("recache.time")!r}, skipping re-cache')
         return False
     state = RecacheState(cache_path)
@@ -191,7 +191,7 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         return False
     gate_enabled = get_setting('recache.service.idle') != 'false'
     if gate_enabled and not idle_check():
-        _log(log_func, f'servicecleanup: re-cache due for {slot} but idle gate blocked it')
+        _log(log_func, f'drnu service: re-cache due for {slot} but idle gate blocked it')
         return False
 
     if progress_factory is None:
@@ -207,16 +207,14 @@ def recache_pass(get_setting: Callable[[str], str], api_factory: Callable[[], An
         # against datetime.now(), not the injected scheduling 'now'
         progress = progress_factory(dialog, idle_check if gate_enabled else None,
                                     datetime.now() + timedelta(seconds=DEFAULT_MAX_SECONDS))
-        _log(log_func, 'servicecleanup: starting re-cache crawl')
+        _log(log_func, 'drnu service: starting re-cache job')
 
         api = api_factory()
         api.recache_items(progress=progress, clear_expired=True)
         if progress.was_aborted:
-            _log(log_func, f'servicecleanup: re-cache did not finish: {progress.abort_reason}')
+            _log(log_func, f'drnu service: re-cache did not finish: {progress.abort_reason}')
             return False
         state.save(slot)
-        _log(log_func, f'servicecleanup: re-cache finished for slot {slot} '
-                       f'after {progress.updates} progress updates')
         return True
     finally:
         _close_dialog(dialog)
