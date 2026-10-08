@@ -179,6 +179,10 @@ class Api:
         else:
             self.access_tokens = {}
             tokens = anonymous_tokens()
+        # the token endpoints report failures as {'error': ...} instead of a
+        # token list; reading them would raise KeyError, so surface the error
+        if isinstance(tokens, dict) and 'error' in tokens:
+            return tokens['error']
         self.read_tokens(tokens)
         self.write_tokens(tokens)
         return None
@@ -212,7 +216,13 @@ class Api:
                     self.access_tokens = {}
                 else:
                     tokens = exchange_token(access_tokens)
-                    self.access_tokens = access_tokens
+                    if isinstance(tokens, dict) and 'error' in tokens:
+                        # the exchange failed too; fall back to a fresh login
+                        # instead of reading the error dict as a token list
+                        failed_refresh = True
+                        self.access_tokens = {}
+                    else:
+                        self.access_tokens = access_tokens
             else:
                 # old flow, anonymous
                 failed_refresh = True
@@ -385,7 +395,11 @@ class Api:
             'group': 'true',
             'term': term
         }
-        u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+        # search results must always be live, never a cached copy of an
+        # earlier query, so bypass the request cache (still using the session
+        # for its retry adapter)
+        with self.session.cache_disabled():
+            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
         if u.status_code == 200:
             return u.json()
         else:
@@ -484,10 +498,14 @@ class Api:
             'resolution': 'HD-1080',
             'sub': 'Registered',
         }
-        u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-        if u.status_code != 200:
-            del data['sub']
+        # playback URLs carry signed tokens and must always be requested live,
+        # never served from the request cache (while keeping the session's
+        # retry adapter)
+        with self.session.cache_disabled():
             u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+            if u.status_code != 200:
+                del data['sub']
+                u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
 
         if u.status_code == 200:
             for stream in u.json():
