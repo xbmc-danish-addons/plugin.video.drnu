@@ -58,3 +58,28 @@ def test_route_listvideos_empty_list_shows_empty_directory(handle, monkeypatch):
     handle.route('?listVideos=ID_306104&list_param=NoParam')
 
     assert listed == [[]]
+
+
+def _resolved_item_for(handle, monkeypatch, has_adaptive):
+    video = {'url': 'https://example.com/v.m3u8', 'subtitles': [], 'srt_subtitles': []}
+    monkeypatch.setattr(handle.api, 'get_stream', lambda video_id: video)
+    monkeypatch.setattr(addon_module, 'bool_setting', lambda name: False)
+    monkeypatch.setattr(addon_module, 'get_setting', lambda name: '0')
+    monkeypatch.setattr(addon_module.xbmc, 'getCondVisibility', lambda cond: has_adaptive)
+    resolved = []
+    monkeypatch.setattr(addon_module.xbmcplugin, 'setResolvedUrl',
+                        lambda h, ok, item: resolved.append(item))
+    handle.playVideo(1234, 'False', '/program/abc')
+    return resolved[0]
+
+
+def test_playvideo_forces_adaptive_when_installed(handle, monkeypatch):
+    item = _resolved_item_for(handle, monkeypatch, has_adaptive=True)
+    assert item.properties.get('inputstream') == 'inputstream.adaptive'
+
+
+def test_playvideo_falls_back_without_adaptive(handle, monkeypatch):
+    """inputstream.adaptive is optional; when it is not installed, forcing the
+    property would break playback, so Kodi's built-in player must handle it."""
+    item = _resolved_item_for(handle, monkeypatch, has_adaptive=False)
+    assert 'inputstream' not in item.properties

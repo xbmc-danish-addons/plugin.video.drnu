@@ -308,7 +308,7 @@ class Api:
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         item = self._request_get(url, params=data, headers=headers, use_cache=use_cache)
-        items = self.unfold_list(item, headers=headers)
+        items = self.unfold_list(item, headers=headers, use_cache=use_cache)
         for item in items:
             item['in_mylist'] = True
         return items
@@ -318,7 +318,7 @@ class Api:
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         item = self._request_get(url, params=data, headers=headers, use_cache=use_cache)
-        items = self.unfold_list(item, headers=headers)
+        items = self.unfold_list(item, headers=headers, use_cache=use_cache)
         # resume positions used to ride along in /account/profile as 'watched';
         # DR moved them to their own endpoint returning {item id: {position, ...}}
         watched = self._request_get(URL + '/account/profile/watched',
@@ -354,7 +354,8 @@ class Api:
                     return True
         return False
 
-    def unfold_list(self, item: dict, filter_kids: bool = False, headers: Optional[dict] = None, progress: Any = None) -> list[dict]:
+    def unfold_list(self, item: dict, filter_kids: bool = False, headers: Optional[dict] = None,
+                    progress: Any = None, use_cache: bool = True) -> list[dict]:
         items = item['items']
         if 'next' in item['paging']:
             if progress is not None:
@@ -362,14 +363,14 @@ class Api:
                     return items
                 progress.update(self.progress_prc, self.msg + f"page {item['paging']['page']} of {item['paging']['total']}")
 
-            next_js = self.get_next(item['paging']['next'], headers=headers)
+            next_js = self.get_next(item['paging']['next'], headers=headers, use_cache=use_cache)
             items += next_js['items']
             while 'next' in next_js['paging']:
                 if progress is not None:
                     if progress.iscanceled():
                         return items
                     progress.update(self.progress_prc, self.msg + f"page {next_js['paging']['page']} of {next_js['paging']['total']}")
-                next_js = self.get_next(next_js['paging']['next'], headers=headers)
+                next_js = self.get_next(next_js['paging']['next'], headers=headers, use_cache=use_cache)
                 items += next_js['items']
         if filter_kids:
             items = [item for item in items if not self.kids_item(item)]

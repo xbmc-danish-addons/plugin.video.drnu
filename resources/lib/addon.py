@@ -175,6 +175,10 @@ class DrDkTvAddon:
         for api_channel in self.api.getLiveTV():
 
             lowername = api_channel['title'].lower().replace(' ', '')
+            # DR renamed the fifth channel to 'TVA Live'; the setting keeps its
+            # original id, so map the new title back to it
+            if lowername == 'tvalive':
+                lowername = 'drtv'
             if not bool_setting('iptv.channels.include.' + lowername):
                 continue
 
@@ -350,8 +354,11 @@ class DrDkTvAddon:
 
         listItem = xbmcgui.ListItem(path=video['url'], offscreen=True)
 
+        # inputstream.adaptive is an optional dependency: when it is not
+        # installed (some platforms cannot ship it), forcing the property would
+        # make playback fail, so degrade to Kodi's built-in player instead
         inputstream_setting = int(get_setting('inputstream'))
-        if inputstream_setting == 0:
+        if inputstream_setting == 0 and xbmc.getCondVisibility('System.HasAddon(inputstream.adaptive)'):
             listItem.setProperty('inputstream', 'inputstream.adaptive')
             if kodi_version_major() <= 20:
                 listItem.setProperty('inputstream.adaptive.manifest_type', 'hls')

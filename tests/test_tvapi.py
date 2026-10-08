@@ -95,10 +95,74 @@ def test_get_continue_reads_positions_from_watched_endpoint(monkeypatch):
         raise AssertionError(f'unexpected url {url}')
 
     api._request_get = fake_get
-    api.unfold_list = lambda item, headers=None: item['items']
+    api.unfold_list = lambda item, headers=None, use_cache=True: item['items']
 
     items = api.get_continue()
     assert [i['ResumeTime'] for i in items] == [541.0, 0.0, 0.0]
+
+
+def _api_without_kodi():
+    api = tvapi.Api.__new__(tvapi.Api)
+    api.profile_token = lambda: 'ptoken'
+    return api
+
+
+def test_get_mylist_unfolds_with_the_same_use_cache(monkeypatch):
+    """Later saved-list pages must not be served stale from the cache while
+    page one is fetched fresh: unfold_list has to inherit use_cache."""
+    api = _api_without_kodi()
+    seen = {}
+
+    def fake_get(url, params=None, headers=None, use_cache=True):
+        return {'items': [{'id': 1}], 'paging': {'page': 1, 'total': 2}}
+
+    def fake_unfold(item, headers=None, use_cache=True):
+        seen['use_cache'] = use_cache
+        return item['items']
+
+    api._request_get = fake_get
+    api.unfold_list = fake_unfold
+    assert api.get_mylist(use_cache=False) == [{'id': 1, 'in_mylist': True}]
+    assert seen['use_cache'] is False
+
+
+def test_get_continue_unfolds_with_the_same_use_cache(monkeypatch):
+    api = _api_without_kodi()
+    seen = {}
+
+    def fake_get(url, params=None, headers=None, use_cache=True):
+        if url.endswith('/watched'):
+            return {}
+        return {'items': [{'id': 1}], 'paging': {'page': 1, 'total': 2}}
+
+    def fake_unfold(item, headers=None, use_cache=True):
+        seen['use_cache'] = use_cache
+        return item['items']
+
+    api._request_get = fake_get
+    api.unfold_list = fake_unfold
+    api.get_continue(use_cache=False)
+    assert seen['use_cache'] is False
+
+
+def test_unfold_list_passes_use_cache_to_every_get_next_page():
+    """Both get_next calls (first 'next' page and the loop) must honour the
+    caller's use_cache, or a fresh first page mixes with cached later pages."""
+    api = _api_without_kodi()
+    api.progress_prc = 10
+    api.msg = ''
+    calls = []
+
+    def fake_get_next(path, use_cache=True, headers=None):
+        calls.append(use_cache)
+        return {'items': [{'id': len(calls)}],
+                'paging': {'next': f'/next/{len(calls)}'} if len(calls) < 2 else {}}
+
+    api.get_next = fake_get_next
+    item = {'items': [{'id': 0}], 'paging': {'next': '/next/0', 'page': 1, 'total': 3}}
+    items = api.unfold_list(item, use_cache=False)
+    assert len(items) == 3
+    assert calls == [False, False]
 
 
 
