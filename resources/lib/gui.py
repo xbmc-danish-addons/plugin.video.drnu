@@ -118,9 +118,15 @@ def kodi_item(plugin_url: str, api: Any, menu_items: list[tuple[str, str]], fana
                 img['thumb'] = item['images'][label]
                 img['icon'] = item['images'][label]
                 break
-        for label in ['wallpaper', 'square', 'poster']:
+        # fanart is the 16:9 background. DR's 'wallpaper' and 'tile' are
+        # 1920x1080, while 'poster' is 1440x2160 (2:3 portrait), so poster is
+        # only a last resort. Stop at the first match: without a break a later
+        # label overwrites an earlier one, which is how poster ended up as the
+        # background.
+        for label in ['wallpaper', 'tile', 'square', 'poster']:
             if label in item['images']:
                 img['fanart'] = item['images'][label]
+                break
         listItem.setArt(img)
     else:
         area = api.item_area(item)
