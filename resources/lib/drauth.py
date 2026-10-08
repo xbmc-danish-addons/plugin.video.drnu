@@ -29,7 +29,7 @@ import hashlib
 import json
 import secrets
 from pathlib import Path
-from typing import Callable, Dict, Optional
+from typing import Callable, Optional
 from urllib.parse import parse_qs, urlparse
 
 import requests
@@ -50,7 +50,7 @@ def generate_code_challenge(code_verifier: str) -> str:
     return base64.urlsafe_b64encode(sha256).decode().rstrip('=')
 
 
-def full_login(user: str, password: str, log_func: Optional[Callable] = None) -> Dict:
+def full_login(user: str, password: str, log_func: Optional[Callable] = None) -> dict:
     ses = requests.Session()
 
     # start login flow
@@ -103,7 +103,12 @@ def full_login(user: str, password: str, log_func: Optional[Callable] = None) ->
     if log_func:
         log_func(u3.json())
 
-    res2 = ses.get(u3.json()['data']['authenticate']['href'], timeout=GET_TIMEOUT)
+    authenticate = u3.json().get('data', {}).get('authenticate') or {}
+    if 'href' not in authenticate:
+        # the mutation returns an Error (code/message) for a rejected login
+        return {'status_code': u3.status_code, 'error': authenticate.get('message', authenticate.get('code', 'login failed'))}
+
+    res2 = ses.get(authenticate['href'], timeout=GET_TIMEOUT)
     if res2.status_code != 200:
         return {'status_code': res2.status_code, 'error': res2.text}
     code = parse_qs(urlparse(res2.url).query)['code'][0]
@@ -117,7 +122,7 @@ def full_login(user: str, password: str, log_func: Optional[Callable] = None) ->
     return oidc_token(data)
 
 
-def oidc_token(data: Dict) -> Dict:
+def oidc_token(data: dict) -> dict:
     headers = {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"}
     res = requests.post('https://login.dr.dk/oidc/token', data=data, headers=headers, timeout=GET_TIMEOUT)
     if res.status_code != 200:
@@ -125,12 +130,12 @@ def oidc_token(data: Dict) -> Dict:
     return res.json()
 
 
-def refresh_token(refresh_token: str) -> Dict:  # noqa: A001 - mirrors the oidc grant name
+def refresh_token(refresh_token: str) -> dict:  # noqa: A001 - mirrors the oidc grant name
     data = {"client_id": CLIENT_ID, "refresh_token": refresh_token, "grant_type": "refresh_token"}
     return oidc_token(data)
 
 
-def exchange_token(tokens: Dict) -> Dict:
+def exchange_token(tokens: dict) -> dict:
     data = {
         "accessToken": tokens['access_token'], "identityToken": tokens['id_token'],
         "scopes": ["Catalog"], "device": "web_browser", "optout": False,
@@ -149,7 +154,7 @@ def deviceid() -> str:
     return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
 
 
-def anonymous_tokens() -> Dict:
+def anonymous_tokens() -> dict:
     data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
     params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
 

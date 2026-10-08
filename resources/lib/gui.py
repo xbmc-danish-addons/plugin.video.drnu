@@ -24,7 +24,7 @@ The functions construct (url, ListItem, isFolder) tuples from API data and
 addon state passed in as arguments, which makes menu output testable without
 instantiating DrDkTvAddon.
 """
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Optional
 
 import xbmcgui
 
@@ -40,7 +40,7 @@ AREA_ITEMS = [
 ]
 
 
-def area_selector_items(plugin_url: str, menu_items: List[Tuple[str, str]]) -> List[Tuple[str, xbmcgui.ListItem, bool]]:
+def area_selector_items(plugin_url: str, menu_items: list[tuple[str, str]]) -> list[tuple[str, xbmcgui.ListItem, bool]]:
     """(url, ListItem, isFolder) tuples for the simple area selector."""
     items = []
     for label, area, image in AREA_ITEMS:
@@ -52,7 +52,7 @@ def area_selector_items(plugin_url: str, menu_items: List[Tuple[str, str]]) -> L
     return items
 
 
-def main_menu_items(plugin_url: str, api: Any, menu_items: List[Tuple[str, str]], fanart_image: str, area: str) -> List[Tuple[str, xbmcgui.ListItem, bool]]:
+def main_menu_items(plugin_url: str, api: Any, menu_items: list[tuple[str, str]], fanart_image: str, area: str) -> list[tuple[str, xbmcgui.ListItem, bool]]:
     """(url, ListItem, isFolder) tuples for an area's main menu."""
     items = []
 
@@ -96,10 +96,10 @@ def main_menu_items(plugin_url: str, api: Any, menu_items: List[Tuple[str, str]]
     return items
 
 
-def kodi_item(plugin_url: str, api: Any, menu_items: List[Tuple[str, str]], fanart_image: str, item: Dict, is_season: bool = False) -> Optional[Tuple[str, xbmcgui.ListItem, bool]]:
+def kodi_item(plugin_url: str, api: Any, menu_items: list[tuple[str, str]], fanart_image: str, item: dict, is_season: bool = False) -> Optional[tuple[str, xbmcgui.ListItem, bool]]:
     """Build the (url, ListItem, isFolder) tuple for an API item, or None."""
     menuItems = list(menu_items)
-    isFolder = item['type'] not in ['program', 'episode']
+    isFolder = item['type'] not in ['program', 'episode', 'movie']
     if item.get('path', '').startswith('/kanal/') and item['type'] == 'link':
         isFolder = False
     if item['type'] in ['ImageEntry', 'TextEntry'] or item['title'] == '':
@@ -118,9 +118,15 @@ def kodi_item(plugin_url: str, api: Any, menu_items: List[Tuple[str, str]], fana
                 img['thumb'] = item['images'][label]
                 img['icon'] = item['images'][label]
                 break
-        for label in ['wallpaper', 'square', 'poster']:
+        # fanart is the 16:9 background. DR's 'wallpaper' and 'tile' are
+        # 1920x1080, while 'poster' is 1440x2160 (2:3 portrait), so poster is
+        # only a last resort. Stop at the first match: without a break a later
+        # label overwrites an earlier one, which is how poster ended up as the
+        # background.
+        for label in ['wallpaper', 'tile', 'square', 'poster']:
             if label in item['images']:
                 img['fanart'] = item['images'][label]
+                break
         listItem.setArt(img)
     else:
         area = api.item_area(item)

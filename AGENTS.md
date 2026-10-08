@@ -6,7 +6,7 @@ Guidance for AI coding agents working on this repository.
 
 Kodi video addon for DR (Danish Broadcasting Corporation) live and archived TV
 (dr.dk/drtv). Python addon using the Kodi `xbmc`/`xbmcaddon`/`xbmcgui`/
-`xbmcplugin`/`xbmcvfs` API. Runs inside Kodi (Nexus/Omega), not as a standalone
+`xbmcplugin`/`xbmcvfs` API. Runs inside Kodi (Omega), not as a standalone
 program. License: GPL-2.0-only — keep headers on existing files.
 
 ## Layout
@@ -32,8 +32,11 @@ tests/                     pytest + Kodi API stub modules
 - The `xbmc*` modules only exist inside Kodi. Never `pip install` them; the
   fake modules in `tests/` (`xbmc.py`, `xbmcaddon.py`, ...) emulate the API for
   pytest. Keep them in sync with the real API when touching addon code.
-- Target Python compatibility: Kodi Nexus bundles Python 3.8, Omega 3.11.
-  Do not use syntax newer than 3.8 (`target-version = "py38"` in ruff).
+- Target Python compatibility: Kodi Omega bundles Python 3.11 on Windows and
+  macOS, but Linux builds use the system Python, which is older (OSMC's Kodi
+  21.3 runs on Python 3.9). Stay on the 3.9 baseline — no syntax newer than
+  3.9, and no runtime type unions (`X | None` needs 3.10). `target-version =
+  "py39"` in ruff.
 - Addon imports are module-level side-effectful (`xbmcaddon.Addon()` runs at
   import time in `resources/lib/addon.py`). Anything importing it needs the
   stub modules on `sys.path` first (see `tests/test_routing.py`, `tests/cron.py`).

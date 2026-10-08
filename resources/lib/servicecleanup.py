@@ -29,6 +29,11 @@ The marker file and cache file names mirror Api.init_sqlite_db() in tvapi:
 the service rewrites 'requests_cleaned' after a cleanup so the addon skips
 its own cleanup pass, and it refuses to touch a database without a marker
 file, since that state means the addon will wipe and rebuild the cache.
+
+The service's own due-check uses a separate 'cache_vacuumed' marker. The
+daily re-cache crawl refreshes 'requests_cleaned' (it deletes expired
+responses too), so gating the VACUUM on that same marker would postpone it
+forever.
 """
 import gc
 import sqlite3
@@ -40,6 +45,7 @@ from typing import Callable, Optional
 import requests_cache
 
 MARKER_FILE = 'requests_cleaned'
+VACUUM_MARKER_FILE = 'cache_vacuumed'
 CACHE_PREFIX = 'requests.cache'
 DB_FILE = CACHE_PREFIX + '.sqlite'
 
@@ -49,8 +55,12 @@ def cache_db_path(cache_path: Path) -> Path:
 
 
 def cleanup_due(cache_path: Path, cleanup_every: int, now: Optional[float] = None) -> bool:
-    """True when the requests_cleaned marker is missing or older than cleanup_every days."""
-    marker = cache_path / MARKER_FILE
+    """True when the last VACUUM marker is missing or older than cleanup_every days.
+
+    Keyed on the vacuum marker, not requests_cleaned: the daily re-cache
+    refreshes the latter and would otherwise keep postponing the VACUUM.
+    """
+    marker = cache_path / VACUUM_MARKER_FILE
     if not marker.exists():
         return True
     if now is None:
@@ -108,7 +118,10 @@ def cleanup_cache(cache_path: Path, expire_hours: int, log_func: Optional[Callab
     if not vacuum_db(db, log_func):
         return False
 
-    marker.write_text(str(datetime.now()))
+    # requests_cleaned keeps the addon from repeating its own pass; the
+    # vacuum marker records when the VACUUM itself last ran
+    (cache_path / MARKER_FILE).write_text(str(datetime.now()))
+    (cache_path / VACUUM_MARKER_FILE).write_text(str(datetime.now()))
     return True
 
 

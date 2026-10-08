@@ -14,6 +14,7 @@ from resources.lib import servicecleanup
 CACHE_PREFIX = servicecleanup.CACHE_PREFIX
 DB_FILE = servicecleanup.DB_FILE
 MARKER = servicecleanup.MARKER_FILE
+VACUUM_MARKER = servicecleanup.VACUUM_MARKER_FILE
 
 
 def _response(url: str) -> requests.models.Response:
@@ -75,11 +76,12 @@ def test_cleanup_removes_expired_and_shrinks_file(tmp_path):
     assert _count(tmp_path) == 1
     size_after = (tmp_path / DB_FILE).stat().st_size
     assert size_after < size_before * 0.6
-    # VACUUM left no free pages behind and the marker was refreshed
+    # VACUUM left no free pages behind and both markers were refreshed
     con = sqlite3.connect(str(tmp_path / DB_FILE))
     assert con.execute('PRAGMA freelist_count').fetchone()[0] == 0
     con.close()
     assert marker.read_text() != 'seed'
+    assert (tmp_path / VACUUM_MARKER).read_text() != ''
 
 
 def test_cleanup_without_marker_is_noop(tmp_path):
@@ -139,12 +141,19 @@ def test_cleanup_due_no_marker(tmp_path):
 
 
 def test_cleanup_due_fresh_marker(tmp_path):
-    (tmp_path / MARKER).write_text('x')
+    (tmp_path / VACUUM_MARKER).write_text('x')
     assert not servicecleanup.cleanup_due(tmp_path, 7)
 
 
+def test_cleanup_due_ignores_fresh_requests_cleaned(tmp_path):
+    """The daily re-cache refreshes requests_cleaned; that must not postpone
+    the VACUUM, which is gated on its own marker."""
+    (tmp_path / MARKER).write_text('x')
+    assert servicecleanup.cleanup_due(tmp_path, 7)
+
+
 def test_cleanup_due_old_marker(tmp_path):
-    marker = tmp_path / MARKER
+    marker = tmp_path / VACUUM_MARKER
     marker.write_text('x')
     old = time.time() - 8 * 24 * 3600
     os.utime(marker, (old, old))
@@ -160,7 +169,7 @@ def test_cleanup_due_old_marker(tmp_path):
 
 
 def test_cleanup_due_now_override(tmp_path):
-    marker = tmp_path / MARKER
+    marker = tmp_path / VACUUM_MARKER
     marker.write_text('x')
     written = time.time() - 8 * 24 * 3600
     os.utime(marker, (written, written))

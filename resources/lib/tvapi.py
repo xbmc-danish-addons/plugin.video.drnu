@@ -25,11 +25,12 @@ shared constants in constants. The names are re-exported here so existing
 imports of tvapi keep working.
 """
 
+import os
 import pickle
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional, Tuple, Union
+from typing import Any, Callable, Optional, Union
 from urllib.parse import parse_qsl, urlencode, urlparse
 
 import requests
@@ -61,7 +62,7 @@ def cache_path(path: str) -> bool:
     return not any(path.startswith(item) for item in NO_CACHING)
 
 
-def fix_query(url: str, remove: Optional[Dict[str, str]] = None, add: Optional[Dict[str, str]] = None, remove_keys: Optional[List[str]] = None) -> str:
+def fix_query(url: str, remove: Optional[dict[str, str]] = None, add: Optional[dict[str, str]] = None, remove_keys: Optional[list[str]] = None) -> str:
     if remove is None:
         remove = {}
     if add is None:
@@ -136,7 +137,7 @@ class Api:
             self._user_name = self.get_profile()['name']
         return self._user_name
 
-    def read_tokens(self, tokens: List[Dict]) -> None:
+    def read_tokens(self, tokens: list[dict]) -> None:
         if 'value' in tokens[0]:
             # old flow, anonymous
             time_str = tokens[0]['expirationDate'].split('.')[0]
@@ -154,6 +155,16 @@ class Api:
             time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
             self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
 
+    def write_tokens(self, tokens: list[dict]) -> None:
+        """Persist the tokens by writing a temp file and atomically replacing
+        token.p, so a concurrent reader (the service and the plugin share this
+        file) can never observe an empty or partially written file.
+        """
+        tmp_file = self.token_file.with_suffix('.tmp')
+        with tmp_file.open('wb') as fh:
+            pickle.dump([tokens, self.access_tokens], fh)
+        os.replace(tmp_file, self.token_file)
+
     def request_tokens(self) -> Optional[str]:
         self._user_token = None
         self._profile_token = None
@@ -169,16 +180,20 @@ class Api:
             self.access_tokens = {}
             tokens = anonymous_tokens()
         self.read_tokens(tokens)
-        with self.token_file.open('wb') as fh:
-            pickle.dump([tokens, self.access_tokens], fh)
+        self.write_tokens(tokens)
         return None
 
     def refresh_tokens(self) -> None:
         if self._user_token is None and self.token_file.exists():
-            with self.token_file.open('rb') as fh:
-                [tokens, self.access_tokens] = pickle.load(fh)
-                if isinstance(tokens, list):
-                    self.read_tokens(tokens)
+            try:
+                with self.token_file.open('rb') as fh:
+                    [tokens, self.access_tokens] = pickle.load(fh)
+            except (pickle.UnpicklingError, EOFError, ValueError, OSError):
+                # a truncated or unreadable token file must not crash startup;
+                # drop it and log in again below
+                tokens = None
+            if isinstance(tokens, list):
+                self.read_tokens(tokens)
 
         if self._user_token is None:
             err = self.request_tokens()
@@ -208,8 +223,7 @@ class Api:
                     raise ApiException(f'Login failed with: "{err}"')
             else:
                 self.read_tokens(tokens)
-                with self.token_file.open('wb') as fh:
-                    pickle.dump([tokens, self.access_tokens], fh)
+                self.write_tokens(tokens)
 
     def user_token(self) -> Optional[str]:
         self.refresh_tokens()
@@ -219,7 +233,7 @@ class Api:
         self.refresh_tokens()
         return self._profile_token
 
-    def _request_get(self, url: str, params: Optional[Dict] = None, headers: Optional[Dict] = None, use_cache: bool = True) -> Any:
+    def _request_get(self, url: str, params: Optional[dict] = None, headers: Optional[dict] = None, use_cache: bool = True) -> Any:
         u = self.session.get(url, params=params, headers=headers, timeout=GET_TIMEOUT) if use_cache and self.caching else requests.get(url, params=params, headers=headers, timeout=GET_TIMEOUT)
 
         if u.status_code == 200:
@@ -227,7 +241,7 @@ class Api:
         else:
             raise ApiException(u.text)
 
-    def get_programcard(self, path: str, data: Optional[Dict] = None, use_cache: bool = True) -> Dict:
+    def get_programcard(self, path: str, data: Optional[dict] = None, use_cache: bool = True) -> dict:
         url = URL + '/page?'
         if data is None:
             data = {
@@ -238,17 +252,17 @@ class Api:
             }
         return self._request_get(url, params=data, use_cache=use_cache)
 
-    def get_item(self, id: Union[int, str], use_cache: bool = True) -> Dict:
+    def get_item(self, id: Union[int, str], use_cache: bool = True) -> dict:
         url = URL + f'/items/{int(id)}?'
         return self._request_get(url)
 
-    def get_next(self, path: str, use_cache: bool = True, headers: Optional[Dict] = None) -> Dict:
+    def get_next(self, path: str, use_cache: bool = True, headers: Optional[dict] = None) -> dict:
         remove = {'sub': 'Emergency'}
         remove_keys = ['lang', 'segments', 'isDeviceAbroad', 'isLive2VodSupported']
         url = URL + fix_query(path, remove=remove, remove_keys=remove_keys)
         return self._request_get(url, headers=headers, use_cache=use_cache)
 
-    def get_list(self, id: Union[int, str], param: str, use_cache: bool = True) -> Dict:
+    def get_list(self, id: Union[int, str], param: str, use_cache: bool = True) -> dict:
         if isinstance(id, str):
             id = int(id.replace('ID_', ''))
         url = URL + f'/lists/{id}'
@@ -260,7 +274,7 @@ class Api:
             ret = self.get_recommendations(id, use_cache=use_cache, param=param)
         return ret
 
-    def get_recommendations(self, id: int, use_cache: bool = True, param: Optional[str] = None) -> Dict:
+    def get_recommendations(self, id: int, use_cache: bool = True, param: Optional[str] = None) -> dict:
         url = URL + f'/recommendations/{id}'
         data = {'page_size': '24'}
         if param:
@@ -289,7 +303,7 @@ class Api:
         if u.status_code != 200:
             raise ApiException(u.text)
 
-    def get_mylist(self, use_cache: bool = False) -> List[Dict]:
+    def get_mylist(self, use_cache: bool = False) -> list[dict]:
         url = URL + '/account/profile/bookmarks/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -299,7 +313,7 @@ class Api:
             item['in_mylist'] = True
         return items
 
-    def get_continue(self, use_cache: bool = False) -> List[Dict]:
+    def get_continue(self, use_cache: bool = False) -> list[dict]:
         url = URL + '/account/profile/continue-watching/list'
         data = {'page_size': '24'}
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -313,13 +327,13 @@ class Api:
             item['ResumeTime'] = float(watched.get(str(item['id']), {}).get('position', 0.0))
         return items
 
-    def get_profile(self, use_cache: bool = False) -> Dict:
+    def get_profile(self, use_cache: bool = False) -> dict:
         url = URL + '/account/profile'
         headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
         params = {"ff": "idp,ldp,rpt", "lang": "da"}
         return self._request_get(url, headers=headers, params=params, use_cache=use_cache)
 
-    def item_area(self, item: Dict) -> str:
+    def item_area(self, item: dict) -> str:
         label = ''
         if 'classification' in item:
             label = item['classification']['code'].lower()
@@ -331,7 +345,7 @@ class Api:
                     return area
         return 'drtv'  # fall back to general
 
-    def kids_item(self, item: Dict) -> bool:
+    def kids_item(self, item: dict) -> bool:
         if 'classification' in item and item['classification']['code'] in ['DR-Ramasjang', 'DR-Minisjang']:
             return True
         if 'categories' in item:
@@ -340,7 +354,7 @@ class Api:
                     return True
         return False
 
-    def unfold_list(self, item: Dict, filter_kids: bool = False, headers: Optional[Dict] = None, progress: Any = None) -> List[Dict]:
+    def unfold_list(self, item: dict, filter_kids: bool = False, headers: Optional[dict] = None, progress: Any = None) -> list[dict]:
         items = item['items']
         if 'next' in item['paging']:
             if progress is not None:
@@ -361,7 +375,7 @@ class Api:
             items = [item for item in items if not self.kids_item(item)]
         return items
 
-    def search(self, term: str) -> Dict:
+    def search(self, term: str) -> dict:
         url = URL + '/search'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         data = {
@@ -376,7 +390,7 @@ class Api:
         else:
             raise ApiException(u.text)
 
-    def get_home(self, area: str = 'drtv') -> List[Dict]:
+    def get_home(self, area: str = 'drtv') -> list[dict]:
         data = {
             'list_page_size': 24,
             'max_list_prefetch': 1,
@@ -400,7 +414,7 @@ class Api:
                     items.append({'title': title, 'path': item['list']['path']})
         return items
 
-    def getLiveTV(self) -> List[Dict]:
+    def getLiveTV(self) -> list[dict]:
         channels = []
         schedules = self.get_channel_schedule_strings()
         for id in CHANNEL_IDS:
@@ -439,7 +453,7 @@ class Api:
                     return
                 progress.update(int(100*(i+1)/maxidx), msg)
             try:
-                self.get_children_front_items(channel)
+                self.get_children_front_items(channel, progress=progress)
             except Exception as e:
                 self._log_recache_error(channel, e)
             i += 1
@@ -449,16 +463,16 @@ class Api:
         if self.log is not None:
             self.log(f'recache: skipped {what}: {exc}')
 
-    def get_children_front_items(self, channel: str) -> List[Dict]:
+    def get_children_front_items(self, channel: str, progress: Any = None) -> list[dict]:
         name = A_AA[channel]
         js = self.get_programcard(name)
         items = []
         for item in js['entries']:
             if item['type'] == 'ListEntry':
-                items += self.unfold_list(item['list'])
+                items += self.unfold_list(item['list'], progress=progress)
         return items
 
-    def get_stream(self, id: int) -> Optional[Dict]:
+    def get_stream(self, id: int) -> Optional[dict]:
         url = URL + f'/account/items/{int(id)}/videos?'
         headers = {"X-Authorization": f'Bearer {self.user_token()}'}
         data = {
@@ -484,7 +498,7 @@ class Api:
         else:
             raise ApiException(u.text)
 
-    def get_livestream(self, path: str, with_subtitles: bool = False) -> Dict:
+    def get_livestream(self, path: str, with_subtitles: bool = False) -> dict:
         channel = self.get_programcard(path)['entries'][0]
         stream = {
             'subtitles': [],
@@ -492,7 +506,7 @@ class Api:
             }
         return stream
 
-    def get_channel_url(self, channel: Dict, with_subtitles: bool = False, use_cache: bool = True) -> str:
+    def get_channel_url(self, channel: dict, with_subtitles: bool = False, use_cache: bool = True) -> str:
         id = channel['item']['id']
         url = URL + f'/channels/{id}/liveStreams?'
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
@@ -503,7 +517,7 @@ class Api:
         url = links['hlsWithSubtitlesURL' + EU] if with_subtitles else links['hlsURL' + EU]
         return url
 
-    def get_title(self, item: Dict) -> str:
+    def get_title(self, item: dict) -> str:
         title = item['title']
         if item['type'] == 'season':
             title += f" {item['seasonNumber']}"
@@ -513,7 +527,7 @@ class Api:
                 title += f" ({item['contextualTitle']})"
         return title
 
-    def fix_item_description(self, item: Dict) -> Dict:
+    def fix_item_description(self, item: dict) -> dict:
         if len(item.get('shortDescription', '')) >= 255 and item.get('description', '') == '':
             resumetime_save = float(item.get('ResumeTime', 0.0))
             item = self.get_item(item['id'])
@@ -521,7 +535,7 @@ class Api:
                 item['ResumeTime'] = resumetime_save
         return item
 
-    def set_info(self, item: Dict, tag: Any, title: str) -> None:
+    def set_info(self, item: dict, tag: Any, title: str) -> None:
         if self.fetch_full_plot:
             item = self.fix_item_description(item)
         tag.setTitle(title)
@@ -547,7 +561,7 @@ class Api:
             tag.setResumePoint(float(item['ResumeTime']))
 
     @staticmethod
-    def _schedule_windows(duration: int) -> List[Tuple[int, int]]:
+    def _schedule_windows(duration: int) -> list[tuple[int, int]]:
         """Split a duration in hours into (day_offset, hours) windows of max 24h.
 
         Each window starts at the requested hour of the day, matching the
@@ -562,7 +576,7 @@ class Api:
             windows.append((days, remainder))
         return windows
 
-    def get_schedules(self, channels: List[int] = CHANNEL_IDS, date: Optional[str] = None, hour: Optional[int] = None, duration: int = 6) -> List[Dict]:
+    def get_schedules(self, channels: list[int] = CHANNEL_IDS, date: Optional[str] = None, hour: Optional[int] = None, duration: int = 6) -> list[dict]:
         url = URL + '/schedules?'
         now = datetime.now(timezone.utc)
         if date is None:
@@ -588,7 +602,7 @@ class Api:
             schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=hours)
         return schedules
 
-    def get_channel_schedule_strings(self, channels: List[int] = CHANNEL_IDS) -> Dict[int, str]:
+    def get_channel_schedule_strings(self, channels: list[int] = CHANNEL_IDS) -> dict[int, str]:
         out = {}
         now = datetime.now(timezone.utc)
         for channel in self.get_schedules():

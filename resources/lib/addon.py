@@ -92,7 +92,7 @@ class DrDkTvAddon:
         self.cache_path.mkdir(parents=True, exist_ok=True)
 
         self.search_path = self.cache_path / 'search6.pickle'
-        self.fanart_image = str(resources_path() / 'fanart.jpg')
+        self.fanart_image = str(resources_path() / 'media' / 'fanart.jpg')
 
         self.api = tvapi.Api(self.cache_path, tr, get_setting, log)
 
@@ -303,7 +303,7 @@ class DrDkTvAddon:
                 if item['item']['type'] == 'season':
                     if seasons or item['item']['show']['availableSeasonCount'] == 1:
                         # we have shown the root of this series (or only one season anyhow)
-                        self.listEpisodes(item['item']['episodes']['items'], seasons=False)
+                        self.listEpisodes(self.api.unfold_list(item['item']['episodes']), seasons=False)
                     elif self.api.kids_item(item['item']) and bool_setting('disable.kids.seasons'):
                         # let's not have seasons on children items
                         collect_episodes = []
@@ -328,10 +328,16 @@ class DrDkTvAddon:
     def playVideo(self, id, kids_channel, path):
         if path.startswith('/kanal'):
             # live stream
-            video = self.api.get_livestream(path, with_subtitles=bool_setting('enable.subtitles'))
+            video = self.api.get_livestream(path, with_subtitles=bool_setting('enable.livetv_subtitles'))
             video['srt_subtitles'] = []
         else:
             video = self.api.get_stream(id)
+
+        if video is None:
+            # no StandardVideo stream available for this item
+            self.displayError(tr(30904))
+            xbmcplugin.setResolvedUrl(self._plugin_handle, False, xbmcgui.ListItem(offscreen=True))
+            return
 
         subs = {}
         for i, sub in enumerate(video['subtitles']):
@@ -464,7 +470,7 @@ class DrDkTvAddon:
     def _route_searchresult(self, params):
         with self.search_path.open('rb') as fh:
             search_results = pickle.load(fh)
-        self.listEpisodes(search_results[params['searchresult']]['items'])
+        self.listEpisodes(self.api.unfold_list(search_results[params['searchresult']]))
 
     def _route_listvideos(self, params):
         seasons = params.get('seasons', 'False') == 'True'
@@ -473,6 +479,13 @@ class DrDkTvAddon:
             if caching is False:
                 self.api.caching = False
             items = self.api.get_list(params['listVideos'], params['list_param'])
+            if not items['items']:
+                # the list and its recommendations were both empty; show an
+                # empty directory instead of crashing on items[0]
+                if caching is False:
+                    self.api.caching = True
+                self.listEpisodes([])
+                return
             area = self.api.item_area(items['items'][0])
             filter_kids = False
             if area in ['drtv', 'gensyn']:

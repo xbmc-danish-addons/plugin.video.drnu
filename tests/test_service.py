@@ -76,12 +76,12 @@ def test_recache_once_wires_pass(monkeypatch, tmp_path):
         return True
 
     monkeypatch.setattr(service_module, 'recache_pass', fake_pass)
-    monkeypatch.setattr(service_module, 'log', lambda *a, **k: seen.setdefault('logged', True))
+    monkeypatch.setattr(service_module, '_log', lambda *a, **k: seen.setdefault('logged', True))
     service_module.recache_once(tmp_path)
     assert seen['cache_path'] == tmp_path
     assert seen['dialog_factory'] is service_module.make_bg_dialog
-    # log_func is the INFO-level wrapper, not raw log()
-    assert seen['log_func'] is service_module._log_info
+    # log_func is the INFO-level logger that bypasses the log.debug gate
+    assert seen['log_func'] is service_module._log
     assert 'logged' in seen
 
 
@@ -132,6 +132,6 @@ def test_make_bg_dialog_closes_dialog_that_failed_create(monkeypatch):
 def test_recache_once_silent_when_not_due(monkeypatch, tmp_path):
     monkeypatch.setattr(service_module, 'recache_pass', lambda *a, **k: False)
     logged = []
-    monkeypatch.setattr(service_module, 'log', lambda *a, **k: logged.append(a))
+    monkeypatch.setattr(service_module, '_log', lambda *a, **k: logged.append(a))
     service_module.recache_once(tmp_path)
     assert logged == []
