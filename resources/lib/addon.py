@@ -29,7 +29,7 @@ import xbmcplugin
 from xbmcvfs import translatePath
 
 from resources.lib import gui, tvapi, tvgui
-from resources.lib.cronjob import setup_cronjob
+from resources.lib.cronjob import remove_cronjob
 from resources.lib.iptvmanager import IPTVManager
 from resources.lib.kodiutils import (
     bool_setting,
@@ -44,6 +44,24 @@ from resources.lib.kodiutils import (
     version,
 )
 from resources.lib.subtitles import resolve_subtitle_action
+
+
+def migrate_pre_7_1():
+    """Enforce the 7.1 recache defaults and drop the deprecated cronxbmc job.
+
+    Versions before 7.1 scheduled the re-cache through cronxbmc and had no
+    'recache.time'/'recache.service'/'recache.service.idle' settings. On the
+    upgrade to 7.1 that job must go, the new settings must start at their 7.1
+    defaults (03:00, service on, idle gate on), and the two cronxbmc keys must
+    be cleared so they don't linger in the addon settings.
+    """
+    remove_cronjob()
+    set_setting('recache.time', '03:00')
+    set_setting('recache.service', 'true')
+    set_setting('recache.service.idle', 'true')
+    for old_key in ('recache.cronjob', 'recache.cronexpression'):
+        if get_setting(old_key):
+            set_setting(old_key, '')
 
 
 def _wait_for_playback(player, monitor):
@@ -82,12 +100,15 @@ class DrDkTvAddon:
         runScript = "RunAddon(plugin.video.drnu,?show=areaselector)"
         self.menuItems.append((tr(30205), runScript))
 
-        setup_cronjob(get_addon_info('path'), bool_setting, get_setting)
         self._version_change_fixes()
 
     def _version_change_fixes(self):
         first_run, settings_version, settings_V, addon_V = self._version_check()
         if first_run:
+            if settings_V < version('7.1.0') <= addon_V:
+                # upgrading from before 7.1: cronxbmc scheduling is gone and
+                # the new recache settings must start at their 7.1 defaults
+                migrate_pre_7_1()
             if settings_version == '' and kodi_version_major() <= 19:
                 # kodi matrix subtitle handling https://github.com/xbmc/inputstream.adaptive/issues/1037
                 set_setting('enable.localsubtitles', 'true')
@@ -487,6 +508,5 @@ class DrDkTvAddon:
         self.api.recache_items(clear_expired=True, progress=progress)
         progress.update(100)
         progress.close()
-        if params['re-cache'] == '2':
-            self.showSimpleAreaSelector()
-            xbmc.executebuiltin('ActivateWindow(home)')
+        # legacy '?re-cache=2' (old cronxbmc job) and '?re-cache=1' now do
+        # the same thing: just the crawl, no GUI side effects

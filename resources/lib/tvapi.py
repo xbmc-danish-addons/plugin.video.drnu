@@ -305,9 +305,12 @@ class Api:
         headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
         item = self._request_get(url, params=data, headers=headers, use_cache=use_cache)
         items = self.unfold_list(item, headers=headers)
-        watched = self.get_profile()['watched']
+        # resume positions used to ride along in /account/profile as 'watched';
+        # DR moved them to their own endpoint returning {item id: {position, ...}}
+        watched = self._request_get(URL + '/account/profile/watched',
+                                    headers=headers, use_cache=use_cache)
         for item in items:
-            item['ResumeTime'] = float(watched.get(str(item['id']), {'position': 0.0})['position'])
+            item['ResumeTime'] = float(watched.get(str(item['id']), {}).get('position', 0.0))
         return items
 
     def get_profile(self, use_cache: bool = False) -> Dict:
@@ -418,13 +421,16 @@ class Api:
             if item['type'] == 'ListEntry':
                 self.msg = f"{self.tr(30523)}'{item['title']}'\n"
                 self.progress_prc = int(100 * (i + 1) / maxidx)
-                for sub_item in self.unfold_list(item['list'], progress=progress):
-                    if self.fetch_full_plot:
-                        if progress is not None:
-                            if progress.iscanceled():
-                                return
-                            progress.update(self.progress_prc, self.msg + 'updating descriptions...')
-                        self.fix_item_description(sub_item)
+                try:
+                    for sub_item in self.unfold_list(item['list'], progress=progress):
+                        if self.fetch_full_plot:
+                            if progress is not None:
+                                if progress.iscanceled():
+                                    return
+                                progress.update(self.progress_prc, self.msg + 'updating descriptions...')
+                            self.fix_item_description(sub_item)
+                except Exception as e:
+                    self._log_recache_error(f"'{item['title']}'", e)
             i += 1
         for channel in ['ramasjang', 'minisjang', 'ultra']:
             msg = f"{self.tr(30523)}'{channel}'\n"
@@ -432,8 +438,16 @@ class Api:
                 if progress.iscanceled():
                     return
                 progress.update(int(100*(i+1)/maxidx), msg)
-            self.get_children_front_items(channel)
+            try:
+                self.get_children_front_items(channel)
+            except Exception as e:
+                self._log_recache_error(channel, e)
             i += 1
+
+    def _log_recache_error(self, what: str, exc: Exception) -> None:
+        """Log a recache failure and let the crawl carry on with the next item."""
+        if self.log is not None:
+            self.log(f'recache: skipped {what}: {exc}')
 
     def get_children_front_items(self, channel: str) -> List[Dict]:
         name = A_AA[channel]

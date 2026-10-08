@@ -1,3 +1,35 @@
+[B]Version 7.1.0 - 2026-10-04[/B]
+- Add Kodi background service that periodically expires old responses and
+  VACUUMs the request cache database, so the cache file no longer only
+  shrinks when the addon is opened (or never, if expire is disabled)
+- The scheduled re-cache crawl now runs from the background service by
+  default, daily at a set time of day (default 03:00) and, by default,
+  only while Kodi is idle (setting to disable the idle gate), with a
+  corner progress dialog instead of a blocking one; the crawl aborts
+  within seconds when the user becomes active and retries on the next
+  idle pass. The dialog is created before use and skipped if Kodi has no
+  GUI, so the service no longer fails with "Dialog not created"
+- The service reuses the existing recache settings (enabled/cleanup/
+  expiration); cleanup is skipped while playback is active
+- The cronxbmc integration is removed: the addon no longer depends on
+  service.cronxbmc, and upgrading from before 7.1 deletes any job an older
+  version left behind and resets the new recache settings to their 7.1
+  defaults; the manual "re-cache all" settings button is unchanged
+- Log service success lines at INFO level so they show in default logs
+- The service crawl has a 30 minute wall-clock cap, so a wedged crawl
+  cannot hold the progress dialog open forever
+- Fix request cache file never returning deleted space to the filesystem
+- Give the login/token requests a 10s timeout (they had none, so a stalled
+  login could hang the background re-cache crawl indefinitely), and let the
+  crawl skip an item that fails after its retries instead of aborting the
+  whole run
+- Fix "Continue watching" crashing with a KeyError after DR moved the resume
+  positions out of the account profile into their own endpoint
+- Harden the background re-cache progress dialog: it is now dismissed on
+  every exit path (a failing dialog creation or a failing close can no
+  longer leave Kodi's progress handle behind, which could show up as a
+  corner progress bar stuck at 0% until the next full-screen redraw)
+
 [B]Version 7.0.0 - 2026-09-27[/B]
 - Major internal rewrite: the API client is split into auth, subtitles and
   constants modules, and menu building is extracted into its own module

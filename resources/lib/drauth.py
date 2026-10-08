@@ -34,7 +34,7 @@ from urllib.parse import parse_qs, urlparse
 
 import requests
 
-from resources.lib.constants import CLIENT_ID, URL
+from resources.lib.constants import CLIENT_ID, GET_TIMEOUT, URL
 
 TRANSACTION_FRAGMENT = "fragment useTransactionTransactionFragment on Transaction { ... on AuthenticatedAuthenticationTransaction { id email registration href __typename } ... on UnauthenticatedAuthenticationTransaction { id email __typename } ... on UnverifiedAuthenticationTransaction { id email name __typename } ... on UnrecognizedAuthenticationTransaction { id email statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } __typename } ... on UnidentifiedAuthenticationTransaction { id __typename } ... on CompletedEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on PendingEmailVerificationTransaction { id emailVerificationVariant: variant email __typename } ... on CompletedPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingPasswordChangeTransaction { id passwordChangeVariant: variant __typename } ... on PendingDeletionConfirmationTransaction { id __typename } ... on CompletedDeletionConfirmationTransaction { id __typename } ... on SettingsTransaction { id identity { id email name roles __typename } statisticsConsentDefinition { id type version locale permissions headline summary body __typename } preferencesConsentDefinition { id type version locale permissions headline summary body __typename } newsletterConsentDefinition { id type version locale permissions headline summary body __typename } statisticsConsentRevision { id status definition createdAt __typename } preferencesConsentRevision { id status definition createdAt __typename } newsletterConsentRevision { id status definition createdAt __typename } referBackUri referBackName sessionState expiresAt __typename } ... on PendingEUPTransaction { id href __typename } ... on CompletedEUPTransaction { id __typename } __typename }"  # noqa: E501
 
@@ -66,7 +66,7 @@ def full_login(user: str, password: str, log_func: Optional[Callable] = None) ->
         "response_type": "code",
         "scope": "openid roles tracking profile email offline_access"
     }
-    res = ses.get('https://login.dr.dk/oidc/authorize', params=params)
+    res = ses.get('https://login.dr.dk/oidc/authorize', params=params, timeout=GET_TIMEOUT)
     if res.status_code != 200:
         return {'status_code': res.status_code, 'error': res.text}
 
@@ -92,18 +92,18 @@ def full_login(user: str, password: str, log_func: Optional[Callable] = None) ->
 
     url = 'https://login.dr.dk/graphql'
 
-    u1 = ses.post(url, json=trans_data, headers=headers)
+    u1 = ses.post(url, json=trans_data, headers=headers, timeout=GET_TIMEOUT)
     if log_func:
         log_func(u1.json())
-    u2 = ses.post(url, json=identify_data, headers=headers)
+    u2 = ses.post(url, json=identify_data, headers=headers, timeout=GET_TIMEOUT)
     if log_func:
         log_func(u2.json())
 
-    u3 = ses.post(url, json=authenticate_data, headers=headers)
+    u3 = ses.post(url, json=authenticate_data, headers=headers, timeout=GET_TIMEOUT)
     if log_func:
         log_func(u3.json())
 
-    res2 = ses.get(u3.json()['data']['authenticate']['href'])
+    res2 = ses.get(u3.json()['data']['authenticate']['href'], timeout=GET_TIMEOUT)
     if res2.status_code != 200:
         return {'status_code': res2.status_code, 'error': res2.text}
     code = parse_qs(urlparse(res2.url).query)['code'][0]
@@ -119,7 +119,7 @@ def full_login(user: str, password: str, log_func: Optional[Callable] = None) ->
 
 def oidc_token(data: Dict) -> Dict:
     headers = {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"}
-    res = requests.post('https://login.dr.dk/oidc/token', data=data, headers=headers)
+    res = requests.post('https://login.dr.dk/oidc/token', data=data, headers=headers, timeout=GET_TIMEOUT)
     if res.status_code != 200:
         return {'status_code': res.status_code, 'error': res.text}
     return res.json()
@@ -137,7 +137,7 @@ def exchange_token(tokens: Dict) -> Dict:
     }
 
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
-    res = requests.post(URL + '/authorization/exchange', json=data, headers=headers)
+    res = requests.post(URL + '/authorization/exchange', json=data, headers=headers, timeout=GET_TIMEOUT)
     if res.status_code != 200:
         return {'status_code': res.status_code, 'error': res.text}
     return res.json()
@@ -154,7 +154,7 @@ def anonymous_tokens() -> Dict:
     params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
 
     url = URL + '/authorization/anonymous-sso?'
-    u = requests.post(url, json=data, params=params)
+    u = requests.post(url, json=data, params=params, timeout=GET_TIMEOUT)
     if u.status_code != 200:
         return {'status_code': u.status_code, 'error': u.text}
     tokens = json.loads(u.content)

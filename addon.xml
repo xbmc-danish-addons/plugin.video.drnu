@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.drnu" version="7.0.0" name="DR TV" provider-name="TermeHansen">
+<addon id="plugin.video.drnu" version="7.1.0" name="DR TV" provider-name="TermeHansen">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.dateutil" version="2.8.2" />
         <import addon="script.module.requests" version="2.31.0" />
         <import addon="script.module.requests-cache" version="0.5.2+matrix.2"/>
-        <import addon="service.cronxbmc" version="0.1.7"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
+    <extension point="xbmc.service" library="service.py"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Watch live and archived TV from DR (Danish Broadcasting Corporation)</summary>
         <summary lang="da_DK">Se live og arkiveret TV fra DR</summary>
@@ -31,6 +31,18 @@
             <screenshot>resources/media/Screenshot3.jpg</screenshot>
             <screenshot>resources/media/Screenshot4.jpg</screenshot>
        </assets>
+       <news>[B]Version 7.1.0 - 2026-10-04[/B]
+        - Fix "Continue watching" crash.
+        - Background service: request cache is expired and vacuumed automatically
+        - Scheduled re-cache runs from the service at a set time of day (default 03:00), only while Kodi is idle
+        - service.cronxbmc dependency removed; old cron jobs are cleaned up on upgrade
+       </news>
+       <news>[B]Version 7.0.0 - 2026-09-27[/B]
+        - Major internal rewrite: API client split into auth, subtitles, constants and menu modules
+        - Addon state created lazily; playback start wait interruptible by Kodi shutdown
+        - Fixes: search busy spinner, subtitle download crash, resume positions after DR API change
+        - Test suite runs against recorded API fixtures; ruff linting in CI
+       </news>
        <news>[B]Version 6.7.0 - 2025-10-05[/B]
         - Add option to show minisjang and ramasjang with normal menu items
         - Add new icons for base menu entries
