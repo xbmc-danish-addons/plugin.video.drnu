@@ -41,13 +41,15 @@ class FakeMonitor:
         return False
 
 
-def test_playvideo_local_subtitles_passes_single_path(handle, monkeypatch):
-    """action == 'local' must hand Player.setSubtitles() one path string."""
+def test_playvideo_local_subtitles_passes_selected_path(handle, monkeypatch):
+    """action == 'local' must hand Player.setSubtitles() the SRT path chosen
+    by language, not a position in a shortened list."""
     FakePlayer.instances = []
     video = {
         'url': 'https://example.com/video.m3u8',
         'subtitles': [{'language': 'DanishLanguageSubtitles'}],
-        'srt_subtitles': ['/tmp/a.srt', '/tmp/b.srt'],
+        'srt_subtitles': {'DanishLanguageSubtitles': '/tmp/dk.srt',
+                          'ForeignLanguageSubtitles': '/tmp/fi.srt'},
     }
     monkeypatch.setattr(handle.api, 'get_stream', lambda video_id: video)
     monkeypatch.setattr(addon_module, 'bool_setting', lambda name: True)
@@ -59,7 +61,7 @@ def test_playvideo_local_subtitles_passes_single_path(handle, monkeypatch):
 
     assert len(FakePlayer.instances) == 1
     player = FakePlayer.instances[0]
-    assert player.calls == [('setSubtitles', '/tmp/b.srt'), ('showSubtitles', True)]
+    assert player.calls == [('setSubtitles', '/tmp/dk.srt'), ('showSubtitles', True)]
 
 
 def test_playvideo_stream_subtitles_use_stream_index(handle, monkeypatch):
@@ -68,10 +70,33 @@ def test_playvideo_stream_subtitles_use_stream_index(handle, monkeypatch):
     video = {
         'url': 'https://example.com/video.m3u8',
         'subtitles': [{'language': 'ForeignLanguageSubtitles'}],
-        'srt_subtitles': [],
+        'srt_subtitles': {},
     }
     monkeypatch.setattr(handle.api, 'get_stream', lambda video_id: video)
     monkeypatch.setattr(addon_module, 'bool_setting', lambda name: False)
+    monkeypatch.setattr(addon_module, 'get_setting', lambda name: 0)
+    monkeypatch.setattr(addon_module.xbmc, 'Player', FakePlayer)
+    monkeypatch.setattr(addon_module.xbmc, 'Monitor', FakeMonitor)
+
+    handle.playVideo(1234, 'False', '/program/abc')
+
+    player = FakePlayer.instances[0]
+    assert player.calls == [('setSubtitleStream', 0), ('showSubtitles', True)]
+
+
+def test_playvideo_foreign_stream_not_the_danish_file(handle, monkeypatch):
+    """The review finding end to end: hard-of-hearing off, only the Danish
+    file downloaded, foreign stream available -> the foreign stream must win
+    over the Danish file at position 0."""
+    FakePlayer.instances = []
+    video = {
+        'url': 'https://example.com/video.m3u8',
+        'subtitles': [{'language': 'ForeignLanguageSubtitles'}],
+        'srt_subtitles': {'DanishLanguageSubtitles': '/tmp/dk.srt'},
+    }
+    monkeypatch.setattr(handle.api, 'get_stream', lambda video_id: video)
+    monkeypatch.setattr(addon_module, 'bool_setting',
+                        lambda name: name not in ['enable.subtitles'])
     monkeypatch.setattr(addon_module, 'get_setting', lambda name: 0)
     monkeypatch.setattr(addon_module.xbmc, 'Player', FakePlayer)
     monkeypatch.setattr(addon_module.xbmc, 'Monitor', FakeMonitor)

@@ -333,7 +333,7 @@ class DrDkTvAddon:
         if path.startswith('/kanal'):
             # live stream
             video = self.api.get_livestream(path, with_subtitles=bool_setting('enable.livetv_subtitles'))
-            video['srt_subtitles'] = []
+            video['srt_subtitles'] = {}
         else:
             video = self.api.get_stream(id)
 
@@ -365,7 +365,7 @@ class DrDkTvAddon:
 
         local_subs_bool = bool_setting('enable.localsubtitles') or inputstream_setting == 1
         if local_subs_bool and video['srt_subtitles']:
-            listItem.setSubtitles(video['srt_subtitles'])
+            listItem.setSubtitles(list(video['srt_subtitles'].values()))
         xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, listItem)
         if len(subs) == 0:
             return
@@ -388,7 +388,8 @@ class DrDkTvAddon:
                 player.setSubtitleStream(value)
                 player.showSubtitles(True)
             elif action == 'local':
-                player.setSubtitles(video['srt_subtitles'][value])
+                # 'value' is the SRT path selected by language
+                player.setSubtitles(value)
                 player.showSubtitles(True)
 
     def refresh_ui(self, params=''):
