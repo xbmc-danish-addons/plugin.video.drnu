@@ -37,7 +37,7 @@ import xbmcgui
 from xbmcvfs import translatePath
 
 from resources.lib import tvapi
-from resources.lib.kodiutils import get_setting, log, tr
+from resources.lib.kodiutils import get_setting, tr
 from resources.lib.recachescheduler import _close_dialog, recache_pass
 from resources.lib.servicecleanup import run_cleanup
 
@@ -52,13 +52,23 @@ def idle_and_not_playing() -> bool:
     return xbmc.getGlobalIdleTime() >= IDLE_SECONDS
 
 
+def _log(msg: str, level: int = xbmc.LOGINFO) -> None:
+    """Log straight to Kodi, bypassing kodiutils.log's log.debug gate.
+
+    Service information, warnings and errors must reach a default Kodi log;
+    routing them through kodiutils.log would hide them unless the user
+    enabled the addon's debug toggle.
+    """
+    xbmc.log(msg, level)
+
+
 def cleanup_once(cache_path: Path) -> None:
     """One cache maintenance pass, skipped while playback is active to avoid
     sqlite contention with the addon."""
     if xbmc.getCondVisibility('Player.playing'):
         return
-    if run_cleanup(get_setting, cache_path, log):
-        log('drnu service: vacuumed the request cache db', xbmc.LOGINFO)
+    if run_cleanup(get_setting, cache_path, _log):
+        _log('drnu service: vacuumed the request cache db')
 
 
 def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
@@ -74,24 +84,18 @@ def make_bg_dialog() -> Optional[xbmcgui.DialogProgressBG]:
     try:
         dialog.create('DR TV', tr(30524))
     except RuntimeError as e:
-        log(f'drnu service: DialogProgressBG.create FAILED: {e}', xbmc.LOGWARNING)
+        _log(f'drnu service: DialogProgressBG.create FAILED: {e}', xbmc.LOGWARNING)
         _close_dialog(dialog)
         return None
     return dialog
 
 
-def _log_info(msg: str) -> None:
-    """kodiutils.log defaults to LOGDEBUG, which a default Kodi log drops;
-    the service diagnostics must be visible without debug logging."""
-    log(msg, xbmc.LOGINFO)
-
-
 def recache_once(cache_path: Path) -> None:
     """Run the scheduled re-cache crawl when due (idle-gated by default)."""
-    if recache_pass(get_setting, lambda: tvapi.Api(cache_path, tr, get_setting, log),
+    if recache_pass(get_setting, lambda: tvapi.Api(cache_path, tr, get_setting, _log),
                     cache_path, datetime.now(), idle_and_not_playing,
-                    make_bg_dialog, log_func=_log_info):
-        log('drnu service: re-cache job finished', xbmc.LOGINFO)
+                    make_bg_dialog, log_func=_log):
+        _log('drnu service: re-cache job finished')
 
 
 def run(monitor: xbmc.Monitor, cleanup: Callable[[], None], interval_seconds: int) -> None:
@@ -100,7 +104,7 @@ def run(monitor: xbmc.Monitor, cleanup: Callable[[], None], interval_seconds: in
         try:
             cleanup()
         except Exception:
-            log(traceback.format_exc(), xbmc.LOGERROR)
+            _log(traceback.format_exc(), xbmc.LOGERROR)
         monitor.waitForAbort(interval_seconds)
 
 

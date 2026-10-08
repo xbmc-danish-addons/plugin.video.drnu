@@ -121,7 +121,7 @@ def test_recache_items_skips_failing_item_and_continues():
     api.unfold_list = unfold_list
     children = []
 
-    def get_children_front_items(channel):
+    def get_children_front_items(channel, progress=None):
         children.append(channel)
         if channel == 'minisjang':
             raise tvapi.ApiException('timeout')
@@ -144,13 +144,49 @@ def test_recache_items_still_aborts_on_progress_cancel():
     api = _make_api()
     api.get_programcard = lambda path, data=None, use_cache=True: {'entries': []}
     children = []
-    api.get_children_front_items = lambda channel: children.append(channel)
+    api.get_children_front_items = lambda channel, progress=None: children.append(channel)
 
     api.recache_items(progress=FakeProgress(canceled=True))
 
     # aborted before the first channel, nothing logged as an error
     assert children == []
     assert api.log_lines == []
+
+
+def test_recache_items_passes_progress_to_children_crawl():
+    """The children's crawl must receive the progress object so it can abort
+    when the user becomes active or the deadline passes."""
+    api = _make_api()
+    api.get_programcard = lambda path, data=None, use_cache=True: {'entries': []}
+    seen = {}
+
+    def get_children_front_items(channel, progress=None):
+        seen[channel] = progress
+
+    api.get_children_front_items = get_children_front_items
+    progress = FakeProgress()
+
+    api.recache_items(progress=progress)
+
+    assert seen == {'ramasjang': progress, 'minisjang': progress, 'ultra': progress}
+
+
+def test_get_children_front_items_threads_progress_into_unfold():
+    api = _make_api()
+    api.get_programcard = lambda path, data=None, use_cache=True: {
+        'entries': [{'type': 'ListEntry', 'list': {'name': 'x'}}]}
+    seen = {}
+
+    def unfold_list(item, progress=None):
+        seen['progress'] = progress
+        return []
+
+    api.unfold_list = unfold_list
+    progress = FakeProgress()
+
+    api.get_children_front_items('ramasjang', progress=progress)
+
+    assert seen['progress'] is progress
 
 
 def test_log_recache_error_tolerates_missing_logger():

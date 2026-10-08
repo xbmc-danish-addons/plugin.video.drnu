@@ -69,12 +69,6 @@
     <setting id="enable.areaitem" label="30206" type="boolean">
       <level>0</level> <default>false</default> <control type="toggle"/>
     </setting>
-    <setting id="clearfavorits" label="30213" type="action">
-      <level>0</level>
-      <control type="button" format="action">
-        <data>RunPlugin(plugin://plugin.video.drnu/?clearfavorite=1)</data>
-      </control>
-    </setting>
     <setting id="inputstream" label="30212" type="integer">
       <level>2</level>
       <default>0</default>

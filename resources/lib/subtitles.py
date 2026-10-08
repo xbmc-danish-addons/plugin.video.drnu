@@ -22,7 +22,9 @@
 
 import re
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional, Tuple, Union
+from typing import Any, Callable, Optional, Union
+
+import requests
 
 LOCAL_SUBTITLE_LANGUAGES = ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles']
 
@@ -48,29 +50,35 @@ def vtt2srt(vtt: Union[str, bytes]) -> str:
     return '\n'.join(srtout)
 
 
-def handle_subtitle_vtts(subs: List[Dict], cache_path: Path, tr_func: Callable[[int], str], session: Any) -> List[str]:
+def handle_subtitle_vtts(subs: list[dict], cache_path: Path, tr_func: Callable[[int], str], session: Any) -> list[str]:
     """Download subtitle VTTs and store them as local SRT files.
 
-    Returns the list of written SRT file paths (str). Download of one
-    subtitle failing stops the loop, mirroring the original behavior.
+    Returns the list of written SRT file paths (str). A subtitle that fails
+    to download or write is skipped: playback must not be stopped by a
+    subtitle error, since the video can still fall back to embedded
+    subtitles.
     """
     subtitles_uri = []
     for sub in subs:
         tr_id = 30050 if sub['language'] in LOCAL_SUBTITLE_LANGUAGES else 30051
         name = f'{cache_path}/{tr_func(tr_id)}.da.srt'
-        u = session.get(sub['link'], timeout=10)
-        if u.status_code != 200:
-            u.close()
-            break
-        srt = vtt2srt(u.content)
-        with open(name, 'wb') as fh:
-            fh.write(srt.encode('utf-8'))
-        u.close()
+        try:
+            u = session.get(sub['link'], timeout=10)
+            try:
+                if u.status_code != 200:
+                    continue
+                srt = vtt2srt(u.content)
+            finally:
+                u.close()
+            with open(name, 'wb') as fh:
+                fh.write(srt.encode('utf-8'))
+        except (OSError, requests.RequestException):
+            continue
         subtitles_uri.append(name)
     return subtitles_uri
 
 
-def resolve_subtitle_action(settings: Dict, subs: Dict, kids_channel: bool, srt_subtitles: List[str]) -> Tuple[Optional[str], Optional[Union[int, str]]]:
+def resolve_subtitle_action(settings: dict, subs: dict, kids_channel: bool, srt_subtitles: list[str]) -> tuple[Optional[str], Optional[Union[int, str]]]:
     """Decide which subtitle action to take once playback has started.
 
     settings holds the relevant addon settings (disable.kids.subtitles,
