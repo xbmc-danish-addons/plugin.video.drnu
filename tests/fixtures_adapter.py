@@ -10,6 +10,7 @@ next-page URLs before requesting them, while the recorded cache URLs carry
 them — so keys are matched on the stripped form, and a 'page=1' fallback key
 covers requests where the addon does not send the explicit page param.
 """
+import contextlib
 import json
 import urllib.parse as urlparse
 from pathlib import Path
@@ -72,10 +73,15 @@ def install_fixture_adapter(handle):
 
 
 class FakeSession:
-    """Stands in for the requests-cache session: search() uses session.get directly."""
+    """Stands in for the requests-cache session: subtitle downloads call
+    session.get, and search()/get_stream() wrap their call in
+    session.cache_disabled()."""
 
     def __init__(self, index):
         self._index = index
+
+    def cache_disabled(self):
+        return contextlib.nullcontext()
 
     def get(self, url, params=None, headers=None, timeout=None):
         key = fixture_key(url, params)
@@ -92,5 +98,5 @@ class FakeResponse:
 
 
 def install_fake_session(handle):
-    """Route search()'s direct session.get calls through the fixtures too."""
+    """Route subtitle downloads' direct session.get calls through the fixtures."""
     handle.api.session = FakeSession(load_index())

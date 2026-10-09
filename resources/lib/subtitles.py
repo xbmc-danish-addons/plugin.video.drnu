@@ -50,17 +50,20 @@ def vtt2srt(vtt: Union[str, bytes]) -> str:
     return '\n'.join(srtout)
 
 
-def handle_subtitle_vtts(subs: list[dict], cache_path: Path, tr_func: Callable[[int], str], session: Any) -> list[str]:
+def handle_subtitle_vtts(subs: list[dict], cache_path: Path, tr_func: Callable[[int], str], session: Any) -> dict[str, str]:
     """Download subtitle VTTs and store them as local SRT files.
 
-    Returns the list of written SRT file paths (str). A subtitle that fails
-    to download or write is skipped: playback must not be stopped by a
-    subtitle error, since the video can still fall back to embedded
-    subtitles.
+    Returns a mapping from subtitle language to the written SRT file path: a
+    caller must select by language, not by position, because a subtitle whose
+    download fails is skipped and a positional list would then point at the
+    wrong language. A subtitle that fails to download or write is skipped:
+    playback must not be stopped by a subtitle error, since the video can
+    still fall back to embedded subtitles.
     """
-    subtitles_uri = []
+    subtitles_uri = {}
     for sub in subs:
-        tr_id = 30050 if sub['language'] in LOCAL_SUBTITLE_LANGUAGES else 30051
+        language = sub['language']
+        tr_id = 30050 if language in LOCAL_SUBTITLE_LANGUAGES else 30051
         name = f'{cache_path}/{tr_func(tr_id)}.da.srt'
         try:
             u = session.get(sub['link'], timeout=10)
@@ -74,36 +77,41 @@ def handle_subtitle_vtts(subs: list[dict], cache_path: Path, tr_func: Callable[[
                 fh.write(srt.encode('utf-8'))
         except (OSError, requests.RequestException):
             continue
-        subtitles_uri.append(name)
+        subtitles_uri[language] = name
     return subtitles_uri
 
 
-def resolve_subtitle_action(settings: dict, subs: dict, kids_channel: bool, srt_subtitles: list[str]) -> tuple[Optional[str], Optional[Union[int, str]]]:
+def resolve_subtitle_action(settings: dict, subs: dict, kids_channel: bool,
+                            local_subtitles: dict[str, str]) -> tuple[Optional[str], Optional[Union[int, str]]]:
     """Decide which subtitle action to take once playback has started.
 
     settings holds the relevant addon settings (disable.kids.subtitles,
     enable.subtitles, enable.localsubtitles, inputstream), subs maps subtitle
-    language codes to their stream index and srt_subtitles is the list of
-    locally downloaded SRT files.
+    language codes to their embedded stream index and local_subtitles maps
+    language codes to locally downloaded SRT files.
 
     Returns one of:
         ('off', None)          hide subtitles
         ('stream', index)      enable embedded subtitle stream at index
-        ('local', file_index)  enable local SRT file at file_index
+        ('local', file_path)   enable local SRT file at file_path
         (None, None)           leave subtitles untouched
     """
     local_subs = settings['enable.localsubtitles'] or settings['inputstream'] == 1
     if settings['disable.kids.subtitles'] and kids_channel:
         return ('off', None)
     if settings['enable.subtitles']:
-        if local_subs and srt_subtitles:
-            return ('local', len(srt_subtitles) - 1)
+        # hard-of-hearing: prefer the local file, then the embedded stream, in
+        # language priority order
         for language in ['DanishLanguageSubtitles', 'CombinedLanguageSubtitles', 'ForeignLanguageSubtitles']:
+            if local_subs and language in local_subtitles:
+                return ('local', local_subtitles[language])
             if language in subs:
                 return ('stream', subs[language])
         return (None, None)
     if 'ForeignLanguageSubtitles' in subs:
-        if local_subs and srt_subtitles:
-            return ('local', 0)
+        # hard-of-hearing off: show the foreign translation, which must be the
+        # foreign file/stream even when only the Danish subtitle was downloaded
+        if local_subs and 'ForeignLanguageSubtitles' in local_subtitles:
+            return ('local', local_subtitles['ForeignLanguageSubtitles'])
         return ('stream', subs['ForeignLanguageSubtitles'])
     return ('off', None)

@@ -49,3 +49,46 @@ def test_searchresult_unfolds_pages(handle, monkeypatch, tmp_path):
 
     assert unfolded == [section]
     assert listed == [[{'id': 1, 'type': 'episode'}]]
+
+
+def test_list_entries_threads_no_caching_to_later_pages(handle, monkeypatch):
+    """Opening a series without caching must stay uncached for the later
+    requests too, or fresh episodes mix with stale cached ones."""
+    season = {
+        'type': 'ItemEntry',
+        'item': {
+            'type': 'season',
+            'show': {'availableSeasonCount': 1},
+            'episodes': {'items': [{'id': 1, 'type': 'episode'}],
+                         'paging': {'page': 1, 'total': 1}},
+        },
+    }
+    card_calls = []
+
+    def get_programcard(path, **k):
+        card_calls.append(k.get('use_cache'))
+        return {'entries': [season]}
+
+    unfold_calls = []
+    monkeypatch.setattr(handle.api, 'get_programcard', get_programcard)
+    monkeypatch.setattr(handle.api, 'unfold_list',
+                        lambda item, **k: unfold_calls.append(k.get('use_cache')) or [])
+    monkeypatch.setattr(handle, 'listEpisodes', lambda items, **k: None)
+
+    handle.list_entries('/serie/bluey_227278', caching=False)
+
+    assert card_calls == [False]
+    assert unfold_calls == [False]
+
+
+def test_list_entries_threads_no_caching_to_listentry(handle, monkeypatch):
+    entry = {'type': 'ListEntry', 'list': {'items': [], 'paging': {}}}
+    monkeypatch.setattr(handle.api, 'get_programcard', lambda path, **k: {'entries': [entry]})
+    unfold_calls = []
+    monkeypatch.setattr(handle.api, 'unfold_list',
+                        lambda item, **k: unfold_calls.append(k.get('use_cache')) or [])
+    monkeypatch.setattr(handle, 'listEpisodes', lambda items, **k: None)
+
+    handle.list_entries('/liste/306104', caching=False)
+
+    assert unfold_calls == [False]

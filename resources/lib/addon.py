@@ -298,7 +298,7 @@ class DrDkTvAddon:
         if len(entries) == 0:
             # hack for get_programcard('/liste/306104') giving empty entries, but recommendations yields?!?
             id = int(path.split('/')[-1])
-            self.listEpisodes(self.api.get_recommendations(id)['items'])
+            self.listEpisodes(self.api.get_recommendations(id, use_cache=use_cache)['items'])
         elif len(entries) > 1:
             self.listEpisodes(entries)
         else:
@@ -307,16 +307,16 @@ class DrDkTvAddon:
                 if item['item']['type'] == 'season':
                     if seasons or item['item']['show']['availableSeasonCount'] == 1:
                         # we have shown the root of this series (or only one season anyhow)
-                        self.listEpisodes(self.api.unfold_list(item['item']['episodes']), seasons=False)
+                        self.listEpisodes(self.api.unfold_list(item['item']['episodes'], use_cache=use_cache), seasons=False)
                     elif self.api.kids_item(item['item']) and bool_setting('disable.kids.seasons'):
                         # let's not have seasons on children items
                         collect_episodes = []
                         for season_item in item['item']['show']['seasons']['items']:
                             if season_item['id'] == item['item']['episodes']['items'][0]['seasonId']:
-                                collect_episodes += self.api.unfold_list(item['item']['episodes'])
+                                collect_episodes += self.api.unfold_list(item['item']['episodes'], use_cache=use_cache)
                             else:
-                                newitem = self.api.get_programcard(season_item['path'])['entries'][0]
-                                collect_episodes += self.api.unfold_list(newitem['item']['episodes'])
+                                newitem = self.api.get_programcard(season_item['path'], use_cache=use_cache)['entries'][0]
+                                collect_episodes += self.api.unfold_list(newitem['item']['episodes'], use_cache=use_cache)
                         self.listEpisodes(collect_episodes, seasons=False)
                     else:
                         # list only the season items of this series
@@ -324,7 +324,7 @@ class DrDkTvAddon:
                 else:
                     raise tvapi.ApiException(f"{item['item']['type']} unknown")
             elif item['type'] == 'ListEntry':
-                items = self.api.unfold_list(item['list'])
+                items = self.api.unfold_list(item['list'], use_cache=use_cache)
                 self.listEpisodes(items)
             else:
                 raise tvapi.ApiException(f"{item['type']} unknown")
@@ -333,7 +333,7 @@ class DrDkTvAddon:
         if path.startswith('/kanal'):
             # live stream
             video = self.api.get_livestream(path, with_subtitles=bool_setting('enable.livetv_subtitles'))
-            video['srt_subtitles'] = []
+            video['srt_subtitles'] = {}
         else:
             video = self.api.get_stream(id)
 
@@ -365,7 +365,7 @@ class DrDkTvAddon:
 
         local_subs_bool = bool_setting('enable.localsubtitles') or inputstream_setting == 1
         if local_subs_bool and video['srt_subtitles']:
-            listItem.setSubtitles(video['srt_subtitles'])
+            listItem.setSubtitles(list(video['srt_subtitles'].values()))
         xbmcplugin.setResolvedUrl(self._plugin_handle, video['url'] is not None, listItem)
         if len(subs) == 0:
             return
@@ -388,7 +388,8 @@ class DrDkTvAddon:
                 player.setSubtitleStream(value)
                 player.showSubtitles(True)
             elif action == 'local':
-                player.setSubtitles(video['srt_subtitles'][value])
+                # 'value' is the SRT path selected by language
+                player.setSubtitles(value)
                 player.showSubtitles(True)
 
     def refresh_ui(self, params=''):

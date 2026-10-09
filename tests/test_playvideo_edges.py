@@ -61,7 +61,7 @@ def test_route_listvideos_empty_list_shows_empty_directory(handle, monkeypatch):
 
 
 def _resolved_item_for(handle, monkeypatch, has_adaptive):
-    video = {'url': 'https://example.com/v.m3u8', 'subtitles': [], 'srt_subtitles': []}
+    video = {'url': 'https://example.com/v.m3u8', 'subtitles': [], 'srt_subtitles': {}}
     monkeypatch.setattr(handle.api, 'get_stream', lambda video_id: video)
     monkeypatch.setattr(addon_module, 'bool_setting', lambda name: False)
     monkeypatch.setattr(addon_module, 'get_setting', lambda name: '0')
