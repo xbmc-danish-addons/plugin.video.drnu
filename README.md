@@ -1,5 +1,5 @@
 # plugin.video.drnu
-![Kodi Version](https://img.shields.io/badge/kodi%20version-19.x-blue)
+![Kodi Version](https://img.shields.io/badge/kodi%20version-20.x-blue)
 [![Build Status](https://github.com/xbmc-danish-addons/plugin.video.drnu/actions/workflows/python-package-conda.yml/badge.svg?branch=master)](https://github.com/xbmc-danish-addons/plugin.video.drnu/actions/workflows/python-package-conda.yml)
 [![License](https://img.shields.io/github/license/xbmc-danish-addons/plugin.video.drnu)](https://github.com/xbmc-danish-addons/plugin.video.drnu/blob/master/LICENSE.txt)
 [![ruff](https://img.shields.io/badge/code%20style-ruff-261230.svg)](https://docs.astral.sh/ruff/)

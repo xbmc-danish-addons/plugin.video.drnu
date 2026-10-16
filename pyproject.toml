@@ -1,10 +1,19 @@
 [tool.ruff]
 line-length = 200
-target-version = "py39"
+# the Windows and Xbox builds of Kodi 20/21 bundle Python 3.8, so that is the
+# floor; the PEP 585/604 forms ruff would otherwise suggest are not available
+# there (see AGENTS.md)
+target-version = "py38"
 exclude = ["tests/*"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "B", "UP", "SIM", "I", "C4", "ANN001", "ANN2"]
+
+[tool.ruff.lint.pyupgrade]
+# `from __future__ import annotations` makes PEP 604 (`X | None`) safe to write
+# even on 3.8, but the addon still runs on that older Python, so keep the
+# runtime-evaluable Optional/Union form instead of letting ruff rewrite it
+keep-runtime-typing = true
 
 [tool.ruff.lint.per-file-ignores]
 # Kodi-glue modules: annotations would just restate the xbmc API signatures
