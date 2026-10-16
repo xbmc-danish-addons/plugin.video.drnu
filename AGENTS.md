@@ -25,6 +25,7 @@ resources/language/*/strings.po  localized strings (tr(id) reads these)
 resources/settings.xml     addon settings
 resources/icons|media/     artwork
 tests/                     pytest + Kodi API stub modules
+tests/envs/requirements-test.txt  pip deps for the Python 3.8 test env (uv)
 ```
 
 ## Environment constraints
@@ -50,15 +51,19 @@ tests/                     pytest + Kodi API stub modules
   import time in `resources/lib/addon.py`). Anything importing it needs the
   stub modules on `sys.path` first (see `tests/test_routing.py`, `tests/cron.py`).
 - Dependencies are declared in `addon.xml` (`script.module.*`), not pip.
-  Keep `tests/envs/test.yml` (and `tests/envs/test-py38.yml`) in sync when
-  adding runtime deps. CI runs the suite twice: the main job on 3.9 and
-  `py38-compat` on the 3.8 that Kodi 20/21 ship on Windows and Xbox, so a
-  PEP 585 annotation evaluated at import time fails the build instead of
-  shipping.
+  Keep `tests/envs/requirements-test.txt` in sync when adding runtime deps;
+  CI installs it with uv into a Python 3.8 venv, so the suite runs on the 3.8
+  that Kodi 20/21 ship on Windows and Xbox. That is what catches a PEP 585
+  annotation evaluated at import time before it ships.
 
 ## Commands
 
 ```bash
+# one-time: build the Python 3.8 test env (uv fetches the interpreter).
+# Keep the venv outside the checkout -- see the note below.
+uv venv --python 3.8 /tmp/drnu-venv
+VIRTUAL_ENV=/tmp/drnu-venv uv pip install -r tests/envs/requirements-test.txt
+
 # tests (from repo root; stub modules are found via tests/)
 pytest tests --disable-warnings
 
@@ -76,6 +81,11 @@ Note: `test_routing.py` tests are integration-style and read recorded HTTP
 caches under `tests/userdata/`. If a cache entry is missing they hit the live
 DR API and fail. Do not "fix" such failures by re-recording against the live
 API without asking; prefer adding small JSON fixtures instead.
+
+Note: `kodi-addon-checker` scans the whole working tree, so a `.venv` inside
+the checkout makes it fail on the `.so` files in `site-packages` ("marked as
+stand-alone executable"). CI creates the venv outside the checkout for that
+reason; do the same locally (`uv venv --python 3.8 /tmp/drnu-venv`).
 
 ## Style
 

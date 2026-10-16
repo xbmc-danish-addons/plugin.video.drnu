@@ -1,0 +1,58 @@
+name: Addon checker and unit testing in python
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    # Python 3.8 is the floor: the Windows and Xbox builds of Kodi 20 and 21
+    # bundle it, so a PEP 585 annotation (list[dict]) evaluated at import time
+    # fails there and nowhere else. The venv lives outside the checkout because
+    # kodi-addon-checker scans the repo and rejects the .so files in a
+    # site-packages directory as stand-alone executables.
+    - name: Install uv and create the Python 3.8 venv
+      uses: astral-sh/setup-uv@v10
+      with:
+        python-version: '3.8'
+        activate-environment: true
+        venv-path: ${{ runner.temp }}/venv
+
+    - name: Install dependencies
+      run: uv pip install -r tests/envs/requirements-test.txt
+
+    - name: Lint with ruff
+      run: ruff check .
+
+    - name: Test with kodi-addon-checker
+      run: kodi-addon-checker --branch=omega --allow-folder-id-mismatch
+
+    - name: Unit tests with coverage
+      run: pytest tests --disable-warnings --cov --cov-report=term --cov-report=json:coverage.json
+
+    - name: Read coverage percentage
+      id: coverage
+      run: |
+        echo "pct=$(python -c 'import json; print(int(float(json.load(open("coverage.json"))["totals"]["percent_covered_display"])))')" >> "$GITHUB_OUTPUT"
+
+    - name: Update coverage badge (master only)
+      if: github.ref == 'refs/heads/master'
+      continue-on-error: true
+      uses: schneegans/dynamic-badges-action@v1.9.0
+      with:
+        auth: ${{ secrets.GIST_TOKEN }}
+        gistID: 0456bf4f97b2e2facbf4c3183b97e4d1
+        filename: coverage.json
+        label: coverage
+        message: ${{ steps.coverage.outputs.pct }}%
+        valColorRange: ${{ steps.coverage.outputs.pct }}
+        maxColorRange: 90
+        minColorRange: 50

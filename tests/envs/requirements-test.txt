@@ -1,0 +1,18 @@
+# Test environment, installed with uv into a Python 3.8 venv.
+#
+# 3.8 is the floor because the Windows and Xbox builds of Kodi 20 and 21 bundle
+# Python 3.8 (Kodi 22 moves to 3.12), so a PEP 585 annotation evaluated at
+# import time -- "'type' object is not subscriptable" -- only shows up there.
+# See the Python note in AGENTS.md.
+#
+# Runtime deps mirror the script.module.* requirements in addon.xml; requests
+# and python-dateutil are unpinned so this env tracks the newest versions
+# compatible with 3.8, which is the stricter of the two.
+requests
+requests-cache==0.5.2
+python-dateutil
+
+pytest
+pytest-cov
+ruff
+kodi-addon-checker
