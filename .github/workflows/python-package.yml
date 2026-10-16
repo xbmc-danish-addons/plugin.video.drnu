@@ -10,38 +10,39 @@ on:
 jobs:
   build-linux:
     runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 5
 
     steps:
     - uses: actions/checkout@v4
 
-    - name: setup-micromamba
-      uses: mamba-org/setup-micromamba@v1
+    # Python 3.8 is the floor: the Windows and Xbox builds of Kodi 20 and 21
+    # bundle it, so a PEP 585 annotation (list[dict]) evaluated at import time
+    # fails there and nowhere else. The venv lives outside the checkout because
+    # kodi-addon-checker scans the repo and rejects the .so files in a
+    # site-packages directory as stand-alone executables.
+    #
+    # Pinned to a tag because setup-uv stopped publishing floating major tags
+    # after v7 -- `@v10` does not resolve and fails the job before any step runs.
+    - name: Install uv and create the Python 3.8 venv
+      uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884  # v10.3.0
       with:
-        environment-file: tests/envs/test.yml
-        environment-name: python-test-env
-        cache-environment: true
-        post-cleanup: 'all'
+        python-version: '3.8'
+        activate-environment: true
+        venv-path: ${{ runner.temp }}/venv
+
+    - name: Install dependencies
+      run: uv pip install -r tests/envs/requirements-test.txt
 
     - name: Lint with ruff
-      shell: bash -l {0}
-      run: |
-        ruff check .
+      run: ruff check .
 
     - name: Test with kodi-addon-checker
-      shell: bash -l {0}
-      run: |
-        kodi-addon-checker --branch=omega --allow-folder-id-mismatch
+      run: kodi-addon-checker --branch=omega --allow-folder-id-mismatch
 
     - name: Unit tests with coverage
-      shell: bash -l {0}
-      run: |
-        pytest tests --disable-warnings --cov --cov-report=term --cov-report=json:coverage.json
+      run: pytest tests --disable-warnings --cov --cov-report=term --cov-report=json:coverage.json
 
     - name: Read coverage percentage
       id: coverage
-      shell: bash -l {0}
       run: |
         echo "pct=$(python -c 'import json; print(int(float(json.load(open("coverage.json"))["totals"]["percent_covered_display"])))')" >> "$GITHUB_OUTPUT"
 

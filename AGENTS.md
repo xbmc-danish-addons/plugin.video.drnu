@@ -25,6 +25,7 @@ resources/language/*/strings.po  localized strings (tr(id) reads these)
 resources/settings.xml     addon settings
 resources/icons|media/     artwork
 tests/                     pytest + Kodi API stub modules
+tests/envs/requirements-test.txt  pip deps for the Python 3.8 test env (uv)
 ```
 
 ## Environment constraints
@@ -32,20 +33,37 @@ tests/                     pytest + Kodi API stub modules
 - The `xbmc*` modules only exist inside Kodi. Never `pip install` them; the
   fake modules in `tests/` (`xbmc.py`, `xbmcaddon.py`, ...) emulate the API for
   pytest. Keep them in sync with the real API when touching addon code.
-- Target Python compatibility: Kodi Omega bundles Python 3.11 on Windows and
-  macOS, but Linux builds use the system Python, which is older (OSMC's Kodi
-  21.3 runs on Python 3.9). Stay on the 3.9 baseline — no syntax newer than
-  3.9, and no runtime type unions (`X | None` needs 3.10). `target-version =
-  "py39"` in ruff.
+- Target Python compatibility: **3.8 is the floor**, not 3.9. The Windows and
+  Xbox builds of Kodi 20 and 21 bundle Python 3.8.15 (Kodi 22 moves to 3.12),
+  and Linux builds use the system Python, which is older still (OSMC's Kodi
+  21.3 runs on Python 3.9). So: no PEP 585 builtin generics evaluated at
+  runtime (`list[dict]`, `dict[str, str]` need 3.9 — add `from __future__
+  import annotations` to the module if you want to write them), and no PEP 604
+  unions (`X | None` needs 3.10; use `Optional[X]`). `target-version = "py38"`
+  and `pyupgrade.keep-runtime-typing = true` in ruff.
+  Note `python --version` on a user's machine reports their system Python, not
+  the interpreter Kodi bundles — do not use it to judge addon compatibility.
+- Supported Kodi: the addon requires `xbmc.python 3.0.1`, which is what Kodi
+  19.5, 20 and 21 ship (19.0-19.4 have 3.0.0). Note that 19.5 and 20 share the
+  same `xbmc.python` version, so the requirement cannot express "20+ only" —
+  that would need `3.1.0`, which is Kodi 22.
 - Addon imports are module-level side-effectful (`xbmcaddon.Addon()` runs at
   import time in `resources/lib/addon.py`). Anything importing it needs the
   stub modules on `sys.path` first (see `tests/test_routing.py`, `tests/cron.py`).
 - Dependencies are declared in `addon.xml` (`script.module.*`), not pip.
-  Keep `tests/envs/test.yml` in sync when adding runtime deps.
+  Keep `tests/envs/requirements-test.txt` in sync when adding runtime deps;
+  CI installs it with uv into a Python 3.8 venv, so the suite runs on the 3.8
+  that Kodi 20/21 ship on Windows and Xbox. That is what catches a PEP 585
+  annotation evaluated at import time before it ships.
 
 ## Commands
 
 ```bash
+# one-time: build the Python 3.8 test env (uv fetches the interpreter).
+# Keep the venv outside the checkout -- see the note below.
+uv venv --python 3.8 /tmp/drnu-venv
+VIRTUAL_ENV=/tmp/drnu-venv uv pip install -r tests/envs/requirements-test.txt
+
 # tests (from repo root; stub modules are found via tests/)
 pytest tests --disable-warnings
 
@@ -63,6 +81,11 @@ Note: `test_routing.py` tests are integration-style and read recorded HTTP
 caches under `tests/userdata/`. If a cache entry is missing they hit the live
 DR API and fail. Do not "fix" such failures by re-recording against the live
 API without asking; prefer adding small JSON fixtures instead.
+
+Note: `kodi-addon-checker` scans the whole working tree, so a `.venv` inside
+the checkout makes it fail on the `.so` files in `site-packages` ("marked as
+stand-alone executable"). CI creates the venv outside the checkout for that
+reason; do the same locally (`uv venv --python 3.8 /tmp/drnu-venv`).
 
 ## Style
 
