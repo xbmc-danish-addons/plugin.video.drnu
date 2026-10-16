@@ -13,7 +13,6 @@ Both surfaced as a TypeError instead of a clear failure:
 """
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-import types
 
 import pytest
 
@@ -204,10 +203,11 @@ def test_pep585_annotations_are_deferred_to_strings():
 
 
 @pytest.mark.parametrize('module', _ANNOTATED_MODULES, ids=lambda m: m.__name__.rsplit('.', 1)[-1])
-def test_no_annotation_is_an_evaluated_pep585_subscript(module):
-    """An evaluated 'list[dict]' is a types.GenericAlias, and building one is
-    what raised 'type' object is not subscriptable on 3.8. Functions defined in
-    these modules must therefore not carry any such annotation."""
+def test_annotations_are_never_evaluated_at_import(module):
+    """PEP 563 turns every annotation into a string, so the PEP 585 forms are
+    never evaluated at import time -- which is what raised 'type' object is not
+    subscriptable on Python 3.8. Functions defined in these modules must
+    therefore carry string annotations, not evaluated objects."""
     for func in vars(module).values():
         annotations = getattr(func, '__annotations__', None)
         if not annotations or getattr(func, '__module__', None) != module.__name__:
@@ -215,5 +215,5 @@ def test_no_annotation_is_an_evaluated_pep585_subscript(module):
             # module's annotations, which are plain types, not subscripts
             continue
         for name, annotation in annotations.items():
-            assert not isinstance(annotation, types.GenericAlias), \
+            assert isinstance(annotation, str), \
                 f'{module.__name__}.{func.__name__}: {name} = {annotation!r}'

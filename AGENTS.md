@@ -50,7 +50,11 @@ tests/                     pytest + Kodi API stub modules
   import time in `resources/lib/addon.py`). Anything importing it needs the
   stub modules on `sys.path` first (see `tests/test_routing.py`, `tests/cron.py`).
 - Dependencies are declared in `addon.xml` (`script.module.*`), not pip.
-  Keep `tests/envs/test.yml` in sync when adding runtime deps.
+  Keep `tests/envs/test.yml` (and `tests/envs/test-py38.yml`) in sync when
+  adding runtime deps. CI runs the suite twice: the main job on 3.9 and
+  `py38-compat` on the 3.8 that Kodi 20/21 ship on Windows and Xbox, so a
+  PEP 585 annotation evaluated at import time fails the build instead of
+  shipping.
 
 ## Commands
 

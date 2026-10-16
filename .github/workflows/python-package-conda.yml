@@ -58,3 +58,27 @@ jobs:
         valColorRange: ${{ steps.coverage.outputs.pct }}
         maxColorRange: 90
         minColorRange: 50
+
+  # The Windows and Xbox builds of Kodi 20 and 21 bundle Python 3.8, which is
+  # older than the 3.9 the main job runs on. This job proves the addon still
+  # imports and the suite still passes there: a PEP 585 annotation
+  # (list[dict]) evaluated at import time only fails on 3.8, so without this
+  # job such a regression ships undetected.
+  py38-compat:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: setup-micromamba
+      uses: mamba-org/setup-micromamba@v1
+      with:
+        environment-file: tests/envs/test-py38.yml
+        environment-name: kodi-py38-env
+        cache-environment: true
+        post-cleanup: 'all'
+
+    - name: Unit tests on Python 3.8
+      shell: bash -l {0}
+      run: |
+        pytest tests --disable-warnings
