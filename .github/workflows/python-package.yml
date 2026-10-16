@@ -19,8 +19,11 @@ jobs:
     # fails there and nowhere else. The venv lives outside the checkout because
     # kodi-addon-checker scans the repo and rejects the .so files in a
     # site-packages directory as stand-alone executables.
+    #
+    # Pinned to a tag because setup-uv stopped publishing floating major tags
+    # after v7 -- `@v10` does not resolve and fails the job before any step runs.
     - name: Install uv and create the Python 3.8 venv
-      uses: astral-sh/setup-uv@v10
+      uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884  # v10.3.0
       with:
         python-version: '3.8'
         activate-environment: true
