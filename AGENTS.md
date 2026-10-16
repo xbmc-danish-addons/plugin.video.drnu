@@ -32,11 +32,20 @@ tests/                     pytest + Kodi API stub modules
 - The `xbmc*` modules only exist inside Kodi. Never `pip install` them; the
   fake modules in `tests/` (`xbmc.py`, `xbmcaddon.py`, ...) emulate the API for
   pytest. Keep them in sync with the real API when touching addon code.
-- Target Python compatibility: Kodi Omega bundles Python 3.11 on Windows and
-  macOS, but Linux builds use the system Python, which is older (OSMC's Kodi
-  21.3 runs on Python 3.9). Stay on the 3.9 baseline — no syntax newer than
-  3.9, and no runtime type unions (`X | None` needs 3.10). `target-version =
-  "py39"` in ruff.
+- Target Python compatibility: **3.8 is the floor**, not 3.9. The Windows and
+  Xbox builds of Kodi 20 and 21 bundle Python 3.8.15 (Kodi 22 moves to 3.12),
+  and Linux builds use the system Python, which is older still (OSMC's Kodi
+  21.3 runs on Python 3.9). So: no PEP 585 builtin generics evaluated at
+  runtime (`list[dict]`, `dict[str, str]` need 3.9 — add `from __future__
+  import annotations` to the module if you want to write them), and no PEP 604
+  unions (`X | None` needs 3.10; use `Optional[X]`). `target-version = "py38"`
+  and `pyupgrade.keep-runtime-typing = true` in ruff.
+  Note `python --version` on a user's machine reports their system Python, not
+  the interpreter Kodi bundles — do not use it to judge addon compatibility.
+- Supported Kodi: the addon requires `xbmc.python 3.0.1`, which is what Kodi
+  19.5, 20 and 21 ship (19.0-19.4 have 3.0.0). Note that 19.5 and 20 share the
+  same `xbmc.python` version, so the requirement cannot express "20+ only" —
+  that would need `3.1.0`, which is Kodi 22.
 - Addon imports are module-level side-effectful (`xbmcaddon.Addon()` runs at
   import time in `resources/lib/addon.py`). Anything importing it needs the
   stub modules on `sys.path` first (see `tests/test_routing.py`, `tests/cron.py`).
