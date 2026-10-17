@@ -85,7 +85,7 @@ def fix_query(url: str, remove: Optional[dict[str, str]] = None, add: Optional[d
 
 
 class Api:
-    def __init__(self, cachePath: Path, getLocalizedString: Callable[[int], str], get_setting: Callable[[str], str], log_func: Optional[Callable] = None) -> None:
+    def __init__(self, cachePath: Path, getLocalizedString: Callable[[int], str], get_setting: Callable[[str], str], log_func: Optional[Callable] = None, refresh: bool = True) -> None:
         self.cachePath = cachePath
         self.tr = getLocalizedString
         self.log = log_func
@@ -103,7 +103,10 @@ class Api:
         self._user_token = None
         self.get_setting = get_setting
         self._refresh_settings()
-        self.refresh_tokens()
+        if refresh:
+            # the login route rebuilds the Api with refresh=False so it can
+            # report a failed login itself instead of raising here
+            self.refresh_tokens()
 
     def _refresh_settings(self) -> None:
         self.user = self.get_setting('drtv_username')
