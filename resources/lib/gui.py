@@ -98,6 +98,15 @@ def main_menu_items(plugin_url: str, api: Any, menu_items: list[tuple[str, str]]
     return items
 
 
+def duration_suffix(duration: Any) -> str:
+    """Format a duration in seconds as ' [H:MM]' for display after a title."""
+    if not isinstance(duration, (int, float)):
+        return ''
+    minutes = int(duration + 30) // 60  # nearest minute
+    hours, mins = divmod(minutes, 60)
+    return f' [{hours}:{mins:02d}]'
+
+
 def kodi_item(plugin_url: str, api: Any, menu_items: list[tuple[str, str]], fanart_image: str, item: dict, is_season: bool = False) -> Optional[tuple[str, xbmcgui.ListItem, bool]]:
     """Build the (url, ListItem, isFolder) tuple for an API item, or None."""
     menuItems = list(menu_items)
@@ -110,6 +119,8 @@ def kodi_item(plugin_url: str, api: Any, menu_items: list[tuple[str, str]], fana
         is_season = item['kodi_seasons']
 
     title = api.get_title(item)
+    if not isFolder and bool_setting('video.duration'):
+        title += duration_suffix(item.get('duration'))
     listItem = xbmcgui.ListItem(title, offscreen=True)
     videoInfoTag = listItem.getVideoInfoTag()
     api.set_info(item, videoInfoTag, title)

@@ -1,3 +1,7 @@
+[B]Version 7.2.0 - 2026-10-24[/B]
+- New setting "Show duration in titles" (default off): playable items get
+  their duration appended as [H:MM] to the title
+
 [B]Version 7.1.1 - 2026-10-16[/B]
 - Fix the addon failing to load on the Windows and Xbox builds of Kodi 20/21,
   which bundle Python 3.8: the type annotations added in 7.1.0 (list[dict],
