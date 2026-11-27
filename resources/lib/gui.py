@@ -64,7 +64,7 @@ def main_menu_items(plugin_url: str, api: Any, menu_items: list[tuple[str, str]]
     item.addContextMenuItems(menu_items, False)
     items.append((plugin_url + '?show=liveTV', item, True))
 
-    if api.user_name != 'anonymous' and area == 'drtv':
+    if api.user and area == 'drtv':
         # Mylist and continue watching
         for string_id, param in [(30004, 'mylist'), (30003, 'continue')]:
             item = xbmcgui.ListItem(f'{tr(string_id)} ({api.user_name})', offscreen=True)

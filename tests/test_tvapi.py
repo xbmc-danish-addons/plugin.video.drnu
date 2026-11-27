@@ -66,6 +66,22 @@ def test_cache_path():
     assert not tvapi.cache_path('/liste/drtv-hero-saturday-18_00_89366')
 
 
+def test_cache_path_skips_the_drtv_platform_hero_lists():
+    """drtv-platform names the front page carousel after the weekday, so a
+    prefix match on the legacy '/liste/drtv-hero' let 'Daglige forslag' be
+    cached for the whole expiration window and show yesterday's list."""
+    assert not tvapi.cache_path('/liste/hero-fredag')
+    assert not tvapi.cache_path('/liste/hero-mandag')
+    assert not tvapi.cache_path('/liste/ramasjang-hero-fre-x09uw')
+
+
+def test_cache_path_still_caches_lists_that_merely_contain_hero():
+    """Only the hero segment bypasses the cache; a title that happens to spell
+    'hero' inside a word must stay cached."""
+    assert tvapi.cache_path('/liste/heroiske-kvinder-x1234')
+    assert tvapi.cache_path('/serie/hero_227278')
+
+
 def test_schedule_windows_single_request():
     # durations <= 24 never reach _schedule_windows (single request branch)
     assert tvapi.Api._schedule_windows(6) == [(0, 6)]

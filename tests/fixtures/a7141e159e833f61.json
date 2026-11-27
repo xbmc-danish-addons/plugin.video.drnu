@@ -1,0 +1,106 @@
+{
+ "status": 200,
+ "json": {
+  "id": "ed32ad0a-488d-4064-990e-5f39652849e3",
+  "title": "Ramasjang | P",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xayaz",
+  "itemTypes": [
+   "show"
+  ],
+  "size": 25,
+  "items": [
+   {
+    "id": "3ea42015-5e8f-47a7-aa3c-1ff45ec4cf08",
+    "type": "show",
+    "subtype": "",
+    "title": "På tur med far",
+    "shortDescription": "Når man kører i bil, så opstår der tit de sjoveste samtaler og vildeste oplevelser. Dansk dokumentarserie.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/paa-tur-med-far_280408",
+    "scopes": [
+     "3ea42015-5e8f-47a7-aa3c-1ff45ec4cf08"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1815067686000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7XDYYWWA59BEWF4J0HPHK%27&entityId=%273ea42015-5e8f-47a7-aa3c-1ff45ec4cf08%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7XDYYWDPJV8P4HFA7C3EY%27&entityId=%273ea42015-5e8f-47a7-aa3c-1ff45ec4cf08%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7XDYYWDPJV8P4HFA7C3EY%27&entityId=%273ea42015-5e8f-47a7-aa3c-1ff45ec4cf08%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "495427b1f060917c959040ad5cc8a9f3c9c0551297f067ea5ad815769b22df0b",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Fakta",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Fakta,DR Ramasjang",
+     "PageTitle": "På tur med far",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr ramasjang",
+     "fakta"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_børn som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_genkendelig",
+     "recommendationgenre_dokumentar",
+     "theme_dagligdag og hjemmeliv"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "previous": "/lists/ed32ad0a-488d-4064-990e-5f39652849e3?page=1&page_size=24&order=Desc",
+   "page": 2,
+   "size": 24,
+   "total": 2
+  },
+  "customFields": {}
+ }
+}

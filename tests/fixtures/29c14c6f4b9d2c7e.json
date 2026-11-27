@@ -1,0 +1,2724 @@
+{
+ "status": 200,
+ "json": {
+  "metadata": {
+   "description": "Ramasjang - TV for børn. Se børneprogrammer på DRTV. Find sjove, lærerige og underholdende børneprogrammer fra Ramasjang her",
+   "keywords": []
+  },
+  "entries": [
+   {
+    "id": "36b9e177-be3b-445f-88e6-74df5c6617d3",
+    "type": "ListEntry",
+    "title": "",
+    "template": "DRH6",
+    "list": {
+     "id": "9f619a93-0c42-808e-8d99-13948b81faee",
+     "title": "Ramasjang: Hero FRE",
+     "description": "",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/liste/ramasjang-hero-fre-x09uw",
+     "itemTypes": [
+      "episode",
+      "program"
+     ],
+     "size": 12,
+     "items": [
+      {
+       "id": "8846f838-92df-4cd7-b33b-6b12dbf680d7",
+       "type": "episode",
+       "subtype": "",
+       "title": "FredagsTamTam",
+       "contextualTitle": "48. episode",
+       "shortDescription": "TamTam betyder fantastiske fredags-tegnefilm for alle børn - og deres forældre. Med helt nye episoder af Mesterlige Monsterbørn, Karlas fantalastiske klasse og Lånerne og den nye serie Ormhildur - og selvfølgelig et godt gensyn med Tom & Jerry. Udløber: 2",
+       "tagline": "Helt nye og klassiske tegnefilm for hele familien",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/fredagstamtam_622461",
+       "watchPath": "/se/fredagstamtam_622461",
+       "scopes": [
+        "8846f838-92df-4cd7-b33b-6b12dbf680d7"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 48,
+       "episodeName": "FredagsTamTam",
+       "seasonId": "d6a49650-d8cc-4745-9649-c06dcb150526",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 3481,
+       "customId": "urn:dr:ocs:tv:content:playable:00922610480",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6QKPPFMKFTCF7Y87NPSCRWF%27&entityId=%278846f838-92df-4cd7-b33b-6b12dbf680d7%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HXRKMA5QTDSCN3PHNFZJRZ%27&entityId=%278846f838-92df-4cd7-b33b-6b12dbf680d7%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HXRKMA5QTDSCN3PHNFZJRZ%27&entityId=%278846f838-92df-4cd7-b33b-6b12dbf680d7%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "AvailableFrom": "2026-11-27T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "c622456eb1402b8e9cbaf0612e146fd2793bef6efa34a59683db750db56b65f5",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "27. NOV. 2026 | 58M",
+        "DisplayCategory": "Underholdning,Tegnefilm",
+        "ExtraDetails": "SÆSON 2026 EPISODE 48 | 58M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Underholdning,Tegnefilm,DR1,acc_spoken_subtitles",
+        "PageTitle": "FredagsTamTam: Sæson 2026 – 48. episode",
+        "PlayButtonExtraDetails": "S2026:E48",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "DRTV",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "Ramasjang",
+        "ShortVideoUrl": "https://drod20i.akamaized.net/all/clear/none/5b/6affdce775d80d000102545b/6affdce727273300012b7937/stream_fmp4/master_manifest.m3u8",
+        "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+        "TargetAudience": "All"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dr1",
+        "tegnefilm",
+        "underholdning"
+       ],
+       "keywords": [
+        "agetargetgroup_6-8 år",
+        "agetargetgroup_9-11 år",
+        "agetargetgroup_familie",
+        "culturalorigin_dansk",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_sjov",
+        "recommendationgenre_animation"
+       ]
+      },
+      {
+       "id": "24531d42-9f51-42df-9987-1ae722ecde1a",
+       "type": "episode",
+       "subtype": "",
+       "title": "Den Store Julefortælling | Ekstra: Årets musikvideo",
+       "contextualTitle": "1. Årets musikvideo",
+       "shortDescription": "Udløber: 1. mar. 2027",
+       "classification": {
+        "code": "DR-Ultra",
+        "name": "Ultra"
+       },
+       "path": "/episode/den-store-julefortaelling-_-ekstra_-aarets-musikvideo_632902",
+       "watchPath": "/se/den-store-julefortaelling-_-ekstra_-aarets-musikvideo_632902",
+       "scopes": [
+        "24531d42-9f51-42df-9987-1ae722ecde1a"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 1,
+       "episodeName": "Den Store Julefortælling | Ekstra: Årets musikvideo",
+       "seasonId": "ce6c36e0-62f9-4e5c-90d3-b910ae072373",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 178,
+       "customId": "urn:dr:ocs:tv:content:playable:00132630250",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M63CTS3ZHRV3DMSDAQ2QZSAS%27&entityId=%2724531d42-9f51-42df-9987-1ae722ecde1a%27&entityType=%27Item%27&Width=1920&Height=1080",
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M65A9DE9DAMP875A043GFGQT%27&entityId=%2724531d42-9f51-42df-9987-1ae722ecde1a%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6B8CWC9KJCVFDF5ACM108A2%27&entityId=%2724531d42-9f51-42df-9987-1ae722ecde1a%27&entityType=%27Item%27&Width=1024&Height=576"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-01T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ultra",
+        "BrandingChannelShort": "TVL",
+        "Checksum": "6dabb705ebdb1472d50a5fbd10c303143487220496b5926d9a19afda6e56ba98",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra"
+        ],
+        "ContextualTitleExtraDetails": "1. NOV. 2026 | 3M",
+        "DisplayCategory": "Serie",
+        "ExtraDetails": "SÆSON 1 EPISODE 1 | 3M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Serie,DR Ultra",
+        "PageTitle": "Den Store Julefortælling | Ekstra: Sæson 1 – Årets musikvideo",
+        "PlayButtonExtraDetails": "S1:E1 Årets musikvideo",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ultra",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "Ultra",
+        "TargetAudience": "OlderKidsAndAdults",
+        "ShortVideoUrl": "https://drod23q.akamaized.net/all/clear/none/a7/6b04b25f75d80d0001025aa7/6b04b25f27273300012b7986/stream_fmp4/master_manifest.m3u8"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ultra",
+        "serie"
+       ],
+       "keywords": [
+        "agetargetgroup_12-14 år",
+        "agetargetgroup_6-8 år",
+        "agetargetgroup_9-11 år",
+        "charactertype_børn som hovedpersoner",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_nysgerrig",
+        "mood_sjov",
+        "recommendationgenre_drama",
+        "theme_jul"
+       ]
+      },
+      {
+       "id": "585ccb31-ec64-4ac8-baf2-e268ab0aa6dc",
+       "type": "episode",
+       "subtype": "",
+       "title": "Korpigerne: Solo foran 1.800 mennesker!",
+       "contextualTitle": "5. Solo foran 1.800 mennesker!",
+       "shortDescription": "Áróra skal synge solo i det store Jul i Ramasjang-show. Hun glæder sig helt vildt, men hvad nu, hvis hun synger forkert foran alle? Udløber: 1. jan. 2031",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/korpigerne_-solo-foran-1800-mennesker_632468",
+       "watchPath": "/se/korpigerne_-solo-foran-1800-mennesker_632468",
+       "scopes": [
+        "585ccb31-ec64-4ac8-baf2-e268ab0aa6dc"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 5,
+       "episodeName": "Korpigerne: Solo foran 1.800 mennesker!",
+       "seasonId": "1a6a3962-34b2-4bb8-acbd-dc23888419e4",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 789,
+       "customId": "urn:dr:ocs:tv:content:playable:00452607050",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M79ZCKTHCV0NZP94RB29Y8BD%27&entityId=%27585ccb31-ec64-4ac8-baf2-e268ab0aa6dc%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M79ZCKTH7EYTPA53DWQ8D9XZ%27&entityId=%27585ccb31-ec64-4ac8-baf2-e268ab0aa6dc%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M79ZCKTH7EYTPA53DWQ8D9XZ%27&entityId=%27585ccb31-ec64-4ac8-baf2-e268ab0aa6dc%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-23T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ultra",
+        "BrandingChannelShort": "TVL",
+        "Checksum": "857b61a0fc948b6511f2fd3b9217959423b4bb6d195610c239d748462f3f330b",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "23. NOV. 2026 | 13M",
+        "DisplayCategory": "Musik,Fakta",
+        "ExtraDetails": "SÆSON 1 EPISODE 5 | 13M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Musik,Fakta,DR Ultra",
+        "PageTitle": "Korpigerne: Sæson 1 – Solo foran 1.800 mennesker!",
+        "PlayButtonExtraDetails": "S1:E5 Solo foran 1.800 mennesker!",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ultra",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "Ramasjang",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "TargetAudience": "All",
+        "ShortVideoUrl": "https://drod22h.akamaized.net/all/clear/none/aa/6b04b8ed75d80d0001025aaa/6b04b8ecb61f6400014040f0/stream_fmp4/master_manifest.m3u8"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ultra",
+        "fakta",
+        "musik"
+       ],
+       "keywords": [
+        "agetargetgroup_12-14 år",
+        "agetargetgroup_9-11 år",
+        "charactertype_børn som hovedpersoner",
+        "culturalorigin_dansk",
+        "editorialptaxsub_fakta",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_genkendelig",
+        "recommendationgenre_dokumentar"
+       ]
+      },
+      {
+       "id": "b40157a7-dfdc-468e-bd3c-d170a2625574",
+       "type": "episode",
+       "subtype": "",
+       "title": "Motor Mille og Børnebanden: Mel i kanonen",
+       "contextualTitle": "2. Mel i kanonen",
+       "shortDescription": "Ingen legeplads i Sønderborg og omegn er sikker. En sur mand ved Dybbøl Mølle smadrer legepladser med en kanon, og Kåbe ringer og advarer den sure mand om, at Motor Mille kan komme op fra tunneler under vindmøllen. Udløber: 21. nov. 2027",
+       "tagline": "Stop den sure mand med Motor Mille og seje børn fra Dybbøl Mølle!",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/motor-mille-og-boernebanden_-mel-i-kanonen_623504",
+       "watchPath": "/se/motor-mille-og-boernebanden_-mel-i-kanonen_623504",
+       "scopes": [
+        "b40157a7-dfdc-468e-bd3c-d170a2625574"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 2,
+       "episodeName": "Motor Mille og Børnebanden: Mel i kanonen",
+       "seasonId": "964aa29b-b7de-4a1a-95f3-8743da970db7",
+       "badge": "Ny sæson",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 1422,
+       "customId": "urn:dr:ocs:tv:content:playable:00922607760",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5KTFKQ6HDEMFB21A9BNSVRQ%27&entityId=%27b40157a7-dfdc-468e-bd3c-d170a2625574%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7VXZ1W8V0W75KKPYZJPDEE2%27&entityId=%27b40157a7-dfdc-468e-bd3c-d170a2625574%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7VXZ1W8V0W75KKPYZJPDEE2%27&entityId=%27b40157a7-dfdc-468e-bd3c-d170a2625574%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-20T04:55:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "8ae59e35050583fdb97ad8d5dbc72f965d337fce7097efe791da5f12b21e00f0",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "20. NOV. 2026 | 24M",
+        "DisplayCategory": "Ramasjang ø,Serie",
+        "ExtraDetails": "SÆSON 6 EPISODE 2 | 24M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+        "PageTitle": "Motor Mille og Børnebanden: Sæson 6 – Mel i kanonen",
+        "PlayButtonExtraDetails": "S6:E2 Mel i kanonen",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "Ramasjang",
+        "ShortVideoUrl": "https://drod23r.akamaized.net/all/clear/none/49/6afdf69175d80d0001025149/6afdf68460cca40001a4b956/stream_fmp4/master_manifest.m3u8",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "TargetAudience": "All"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "ramasjang ø",
+        "serie"
+       ],
+       "keywords": [
+        "agetargetgroup_4-5 år",
+        "agetargetgroup_6-8 år",
+        "culturalorigin_dansk",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_spændingsfyldt",
+        "recommendationgenre_drama"
+       ]
+      },
+      {
+       "id": "40a84179-4d9d-447c-85c5-16c572c12f67",
+       "type": "episode",
+       "subtype": "",
+       "title": "Mesterlige monsterbørn: Halloween-ånden",
+       "contextualTitle": "24. Halloween-ånden",
+       "shortDescription": "Halloween er tilbage, og det er Buuhligans også. Men da Arthur løber fra et løfte om våbenhvile, truer Buuhligans med ballade. Og nogle gange går Halloween-ballade bare alt for langt. Udløber: 17. apr. 2033",
+       "tagline": "Monstre er det bedste vi ved!",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/mesterlige-monsterboern_-halloween_aanden_616801",
+       "watchPath": "/se/mesterlige-monsterboern_-halloween_aanden_616801",
+       "scopes": [
+        "40a84179-4d9d-447c-85c5-16c572c12f67"
+       ],
+       "releaseYear": 2022,
+       "episodeNumber": 24,
+       "episodeName": "Mesterlige monsterbørn: Halloween-ånden",
+       "seasonId": "82d21df2-5b32-4bd9-8201-77ae2266ae0f",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 660,
+       "customId": "urn:dr:ocs:tv:content:playable:00922429130",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBCS7PZNCEW1XWPBMZJV5W%27&entityId=%2740a84179-4d9d-447c-85c5-16c572c12f67%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBCS7N5REAPJ582ZTQM8MN%27&entityId=%2740a84179-4d9d-447c-85c5-16c572c12f67%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBCS7N5REAPJ582ZTQM8MN%27&entityId=%2740a84179-4d9d-447c-85c5-16c572c12f67%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-10-30T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "b47e182c875c7505ff2c916c570d860a62cd4cda2082bf64bb77c0bf7bd36f6c",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "30. OKT. 2026 | 11M",
+        "DisplayCategory": "Tegnefilm",
+        "ExtraDetails": "SÆSON 2 EPISODE 24 | 11M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "PageTitle": "Mesterlige monsterbørn: Sæson 2 – Halloween-ånden",
+        "PlayButtonExtraDetails": "S2:E24 Halloween-ånden",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "Ramasjang",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "TargetAudience": "All",
+        "ShortVideoUrl": "https://drod24k.akamaized.net/all/clear/none/98/6b0613f175d80d0001025c98/6b0613f05dc25a0001a4c01f/stream_fmp4/master_manifest.m3u8"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "tegnefilm"
+       ],
+       "keywords": [
+        "agetargetgroup_6-8 år",
+        "agetargetgroup_9-11 år",
+        "agetargetgroup_familie",
+        "charactertype_børn som hovedpersoner",
+        "culturalorigin_dansk",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_spændingsfyldt",
+        "recommendationgenre_animation",
+        "theme_mysterier og gåder",
+        "thesaurus_animation"
+       ]
+      },
+      {
+       "id": "613c967c-e37a-4c87-89a7-8188b1b070ff",
+       "type": "episode",
+       "subtype": "",
+       "title": "Drama forever: Forræderi",
+       "contextualTitle": "7. Forræderi",
+       "shortDescription": "Alexa og far skal have verdens bedste dag sammen. Først badehuset og så sushi! Udløber: 6. nov. 2030",
+       "tagline": "Venskab er dejligt - og nogen gange lidt svært",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/drama-forever_-forraederi_632212",
+       "watchPath": "/se/drama-forever_-forraederi_632212",
+       "scopes": [
+        "613c967c-e37a-4c87-89a7-8188b1b070ff"
+       ],
+       "episodeNumber": 7,
+       "episodeName": "Drama forever: Forræderi",
+       "seasonId": "29e56eb2-4930-41a6-8ca1-1a0c79819fa5",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 464,
+       "customId": "urn:dr:ocs:tv:content:playable:00922607480",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6E2GGDZ26Z4MKXN9QZE40BY%27&entityId=%27613c967c-e37a-4c87-89a7-8188b1b070ff%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6E2GGDZ26Z4MKXN9QZE40BY%27&entityId=%27613c967c-e37a-4c87-89a7-8188b1b070ff%27&entityType=%27Item%27&Width=1920&Height=1080",
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7G61JPVC50HJ1TNXG4TS70X%27&entityId=%27613c967c-e37a-4c87-89a7-8188b1b070ff%27&entityType=%27Item%27&Width=720&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-06T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "c798bc871d6cbcd99f29f572bfe6463563f5970101d4e3b2e2cb2429247ea178",
+        "ClassificationRating": "MRAM-07",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "6. NOV. 2026 | 8M",
+        "DisplayCategory": "Serie",
+        "ExtraDetails": "SÆSON 3 EPISODE 7 | 8M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "PageTitle": "Drama forever: Sæson 3 – Forræderi",
+        "PlayButtonExtraDetails": "S3:E7 Forræderi",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "SVERIGE",
+        "RatingSegment": "Ramasjang",
+        "TargetAudience": "All",
+        "ShortVideoUrl": "https://drod23m.akamaized.net/all/clear/none/99/6b06161775d80d0001025c99/6b0616159ed1610001377ac4/stream_fmp4/master_manifest.m3u8"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "serie"
+       ],
+       "keywords": [
+        "agetargetgroup_6-8 år",
+        "agetargetgroup_9-11 år",
+        "charactertype_børn som hovedpersoner",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_genkendelig",
+        "recommendationgenre_drama",
+        "theme_venskab og relationer"
+       ]
+      },
+      {
+       "id": "290b97fe-dbf8-4ce4-86d9-e847d62b732c",
+       "type": "episode",
+       "subtype": "",
+       "title": "Spidey og hans fantastiske venner: Ren energi",
+       "contextualTitle": "13. Ren energi",
+       "shortDescription": "Ren energi + Dok Ock og Rocktobotterne. Udløber: 6. dec. 2026",
+       "tagline": "Så er der superhelte med edderkoppe-evner!",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/spidey-og-hans-fantastiske-venner_-ren-energi_635421",
+       "watchPath": "/se/spidey-og-hans-fantastiske-venner_-ren-energi_635421",
+       "scopes": [
+        "290b97fe-dbf8-4ce4-86d9-e847d62b732c"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 13,
+       "episodeName": "Spidey og hans fantastiske venner: Ren energi",
+       "seasonId": "59a25c9e-8264-4af2-b020-9b7148939cb3",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 1401,
+       "customId": "urn:dr:ocs:tv:content:playable:00852607720",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5MEJTY241NXV0T748TQE6X8%27&entityId=%27290b97fe-dbf8-4ce4-86d9-e847d62b732c%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M72BGAXBDWWEG6D191JZQ956%27&entityId=%27290b97fe-dbf8-4ce4-86d9-e847d62b732c%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M72BGAXBDWWEG6D191JZQ956%27&entityId=%27290b97fe-dbf8-4ce4-86d9-e847d62b732c%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-22T09:30:55.8800000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "ece4f7899348177101f97a38321f685c321ca847defe32aeb92f10d1aa6f5a4d",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "22. NOV. 2026 | 23M",
+        "DisplayCategory": "Tegnefilm",
+        "ExtraDetails": "SÆSON 2 EPISODE 13 | 23M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "PageTitle": "Spidey og hans fantastiske venner: Sæson 2 – Ren energi",
+        "PlayButtonExtraDetails": "S2:E13 Ren energi",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "USA",
+        "RatingSegment": "Ramasjang",
+        "TargetAudience": "All",
+        "ShortVideoUrl": "https://drod22r.akamaized.net/all/clear/none/9a/6b06170075d80d0001025c9a/6b0616ff70441c0001782192/stream_fmp4/master_manifest.m3u8"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "tegnefilm"
+       ],
+       "keywords": [
+        "agetargetgroup_4-5 år",
+        "agetargetgroup_6-8 år",
+        "charactertype_helte eller superhelte",
+        "culturalorigin_ikke-dansk",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "recommendationgenre_animation"
+       ]
+      },
+      {
+       "id": "4a187044-d195-4927-81b4-5aea5e4ff626",
+       "type": "episode",
+       "subtype": "",
+       "title": "Familien Væsel: Mission Rodeo",
+       "contextualTitle": "19. Mission Rodeo",
+       "shortDescription": "Udløber: 31. jul. 2029",
+       "tagline": "Gak og løjer med væsel og ællinger",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/familien-vaesel_-mission-rodeo_632182",
+       "watchPath": "/se/familien-vaesel_-mission-rodeo_632182",
+       "scopes": [
+        "4a187044-d195-4927-81b4-5aea5e4ff626"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 19,
+       "episodeName": "Familien Væsel: Mission Rodeo",
+       "seasonId": "9bb346b3-ba01-467f-8725-99940ef91d17",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 420,
+       "customId": "urn:dr:ocs:tv:content:playable:00852602380",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6EBKQFQ6Q3SP8KGENFZ915V%27&entityId=%274a187044-d195-4927-81b4-5aea5e4ff626%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6EBKQFQ6Q3SP8KGENFZ915V%27&entityId=%274a187044-d195-4927-81b4-5aea5e4ff626%27&entityType=%27Item%27&Width=1920&Height=1080",
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6R1XV7CYMN5TADZ70MXMQXT%27&entityId=%274a187044-d195-4927-81b4-5aea5e4ff626%27&entityType=%27Item%27&Width=720&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-09T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "368fc325f66b601ed77d7e57dfa7ac4353488380e64ad8cacc2d56fc7d015f92",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "9. NOV. 2026 | 7M",
+        "DisplayCategory": "Tegnefilm",
+        "ExtraDetails": "SÆSON 1 EPISODE 19 | 7M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "PageTitle": "Familien Væsel: Sæson 1 – Mission Rodeo",
+        "PlayButtonExtraDetails": "S1:E19 Mission Rodeo",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "USA",
+        "RatingSegment": "Ramasjang",
+        "TargetAudience": "All",
+        "ShortVideoUrl": "https://drod22f.akamaized.net/all/clear/none/9d/6b06181275d80d0001025c9d/6b0618124e116400014d58f2/stream_fmp4/master_manifest.m3u8"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "tegnefilm"
+       ],
+       "keywords": [
+        "agetargetgroup_6-8 år",
+        "agetargetgroup_9-11 år",
+        "charactertype_dyr",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_sjov",
+        "recommendationgenre_animation"
+       ]
+      },
+      {
+       "id": "f29c60bb-064a-4f15-8e6a-b9f556b4bbd2",
+       "type": "episode",
+       "subtype": "",
+       "title": "Pokémon - Sol og måne: Smagen af metal",
+       "contextualTitle": "19. Smagen af metal",
+       "shortDescription": "Nye udfordringer for Ash og hans søgen efter at blive Pokémon-mester! \nAsh og Pikachu udforsker den solrige Alola region, hvor de opdager spændende nye Pokemon og mennesker. Men fjenderne fra Team Rocket har også taget turen til Alola, så der bliver kamp ",
+       "tagline": "Tag med når Ash og Pikachu udforsker Alola – nyt afsnit hver morgen resten af året!",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/pokemon-_-sol-og-maane_-smagen-af-metal_606957",
+       "watchPath": "/se/pokemon-_-sol-og-maane_-smagen-af-metal_606957",
+       "scopes": [
+        "f29c60bb-064a-4f15-8e6a-b9f556b4bbd2"
+       ],
+       "releaseYear": 2019,
+       "episodeNumber": 19,
+       "episodeName": "Pokémon - Sol og måne: Smagen af metal",
+       "seasonId": "90d3c39c-bb84-476b-a95b-5b50c9ac95d4",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 1232,
+       "customId": "urn:dr:ocs:tv:content:playable:00852605140",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M72M7X4BH8WB9WADNBTM45WX%27&entityId=%27f29c60bb-064a-4f15-8e6a-b9f556b4bbd2%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M72M7X48ATJ92Y5BKPX8PWTS%27&entityId=%27f29c60bb-064a-4f15-8e6a-b9f556b4bbd2%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M72M7X48ATJ92Y5BKPX8PWTS%27&entityId=%27f29c60bb-064a-4f15-8e6a-b9f556b4bbd2%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-27T04:55:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "87bbe15ff7e09a99a6f58e0c4cc1e06efae742663580272d37591d2210aa847e",
+        "ClassificationRating": "MRAM-07",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "27. NOV. 2026 | 21M",
+        "DisplayCategory": "Tegnefilm",
+        "ExtraDetails": "SÆSON 22 EPISODE 19 | 21M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "PageTitle": "Pokémon - Sol og måne: Sæson 22 – Smagen af metal",
+        "PlayButtonExtraDetails": "S22:E19 Smagen af metal",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "JAPAN",
+        "RatingSegment": "Ramasjang",
+        "ShortVideoUrl": "https://drod21n.akamaized.net/all/clear/none/9f/6b061a9f75d80d0001025c9f/6b061a9f70441c0001782193/stream_fmp4/master_manifest.m3u8",
+        "TargetAudience": "All"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "tegnefilm"
+       ],
+       "keywords": [
+        "agetargetgroup_4-5 år",
+        "agetargetgroup_6-8 år",
+        "agetargetgroup_9-11 år",
+        "charactertype_fantasivæsner",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_eventyrlig",
+        "recommendationgenre_animation"
+       ]
+      },
+      {
+       "id": "0ddbed57-1af4-4e00-afcb-3b9463ead4b4",
+       "type": "episode",
+       "subtype": "",
+       "title": "Dage i december: Konkurrencer og undersøgelser",
+       "contextualTitle": "3. Konkurrencer og undersøgelser",
+       "shortDescription": "Børnene forsøger at lave honningkagehuse til en konkurrence. Selvom de virker bedre til at lave prank opkald end til at bage, er de meget opsatte på at vinde. Turen til konkurrencen rammer en mur, da Randalin kæmper med sit temperament, og de mister et vi",
+       "tagline": "Julegodter fra arkivet",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/dage-i-december_-konkurrencer-og-undersoegelser_491333",
+       "watchPath": "/se/dage-i-december_-konkurrencer-og-undersoegelser_491333",
+       "scopes": [
+        "0ddbed57-1af4-4e00-afcb-3b9463ead4b4"
+       ],
+       "releaseYear": 2023,
+       "episodeNumber": 3,
+       "episodeName": "Dage i december: Konkurrencer og undersøgelser",
+       "seasonId": "103fd8fa-5ed0-4d61-bdb7-03e3dc66d1e2",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 2066,
+       "customId": "urn:dr:ocs:tv:content:playable:00922314830",
+       "round": "",
+       "offers": [
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645C386E0SFAMG29792P6ZG%27&entityId=%270ddbed57-1af4-4e00-afcb-3b9463ead4b4%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645C3870SQQ09T1JQ26GHX4%27&entityId=%270ddbed57-1af4-4e00-afcb-3b9463ead4b4%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645C3870SQQ09T1JQ26GHX4%27&entityId=%270ddbed57-1af4-4e00-afcb-3b9463ead4b4%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2024-11-18T08:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "108c2e6e453a5da724cc5c9b50c88bc1b137910319de95c69363166ea33defdb",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "18. NOV. 2024 | 34M",
+        "DisplayCategory": "Serie",
+        "ExtraDetails": "SÆSON 1 EPISODE 3 | 34M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Serie,DR Ramasjang",
+        "PageTitle": "Dage i december: Sæson 1 – Konkurrencer og undersøgelser",
+        "PlayButtonExtraDetails": "S1:E3 Konkurrencer og undersøgelser",
+        "PresentationTypeCode": "Show",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "ISLAND",
+        "RatingSegment": "Ramasjang",
+        "ShortVideoUrl": "https://drod20i.akamaized.net/all/clear/none/59/67456c01b01f9b5e68a27059/67456c01bf1f6425983c5a7e/stream_fmp4/master_manifest.m3u8",
+        "TargetAudience": "All"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "serie"
+       ],
+       "keywords": [
+        "agetargetgroup_6-8 år",
+        "agetargetgroup_9-11 år",
+        "charactertype_børn som hovedpersoner",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_spændingsfyldt",
+        "recommendationgenre_drama",
+        "theme_jul"
+       ]
+      },
+      {
+       "id": "77d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166",
+       "type": "episode",
+       "subtype": "",
+       "title": "Madmix: Mums! Lækker og nem sandwich",
+       "contextualTitle": "Mums! Lækker og nem sandwich",
+       "shortDescription": "Oliver fra Motor Mille og Børnebanden laver en sprød sandwich med bacon og friske grøntsager. Perfekt til madpakken! Udløber: 21. nov. 2028",
+       "tagline": "Madpakke til turen? Ja tak!",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/episode/madmix_-mums-laekker-og-nem-sandwich_634444",
+       "watchPath": "/se/madmix_-mums-laekker-og-nem-sandwich_634444",
+       "scopes": [
+        "77d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 20,
+       "episodeName": "Madmix: Mums! Lækker og nem sandwich",
+       "seasonId": "0e3c088e-b9bd-47f4-baf9-ae424c321495",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 607,
+       "customId": "urn:dr:ocs:tv:content:playable:00952645110",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77ZRHVFS8QJZAR9V50P9JPQ%27&entityId=%2777d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77ZRHVF7NQ8B1WT4ZWX4PYJ%27&entityId=%2777d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77ZRHVF7NQ8B1WT4ZWX4PYJ%27&entityId=%2777d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-21T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "4a539e90661f79d92e76302fc57d147f5984428264c930e8f8d78fea42dbe023",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "21. NOV. 2026 | 10M",
+        "DisplayCategory": "Krea",
+        "ExtraDetails": "21. NOV. 2026 | 10M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Krea,DR Ramasjang",
+        "PageTitle": "Madmix: Sæson 1 – Mums! Lækker og nem sandwich",
+        "PlayButtonExtraDetails": "S1:E20 Mums! Lækker og nem sandwich",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "Ramasjang",
+        "ShortVideoUrl": "https://drod24c.akamaized.net/all/clear/none/6c/6afe0bf875d80d000102516c/6afe0bf727273300012b78f9/stream_fmp4/master_manifest.m3u8",
+        "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+        "TargetAudience": "All"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "krea"
+       ],
+       "keywords": [
+        "agetargetgroup_4-5 år",
+        "agetargetgroup_6-8 år",
+        "agetargetgroup_9-11 år",
+        "charactertype_børn som hovedpersoner",
+        "controlled_sandwich",
+        "culturalorigin_dansk",
+        "editorialptaxsub_fakta",
+        "editorialptaxtop_børn",
+        "format_serie",
+        "mood_genkendelig",
+        "recommendationgenre_livsstil og krea",
+        "theme_mad og madlavning",
+        "thesaurus_madlavning"
+       ]
+      },
+      {
+       "id": "63313641-c1a0-46b5-91ef-90257c749437",
+       "type": "program",
+       "subtype": "",
+       "title": "Mor Muh vender hjem",
+       "shortDescription": "Da en verdslig stork slår sig ned i gården, begynder Mor Muh at undre sig over, hvad hjem er. Skal hun finde et bedre sted? Kragen hjælper til. Udløber: 30. sep. 2029",
+       "tagline": "Ugens film",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/program/mor-muh-vender-hjem_628184",
+       "watchPath": "/se/mor-muh-vender-hjem_628184",
+       "scopes": [
+        "63313641-c1a0-46b5-91ef-90257c749437"
+       ],
+       "releaseYear": 2021,
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 3772,
+       "customId": "urn:dr:ocs:tv:content:playable:00852603240",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77NWMYDFEFYNEBNJTD5MG98%27&entityId=%2763313641-c1a0-46b5-91ef-90257c749437%27&entityType=%27Item%27&Width=1024&Height=576",
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77NW869QGH04WXEWP2AC7FX%27&entityId=%2763313641-c1a0-46b5-91ef-90257c749437%27&entityType=%27Item%27&Width=720&Height=1080",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77NWGNFZEWNJBCNBV0FMCM8%27&entityId=%2763313641-c1a0-46b5-91ef-90257c749437%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo",
+        "AvailableFrom": "2026-11-21T06:31:04.5200000+00:00",
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "d3cb121c5aa4833621a458436c8e6fd4948694cd17cc81d868263ef575bfc0a0",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "ContextualTitleExtraDetails": "21. NOV. 2026 | 1T 3M",
+        "DisplayCategory": "Film,Tegnefilm",
+        "ExtraDetails": "Film | 1T 3M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Film,Tegnefilm,DR Ramasjang",
+        "PageTitle": "Mor Muh vender hjem",
+        "PrimaryContentUniverse": "Ramasjang",
+        "ProductionCountry": "SVERIGE",
+        "RatingSegment": "Ramasjang",
+        "ShortVideoUrl": "https://drod20a.akamaized.net/all/clear/none/5f/6afe048275d80d000102515f/6afe04814e116400014d5867/stream_fmp4/master_manifest.m3u8",
+        "TargetAudience": "All",
+        "TitleExtraDetails": "DR Ramasjang | 1T 3M"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "film",
+        "tegnefilm"
+       ],
+       "keywords": [
+        "agetargetgroup_2-3 år",
+        "agetargetgroup_4-5 år",
+        "charactertype_dyr",
+        "editorialptaxsub_fiktion",
+        "editorialptaxtop_børn",
+        "format_film",
+        "mood_hyggelig",
+        "recommendationgenre_animation"
+       ]
+      }
+     ],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-hero-fre_107774"
+     }
+    },
+    "customFields": {
+     "autoCycle": 4
+    }
+   },
+   {
+    "id": "65b9f4cf-7bd3-4596-b645-a33fa66701fc",
+    "type": "ListEntry",
+    "title": "",
+    "template": "S1",
+    "list": {
+     "id": "2ea2446a-e2d3-868f-8d24-c5667ec060da",
+     "title": "Alle figurer fra Ramasjang",
+     "path": "/liste/alle-figurer-fra-ramasjang-xe7s8",
+     "size": 107,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/2ea2446a-e2d3-868f-8d24-c5667ec060da?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 5
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-serier_4_278225"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "none",
+     "moreLinkUrl": "/ramasjang/figurer"
+    }
+   },
+   {
+    "id": "1e72fddd-e29f-40d2-b526-8661799194e0",
+    "type": "ListEntry",
+    "title": "Kategorier",
+    "template": "S1",
+    "list": {
+     "id": "67176138-e436-8c10-b583-1af661286b1e",
+     "title": "Kategorier på Ramasjang",
+     "path": "/liste/kategorier-pa-ramasjang-x7hv6",
+     "size": 9,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-kategorier-forside_376523"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "738823ac-7069-4cfe-acd0-232208ca6e08",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1254626",
+     "sas_formatId": 77527,
+     "sas_keywordTargeting": "null",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "97370816-28df-4ac9-97e2-9b3a4464bd3c",
+    "type": "ListEntry",
+    "title": "Kom i julestemning med Ramasjang",
+    "template": "DRTB4",
+    "list": {
+     "id": "acec309c-544c-4e92-9785-e2dd03162bd1",
+     "title": "Kom i julestemning med Ramasjang",
+     "path": "/liste/kom-i-julestemning-med-ramasjang",
+     "size": 17,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-kom-i-julestemning_419181"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "5977402e-c8cf-4b68-9de6-a956ae757036",
+    "type": "ListEntry",
+    "title": "Der er nye superhelte i byen!",
+    "template": "DRTB4",
+    "list": {
+     "id": "0c875d89-7b81-49db-8c23-856114b3d8e6",
+     "title": "Spidey og hans fantastiske venner",
+     "path": "/liste/spidey-og-hans-fantastiske-venner",
+     "size": 8,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {}
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "06553298-3bb4-4db4-9eb2-c655084a9c00",
+    "type": "ListEntry",
+    "title": "Drama forever",
+    "template": "DRTB4",
+    "list": {
+     "id": "1488ae8e-205d-8361-a03d-371147903256",
+     "title": "Drama forever",
+     "path": "/liste/drama-forever-xy8xr",
+     "size": 14,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-drama-forever_574960"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "935b2d11-6eb0-42c4-b2c9-70f94cae5952",
+    "type": "ListEntry",
+    "title": "Gak og løjer med væsel og ællinger",
+    "template": "DRTB4",
+    "list": {
+     "id": "80348378-748d-4476-8b60-6952a3db1e09",
+     "title": "Familien Væsel",
+     "path": "/liste/familien-vaesel",
+     "size": 52,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/80348378-748d-4476-8b60-6952a3db1e09?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 3
+     },
+     "customFields": {}
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "52e9805c-48b4-461a-9312-389be4b5b4b8",
+    "type": "ListEntry",
+    "title": "Tag med Ash og Pikachu til Alola",
+    "template": "DRTB4",
+    "list": {
+     "id": "ea948245-c406-443a-b100-7f50bb43ba60",
+     "title": "Pokémon",
+     "path": "/liste/tag-med-ash-og-pikachu-til-alola",
+     "size": 21,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "tag-med-ash-og-pikachu-til-alola_615241"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "4e7748e4-f0be-461b-85e2-d2eb4abd7725",
+    "type": "ListEntry",
+    "title": "Skab med Ramasjang",
+    "template": "DRTB4",
+    "list": {
+     "id": "52fa6f07-31a5-8749-a3d5-5f214b12c0ac",
+     "title": "Skab med Ramasjang",
+     "path": "/liste/skab-med-ramasjang-xrdke",
+     "size": 5,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-skab-med-ramasjang_369441"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "c278173d-def2-4ca3-a804-b764a0b24a4c",
+    "type": "ListEntry",
+    "title": "TV-slik fra FredagsTamTam",
+    "template": "DRTB4",
+    "list": {
+     "id": "6bdaf3ec-2e10-8223-b8b7-2b5c261e8a3f",
+     "title": "TV-slik fra FredagsTamTam",
+     "path": "/liste/tv-slik-fra-fredagstamtam-xy0rj",
+     "size": 19,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "tv_slik-fra-fredagstamtam_370659"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "bd90d7b0-0885-4667-9c42-82d8af6d6a5a",
+    "type": "ListEntry",
+    "title": "Seneste film fra Ramasjang",
+    "template": "P2",
+    "list": {
+     "id": "231bb51e-1476-8894-a29a-d14d8382b388",
+     "title": "Børnefilm",
+     "path": "/liste/brnefilm-xo2wt",
+     "size": 49,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/231bb51e-1476-8894-a29a-d14d8382b388?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 3
+     },
+     "customFields": {
+      "PathIdSegment": "katalog_-ramasjang-_-film-_nyeste__250310"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "88fd9ff4-3f46-4d69-b542-b83c310adf12",
+    "type": "ListEntry",
+    "title": "Fantastisk natur for hele familien",
+    "template": "P2",
+    "list": {
+     "id": "27d87b67-a35f-81b8-9ef1-5e88bc6fab3b",
+     "title": "Fantastisk natur for hele familien",
+     "path": "/liste/fantastisk-natur-for-hele-familien-xtsx9",
+     "size": 25,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/27d87b67-a35f-81b8-9ef1-5e88bc6fab3b?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "fantastisk-natur-for-hele-familien_443976"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "da0533be-c201-4f14-ba9b-6b9a29089348",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1254626",
+     "sas_formatId": 94297,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "223d8697-2986-4184-b8db-79254bb11042",
+    "type": "ListEntry",
+    "title": "Se Ramasjang TV lige nu",
+    "template": "DREPG5",
+    "list": {
+     "id": "562f6aab-f79b-8c81-9da8-08de74da9192",
+     "title": "Se Ramasjang TV lige nu",
+     "path": "/liste/se-ramasjang-tv-lige-nu-xkvw3",
+     "size": 1,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "dr-channels-_-ramasjang_78101"
+     }
+    },
+    "customFields": {}
+   },
+   {
+    "id": "1b064e2b-1c2f-4ecd-a541-1a87d036b622",
+    "type": "ListEntry",
+    "title": "Mest for de største",
+    "template": "T2",
+    "list": {
+     "id": "575d4c1d-ccaf-8af3-bd6d-7d6b892aa365",
+     "title": "Mest for de største",
+     "path": "/liste/mest-for-de-strste-xjx8y",
+     "size": 11,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-mest-for-de-stoerste_258490"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "b4cb9e9f-7f6e-4d51-bea9-f093e3cd484e",
+    "type": "ImageEntry",
+    "title": "",
+    "template": "ED1",
+    "customFields": {
+     "customTagline": "",
+     "imageWidth": "fullWidth",
+     "widthPercentage": 100,
+     "imageHorizontalAlignment": "center",
+     "imageVerticalSpacing": "default",
+     "caption": "",
+     "link": "",
+     "altText": ""
+    },
+    "images": {
+     "hero7x1": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=-1&ImageId=%2701KMDZ4CYYF70MF2HZ8E8VC3K0%27&EntityType=Page&EntityId=%2727e2eb79-6a42-897e-a39b-6895d671b5d2%27&Width=1920&Height=274"
+    }
+   },
+   {
+    "id": "d567dc10-ccdb-478e-96a2-16c3c5852a60",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1254626",
+     "sas_formatId": 92608,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "b3eb7616-c7dd-452f-9b41-ceb886756bd1",
+    "type": "ListEntry",
+    "title": "De dejligste dyr",
+    "template": "T1",
+    "list": {
+     "id": "07529c99-1ef4-83a2-9b47-bd0b433af956",
+     "title": "De dejligste dyr",
+     "path": "/liste/de-dejligste-dyr-x826b",
+     "size": 25,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/07529c99-1ef4-83a2-9b47-bd0b433af956?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-de-dejligste-dyr_94761"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "19f032ef-0f7d-479e-9f51-f2cf0ef16d1a",
+    "type": "ListEntry",
+    "title": "Musik fra landet Ramasjang",
+    "template": "T1",
+    "list": {
+     "id": "4b91cc68-288e-8ac8-afd2-a5faee75c5bd",
+     "title": "Musik fra landet Ramasjang",
+     "path": "/liste/musik-fra-landet-ramasjang-xzo57",
+     "size": 40,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/4b91cc68-288e-8ac8-afd2-a5faee75c5bd?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-musik-fra-landet-ramasjang_ii_140442"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/ramasjang/musik"
+    }
+   },
+   {
+    "id": "ad6a0e4e-2d2c-463a-b1dd-c48e917ca6bf",
+    "type": "ListEntry",
+    "title": "Grin med",
+    "template": "T1",
+    "list": {
+     "id": "238f9443-67f4-8f52-be93-1e7a77319d30",
+     "title": "Grin med",
+     "path": "/liste/grin-med-xtw48",
+     "size": 5,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-grin-med_163817"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "3d24d78d-a4a8-4ace-b586-9957f980d6f0",
+    "type": "ListEntry",
+    "title": "Dansk fiktion for børn",
+    "template": "T1",
+    "list": {
+     "id": "0e236b22-7034-8f45-a5f9-5cf5893d9272",
+     "title": "Dansk fiktion for børn",
+     "path": "/liste/dansk-fiktion-for-brn-xb5kj",
+     "size": 26,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/0e236b22-7034-8f45-a5f9-5cf5893d9272?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-dansk-drama-for-boern_139933"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "4939ec88-d899-412c-9b8d-4cfab65fd30c",
+    "type": "ListEntry",
+    "title": "Danske tegnefilm",
+    "template": "T1",
+    "list": {
+     "id": "874ae909-93e7-8398-b17c-054f357bad0d",
+     "title": "Danske tegnefilm",
+     "path": "/liste/danske-tegnefilm-xqki8",
+     "size": 13,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-danske-tegnefilm_96232"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/ramasjang/tegnefilm"
+    }
+   },
+   {
+    "id": "e988f374-3092-468d-87f2-8a80aaf186ac",
+    "type": "ListEntry",
+    "title": "Venner for evigt",
+    "template": "T1",
+    "list": {
+     "id": "46d6d85d-2f6b-8a56-b42d-2915f9e2b1f5",
+     "title": "Venner for evigt",
+     "path": "/liste/venner-for-evigt-xsbd5",
+     "size": 8,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-venner-for-evigt_96220"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "c6dd8e4d-573b-4015-af56-c5f5a1866dfc",
+    "type": "ListEntry",
+    "title": "Helte og skurke",
+    "template": "T1",
+    "list": {
+     "id": "63a69773-3d64-889d-a172-1217a67b4104",
+     "title": "Helte og skurke",
+     "path": "/liste/helte-og-skurke-xqetx",
+     "size": 14,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-helte-og-banditter_96222"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "91324dbe-d740-4aca-bb21-10b36c1fbc60",
+    "type": "ListEntry",
+    "title": "Nordisk fiktion for børn",
+    "template": "T1",
+    "list": {
+     "id": "ea60ba0c-2d24-8df9-8763-91c465c7cbc1",
+     "title": "Nordiske serier",
+     "path": "/liste/nordiske-serier-xa393",
+     "size": 24,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-de-bedste-nordiske-serier_139934"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "f9dafb13-6195-4667-a27a-20ca4391d8e9",
+    "type": "ListEntry",
+    "title": "Seje piger i hovedrollen",
+    "template": "T1",
+    "list": {
+     "id": "bbe3e98a-1737-8479-b6fd-6791004b761f",
+     "title": "Seje piger i hovedrollen",
+     "path": "/liste/seje-piger-i-hovedrollen-xb6q2",
+     "size": 7,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-de-sejeste-piger_96223"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "33ec2925-f953-4a28-8a8b-0349509efc32",
+    "type": "ListEntry",
+    "title": "Byens bedste bamser",
+    "template": "T1",
+    "list": {
+     "id": "02060793-411f-83ec-bdca-106b35a392c4",
+     "title": "Byens bedste bamser",
+     "path": "/liste/byens-bedste-bamser-xo95d",
+     "size": 4,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-byens-bedste-bamser_96227"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "92317f34-d49a-4c00-a329-460840f408e9",
+    "type": "ListEntry",
+    "title": "Børn i Danmark",
+    "template": "T1",
+    "list": {
+     "id": "1bd727bf-4ad6-8873-9e97-77e812bd86e0",
+     "title": "Børn i Danmark",
+     "path": "/liste/brn-i-danmark-xl4j8",
+     "size": 9,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-boern-i-danmark_96231"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "ff8766b2-b811-4bfe-86d7-caa20d66c7b5",
+    "type": "ListEntry",
+    "title": "MGP 2026",
+    "template": "DRTB4",
+    "list": {
+     "id": "c7b7a67c-916f-8c0e-b905-2b74e1f18035",
+     "title": "MGP 2026",
+     "path": "/liste/mgp-2026-xw2h5",
+     "size": 12,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-mgp-2026_576263"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/mgp",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "4db57400-919e-41b8-8627-ac1b40bdbf86",
+    "type": "ListEntry",
+    "title": "Vild viden om vilde dyr",
+    "template": "DRTB4",
+    "list": {
+     "id": "15be3be7-f9a8-8454-9163-aec8b90ce707",
+     "title": "Vilde Kræ - Vild viden om vilde dyr",
+     "path": "/liste/vilde-kr---vild-viden-om-vilde-dyr-x1wrx",
+     "size": 7,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "vilde-krae-_-vild-viden-om-vilde-dyr_379480"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "c42aad22-e753-499e-98c4-3492e733b046",
+    "type": "ListEntry",
+    "title": "Kom med i Den magiske klub!",
+    "template": "DRTB4",
+    "list": {
+     "id": "259f2266-953a-82e5-90cb-2a6f1b535a5d",
+     "title": "Kom med i Den magiske klub!",
+     "path": "/liste/kom-med-i-den-magiske-klub-x6hfp",
+     "size": 4,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-den-magiske-klub-2_506635"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "cc28bda2-537e-4f75-9c1c-7dd9675a226b",
+    "type": "ListEntry",
+    "title": "Dinosaurerne vender tilbage!",
+    "template": "DRTB4",
+    "list": {
+     "id": "2f7175fc-8e6e-8ab8-9b4b-a91746d392ba",
+     "title": "Dinosaurer i Ramasjang",
+     "path": "/liste/dinosaurer-i-ramasjang-x7s3g",
+     "size": 5,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-dinosaurer-i-ramasjang_273621"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "567490c0-ff2b-4e79-a26b-a02948ebd0b4",
+    "type": "ListEntry",
+    "title": "Sig goddag til John Dilllermand",
+    "template": "DRTB4",
+    "list": {
+     "id": "ea012330-176c-8c13-be1b-8a8972ecfeb4",
+     "title": "Sig goddag til John Dilllermand",
+     "path": "/liste/sig-goddag-til-john-dilllermand-xhhyw",
+     "size": 20,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "sig-goddag-til-john-dilllermand_343910"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "f34b6909-ff94-476b-9645-39fc157b54ce",
+    "type": "ListEntry",
+    "title": "Klassiske tegnefilm for hele familien",
+    "template": "DRTB4",
+    "list": {
+     "id": "c21ff8d4-22dc-867e-a789-ee75fc2e5d92",
+     "title": "Klassiske tegnefilm",
+     "path": "/liste/klassiske-tegnefilm-xuww6",
+     "size": 9,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-klassiske-tegnefilm_424811"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "31232f3b-8481-437b-99c0-94d4d562a151",
+    "type": "ListEntry",
+    "title": "Masser af DYR i Ramasjang",
+    "template": "DRTB4",
+    "list": {
+     "id": "bd692e4d-340b-870f-a6f7-d72708a0469c",
+     "title": "Masser af DYR i Ramasjang",
+     "path": "/liste/masser-af-dyr-i-ramasjang-xg2hj",
+     "size": 12,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang_-masser-af-dyr-i-ramasjang_02_246667"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/ramasjang/dyr",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "e04e2429-d8bb-41a5-9661-e7158c7e33f1",
+    "type": "ListEntry",
+    "title": "Luk op Luk i - Mærk hvordan det føles indeni",
+    "template": "DRTB4",
+    "list": {
+     "id": "ee2f3c75-2318-8da0-b898-93683c736860",
+     "title": "Luk op Luk i - Mærk hvordan det føles indeni",
+     "path": "/liste/luk-op-luk-i---mrk-hvordan-det-fles-indeni-x8nfk",
+     "size": 5,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "luk-op-luk-i_final_177422"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "1084add3-b973-49dc-b123-2c6737be83d9",
+    "type": "ListEntry",
+    "title": "Max gas med Motor Mille",
+    "template": "DRTB4",
+    "list": {
+     "id": "ae9cb711-bfae-88ce-9c81-efbd5aae878a",
+     "title": "Motor Mille - Programmer med Motor Mille fra Ramasjang",
+     "path": "/liste/motor-mille---programmer-med-motor-mille-fra-ramasjang-xb0wi",
+     "size": 7,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "motor-mille-figur_108075"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/ramasjang/motormille",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "a90312c7-3e3e-499f-b95f-c977002101f8",
+    "type": "ListEntry",
+    "title": "Ude på ballade med Onkel Reje",
+    "template": "DRTB4",
+    "list": {
+     "id": "166f0fce-4563-8078-a1a7-45cddb9f6e35",
+     "title": "Onkel Reje - Se programmer med Onkel Reje fra DR her",
+     "path": "/liste/onkel-reje---se-programmer-med-onkel-reje-fra-dr-her-xbul0",
+     "size": 6,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-ude-paa-ballade-med-onkel-reje_96221"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/ramasjang/onkelreje",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "fab1ba21-db15-48b4-8b95-41b8f0cd07b5",
+    "type": "ListEntry",
+    "title": "Skæg med Hr. Skæg",
+    "template": "DRTB4",
+    "list": {
+     "id": "88f8e851-9795-8113-bc3d-56e63e219591",
+     "title": "Skæg med Hr. Skæg",
+     "path": "/liste/skg-med-hr-skg-xlxo5",
+     "size": 7,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-samling-skaeg-med-hr-skaeg_96229"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/ramasjang/hrskaeg",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "c5846b10-d1c2-40f4-b18b-f572d1b9538a",
+    "type": "ListEntry",
+    "title": "Råhygge med Rosa",
+    "template": "DRTB4",
+    "list": {
+     "id": "cd999921-56d8-819f-9b0a-930b704bce7e",
+     "title": "Rosa fra Ramasjang - Find alle programmer med Rosa her",
+     "path": "/liste/rosa-fra-ramasjang---find-alle-programmer-med-rosa-her-xrivt",
+     "size": 7,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-figur-rosa_109317"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/ramasjang/rosa",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "7654dd64-517a-43ab-8fbf-9b7bdea87bce",
+    "type": "ListEntry",
+    "title": "Løs det med Kristian!",
+    "template": "DRTB4",
+    "list": {
+     "id": "bfcd7b38-2214-8b1a-a807-1be3b40a24b6",
+     "title": "Løs det med Kristian!",
+     "path": "/liste/ls-det-med-kristian-xqaab",
+     "size": 6,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "ramasjang-figur-kristian_108257"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/ramasjang/kristian",
+     "breakoutTop": "outset",
+     "breakoutBottom": "edge",
+     "breakoutLeft": "edge",
+     "ImagePositionWideScreens": "center",
+     "ImagePositionNarrowScreens": "center"
+    }
+   },
+   {
+    "id": "54d597a6-37f6-4c91-b396-76c3985a58d2",
+    "type": "ImageEntry",
+    "title": "",
+    "template": "ED1",
+    "customFields": {
+     "customTagline": "",
+     "imageWidth": "fullWidth",
+     "widthPercentage": 100,
+     "imageHorizontalAlignment": "center",
+     "imageVerticalSpacing": "default",
+     "caption": "",
+     "link": "",
+     "altText": ""
+    },
+    "images": {
+     "hero7x1": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=-1&ImageId=%2701KMDZ4ZZYN62C3S2155NGW76A%27&EntityType=Page&EntityId=%2727e2eb79-6a42-897e-a39b-6895d671b5d2%27&Width=1920&Height=274"
+    }
+   },
+   {
+    "id": "17864484-4bf9-4e5d-85ea-6e75480ae8c5",
+    "type": "ImageEntry",
+    "title": "",
+    "template": "ED1",
+    "customFields": {
+     "customTagline": "",
+     "imageWidth": "contentWidth",
+     "widthPercentage": 100,
+     "imageHorizontalAlignment": "center",
+     "imageVerticalSpacing": "default",
+     "caption": "",
+     "link": "/ramasjang_a-aa",
+     "altText": "RAMASJANG A-Å "
+    },
+    "images": {
+     "hero7x1": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=-1&ImageId=%2701KMDZ50XM7K85QF94WYNVZSAP%27&EntityType=Page&EntityId=%2727e2eb79-6a42-897e-a39b-6895d671b5d2%27&Width=1920&Height=274"
+    }
+   }
+  ],
+  "customFields": {},
+  "themes": [],
+  "id": "27e2eb79-6a42-897e-a39b-6895d671b5d2",
+  "title": "Ramasjang - Se Ramasjang TV og programmer her",
+  "path": "/ramasjang",
+  "template": "Home",
+  "key": "RamasjangHome",
+  "isStatic": false,
+  "isSystemPage": false
+ }
+}

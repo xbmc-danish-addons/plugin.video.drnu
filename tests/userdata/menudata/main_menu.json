@@ -39,9 +39,9 @@
   },
   {
     "label": "Daglige forslag",
-    "url": "?listVideos=/liste/drtv-hero-saturday-18_00_89366",
+    "url": "?listVideos=/liste/hero-fredag",
     "params": {
-      "listVideos": "/liste/drtv-hero-saturday-18_00_89366"
+      "listVideos": "/liste/hero-fredag"
     },
     "info": {
       "resume": null
@@ -54,15 +54,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/drtv-hero-saturday-18_00_89366&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/hero-fredag&nocache=1)"
       ]
     ]
   },
   {
-    "label": "De største programmer lige nu",
-    "url": "?listVideos=/liste/402866",
+    "label": "Top text links + Jul (2)",
+    "url": "?listVideos=/liste/top-text-links-jul-2",
     "params": {
-      "listVideos": "/liste/402866"
+      "listVideos": "/liste/top-text-links-jul-2"
     },
     "info": {
       "resume": null
@@ -75,15 +75,36 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/402866&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/top-text-links-jul-2&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Nye programmer",
+    "url": "?listVideos=/liste/nye-programmer-xf0na",
+    "params": {
+      "listVideos": "/liste/nye-programmer-xf0na"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/nye-programmer-xf0na&nocache=1)"
       ]
     ]
   },
   {
     "label": "Nyheder",
-    "url": "?listVideos=/liste/394137",
+    "url": "?listVideos=/liste/nyhedszone-fredag-2300",
     "params": {
-      "listVideos": "/liste/394137"
+      "listVideos": "/liste/nyhedszone-fredag-2300"
     },
     "info": {
       "resume": null
@@ -96,15 +117,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/394137&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/nyhedszone-fredag-2300&nocache=1)"
       ]
     ]
   },
   {
     "label": "Nye og populære serier",
-    "url": "?listVideos=/liste/373113",
+    "url": "?listVideos=/liste/nye-og-populre-serier-xiqrs",
     "params": {
-      "listVideos": "/liste/373113"
+      "listVideos": "/liste/nye-og-populre-serier-xiqrs"
     },
     "info": {
       "resume": null
@@ -117,15 +138,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/373113&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/nye-og-populre-serier-xiqrs&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Mest populære dokumentarer",
-    "url": "?listVideos=/liste/369696",
+    "label": "Filmfavoritter",
+    "url": "?listVideos=/liste/nyt-og-populrt-xroj5",
     "params": {
-      "listVideos": "/liste/369696"
+      "listVideos": "/liste/nyt-og-populrt-xroj5"
     },
     "info": {
       "resume": null
@@ -138,15 +159,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/369696&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/nyt-og-populrt-xroj5&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Mest sete film",
-    "url": "?listVideos=/liste/349213",
+    "label": "Populære dokumentarer",
+    "url": "?listVideos=/liste/populre-dokumentarer-x059n",
     "params": {
-      "listVideos": "/liste/349213"
+      "listVideos": "/liste/populre-dokumentarer-x059n"
     },
     "info": {
       "resume": null
@@ -159,15 +180,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/349213&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/populre-dokumentarer-x059n&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Hygge og underholdning",
-    "url": "?listVideos=/liste/374012",
+    "label": "Kom i julestemning",
+    "url": "?listVideos=/liste/kom-i-julestemning-xjjng",
     "params": {
-      "listVideos": "/liste/374012"
+      "listVideos": "/liste/kom-i-julestemning-xjjng"
     },
     "info": {
       "resume": null
@@ -180,15 +201,36 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/374012&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/kom-i-julestemning-xjjng&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Fik du set?",
+    "url": "?listVideos=/liste/fik-du-set-xdg4d",
+    "params": {
+      "listVideos": "/liste/fik-du-set-xdg4d"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/fik-du-set-xdg4d&nocache=1)"
       ]
     ]
   },
   {
     "label": "Kategorier",
-    "url": "?listVideos=/liste/376779",
+    "url": "?listVideos=/liste/drtv-kategorier-forside---jul-2026-2",
     "params": {
-      "listVideos": "/liste/376779"
+      "listVideos": "/liste/drtv-kategorier-forside---jul-2026-2"
     },
     "info": {
       "resume": null
@@ -201,15 +243,57 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/376779&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/drtv-kategorier-forside---jul-2026-2&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Kanaler / Universer",
+    "url": "?listVideos=/liste/kanaler-universer-x2tw1",
+    "params": {
+      "listVideos": "/liste/kanaler-universer-x2tw1"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/kanaler-universer-x2tw1&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "De største gensyn lige nu",
+    "url": "?listVideos=/liste/gensyn-gensyn-anbefaler-xdrp3",
+    "params": {
+      "listVideos": "/liste/gensyn-gensyn-anbefaler-xdrp3"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/gensyn-gensyn-anbefaler-xdrp3&nocache=1)"
       ]
     ]
   },
   {
     "label": "Det bedste fra P3 lige nu",
-    "url": "?listVideos=/liste/307904",
+    "url": "?listVideos=/liste/nyt-og-populrt-xlj1f",
     "params": {
-      "listVideos": "/liste/307904"
+      "listVideos": "/liste/nyt-og-populrt-xlj1f"
     },
     "info": {
       "resume": null
@@ -222,15 +306,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/307904&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/nyt-og-populrt-xlj1f&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Mest sete",
-    "url": "?listVideos=/liste/379672",
+    "label": "Vildmarkslivet",
+    "url": "?listVideos=/liste/vildmarkslivet-xq4wn",
     "params": {
-      "listVideos": "/liste/379672"
+      "listVideos": "/liste/vildmarkslivet-xq4wn"
     },
     "info": {
       "resume": null
@@ -243,15 +327,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/379672&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/vildmarkslivet-xq4wn&nocache=1)"
       ]
     ]
   },
   {
     "label": "Netop tilføjet",
-    "url": "?listVideos=/liste/171678",
+    "url": "?listVideos=/liste/netop-tilfjet-x98f8",
     "params": {
-      "listVideos": "/liste/171678"
+      "listVideos": "/liste/netop-tilfjet-x98f8"
     },
     "info": {
       "resume": null
@@ -264,15 +348,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/171678&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/netop-tilfjet-x98f8&nocache=1)"
       ]
     ]
   },
   {
-    "label": "True Crime dokumentarer",
-    "url": "?listVideos=/liste/238347",
+    "label": "Anmelderroste dokumentarfilm",
+    "url": "?listVideos=/liste/anmelderroste-dokumentarfilm-xbd4l",
     "params": {
-      "listVideos": "/liste/238347"
+      "listVideos": "/liste/anmelderroste-dokumentarfilm-xbd4l"
     },
     "info": {
       "resume": null
@@ -285,15 +369,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/238347&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/anmelderroste-dokumentarfilm-xbd4l&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Nervepirrende serier",
-    "url": "?listVideos=/liste/244426",
+    "label": "Dokumentarer om natur og dyr",
+    "url": "?listVideos=/liste/serier-om-natur-og-dyr-x4b8c",
     "params": {
-      "listVideos": "/liste/244426"
+      "listVideos": "/liste/serier-om-natur-og-dyr-x4b8c"
     },
     "info": {
       "resume": null
@@ -306,15 +390,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/244426&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/serier-om-natur-og-dyr-x4b8c&nocache=1)"
       ]
     ]
   },
   {
     "label": "Store danske serier",
-    "url": "?listVideos=/liste/167449",
+    "url": "?listVideos=/liste/serier-danske-serier",
     "params": {
-      "listVideos": "/liste/167449"
+      "listVideos": "/liste/serier-danske-serier"
     },
     "info": {
       "resume": null
@@ -327,15 +411,15 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/167449&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/serier-danske-serier&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Drama og kærlighed",
-    "url": "?listVideos=/liste/384446",
+    "label": "Virkelighedens krimi",
+    "url": "?listVideos=/liste/virkelighedens-krimi-xbd6p",
     "params": {
-      "listVideos": "/liste/384446"
+      "listVideos": "/liste/virkelighedens-krimi-xbd6p"
     },
     "info": {
       "resume": null
@@ -348,15 +432,36 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/384446&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/virkelighedens-krimi-xbd6p&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Danske film",
+    "url": "?listVideos=/liste/film-danske-film-xnoft",
+    "params": {
+      "listVideos": "/liste/film-danske-film-xnoft"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/film-danske-film-xnoft&nocache=1)"
       ]
     ]
   },
   {
     "label": "Krimiserier",
-    "url": "?listVideos=/liste/244424",
+    "url": "?listVideos=/liste/serier-krimi-x3oor",
     "params": {
-      "listVideos": "/liste/244424"
+      "listVideos": "/liste/serier-krimi-x3oor"
     },
     "info": {
       "resume": null
@@ -369,7 +474,133 @@
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/liste/244424&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/serier-krimi-x3oor&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Danmarkshistorien",
+    "url": "?listVideos=/liste/danmarkshistorien-xk45i",
+    "params": {
+      "listVideos": "/liste/danmarkshistorien-xk45i"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/danmarkshistorien-xk45i&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Klima, miljø og grøn omstilling",
+    "url": "?listVideos=/liste/natur-klima-milj-og-grn-omstilling-x9mej",
+    "params": {
+      "listVideos": "/liste/natur-klima-milj-og-grn-omstilling-x9mej"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/natur-klima-milj-og-grn-omstilling-x9mej&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Drama og kærlighed",
+    "url": "?listVideos=/liste/serier-action-og-thriller",
+    "params": {
+      "listVideos": "/liste/serier-action-og-thriller"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/serier-action-og-thriller&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Nervepirrende serier",
+    "url": "?listVideos=/liste/serier-udenlandske-serier",
+    "params": {
+      "listVideos": "/liste/serier-udenlandske-serier"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/serier-udenlandske-serier&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "P3-dokumentarer",
+    "url": "?listVideos=/liste/p3-dokumentarer-xs5g7",
+    "params": {
+      "listVideos": "/liste/p3-dokumentarer-xs5g7"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/p3-dokumentarer-xs5g7&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Hjælp",
+    "url": "?listVideos=/liste/hjlp-xjtmq",
+    "params": {
+      "listVideos": "/liste/hjlp-xjtmq"
+    },
+    "info": {
+      "resume": null
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/liste/hjlp-xjtmq&nocache=1)"
       ]
     ]
   },

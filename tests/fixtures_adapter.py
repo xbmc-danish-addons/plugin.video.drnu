@@ -72,6 +72,49 @@ def install_fixture_adapter(handle):
     return request_get
 
 
+def install_recording_adapter(handle):
+    """Record live responses into tests/fixtures instead of serving them.
+
+    Writes one JSON file per distinct request key (same key function the
+    replay adapter uses, so a recorded run replays exactly) and rewrites
+    _index.json at the end. Only for re-recording the suite deliberately;
+    it talks to the live DR API.
+    """
+    import hashlib
+    import requests
+
+    recorded = {}
+
+    def request_get(url, params=None, headers=None, use_cache=True):
+        key = fixture_key(url, params)
+        response = requests.get(url, params=params, headers=headers, timeout=30)
+        if response.status_code != 200:
+            # a failed request must not be written: a recorded error body would
+            # replace a working fixture and enter the index, and _read_fixture
+            # rejects anything but status 200, so every later replay of that
+            # key would fail. Abort the recording run and keep the old fixture.
+            raise AssertionError(
+                f'recording {key} failed with status {response.status_code}: {response.text[:200]}')
+        name = hashlib.md5(key.encode('utf-8')).hexdigest()[:16] + '.json'
+        (FIXTURES / name).write_text(
+            json.dumps({'status': response.status_code, 'json': response.json()},
+                       indent=1, ensure_ascii=False),
+            encoding='utf-8')
+        recorded[key] = name
+        return response.json()
+
+    def write_index():
+        index_path = FIXTURES / '_index.json'
+        existing = json.loads(index_path.read_text(encoding='utf-8')) if index_path.exists() else {}
+        existing.update(recorded)
+        index_path.write_text(json.dumps(existing, indent=1, sort_keys=True, ensure_ascii=False),
+                              encoding='utf-8')
+        return len(recorded)
+
+    handle.api._request_get = request_get
+    return write_index
+
+
 class FakeSession:
     """Stands in for the requests-cache session: subtitle downloads call
     session.get, and search()/get_stream() wrap their call in
@@ -100,3 +143,25 @@ class FakeResponse:
 def install_fake_session(handle):
     """Route subtitle downloads' direct session.get calls through the fixtures."""
     handle.api.session = FakeSession(load_index())
+
+
+class RecordingSession:
+    """A session whose get() records live responses in the fixture store.
+
+    search() and get_stream() bypass the request cache through the session,
+    so re-recording needs a session that writes to the same store as the
+    recording adapter.
+    """
+
+    def __init__(self, request_get):
+        self._request_get = request_get
+
+    def cache_disabled(self):
+        return contextlib.nullcontext()
+
+    def get(self, url, params=None, headers=None, timeout=None):
+        return FakeResponse(self._request_get(url, params=params, headers=headers, use_cache=False))
+
+
+def install_recording_session(handle, request_get):
+    handle.api.session = RecordingSession(request_get)

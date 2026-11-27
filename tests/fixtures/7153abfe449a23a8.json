@@ -1,0 +1,2008 @@
+{
+ "status": 200,
+ "json": {
+  "id": "9173f690-7bc5-40fd-8a89-db7f25b9916f",
+  "title": "DRTV | A",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-a-a-xe398",
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "size": 146,
+  "items": [
+   {
+    "id": "a63b160f-5e74-4ba7-917c-7d80d164d978",
+    "type": "show",
+    "subtype": "",
+    "title": "Anjas børnehjem",
+    "shortDescription": "Danske Anja Lovén redder børn, der er beskyldt for at være hekse i Nigeria og er i gang med at indrette sit børnehjem i et af verdens farligste områder.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anjas-boernehjem_6628",
+    "scopes": [
+     "a63b160f-5e74-4ba7-917c-7d80d164d978"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1843439260000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDABZCXE314HYPWB6FEVMY%27&entityId=%27a63b160f-5e74-4ba7-917c-7d80d164d978%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDAC027GX2W8QD023X5GPS%27&entityId=%27a63b160f-5e74-4ba7-917c-7d80d164d978%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDAC0RXG5H5S0YE4K66FBQ%27&entityId=%27a63b160f-5e74-4ba7-917c-7d80d164d978%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "7d475fd0c987b1b87df08d33267ed6f434765cdde440334b6f47f94a90e4d47c",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar",
+     "ExtraDetails": "Dokumentar | 2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,DR2",
+     "PageTitle": "Anjas børnehjem",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr2"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_dansk identitet/relationer",
+     "editorialptaxtop_dokumentar",
+     "thesaurus_børnehjem",
+     "thesaurus_nigeria",
+     "thesaurus_overtro"
+    ]
+   },
+   {
+    "id": "98b249b7-d22b-4eaa-ac72-68415cd0a0e5",
+    "type": "show",
+    "subtype": "",
+    "title": "Anna Lin har det fint",
+    "shortDescription": "Anna Lin har aldrig fortalt nogen, hvordan hun egentligt har det. På overfladen lever hun et succesfuldt liv som TV-vært med masser af venner og en fuld kalender. Men indadtil kæmper Anna med følelser af angst og ensomhed. Derfor starter hun i terapi for ",
+    "tagline": "Hele serien | Selvsikker, sjov og succesfuld – men Anna kæmper også med angst",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anna-lin-har-det-fint_391778",
+    "scopes": [
+     "98b249b7-d22b-4eaa-ac72-68415cd0a0e5"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3993235844000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M64435PHP52BZV1DDMXSEZ9G%27&entityId=%2798b249b7-d22b-4eaa-ac72-68415cd0a0e5%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M64435SGKKA5363XZS26K33X%27&entityId=%2798b249b7-d22b-4eaa-ac72-68415cd0a0e5%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M64435ZRWSF70A8YRME9JCJP%27&entityId=%2798b249b7-d22b-4eaa-ac72-68415cd0a0e5%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "3e82b686bebf8ac356f5810265a966f54c94cdd20604af915afaff1644affdcf",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Krop,Sundhed",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Krop,Sundhed,DR1",
+     "PageTitle": "Anna Lin har det fint",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "ShortVideoUrl": "https://drod20s.akamaized.net/all/clear/none/e1/649a76426a3bbd395834eae1/649a762e74c61b28d4739b2f/stream_fmp4/master_manifest.m3u8",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr1",
+     "krop",
+     "livsstil",
+     "sundhed"
+    ],
+    "keywords": [
+     "agetargetgroup_15-24 år",
+     "culturalorigin_dansk",
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_tv-program",
+     "person_anna lin",
+     "thesaurus_følelser",
+     "thesaurus_psykisk sårbare",
+     "thesaurus_trivsel"
+    ]
+   },
+   {
+    "id": "741d76e0-3b01-4cbc-a0d9-e2439cfa6943",
+    "type": "show",
+    "subtype": "",
+    "title": "Anna og Lotte",
+    "shortDescription": "Herligt gensyn med de hittepåsomme venner Anna og Lotte, lillebror Bulder og dukken Georg, som børn og voksne sammen har grinet af i mere end 40 år.",
+    "classification": {
+     "code": "DR-Alle",
+     "name": "Alle"
+    },
+    "path": "/serie/anna-og-lotte_242021",
+    "scopes": [
+     "741d76e0-3b01-4cbc-a0d9-e2439cfa6943"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3023758761000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3AMEZPJ7GRBKVPZGCC1RNS%27&entityId=%27741d76e0-3b01-4cbc-a0d9-e2439cfa6943%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K2ZHYY12JDGFPV5GNMWE8D%27&entityId=%27741d76e0-3b01-4cbc-a0d9-e2439cfa6943%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K2ZHYXHXAMDPP7PMYMDYDJ%27&entityId=%27741d76e0-3b01-4cbc-a0d9-e2439cfa6943%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K2ZHYX6J6VZRFBJ50HX4WK%27&entityId=%27741d76e0-3b01-4cbc-a0d9-e2439cfa6943%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Minisjang",
+     "BrandingChannelShort": "TVM",
+     "Checksum": "2a8f9e9e865a89cc24428e68a37837908e0499b74406a1d54780858dea1a2cde",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang",
+      "minisjang"
+     ],
+     "ExtraDetails": "1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "DR Minisjang",
+     "PageTitle": "Anna og Lotte",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Minisjang",
+     "RatingSegment": "Minisjang",
+     "TargetAudience": "YoungerKids",
+     "TitleExtraDetails": "DR Minisjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr minisjang"
+    ],
+    "keywords": [
+     "agetargetgroup_2-3 år",
+     "agetargetgroup_4-5 år",
+     "charactertype_dukker",
+     "culturalorigin_dansk",
+     "editorialptaxsub_børn",
+     "editorialptaxtop_gensyn",
+     "format_serie"
+    ]
+   },
+   {
+    "id": "2fe691be-1b88-4e20-86d9-12fdc8d48acf",
+    "type": "show",
+    "subtype": "",
+    "title": "Anna Olympia",
+    "shortDescription": "Anna Olympia er 12 år gammel og drømmer om at blive influencer.",
+    "classification": {
+     "code": "DR-Ultra",
+     "name": "Ultra"
+    },
+    "path": "/serie/anna-olympia_558074",
+    "scopes": [
+     "2fe691be-1b88-4e20-86d9-12fdc8d48acf"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2282701631000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JCBAJ10Q9ETX33HV1CT9ZY%27&entityId=%272fe691be-1b88-4e20-86d9-12fdc8d48acf%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JCBAHXTPY3W0K4X3RK0WDJ%27&entityId=%272fe691be-1b88-4e20-86d9-12fdc8d48acf%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JCBAHXQ8VWZY4E6K61RF30%27&entityId=%272fe691be-1b88-4e20-86d9-12fdc8d48acf%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ultra",
+     "BrandingChannelShort": "TVL",
+     "Checksum": "00d2468f2885af86090517562963f2e2dc7bf39923523af1e3760da2c15592e0",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv",
+      "ultra"
+     ],
+     "DisplayCategory": "Fakta",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Fakta,DR Ultra",
+     "PageTitle": "Anna Olympia",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "Ultra",
+     "RatingSegment": "Ultra",
+     "TargetAudience": "OlderKidsAndAdults",
+     "TitleExtraDetails": "DR Ultra | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ultra",
+     "fakta"
+    ],
+    "keywords": [
+     "agetargetgroup_12-14 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_dokumentar",
+     "theme_viden og færdigheder"
+    ]
+   },
+   {
+    "id": "3fce16e6-7596-4896-9252-8011698a93c4",
+    "type": "program",
+    "subtype": "",
+    "title": "Anna Sophie Hedvig",
+    "shortDescription": "Dansk tv-teater fra 1975. Kjeld Abells skuespil om lærerinden, der besøger velhavende slægtninge, og som bliver omdrejningspunktet for en dramatisk aften. Klassikeren om tyranner og politisk passivitet er skrevet i 1939 - lige inden 2. verdenskrigs komme ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/anna-sophie-hedvig_438266",
+    "watchPath": "/se/anna-sophie-hedvig_438266",
+    "scopes": [
+     "3fce16e6-7596-4896-9252-8011698a93c4"
+    ],
+    "releaseYear": 1975,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 5876,
+    "customId": "urn:dr:ocs:tv:content:playable:00404108020",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z87S5XPRNWWGH6N8WGSV6H%27&entityId=%273fce16e6-7596-4896-9252-8011698a93c4%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z87S5YGBGD5BK3FFCSTBZM%27&entityId=%273fce16e6-7596-4896-9252-8011698a93c4%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z87S5XNZNF31MPFMFR3BTY%27&entityId=%273fce16e6-7596-4896-9252-8011698a93c4%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1975-10-05T15:50:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "79ad83210d02f68f1cb87f3996c65c3b6eed2b7828144a0becf4cfab4e5d3c85",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "5. OKT. 1975 | 1T 38M",
+     "DisplayCategory": "Kultur,Teater og TV-film,Gensyn",
+     "ExtraDetails": "Kultur | 1T 38M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Teater og TV-film,Gensyn,DR Gensyn",
+     "PageTitle": "Anna Sophie Hedvig",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1T 38M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "teater og tv-film"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_tv-teater",
+     "editorialptaxtop_gensyn",
+     "mood_intellektuel/tankevækkende"
+    ]
+   },
+   {
+    "id": "c2dc6b6e-b742-41d9-9bbc-663678781ef1",
+    "type": "program",
+    "subtype": "",
+    "title": "Anne",
+    "shortDescription": "Dansk dokumentar fra 1977. Anne er en 11-årig katolsk pige. I dette portræt fortæller hun om sin skolegang på Rygaards Skole i Hellerup, hvor både danske og internationale elever undervises af nonner. Og hun beretter om, hvordan religionen fylder i hverda",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/anne_576654",
+    "watchPath": "/se/anne_576654",
+    "scopes": [
+     "c2dc6b6e-b742-41d9-9bbc-663678781ef1"
+    ],
+    "releaseYear": 1977,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1585,
+    "customId": "urn:dr:ocs:tv:content:playable:00808419780",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8N7YCARYHT90X3S8YVECS%27&entityId=%27c2dc6b6e-b742-41d9-9bbc-663678781ef1%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8N7YCZNJK16KFS15ZG3W6%27&entityId=%27c2dc6b6e-b742-41d9-9bbc-663678781ef1%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8N7YC768KY4GW99SHX58B%27&entityId=%27c2dc6b6e-b742-41d9-9bbc-663678781ef1%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1977-04-15T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "235776e0af467d82d0aeb4c1dbf4ef7dbc8e78d24d4968cbe5fa379f9a0ecd4e",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "15. APR. 1977 | 26M",
+     "DisplayCategory": "Livsstil,Gensyn",
+     "ExtraDetails": "Livsstil | 26M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Livsstil,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Anne",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 26M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "livsstil"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_religion",
+     "editorialptaxtop_gensyn",
+     "thesaurus_børn",
+     "thesaurus_katolicisme",
+     "thesaurus_kristendom",
+     "thesaurus_tro"
+    ]
+   },
+   {
+    "id": "385ddf7d-e231-4a2f-a1b2-fe8a8867bb95",
+    "type": "program",
+    "subtype": "",
+    "title": "Anne Linnet Band",
+    "shortDescription": "Dansk musikprogram fra 1981. Med Lis Sørensen, Sanne Salomonsen og Anne Linnet i front spiller Anne Linnet Band en veloplagt studiekoncert. Holger Laumann og Jan Glæsel udgør blæsersektionen, og 'You're Crazy', 'Fordi, fordi, fordi', 'Fly Away' og 'Shine'",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/anne-linnet-band_514544",
+    "watchPath": "/se/anne-linnet-band_514544",
+    "scopes": [
+     "385ddf7d-e231-4a2f-a1b2-fe8a8867bb95"
+    ],
+    "releaseYear": 1981,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1957,
+    "customId": "urn:dr:ocs:tv:content:playable:00505436160",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77EKNG3S30NM2RXVSYJC6D1%27&entityId=%27385ddf7d-e231-4a2f-a1b2-fe8a8867bb95%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77EKNG3P9QPJTTHQV99AKQ1%27&entityId=%27385ddf7d-e231-4a2f-a1b2-fe8a8867bb95%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77EKNG3QC6N7JC3VE5ME1EH%27&entityId=%27385ddf7d-e231-4a2f-a1b2-fe8a8867bb95%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1981-09-19T19:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "04d9be973edb7ec1cc4fcde4cb86802d124dd380269bf3c8771cdf5eb1069cc4",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "19. SEP. 1981 | 33M",
+     "DisplayCategory": "Kultur,Underholdning,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 33M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Underholdning,Musik,Gensyn,DR Gensyn",
+     "PageTitle": "Anne Linnet Band",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 33M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_gensyn",
+     "organization_anne linnet band",
+     "person_anne linnet",
+     "person_lis sørensen",
+     "person_sanne salomonsen",
+     "thesaurus_pop"
+    ]
+   },
+   {
+    "id": "7e4262c5-5c35-4af5-9bd6-9a8070933c7a",
+    "type": "show",
+    "subtype": "",
+    "title": "Annemad",
+    "shortDescription": "Anne har inviteret internationale gæster med bopæl i Danmark til at sætte masser af blus på gryderne.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/annemad_19019",
+    "scopes": [
+     "7e4262c5-5c35-4af5-9bd6-9a8070933c7a"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:753503166000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN72R181MJ3M2DJGM83MW%27&entityId=%277e4262c5-5c35-4af5-9bd6-9a8070933c7a%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN72R0T9CWMJXB65QNQE7%27&entityId=%277e4262c5-5c35-4af5-9bd6-9a8070933c7a%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN72R2CE1KRR74FCQW7B6%27&entityId=%277e4262c5-5c35-4af5-9bd6-9a8070933c7a%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "56c9b56a3b20667a604d8dc777e923fbb9586bfd00dd225f1a2c5fcc69f80de7",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad",
+     "ExtraDetails": "Livsstil | 3 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,DR1",
+     "PageTitle": "Annemad",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 3 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxtop_tv-program",
+     "thesaurus_madlavning"
+    ]
+   },
+   {
+    "id": "66b660ac-e68f-42eb-8153-679f4e5359a9",
+    "type": "program",
+    "subtype": "",
+    "title": "Anne Marie Helger på Hofteatret",
+    "shortDescription": "Dansk underholdningsprogram fra 1991. 25-års jubiløsen Anne Marie Helger - og koncernen A/M Helger Holding - præsenterer et forrygende show på Hofteatret i København. Her kan man blandt andet opleve koret Helgerhylene, harpespil af fineste skuffe, humor m",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/anne-marie-helger-paa-hofteatret_571729",
+    "watchPath": "/se/anne-marie-helger-paa-hofteatret_571729",
+    "scopes": [
+     "66b660ac-e68f-42eb-8153-679f4e5359a9"
+    ],
+    "releaseYear": 1991,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2187,
+    "customId": "urn:dr:ocs:tv:content:playable:00518111730",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BC5WQBPJ4KAQ3ZS5AP8F%27&entityId=%2766b660ac-e68f-42eb-8153-679f4e5359a9%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BC5WEZ885T3RQ6QQM9CA%27&entityId=%2766b660ac-e68f-42eb-8153-679f4e5359a9%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BC5WZJYNV1BQV3JY0VD9%27&entityId=%2766b660ac-e68f-42eb-8153-679f4e5359a9%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1991-11-15T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "e90c7a283c60e4588cfd15695472d09dd8eb11ec670715c1efe7715f4b8772b0",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "15. NOV. 1991 | 36M",
+     "DisplayCategory": "Underholdning,Teater og TV-film,Gensyn",
+     "ExtraDetails": "Underholdning | 36M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Underholdning,Teater og TV-film,Gensyn,DR Gensyn",
+     "PageTitle": "Anne Marie Helger på Hofteatret",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 36M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "teater og tv-film",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_underholdning",
+     "editorialptaxtop_gensyn"
+    ]
+   },
+   {
+    "id": "bfbf8703-7d70-443f-9a01-f3a0b8e09158",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i Afrika",
+    "shortDescription": "Duoen Anne Hjernøe og Anders Agger tager på eventyrlig rejse på det afrikanske kontinent.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-afrika_464036",
+    "scopes": [
+     "bfbf8703-7d70-443f-9a01-f3a0b8e09158"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5338353236000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6444QAG5R725FC5XTNDFW5M%27&entityId=%27bfbf8703-7d70-443f-9a01-f3a0b8e09158%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6444QAGJDA1V4RBA3MARE3H%27&entityId=%27bfbf8703-7d70-443f-9a01-f3a0b8e09158%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6444QAHW76QZ9FT6PXZMZP2%27&entityId=%27bfbf8703-7d70-443f-9a01-f3a0b8e09158%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "fc20a00e30068c9742f37bf7abe1477ac3950874d4eb127b1b67cde7ce797772",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "PageTitle": "Anne og Anders i Afrika",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_sign_language",
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_afrika",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "9c92895c-cb94-4944-801e-30d77f59ef00",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i Bhutan",
+    "shortDescription": "Ingen beskrivelse",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-bhutan_521536",
+    "scopes": [
+     "9c92895c-cb94-4944-801e-30d77f59ef00"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5905112919000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445BS22KCKV29VM7GNQXV4%27&entityId=%279c92895c-cb94-4944-801e-30d77f59ef00%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445BS2WNZE6714H2PAN0FD%27&entityId=%279c92895c-cb94-4944-801e-30d77f59ef00%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445BS2R7MWBF84NSG106H6%27&entityId=%279c92895c-cb94-4944-801e-30d77f59ef00%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "3bb02dda8df3a039d83c0487a23a7320b3ed160e2f7564949103951895f0c5ed",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "PageTitle": "Anne og Anders i Bhutan",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_sign_language",
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_bhutan",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "96be9c6f-02b7-42e3-b44b-b31a097e82e3",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i Brexitland",
+    "shortDescription": "I fire programmer rejser tv-journalisten Anders Agger og tv-kokken Anne Hjernøe ud til det Storbritannien, de færreste af os kender.\nHer besøger de en række dansk/britiske familier i Wales, England, Nordirland og Skotland for at blive klogere på, hvorfor ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-brexitland_23990",
+    "scopes": [
+     "96be9c6f-02b7-42e3-b44b-b31a097e82e3"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1885800888000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB6R75NV1T046AEQNSKJ0%27&entityId=%2796be9c6f-02b7-42e3-b44b-b31a097e82e3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB6R7QRB1MMFY8GB9N2V1%27&entityId=%2796be9c6f-02b7-42e3-b44b-b31a097e82e3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB6R7QRB1MMFY8GB9N2V1%27&entityId=%2796be9c6f-02b7-42e3-b44b-b31a097e82e3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "95deb33f3782200f4c4dc62ea03c0fc001565882c355279816f7534e6e4693e1",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Kultur,Rejse",
+     "ExtraDetails": "Kultur | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Kultur,Rejse,DR1",
+     "PageTitle": "Anne og Anders i Brexitland",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "kultur",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser",
+     "thesaurus_storbritannien"
+    ]
+   },
+   {
+    "id": "46b975d8-6c1e-4323-873f-5609abad714a",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i Canada",
+    "shortDescription": "Anne og Anders rejser fra British Columbia i vest til Nova Scotia i øst. De prøver at forstå det enorme, multikulturelle land og møder nogle af de 200.000 danskere og deres efterkommere, der har været med til at forme landet.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-canada_396764",
+    "scopes": [
+     "46b975d8-6c1e-4323-873f-5609abad714a"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:4707855425000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6457RYX6PX6AR558PWPGK9G%27&entityId=%2746b975d8-6c1e-4323-873f-5609abad714a%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6457RYXB2Y91C2971NPM42G%27&entityId=%2746b975d8-6c1e-4323-873f-5609abad714a%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6457RYXYR847PFFMBX0M8E4%27&entityId=%2746b975d8-6c1e-4323-873f-5609abad714a%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "c1596428755dc0752520bfc59926a201bb4823af917f82ad11211f890462a676",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "PageTitle": "Anne og Anders i Canada",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_canada",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "32b26b54-57a7-43ee-880a-9d02abe77957",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i Europa",
+    "shortDescription": "Duoen Anne Hjernøe og Anders Agger tager på eventyrlig rejse til Europas kanter.",
+    "tagline": "Episode 6:6 | Smukke sange og sikkerhedspolitik i den tidligere Sovjetstat",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-europa_321644",
+    "scopes": [
+     "32b26b54-57a7-43ee-880a-9d02abe77957"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3625809885000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6453Y1RTB506WT64P9BC56C%27&entityId=%2732b26b54-57a7-43ee-880a-9d02abe77957%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6453Y1RY5TKFTGCCEHAH4Q8%27&entityId=%2732b26b54-57a7-43ee-880a-9d02abe77957%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6453Y7RBE40KS17581101KQ%27&entityId=%2732b26b54-57a7-43ee-880a-9d02abe77957%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "93feb0fc516e074fd104bba8b9d15e1a69b017b2b4bc55b9ea5bda968fd64a05",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "PageTitle": "Anne og Anders i Europa",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "ShortVideoUrl": "https://drod22c.akamaized.net/all/clear/none/67/62e78666ac5a612a3c4c4667/62e7865c61e1b20d98dafb30/stream_fmp4/master_manifest.m3u8",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "7c0a2c02-2b85-4c30-aa89-e46c5f6b0c10",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i Kina",
+    "shortDescription": "Anne og Anders rejser til Kina. Undervejs møder de to rejsefæller højteknologiske megabyer, ældgamle traditioner og en befolkning med helt anderledes perspektiver.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-kina_621064",
+    "scopes": [
+     "7c0a2c02-2b85-4c30-aa89-e46c5f6b0c10"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6594088929000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M19X8VQJA7EPQEZCDHG60FG9%27&entityId=%277c0a2c02-2b85-4c30-aa89-e46c5f6b0c10%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M19X8VQJBZJZMN72NF0RS73T%27&entityId=%277c0a2c02-2b85-4c30-aa89-e46c5f6b0c10%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M19X8VQJKAPTM1J3MGS9G734%27&entityId=%277c0a2c02-2b85-4c30-aa89-e46c5f6b0c10%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "77f8db729197c873722135406a14ec9597e7e9f2f2d9392863376e788eea9a7d",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Underholdning,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Underholdning,Mad,Rejse,DR1",
+     "PageTitle": "Anne og Anders i Kina",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_kina",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "6f6d7bd4-385e-4d5e-88fb-c2330e27810c",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i Mellemøsten",
+    "shortDescription": "Vi er vokset op med Mellemøsten som et blodigt brændpunkt. Men måske har vi glemt, at området er så uendelig meget mere end kaos og konflikter. \nI fire udsendelser forsøger Anne og Anders at rejse væk fra fronterne og fordommene og ind i nuancerne af et a",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-mellemoesten_123493",
+    "scopes": [
+     "6f6d7bd4-385e-4d5e-88fb-c2330e27810c"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1991836713000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBWD5Y2N9JAN76CG84MVB%27&entityId=%276f6d7bd4-385e-4d5e-88fb-c2330e27810c%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBWD54A5JZP3WMH7Y6H16%27&entityId=%276f6d7bd4-385e-4d5e-88fb-c2330e27810c%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBWD5S6B317A7A293WTCK%27&entityId=%276f6d7bd4-385e-4d5e-88fb-c2330e27810c%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "eb0e10a6f176fe97d191a96c80ed9835042104fa5fe1cc38bb766e1353accdae",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "PageTitle": "Anne og Anders i Mellemøsten",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_kulturmønstre",
+     "thesaurus_mellemøsten",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "e17ab04c-72d9-4f51-a341-fe8ba420a015",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i Norden",
+    "shortDescription": "Findes der en fælles nordisk følelse? Det har makkerparret Anne Hjernøe og Anders Agger sat sig for at undersøge, og derfor tager de på rundtur i den gamle nordiske union.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-norden_275568",
+    "scopes": [
+     "e17ab04c-72d9-4f51-a341-fe8ba420a015"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3202232393000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDEZCE5SHN81TV11C1H7N6%27&entityId=%27e17ab04c-72d9-4f51-a341-fe8ba420a015%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDEZCE09P38D29G1VHMJHE%27&entityId=%27e17ab04c-72d9-4f51-a341-fe8ba420a015%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDEZCERVKM930TNEEABCYM%27&entityId=%27e17ab04c-72d9-4f51-a341-fe8ba420a015%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "5b628bc579ed759b07067cf3e82791937c7def4f9784203c6ee66bd1258cc3a5",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "PageTitle": "Anne og Anders i Norden",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "f0393e71-8ad2-4db3-bcdd-4a6edb7f13f4",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders i USA",
+    "shortDescription": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe besøger fire dansk/amerikanske familier i fire vidt forskellige stater: Arizona, South Carolina, Montana og Michigan. Familierne fortæller om deres vej til USA, og Anne og Anders går på opdagelse i st",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-i-usa_24045",
+    "scopes": [
+     "f0393e71-8ad2-4db3-bcdd-4a6edb7f13f4"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1912635413000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBJFJA5HK8BT16DA94W11%27&entityId=%27f0393e71-8ad2-4db3-bcdd-4a6edb7f13f4%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBJFJGZSDZ16YVJ2CETC0%27&entityId=%27f0393e71-8ad2-4db3-bcdd-4a6edb7f13f4%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBJFJAR9RMG0ASP40ZKAD%27&entityId=%27f0393e71-8ad2-4db3-bcdd-4a6edb7f13f4%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "b038b455049cce58dcc974edf9a36af8bbc915768c6cfbc17b3abf23fcc52e2e",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+     "PageTitle": "Anne og Anders i USA",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr2",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser",
+     "thesaurus_usa"
+    ]
+   },
+   {
+    "id": "d9aabc81-c491-4e1f-838d-b658238bd4e5",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders på sommerferie",
+    "shortDescription": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe tager på roadtrip for at finde hjem til den håndholdte sommerferie i Danmark. De har lånt et gammelt folkevognsrugbrød med en topfart på 90 og triller landet rundt fra Skagen til Sydfyn. Med indlagte ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-paa-sommerferie_18852",
+    "scopes": [
+     "d9aabc81-c491-4e1f-838d-b658238bd4e5"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1902888189000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB9NR5EWVVTVF9MT0BAGC%27&entityId=%27d9aabc81-c491-4e1f-838d-b658238bd4e5%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB9NSHZMSGAVNV8YDWB50%27&entityId=%27d9aabc81-c491-4e1f-838d-b658238bd4e5%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB9NS1JJ5VDPHH8BNPA0F%27&entityId=%27d9aabc81-c491-4e1f-838d-b658238bd4e5%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "4dc6a5875f94f77dda22f79e2e3fbea98dc9e7a93cdacf33d75972df93fc01e3",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+     "PageTitle": "Anne og Anders på sommerferie",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr2",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_danmark",
+     "thesaurus_ferie og rejser",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "7bc9af35-c0dd-4703-b6c0-072324395745",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders på sporet af det tabte land",
+    "shortDescription": "Anne Hjernøe og Anders Agger tager på opdagelse i det, der engang var dansk. De besøger De Vestindiske Øer, Island, Sydslesvig og Sverige for at lede efter tråde tilbage til Danmark.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-paa-sporet-af-det-tabte-land_206345",
+    "scopes": [
+     "7bc9af35-c0dd-4703-b6c0-072324395745"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1902906978000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB9VXARFGSQTPFSXY3NGV%27&entityId=%277bc9af35-c0dd-4703-b6c0-072324395745%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB9WC5JPF36X3YHF7YD1C%27&entityId=%277bc9af35-c0dd-4703-b6c0-072324395745%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB9VX9HNJMY5ZKN6WJ2HH%27&entityId=%277bc9af35-c0dd-4703-b6c0-072324395745%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "37d2b19558e45a40e623508e4ae184b7dff7cda347036079a5f7c4096a554dff",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Historie,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Historie,Rejse,DR1",
+     "PageTitle": "Anne og Anders på sporet af det tabte land",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "dr2",
+     "historie",
+     "livsstil",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_kulturhistorie",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "d695791a-ca46-4919-ab4a-7d697702d3bb",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders tilbage til rødderne",
+    "shortDescription": "Tv-journalisten Anders Agger og tv-kokken Anne Hjernøe rejser på ferie med de nye danskere. Tilbage til Vietnam, Iran, Tyrkiet og Bosnien. Tilbage til rødderne og til alt det de forlod: Familien, kærligheden og maden.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-tilbage-til-roedderne_18837",
+    "scopes": [
+     "d695791a-ca46-4919-ab4a-7d697702d3bb"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1894377005000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB751ARTSKH8HKF2HDWQ9%27&entityId=%27d695791a-ca46-4919-ab4a-7d697702d3bb%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB7526ESJCD5T8HYMRPP7%27&entityId=%27d695791a-ca46-4919-ab4a-7d697702d3bb%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDB751KHGWQASEPR0CCXTG%27&entityId=%27d695791a-ca46-4919-ab4a-7d697702d3bb%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "34c31225606c8c76d14094ef9934721edc9b54921bd93f283d7242e7b8e38036",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR2",
+     "PageTitle": "Anne og Anders tilbage til rødderne",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr2",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "ae78318a-6414-4bab-b63f-41917e1a6ff7",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og Anders vender hjem",
+    "shortDescription": "Anne og Anders rejser rundt i et Danmark, vi næsten har glemt.\nI autocamper med indbygget køkken og cykler bagpå, vil de vise hinanden de varme, endeløse somre fra barndommen - med længsel, lyde og smage.",
+    "tagline": "Episode 1:4 | På roadtrip i autocamper fra Lolland-Falster til Fyn",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-anders-vender-hjem_206176",
+    "scopes": [
+     "ae78318a-6414-4bab-b63f-41917e1a6ff7"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2742941515000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDDQ1RANMK8H4BJSA6AKAK%27&entityId=%27ae78318a-6414-4bab-b63f-41917e1a6ff7%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDDQ1R7NQ0AG46K3X5HV01%27&entityId=%27ae78318a-6414-4bab-b63f-41917e1a6ff7%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDDQ2SE9PDHFDZYH8H0F92%27&entityId=%27ae78318a-6414-4bab-b63f-41917e1a6ff7%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "c15a5dd7043d52b0a99a304c8212b44d8d1a6a20b3839434580a64906fadcdcc",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Rejse",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Rejse,DR1",
+     "PageTitle": "Anne og Anders vender hjem",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "ShortVideoUrl": "https://drod05m-vh.akamaihd.net/i/all/clear/streaming/4b/5f44b98c714014486417d74b/VS-ANNE-OG-ANDERS-00952027010-_b3219147c117404f9dddb325ed1a5cdf_,2536,481,1870,3628,950,306,.mp4.csmil/master.m3u8",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "mad",
+     "rejse"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_mad",
+     "editorialptaxsub_rejser",
+     "editorialptaxtop_tv-program",
+     "franchise_anne og anders",
+     "thesaurus_danmark",
+     "thesaurus_kulturmønstre",
+     "thesaurus_rejsebeskrivelser"
+    ]
+   },
+   {
+    "id": "75c93b68-b365-492c-89fc-d499c60b223b",
+    "type": "program",
+    "subtype": "",
+    "title": "Anne og Paul",
+    "shortDescription": "Dansk tv-spil fra 1975. Sagføreren Paul kan godt fornemme, at hans kone, Anne, har fundet en elsker. Men han reagerer ikke på det - ikke før hun fortæller, at hun vil rejse bort med elskeren. Hvad vil Paul gøre for at redde sit ægteskab?\n(Paul og Anne opt",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/anne-og-paul_450290",
+    "watchPath": "/se/anne-og-paul_450290",
+    "scopes": [
+     "75c93b68-b365-492c-89fc-d499c60b223b"
+    ],
+    "releaseYear": 1975,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 7496,
+    "customId": "urn:dr:ocs:tv:content:playable:00404096850",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z87RMZ66WJ2VXMX8B2HGGH%27&entityId=%2775c93b68-b365-492c-89fc-d499c60b223b%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z87RMZ84DHRT5DW6C2159F%27&entityId=%2775c93b68-b365-492c-89fc-d499c60b223b%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z87RN08W2H89MAN884PTD3%27&entityId=%2775c93b68-b365-492c-89fc-d499c60b223b%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1975-01-05T14:44:23.2800000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "579cf3daf9853ae25b4f0ea4816001619eed4224acaba1574e2dbac7c59363f4",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "5. JAN. 1975 | 2T 5M",
+     "DisplayCategory": "Teater og TV-film,Gensyn",
+     "ExtraDetails": "Teater og TV-film | 2T 5M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Teater og TV-film,Gensyn,DR Gensyn",
+     "PageTitle": "Anne og Paul",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 2T 5M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "teater og tv-film"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_film",
+     "editorialptaxtop_gensyn",
+     "mood_følelsesladet"
+    ]
+   },
+   {
+    "id": "a0e14671-5e9b-4a1b-b839-c0b55a778554",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne og sorgen",
+    "shortDescription": "Sorgen ramte Anne Hjernøe for fuld styrke, da hun sidste år mistede sin mand gennem 31 år. Siden da har hun og datteren, Camille, arbejdet på at forstå og håndtere sorgen og finde fodfæste igen.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-og-sorgen_574340",
+    "scopes": [
+     "a0e14671-5e9b-4a1b-b839-c0b55a778554"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6640295836204",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445A1WM12YNTF49NGCK237%27&entityId=%27a0e14671-5e9b-4a1b-b839-c0b55a778554%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445A1W8GWRJKHR2DNBJ8XV%27&entityId=%27a0e14671-5e9b-4a1b-b839-c0b55a778554%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445A1D125RYH536F4NJSAQ%27&entityId=%27a0e14671-5e9b-4a1b-b839-c0b55a778554%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "0b0d427ee72b0ce39382ce2002729a5741b82f23b7eaa4793c0bd32486bd3a67",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Sundhed",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Sundhed,DR1",
+     "PageTitle": "Anne og sorgen",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_sign_language",
+     "dokumentar",
+     "dr1",
+     "sundhed"
+    ],
+    "keywords": [
+     "controlled_sorgbearbejdning",
+     "culturalorigin_dansk",
+     "editorialptaxsub_dansk identitet/relationer",
+     "editorialptaxtop_dokumentar",
+     "person_anne hjernøe",
+     "thesaurus_død",
+     "thesaurus_sorg"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "next": "/lists/9173f690-7bc5-40fd-8a89-db7f25b9916f?page=5&page_size=24&order=Desc",
+   "previous": "/lists/9173f690-7bc5-40fd-8a89-db7f25b9916f?page=3&page_size=24&order=Desc",
+   "page": 4,
+   "size": 24,
+   "total": 7
+  },
+  "customFields": {}
+ }
+}

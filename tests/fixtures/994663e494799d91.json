@@ -1,0 +1,207 @@
+{
+ "status": 200,
+ "json": {
+  "id": "9173f690-7bc5-40fd-8a89-db7f25b9916f",
+  "title": "DRTV | A",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-a-a-xe398",
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "size": 146,
+  "items": [
+   {
+    "id": "b21d0b62-b575-4c24-b17d-7f728745c9c2",
+    "type": "show",
+    "subtype": "",
+    "title": "Auktionshuset",
+    "shortDescription": "Drømme, forretning og følelser går hånd i hånd i et af Danmarks ældste auktionshuse Bruun Rasmussen. Her regerer husets herre og ejer, Jesper Bruun Rasmussen, der arvede hammeren af sin far i 1985 og har haft sin gang i huset i 50 år.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/auktionshuset_6387",
+    "scopes": [
+     "b21d0b62-b575-4c24-b17d-7f728745c9c2"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1126155196000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD9X7T4S1WWNKF4326B37R%27&entityId=%27b21d0b62-b575-4c24-b17d-7f728745c9c2%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD9X7TYMM5RCFXEMD7BSFY%27&entityId=%27b21d0b62-b575-4c24-b17d-7f728745c9c2%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD9X7TYMM5RCFXEMD7BSFY%27&entityId=%27b21d0b62-b575-4c24-b17d-7f728745c9c2%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "b1cfad9fcce05bedc1fe665f2cc544cdfd20a6eba2882f24f330973d8dc1df73",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Livsstil,Kultur",
+     "ExtraDetails": "Dokumentar | 4 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Livsstil,Kultur,DR1",
+     "PageTitle": "Auktionshuset",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 4 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr1",
+     "kultur",
+     "livsstil"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_livsstil",
+     "editorialptaxtop_tv-program",
+     "organization_bruun rasmussen kunstauktioner",
+     "thesaurus_antikviteter",
+     "thesaurus_auktioner"
+    ]
+   },
+   {
+    "id": "976c7e12-5362-4b65-a072-c3016dcf6ffb",
+    "type": "program",
+    "subtype": "",
+    "title": "Avernakø - en ø i det sydfynske øhav",
+    "shortDescription": "Dansk reportage fra 1969. Journalisten Poul Leth Sørensen tager til Avernakø med færgen fra Faaborg. Han følger i fodsporene på forfatteren og tegneren Achton Friis og maleren Johannes Larsen, som besøgte øen i 1921 - i forbindelse med deres store bogværk",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/avernakoe-_-en-oe-i-det-sydfynske-oehav_551170",
+    "watchPath": "/se/avernakoe-_-en-oe-i-det-sydfynske-oehav_551170",
+    "scopes": [
+     "976c7e12-5362-4b65-a072-c3016dcf6ffb"
+    ],
+    "releaseYear": 1969,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1730,
+    "customId": "urn:dr:ocs:tv:content:playable:00202236600",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ57H8MY8RCNK0JMY76P7C%27&entityId=%27976c7e12-5362-4b65-a072-c3016dcf6ffb%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ57H9NZKFFD2QKCFJ8B01%27&entityId=%27976c7e12-5362-4b65-a072-c3016dcf6ffb%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ57H88FGP7X8568NB34T4%27&entityId=%27976c7e12-5362-4b65-a072-c3016dcf6ffb%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1969-07-04T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "689ad2ef3cf30d74f354fede992c0f744b69e5ade25e6dc5dc4c85b2a857e9e2",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "4. JUL. 1969 | 29M",
+     "DisplayCategory": "Dokumentar,Natur,Gensyn",
+     "ExtraDetails": "Dokumentar | 29M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Natur,Gensyn,DR Gensyn",
+     "PageTitle": "Avernakø - en ø i det sydfynske øhav",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 29M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "natur"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_gensyn",
+     "thesaurus_lokalsamfund"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "previous": "/lists/9173f690-7bc5-40fd-8a89-db7f25b9916f?page=6&page_size=24&order=Desc",
+   "page": 7,
+   "size": 24,
+   "total": 7
+  },
+  "customFields": {}
+ }
+}

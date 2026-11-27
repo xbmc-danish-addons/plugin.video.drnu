@@ -40,38 +40,59 @@ def pytest_addoption(parser):
     parser.addoption(
         '--update-golden', action='store_true', default=False,
         help='Rewrite golden files under tests/userdata/menudata/')
+    parser.addoption(
+        '--record-fixtures', action='store_true', default=False,
+        help='Record live DR API responses into tests/fixtures/ instead of '
+             'replaying them. Talks to the network: only for a deliberate '
+             're-record after an API migration.')
 
 
 def pytest_configure(config):
     import test_routing
     test_routing.UPDATE_TESTS = config.getoption('--update-golden')
+    test_routing.RECORD_FIXTURES = config.getoption('--record-fixtures')
 
 
-def _anonymous_tokens():
-    expires = (datetime.now(timezone.utc) + timedelta(hours=TOKEN_EXPIRES_HOURS)).strftime('%Y-%m-%dT%H:%M:%S')
+def _test_tokens():
+    expires = (datetime.now(timezone.utc) + timedelta(hours=TOKEN_EXPIRES_HOURS)).strftime('%Y-%m-%dT%H:%M:%SZ')
     return [
-        {'Token': 'test-user-token', 'Expires': expires},
-        {'Token': 'test-profile-token', 'Expires': expires},
+        {'Token': 'test-user-token', 'Expires': expires, 'TokenType': 'UserAccount'},
+        {'Token': 'test-profile-token', 'Expires': expires, 'TokenType': 'UserProfile'},
     ]
 
 
 @pytest.fixture(scope='session')
-def addon_handle():
+def addon_handle(request):
     """Create a DrDkTvAddon instance serving recorded fixtures.
 
     The addon reads its handle through xbmcplugin stubs; tests replace
     _plugin_handle with a plain dict so added items can be inspected.
     Token refresh and the sqlite cache are disabled so no test can touch
     the network or the recorded cache files.
+
+    With --record-fixtures the same handle is wired to the live API instead,
+    and the responses it receives are written into tests/fixtures/ so a later
+    plain run replays them.
     """
-    from fixtures_adapter import install_fake_session, install_fixture_adapter
+    from fixtures_adapter import (
+        install_fake_session,
+        install_fixture_adapter,
+        install_recording_adapter,
+        install_recording_session,
+    )
 
     addon.tvapi.Api.refresh_tokens = lambda self: None
     addon.tvapi.Api.init_sqlite_db = lambda self: None
     handle = addon.DrDkTvAddon(plugin_url=PLUGIN_URL, plugin_handle=1)
     handle._plugin_handle = {}
-    handle.api.read_tokens(_anonymous_tokens())
-    handle.api._user_name = 'anonymous'
+    handle.api.read_tokens(_test_tokens())
+    if request.config.getoption('--record-fixtures'):
+        import atexit
+
+        write_index = install_recording_adapter(handle)
+        install_recording_session(handle, handle.api._request_get)
+        atexit.register(write_index)
+        return handle
     install_fixture_adapter(handle)
     install_fake_session(handle)
     return handle

@@ -1,15 +1,14 @@
 [
   {
-    "label": "Store danske kunstnere",
-    "url": "?listVideos=/serie/store-danske-kunstnere_419740&seasons=False",
+    "label": "Nyheder",
+    "url": "?listVideos=/kategorier/nyhederogdebat&seasons=False",
     "params": {
-      "listVideos": "/serie/store-danske-kunstnere_419740",
+      "listVideos": "/kategorier/nyhederogdebat",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Store danske kunstnere",
-      "plot": "Med deres skulpturer og malerier formede de det Danmark, vi kender i dag. Det krævede kampe mod egne dæmoner, normer og kønsroller. Oplev kunstnerne Bertel Thorvaldsen, Anne Marie Carl-Nielsen, Johan Thomas Lundbye og Elisabeth Jerichau Baumann i denne dr"
+      "title": "Nyheder"
     },
     "properties": {},
     "contextmenu": [
@@ -19,28 +18,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419740)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=0c303fb2-0d97-4b96-b1a9-644c867b5258)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/serie/store-danske-kunstnere_419740&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/nyhederogdebat&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "I hus til halsen 12",
-    "url": "?listVideos=/saeson/i-hus-til-halsen_422575&seasons=False",
+    "label": "Jul",
+    "url": "?listVideos=/kategorier/jul&seasons=False",
     "params": {
-      "listVideos": "/saeson/i-hus-til-halsen_422575",
+      "listVideos": "/kategorier/jul",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "I hus til halsen 12",
-      "plot": "Programmets eksperter får til opgave at hjælpe familier ud af meget klemte situationer, hvor et hussalg nærmest virker utopisk. Eksperterne skal nu gøre alt hvad de kan, så familierne forhåbentlig få deres hus solgt og kan komme videre i livet.",
-      "plotoutline": "Eksperterne vender tilbage for at forvandle usælgelige huse",
-      "season": 12,
-      "mediatype": "season"
+      "title": "Jul"
     },
     "properties": {},
     "contextmenu": [
@@ -50,25 +45,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=422575)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=ee332e1c-36d4-4d69-aab5-32c8619c8bca)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/saeson/i-hus-til-halsen_422575&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/jul&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Det store adoptionstyveri",
-    "url": "?listVideos=/serie/det-store-adoptionstyveri_434279&seasons=False",
+    "label": "Dokumentar",
+    "url": "?listVideos=/kategorier/dokumentar&seasons=False",
     "params": {
-      "listVideos": "/serie/det-store-adoptionstyveri_434279",
+      "listVideos": "/kategorier/dokumentar",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Det store adoptionstyveri",
-      "plot": "David Kildendal bliver adopteret fra Indien til Lolland i 1979, og da han begynder at undersøge sin sag, dukker chokerende hemmeligheder op. Hans efterforskning fører ham på sporet af en meget større historie, hvor indiske forældre systematisk blev franar"
+      "title": "Dokumentar"
     },
     "properties": {},
     "contextmenu": [
@@ -78,25 +72,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=434279)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=5891bcb1-727c-4417-a3da-67502669b0cb)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/serie/det-store-adoptionstyveri_434279&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/dokumentar&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Alle elsker Sinan",
-    "url": "?listVideos=/serie/alle-elsker-sinan_419258&seasons=False",
+    "label": "Serier",
+    "url": "?listVideos=/kategorier/fiktionsserier&seasons=False",
     "params": {
-      "listVideos": "/serie/alle-elsker-sinan_419258",
+      "listVideos": "/kategorier/fiktionsserier",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Alle elsker Sinan",
-      "plot": "Flamboyant, provokerende, irriterende. Sinan er nogle gange lidt for meget - synes hans familie. Men selvom mor Ceylan har svært ved at acceptere alt fra hans croptops, hans venner og (især) hans seksualitet, elsker hun alligevel sin \"lille diamant\" overa"
+      "title": "Serier"
     },
     "properties": {},
     "contextmenu": [
@@ -106,25 +99,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419258)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=186b609d-8a80-4220-84d5-5a1eb077b53d)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/serie/alle-elsker-sinan_419258&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/fiktionsserier&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Camma bliver kendt",
-    "url": "?listVideos=/serie/camma-bliver-kendt_419253&seasons=False",
+    "label": "Film",
+    "url": "?listVideos=/kategorier/film&seasons=False",
     "params": {
-      "listVideos": "/serie/camma-bliver-kendt_419253",
+      "listVideos": "/kategorier/film",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Camma bliver kendt",
-      "plot": "Camma VIL være kendt! Og hun er villig til at tage alle metoder i brug for at blive en celebrity med hundredtusindvis af følgere. Derfor teamer Camma op med sanger Barbara Moleko, realitystjernen Sy Lee og Boris fra Bachelorette. Hun får en kendt fake kær"
+      "title": "Film"
     },
     "properties": {},
     "contextmenu": [
@@ -134,28 +126,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419253)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=812ba887-dd65-4716-a07a-22371e821e55)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/serie/camma-bliver-kendt_419253&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/film&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "I hjernen på stjernen 3",
-    "url": "?listVideos=/saeson/i-hjernen-paa-stjernen_422583&seasons=False",
+    "label": "Livsstil",
+    "url": "?listVideos=/kategorier/livsstil&seasons=False",
     "params": {
-      "listVideos": "/saeson/i-hjernen-paa-stjernen_422583",
+      "listVideos": "/kategorier/livsstil",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "I hjernen på stjernen 3",
-      "plot": "I denne programrække vil psykologisk manipulator Jan Hellesøe og psykolog og vært Josefine Høgh portrættere fem kendte danskere for seeren. I disse fem programmer vil Høgh og Hellesøe give hovedpersonen stof til eftertanke gennem spektakulære iscenesættel",
-      "plotoutline": "Hele serien | Josefine og Jan møder bl.a. Ghita Nørby og Sofie Linde",
-      "season": 3,
-      "mediatype": "season"
+      "title": "Livsstil"
     },
     "properties": {},
     "contextmenu": [
@@ -165,25 +153,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=422583)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=b68b8535-1b4b-4d4b-a36b-fcd39d754ae1)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/saeson/i-hjernen-paa-stjernen_422583&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/livsstil&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Din krop indefra",
-    "url": "?listVideos=/serie/din-krop-indefra_422594&seasons=False",
+    "label": "Sport",
+    "url": "?listVideos=/kategorier/sport&seasons=False",
     "params": {
-      "listVideos": "/serie/din-krop-indefra_422594",
+      "listVideos": "/kategorier/sport",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Din krop indefra",
-      "plot": "I denne serie får danskere med alvorlige diagnoser en konsultation, som de aldrig har prøvet før. Med hjælp af banebrydende teknologi viser nogle af Danmarks dygtigste læger, hvordan kroppen bliver påvirket af sygdommen. Og de forklarer patienterne, hvilk"
+      "title": "Sport"
     },
     "properties": {},
     "contextmenu": [
@@ -193,28 +180,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=422594)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=9b1fbbaa-7a1f-46e2-872b-ecf2a4b04d75)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/serie/din-krop-indefra_422594&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/sport&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "World on Fire 2",
-    "url": "?listVideos=/saeson/world-on-fire_411303&seasons=False",
+    "label": "Historie",
+    "url": "?listVideos=/kategorier/historie&seasons=False",
     "params": {
-      "listVideos": "/saeson/world-on-fire_411303",
+      "listVideos": "/kategorier/historie",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "World on Fire 2",
-      "plot": "Den stort anlagte BBC-dramaserie 'World on Fire' fortæller historien om 2. verdenskrig som oplevet af en række helt almindelige mennesker.",
-      "plotoutline": "Hele serien | I stormens øje – britisk dramaserie om 2. verdenskrig",
-      "season": 2,
-      "mediatype": "season"
+      "title": "Historie"
     },
     "properties": {},
     "contextmenu": [
@@ -224,25 +207,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=411303)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=40fe5405-9ac3-4e7e-b7d3-018f24e78a64)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/saeson/world-on-fire_411303&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/historie&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Bag enhver mand",
-    "url": "?listVideos=/serie/bag-enhver-mand_424417&seasons=False",
+    "label": "Natur",
+    "url": "?listVideos=/kategorier/natur&seasons=False",
     "params": {
-      "listVideos": "/serie/bag-enhver-mand_424417",
+      "listVideos": "/kategorier/natur",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Bag enhver mand",
-      "plot": "En komediedramaserie om køn, magt og forandring. Af og med Julie Rudbæk og Jesper Zuschlag."
+      "title": "Natur"
     },
     "properties": {},
     "contextmenu": [
@@ -252,25 +234,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=424417)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=3fbfeea9-effb-490f-8d9a-1363373450bd)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/serie/bag-enhver-mand_424417&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/natur&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Alice og Jack",
-    "url": "?listVideos=/serie/alice-og-jack_419460&seasons=False",
+    "label": "Kultur",
+    "url": "?listVideos=/kategorier/kultur&seasons=False",
     "params": {
-      "listVideos": "/serie/alice-og-jack_419460",
+      "listVideos": "/kategorier/kultur",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Alice og Jack",
-      "plot": "Da Alice og Jack mødes, knytter de et stærkt bånd. Men vil de opleve lykke og samhørighed? Eller vil livet stille sig i vejen? Britisk romantisk dramaserie med Andrea Riseborough og Domhnall Gleeson."
+      "title": "Kultur"
     },
     "properties": {},
     "contextmenu": [
@@ -280,28 +261,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419460)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=ac70941d-b9fe-4069-9238-b259b2e56db4)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/serie/alice-og-jack_419460&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/kultur&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Danmarks bedste portrætmaler 5",
-    "url": "?listVideos=/saeson/danmarks-bedste-portraetmaler_426234&seasons=False",
+    "label": "Krimi",
+    "url": "?listVideos=/kategorier/krimi&seasons=False",
     "params": {
-      "listVideos": "/saeson/danmarks-bedste-portraetmaler_426234",
+      "listVideos": "/kategorier/krimi",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Danmarks bedste portrætmaler 5",
-      "plot": "Igennem seks programmer skal otte talentfulde kunstnere dyste om at blive Danmarks bedste portrætmaler. Tre erfarne dommere vælger hver uge hvem, der har malet 'Dagens bedste portræt', og hvem, der skal forlade konkurrencen - for kun tre går hele vejen ti",
-      "plotoutline": "Otte nye talentfulde kunstnere skal male kendte danskere",
-      "season": 5,
-      "mediatype": "season"
+      "title": "Krimi"
     },
     "properties": {},
     "contextmenu": [
@@ -311,28 +288,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=426234)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=8a8718d7-4c15-4ec5-b1bd-64761e35d5eb)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/saeson/danmarks-bedste-portraetmaler_426234&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/krimi&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Løvens Hule 9",
-    "url": "?listVideos=/saeson/loevens-hule_424451&seasons=False",
+    "label": "Underholdning og satire",
+    "url": "?listVideos=/kategorier/underholdning&seasons=False",
     "params": {
-      "listVideos": "/saeson/loevens-hule_424451",
+      "listVideos": "/kategorier/underholdning",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Løvens Hule 9",
-      "plot": "Fem investorer sidder igen klar i Løvens Hule, denne gang med to nye løver. De byder velkommen til et væld af nye modige iværksættere, som pitcher deres forretningsideer i håb om at lande en investering",
-      "plotoutline": "Nye løver og iværksættere - hvem kan sikre sig en investering?",
-      "season": 9,
-      "mediatype": "season"
+      "title": "Underholdning og satire"
     },
     "properties": {},
     "contextmenu": [
@@ -342,28 +315,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=424451)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=9f2491a4-6152-4a5d-b27b-ca167a799e4a)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/saeson/loevens-hule_424451&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/underholdning&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Signe Molde på udebane 3",
-    "url": "?listVideos=/saeson/signe-molde-paa-udebane_421732&seasons=False",
+    "label": "Gensyn",
+    "url": "?listVideos=/gensyn&seasons=False",
     "params": {
-      "listVideos": "/saeson/signe-molde-paa-udebane_421732",
+      "listVideos": "/gensyn",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Signe Molde på udebane 3",
-      "plot": "Signe Molde møder med humor og nysgerrighed danskere med kontroversielle holdninger - fra mænd der savner ligestilling, og ulvehadere der vil gå meget langt for at slippe af med ulven, til en gruppe der bare gerne vil køre stærkt uden at kaldes for \"vanvi",
-      "plotoutline": "Tv-værten er tilbage med nye seriøse og nysgerrige spørgsmål",
-      "season": 3,
-      "mediatype": "season"
+      "title": "Gensyn"
     },
     "properties": {},
     "contextmenu": [
@@ -373,27 +342,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=421732)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=32cf5b21-1e48-4580-8795-3e30578f7307)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/saeson/signe-molde-paa-udebane_421732&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/gensyn&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "Tæt på sandheden med Jonatan Spang 12",
-    "url": "?listVideos=/saeson/taet-paa-sandheden-med-jonatan-spang_431291&seasons=False",
+    "label": "Minisjang",
+    "url": "?listVideos=/minisjang&seasons=False",
     "params": {
-      "listVideos": "/saeson/taet-paa-sandheden-med-jonatan-spang_431291",
+      "listVideos": "/minisjang",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Tæt på sandheden med Jonatan Spang 12",
-      "plot": "Comedyshow, hvor ugens nyheder og tidsaktuelle tendenser tages under kærlig, men bestemt behandling af Jonatan Spang.",
-      "season": 12,
-      "mediatype": "season"
+      "title": "Minisjang"
     },
     "properties": {},
     "contextmenu": [
@@ -403,112 +369,24 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=431291)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=041fa86e-c582-4a26-a813-ba1b33124616)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/saeson/taet-paa-sandheden-med-jonatan-spang_431291&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/minisjang&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "De udvalgte - Dansk Melodi Grand Prix 2024",
-    "url": "?playVideo=437154&kids=False&idpath=/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+    "label": "Ramasjang",
+    "url": "?listVideos=/ramasjang&seasons=False",
     "params": {
-      "playVideo": "437154",
-      "kids": "False",
-      "idpath": "/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154"
-    },
-    "info": {
-      "resume": null,
-      "title": "De udvalgte - Dansk Melodi Grand Prix 2024",
-      "plot": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøv",
-      "plotoutline": "Kom med bag kulisserne til dette års store Grand Prix-show",
-      "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=437154)"
-      ]
-    ]
-  },
-  {
-    "label": "Fanget på havets bund",
-    "url": "?playVideo=433819&kids=False&idpath=/program/fanget-paa-havets-bund_433819",
-    "params": {
-      "playVideo": "433819",
-      "kids": "False",
-      "idpath": "/program/fanget-paa-havets-bund_433819"
-    },
-    "info": {
-      "resume": null,
-      "title": "Fanget på havets bund",
-      "plot": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i ",
-      "plotoutline": "Skibskokken Harrison fanges i et vrag på 34 meters dybde",
-      "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=433819)"
-      ]
-    ]
-  },
-  {
-    "label": "De mistænkte",
-    "url": "?playVideo=433982&kids=False&idpath=/program/de-mistaenkte_433982",
-    "params": {
-      "playVideo": "433982",
-      "kids": "False",
-      "idpath": "/program/de-mistaenkte_433982"
-    },
-    "info": {
-      "resume": null,
-      "title": "De mistænkte",
-      "plot": "Pludselig bliver du anholdt. Mistænkt for svindel eller for at være i ledtog med narkokriminelle. Du siger, du er uskyldig. Men du sættes flere måneder i fængsel - varetægtsfængsel. To helt almindelige danskere sidder fængslet, mens deres sag undersøges a",
-      "plotoutline": "Varetægtsfængsling rammer uskyldige mennesker og deres børn hårdt",
-      "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=433982)"
-      ]
-    ]
-  },
-  {
-    "label": "Forelsket i en løgn",
-    "url": "?listVideos=/serie/forelsket-i-en-loegn_416406&seasons=False",
-    "params": {
-      "listVideos": "/serie/forelsket-i-en-loegn_416406",
+      "listVideos": "/ramasjang",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Forelsket i en løgn",
-      "plot": "Camilla troede, hun forelskede sig i den perfekte fyr. Men det viser sig, at han er alt andet end det. Historier om gæld til rockere, farlige forbindelser og kidnapning dukker op midt i Camillas stormende forelskelse. Og inden for ganske kort tid ser hun "
+      "title": "Ramasjang"
     },
     "properties": {},
     "contextmenu": [
@@ -518,11 +396,119 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=416406)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=4d3e10d3-af52-4d4f-8ac5-8bcb3e7954b9)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/serie/forelsket-i-en-loegn_416406&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/ramasjang&seasons=False&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Ultra",
+    "url": "?listVideos=/ultra&seasons=False",
+    "params": {
+      "listVideos": "/ultra",
+      "seasons": "False"
+    },
+    "info": {
+      "resume": null,
+      "title": "Ultra"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=df02b35b-a4ca-4f59-a827-23dd79901866)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/ultra&seasons=False&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "P3",
+    "url": "?listVideos=/kategorier/p3&seasons=False",
+    "params": {
+      "listVideos": "/kategorier/p3",
+      "seasons": "False"
+    },
+    "info": {
+      "resume": null,
+      "title": "P3"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=04273a5a-3d29-4ac3-b23e-c0c33b1de197)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/p3&seasons=False&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "DR1",
+    "url": "?listVideos=/kategorier/dr1&seasons=False",
+    "params": {
+      "listVideos": "/kategorier/dr1",
+      "seasons": "False"
+    },
+    "info": {
+      "resume": null,
+      "title": "DR1"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=fdadb3a7-0438-41ca-aca0-0a75cba97f8b)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/dr1&seasons=False&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "DR2",
+    "url": "?listVideos=/kategorier/dr2&seasons=False",
+    "params": {
+      "listVideos": "/kategorier/dr2",
+      "seasons": "False"
+    },
+    "info": {
+      "resume": null,
+      "title": "DR2"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=4123ff36-577a-4a8f-8b3a-530380fe76a6)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/kategorier/dr2&seasons=False&nocache=1)"
       ]
     ]
   }

@@ -20,15 +20,22 @@
 #
 """Constants for the DR API endpoints, channels and content areas."""
 
-CHANNEL_IDS = [20875, 20876, 192099, 192100, 20892]
+# Channel ids are UUIDs on the drtv-platform API; the numeric ids in the
+# paths ("/kanal/dr1_20875") are only the legacy slug suffix.
+CHANNEL_IDS = [
+    '4b2f55f1-0a85-469a-b751-81617f455938',  # DR1
+    '1d3b66b5-c688-4127-99d7-ab648bff6c85',  # DR2
+    'ca6083dc-5c28-442a-b539-f5c0b3564a98',  # TVA Live
+    '6bb0aa9b-4063-4bfd-88e8-643d3eba3617',  # DR Ramasjang
+]
+# DRTV Ekstra (the old fifth channel) is not on the new API any more.
 CHANNEL_PRESET = {
     'DR1': 1,
     'DR2': 2,
     'DR Ramasjang': 3,
     'TVA Live': 4,
-    'DRTV Ekstra': 5
 }
-URL = 'https://production.dr-massive.com/api'
+URL = 'https://api.drtv-platform.dr.dk/api'
 CLIENT_ID = '283ba39a2cf31d3b81e922b8'
 GET_TIMEOUT = 10
 A_AA = {

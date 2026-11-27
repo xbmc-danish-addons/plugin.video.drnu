@@ -1,0 +1,214 @@
+{
+ "status": 200,
+ "json": {
+  "id": "52de5696-8a26-4309-812f-c627f85bd792",
+  "title": "Ramasjang | I",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xjebi",
+  "itemTypes": [
+   "program",
+   "show"
+  ],
+  "size": 2,
+  "items": [
+   {
+    "id": "0fcec37c-8045-49da-95b6-41fc6c90a41e",
+    "type": "program",
+    "subtype": "",
+    "title": "Inspector Sun og den sorte enkes forbandelse",
+    "shortDescription": "Ombord et luksuriøst fly mellem Shanghai og San Fransisco befinder den geniale, men også let klodsede Inspector Sun sig. Mesterdetektiven kan fejre, at han endelig har sat superskurken, Den Røde Græshopper, bag lås og slå. Men en gådefuld forbrydelse på f",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/inspector-sun-og-den-sorte-enkes-forbandelse_628187",
+    "watchPath": "/se/inspector-sun-og-den-sorte-enkes-forbandelse_628187",
+    "scopes": [
+     "0fcec37c-8045-49da-95b6-41fc6c90a41e"
+    ],
+    "releaseYear": 2022,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 5300,
+    "customId": "urn:dr:ocs:tv:content:playable:00852308080",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M74X8J60YEPXJYB28EZJMC91%27&entityId=%270fcec37c-8045-49da-95b6-41fc6c90a41e%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M74X8J5YYYWNCD56VJWDAR6N%27&entityId=%270fcec37c-8045-49da-95b6-41fc6c90a41e%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M74X8J5YM2HDJA153VXD34BD%27&entityId=%270fcec37c-8045-49da-95b6-41fc6c90a41e%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2025-04-18T18:00:08.7200000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "e70e53316fe0c0ec518549f4de67cecb9970ede101d8ecbcebcc0829153df4f9",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "18. APR. 2025 | 1T 28M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 1T 28M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Inspector Sun og den sorte enkes forbandelse",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "SPANIEN",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1T 28M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_spændingsfyldt",
+     "recommendationgenre_animation",
+     "theme_mysterier og gåder"
+    ]
+   },
+   {
+    "id": "ddd8df70-8859-4b94-9a28-7022c84e81b6",
+    "type": "show",
+    "subtype": "",
+    "title": "Isabel og den skjulte skat",
+    "shortDescription": "Nu går den vilde skattejagt i Jordan.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/isabel-og-den-skjulte-skat_45858",
+    "scopes": [
+     "ddd8df70-8859-4b94-9a28-7022c84e81b6"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2086648693000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J8QDJ8ZMPH8D8XKRJEDDRE%27&entityId=%27ddd8df70-8859-4b94-9a28-7022c84e81b6%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J8QDJ9DBBNQEM93BDD72GS%27&entityId=%27ddd8df70-8859-4b94-9a28-7022c84e81b6%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J8QDJ9DBBNQEM93BDD72GS%27&entityId=%27ddd8df70-8859-4b94-9a28-7022c84e81b6%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "999667d426f7bf6d7004b3368698340bfc23d5fc1291e1184c8cb6206e919813",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Fakta",
+     "ExtraDetails": "Fakta | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Fakta,DR Ramasjang",
+     "PageTitle": "Isabel og den skjulte skat",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "fakta",
+     "ramasjang ø"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_nysgerrig",
+     "recommendationgenre_dokumentar",
+     "theme_på opdagelse"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 1
+  },
+  "customFields": {}
+ }
+}

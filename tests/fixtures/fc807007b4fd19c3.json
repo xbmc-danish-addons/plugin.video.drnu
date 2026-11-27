@@ -1,0 +1,1989 @@
+{
+ "status": 200,
+ "json": {
+  "id": "9173f690-7bc5-40fd-8a89-db7f25b9916f",
+  "title": "DRTV | A",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-a-a-xe398",
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "size": 146,
+  "items": [
+   {
+    "id": "cf2cec1f-c237-4cda-bac5-0d36ad894d2f",
+    "type": "show",
+    "subtype": "",
+    "title": "Anne, Sanne og Lis",
+    "shortDescription": "Dokumentarserie om Danmarks store sangerindetrio i 1970erne og 80erne.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anne-sanne-og-lis_441317",
+    "scopes": [
+     "cf2cec1f-c237-4cda-bac5-0d36ad894d2f"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1914056545000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBJQCEYEY9558NXQ6BJ8Y%27&entityId=%27cf2cec1f-c237-4cda-bac5-0d36ad894d2f%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBJQC0RGXFCP1YM0HHS7S%27&entityId=%27cf2cec1f-c237-4cda-bac5-0d36ad894d2f%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBJQCH08A4NRTJ90QZEH4%27&entityId=%27cf2cec1f-c237-4cda-bac5-0d36ad894d2f%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "d65f5ce20a0a74080e864cce44a6a157b9df8a599b7aad18c356f85c457dbfa2",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Kultur,Musik",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Kultur,Musik,DR2",
+     "PageTitle": "Anne, Sanne og Lis",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_dokumentar",
+     "person_anne linnet",
+     "person_lis sørensen",
+     "person_sanne salomonsen",
+     "thesaurus_musikhistorie",
+     "thesaurus_rytmisk musik"
+    ]
+   },
+   {
+    "id": "b812eb38-d1fc-483d-ba77-f55e8f0860db",
+    "type": "program",
+    "subtype": "",
+    "title": "Anne, Sanne og Lis",
+    "shortDescription": "Dansk dokumentar fra 2018\nVi kender dem mest for de hits de har haft hver for sig, men i to år - fra 1980 til 1982 - stod Anne Linnet, Sanne Salomonsen og Lis Sørensen side om side som sangerinder i det samme band. Det er i denne korte periode at treenigh",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/anne-sanne-og-lis_482559",
+    "watchPath": "/se/anne-sanne-og-lis_482559",
+    "scopes": [
+     "b812eb38-d1fc-483d-ba77-f55e8f0860db"
+    ],
+    "releaseYear": 2017,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 3490,
+    "customId": "urn:dr:ocs:tv:content:playable:00231771010",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJDKMM8ARWMB3JSJ7CPK31%27&entityId=%27b812eb38-d1fc-483d-ba77-f55e8f0860db%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJDKMDZPGN5NWQWQM7AKN4%27&entityId=%27b812eb38-d1fc-483d-ba77-f55e8f0860db%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJDKMFAFZBGRMYA96H5K86%27&entityId=%27b812eb38-d1fc-483d-ba77-f55e8f0860db%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2018-12-29T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "857ec4da10814d01f56288b4c51119cb75b553144098ec1d87c220692f0c09c1",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "29. DEC. 2018 | 58M",
+     "DisplayCategory": "Dokumentar,Kultur,Musik",
+     "ExtraDetails": "Dokumentar | 58M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Kultur,Musik,DR2",
+     "PageTitle": "Anne, Sanne og Lis",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 58M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_dokumentar",
+     "person_anne linnet",
+     "person_lis sørensen",
+     "person_sanne salomonsen",
+     "thesaurus_musikhistorie",
+     "thesaurus_pop"
+    ]
+   },
+   {
+    "id": "86194a54-e066-4503-8fd2-c7840584b710",
+    "type": "show",
+    "subtype": "",
+    "title": "Annisette - Rebel for livet",
+    "shortDescription": "Annisette Koppel fra The Savage Rose har gennem mere end 50 år været en enestående naturkraft i dansk musik. Kom helt tæt på kvinden med den store stemme og de kompromisløse valg i DR1's portrætserie i fire afsnit.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/annisette-_-rebel-for-livet_439312",
+    "scopes": [
+     "86194a54-e066-4503-8fd2-c7840584b710"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:4560261007000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6457K7HE3N9J7PPWJFPC47H%27&entityId=%2786194a54-e066-4503-8fd2-c7840584b710%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6457K7HVBZ96QKER5MANH79%27&entityId=%2786194a54-e066-4503-8fd2-c7840584b710%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6457K7H3J7SRR8HVZ8RVG65%27&entityId=%2786194a54-e066-4503-8fd2-c7840584b710%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "56abfa776aadc6d27f1d81b710767275af1d58bfc62a8289e33d9b7b40dd5438",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Kultur,Musik",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Kultur,Musik,DR1",
+     "PageTitle": "Annisette - Rebel for livet",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr1",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_dokumentar",
+     "organization_the savage rose",
+     "person_annisette koppel",
+     "thesaurus_rytmisk musik"
+    ]
+   },
+   {
+    "id": "8f23d72d-3ce0-462d-b67c-90139afe12ba",
+    "type": "program",
+    "subtype": "",
+    "title": "Annoncen, der afslører ensomhed",
+    "shortDescription": "Dansk dokumentar fra 1976. I aviserne kan man ofte læse dødsannoncer, hvor institutioner eller hospitaler efterlyser pårørende til en afdød. Og det er sjældent, at nogen melder sig. Med udgangspunkt i en dødsannonce fra De Gamles By i København, hvor Soph",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/annoncen-der-afsloerer-ensomhed_566919",
+    "watchPath": "/se/annoncen-der-afsloerer-ensomhed_566919",
+    "scopes": [
+     "8f23d72d-3ce0-462d-b67c-90139afe12ba"
+    ],
+    "releaseYear": 1976,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1102,
+    "customId": "urn:dr:ocs:tv:content:playable:00202252900",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ57N5P88XCCWAHCTAEGCW%27&entityId=%278f23d72d-3ce0-462d-b67c-90139afe12ba%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ57MXQ6JRBKZVQZAXRJ36%27&entityId=%278f23d72d-3ce0-462d-b67c-90139afe12ba%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ57MRV2QQK5TVP8R4XZHY%27&entityId=%278f23d72d-3ce0-462d-b67c-90139afe12ba%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1976-08-01T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "e9f11cd4e638e644ff7467ca37095efa2bf627de9592449e33a52868bf883db4",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "1. AUG. 1976 | 18M",
+     "DisplayCategory": "Dokumentar,Krop,Gensyn",
+     "ExtraDetails": "Dokumentar | 18M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Krop,Gensyn,DR Gensyn",
+     "PageTitle": "Annoncen, der afslører ensomhed",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 18M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "krop"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_tv-program",
+     "thesaurus_død",
+     "thesaurus_ensomhed"
+    ]
+   },
+   {
+    "id": "a9c93795-6ea0-4d75-aa8c-c12cf0f46b08",
+    "type": "show",
+    "subtype": "",
+    "title": "Ansigt blandt unge",
+    "shortDescription": "Dansk dokumentarserie 1968-1969. En række portrætter af unge i Danmark - om deres liv og tanker.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/ansigt-blandt-unge_444949",
+    "scopes": [
+     "a9c93795-6ea0-4d75-aa8c-c12cf0f46b08"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5387529966000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M4ZB0QS3A392VXK6GC3RDWSM%27&entityId=%27a9c93795-6ea0-4d75-aa8c-c12cf0f46b08%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M4ZB0QS1W1N6VK11FR9SPZ3P%27&entityId=%27a9c93795-6ea0-4d75-aa8c-c12cf0f46b08%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M4ZB0QS4ZJ0M7CW8KEDRNWCM%27&entityId=%27a9c93795-6ea0-4d75-aa8c-c12cf0f46b08%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "6e5248f5ee1382bb594785c722b2ac652efa13fdc1ed7c81e8ddb06fdb0a99fe",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Livsstil,Gensyn",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Livsstil,Gensyn,DR Gensyn",
+     "PageTitle": "Ansigt blandt unge",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "livsstil"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_gensyn",
+     "thesaurus_tro",
+     "thesaurus_ungdomsliv"
+    ]
+   },
+   {
+    "id": "7c6e25b3-2ddb-4040-ba48-928e9e931382",
+    "type": "program",
+    "subtype": "",
+    "title": "Ansigterne",
+    "shortDescription": "Dansk tv-teater fra 1987. Tove Ditlevsen har skrevet romanforlægget til dette psykologiske drama om en forfatter, der får et sammenbrud og indlægges på et psykiatrisk hospital. Er hun efter flere ægteskaber havnet i et nyt ægteskabshelvede? Giver hun sine",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/ansigterne_605165",
+    "watchPath": "/se/ansigterne_605165",
+    "scopes": [
+     "7c6e25b3-2ddb-4040-ba48-928e9e931382"
+    ],
+    "releaseYear": 1987,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 9901,
+    "customId": "urn:dr:ocs:tv:content:playable:00404573530",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z881MB3Q9K7KPAX7PEXPT5%27&entityId=%277c6e25b3-2ddb-4040-ba48-928e9e931382%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z881MB9GAHAQEA1FTNTZ26%27&entityId=%277c6e25b3-2ddb-4040-ba48-928e9e931382%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z881MB4E8668WC7MPY85ST%27&entityId=%277c6e25b3-2ddb-4040-ba48-928e9e931382%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1987-04-17T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "58e6a6bc1bb6f0aa105f0e56e6b54cd9c55a48efac1f013f5efa78186aaadac6",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "17. APR. 1987 | 2T 45M",
+     "DisplayCategory": "Teater og TV-film,Gensyn",
+     "ExtraDetails": "Teater og TV-film | 2T 45M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Teater og TV-film,Gensyn,DR Gensyn",
+     "PageTitle": "Ansigterne",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 2T 45M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "teater og tv-film"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_film",
+     "editorialptaxtop_gensyn",
+     "mood_følelsesladet"
+    ]
+   },
+   {
+    "id": "dd01d28b-d954-44b2-bcee-12b620153bc3",
+    "type": "show",
+    "subtype": "",
+    "title": "Ansigtsmagi",
+    "shortDescription": "Ingen beskrivelse",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/ansigtsmagi_502370",
+    "scopes": [
+     "dd01d28b-d954-44b2-bcee-12b620153bc3"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6096891046000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3BZZ2XJ5CNJGJC9C4XMSR3%27&entityId=%27dd01d28b-d954-44b2-bcee-12b620153bc3%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KBK6VQ68EQ08NGQA56VEDE%27&entityId=%27dd01d28b-d954-44b2-bcee-12b620153bc3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KBK6VQA4T5Z6KMWHW6ZSP1%27&entityId=%27dd01d28b-d954-44b2-bcee-12b620153bc3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KBK6VSWEW0E0QVFS8S2STQ%27&entityId=%27dd01d28b-d954-44b2-bcee-12b620153bc3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "f7241e5c1a4bcc0ad3804231ffebbd942bbecc3c83d64b8e2c9afe846a48521b",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Krea",
+     "ExtraDetails": "Krea | 2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Krea,DR Ramasjang",
+     "PageTitle": "Ansigtsmagi",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "krea"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_voksne som hovedpersoner",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_livsstil og krea",
+     "theme_kreativitet",
+     "thesaurus_halloween"
+    ]
+   },
+   {
+    "id": "56a278ad-0414-473f-a56c-733eab563be0",
+    "type": "show",
+    "subtype": "",
+    "title": "Ansvar for liv",
+    "shortDescription": "For ikke så længe siden døde mange nyfødte under fødslen, børn blev tæsket til lærdom og ældre blev stuvet væk på fattiggården. Liv Thomsen sætter ansigt på de pionerer, der gjorde omsorgen til fag.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/ansvar-for-liv_534623",
+    "scopes": [
+     "56a278ad-0414-473f-a56c-733eab563be0"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5894643927000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445A151YAGC1ZSCZYRVPTP%27&entityId=%2756a278ad-0414-473f-a56c-733eab563be0%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445A15779HXRA214ZJJVQ1%27&entityId=%2756a278ad-0414-473f-a56c-733eab563be0%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6445A0Q92Q8V1WC6NXBGQ1G%27&entityId=%2756a278ad-0414-473f-a56c-733eab563be0%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "e5424ba9362c688fcb24f63c7525387a2d0afff22c2867881c0b735af01b96f5",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Historie,Krop",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Historie,Krop,DR2",
+     "PageTitle": "Ansvar for liv",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr2",
+     "historie",
+     "krop"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_historie",
+     "editorialptaxtop_dokumentar",
+     "franchise_liv thomsen",
+     "thesaurus_danmark",
+     "thesaurus_nationalhistorie"
+    ]
+   },
+   {
+    "id": "ef579ad2-944f-4376-a1e4-3cffaab2f5d0",
+    "type": "program",
+    "subtype": "",
+    "title": "Antebellum",
+    "shortDescription": "Amerikansk thriller fra 2020.\nEden er slave i de amerikanske sydstater, men lægger planer om at flygte fra sin gruopvækkende tilværelse på bomuldsplantagen. Fremme i vor tid flyver den succesfulde forfatter Veronica til en konference i sydstaterne. Men sn",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/antebellum_623445",
+    "watchPath": "/se/antebellum_623445",
+    "scopes": [
+     "ef579ad2-944f-4376-a1e4-3cffaab2f5d0"
+    ],
+    "releaseYear": 2020,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 5949,
+    "customId": "urn:dr:ocs:tv:content:playable:00022331060",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M3KJESM926B5X22GSCN8JXWA%27&entityId=%27ef579ad2-944f-4376-a1e4-3cffaab2f5d0%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M3KJESM76RPPT42W893CSX6V%27&entityId=%27ef579ad2-944f-4376-a1e4-3cffaab2f5d0%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M3KJESM8GFJS3SN4W64D9GXG%27&entityId=%27ef579ad2-944f-4376-a1e4-3cffaab2f5d0%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "2026-10-02T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "4c3dd8add4bc8688b0323ea1d8b106176b464e8d7b9bae06a2a265ebd993050e",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "2. OKT. 2026 | 1T 39M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 1T 39M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR2,acc_spoken_subtitles",
+     "PageTitle": "Antebellum",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "USA",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1T 39M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr2",
+     "film"
+    ],
+    "keywords": [
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_thriller/krimi",
+     "editorialptaxtop_film",
+     "mood_nervepirrende"
+    ]
+   },
+   {
+    "id": "e14b1ae4-cdef-4f4e-9121-455fa45f229b",
+    "type": "show",
+    "subtype": "",
+    "title": "Anthonsen",
+    "shortDescription": "Dansk krimiserie fra 1984. Ove Sprogøe spiller privatdetektiven Anthonsen. En forkølet snushane skabt med humor af Erik Balling og Henning Bahs - inspireret af Marlowe og Poirot.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anthonsen_426079",
+    "scopes": [
+     "e14b1ae4-cdef-4f4e-9121-455fa45f229b"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1903426510000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBC1W49DWF6X28N1VPCF4%27&entityId=%27e14b1ae4-cdef-4f4e-9121-455fa45f229b%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBC35DAR2H8P6KQQ5T8CS%27&entityId=%27e14b1ae4-cdef-4f4e-9121-455fa45f229b%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBBZNMYQDKWKFYRY3JFGR%27&entityId=%27e14b1ae4-cdef-4f4e-9121-455fa45f229b%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "effd7090bfdf7974e4caabe94c413f289a01389b9f0f6e11228c4a81173e068b",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+     "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+     "PageTitle": "Anthonsen",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "fiktionsserie",
+     "gensyn",
+     "krimi"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_serier",
+     "editorialptaxtop_gensyn",
+     "mood_feel good/hyggelig",
+     "mood_sjovt"
+    ]
+   },
+   {
+    "id": "93fcd6ce-1e2e-473d-8ec8-2df1f0dddca3",
+    "type": "show",
+    "subtype": "",
+    "title": "Antikduellen",
+    "shortDescription": "To antikhandlere får hver 10.000 kroner at handle antikviteter og retroting for. Efter fem timer bliver deres ting vurderet af en vurderingsekspert, og dagens vinder er den antikhandler, som får den højeste vurdering.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/antikduellen_6940",
+    "scopes": [
+     "93fcd6ce-1e2e-473d-8ec8-2df1f0dddca3"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:753467130000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN59NFQT1HQ48P445THG7%27&entityId=%2793fcd6ce-1e2e-473d-8ec8-2df1f0dddca3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN59MQT1D0N6RB69DXGX3%27&entityId=%2793fcd6ce-1e2e-473d-8ec8-2df1f0dddca3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN59MSFK0NJP9T9PMG180%27&entityId=%2793fcd6ce-1e2e-473d-8ec8-2df1f0dddca3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "ee56229fc894717aea0b72a8eee472e0b291911fa8127448125c55a5a2801ecd",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Bolig",
+     "ExtraDetails": "Livsstil | 7 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Bolig,DR1",
+     "PageTitle": "Antikduellen",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 7 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "bolig",
+     "dr1",
+     "livsstil"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_livsstil",
+     "editorialptaxsub_underholdning",
+     "editorialptaxtop_tv-program",
+     "thesaurus_antikviteter",
+     "thesaurus_auktioner"
+    ]
+   },
+   {
+    "id": "932592a6-b0fc-428a-b992-42a1ba148049",
+    "type": "show",
+    "subtype": "",
+    "title": "Antikkrejlerne",
+    "shortDescription": "Antikvitetseksperter konkurrerer mod hinanden om at købe antikviteter og sælge dem på auktion.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/antikkrejlerne_17843",
+    "scopes": [
+     "932592a6-b0fc-428a-b992-42a1ba148049"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:754511108000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7AD77WD82FXY4ZFRYCHP41V%27&entityId=%27932592a6-b0fc-428a-b992-42a1ba148049%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7AD77WDEJKZNQG8DXKYKQS9%27&entityId=%27932592a6-b0fc-428a-b992-42a1ba148049%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7AD77WD1DEAFK9EQ0MSYTDJ%27&entityId=%27932592a6-b0fc-428a-b992-42a1ba148049%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "b5ce5cc635bbc5fc142a2eb35e075b56879b09fb0b302f40ffda57b5f4762a2d",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Bolig",
+     "ExtraDetails": "Livsstil | 8 SÆSONER",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Bolig,DR1",
+     "PageTitle": "Antikkrejlerne",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 8 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "bolig",
+     "dr1",
+     "livsstil",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_livsstil",
+     "editorialptaxtop_tv-program",
+     "thesaurus_antikviteter\tauktioner"
+    ]
+   },
+   {
+    "id": "5ddfdd0d-720b-4bcd-afa5-ce7fc30f082a",
+    "type": "show",
+    "subtype": "",
+    "title": "Antikkrejlerne med kendisser",
+    "shortDescription": "Nogle af Storbritanniens mest kendte antikvitetseksperter slår sig sammen med en række kendisser i jagten på antikviteter og loppemarkedsfund. Hvilket hold kan skabe den største fortjeneste?",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/antikkrejlerne-med-kendisser_416437",
+    "scopes": [
+     "5ddfdd0d-720b-4bcd-afa5-ce7fc30f082a"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2295557629000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDCS36CQSWANJBWBEVY7DD%27&entityId=%275ddfdd0d-720b-4bcd-afa5-ce7fc30f082a%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDCS36MCX1CR0V1WZFSAR7%27&entityId=%275ddfdd0d-720b-4bcd-afa5-ce7fc30f082a%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDCS36VHSD5A6FSTZZREK3%27&entityId=%275ddfdd0d-720b-4bcd-afa5-ce7fc30f082a%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "86df04653417841ecec59a7ca42cdbae451c41c4c014bb95dd99ef7287d95631",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Bolig",
+     "ExtraDetails": "Livsstil | 2 SÆSONER",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Bolig,DR1",
+     "PageTitle": "Antikkrejlerne med kendisser",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "bolig",
+     "dr1",
+     "livsstil",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_livsstil",
+     "editorialptaxtop_tv-program",
+     "thesaurus_antikviteter\tauktioner"
+    ]
+   },
+   {
+    "id": "363d57f0-eaa1-42bf-b247-655362e20ddd",
+    "type": "show",
+    "subtype": "",
+    "title": "AntikQuizzen",
+    "shortDescription": "I AntikQuizzen dyster tre danskere på viden og priser på alt fra sjove eller sjældne loppefund til klassiske designmøbler og kostbare antikviteter.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/antikquizzen_19040",
+    "scopes": [
+     "363d57f0-eaa1-42bf-b247-655362e20ddd"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1911075365000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBHW8MTARA9XA67VVZ8GN%27&entityId=%27363d57f0-eaa1-42bf-b247-655362e20ddd%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBHW8GVQ51EDG2HBR6T8F%27&entityId=%27363d57f0-eaa1-42bf-b247-655362e20ddd%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDBHW8R33N6SFY8WMTT66R%27&entityId=%27363d57f0-eaa1-42bf-b247-655362e20ddd%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "c40c212c1d1e88386a8cdde9592492a6d10fbb43b6174971ca4a262590092365",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Quiz",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Quiz,DR1",
+     "PageTitle": "AntikQuizzen",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr1",
+     "livsstil",
+     "quiz"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_livsstil",
+     "editorialptaxsub_underholdning",
+     "editorialptaxtop_tv-program",
+     "thesaurus_antikviteter"
+    ]
+   },
+   {
+    "id": "0ecc86f9-f2a6-4de0-ae77-64ceb3163a70",
+    "type": "show",
+    "subtype": "",
+    "title": "Anton - min hemmelige ven",
+    "shortDescription": "Dansk børneserie 2001-2004. Sebastian Klein fortæller om sin usynlige ven Anton - og så er der masser af eventyrlige historier og opskrifter på ulækre madder.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/anton-_-min-hemmelige-ven_594315",
+    "scopes": [
+     "0ecc86f9-f2a6-4de0-ae77-64ceb3163a70"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:754390892000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN8XFKQHCQ8XB5D3EKSV0%27&entityId=%270ecc86f9-f2a6-4de0-ae77-64ceb3163a70%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN8XF627VQCG18RS0CBF4%27&entityId=%270ecc86f9-f2a6-4de0-ae77-64ceb3163a70%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDN8XFE9Y50DMRY4JF0AB3%27&entityId=%270ecc86f9-f2a6-4de0-ae77-64ceb3163a70%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "da8253cb315354697c89cb7761dc5a00aede50d6a15cf90eccaa541fc987f2be",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Gensyn",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "PageTitle": "Anton - min hemmelige ven",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_børn",
+     "editorialptaxtop_gensyn"
+    ]
+   },
+   {
+    "id": "3f5afb6c-f8de-4fbf-923b-dde9718655e1",
+    "type": "show",
+    "subtype": "",
+    "title": "Aphaca - Brug for hinanden",
+    "shortDescription": "Fire unge venner slår igennem med deres band. Mens succesen, presset og forventningerne vokser, og alt bliver større og vildere, forsøger de sammen at holde fast i det nære, sig selv og hinanden.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/aphaca-_-brug-for-hinanden_603230",
+    "scopes": [
+     "3f5afb6c-f8de-4fbf-923b-dde9718655e1"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5460951784000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDHX6P3069G2CZZXGSDVZH%27&entityId=%273f5afb6c-f8de-4fbf-923b-dde9718655e1%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDHX6P7TZJXMFSPRXXCDZV%27&entityId=%273f5afb6c-f8de-4fbf-923b-dde9718655e1%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDHX6PR67QCC9GZHX9S8NB%27&entityId=%273f5afb6c-f8de-4fbf-923b-dde9718655e1%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "P3",
+     "BrandingChannelShort": "TP3",
+     "Checksum": "cac75bf90258687b44e9c73ab1b3ceed2a6c02bfd5082ccfb51c1661d819b731",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Kultur,Musik",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Kultur,Musik,P3",
+     "PageTitle": "Aphaca - Brug for hinanden",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "P3 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "kultur",
+     "musik",
+     "p3"
+    ],
+    "keywords": [
+     "agetargetgroup_15-24 år",
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_dokumentar",
+     "organization_aphaca",
+     "thesaurus_pop"
+    ]
+   },
+   {
+    "id": "e62feaf5-54c0-4eff-aef7-2a9c6b07d967",
+    "type": "program",
+    "subtype": "",
+    "title": "Apocalypse in the Tropics",
+    "shortDescription": "Den Oscar-nominerede instruktør Petra Costa tager os med på en personlig rejse ind i de kristne, evangeliske lederes voksende kontrol over brasiliansk politik. Med adgang til fremtrædende figurer som præsident Lula, tidligere præsident Bolsonaro og en af ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/apocalypse-in-the-tropics_584092",
+    "watchPath": "/se/apocalypse-in-the-tropics_584092",
+    "scopes": [
+     "e62feaf5-54c0-4eff-aef7-2a9c6b07d967"
+    ],
+    "releaseYear": 2024,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 6545,
+    "customId": "urn:dr:ocs:tv:content:playable:00922400160",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZB6R6VCTG2YFAAFYVDFP3X%27&entityId=%27e62feaf5-54c0-4eff-aef7-2a9c6b07d967%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZB6R6VPCD94B4CWRQ0X532%27&entityId=%27e62feaf5-54c0-4eff-aef7-2a9c6b07d967%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZB6R6VB06GG9YEWMPHQFKK%27&entityId=%27e62feaf5-54c0-4eff-aef7-2a9c6b07d967%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "2026-03-28T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "77862dbc1408d12c9cd5fd14835b374a5a1dd372b0746a27759ee9cd43a67042",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "28. MAR. 2026 | 1T 49M",
+     "DisplayCategory": "Dokumentar",
+     "ExtraDetails": "Dokumentar | 1T 49M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+     "PageTitle": "Apocalypse in the Tropics",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1T 49M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr2"
+    ],
+    "keywords": [
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_politik",
+     "editorialptaxsub_religion/etik/filosofi",
+     "editorialptaxtop_dokumentar",
+     "thesaurus_brasilien",
+     "thesaurus_frikirker",
+     "thesaurus_politik"
+    ]
+   },
+   {
+    "id": "19becd95-466e-4b31-8552-00ac900e14f1",
+    "type": "program",
+    "subtype": "",
+    "title": "Arkitekten - hvilen ligger i rytmen",
+    "shortDescription": "Dansk dokumentar fra 1994. Designer, arkitekt, jazzpoet, filminstruktør. Selvom de fleste vil huske ham for hans lamper, var Poul Henningsen faktisk det hele. Arkitekten og kulturjournalisten Allan de Waal tegner et portræt af multikunstneren PH med de sæ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/arkitekten-_-hvilen-ligger-i-rytmen_545982",
+    "watchPath": "/se/arkitekten-_-hvilen-ligger-i-rytmen_545982",
+    "scopes": [
+     "19becd95-466e-4b31-8552-00ac900e14f1"
+    ],
+    "releaseYear": 1994,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1734,
+    "customId": "urn:dr:ocs:tv:content:playable:00213381760",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7G9TN1CPXT3V7KM38YXF%27&entityId=%2719becd95-466e-4b31-8552-00ac900e14f1%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7G7WKS6NZM1MGW643J59%27&entityId=%2719becd95-466e-4b31-8552-00ac900e14f1%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7G7YZ9ZKP62J96BWQE43%27&entityId=%2719becd95-466e-4b31-8552-00ac900e14f1%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1994-09-09T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "8388e3b2401e313c4ac79b181705aa0e60145b4b3590a9bc1a0e4c97747a979b",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "9. SEP. 1994 | 29M",
+     "DisplayCategory": "Kultur,Gensyn",
+     "ExtraDetails": "Kultur | 29M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Gensyn,DR Gensyn",
+     "PageTitle": "Arkitekten - hvilen ligger i rytmen",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 29M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_design/arkitektur",
+     "editorialptaxtop_gensyn",
+     "person_poul henningsen",
+     "thesaurus_møbeldesign"
+    ]
+   },
+   {
+    "id": "1b5669d9-331f-4690-b33a-94cb21109c09",
+    "type": "show",
+    "subtype": "",
+    "title": "Arkitektens Hjem",
+    "shortDescription": "Arkitekter arbejder til daglig med at tegne boliger for andre, men hvordan bor de selv? Få svaret i den danske arkitekturserie 'Arkitektens hjem'.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/arkitektens-hjem_205621",
+    "scopes": [
+     "1b5669d9-331f-4690-b33a-94cb21109c09"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:755429703000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3AFGFV3B2KWKGKMR1NE2PM%27&entityId=%271b5669d9-331f-4690-b33a-94cb21109c09%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDNJRWXTKWCCC71F2B07PA%27&entityId=%271b5669d9-331f-4690-b33a-94cb21109c09%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDNJRW090Y5VZ0CNJSGB58%27&entityId=%271b5669d9-331f-4690-b33a-94cb21109c09%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDNJRW090Y5VZ0CNJSGB58%27&entityId=%271b5669d9-331f-4690-b33a-94cb21109c09%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "0fc06a667f8d18763c3a88733cb00722db9ed47abdd758bfeb46aba789528876",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Bolig",
+     "ExtraDetails": "Livsstil | 2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Bolig,DR2",
+     "PageTitle": "Arkitektens Hjem",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "bolig",
+     "dr2",
+     "livsstil"
+    ],
+    "keywords": [
+     "controlled_bæredygtighed",
+     "culturalorigin_dansk",
+     "editorialptaxsub_design/arkitektur",
+     "editorialptaxtop_tv-program",
+     "thesaurus_arkitektur",
+     "thesaurus_bygningsrestaurering",
+     "thesaurus_design"
+    ]
+   },
+   {
+    "id": "97818d4f-4df1-406d-adbb-1f4d689e566e",
+    "type": "show",
+    "subtype": "",
+    "title": "Arkitektens hjem i udlandet",
+    "shortDescription": "Tag med Eva Harlou på besøg hos nogle af Danmarks førende arkitekter for at se og høre om, hvordan de har bosat sig i udlandet.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/arkitektens-hjem-i-udlandet_204007",
+    "scopes": [
+     "97818d4f-4df1-406d-adbb-1f4d689e566e"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2836351765000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDE1QNGSVXRHJQFR6DW0W7%27&entityId=%2797818d4f-4df1-406d-adbb-1f4d689e566e%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDE1QQH7TD3B9PBMAJ0VW4%27&entityId=%2797818d4f-4df1-406d-adbb-1f4d689e566e%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDE1QQH7TD3B9PBMAJ0VW4%27&entityId=%2797818d4f-4df1-406d-adbb-1f4d689e566e%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "6d1dfeb952aec56cc1b7f28ef2bc2a2061b23065b856487eb9427ba75290c177",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Bolig",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Bolig,DR2",
+     "PageTitle": "Arkitektens hjem i udlandet",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "bolig",
+     "dr2",
+     "livsstil"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_design/arkitektur",
+     "editorialptaxtop_tv-program",
+     "thesaurus_boliger"
+    ]
+   },
+   {
+    "id": "bb597335-a16c-4ac4-9092-6c97f5606d12",
+    "type": "show",
+    "subtype": "",
+    "title": "Arkitektens hjem - Norge",
+    "shortDescription": "Arkitekter arbejder til daglig med at tegne boliger for andre, men hvordan bor de selv? Få svaret i den norske arkitekturserie 'Arkitektens hjem'.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/arkitektens-hjem-_-norge_560089",
+    "scopes": [
+     "bb597335-a16c-4ac4-9092-6c97f5606d12"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2562853025000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDD8ASV2CA5HVQ35MX1SBK%27&entityId=%27bb597335-a16c-4ac4-9092-6c97f5606d12%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDD8ASZAC8G268NG93677G%27&entityId=%27bb597335-a16c-4ac4-9092-6c97f5606d12%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDD8ASKNKWJXWRPX3Z0DJK%27&entityId=%27bb597335-a16c-4ac4-9092-6c97f5606d12%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "8e277239257509ca301b34208a55065c551003be4cada8c50108bb8cc1994fef",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Bolig",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Bolig,DR2",
+     "PageTitle": "Arkitektens hjem - Norge",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "bolig",
+     "dr2",
+     "livsstil"
+    ],
+    "keywords": [
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_design/arkitektur",
+     "editorialptaxtop_tv-program",
+     "thesaurus_arkitektur",
+     "thesaurus_bygningsrestaurering",
+     "thesaurus_design"
+    ]
+   },
+   {
+    "id": "12d03852-5862-4983-b0b9-acb3905f57b3",
+    "type": "show",
+    "subtype": "",
+    "title": "Arkitektens sommerhus",
+    "shortDescription": "Norsk boligserie fra 2018.\nHvem er de arkitekter, der tegner vores sommerhuse? Og hvordan har de selv indrettet sig i deres fritidshuse? Vi er i Norge, hvor vi besøger nogle af landets mest fremtrædende arkitekter. Dels for at se, hvordan de selv bor, del",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/arkitektens-sommerhus_135985",
+    "scopes": [
+     "12d03852-5862-4983-b0b9-acb3905f57b3"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2246002449000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDCNN4JC0BFZJ6H50HDG3Q%27&entityId=%2712d03852-5862-4983-b0b9-acb3905f57b3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDCNN4Y9JVS8K517V90803%27&entityId=%2712d03852-5862-4983-b0b9-acb3905f57b3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDCNN4Y9JVS8K517V90803%27&entityId=%2712d03852-5862-4983-b0b9-acb3905f57b3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "ff1c9de6bebc66884deaeaf8a3058b1645cdd7043c48dde238ddc426204e2ea3",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Bolig",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Bolig,DR2",
+     "PageTitle": "Arkitektens sommerhus",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "bolig",
+     "dr2",
+     "livsstil"
+    ],
+    "keywords": [
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_design/arkitektur",
+     "editorialptaxtop_tv-program",
+     "thesaurus_arkitektur",
+     "thesaurus_design",
+     "thesaurus_sommerhuse"
+    ]
+   },
+   {
+    "id": "d1109bef-c38c-419d-a791-15adf58000e9",
+    "type": "show",
+    "subtype": "",
+    "title": "Arkitektur der deler vandene",
+    "shortDescription": "Stor arkitektur kan både fascinere og forarge. Arkitekt Sonja Stockmarr besøger nyopførte bygninger rundt omkring i Europa for at undersøge, hvordan de påvirker deres omgivelser.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/arkitektur-der-deler-vandene_198115",
+    "scopes": [
+     "d1109bef-c38c-419d-a791-15adf58000e9"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2486302493000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDD24W84CHTR1V5VF5AGEW%27&entityId=%27d1109bef-c38c-419d-a791-15adf58000e9%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDD24W9M8SC8WKZJ1D3GKF%27&entityId=%27d1109bef-c38c-419d-a791-15adf58000e9%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDD24WJ4JPFQ36YMAZYW32%27&entityId=%27d1109bef-c38c-419d-a791-15adf58000e9%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "ba41a5cd4fb7d058087528ea2c91ac1f8db79f45a573bc36720a37629cc4466a",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Kultur",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Kultur,DR2",
+     "PageTitle": "Arkitektur der deler vandene",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr2",
+     "kultur"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_design/arkitektur",
+     "editorialptaxtop_tv-program",
+     "thesaurus_arkitektur"
+    ]
+   },
+   {
+    "id": "9ee39dba-1299-45c8-99ee-92c383394af1",
+    "type": "show",
+    "subtype": "",
+    "title": "Arktisk kommando",
+    "shortDescription": "Hvert år søger Arktisk Kommando stationsspecialister og nye ansatte i slædepatruljen Sirius. 57 aspiranter møder op i Frederikshavn. Et krævende udskilningsforløb går i gang og kun få af ansøgerne vil ende med at få opfyldt deres drøm: en udstationering i",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/arktisk-kommando_93925",
+    "scopes": [
+     "9ee39dba-1299-45c8-99ee-92c383394af1"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1845075111000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645E9CD3TDH9N47GFGGSY8D%27&entityId=%279ee39dba-1299-45c8-99ee-92c383394af1%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645E9FSTRVVHCA35RGQZVQ0%27&entityId=%279ee39dba-1299-45c8-99ee-92c383394af1%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645E9JVJKY4YZ4BFEECKY2N%27&entityId=%279ee39dba-1299-45c8-99ee-92c383394af1%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "58c7676e7dbbdd5c71734e8b2cc0bacd680780f9f4a0b6c76274f3d2f2d9914f",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Natur",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Natur,DR1",
+     "PageTitle": "Arktisk kommando",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr1",
+     "natur"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_dansk aktualitet/samfundsforhold",
+     "editorialptaxsub_militær/krig",
+     "editorialptaxtop_dokumentar",
+     "location_nordøstgrønland",
+     "organization_arktisk kommando",
+     "organization_sirius-patruljen",
+     "thesaurus_militær",
+     "thesaurus_soldater",
+     "thesaurus_specialstyrker"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "next": "/lists/9173f690-7bc5-40fd-8a89-db7f25b9916f?page=6&page_size=24&order=Desc",
+   "previous": "/lists/9173f690-7bc5-40fd-8a89-db7f25b9916f?page=4&page_size=24&order=Desc",
+   "page": 5,
+   "size": 24,
+   "total": 7
+  },
+  "customFields": {}
+ }
+}

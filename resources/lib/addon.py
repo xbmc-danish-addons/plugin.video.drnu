@@ -193,8 +193,8 @@ class DrDkTvAddon:
             iptv_channel = {
                 'name': api_channel['title'],
                 'stream': self.api.get_channel_url(api_channel, bool_setting('enable.livetv_subtitles')),
-                'logo': api_channel['item']['images']['logo'],
-                'id': 'drnu.' + api_channel['item']['id'],
+                'logo': api_channel['images']['logo'],
+                'id': 'drnu.' + api_channel['id'],
                 'preset': tvapi.CHANNEL_PRESET[api_channel['title']]
             }
             iptv_channels.append(iptv_channel)
@@ -235,9 +235,9 @@ class DrDkTvAddon:
         items = []
         for channel in self.api.getLiveTV():
             item = xbmcgui.ListItem(channel['title'], offscreen=True)
-            item.setArt({'thumb': channel['item']['images']['logo'],
-                         'icon': channel['item']['images']['logo'],
-                         'fanart': channel['item']['images']['logo']})
+            item.setArt({'thumb': channel['images']['logo'],
+                         'icon': channel['images']['logo'],
+                         'fanart': channel['images']['logo']})
             item.addContextMenuItems(self.menuItems, False)
             url = self.api.get_channel_url(channel, bool_setting('enable.livetv_subtitles'))
             item.setInfo('video', {
@@ -302,40 +302,39 @@ class DrDkTvAddon:
 
     def list_entries(self, path, caching=True, seasons=False):
         use_cache = tvapi.cache_path(path) and caching
-        entries = self.api.get_programcard(path, use_cache=use_cache)['entries']
-        if len(entries) == 0:
-            # hack for get_programcard('/liste/306104') giving empty entries, but recommendations yields?!?
-            id = int(path.split('/')[-1])
-            self.listEpisodes(self.api.get_recommendations(id, use_cache=use_cache)['items'])
-        elif len(entries) > 1:
-            self.listEpisodes(entries)
-        else:
-            item = entries[0]
-            if item['type'] == 'ItemEntry':
-                if item['item']['type'] == 'season':
-                    if seasons or item['item']['show']['availableSeasonCount'] == 1:
-                        # we have shown the root of this series (or only one season anyhow)
-                        self.listEpisodes(self.api.unfold_list(item['item']['episodes'], use_cache=use_cache), seasons=False)
-                    elif self.api.kids_item(item['item']) and bool_setting('disable.kids.seasons'):
-                        # let's not have seasons on children items
-                        collect_episodes = []
-                        for season_item in item['item']['show']['seasons']['items']:
-                            if season_item['id'] == item['item']['episodes']['items'][0]['seasonId']:
-                                collect_episodes += self.api.unfold_list(item['item']['episodes'], use_cache=use_cache)
-                            else:
-                                newitem = self.api.get_programcard(season_item['path'], use_cache=use_cache)['entries'][0]
-                                collect_episodes += self.api.unfold_list(newitem['item']['episodes'], use_cache=use_cache)
-                        self.listEpisodes(collect_episodes, seasons=False)
+        card = self.api.get_programcard(path, use_cache=use_cache)
+        # a list page carries the whole list at top level ('/liste/...'); a
+        # detail page (show, season, program, channel) carries the item there.
+        # An A-Å page is neither: it is a set of per-letter ListEntry folders
+        if 'list' in card:
+            self.listEpisodes(self.api.unfold_list(card['list'], use_cache=use_cache))
+            return
+        if 'item' not in card:
+            self.listEpisodes(card['entries'])
+            return
+        item = card['item']
+        if item['type'] == 'season':
+            if seasons or item['show']['availableSeasonCount'] == 1:
+                # we have shown the root of this series (or only one season anyhow)
+                self.listEpisodes(self.api.unfold_list(item['episodes'], use_cache=use_cache), seasons=False)
+            elif self.api.kids_item(item) and bool_setting('disable.kids.seasons'):
+                # let's not have seasons on children items
+                collect_episodes = []
+                for season_item in item['show']['seasons']['items']:
+                    if season_item['id'] == item['episodes']['items'][0]['seasonId']:
+                        collect_episodes += self.api.unfold_list(item['episodes'], use_cache=use_cache)
                     else:
-                        # list only the season items of this series
-                        self.listEpisodes(item['item']['show']['seasons']['items'], seasons=True)
-                else:
-                    raise tvapi.ApiException(f"{item['item']['type']} unknown")
-            elif item['type'] == 'ListEntry':
-                items = self.api.unfold_list(item['list'], use_cache=use_cache)
-                self.listEpisodes(items)
+                        newitem = self.api.get_programcard(season_item['path'], use_cache=use_cache)['item']
+                        collect_episodes += self.api.unfold_list(newitem['episodes'], use_cache=use_cache)
+                self.listEpisodes(collect_episodes, seasons=False)
             else:
-                raise tvapi.ApiException(f"{item['type']} unknown")
+                # list only the season items of this series
+                self.listEpisodes(item['show']['seasons']['items'], seasons=True)
+        elif item['type'] == 'channel':
+            # a channel page lists its current programmes
+            self.listEpisodes(self.api.get_front_items(item['path']))
+        else:
+            raise tvapi.ApiException(f"{item['type']} unknown")
 
     def playVideo(self, id, kids_channel, path):
         if path.startswith('/kanal'):
@@ -515,9 +514,7 @@ class DrDkTvAddon:
     def _route_searchresult(self, params):
         with self.search_path.open('rb') as fh:
             search_results = pickle.load(fh)
-        # search's own request is authorized, so its later pages must be too
-        headers = {"X-Authorization": f'Bearer {self.api.profile_token()}'}
-        self.listEpisodes(self.api.unfold_list(search_results[params['searchresult']], headers=headers))
+        self.listEpisodes(self.api.unfold_list(search_results[params['searchresult']]))
 
     def _route_listvideos(self, params):
         seasons = params.get('seasons', 'False') == 'True'
@@ -527,8 +524,8 @@ class DrDkTvAddon:
                 self.api.caching = False
             items = self.api.get_list(params['listVideos'], params['list_param'])
             if not items['items']:
-                # the list and its recommendations were both empty; show an
-                # empty directory instead of crashing on items[0]
+                # an empty list: show an empty directory instead of crashing
+                # on items[0]
                 if caching is False:
                     self.api.caching = True
                 self.listEpisodes([])

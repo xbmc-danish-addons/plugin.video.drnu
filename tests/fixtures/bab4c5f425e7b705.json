@@ -1,0 +1,23 @@
+{
+ "status": 200,
+ "json": {
+  "id": "37ca1b89-fd82-4517-b6d2-1018441b2d7d",
+  "title": "Ramasjang | U",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xvtky",
+  "itemTypes": [],
+  "size": 0,
+  "items": [],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 0
+  },
+  "customFields": {}
+ }
+}

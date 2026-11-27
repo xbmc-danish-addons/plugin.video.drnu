@@ -1,0 +1,23 @@
+{
+ "status": 200,
+ "json": {
+  "id": "b20a8670-2807-47ee-ac72-b1cd42b51486",
+  "title": "Ramasjang | W",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xwkwo",
+  "itemTypes": [],
+  "size": 0,
+  "items": [],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 0
+  },
+  "customFields": {}
+ }
+}

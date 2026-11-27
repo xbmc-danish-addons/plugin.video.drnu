@@ -328,3 +328,7 @@ msgstr ""
 msgctxt "#30908"
 msgid "Fetch full descriptions of items"
 msgstr ""
+
+msgctxt "#30909"
+msgid "Log in to play DR TV. Open the addon settings and enter your DR username and password."
+msgstr ""

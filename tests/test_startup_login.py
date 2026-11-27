@@ -152,3 +152,20 @@ def test_api_init_refresh_false_skips_the_token_refresh(monkeypatch):
     api = tvapi.Api(Path('/tmp'), lambda i: '', get_addon().getSetting, refresh=False)
 
     assert api._user_token is None
+
+
+def test_unconfigured_api_reports_login_on_both_token_accessors(monkeypatch):
+    """A fresh install without credentials must reach the login dialog from
+    Live TV, not an AttributeError. refresh_tokens() returns without a token
+    when no credentials are set, so both token attributes have to exist for
+    profile_token()/user_token() to raise the intended ApiException."""
+    monkeypatch.setattr(tvapi.Api, 'init_sqlite_db', lambda self: None)
+    monkeypatch.setattr(tvapi.Api, 'refresh_tokens', lambda self: None)
+
+    api = tvapi.Api(Path('/tmp'), lambda i: f'tr({i})', get_addon().getSetting, refresh=False)
+    api.user = ''
+
+    with pytest.raises(tvapi.ApiException, match=r'tr\(30909\)'):
+        api.profile_token()
+    with pytest.raises(tvapi.ApiException, match=r'tr\(30909\)'):
+        api.user_token()

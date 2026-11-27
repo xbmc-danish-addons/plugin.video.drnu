@@ -1,0 +1,688 @@
+{
+ "status": 200,
+ "json": {
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "entries": [
+   {
+    "id": "2399adc4-2248-4006-9388-ea4fb13d98e9",
+    "type": "CustomEntry",
+    "title": "Skab med Ramasjang",
+    "template": "H11",
+    "customFields": {
+     "backgroundColor": {
+      "color": "#ffffff",
+      "opacity": 100
+     },
+     "textColor": {
+      "color": "#000000",
+      "opacity": 100
+     },
+     "textHorizontalAlignment": "left"
+    }
+   },
+   {
+    "id": "d826bf4e-5874-4a9f-81f1-9b6eae36f298",
+    "type": "ListDetailEntry",
+    "title": "",
+    "template": "CS5",
+    "customFields": {
+     "displayFilter": false,
+     "assetTitlePosition": "below"
+    }
+   }
+  ],
+  "customFields": {},
+  "list": {
+   "id": "52fa6f07-31a5-8749-a3d5-5f214b12c0ac",
+   "title": "Skab med Ramasjang",
+   "description": "",
+   "shortDescription": "",
+   "tagline": "",
+   "path": "/liste/skab-med-ramasjang-xrdke",
+   "itemTypes": [
+    "episode"
+   ],
+   "size": 5,
+   "items": [
+    {
+     "id": "77d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166",
+     "type": "episode",
+     "subtype": "",
+     "title": "Madmix: Mums! Lækker og nem sandwich",
+     "contextualTitle": "Mums! Lækker og nem sandwich",
+     "shortDescription": "Oliver fra Motor Mille og Børnebanden laver en sprød sandwich med bacon og friske grøntsager. Perfekt til madpakken! Udløber: 21. nov. 2028",
+     "tagline": "Madpakke til turen? Ja tak!",
+     "classification": {
+      "code": "DR-Ramasjang",
+      "name": "Ramasjang"
+     },
+     "path": "/episode/madmix_-mums-laekker-og-nem-sandwich_634444",
+     "watchPath": "/se/madmix_-mums-laekker-og-nem-sandwich_634444",
+     "scopes": [
+      "77d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166"
+     ],
+     "releaseYear": 2026,
+     "episodeNumber": 20,
+     "episodeName": "Madmix: Mums! Lækker og nem sandwich",
+     "seasonId": "0e3c088e-b9bd-47f4-baf9-ae424c321495",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "duration": 607,
+     "customId": "urn:dr:ocs:tv:content:playable:00952645110",
+     "round": "",
+     "offers": [
+      {
+       "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "ComingSoon",
+       "ownership": "None",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      }
+     ],
+     "images": {
+      "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77ZRHVFS8QJZAR9V50P9JPQ%27&entityId=%2777d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166%27&entityType=%27Item%27&Width=720&Height=1080",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77ZRHVF7NQ8B1WT4ZWX4PYJ%27&entityId=%2777d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166%27&entityType=%27Item%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77ZRHVF7NQ8B1WT4ZWX4PYJ%27&entityId=%2777d485f1-dbd3-4fbb-b1fd-dd8bc5ed8166%27&entityType=%27Item%27&Width=1920&Height=1080"
+     },
+     "themes": [],
+     "customFields": {
+      "AccessServicesOffered": "StandardVideo",
+      "AvailableFrom": "2026-11-21T05:00:00.0000000+00:00",
+      "BrandingChannelDisplayName": "DR Ramasjang",
+      "BrandingChannelShort": "TVR",
+      "Checksum": "4a539e90661f79d92e76302fc57d147f5984428264c930e8f8d78fea42dbe023",
+      "ClassificationRating": "MRAM-ALL",
+      "ContentUniverses": [
+       "drtv",
+       "ultra",
+       "ramasjang"
+      ],
+      "ContextualTitleExtraDetails": "21. NOV. 2026 | 10M",
+      "DisplayCategory": "Krea",
+      "ExtraDetails": "21. NOV. 2026 | 10M",
+      "IsGeoRestricted": false,
+      "OwnedCategory": "Krea,DR Ramasjang",
+      "PageTitle": "Madmix: Sæson 1 – Mums! Lækker og nem sandwich",
+      "PlayButtonExtraDetails": "S1:E20 Mums! Lækker og nem sandwich",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PrimaryContentUniverse": "Ramasjang",
+      "ProductionCountry": "DANMARK",
+      "RatingSegment": "Ramasjang",
+      "ShortVideoUrl": "https://drod24c.akamaized.net/all/clear/none/6c/6afe0bf875d80d000102516c/6afe0bf727273300012b78f9/stream_fmp4/master_manifest.m3u8",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "TargetAudience": "All"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [
+      "dr ramasjang",
+      "krea"
+     ],
+     "keywords": [
+      "agetargetgroup_4-5 år",
+      "agetargetgroup_6-8 år",
+      "agetargetgroup_9-11 år",
+      "charactertype_børn som hovedpersoner",
+      "controlled_sandwich",
+      "culturalorigin_dansk",
+      "editorialptaxsub_fakta",
+      "editorialptaxtop_børn",
+      "format_serie",
+      "mood_genkendelig",
+      "recommendationgenre_livsstil og krea",
+      "theme_mad og madlavning",
+      "thesaurus_madlavning"
+     ]
+    },
+    {
+     "id": "c6707212-92d1-408a-ad64-561b77cd715d",
+     "type": "episode",
+     "subtype": "",
+     "title": "Kreabix: En sej robotarm!",
+     "contextualTitle": "En sej robotarm!",
+     "shortDescription": "Haps! Emma bygger en robotarm ligesom den hun har set Motor-Mille bruge i den nye sæson af 'Motor-Mille og Børnebanden.' Udløber: 31. okt. 2028",
+     "tagline": "Har du brug for en hjælpende hånd?",
+     "classification": {
+      "code": "DR-Ramasjang",
+      "name": "Ramasjang"
+     },
+     "path": "/episode/kreabix_-en-sej-robotarm_628759",
+     "watchPath": "/se/kreabix_-en-sej-robotarm_628759",
+     "scopes": [
+      "c6707212-92d1-408a-ad64-561b77cd715d"
+     ],
+     "releaseYear": 2026,
+     "episodeNumber": 51,
+     "episodeName": "Kreabix: En sej robotarm!",
+     "seasonId": "882d9eae-0673-4691-af1e-c9b8195ed20b",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "duration": 811,
+     "customId": "urn:dr:ocs:tv:content:playable:00952644080",
+     "round": "",
+     "offers": [
+      {
+       "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "ComingSoon",
+       "ownership": "None",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      }
+     ],
+     "images": {
+      "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2FH4RN0E64AKPE5BYKVPCN0%27&entityId=%27c6707212-92d1-408a-ad64-561b77cd715d%27&entityType=%27Item%27&Width=720&Height=1080",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M462FT3NDFHW19D62N46TK9B%27&entityId=%27c6707212-92d1-408a-ad64-561b77cd715d%27&entityType=%27Item%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M462FT3NDFHW19D62N46TK9B%27&entityId=%27c6707212-92d1-408a-ad64-561b77cd715d%27&entityType=%27Item%27&Width=1920&Height=1080"
+     },
+     "themes": [],
+     "customFields": {
+      "AccessServicesOffered": "StandardVideo",
+      "AvailableFrom": "2026-10-31T05:00:00.0000000+00:00",
+      "BrandingChannelDisplayName": "DR Ramasjang",
+      "BrandingChannelShort": "TVR",
+      "Checksum": "f56ccf1f69655162944349fa5efe87f5c1e3a9fa2053cbb7621c1f923c6eb699",
+      "ClassificationRating": "MRAM-ALL",
+      "ContentUniverses": [
+       "drtv",
+       "ultra",
+       "ramasjang"
+      ],
+      "ContextualTitleExtraDetails": "31. OKT. 2026 | 14M",
+      "DisplayCategory": "Krea",
+      "ExtraDetails": "31. OKT. 2026 | 14M",
+      "IsGeoRestricted": false,
+      "OwnedCategory": "Krea,DR Ramasjang",
+      "PageTitle": "Kreabix: Sæson 1 – En sej robotarm!",
+      "PlayButtonExtraDetails": "S1:E51 En sej robotarm!",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PrimaryContentUniverse": "Ramasjang",
+      "ProductionCountry": "DANMARK",
+      "RatingSegment": "Ramasjang",
+      "ShortVideoUrl": "https://drod22l.akamaized.net/all/clear/none/e3/6ae3301f792a1d0001c0afe3/6ae3301e6f7f910001a17256/stream_fmp4/master_manifest.m3u8",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "TargetAudience": "All"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [
+      "dr ramasjang",
+      "krea"
+     ],
+     "keywords": [
+      "agetargetgroup_6-8 år",
+      "agetargetgroup_9-11 år",
+      "culturalorigin_dansk",
+      "editorialptaxsub_fakta",
+      "editorialptaxtop_børn",
+      "format_serie",
+      "recommendationgenre_livsstil og krea",
+      "theme_kreativitet"
+     ]
+    },
+    {
+     "id": "18ec388e-f1e5-4d04-8ca8-79a48b1cb420",
+     "type": "episode",
+     "subtype": "",
+     "title": "Tegnetrix: Lav dit eget Danmarkskort",
+     "contextualTitle": "Lav dit eget Danmarkskort",
+     "shortDescription": "Lær hvordan du kan tegne dit eget Danmarkskort, så du kan huske alle de steder, du har besøgt. Udløber: 7. nov. 2028",
+     "tagline": "Hvor har du været på eventyr i Danmark? ",
+     "classification": {
+      "code": "DR-Ramasjang",
+      "name": "Ramasjang"
+     },
+     "path": "/episode/tegnetrix_-lav-dit-eget-danmarkskort_632181",
+     "watchPath": "/se/tegnetrix_-lav-dit-eget-danmarkskort_632181",
+     "scopes": [
+      "18ec388e-f1e5-4d04-8ca8-79a48b1cb420"
+     ],
+     "releaseYear": 2026,
+     "episodeNumber": 68,
+     "episodeName": "Tegnetrix: Lav dit eget Danmarkskort",
+     "seasonId": "e7ca3d6e-553c-49b3-b4fe-61c9ee2e7a40",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "duration": 326,
+     "customId": "urn:dr:ocs:tv:content:playable:00952643130",
+     "round": "",
+     "offers": [
+      {
+       "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "ComingSoon",
+       "ownership": "None",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      }
+     ],
+     "images": {
+      "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M460XVCWH9BW6WQN8DCPQEMG%27&entityId=%2718ec388e-f1e5-4d04-8ca8-79a48b1cb420%27&entityType=%27Item%27&Width=720&Height=1080",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M460XVCWC7B15RTA7GVN3TYF%27&entityId=%2718ec388e-f1e5-4d04-8ca8-79a48b1cb420%27&entityType=%27Item%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M460XVCWC7B15RTA7GVN3TYF%27&entityId=%2718ec388e-f1e5-4d04-8ca8-79a48b1cb420%27&entityType=%27Item%27&Width=1920&Height=1080"
+     },
+     "themes": [],
+     "customFields": {
+      "AccessServicesOffered": "StandardVideo",
+      "AvailableFrom": "2026-11-07T05:00:00.0000000+00:00",
+      "BrandingChannelDisplayName": "DR Ramasjang",
+      "BrandingChannelShort": "TVR",
+      "Checksum": "ecdc08270dbf59737936c0a7331b543f12794aac7c0e9c595383548d9389dd76",
+      "ClassificationRating": "MRAM-ALL",
+      "ContentUniverses": [
+       "drtv",
+       "ultra",
+       "ramasjang"
+      ],
+      "ContextualTitleExtraDetails": "7. NOV. 2026 | 5M",
+      "DisplayCategory": "Krea",
+      "ExtraDetails": "7. NOV. 2026 | 5M",
+      "IsGeoRestricted": false,
+      "OwnedCategory": "Krea,DR Ramasjang",
+      "PageTitle": "Tegnetrix: Sæson 1 – Lav dit eget Danmarkskort",
+      "PlayButtonExtraDetails": "S1:E68 Lav dit eget Danmarkskort",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PrimaryContentUniverse": "Ramasjang",
+      "ProductionCountry": "DANMARK",
+      "RatingSegment": "Ramasjang",
+      "ShortVideoUrl": "https://drod24g.akamaized.net/all/clear/none/da/6aedbfcbea58d70001d66fda/6aedbfca51601100018d82f1/stream_fmp4/master_manifest.m3u8",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "TargetAudience": "All"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [
+      "dr ramasjang",
+      "krea"
+     ],
+     "keywords": [
+      "agetargetgroup_6-8 år",
+      "agetargetgroup_9-11 år",
+      "culturalorigin_dansk",
+      "editorialptaxsub_fakta",
+      "editorialptaxtop_børn",
+      "format_serie",
+      "mood_hyggelig",
+      "recommendationgenre_dokumentar",
+      "theme_kreativitet"
+     ]
+    },
+    {
+     "id": "8e2eefc0-d21f-42a4-a4ac-b9bd23421e08",
+     "type": "episode",
+     "subtype": "",
+     "title": "Dansemix: Motor Mille og Børnebanden",
+     "contextualTitle": "Motor Mille og Børnebanden",
+     "shortDescription": "Der er altid noget, man er god til! Fryd fra 'Motor Mille og Børnebanden' giver dig nogle fede dansetrin til titelsangen fra serien. Udløber: 14. nov. 2028",
+     "tagline": "Sving robotarmen med Fryd fra Børnebanden",
+     "classification": {
+      "code": "DR-Ramasjang",
+      "name": "Ramasjang"
+     },
+     "path": "/episode/dansemix_-motor-mille-og-boernebanden_632214",
+     "watchPath": "/se/dansemix_-motor-mille-og-boernebanden_632214",
+     "scopes": [
+      "8e2eefc0-d21f-42a4-a4ac-b9bd23421e08"
+     ],
+     "releaseYear": 2026,
+     "episodeNumber": 81,
+     "episodeName": "Dansemix: Motor Mille og Børnebanden",
+     "seasonId": "9f787e75-5e6e-4cfd-bd52-0c497f93b350",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "duration": 204,
+     "customId": "urn:dr:ocs:tv:content:playable:00952647180",
+     "round": "",
+     "offers": [
+      {
+       "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "ComingSoon",
+       "ownership": "None",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      }
+     ],
+     "images": {
+      "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M4F6TA3HVKJ9K7PCV26JSS8R%27&entityId=%278e2eefc0-d21f-42a4-a4ac-b9bd23421e08%27&entityType=%27Item%27&Width=720&Height=1080",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5HR1GCFN7G77B83886D5930%27&entityId=%278e2eefc0-d21f-42a4-a4ac-b9bd23421e08%27&entityType=%27Item%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5HR1GCFN7G77B83886D5930%27&entityId=%278e2eefc0-d21f-42a4-a4ac-b9bd23421e08%27&entityType=%27Item%27&Width=1920&Height=1080"
+     },
+     "themes": [],
+     "customFields": {
+      "AccessServicesOffered": "StandardVideo",
+      "AvailableFrom": "2026-11-14T05:00:00.0000000+00:00",
+      "BrandingChannelDisplayName": "DR Ramasjang",
+      "BrandingChannelShort": "TVR",
+      "Checksum": "d31d58e22ea232408a58a9d054aaf724416973691a0d803903bec9766aeadbee",
+      "ClassificationRating": "MRAM-ALL",
+      "ContentUniverses": [
+       "drtv",
+       "ultra",
+       "ramasjang"
+      ],
+      "ContextualTitleExtraDetails": "14. NOV. 2026 | 3M",
+      "DisplayCategory": "Krea",
+      "ExtraDetails": "14. NOV. 2026 | 3M",
+      "IsGeoRestricted": false,
+      "OwnedCategory": "Krea,DR Ramasjang",
+      "PageTitle": "Dansemix: Sæson 1 – Motor Mille og Børnebanden",
+      "PlayButtonExtraDetails": "S1:E81 Motor Mille og Børnebanden",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PrimaryContentUniverse": "Ramasjang",
+      "ProductionCountry": "DANMARK",
+      "RatingSegment": "Ramasjang",
+      "ShortVideoUrl": "https://drod24c.akamaized.net/all/clear/none/42/6af39353c4eec40001e9bb42/6af393526baf9b000136269a/stream_fmp4/master_manifest.m3u8",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "TargetAudience": "All"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [
+      "dr ramasjang",
+      "krea"
+     ],
+     "keywords": [
+      "agetargetgroup_6-8 år",
+      "controlled_fællesdans",
+      "culturalorigin_dansk",
+      "editorialptaxsub_fakta",
+      "editorialptaxtop_børn",
+      "format_serie",
+      "mood_legende",
+      "recommendationgenre_livsstil og krea",
+      "theme_dans",
+      "thesaurus_dans"
+     ]
+    },
+    {
+     "id": "7e3657ab-bb50-4de2-8d8f-607a12fd6e05",
+     "type": "episode",
+     "subtype": "",
+     "title": "Techfix: Bygger det sejeste sandslot!",
+     "contextualTitle": "Bygger det sejeste sandslot!",
+     "shortDescription": "Kan Lasse bygge sit bedste og sejeste sandslot nogensinde? Først må han undersøge, hvordan kæmpestore sandslotte bliver til, og finde ud af, hvilket sand der er bedst at bygge med. Udløber: 29. aug. 2028",
+     "tagline": "Byg med Lasse",
+     "classification": {
+      "code": "DR-Ramasjang",
+      "name": "Ramasjang"
+     },
+     "path": "/episode/techfix_-bygger-det-sejeste-sandslot_616730",
+     "watchPath": "/se/techfix_-bygger-det-sejeste-sandslot_616730",
+     "scopes": [
+      "7e3657ab-bb50-4de2-8d8f-607a12fd6e05"
+     ],
+     "releaseYear": 2026,
+     "episodeNumber": 29,
+     "episodeName": "Techfix: Bygger det sejeste sandslot!",
+     "seasonId": "3ce1d6b7-1463-4394-8e11-da479a3886dc",
+     "genres": [
+      "ukendt"
+     ],
+     "sports": [],
+     "duration": 571,
+     "customId": "urn:dr:ocs:tv:content:playable:00952646050",
+     "round": "",
+     "offers": [
+      {
+       "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+       "name": "Free Offer",
+       "price": 0,
+       "availability": "Available",
+       "ownership": "Free",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      },
+      {
+       "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+       "name": "Coming Soon Offer",
+       "price": 0,
+       "availability": "ComingSoon",
+       "ownership": "None",
+       "deliveryType": "StreamOrDownload",
+       "resolution": "Unknown"
+      }
+     ],
+     "images": {
+      "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6424WR7C8CFD7ZFP91PGTRJ%27&entityId=%277e3657ab-bb50-4de2-8d8f-607a12fd6e05%27&entityType=%27Item%27&Width=720&Height=1080",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6424WSSMVPVJSX7YDJ7Z5B1%27&entityId=%277e3657ab-bb50-4de2-8d8f-607a12fd6e05%27&entityType=%27Item%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6424WSSMVPVJSX7YDJ7Z5B1%27&entityId=%277e3657ab-bb50-4de2-8d8f-607a12fd6e05%27&entityType=%27Item%27&Width=1920&Height=1080"
+     },
+     "themes": [],
+     "customFields": {
+      "AccessServicesOffered": "StandardVideo",
+      "AvailableFrom": "2026-08-29T04:00:00.0000000+00:00",
+      "BrandingChannelDisplayName": "DR Ramasjang",
+      "BrandingChannelShort": "TVR",
+      "Checksum": "4402314002d79030853c6e10d72ff8f440083a510b95a9d0543771a51adee6b1",
+      "ClassificationRating": "MRAM-ALL",
+      "ContentUniverses": [
+       "drtv",
+       "ultra",
+       "ramasjang"
+      ],
+      "ContextualTitleExtraDetails": "29. AUG. 2026 | 10M",
+      "DisplayCategory": "Krea",
+      "ExtraDetails": "29. AUG. 2026 | 10M",
+      "IsGeoRestricted": false,
+      "OwnedCategory": "Krea,DR Ramasjang",
+      "PageTitle": "Techfix: Sæson 1 – Bygger det sejeste sandslot!",
+      "PlayButtonExtraDetails": "S1:E29 Bygger det sejeste sandslot!",
+      "PresentationTypeCode": "CurrentAffairs",
+      "PrimaryContentUniverse": "Ramasjang",
+      "ProductionCountry": "DANMARK",
+      "RatingSegment": "Ramasjang",
+      "ShortVideoUrl": "https://drod22p.akamaized.net/all/clear/none/22/6a8e06cb44f4971780f58c22/6a8e06cbae6a8a2fdc16e76d/stream_fmp4/master_manifest.m3u8",
+      "SubtitleLanguagesOffered": "DanishLanguageSubtitles",
+      "TargetAudience": "All"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [
+      "dr ramasjang",
+      "krea"
+     ],
+     "keywords": [
+      "agetargetgroup_6-8 år",
+      "agetargetgroup_9-11 år",
+      "charactertype_voksne som hovedpersoner",
+      "controlled_sandslotte",
+      "culturalorigin_dansk",
+      "editorialptaxsub_fakta",
+      "editorialptaxtop_børn",
+      "format_serie",
+      "recommendationgenre_dokumentar",
+      "theme_mekanik og teknik",
+      "thesaurus_jordarter",
+      "thesaurus_skulpturkunst"
+     ]
+    }
+   ],
+   "listMeta": {
+    "isProfileList": false
+   },
+   "images": {
+    "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KMA28CQYGMXBJ3ETQ2ZEV7EV%27&entityId=%2752fa6f07-31a5-8749-a3d5-5f214b12c0ac%27&entityType=%27ItemList%27&Width=1920&Height=1080",
+    "custom": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KQEPVTDH135TYBVVMN4S3DKY%27&entityId=%2752fa6f07-31a5-8749-a3d5-5f214b12c0ac%27&entityType=%27ItemList%27&Width=1600&Height=1600"
+   },
+   "paging": {
+    "page": 1,
+    "size": 50,
+    "total": 1
+   },
+   "customFields": {
+    "PathIdSegment": "ramasjang_-skab-med-ramasjang_369441"
+   },
+   "themes": [
+    {
+     "colors": [
+      {
+       "name": "Primary",
+       "value": "#1affff"
+      }
+     ],
+     "type": "Background"
+    },
+    {
+     "colors": [
+      {
+       "name": "Custom1",
+       "value": "#000000"
+      }
+     ],
+     "type": "Custom"
+    }
+   ]
+  },
+  "themes": [],
+  "id": "f3dff0cb-f3be-8ea0-ba93-da9138ecbd1c",
+  "title": "Skab med Ramasjang",
+  "path": "/liste/skab-med-ramasjang-xrdke",
+  "template": "List Detail",
+  "key": "List",
+  "isStatic": false,
+  "isSystemPage": true
+ }
+}

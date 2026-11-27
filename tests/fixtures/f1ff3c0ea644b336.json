@@ -1,0 +1,214 @@
+{
+ "status": 200,
+ "json": {
+  "id": "e5c8c21a-7d28-81c0-854e-d864491a4e08",
+  "title": "Årtier",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/artier-xr8fr",
+  "itemTypes": [
+   "link"
+  ],
+  "size": 6,
+  "items": [
+   {
+    "id": "3500beef-08f5-4cb3-8c80-c719716e166c",
+    "type": "link",
+    "subtype": "",
+    "name": "Gensyn Kategori | 1950'erne",
+    "title": "1950'erne",
+    "shortDescription": "",
+    "tagline": "",
+    "path": "/gensyn/1950erne",
+    "scopes": [
+     "3500beef-08f5-4cb3-8c80-c719716e166c"
+    ],
+    "badgeBackground": "",
+    "badgeForeground": "",
+    "genres": [],
+    "sports": [],
+    "offers": [],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FJF8ZJ40E628R5Y58FK2%27&entityId=%273500beef-08f5-4cb3-8c80-c719716e166c%27&entityType=%27link%27&Width=1024&Height=1024",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FMKQCC8V7BGXDZKZPWF7%27&entityId=%273500beef-08f5-4cb3-8c80-c719716e166c%27&entityType=%27link%27&Width=1920&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FPJN2NBQQG7XWYRVQ16M%27&entityId=%273500beef-08f5-4cb3-8c80-c719716e166c%27&entityType=%27link%27&Width=1024&Height=576"
+    },
+    "themes": [],
+    "customFields": {
+     "PathIdSegment": "gensyn-aarstal-_-1950erne_436042"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [],
+    "keywords": []
+   },
+   {
+    "id": "56f12666-7919-410d-8984-48a9345ae546",
+    "type": "link",
+    "subtype": "",
+    "name": "Gensyn Kategori | 1960'erne",
+    "title": "1960'erne",
+    "shortDescription": "",
+    "tagline": "",
+    "path": "/gensyn/1960erne",
+    "scopes": [
+     "56f12666-7919-410d-8984-48a9345ae546"
+    ],
+    "badgeBackground": "",
+    "badgeForeground": "",
+    "genres": [],
+    "sports": [],
+    "offers": [],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FJT8XM4D5T5JVFHTKJ31%27&entityId=%2756f12666-7919-410d-8984-48a9345ae546%27&entityType=%27link%27&Width=1024&Height=1024",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FMPRXKGYEEM03DXAHBEQ%27&entityId=%2756f12666-7919-410d-8984-48a9345ae546%27&entityType=%27link%27&Width=1920&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FPYRQ6457P7XFV574YH2%27&entityId=%2756f12666-7919-410d-8984-48a9345ae546%27&entityType=%27link%27&Width=1024&Height=576"
+    },
+    "themes": [],
+    "customFields": {
+     "PathIdSegment": "-gensyn-aarstal-_-1960erne_436041"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [],
+    "keywords": []
+   },
+   {
+    "id": "100430c2-fafd-4e02-99e0-b0b0f24586f1",
+    "type": "link",
+    "subtype": "",
+    "name": "Gensyn Kategori | 1970'erne",
+    "title": "1970'erne",
+    "shortDescription": "",
+    "tagline": "",
+    "path": "/gensyn/1970erne",
+    "scopes": [
+     "100430c2-fafd-4e02-99e0-b0b0f24586f1"
+    ],
+    "badgeBackground": "",
+    "badgeForeground": "",
+    "genres": [],
+    "sports": [],
+    "offers": [],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FH9Y0B1J7BKPAGEBRXB3%27&entityId=%27100430c2-fafd-4e02-99e0-b0b0f24586f1%27&entityType=%27link%27&Width=1024&Height=1024",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FMDRT97436QW6CFQ65EQ%27&entityId=%27100430c2-fafd-4e02-99e0-b0b0f24586f1%27&entityType=%27link%27&Width=1920&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FPJK7ZBSP20ZG0BH7BA3%27&entityId=%27100430c2-fafd-4e02-99e0-b0b0f24586f1%27&entityType=%27link%27&Width=1024&Height=576"
+    },
+    "themes": [],
+    "customFields": {
+     "PathIdSegment": "gensyn-aarstal-_-1970erne_436040"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [],
+    "keywords": []
+   },
+   {
+    "id": "1d6870c2-5638-4c6c-a66a-7d6847d6380d",
+    "type": "link",
+    "subtype": "",
+    "name": "Gensyn Kategori | 1980'erne",
+    "title": "1980'erne",
+    "shortDescription": "",
+    "tagline": "",
+    "path": "/gensyn/1980erne",
+    "scopes": [
+     "1d6870c2-5638-4c6c-a66a-7d6847d6380d"
+    ],
+    "badgeBackground": "",
+    "badgeForeground": "",
+    "genres": [],
+    "sports": [],
+    "offers": [],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FJF7S535HYCCGRTSPT90%27&entityId=%271d6870c2-5638-4c6c-a66a-7d6847d6380d%27&entityType=%27link%27&Width=1024&Height=1024",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FMAFS2TY19X9ZB9F8T41%27&entityId=%271d6870c2-5638-4c6c-a66a-7d6847d6380d%27&entityType=%27link%27&Width=1920&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FP5NM634NSV0CX7B275Z%27&entityId=%271d6870c2-5638-4c6c-a66a-7d6847d6380d%27&entityType=%27link%27&Width=1024&Height=576"
+    },
+    "themes": [],
+    "customFields": {
+     "PathIdSegment": "-gensyn-aarstal-_-1980erne_436039"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [],
+    "keywords": []
+   },
+   {
+    "id": "c7771891-ca15-425c-8bf4-7e99743e02d3",
+    "type": "link",
+    "subtype": "",
+    "name": "Gensyn Kategori | 1990'erne",
+    "title": "1990'erne",
+    "shortDescription": "",
+    "tagline": "",
+    "path": "/gensyn/1990erne",
+    "scopes": [
+     "c7771891-ca15-425c-8bf4-7e99743e02d3"
+    ],
+    "badgeBackground": "",
+    "badgeForeground": "",
+    "genres": [],
+    "sports": [],
+    "offers": [],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FJJ0BMM5W7APY91ZJ46X%27&entityId=%27c7771891-ca15-425c-8bf4-7e99743e02d3%27&entityType=%27link%27&Width=1024&Height=1024",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FMVXWPNMKKQ0Z21HEQX3%27&entityId=%27c7771891-ca15-425c-8bf4-7e99743e02d3%27&entityType=%27link%27&Width=1920&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FPP9FM4EC0GPQ9GF6SB4%27&entityId=%27c7771891-ca15-425c-8bf4-7e99743e02d3%27&entityType=%27link%27&Width=1024&Height=576"
+    },
+    "themes": [],
+    "customFields": {
+     "PathIdSegment": "gensyn-aarstal-_-1990erne_436038"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [],
+    "keywords": []
+   },
+   {
+    "id": "ee264f0f-0860-4b83-94bd-42abbe81b587",
+    "type": "link",
+    "subtype": "",
+    "name": "Gensyn Kategori | 2000'erne",
+    "title": "2000'erne",
+    "shortDescription": "",
+    "tagline": "",
+    "path": "/gensyn/2000erne",
+    "scopes": [
+     "ee264f0f-0860-4b83-94bd-42abbe81b587"
+    ],
+    "badgeBackground": "",
+    "badgeForeground": "",
+    "genres": [],
+    "sports": [],
+    "offers": [],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FJP08VCZPGMT2NWYGY56%27&entityId=%27ee264f0f-0860-4b83-94bd-42abbe81b587%27&entityType=%27link%27&Width=1024&Height=1024",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FND0GW4255WBTXT5D4EY%27&entityId=%27ee264f0f-0860-4b83-94bd-42abbe81b587%27&entityType=%27link%27&Width=1920&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FRT1YH8T2ZZ1WY7QRMVF%27&entityId=%27ee264f0f-0860-4b83-94bd-42abbe81b587%27&entityType=%27link%27&Width=1024&Height=576"
+    },
+    "themes": [],
+    "customFields": {
+     "PathIdSegment": "-gensyn-aarstal-_-2000erne_436797"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [],
+    "keywords": []
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 1
+  },
+  "customFields": {
+   "PathIdSegment": "gensyn-aartier-_-forside_436043"
+  }
+ }
+}

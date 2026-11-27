@@ -1,0 +1,1940 @@
+{
+ "status": 200,
+ "json": {
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "entries": [
+   {
+    "id": "3a79d427-f5b9-4172-92cd-f0cda8311f6b",
+    "type": "ItemDetailEntry",
+    "title": "",
+    "template": "DH1",
+    "customFields": {}
+   },
+   {
+    "id": "0b5c40ad-b48e-47da-a0c2-f0ef88fa600c",
+    "type": "ItemDetailEntry",
+    "title": "Episoder",
+    "template": "D1",
+    "customFields": {
+     "episodeDescription": true,
+     "seasonDescription": false,
+     "seasonOrder": "descending"
+    }
+   },
+   {
+    "id": "f341825b-ba07-42c9-8250-74042e3d0517",
+    "type": "ItemDetailEntry",
+    "title": "Næste episode",
+    "template": "DRD11",
+    "customFields": {}
+   },
+   {
+    "id": "4c86b49f-f4ef-4332-9cd7-d967f8052cda",
+    "type": "ItemDetailEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "drtv-idp-flow-1",
+     "sas_siteId": 1,
+     "sas_pageName": "moEngage",
+     "sas_formatId": 1,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "491ffe7c-49c6-4504-809e-1fea5b7e6ed2",
+    "type": "ItemDetailEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1256265",
+     "sas_formatId": 77527,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "ba11398e-eb44-487b-9127-99190a38e5b4",
+    "type": "ItemDetailEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "drtv-idp-flow-2",
+     "sas_siteId": 1,
+     "sas_pageName": "moEngage",
+     "sas_formatId": 1,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "b129cc5f-1fff-4339-8d1c-4f2c0313de45",
+    "type": "ItemDetailEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1256265",
+     "sas_formatId": 92608,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "35704a95-9c75-4a94-8721-80aa4883b82f",
+    "type": "ItemDetailEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1256265",
+     "sas_formatId": 94297,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "81e58fa5-ae53-4dc1-8797-10970d9f57c1",
+    "type": "ItemDetailEntry",
+    "title": "Yderligere information",
+    "template": "D10",
+    "customFields": {}
+   }
+  ],
+  "customFields": {},
+  "item": {
+   "advisoryText": "",
+   "copyright": "",
+   "distributor": "",
+   "description": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+   "customMetadata": [],
+   "genrePaths": [
+    "/tv/genres/ukendt"
+   ],
+   "credits": [],
+   "episodes": {
+    "id": "0c376158-638d-4d87-a36d-08c4de73368b-episodes",
+    "path": "",
+    "size": 13,
+    "items": [
+     {
+      "id": "7d720275-c0a2-450a-9f2d-6f2f65577762",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Kloen",
+      "contextualTitle": "19. Kloen",
+      "shortDescription": "Udløber: 27. nov. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-kloen_634000",
+      "watchPath": "/se/bluey_-kloen_634000",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "7d720275-c0a2-450a-9f2d-6f2f65577762"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 19,
+      "episodeName": "Bluey: Kloen",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005000",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6MDJ5MH1H52N8NQ195NTNJQ%27&entityId=%277d720275-c0a2-450a-9f2d-6f2f65577762%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6MDJ5MH9QCB4VAWR2R4NQA1%27&entityId=%277d720275-c0a2-450a-9f2d-6f2f65577762%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6MDJ5MH9QCB4VAWR2R4NQA1%27&entityId=%277d720275-c0a2-450a-9f2d-6f2f65577762%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-01-22T06:17:43.4000000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "375d1401365143f971b6bec74b97e8ad482b7147de9009d8e3c655986b04382e",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "22. JAN. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 19 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Kloen",
+       "PlayButtonExtraDetails": "S1:E19 Kloen",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "6846039c-f0a4-43df-981a-71d17f16268d",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Marked",
+      "contextualTitle": "20. Marked",
+      "shortDescription": "Udløber: 28. nov. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-marked_634291",
+      "watchPath": "/se/bluey_-marked_634291",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "6846039c-f0a4-43df-981a-71d17f16268d"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 20,
+      "episodeName": "Bluey: Marked",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 414,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005010",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6PZQA2G01NZBB7K16099MQ0%27&entityId=%276846039c-f0a4-43df-981a-71d17f16268d%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6PZQA2E7WF3YDRDKVT30J8K%27&entityId=%276846039c-f0a4-43df-981a-71d17f16268d%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6PZQA2E7WF3YDRDKVT30J8K%27&entityId=%276846039c-f0a4-43df-981a-71d17f16268d%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-01-23T06:21:47.1600000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "85c07da2abedd6b284d7b5375423140b918887f693803fa301acccf221c4e8d2",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "23. JAN. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 20 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Marked",
+       "PlayButtonExtraDetails": "S1:E20 Marked",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "6399c522-faba-4b1a-bb08-f5f8c9fc056d",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: De blå bjerge",
+      "contextualTitle": "21. De blå bjerge",
+      "shortDescription": "Udløber: 29. nov. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-de-blaa-bjerge_634472",
+      "watchPath": "/se/bluey_-de-blaa-bjerge_634472",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "6399c522-faba-4b1a-bb08-f5f8c9fc056d"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 21,
+      "episodeName": "Bluey: De blå bjerge",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005020",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6SJ5WVG2T057WDS9S66E54K%27&entityId=%276399c522-faba-4b1a-bb08-f5f8c9fc056d%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6SJ5WVGM38E0BQW13SMWFT7%27&entityId=%276399c522-faba-4b1a-bb08-f5f8c9fc056d%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6SJ5WVGM38E0BQW13SMWFT7%27&entityId=%276399c522-faba-4b1a-bb08-f5f8c9fc056d%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-01-24T06:21:16.0800000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "de6fad15047e75f2cbe055538c95cbbd8a03f3d361371a58410367c2b897de9f",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "24. JAN. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 21 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – De blå bjerge",
+       "PlayButtonExtraDetails": "S1:E21 De blå bjerge",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "073b7940-f6b2-4da0-a0fb-30c7170a3276",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Poolen",
+      "contextualTitle": "22. Poolen",
+      "shortDescription": "Udløber: 30. nov. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-poolen_634640",
+      "watchPath": "/se/bluey_-poolen_634640",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "073b7940-f6b2-4da0-a0fb-30c7170a3276"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 22,
+      "episodeName": "Bluey: Poolen",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005030",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6W4NS9PWRMGP9ASPCV30NHK%27&entityId=%27073b7940-f6b2-4da0-a0fb-30c7170a3276%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6W4NS9PNJYSKBD6G40PR1QJ%27&entityId=%27073b7940-f6b2-4da0-a0fb-30c7170a3276%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6W4NS9PNJYSKBD6G40PR1QJ%27&entityId=%27073b7940-f6b2-4da0-a0fb-30c7170a3276%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-01-25T06:19:12.2400000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "4f376e542e22e6a964a0c3fc5b8f39adeddaec25300b068af7b69fd001e896f8",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "25. JAN. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 22 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Poolen",
+       "PlayButtonExtraDetails": "S1:E22 Poolen",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "73782167-6c25-420f-9f56-f92db85149b6",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Butik",
+      "contextualTitle": "23. Butik",
+      "shortDescription": "Udløber: 1. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-butik_634795",
+      "watchPath": "/se/bluey_-butik_634795",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "73782167-6c25-420f-9f56-f92db85149b6"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 23,
+      "episodeName": "Bluey: Butik",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005040",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6YQ85FEW49D0GTBPHSTBCHD%27&entityId=%2773782167-6c25-420f-9f56-f92db85149b6%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6YQ85FEKCMAK9JYCSY86GHP%27&entityId=%2773782167-6c25-420f-9f56-f92db85149b6%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6YQ85FEKCMAK9JYCSY86GHP%27&entityId=%2773782167-6c25-420f-9f56-f92db85149b6%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-01-26T06:17:59.9200000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "4a2312edec5603178174a447dfeb4d8931bb8260f6ecf2335824a4a7978c653e",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "26. JAN. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 23 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Butik",
+       "PlayButtonExtraDetails": "S1:E23 Butik",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "b30be7c2-73a1-49e6-880b-fec6df3f7ce9",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Trækvogn",
+      "contextualTitle": "24. Trækvogn",
+      "shortDescription": "Udløber: 2. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-traekvogn_635051",
+      "watchPath": "/se/bluey_-traekvogn_635051",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "b30be7c2-73a1-49e6-880b-fec6df3f7ce9"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 24,
+      "episodeName": "Bluey: Trækvogn",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005050",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M719M0WQYVW3FRDEP8XYJEAC%27&entityId=%27b30be7c2-73a1-49e6-880b-fec6df3f7ce9%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M719M0WQQ45X40SE0VG1SD43%27&entityId=%27b30be7c2-73a1-49e6-880b-fec6df3f7ce9%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M719M0WQQ45X40SE0VG1SD43%27&entityId=%27b30be7c2-73a1-49e6-880b-fec6df3f7ce9%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-01-27T06:18:30.4800000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "ff9ca9bf01478ef5901b699a491b68248f995324d5e3dc0f4ee1fe72ff2681a7",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "27. JAN. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 24 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Trækvogn",
+       "PlayButtonExtraDetails": "S1:E24 Trækvogn",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "21444a66-8b45-4f14-a7c0-766223b16e24",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Taxa",
+      "contextualTitle": "25. Taxa",
+      "shortDescription": "Udløber: 3. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-taxa_635216",
+      "watchPath": "/se/bluey_-taxa_635216",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "21444a66-8b45-4f14-a7c0-766223b16e24"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 25,
+      "episodeName": "Bluey: Taxa",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005060",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M73VJTWYHKA4APH64B5AY214%27&entityId=%2721444a66-8b45-4f14-a7c0-766223b16e24%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M73VJTX084YRZR74B87MNVZD%27&entityId=%2721444a66-8b45-4f14-a7c0-766223b16e24%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M73VJTX084YRZR74B87MNVZD%27&entityId=%2721444a66-8b45-4f14-a7c0-766223b16e24%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-01-28T06:17:33.2800000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "abeaea89563c78df473d96a61498b1164408908e471b966981181d51c74edc89",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "28. JAN. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 25 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Taxa",
+       "PlayButtonExtraDetails": "S1:E25 Taxa",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "16543ed5-0e03-40e3-9f9a-91b9e5bdae9a",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Stranden",
+      "contextualTitle": "26. Stranden",
+      "shortDescription": "Udløber: 4. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-stranden_635420",
+      "watchPath": "/se/bluey_-stranden_635420",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "16543ed5-0e03-40e3-9f9a-91b9e5bdae9a"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 26,
+      "episodeName": "Bluey: Stranden",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005070",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M76E9BEPP8G8WD1F87P8N1ZX%27&entityId=%2716543ed5-0e03-40e3-9f9a-91b9e5bdae9a%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M76E9BEN7KJ43RVTCJP7K9CB%27&entityId=%2716543ed5-0e03-40e3-9f9a-91b9e5bdae9a%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M76E9BEN7KJ43RVTCJP7K9CB%27&entityId=%2716543ed5-0e03-40e3-9f9a-91b9e5bdae9a%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-01-29T06:16:26.4800000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "d00883f7d213820544bc150f26a627f1db14f5c0333412cb10ef5852fbc061e2",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "29. JAN. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 26 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Stranden",
+       "PlayButtonExtraDetails": "S1:E26 Stranden",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "db3dd00b-c48d-4c97-a63e-721ad54282a0",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Pirater",
+      "contextualTitle": "27. Pirater",
+      "shortDescription": "Udløber: 5. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-pirater_635697",
+      "watchPath": "/se/bluey_-pirater_635697",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "db3dd00b-c48d-4c97-a63e-721ad54282a0"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 27,
+      "episodeName": "Bluey: Pirater",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005080",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M790QEJWQHT2KSPFE3H1YTVF%27&entityId=%27db3dd00b-c48d-4c97-a63e-721ad54282a0%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M790QEJTTG7TCK8PXC3Z5N1T%27&entityId=%27db3dd00b-c48d-4c97-a63e-721ad54282a0%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M790QEJTTG7TCK8PXC3Z5N1T%27&entityId=%27db3dd00b-c48d-4c97-a63e-721ad54282a0%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-08-09T05:17:25.0800000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "73036f7e6e2b8e5d861027d36267284cd57b530ffb4efdb9ac8446957e3c1097",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "9. AUG. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 27 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Pirater",
+       "PlayButtonExtraDetails": "S1:E27 Pirater",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "bfd2b101-fe63-4df1-b349-9e70230afff3",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Gamle damer",
+      "contextualTitle": "28. Gamle damer",
+      "shortDescription": "Udløber: 6. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-gamle-damer_635876",
+      "watchPath": "/se/bluey_-gamle-damer_635876",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "bfd2b101-fe63-4df1-b349-9e70230afff3"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 28,
+      "episodeName": "Bluey: Gamle damer",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005090",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7BJWM13MJXH0ZQGB9CR8PS1%27&entityId=%27bfd2b101-fe63-4df1-b349-9e70230afff3%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7BJWM134QPSN1SR968GFDBJ%27&entityId=%27bfd2b101-fe63-4df1-b349-9e70230afff3%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7BJWM134QPSN1SR968GFDBJ%27&entityId=%27bfd2b101-fe63-4df1-b349-9e70230afff3%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-08-10T05:17:00.1200000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "ba5760163a6e9678e6ccce65ef84d621c0e4bcf9049caf0fc8dc8f8149d46364",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "10. AUG. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 28 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Gamle damer",
+       "PlayButtonExtraDetails": "S1:E28 Gamle damer",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "fba9a1f7-0a61-4af0-a4c3-aaafa7342137",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Floden",
+      "contextualTitle": "29. Floden",
+      "shortDescription": "Udløber: 7. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-floden_636035",
+      "watchPath": "/se/bluey_-floden_636035",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "fba9a1f7-0a61-4af0-a4c3-aaafa7342137"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 29,
+      "episodeName": "Bluey: Floden",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005100",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7E5JC21GH90RW2EP4DEF250%27&entityId=%27fba9a1f7-0a61-4af0-a4c3-aaafa7342137%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7E5JC21MW88DJ74CXKP00DQ%27&entityId=%27fba9a1f7-0a61-4af0-a4c3-aaafa7342137%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7E5JC21MW88DJ74CXKP00DQ%27&entityId=%27fba9a1f7-0a61-4af0-a4c3-aaafa7342137%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-08-11T05:16:49.2800000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "65e18ca22ec2d45a9b3c48e855c0c5226d7cccb82c652733750a113dfd0643d6",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "11. AUG. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 29 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Floden",
+       "PlayButtonExtraDetails": "S1:E29 Floden",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "efbfe00c-0620-4570-a531-751424be80e2",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Alfer",
+      "contextualTitle": "30. Alfer",
+      "shortDescription": "Udløber: 8. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-alfer_636196",
+      "watchPath": "/se/bluey_-alfer_636196",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "efbfe00c-0620-4570-a531-751424be80e2"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 30,
+      "episodeName": "Bluey: Alfer",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005110",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7GQTDGRPKWJBB94PRWFY3VN%27&entityId=%27efbfe00c-0620-4570-a531-751424be80e2%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7GQTDGRB1KFV6HA17YHE7K3%27&entityId=%27efbfe00c-0620-4570-a531-751424be80e2%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7GQTDGRB1KFV6HA17YHE7K3%27&entityId=%27efbfe00c-0620-4570-a531-751424be80e2%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-08-12T05:17:56.7600000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "22b5f85a1861af059f4679cba5b649bc21631efbe822568af70e239beea50b3b",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "12. AUG. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 30 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Alfer",
+       "PlayButtonExtraDetails": "S1:E30 Alfer",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     },
+     {
+      "id": "ebffde91-3d93-43e6-84af-21247b1704a5",
+      "type": "episode",
+      "subtype": "",
+      "title": "Bluey: Arbejde",
+      "contextualTitle": "31. Arbejde",
+      "shortDescription": "Udløber: 9. dec. 2026",
+      "tagline": "",
+      "classification": {
+       "code": "DR-Ramasjang",
+       "name": "Ramasjang"
+      },
+      "path": "/episode/bluey_-arbejde_636407",
+      "watchPath": "/se/bluey_-arbejde_636407",
+      "scopes": [
+       "0c376158-638d-4d87-a36d-08c4de73368b",
+       "ebffde91-3d93-43e6-84af-21247b1704a5"
+      ],
+      "releaseYear": 2018,
+      "episodeNumber": 31,
+      "episodeName": "Bluey: Arbejde",
+      "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+      "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+      "genres": [
+       "ukendt"
+      ],
+      "sports": [],
+      "duration": 425,
+      "customId": "urn:dr:ocs:tv:content:playable:00852005120",
+      "round": "",
+      "offers": [
+       {
+        "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+        "name": "Free Offer",
+        "price": 0,
+        "availability": "Available",
+        "ownership": "Free",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       },
+       {
+        "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+        "name": "Coming Soon Offer",
+        "price": 0,
+        "availability": "ComingSoon",
+        "ownership": "None",
+        "deliveryType": "StreamOrDownload",
+        "resolution": "Unknown"
+       }
+      ],
+      "images": {
+       "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JKXXKWYHDJ8YCGCGA3R4G5%27&entityId=%27ebffde91-3d93-43e6-84af-21247b1704a5%27&entityType=%27Item%27&Width=720&Height=1080",
+       "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JKXXKW04E8Y88DGA29A44M%27&entityId=%27ebffde91-3d93-43e6-84af-21247b1704a5%27&entityType=%27Item%27&Width=1024&Height=576",
+       "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JKXXKW04E8Y88DGA29A44M%27&entityId=%27ebffde91-3d93-43e6-84af-21247b1704a5%27&entityType=%27Item%27&Width=1920&Height=1080"
+      },
+      "themes": [],
+      "customFields": {
+       "AccessServicesOffered": "StandardVideo",
+       "AvailableFrom": "2021-08-13T05:20:50.0400000+00:00",
+       "BrandingChannelDisplayName": "DR Ramasjang",
+       "BrandingChannelShort": "TVR",
+       "Checksum": "5ebb12a9b0a73b5c7619011937eefbff4cb99dc72f26fbfe65467d8697190ad6",
+       "ClassificationRating": "MRAM-ALL",
+       "ContentUniverses": [
+        "drtv",
+        "ultra",
+        "ramasjang"
+       ],
+       "ContextualTitleExtraDetails": "13. AUG. 2021 | 7M",
+       "DisplayCategory": "Tegnefilm",
+       "ExtraDetails": "SÆSON 1 EPISODE 31 | 7M",
+       "IsGeoRestricted": true,
+       "OwnedCategory": "Tegnefilm,DR Ramasjang",
+       "PageTitle": "Bluey: Sæson 1 – Arbejde",
+       "PlayButtonExtraDetails": "S1:E31 Arbejde",
+       "PresentationTypeCode": "Ongoing",
+       "PrimaryContentUniverse": "Ramasjang",
+       "ProductionCountry": "AUSTRALIEN",
+       "RatingSegment": "Ramasjang",
+       "TargetAudience": "All"
+      },
+      "trailerWatchPaths": [],
+      "buttonLabel": "",
+      "categories": [
+       "dr ramasjang",
+       "tegnefilm"
+      ],
+      "keywords": [
+       "agetargetgroup_2-3 år",
+       "agetargetgroup_4-5 år",
+       "agetargetgroup_6-8 år",
+       "charactertype_dyr",
+       "editorialptaxsub_fiktion",
+       "editorialptaxtop_børn",
+       "format_serie",
+       "mood_genkendelig",
+       "recommendationgenre_animation"
+      ]
+     }
+    ],
+    "listMeta": {
+     "isProfileList": false
+    },
+    "paging": {
+     "page": 1,
+     "size": 200,
+     "total": 1,
+     "options": {
+      "pageSize": 200,
+      "completed": false
+     }
+    }
+   },
+   "show": {
+    "advisoryText": "",
+    "copyright": "",
+    "distributor": "",
+    "description": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+    "customMetadata": [],
+    "genrePaths": [
+     "/tv/genres/ukendt"
+    ],
+    "credits": [],
+    "seasons": {
+     "id": "e37668b4-e98b-4159-91a1-6e58024c975f-seasons",
+     "path": "",
+     "size": 1,
+     "items": [
+      {
+       "id": "0c376158-638d-4d87-a36d-08c4de73368b",
+       "type": "season",
+       "subtype": "",
+       "title": "Bluey",
+       "contextualTitle": "",
+       "shortDescription": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+       "tagline": "",
+       "classification": {
+        "code": "DR-Ramasjang",
+        "name": "Ramasjang"
+       },
+       "path": "/saeson/bluey_630214",
+       "scopes": [
+        "0c376158-638d-4d87-a36d-08c4de73368b"
+       ],
+       "releaseYear": 2018,
+       "episodeCount": 34,
+       "availableEpisodeCount": 13,
+       "seasonNumber": 1,
+       "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+       "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "customId": "urn:dr:ocs:tv:content:season:2801708882000",
+       "round": "",
+       "offers": [
+        {
+         "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M55Z9A663GRM6KX8M7JZV5FN%27&entityId=%270c376158-638d-4d87-a36d-08c4de73368b%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M55Z9A691TM5K96HHCTXRKRZ%27&entityId=%270c376158-638d-4d87-a36d-08c4de73368b%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M55Z9A66G7BCN48YKNYZF8C3%27&entityId=%270c376158-638d-4d87-a36d-08c4de73368b%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "BrandingChannelDisplayName": "DR Ramasjang",
+        "BrandingChannelShort": "TVR",
+        "Checksum": "f9977d8e76ac833910c87ba2598effbebf7baef94c5fb009213f74dc425447cf",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv",
+         "ultra",
+         "ramasjang"
+        ],
+        "DisplayCategory": "Tegnefilm",
+        "ExtraDetails": "Tegnefilm | SÆSON 1",
+        "IsGeoRestricted": true,
+        "IsSeasonDRMPlayoutRequired": true,
+        "OwnedCategory": "Tegnefilm,DR Ramasjang",
+        "PageTitle": "Bluey: Sæson 1",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "Ramasjang",
+        "RatingSegment": "Ramasjang",
+        "TargetAudience": "All"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr ramasjang",
+        "tegnefilm"
+       ],
+       "keywords": [
+        "editorialptaxsub_familie",
+        "editorialptaxsub_hverdag",
+        "editorialptaxtop_børn/animation"
+       ]
+      }
+     ],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 200,
+      "total": 1,
+      "options": {
+       "pageSize": 200,
+       "completed": false
+      }
+     }
+    },
+    "totalUserRatings": 0,
+    "trailers": [],
+    "id": "e37668b4-e98b-4159-91a1-6e58024c975f",
+    "type": "show",
+    "subtype": "",
+    "title": "Bluey",
+    "contextualTitle": "",
+    "shortDescription": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+    "tagline": "",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/bluey_227278",
+    "scopes": [
+     "e37668b4-e98b-4159-91a1-6e58024c975f"
+    ],
+    "availableSeasonCount": 1,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2801700732000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "availability": "Available",
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3AJK1MZW245S5Y2TH596RC%27&entityId=%27e37668b4-e98b-4159-91a1-6e58024c975f%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDE0ET199Y3PNFQ33WASXE%27&entityId=%27e37668b4-e98b-4159-91a1-6e58024c975f%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDE0ESYZXBEVZESA5V62TM%27&entityId=%27e37668b4-e98b-4159-91a1-6e58024c975f%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDE0ESKBMRGMCAS7YVFSKA%27&entityId=%27e37668b4-e98b-4159-91a1-6e58024c975f%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "22baa554ede506d1d04b3581b6fdc621655265fdcfa84a2b9ecadf1a7c905b0a",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Tegnefilm",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": true,
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "PageTitle": "Bluey",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_2-3 år",
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_genkendelig",
+     "recommendationgenre_animation"
+    ]
+   },
+   "totalUserRatings": 0,
+   "trailers": [],
+   "id": "0c376158-638d-4d87-a36d-08c4de73368b",
+   "type": "season",
+   "subtype": "",
+   "title": "Bluey",
+   "contextualTitle": "",
+   "shortDescription": "Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie.",
+   "tagline": "",
+   "classification": {
+    "code": "DR-Ramasjang",
+    "name": "Ramasjang"
+   },
+   "path": "/saeson/bluey_630214",
+   "scopes": [
+    "0c376158-638d-4d87-a36d-08c4de73368b"
+   ],
+   "releaseYear": 2018,
+   "episodeCount": 34,
+   "availableEpisodeCount": 13,
+   "seasonNumber": 1,
+   "showId": "e37668b4-e98b-4159-91a1-6e58024c975f",
+   "seasonId": "0c376158-638d-4d87-a36d-08c4de73368b",
+   "genres": [
+    "ukendt"
+   ],
+   "sports": [],
+   "customId": "urn:dr:ocs:tv:content:season:2801708882000",
+   "round": "",
+   "offers": [
+    {
+     "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+     "name": "Free Offer",
+     "price": 0,
+     "availability": "Available",
+     "ownership": "Free",
+     "deliveryType": "StreamOrDownload",
+     "resolution": "Unknown"
+    }
+   ],
+   "images": {
+    "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M55Z9A663GRM6KX8M7JZV5FN%27&entityId=%270c376158-638d-4d87-a36d-08c4de73368b%27&entityType=%27Item%27&Width=720&Height=1080",
+    "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M55Z9A691TM5K96HHCTXRKRZ%27&entityId=%270c376158-638d-4d87-a36d-08c4de73368b%27&entityType=%27Item%27&Width=1024&Height=576",
+    "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M55Z9A66G7BCN48YKNYZF8C3%27&entityId=%270c376158-638d-4d87-a36d-08c4de73368b%27&entityType=%27Item%27&Width=1920&Height=1080"
+   },
+   "themes": [],
+   "customFields": {
+    "BrandingChannelDisplayName": "DR Ramasjang",
+    "BrandingChannelShort": "TVR",
+    "Checksum": "f9977d8e76ac833910c87ba2598effbebf7baef94c5fb009213f74dc425447cf",
+    "ClassificationRating": "MRAM-ALL",
+    "ContentUniverses": [
+     "drtv",
+     "ultra",
+     "ramasjang"
+    ],
+    "DisplayCategory": "Tegnefilm",
+    "ExtraDetails": "Tegnefilm | SÆSON 1",
+    "IsGeoRestricted": true,
+    "IsSeasonDRMPlayoutRequired": true,
+    "OwnedCategory": "Tegnefilm,DR Ramasjang",
+    "PageTitle": "Bluey: Sæson 1",
+    "PresentationTypeCode": "Ongoing",
+    "PrimaryContentUniverse": "Ramasjang",
+    "RatingSegment": "Ramasjang",
+    "TargetAudience": "All"
+   },
+   "trailerWatchPaths": [],
+   "buttonLabel": "",
+   "categories": [
+    "dr ramasjang",
+    "tegnefilm"
+   ],
+   "keywords": [
+    "editorialptaxsub_familie",
+    "editorialptaxsub_hverdag",
+    "editorialptaxtop_børn/animation"
+   ]
+  },
+  "themes": [],
+  "id": "d40271e6-60a0-8a9e-aa85-238462637bc9",
+  "title": "Bluey",
+  "path": "/serie/bluey_227278",
+  "template": "Show Detail",
+  "key": "ShowDetail",
+  "isStatic": false,
+  "isSystemPage": true
+ }
+}

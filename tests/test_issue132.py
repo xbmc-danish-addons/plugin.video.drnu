@@ -74,11 +74,6 @@ def test_oidc_token_error_is_never_empty(monkeypatch):
     assert drauth.oidc_token({})['error'] == 'Token request failed with HTTP 502'
 
 
-def test_anonymous_tokens_error_is_never_empty(monkeypatch):
-    monkeypatch.setattr(drauth, 'requests', FakeRequests([FakeResponse(status_code=429, text='')]))
-    assert drauth.anonymous_tokens()['error'] == 'Anonymous token request failed with HTTP 429'
-
-
 def test_exchange_token_error_is_never_empty(monkeypatch):
     monkeypatch.setattr(drauth, 'requests', FakeRequests([FakeResponse(status_code=500, text='')]))
     err = drauth.exchange_token({'access_token': 'a', 'id_token': 'i'})
@@ -118,16 +113,45 @@ def test_request_tokens_surfaces_the_endpoint_error(monkeypatch):
     """request_tokens passes the endpoint's error through; drauth guarantees it
     is never empty, and refresh_tokens refuses to treat a falsy one as success
     (covered below)."""
-    api = _token_api()
-    monkeypatch.setattr(tvapi, 'anonymous_tokens', lambda: {'status_code': 502, 'error': 'upstream down'})
+    api = _token_api(user='user')
+    monkeypatch.setattr(tvapi, 'full_login', lambda u, p, log=None: {'status_code': 502, 'error': 'upstream down'})
     assert api.request_tokens() == 'upstream down'
+
+
+def test_request_tokens_without_credentials_reports_the_missing_login():
+    """drtv-platform has no anonymous token route, so a build without
+    credentials must report that instead of calling the dead endpoint."""
+    api = _token_api()
+    assert api.request_tokens() == 'DR TV requires a login'
+
+
+def test_refresh_tokens_without_credentials_leaves_no_token_and_does_not_raise():
+    """Browsing the catalog needs no token, so an unconfigured addon must
+    still start; playback is what reports the missing login."""
+    api = _token_api()
+    _REAL_REFRESH_TOKENS(api)
+
+    assert api._profile_token is None
+
+
+def test_profile_token_without_credentials_raises_the_login_hint():
+    """Playback and the account lists call profile_token(); without a login it
+    must raise a readable ApiException, never return None for 'Bearer ' + None."""
+    api = _token_api()
+    api.tr = lambda string_id: f'tr({string_id})'
+
+    with pytest.raises(tvapi.ApiException, match=r'tr\(30909\)'):
+        api.profile_token()
+
+    with pytest.raises(tvapi.ApiException, match=r'tr\(30909\)'):
+        api.user_token()
 
 
 def test_refresh_tokens_raises_instead_of_leaving_profile_token_none(monkeypatch):
     """The issue-132 crash: a failed token request used to leave the profile
     token None, and the caller then did 'Bearer ' + None."""
-    api = _token_api()
-    monkeypatch.setattr(tvapi, 'anonymous_tokens', lambda: {'status_code': 502, 'error': ''})
+    api = _token_api(user='user')
+    monkeypatch.setattr(tvapi, 'full_login', lambda u, p, log=None: {'status_code': 502, 'error': ''})
 
     with pytest.raises(tvapi.ApiException, match='Login failed'):
         _REAL_REFRESH_TOKENS(api)
@@ -138,7 +162,7 @@ def test_refresh_tokens_raises_instead_of_leaving_profile_token_none(monkeypatch
 def test_refresh_tokens_raises_for_a_falsy_error_from_request_tokens(monkeypatch):
     """Defence in depth: even if request_tokens returns a falsy error, the
     caller must not treat it as success."""
-    api = _token_api()
+    api = _token_api(user='user')
     api.request_tokens = lambda: ''
     with pytest.raises(tvapi.ApiException, match='Login failed'):
         _REAL_REFRESH_TOKENS(api)
@@ -162,12 +186,12 @@ def test_refresh_tokens_raises_for_a_falsy_refresh_error(monkeypatch):
 def test_get_profile_no_longer_concatenates_none_after_a_failed_login(monkeypatch):
     """End-to-end for the reported traceback: gui.main_menu_items asks for
     api.user_name, which asks get_profile for the name."""
-    api = _token_api()
+    api = _token_api(user='user')
     api._request_get = lambda url, params=None, headers=None, use_cache=True: {'name': 'Hans'}
     # conftest patches Api.refresh_tokens class-wide to a no-op; this test needs
     # the real one, or profile_token() would silently return None
     monkeypatch.setattr(tvapi.Api, 'refresh_tokens', _REAL_REFRESH_TOKENS)
-    monkeypatch.setattr(tvapi, 'anonymous_tokens', lambda: {'status_code': 502, 'error': ''})
+    monkeypatch.setattr(tvapi, 'full_login', lambda u, p, log=None: {'status_code': 502, 'error': ''})
 
     with pytest.raises(tvapi.ApiException, match='Login failed'):
         api.user_name
@@ -181,7 +205,7 @@ def test_get_profile_still_works_with_a_valid_token(monkeypatch):
     seen = {}
 
     def fake_get(url, params=None, headers=None, use_cache=True):
-        seen['auth'] = headers['X-Authorization']
+        seen['auth'] = headers['Authorization']
         return {'name': 'Hans'}
 
     api._request_get = fake_get

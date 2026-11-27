@@ -1,0 +1,103 @@
+{
+ "status": 200,
+ "json": {
+  "id": "6cc20985-8926-46b1-8373-806ff62483e0",
+  "title": "Ramasjang | Ø",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-x3231",
+  "itemTypes": [
+   "show"
+  ],
+  "size": 1,
+  "items": [
+   {
+    "id": "957ff896-77b5-4f39-84b0-fe3abd238b56",
+    "type": "show",
+    "subtype": "",
+    "title": "Økuller",
+    "shortDescription": "Tag med på en helt særlig sommerkoloni på den svenske ø Snorkråkan. På hjemmesiden står der, at de voksne er vildmarks-eksperter og ansvarsfulde lejrledere, men børnene opdager hurtigt, at det ikke er helt sandt ...",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/oekuller_456800",
+    "scopes": [
+     "957ff896-77b5-4f39-84b0-fe3abd238b56"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5285372405000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6RYTHZPQ1AND1W74TZ14K%27&entityId=%27957ff896-77b5-4f39-84b0-fe3abd238b56%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6RYTHA13JFRQQMAQ4Z0Y3%27&entityId=%27957ff896-77b5-4f39-84b0-fe3abd238b56%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6RYTKAJ68E8FQBA7W5ZHJ%27&entityId=%27957ff896-77b5-4f39-84b0-fe3abd238b56%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "82eb9e9dbe2dafddb2e323eb071dc6f19ccf001c994abd0b1e5120c1e05f22ed",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Humor,Serie",
+     "ExtraDetails": "Humor | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Humor,Serie,DR Ramasjang",
+     "PageTitle": "Økuller",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "humor",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_sjov",
+     "recommendationgenre_drama"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 1
+  },
+  "customFields": {}
+ }
+}
