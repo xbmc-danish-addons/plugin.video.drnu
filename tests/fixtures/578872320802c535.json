@@ -1,0 +1,320 @@
+{
+ "status": 200,
+ "json": {
+  "id": "71e6d638-b01d-4e66-a70c-bf042a158f75",
+  "title": "Ramasjang | Z",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xc6e9",
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "size": 3,
+  "items": [
+   {
+    "id": "2320f1e5-3702-42cf-9010-f240fe04e8a9",
+    "type": "show",
+    "subtype": "",
+    "title": "Zig og Sharko",
+    "shortDescription": "En klassisk slapstick-animationsserie uden ord i bedste 'Hjulben og Ulven'-stil. Den evigt sultne hyæne Zig finder på mere og mere sindrige planer for at fange og spise den søde havfrue Marina, men heldigvis er havfruens bedste ven, en haj ved navn Sharko",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/zig-og-sharko_338242",
+    "scopes": [
+     "2320f1e5-3702-42cf-9010-f240fe04e8a9"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3886639805000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3AYYTPWJ3XXFNWXT6TQGFG%27&entityId=%272320f1e5-3702-42cf-9010-f240fe04e8a9%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JXK6RF9C5HS6S9JR59NQN5%27&entityId=%272320f1e5-3702-42cf-9010-f240fe04e8a9%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JXK6RFQVVJNAE18N99CF5Y%27&entityId=%272320f1e5-3702-42cf-9010-f240fe04e8a9%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JXK6RJCFKMH59432DFAW8Z%27&entityId=%272320f1e5-3702-42cf-9010-f240fe04e8a9%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "f6a51093416d3524906e2d4fbab34661fc844490f9a2923e3e2b2195c86c40d3",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Tegnefilm",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "PageTitle": "Zig og Sharko",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_fantasivæsner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_fredagstamtam",
+     "mood_sjov",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "9adf9af6-69a3-4e29-a4a5-896959a77c6b",
+    "type": "program",
+    "subtype": "",
+    "title": "Zog",
+    "shortDescription": "Udløber: 30. nov. 2027",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/zog_433981",
+    "watchPath": "/se/zog_433981",
+    "scopes": [
+     "9adf9af6-69a3-4e29-a4a5-896959a77c6b"
+    ],
+    "releaseYear": 2015,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1631,
+    "customId": "urn:dr:ocs:tv:content:playable:00851800780",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR28T2WZCB59WZ6PGMS053%27&entityId=%279adf9af6-69a3-4e29-a4a5-896959a77c6b%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR28T2MP7CQSZMB28EPX9F%27&entityId=%279adf9af6-69a3-4e29-a4a5-896959a77c6b%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR28T2MP7CQSZMB28EPX9F%27&entityId=%279adf9af6-69a3-4e29-a4a5-896959a77c6b%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2019-12-24T07:31:36.2800000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "70a10d2c78dd75f354072835d49580962123898fece5846cb825e60d984404d7",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "24. DEC. 2019 | 27M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 27M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Zog",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 27M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_eventyrlig",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "105cdcdd-d40b-4833-922c-e770d91616af",
+    "type": "program",
+    "subtype": "",
+    "title": "Zog og de flyvende læger",
+    "shortDescription": "Udløber: 31. dec. 2029",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/zog-og-de-flyvende-laeger_566083",
+    "watchPath": "/se/zog-og-de-flyvende-laeger_566083",
+    "scopes": [
+     "105cdcdd-d40b-4833-922c-e770d91616af"
+    ],
+    "releaseYear": 2020,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1511,
+    "customId": "urn:dr:ocs:tv:content:playable:00851911340",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2Q9D9P1XZNK0XC1NBWE1%27&entityId=%27105cdcdd-d40b-4833-922c-e770d91616af%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2Q9D2Y8DMS8HV3RPM59H%27&entityId=%27105cdcdd-d40b-4833-922c-e770d91616af%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2Q9D6J07JY5KYV1SV4PT%27&entityId=%27105cdcdd-d40b-4833-922c-e770d91616af%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2021-04-04T15:12:27.6400000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "a9d2bb50e5a6b2cc29136c9cb7c1117976422a95983e56e1ffe1f6893bfa8871",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "4. APR. 2021 | 25M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 25M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Zog og de flyvende læger",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 25M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_eventyrlig",
+     "recommendationgenre_animation"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 1
+  },
+  "customFields": {}
+ }
+}

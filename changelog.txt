@@ -1,3 +1,19 @@
+[B]Version 7.3.0 - 2026-11-27[/B]
+- Move to DR's new drtv-platform API (api.drtv-platform.dr.dk). DR froze the
+  editorial lists on the old host, so "Nye programmer" and the other front
+  page rows served days-old items; they now match dr.dk/drtv
+- Search now uses /v2/search. DR's search reports nothing without the
+  segments=drtv,optedin parameter, and the term parameter is 'term'
+- Live TV, the IPTV channels and the programme guide use the new API: the
+  channels are identified by UUID, and the guide's start times come from the
+  schedule's startDate because startTimeInDefaultTimeZone is now empty
+- Playback and the account lists (my list, continue watching) send
+  Authorization instead of X-Authorization, which the new host ignores
+- DRTV Ekstra has been discontinued by DR; the channel and its IPTV include
+  setting are gone
+- A token file written by an older version is discarded instead of crashing
+  the addon on the first start after the upgrade
+
 [B]Version 7.2.0 - 2026-10-24[/B]
 - New setting "Show duration in titles" (default off): playable items get
   their duration appended as [H:MM] to the title

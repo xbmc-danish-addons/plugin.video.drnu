@@ -1,0 +1,4543 @@
+{
+ "status": 200,
+ "json": {
+  "id": "c24bee18-815a-83d8-b448-551fa4a72f4a",
+  "title": "Gensyn: 1990'erne - Se programmer fra DR's arkiv her",
+  "description": "Din indgang til DR's TV-arkiv fra 90'erne. Du finder historiske programmer, serier og film fra et udvalg af DR's arkiv her. De bedste ting fortjener et Gensyn",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/gensyn-1990erne---se-programmer-fra-drs-arkiv-her-xfpuz",
+  "itemTypes": [
+   "season",
+   "program"
+  ],
+  "size": 250,
+  "items": [
+   {
+    "id": "60cd3a71-edb1-46a3-9ec0-7bf7fb01518a",
+    "type": "season",
+    "subtype": "",
+    "title": "Maraton - 24 timer med",
+    "shortDescription": "Dansk portrætserie fra 1996. Lars von Trier er idemanden bag tv-eksperimentet, hvor en række kendte danskere bliver interviewet af journalisten Peter Øvig Knudsen i 24 timer.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/maraton-_-24-timer-med_438478",
+    "scopes": [
+     "60cd3a71-edb1-46a3-9ec0-7bf7fb01518a"
+    ],
+    "releaseYear": 1996,
+    "seasonNumber": 1,
+    "seasonId": "60cd3a71-edb1-46a3-9ec0-7bf7fb01518a",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751940116000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5F1GJPBVQ1V6QP3VKF0F%27&entityId=%2760cd3a71-edb1-46a3-9ec0-7bf7fb01518a%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5F1GDKHMC580DJMQ05BB%27&entityId=%2760cd3a71-edb1-46a3-9ec0-7bf7fb01518a%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5F1GT7D8HS0RKGVH62C9%27&entityId=%2760cd3a71-edb1-46a3-9ec0-7bf7fb01518a%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "b27101de6bfd8fa5ea01a3d2c269a934ed76c470b6f1b0c4dd55fd440dac0ee0",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Underholdning,Gensyn",
+     "ExtraDetails": "Underholdning | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Underholdning,Gensyn,DR Gensyn",
+     "PageTitle": "Maraton - 24 timer med: Sæson 1",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "politik",
+     "underholdning"
+    ],
+    "keywords": [
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_tv-program"
+    ]
+   },
+   {
+    "id": "88314402-9817-4e7a-9a83-8c5536b792b1",
+    "type": "program",
+    "subtype": "",
+    "title": "Masturbator",
+    "shortDescription": "Dansk tv-drama fra 1993. En psykologisk thriller om den forskruede unge Robert, der holder den kedsommelige virkelighed på afstand ved fantasiens hjælp. Da han endelig en dag vil bryde ud af sin ensomhed, bliver han kastet ud i et svimlende mareridt og kr",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/masturbator_456845",
+    "watchPath": "/se/masturbator_456845",
+    "scopes": [
+     "88314402-9817-4e7a-9a83-8c5536b792b1"
+    ],
+    "releaseYear": 1993,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 3400,
+    "customId": "urn:dr:ocs:tv:content:playable:00587018740",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DH8NXW4D0DPH0563WPBZ%27&entityId=%2788314402-9817-4e7a-9a83-8c5536b792b1%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DH8NTQXNVNCN98KQ3177%27&entityId=%2788314402-9817-4e7a-9a83-8c5536b792b1%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DH8NB5GKYJ4K0VB5YY26%27&entityId=%2788314402-9817-4e7a-9a83-8c5536b792b1%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1993-12-06T13:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "c42f741312f550f78cb3e6cbbb5072b17813018d4ba0c8f42726793741d715b3",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "6. DEC. 1993 | 57M",
+     "DisplayCategory": "Kultur,Teater og TV-film,Gensyn",
+     "ExtraDetails": "Kultur | 57M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Teater og TV-film,Gensyn,DR Gensyn",
+     "PageTitle": "Masturbator",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 57M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "teater og tv-film"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_film",
+     "editorialptaxtop_gensyn",
+     "mood_mørk/uhyggelig"
+    ]
+   },
+   {
+    "id": "6080fa56-2914-4871-9f62-1c7fa1946830",
+    "type": "program",
+    "subtype": "",
+    "title": "Med Lisa Ekdahl i Kongens Have",
+    "shortDescription": "Dansk portrætprogram fra 1997. Lisa Ekdahl kommer på alles læber, da hun i 1994 bryder igennem med singlen 'Vem vet' fra sit debutalbum. Og danskerne lægger også mærke til den svenske sangerinde, da hun senere synger duet med Lars H.U.G. på 'Backwards'. V",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/med-lisa-ekdahl-i-kongens-have_563524",
+    "watchPath": "/se/med-lisa-ekdahl-i-kongens-have_563524",
+    "scopes": [
+     "6080fa56-2914-4871-9f62-1c7fa1946830"
+    ],
+    "releaseYear": 1997,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1071,
+    "customId": "urn:dr:ocs:tv:content:playable:00522081240",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BKEWWS4FQRXGDH9E1C53%27&entityId=%276080fa56-2914-4871-9f62-1c7fa1946830%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BKEV3NRA58EV4A17QGFB%27&entityId=%276080fa56-2914-4871-9f62-1c7fa1946830%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BKEWRBW8W1AZTWBSKYDF%27&entityId=%276080fa56-2914-4871-9f62-1c7fa1946830%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1997-02-16T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "68cf0a53fb592000e68c4b18b74b4c4055202a112cd6ca72af65814049ec31b1",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "16. FEB. 1997 | 18M",
+     "DisplayCategory": "Kultur,Underholdning,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 18M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Underholdning,Musik,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Med Lisa Ekdahl i Kongens Have",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 18M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_gensyn",
+     "person_lisa ekdahl",
+     "thesaurus_rytmisk musik"
+    ]
+   },
+   {
+    "id": "6319f786-90d6-4f1f-9bde-f9b7faa2c116",
+    "type": "program",
+    "subtype": "",
+    "title": "Mens vi venter på retfærdigheden",
+    "shortDescription": "Tv-udgave af teaterstykke fra 1992. Hvad handler Tamilsagen egentlig om? Statsminister Poul Schlüter erklærer i 1989, at der \"ikke er fejet noget ind under gulvtæppet\". Alligevel nedsættes en undersøgelsesret ledet af Mogens Hornslet. Journalisten Nils Uf",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/mens-vi-venter-paa-retfaerdigheden_425324",
+    "watchPath": "/se/mens-vi-venter-paa-retfaerdigheden_425324",
+    "scopes": [
+     "6319f786-90d6-4f1f-9bde-f9b7faa2c116"
+    ],
+    "releaseYear": 1992,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 4485,
+    "customId": "urn:dr:ocs:tv:content:playable:00587026090",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DJ4ZF50GFY42MBA25XEC%27&entityId=%276319f786-90d6-4f1f-9bde-f9b7faa2c116%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DJ4ZWMBHEN98YPPPC3XF%27&entityId=%276319f786-90d6-4f1f-9bde-f9b7faa2c116%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DJ4Z5M4P51GNS8977MCT%27&entityId=%276319f786-90d6-4f1f-9bde-f9b7faa2c116%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1992-10-02T16:40:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "2cb1389fa5c3992a51af1098972ae746981e5ebb377193cb1c642968a9630680",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "2. OKT. 1992 | 1T 15M",
+     "DisplayCategory": "Kultur,Politik,Humor,Satire,Gensyn",
+     "ExtraDetails": "Kultur | 1T 15M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Politik,Humor,Satire,Gensyn,DR Gensyn",
+     "PageTitle": "Mens vi venter på retfærdigheden",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1T 15M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "humor",
+     "kultur",
+     "politik",
+     "satire"
+    ],
+    "keywords": [
+     "controlled_skandaler",
+     "controlled_tamilsagen",
+     "controlled_undersøgelseskommissioner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_aktualitet/samfundsforhold",
+     "editorialptaxtop_gensyn",
+     "person_erik ninn-hansen",
+     "thesaurus_politik"
+    ]
+   },
+   {
+    "id": "a3371933-499c-4384-8fed-c8d8d49b04b5",
+    "type": "program",
+    "subtype": "",
+    "title": "Mer' Matador",
+    "shortDescription": "Foran et lille indbudt publikum, byder Jarl-Friis-Mikkelsen velkommen til nogle af hovedfigurerne fra \"Matador\". Hvordan gik det dem, hvis serien skulle fortsætte? Hver skuespiller får lov at føre sin figur videre i fri digtning. Udløber: 25. maj 2028",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/mer-matador_635411",
+    "watchPath": "/se/mer-matador_635411",
+    "scopes": [
+     "a3371933-499c-4384-8fed-c8d8d49b04b5"
+    ],
+    "releaseYear": 1998,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 5180,
+    "customId": "urn:dr:ocs:tv:content:playable:00522125120",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77SWK9DNE4CBP68F3GF9N4N%27&entityId=%27a3371933-499c-4384-8fed-c8d8d49b04b5%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77SX9HAF5HSD0C63W365H43%27&entityId=%27a3371933-499c-4384-8fed-c8d8d49b04b5%27&entityType=%27Item%27&Width=1920&Height=1080",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77SXVGMPCMMQVMTRRVC6JC3%27&entityId=%27a3371933-499c-4384-8fed-c8d8d49b04b5%27&entityType=%27Item%27&Width=720&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1998-05-23T18:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "7d5ebf8cee307dca4af39fa95edbe8aaa2aece22c8f44723853192a28e90d829",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "23. MAJ 1998 | 1T 26M",
+     "DisplayCategory": "Underholdning,Gensyn",
+     "ExtraDetails": "Underholdning | 1T 26M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Underholdning,Gensyn,DR Gensyn",
+     "PageTitle": "Mer' Matador",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1T 26M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "underholdning"
+    ],
+    "keywords": [
+     "controlled_matador",
+     "controlled_tv-historie",
+     "culturalorigin_dansk",
+     "editorialptaxsub_underholdning",
+     "editorialptaxtop_tv-program",
+     "thesaurus_tv-programmer"
+    ]
+   },
+   {
+    "id": "b1c9acdb-fc2b-4d40-8c9a-118eaebef9f8",
+    "type": "season",
+    "subtype": "",
+    "title": "Meyers Køkken",
+    "shortDescription": "Dansk madserie 1992-1998. Claus Meyer belyser i sine programmer mange af de emner, som han er med til at sætte på dagsordenen i 90'erne - madkvalitet og lokale og underkendte råvarer.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/meyers-koekken_439753",
+    "scopes": [
+     "b1c9acdb-fc2b-4d40-8c9a-118eaebef9f8"
+    ],
+    "releaseYear": 1995,
+    "seasonNumber": 1995,
+    "seasonId": "b1c9acdb-fc2b-4d40-8c9a-118eaebef9f8",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751935125000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD51M6WKRPB8MY3B03E1E8%27&entityId=%27b1c9acdb-fc2b-4d40-8c9a-118eaebef9f8%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD51M6EQFWEWA229FHM1FX%27&entityId=%27b1c9acdb-fc2b-4d40-8c9a-118eaebef9f8%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD51M6T5HD94KJSKY0N8HX%27&entityId=%27b1c9acdb-fc2b-4d40-8c9a-118eaebef9f8%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "3dca3eb765a2fffe42185fc727b80d1b082f4c02c57a635dbd32b7497096ca7c",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Gensyn",
+     "ExtraDetails": "Livsstil | SÆSON 1995",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Gensyn,DR Gensyn",
+     "PageTitle": "Meyers Køkken: Sæson 1995",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "livsstil",
+     "mad"
+    ],
+    "keywords": [
+     "editorialptaxsub_mad",
+     "editorialptaxtop_tv-program"
+    ]
+   },
+   {
+    "id": "6d2d607e-ceab-49a4-8735-cc271839d2de",
+    "type": "season",
+    "subtype": "",
+    "title": "Meyers Køkken",
+    "shortDescription": "Dansk madserie 1992-1998. Claus Meyer belyser i sine programmer mange af de emner, som han er med til at sætte på dagsordenen i 90'erne - madkvalitet og lokale og underkendte råvarer.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/meyers-koekken_486038",
+    "scopes": [
+     "6d2d607e-ceab-49a4-8735-cc271839d2de"
+    ],
+    "releaseYear": 1992,
+    "seasonNumber": 1992,
+    "seasonId": "6d2d607e-ceab-49a4-8735-cc271839d2de",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751944966000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5SWER1HR2NKXYC4EM3HZ%27&entityId=%276d2d607e-ceab-49a4-8735-cc271839d2de%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5SWFKVZCDE7969K6T8WD%27&entityId=%276d2d607e-ceab-49a4-8735-cc271839d2de%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5SWFTSFGSB3HFP2NMA65%27&entityId=%276d2d607e-ceab-49a4-8735-cc271839d2de%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "eb8236fcde59a7d5ab0574492b921c8d039b8adc518f7e1ba999f62821cb9e40",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Gensyn",
+     "ExtraDetails": "Livsstil | SÆSON 1992",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Gensyn,DR Gensyn",
+     "PageTitle": "Meyers Køkken: Sæson 1992",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "livsstil",
+     "mad"
+    ],
+    "keywords": [
+     "editorialptaxsub_mad",
+     "editorialptaxtop_tv-program"
+    ]
+   },
+   {
+    "id": "27f3772c-c800-4f50-93af-534b66a21918",
+    "type": "season",
+    "subtype": "",
+    "title": "Meyers Køkken",
+    "shortDescription": "Dansk madserie 1992-1998. Claus Meyer belyser i sine programmer mange af de emner, som han er med til at sætte på dagsordenen i 90'erne - madkvalitet og lokale og underkendte råvarer.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/meyers-koekken_439751",
+    "scopes": [
+     "27f3772c-c800-4f50-93af-534b66a21918"
+    ],
+    "releaseYear": 1993,
+    "seasonNumber": 1993,
+    "seasonId": "27f3772c-c800-4f50-93af-534b66a21918",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751939359000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7AFSTSSH95MVVZEV4FRAACB%27&entityId=%2727f3772c-c800-4f50-93af-534b66a21918%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7AFTM6AF104DQ0KE03MM0K2%27&entityId=%2727f3772c-c800-4f50-93af-534b66a21918%27&entityType=%27Item%27&Width=1920&Height=1080",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7SVV59WYF4YQDAMSKJ126K0%27&entityId=%2727f3772c-c800-4f50-93af-534b66a21918%27&entityType=%27Item%27&Width=720&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "9034bdc935a60b6438d4dcf59b74168c7335988b41abeb25d6e6b1370ab61c6a",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Mad,Gensyn",
+     "ExtraDetails": "Livsstil | SÆSON 1993",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Mad,Gensyn,DR Gensyn",
+     "PageTitle": "Meyers Køkken: Sæson 1993",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "livsstil",
+     "mad"
+    ],
+    "keywords": [
+     "editorialptaxsub_mad",
+     "editorialptaxtop_tv-program"
+    ]
+   },
+   {
+    "id": "eb70f234-149d-4594-8904-f14c55d8c22e",
+    "type": "program",
+    "subtype": "",
+    "title": "Michael Learns To Rock",
+    "shortDescription": "Dansk portrætprogram fra 1994. \"I'm not an actor, I'm not a star, And I don't even have my own car\". Med disse linjer fra singlen 'The Actor' slår Århus-gruppen Michael Learns To Rock igennem i 1991. Ikke kun i Danmark, men også i udlandet - og i Asien is",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/michael-learns-to-rock_459201",
+    "watchPath": "/se/michael-learns-to-rock_459201",
+    "scopes": [
+     "eb70f234-149d-4594-8904-f14c55d8c22e"
+    ],
+    "releaseYear": 1994,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2654,
+    "customId": "urn:dr:ocs:tv:content:playable:00556000240",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CANWN8EWW3NHRVFAKGG7%27&entityId=%27eb70f234-149d-4594-8904-f14c55d8c22e%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CANW4JJ7ZBZW7V1EDDPB%27&entityId=%27eb70f234-149d-4594-8904-f14c55d8c22e%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CANWTXRSMZV36QTXCR3S%27&entityId=%27eb70f234-149d-4594-8904-f14c55d8c22e%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1994-02-21T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "a142812dadc87e858355d4543068ff6508dfb0c630ad7fbb61003b67314365ea",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "21. FEB. 1994 | 44M",
+     "DisplayCategory": "Kultur,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 44M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Musik,Gensyn,DR Gensyn",
+     "PageTitle": "Michael Learns To Rock",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 44M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_gensyn",
+     "organization_michael learns to rock",
+     "thesaurus_pop"
+    ]
+   },
+   {
+    "id": "438f45ad-67c6-46b9-93b4-c8d10dfe5fe5",
+    "type": "program",
+    "subtype": "",
+    "title": "Mindekoncert - 100-årsdagen for kong Frederik 9.'s fødsel",
+    "shortDescription": "Dansk koncertoptagelse fra 1999. Mindekoncert fra Det Kgl. Teater i anledning af kong Frederik 9.'s 100-årsdag - tilrettelagt af Det Kgl. Kapel og Radiosymfoniorkestret i tæt samarbejde med dronning Ingrid og dronning Margrethe. På programmet står værker ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/mindekoncert-_-100_aarsdagen-for-kong-frederik-9s-foedsel_438886",
+    "watchPath": "/se/mindekoncert-_-100_aarsdagen-for-kong-frederik-9s-foedsel_438886",
+    "scopes": [
+     "438f45ad-67c6-46b9-93b4-c8d10dfe5fe5"
+    ],
+    "releaseYear": 1999,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 10006,
+    "customId": "urn:dr:ocs:tv:content:playable:00591056000",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8ECRCY312TZ7WWEN5WMWC%27&entityId=%27438f45ad-67c6-46b9-93b4-c8d10dfe5fe5%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8ECRC8YS0ZMFX4KEAZ5DJ%27&entityId=%27438f45ad-67c6-46b9-93b4-c8d10dfe5fe5%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8ECRCANNKA57BN68Y36NT%27&entityId=%27438f45ad-67c6-46b9-93b4-c8d10dfe5fe5%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1999-03-11T19:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "5c921fbdcbb6d73e674b27ed2c5219c5c872590971930f5d71f644ad509bd32d",
+     "ClassificationRating": "MRAM-EXCEPT",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "11. MAR. 1999 | 2T 47M",
+     "DisplayCategory": "Kultur,Underholdning,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 2T 47M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Underholdning,Musik,Gensyn,DR Gensyn",
+     "PageTitle": "Mindekoncert - 100-årsdagen for kong Frederik 9.'s fødsel",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 2T 47M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_klassisk musik",
+     "editorialptaxtop_gensyn",
+     "thesaurus_klassisk musik",
+     "thesaurus_kongelige"
+    ]
+   },
+   {
+    "id": "e8047167-72a5-4697-b06b-acd37e8d8a52",
+    "type": "season",
+    "subtype": "",
+    "title": "Morgennisserne",
+    "shortDescription": "Dansk underholdningsprogram 1986 og 1990-1992. Et indsamlingsshow med sang, musik og gæster. Vha. overfrankerede breve samles der ind til Dansk Radio-Hjælpefond. (I radioen kunne man høre Morgennisserne 1969-1996).",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/morgennisserne_556158",
+    "scopes": [
+     "e8047167-72a5-4697-b06b-acd37e8d8a52"
+    ],
+    "releaseYear": 1990,
+    "seasonNumber": 1990,
+    "seasonId": "e8047167-72a5-4697-b06b-acd37e8d8a52",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:6640527243704",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD42C0EA22RCMYWTPE0WBY%27&entityId=%27e8047167-72a5-4697-b06b-acd37e8d8a52%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD42C0YGVS541Q7FRS7MVS%27&entityId=%27e8047167-72a5-4697-b06b-acd37e8d8a52%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD42C0YGVS541Q7FRS7MVS%27&entityId=%27e8047167-72a5-4697-b06b-acd37e8d8a52%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "d9192a7bf66c709ec9fa43615651e0bae6e4adc2361221b6eb490eb8ffef391d",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Underholdning,Humor,Gensyn",
+     "ExtraDetails": "Underholdning | SÆSON 1990",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Underholdning,Humor,Gensyn,DR Gensyn",
+     "PageTitle": "Morgennisserne: Sæson 1990",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "humor",
+     "underholdning"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "a0eb26f2-d593-463b-bfe3-2e4d4b4afee3",
+    "type": "program",
+    "subtype": "",
+    "title": "Mors dag",
+    "shortDescription": "Dansk tv-drama fra 1996. Hvad gør en selvopofrende enlig mor, når hendes eneste søn falder i kløerne på et hunkønsvæsen - der i sin person forener alt det, en mor må hade? Hun forsøger sig med bestikkelse - men striglen dukker op igen. Måske en lejemorder",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/mors-dag_579643",
+    "watchPath": "/se/mors-dag_579643",
+    "scopes": [
+     "a0eb26f2-d593-463b-bfe3-2e4d4b4afee3"
+    ],
+    "releaseYear": 1996,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2402,
+    "customId": "urn:dr:ocs:tv:content:playable:00591001020",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DVC7WH6VPZJW3T3HCPZ9%27&entityId=%27a0eb26f2-d593-463b-bfe3-2e4d4b4afee3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DVC8ARJH3NS728F6W8M5%27&entityId=%27a0eb26f2-d593-463b-bfe3-2e4d4b4afee3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8DVC7PVMTYYXNRJKEPZE1%27&entityId=%27a0eb26f2-d593-463b-bfe3-2e4d4b4afee3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1996-09-18T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "738748776cd2505334086fa7cc0813f9b3e13a2f8773d341a4a1a789213dfb1a",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "18. SEP. 1996 | 40M",
+     "DisplayCategory": "Teater og TV-film,Gensyn",
+     "ExtraDetails": "Teater og TV-film | 40M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Teater og TV-film,Gensyn,DR Gensyn",
+     "PageTitle": "Mors dag",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 40M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "teater og tv-film"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_film",
+     "editorialptaxtop_gensyn",
+     "mood_skæv"
+    ]
+   },
+   {
+    "id": "56c18316-5110-4171-819d-6439c0351470",
+    "type": "season",
+    "subtype": "",
+    "title": "Musikbutikken",
+    "shortDescription": "Dansk musikprogram 1998-2002. Keld Heick er bestyrer i Musikbutikken, hvor musikere og sangere fra alle grene af den danske og udenlandske musikscene kigger indenfor og giver et nummer.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/musikbutikken_564788",
+    "scopes": [
+     "56c18316-5110-4171-819d-6439c0351470"
+    ],
+    "releaseYear": 1998,
+    "seasonNumber": 1998,
+    "seasonId": "56c18316-5110-4171-819d-6439c0351470",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:752005393000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD85MW2QQTE6BFK0WFB2VE%27&entityId=%2756c18316-5110-4171-819d-6439c0351470%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD85MW6EGTYNSE1NWP4C7Y%27&entityId=%2756c18316-5110-4171-819d-6439c0351470%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD85MW9QE318BR6S7NQJGC%27&entityId=%2756c18316-5110-4171-819d-6439c0351470%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "3ba9b23267d868d9c187848adfb799372ecbfa88856e02d7fdce108a4e28edbe",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Underholdning,Musik,Gensyn",
+     "ExtraDetails": "Underholdning | SÆSON 1998",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Underholdning,Musik,Gensyn,DR Gensyn",
+     "PageTitle": "Musikbutikken: Sæson 1998",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "editorialptaxsub_underholdning",
+     "editorialptaxtop_tv-program"
+    ]
+   },
+   {
+    "id": "3cec04bc-3f1e-4489-9815-43654935111d",
+    "type": "season",
+    "subtype": "",
+    "title": "Musikbutikken",
+    "shortDescription": "Dansk musikprogram 1998-2002. Keld Heick er bestyrer i Musikbutikken, hvor musikere og sangere fra alle grene af den danske og udenlandske musikscene kigger indenfor og giver et nummer.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/musikbutikken_564791",
+    "scopes": [
+     "3cec04bc-3f1e-4489-9815-43654935111d"
+    ],
+    "releaseYear": 1999,
+    "seasonNumber": 1999,
+    "seasonId": "3cec04bc-3f1e-4489-9815-43654935111d",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751940636000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6E8KQTPFKZXS0HDSX6K1MN1%27&entityId=%273cec04bc-3f1e-4489-9815-43654935111d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6E8KQTPQ103CB8WH61KBJ1D%27&entityId=%273cec04bc-3f1e-4489-9815-43654935111d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6E8KQTPMQVFEG7PMQNT6C8J%27&entityId=%273cec04bc-3f1e-4489-9815-43654935111d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "28db61542870559f55f8faf3baa16db987ad6d865171337b954b633db6e5861b",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Underholdning,Musik,Gensyn",
+     "ExtraDetails": "Underholdning | SÆSON 1999",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Underholdning,Musik,Gensyn,DR Gensyn",
+     "PageTitle": "Musikbutikken: Sæson 1999",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "editorialptaxsub_underholdning",
+     "editorialptaxtop_tv-program"
+    ]
+   },
+   {
+    "id": "3d743033-dfb2-400a-b726-8d4cf87fe77c",
+    "type": "program",
+    "subtype": "",
+    "title": "Muskler og musik",
+    "shortDescription": "Dansk reportage fra 1992. Aerobic opstår i USA, og i løbet af 80'erne er det også blevet en af de helt store motionsidrætter i Danmark. Den dyrkes også på konkurrenceplan, og DR Sporten er med på sidelinjen, da Danmarks bedste dyster om DM-titlerne. Danse",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/muskler-og-musik_515550",
+    "watchPath": "/se/muskler-og-musik_515550",
+    "scopes": [
+     "3d743033-dfb2-400a-b726-8d4cf87fe77c"
+    ],
+    "releaseYear": 1992,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2030,
+    "customId": "urn:dr:ocs:tv:content:playable:00606896610",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8FY1G4F5GXHKEPXDZ43CA%27&entityId=%273d743033-dfb2-400a-b726-8d4cf87fe77c%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8FY1GWDC7FXR6EJ6STJ4Q%27&entityId=%273d743033-dfb2-400a-b726-8d4cf87fe77c%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8FY1G4WCY55EVXEKMTE37%27&entityId=%273d743033-dfb2-400a-b726-8d4cf87fe77c%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1992-12-09T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "e92fe7fb1531272e511df96b0c860da90afa2f744023a791df6c1ce07f95933d",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "9. DEC. 1992 | 34M",
+     "DisplayCategory": "Livsstil,Sport,Krop,Sundhed,Gensyn",
+     "ExtraDetails": "Livsstil | 34M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Livsstil,Sport,Krop,Sundhed,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Muskler og musik",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 34M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "krop",
+     "livsstil",
+     "sport",
+     "sundhed"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_sundhed",
+     "editorialptaxtop_gensyn",
+     "thesaurus_aerobic",
+     "thesaurus_motion"
+    ]
+   },
+   {
+    "id": "41c0b75f-9f2c-4872-8264-fe4f1152d6d2",
+    "type": "season",
+    "subtype": "",
+    "title": "Mysteriet om det levende lig",
+    "shortDescription": "Nordisk børneserie fra 1992. En krimiserie om en flok børn, der holder sommerferie på øen Endelave i Kattegat. Her finder de en druknet mand på stranden og indblandes i en lyssky affære.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/mysteriet-om-det-levende-lig_494503",
+    "scopes": [
+     "41c0b75f-9f2c-4872-8264-fe4f1152d6d2"
+    ],
+    "releaseYear": 1992,
+    "seasonNumber": 1,
+    "seasonId": "41c0b75f-9f2c-4872-8264-fe4f1152d6d2",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:6094068429000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD22K7XZQ267GCET968KND%27&entityId=%2741c0b75f-9f2c-4872-8264-fe4f1152d6d2%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD22K74BMDW31B6YTZ1RP2%27&entityId=%2741c0b75f-9f2c-4872-8264-fe4f1152d6d2%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD22K717M7ZGG0C98WG8V8%27&entityId=%2741c0b75f-9f2c-4872-8264-fe4f1152d6d2%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "069c0d65828cb0c483933e1ebe2962c949cd215e384fe2a258bd3391a17a6939",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+     "ExtraDetails": "Fiktionsserie | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+     "PageTitle": "Mysteriet om det levende lig: Sæson 1",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "fiktionsserie",
+     "gensyn",
+     "krimi"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "9e2c167c-f046-4233-bdc7-49716ab99403",
+    "type": "program",
+    "subtype": "",
+    "title": "Mændene i tårnet",
+    "shortDescription": "Dansk reportage fra 1991. To mænd bor i et kontroltårn hundredvis af kilometer fra den nærmeste by i Nordøstgrønland. Selvom flyvepladsen i Mesters Vig har været nedlagt i flere år, bliver den stadig vedligeholdt - af gamle Sirius-folk som Jack og Bent. D",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/maendene-i-taarnet_531484",
+    "watchPath": "/se/maendene-i-taarnet_531484",
+    "scopes": [
+     "9e2c167c-f046-4233-bdc7-49716ab99403"
+    ],
+    "releaseYear": 1991,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1695,
+    "customId": "urn:dr:ocs:tv:content:playable:00901326830",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9TX6XZ4WSPSXD2BHJD7W3%27&entityId=%279e2c167c-f046-4233-bdc7-49716ab99403%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9TX6XB2TN91JR6AVXZ2H4%27&entityId=%279e2c167c-f046-4233-bdc7-49716ab99403%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9TX6XA4ECQ9PCAEGWJ189%27&entityId=%279e2c167c-f046-4233-bdc7-49716ab99403%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1991-02-19T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "c1e7f9adf1604f83707ef2cdb442b39d13f9e89a5a06924f06ed8bb11e364057",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "19. FEB. 1991 | 28M",
+     "DisplayCategory": "Dokumentar,Natur,Gensyn",
+     "ExtraDetails": "Dokumentar | 28M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Natur,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Mændene i tårnet",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 28M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "natur"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_aktualitet/samfundsforhold",
+     "editorialptaxtop_gensyn",
+     "location_nordøstgrønland",
+     "thesaurus_arktis"
+    ]
+   },
+   {
+    "id": "caa0ca0f-4eb2-4a68-b312-6c4d01c39811",
+    "type": "program",
+    "subtype": "",
+    "title": "Mænd under kniven",
+    "shortDescription": "Dansk reportage fra 1997. Tre mænd i forskellige aldre gennemgår kosmetiske operationer. Og de er langt fra de eneste. 21-årige Mikkel er led og ked af dansehåndtagene. 45-årige Alf drømmer om et øjenlågsløft og en mere markant hage. Og Henrik på 52 år ha",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/maend-under-kniven_562610",
+    "watchPath": "/se/maend-under-kniven_562610",
+    "scopes": [
+     "caa0ca0f-4eb2-4a68-b312-6c4d01c39811"
+    ],
+    "releaseYear": 1997,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1710,
+    "customId": "urn:dr:ocs:tv:content:playable:00213572510",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7PFBF7BMRPE80MS2PKAW%27&entityId=%27caa0ca0f-4eb2-4a68-b312-6c4d01c39811%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7PFEGBAGG8C72J8NQWYE%27&entityId=%27caa0ca0f-4eb2-4a68-b312-6c4d01c39811%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7PFCTA92YCWR3XD4ZHD7%27&entityId=%27caa0ca0f-4eb2-4a68-b312-6c4d01c39811%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1997-03-05T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "42156bb7bbffe6515280b9efd18537442046466a1bda7e7c56ec6faaf045ff05",
+     "ClassificationRating": "MRAM-11",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "5. MAR. 1997 | 28M",
+     "DisplayCategory": "Dokumentar,Krop,Sundhed,Gensyn",
+     "ExtraDetails": "Dokumentar | 28M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Krop,Sundhed,Gensyn,DR Gensyn",
+     "PageTitle": "Mænd under kniven",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 28M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "krop",
+     "sundhed"
+    ],
+    "keywords": [
+     "controlled_kropsidealer",
+     "controlled_skønhedsidealer",
+     "culturalorigin_dansk",
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_gensyn",
+     "thesaurus_mænd",
+     "thesaurus_skønhedsbehandlinger"
+    ]
+   },
+   {
+    "id": "93d2bba0-eec6-43b4-a6aa-139502645ab6",
+    "type": "season",
+    "subtype": "",
+    "title": "Mørklægning",
+    "shortDescription": "Dansk krimiserie fra 1992. Under besættelsen i 1944 myrdes filmdirektøren Otto Baumann. Kriminalbetjenten Helge Nielsen efterforsker stædigt sagen - også selvom han bliver jagtet af tyskerne.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/moerklaegning_512126",
+    "scopes": [
+     "93d2bba0-eec6-43b4-a6aa-139502645ab6"
+    ],
+    "releaseYear": 1992,
+    "seasonNumber": 1,
+    "seasonId": "93d2bba0-eec6-43b4-a6aa-139502645ab6",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:6394813408000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5Y7J2KK58HQ3BW5SCS568P5%27&entityId=%2793d2bba0-eec6-43b4-a6aa-139502645ab6%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5Y7J2KKQ295YWZNGXVV2Y92%27&entityId=%2793d2bba0-eec6-43b4-a6aa-139502645ab6%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5Y7J2KKH9F0EW2VEDAV24FN%27&entityId=%2793d2bba0-eec6-43b4-a6aa-139502645ab6%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "a4bb85504da209b7d2ebf984858c7a487e80f3358a4256044b747910d3554a3d",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Fiktionsserie,Gensyn",
+     "ExtraDetails": "Fiktionsserie | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+     "PageTitle": "Mørklægning: Sæson 1",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "fiktionsserie",
+     "gensyn"
+    ],
+    "keywords": [
+     "editorialptaxtop_serier"
+    ]
+   },
+   {
+    "id": "84fa8ed2-5dda-4a4a-aee1-0db10df04876",
+    "type": "program",
+    "subtype": "",
+    "title": "Natalie Cole - i København",
+    "shortDescription": "Dansk portrætprogram fra 1990. Hun er datter af den berømte sanger og jazzmusiker Nat King Cole, og det har fyldt meget i Natalie Coles liv. Den Grammy-vindende amerikaner ville egentlig være psykolog, og først senere i livet besluttede hun sig for en mus",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/natalie-cole-_-i-koebenhavn_506327",
+    "watchPath": "/se/natalie-cole-_-i-koebenhavn_506327",
+    "scopes": [
+     "84fa8ed2-5dda-4a4a-aee1-0db10df04876"
+    ],
+    "releaseYear": 1990,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2462,
+    "customId": "urn:dr:ocs:tv:content:playable:00506145800",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8B05GWQXP27S7XAHQZ29K%27&entityId=%2784fa8ed2-5dda-4a4a-aee1-0db10df04876%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8B05AE43EWPMVAP8W4NRT%27&entityId=%2784fa8ed2-5dda-4a4a-aee1-0db10df04876%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8B05AN19YQ2VVMWWYCF9R%27&entityId=%2784fa8ed2-5dda-4a4a-aee1-0db10df04876%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1990-05-02T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "ac076afdfcb7b7d3bc8be36c061e8fb0a3917b60838857ee5433f7e9692abe33",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "2. MAJ 1990 | 41M",
+     "DisplayCategory": "Kultur,Underholdning,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 41M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Underholdning,Musik,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Natalie Cole - i København",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 41M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_gensyn",
+     "person_jørgen de mylius",
+     "person_natalie cole"
+    ]
+   },
+   {
+    "id": "07c5f2e4-694f-40ea-9e02-20ca18e21ed4",
+    "type": "season",
+    "subtype": "",
+    "title": "Naturpatruljen",
+    "shortDescription": "Dansk børneserie 1998-2003. Naturserie med Martin, Ketil og Sebastian Klein som dr. Pjuskebusk. Trioen holder meget af dyr, sange og quizzen 'Gæt en lort'.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/naturpatruljen_476035",
+    "scopes": [
+     "07c5f2e4-694f-40ea-9e02-20ca18e21ed4"
+    ],
+    "releaseYear": 1998,
+    "seasonNumber": 1,
+    "seasonId": "07c5f2e4-694f-40ea-9e02-20ca18e21ed4",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751990783000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD769RZ1BEVK4EMRDF5DT6%27&entityId=%2707c5f2e4-694f-40ea-9e02-20ca18e21ed4%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD769R6GYAET1RZMKSAYQ4%27&entityId=%2707c5f2e4-694f-40ea-9e02-20ca18e21ed4%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD769RJZFSTHPQMZ6SP7G8%27&entityId=%2707c5f2e4-694f-40ea-9e02-20ca18e21ed4%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "d18c826f084755d89e7c2b75631903f8e05e94ddbf3f188eb44636c08692e19c",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Natur,Gensyn",
+     "ExtraDetails": "Natur | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Natur,Gensyn,DR Gensyn",
+     "PageTitle": "Naturpatruljen: Sæson 1",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "natur"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "ef63609a-86c8-4cc6-a832-f73d59b550d0",
+    "type": "season",
+    "subtype": "",
+    "title": "Naturpatruljen",
+    "shortDescription": "Dansk børneserie 1998-2003. Naturserie med Martin, Ketil og Sebastian Klein som dr. Pjuskebusk. Trioen holder meget af dyr, sange og quizzen 'Gæt en lort'.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/naturpatruljen_511699",
+    "scopes": [
+     "ef63609a-86c8-4cc6-a832-f73d59b550d0"
+    ],
+    "releaseYear": 1999,
+    "seasonNumber": 3,
+    "seasonId": "ef63609a-86c8-4cc6-a832-f73d59b550d0",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751941215000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M58GET2DFQSXQS7BJA0BJBD2%27&entityId=%27ef63609a-86c8-4cc6-a832-f73d59b550d0%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M58GET2DP2ZG7Y50147MW78K%27&entityId=%27ef63609a-86c8-4cc6-a832-f73d59b550d0%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M58GET2DG3S5JG57YKV63NWA%27&entityId=%27ef63609a-86c8-4cc6-a832-f73d59b550d0%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "700ad5250aebd012c169b52b1ceb65bf360cf9a512e1c5d7fd7acb23d6862bc5",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Natur,Gensyn",
+     "ExtraDetails": "Natur | SÆSON 3",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Natur,Gensyn,DR Gensyn",
+     "PageTitle": "Naturpatruljen: Sæson 3",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "natur"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "b68902d5-787d-4dcb-98e1-9fea9df540bf",
+    "type": "program",
+    "subtype": "",
+    "title": "Nitter",
+    "shortDescription": "Dansk dokumentar fra 1995. Ungdomsprogrammet Transit viser en dokumentar om Christiania. Nogle forbinder stedet med hash, politi og kaos. Andre mener, det er en oase i storbyen. Men hvordan er det at være ung og have boet hele sit liv på Christiania? Teen",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/nitter_599057",
+    "watchPath": "/se/nitter_599057",
+    "scopes": [
+     "b68902d5-787d-4dcb-98e1-9fea9df540bf"
+    ],
+    "releaseYear": 1995,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1549,
+    "customId": "urn:dr:ocs:tv:content:playable:00801841870",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8KQHTVKM1ZFCKR555SBF3%27&entityId=%27b68902d5-787d-4dcb-98e1-9fea9df540bf%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8KQHT809SKPCTH9R9A7N8%27&entityId=%27b68902d5-787d-4dcb-98e1-9fea9df540bf%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8KQHT0ZD6PX46SJ8VSCB2%27&entityId=%27b68902d5-787d-4dcb-98e1-9fea9df540bf%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1995-08-02T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "da33720af81b43e39ce6b827f9586043c06b0c147a23f2f2439d050979b7ab97",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "2. AUG. 1995 | 26M",
+     "DisplayCategory": "Dokumentar,Gensyn",
+     "ExtraDetails": "Dokumentar | 26M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+     "PageTitle": "Nitter",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 26M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "controlled_alternative samfund",
+     "controlled_christiania",
+     "culturalorigin_dansk",
+     "editorialptaxsub_aktualitet/samfundsforhold",
+     "editorialptaxtop_gensyn",
+     "location_christiania",
+     "thesaurus_lokalsamfund"
+    ]
+   },
+   {
+    "id": "f6f710c6-868c-4bd2-90d0-c1707754f475",
+    "type": "program",
+    "subtype": "",
+    "title": "Ny dirigent - Ulf Schirmer",
+    "shortDescription": "Dansk koncertoptagelse fra 1995. Tyskeren Ulf Schirmer tiltræder i 1995 som ny chefdirigent for Radiosymfoniorkestret. I Radiohusets Koncertsal står han i spidsen for orkestret under opførelsen af Richard Strauss' 'Till Eulenspiegels lustige Streiche'. Ud",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/ny-dirigent-_-ulf-schirmer_551112",
+    "watchPath": "/se/ny-dirigent-_-ulf-schirmer_551112",
+    "scopes": [
+     "f6f710c6-868c-4bd2-90d0-c1707754f475"
+    ],
+    "releaseYear": 1995,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 939,
+    "customId": "urn:dr:ocs:tv:content:playable:00556027440",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CAP5G4SBG491TGGMKZ2W%27&entityId=%27f6f710c6-868c-4bd2-90d0-c1707754f475%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CAP55YVVZJ3GY6NRCTCW%27&entityId=%27f6f710c6-868c-4bd2-90d0-c1707754f475%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CAP5TG9EGN5W4935FBMY%27&entityId=%27f6f710c6-868c-4bd2-90d0-c1707754f475%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1995-06-29T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "345e38c9a91d7de8b9e43c84735c87e1fc73fc5e4b17f54ba80625331952b8f8",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "29. JUN. 1995 | 16M",
+     "DisplayCategory": "Kultur,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 16M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Musik,Gensyn,DR Gensyn",
+     "PageTitle": "Ny dirigent - Ulf Schirmer",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 16M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "controlled_dirigenter",
+     "controlled_till eulenspiegels lustige streiche",
+     "culturalorigin_dansk",
+     "editorialptaxsub_klassisk musik",
+     "editorialptaxtop_gensyn",
+     "person_richard strauss",
+     "person_ulf schirmer",
+     "thesaurus_klassisk musik"
+    ]
+   },
+   {
+    "id": "f4b2307f-8585-4f55-ad35-e917554f8df2",
+    "type": "season",
+    "subtype": "",
+    "title": "Nye II",
+    "shortDescription": "Dansk ungdomsserie fra 1995. Livet på Egmont Kollegiet i København - med fester, flirt og fællesskab - følges tæt i denne nyskabende reportageserie. (Serien var oprindelig en del af programmet Transit).",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/nye-ii_623644",
+    "scopes": [
+     "f4b2307f-8585-4f55-ad35-e917554f8df2"
+    ],
+    "releaseYear": 1995,
+    "seasonNumber": 1,
+    "seasonId": "f4b2307f-8585-4f55-ad35-e917554f8df2",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:6641252627134",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M528Y68606FGXEBFDN95KWMG%27&entityId=%27f4b2307f-8585-4f55-ad35-e917554f8df2%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M528NRAT465JREYCY4DW999W%27&entityId=%27f4b2307f-8585-4f55-ad35-e917554f8df2%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M528Y686WD17NN42ER16NQZH%27&entityId=%27f4b2307f-8585-4f55-ad35-e917554f8df2%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "7c338c84669a531223d97c59f45143f7ebce7486c54483a62492aaad303b92b7",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Humor,Reality,Gensyn",
+     "ExtraDetails": "Dokumentar | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Humor,Reality,Gensyn,DR Gensyn",
+     "PageTitle": "Nye II: Sæson 1",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "humor",
+     "reality"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "18f4b04e-0473-4936-8ee7-950c15cf20e6",
+    "type": "season",
+    "subtype": "",
+    "title": "Os - det er bare os",
+    "shortDescription": "Dansk børneserie 1996-1997. Med børn, for børn og om noget, børn synes, er sjovt at lave. Værterne Bella, Emil og Emilia leger, viser film, laver forsøg, fortæller gyserhistorier og quizzer.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/os-_-det-er-bare-os_511232",
+    "scopes": [
+     "18f4b04e-0473-4936-8ee7-950c15cf20e6"
+    ],
+    "releaseYear": 1995,
+    "seasonNumber": 1,
+    "seasonId": "18f4b04e-0473-4936-8ee7-950c15cf20e6",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751935236000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M58GDH10G70C3CGWRA8H1QKQ%27&entityId=%2718f4b04e-0473-4936-8ee7-950c15cf20e6%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M58GDH12QBK6E8KZWXYN5M72%27&entityId=%2718f4b04e-0473-4936-8ee7-950c15cf20e6%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M58GDH10G68JJPHFFSG3X11H%27&entityId=%2718f4b04e-0473-4936-8ee7-950c15cf20e6%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "a5eb927779d5185e67cb080191bfa7a903b21c1c57cb6c6830a1005a440cebe1",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Gensyn",
+     "ExtraDetails": "Gensyn | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "PageTitle": "Os - det er bare os: Sæson 1",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "eca319a8-71c4-4c20-a02d-4da876257af2",
+    "type": "season",
+    "subtype": "",
+    "title": "Parløb",
+    "shortDescription": "Dansk komediedramaserie 1990-1992. Jesper Langberg og Helle Merete Sørensen spiller et par, der efter mange års ægteskab kæmper lidt med samliv og hverdagstrummerum.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/parloeb_495909",
+    "scopes": [
+     "eca319a8-71c4-4c20-a02d-4da876257af2"
+    ],
+    "releaseYear": 1990,
+    "seasonNumber": 1,
+    "seasonId": "eca319a8-71c4-4c20-a02d-4da876257af2",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:6113618151000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD2578EK00JQ36M0383E0J%27&entityId=%27eca319a8-71c4-4c20-a02d-4da876257af2%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD2578FNH57BGDGCSTT8A5%27&entityId=%27eca319a8-71c4-4c20-a02d-4da876257af2%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD2579HBAG41785Y2BCB3Y%27&entityId=%27eca319a8-71c4-4c20-a02d-4da876257af2%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "bb52beca19ab069fa37e274716c6b33826c3631fbb694fed541b6baa3a72c941",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Fiktionsserie,Humor,Gensyn",
+     "ExtraDetails": "Fiktionsserie | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Fiktionsserie,Humor,Gensyn,DR Gensyn",
+     "PageTitle": "Parløb: Sæson 1",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "fiktionsserie",
+     "gensyn",
+     "humor"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "c15678c2-7e0f-4b5e-826b-77272f214ee2",
+    "type": "program",
+    "subtype": "",
+    "title": "Pensionatet",
+    "shortDescription": "Dansk dokumentar fra 1995. Steen skal flytte, Claus skal til køreprøve, Olav vil have en hanekam, Tina vil have et nyt værelse, og Steffens fugle skal have unger. Men ikke alt går som forventet i Per Wennicks dokumentar, der følger livet på et pensionat f",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/pensionatet_452693",
+    "watchPath": "/se/pensionatet_452693",
+    "scopes": [
+     "c15678c2-7e0f-4b5e-826b-77272f214ee2"
+    ],
+    "releaseYear": 1995,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 4224,
+    "customId": "urn:dr:ocs:tv:content:playable:00213366370",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7FY0AS3T1XEXQM459923%27&entityId=%27c15678c2-7e0f-4b5e-826b-77272f214ee2%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7FYBJJGE2J5V5RP988V9%27&entityId=%27c15678c2-7e0f-4b5e-826b-77272f214ee2%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7FY6NKC6Q0FWHDBJAB5F%27&entityId=%27c15678c2-7e0f-4b5e-826b-77272f214ee2%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1995-04-28T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "6ee3aa7f5b0919aad5a0765ed074c5cd3d167a14ef2dc2e511e6af91eb370ec6",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "28. APR. 1995 | 1T 10M",
+     "DisplayCategory": "Dokumentar,Gensyn",
+     "ExtraDetails": "Dokumentar | 1T 10M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+     "PageTitle": "Pensionatet",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1T 10M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_gensyn",
+     "thesaurus_psykisk syge"
+    ]
+   },
+   {
+    "id": "38e0127f-2c72-473e-9a16-b6541a7b2dd3",
+    "type": "program",
+    "subtype": "",
+    "title": "Pernille og stofferne",
+    "shortDescription": "Dansk dokumentar fra 1996. Når stof ender i hænderne på den danske tekstildesigner Pernille Holm, sker der noget særligt. Hun frembringer stoffer, der er så unikke, at bl.a. designer Christian Lacroix flere gange har bragt dem på catwalken. Gennem en rækk",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/pernille-og-stofferne_545983",
+    "watchPath": "/se/pernille-og-stofferne_545983",
+    "scopes": [
+     "38e0127f-2c72-473e-9a16-b6541a7b2dd3"
+    ],
+    "releaseYear": 1996,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1725,
+    "customId": "urn:dr:ocs:tv:content:playable:00901992300",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9V9NYQNHA6HYS2Q890MFJ%27&entityId=%2738e0127f-2c72-473e-9a16-b6541a7b2dd3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9V9NXNMB8VW4P113ZQ1X5%27&entityId=%2738e0127f-2c72-473e-9a16-b6541a7b2dd3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9V9NXK0R2DM0FY2F6E64C%27&entityId=%2738e0127f-2c72-473e-9a16-b6541a7b2dd3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1996-07-07T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "8391abf83da8a6546aad1b9f1c899bb3d783a593e220ac0cb22ae3239cd4e8ab",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "7. JUL. 1996 | 29M",
+     "DisplayCategory": "Kultur,Gensyn",
+     "ExtraDetails": "Kultur | 29M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Gensyn,DR Gensyn",
+     "PageTitle": "Pernille og stofferne",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 29M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur"
+    ],
+    "keywords": [
+     "controlled_tekstilhåndværk",
+     "culturalorigin_dansk",
+     "editorialptaxsub_design/arkitektur",
+     "editorialptaxtop_gensyn",
+     "person_pernille holm",
+     "thesaurus_tekstilkunst"
+    ]
+   },
+   {
+    "id": "c9637f0c-78f8-43d8-a2c9-e6ceff6f377e",
+    "type": "season",
+    "subtype": "",
+    "title": "Pigebørn",
+    "shortDescription": "Dansk portrætserie fra 1992. Fire danske forfatterinder fortæller om deres oplevelser i barndommen.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/pigeboern_582683",
+    "scopes": [
+     "c9637f0c-78f8-43d8-a2c9-e6ceff6f377e"
+    ],
+    "releaseYear": 1992,
+    "seasonNumber": 1,
+    "seasonId": "c9637f0c-78f8-43d8-a2c9-e6ceff6f377e",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751939353000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5BBAECCT6RJ7JV0N2637%27&entityId=%27c9637f0c-78f8-43d8-a2c9-e6ceff6f377e%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5BBAMNXZ2CANJFRPDD6S%27&entityId=%27c9637f0c-78f8-43d8-a2c9-e6ceff6f377e%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD5BBAANKF7EP30GXGYXDW%27&entityId=%27c9637f0c-78f8-43d8-a2c9-e6ceff6f377e%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "ddf47f024d5ca64e505795a31a3b85c892e125750cfe4c4a22d7489b8dc50877",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Kultur,Gensyn",
+     "ExtraDetails": "Dokumentar | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Kultur,Gensyn,DR Gensyn",
+     "PageTitle": "Pigebørn: Sæson 1",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "kultur"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "0f752a93-36ca-41fa-aff8-864111000465",
+    "type": "program",
+    "subtype": "",
+    "title": "Pistoler og brosten",
+    "shortDescription": "Dansk aktualitetsprogram fra 1993. Brosten, skud og mange sårede. En demonstration udvikler sig til dramatiske gadekampe på Nørrebro efter EU-folkeafstemningen 18. maj 1993. 'TVA-Indblik' undersøger baggrunden for optøjerne, der fører til skud direkte ind",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/pistoler-og-brosten_438463",
+    "watchPath": "/se/pistoler-og-brosten_438463",
+    "scopes": [
+     "0f752a93-36ca-41fa-aff8-864111000465"
+    ],
+    "releaseYear": 1993,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1779,
+    "customId": "urn:dr:ocs:tv:content:playable:00103748060",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2VHCNDM3AZY4TC0ETBEX%27&entityId=%270f752a93-36ca-41fa-aff8-864111000465%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2VHCSSXC1ECQ09AP8KBY%27&entityId=%270f752a93-36ca-41fa-aff8-864111000465%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2VHEAQKZ7V09BZMW0RRA%27&entityId=%270f752a93-36ca-41fa-aff8-864111000465%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1993-06-04T16:35:57.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "388730fd72668ef0ec40679e579d85442c576e9a045df7f0bce82420217bfa96",
+     "ClassificationRating": "MRAM-NOT-RATED",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "4. JUN. 1993 | 30M",
+     "DisplayCategory": "Arkivnyheder,Gensyn",
+     "ExtraDetails": "Arkivnyheder | 30M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Arkivnyheder,Gensyn,DR Gensyn",
+     "PageTitle": "Pistoler og brosten",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 30M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "arkivnyheder",
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_arkivnyheder",
+     "editorialptaxtop_gensyn",
+     "location_nørrebro",
+     "thesaurus_demonstrationer",
+     "thesaurus_politi",
+     "thesaurus_uroligheder"
+    ]
+   },
+   {
+    "id": "793a9c77-78df-4364-b6d3-2f520eeb06d5",
+    "type": "season",
+    "subtype": "",
+    "title": "Postkort fra sommerlandet",
+    "shortDescription": "Dansk reportageserie fra 1994. Kom med en tur rundt i landet og oplev forskellige måder at holde sommerferie på.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/postkort-fra-sommerlandet_525682",
+    "scopes": [
+     "793a9c77-78df-4364-b6d3-2f520eeb06d5"
+    ],
+    "releaseYear": 1994,
+    "seasonNumber": 1,
+    "seasonId": "793a9c77-78df-4364-b6d3-2f520eeb06d5",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751934720000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD518FSSA5E2CMDY6GR2CN%27&entityId=%27793a9c77-78df-4364-b6d3-2f520eeb06d5%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD518FE26YNJNKDSW96G3V%27&entityId=%27793a9c77-78df-4364-b6d3-2f520eeb06d5%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD518FE26YNJNKDSW96G3V%27&entityId=%27793a9c77-78df-4364-b6d3-2f520eeb06d5%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "ff567b0222286611bd840f253616112c2b6838aad8aa19348fec79097ed501bc",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Rejse,Gensyn",
+     "ExtraDetails": "Livsstil | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Rejse,Gensyn,DR Gensyn",
+     "PageTitle": "Postkort fra sommerlandet: Sæson 1",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "livsstil",
+     "rejse"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "ac83bcfe-52d2-4d94-aca1-6388a4075007",
+    "type": "program",
+    "subtype": "",
+    "title": "Pressemøde med dronning Margrethe - 25-års regeringsjubilæum",
+    "shortDescription": "Dansk reportage fra 1996. \"Man ville ikke dø af min mad, men jeg er ikke sikker på, at man ville overleve min kørsel\". I anledning af dronning Margrethes 25-års regeringsjubilæum i januar 1997 er den danske dagspresse inviteret til at møde dronningen og p",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/pressemoede-med-dronning-margrethe-_-25_aars-regeringsjubilaeum_438464",
+    "watchPath": "/se/pressemoede-med-dronning-margrethe-_-25_aars-regeringsjubilaeum_438464",
+    "scopes": [
+     "ac83bcfe-52d2-4d94-aca1-6388a4075007"
+    ],
+    "releaseYear": 1996,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2065,
+    "customId": "urn:dr:ocs:tv:content:playable:00102060320",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ13XWT504BHD9J3891V39%27&entityId=%27ac83bcfe-52d2-4d94-aca1-6388a4075007%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ13XS7AS6VCBM14W18D3C%27&entityId=%27ac83bcfe-52d2-4d94-aca1-6388a4075007%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ13Y51R38XK09SNKMJG8G%27&entityId=%27ac83bcfe-52d2-4d94-aca1-6388a4075007%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1996-12-30T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "0b800c5b6a359ee09766e148bafc816f7910761b42ff5225cb4ab229506e4eb3",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "30. DEC. 1996 | 34M",
+     "DisplayCategory": "Gensyn",
+     "ExtraDetails": "Gensyn | 34M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Gensyn,DR Gensyn",
+     "PageTitle": "Pressemøde med dronning Margrethe - 25-års regeringsjubilæum",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 34M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_arkivnyheder",
+     "editorialptaxtop_gensyn",
+     "person_margrethe ii, dronning, danmark",
+     "thesaurus_kongelige"
+    ]
+   },
+   {
+    "id": "75c09fc3-9a11-4fa7-b81b-bbbf48cabbce",
+    "type": "program",
+    "subtype": "",
+    "title": "Pressemøde med Morten Boje - om Estonias forlis",
+    "shortDescription": "Dansk reportage fra 1994. Færgen Estonia forliser d. 28. september 1994. En defekt borgport er skyld i en af de værste skibskatastrofer i Europa i fredstid. 28-årige Morten Boje når at bane sig vej ud af skibet, inden det synker, og han finder en plads i ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/pressemoede-med-morten-boje-_-om-estonias-forlis_439497",
+    "watchPath": "/se/pressemoede-med-morten-boje-_-om-estonias-forlis_439497",
+    "scopes": [
+     "75c09fc3-9a11-4fa7-b81b-bbbf48cabbce"
+    ],
+    "releaseYear": 1994,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 207,
+    "customId": "urn:dr:ocs:tv:content:playable:00502411040",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z895B0FG3J0NCX2DH0C1M1%27&entityId=%2775c09fc3-9a11-4fa7-b81b-bbbf48cabbce%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z895B0Q03XBKEB5A9VAX78%27&entityId=%2775c09fc3-9a11-4fa7-b81b-bbbf48cabbce%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z895B0N73603SY22CE8N3B%27&entityId=%2775c09fc3-9a11-4fa7-b81b-bbbf48cabbce%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1994-09-30T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "6be5429f9db1f01467d518789913607d61c6fb3269cb70338d4dbcdfe6a13ef3",
+     "ClassificationRating": "MRAM-NOT-RATED",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "30. SEP. 1994 | 3M",
+     "DisplayCategory": "Arkivnyheder,Gensyn",
+     "ExtraDetails": "Arkivnyheder | 3M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Arkivnyheder,Gensyn,DR Gensyn",
+     "PageTitle": "Pressemøde med Morten Boje - om Estonias forlis",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 3M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "arkivnyheder",
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "controlled_estonia (færge)",
+     "culturalorigin_dansk",
+     "editorialptaxsub_arkivnyheder",
+     "editorialptaxtop_gensyn",
+     "location_østersøen",
+     "thesaurus_søulykker"
+    ]
+   },
+   {
+    "id": "bf65e741-061b-4b7d-b191-b897feaa1a3c",
+    "type": "program",
+    "subtype": "",
+    "title": "Pressemøde - prins Joachim og Alexandra Manleys forlovelse",
+    "shortDescription": "Dansk reportage fra 1995. Den danske offentlighed bliver taget på sengen. Prins Joachim forlover sig pludseligt - med Alexandra Manley, en forretningskvinde fra Hongkong med asiatiske og østrigske rødder. I den anledning er der inviteret til pressemøde og",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/pressemoede-_-prins-joachim-og-alexandra-manleys-forlovelse_438465",
+    "watchPath": "/se/pressemoede-_-prins-joachim-og-alexandra-manleys-forlovelse_438465",
+    "scopes": [
+     "bf65e741-061b-4b7d-b191-b897feaa1a3c"
+    ],
+    "releaseYear": 1995,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1325,
+    "customId": "urn:dr:ocs:tv:content:playable:00103974070",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2WDEQ7KJ8CE99Y8BVJXY%27&entityId=%27bf65e741-061b-4b7d-b191-b897feaa1a3c%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2WDGDB5XBGVDM3BAM2EW%27&entityId=%27bf65e741-061b-4b7d-b191-b897feaa1a3c%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2WDEYCQSHBE0Q84NTR5T%27&entityId=%27bf65e741-061b-4b7d-b191-b897feaa1a3c%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1995-06-01T12:28:57.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "56b8ebcd53748a4fdbf7fcbc438aef4346825bed8dfdbdb9f924882cbb14c32b",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "1. JUN. 1995 | 22M",
+     "DisplayCategory": "Arkivnyheder,Gensyn",
+     "ExtraDetails": "Arkivnyheder | 22M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Arkivnyheder,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Pressemøde - prins Joachim og Alexandra Manleys forlovelse",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 22M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "arkivnyheder",
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_arkivnyheder",
+     "editorialptaxtop_gensyn",
+     "person_alexandra, grevinde af frederiksborg",
+     "person_joachim, prins, danmark",
+     "thesaurus_kongelige"
+    ]
+   },
+   {
+    "id": "3ed3e1b4-518b-4b97-b12b-d2da6d9d5e03",
+    "type": "program",
+    "subtype": "",
+    "title": "Quincy Jones - Fra Bop til Rap",
+    "shortDescription": "Dansk portrætprogram fra 1990. Henrik Iversen interviewer Quincy Jones om hans enestående karriere i amerikansk musik. Fra bebop i 40'erne og halvtreds år og frem, hvor han betragtes som den nye popmusiks bagmand. I udsendelsen fortæller han om det nye al",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/quincy-jones-_-fra-bop-til-rap_488489",
+    "watchPath": "/se/quincy-jones-_-fra-bop-til-rap_488489",
+    "scopes": [
+     "3ed3e1b4-518b-4b97-b12b-d2da6d9d5e03"
+    ],
+    "releaseYear": 1990,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1348,
+    "customId": "urn:dr:ocs:tv:content:playable:00506158380",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8B0491EMSVA28SQD4B8J1%27&entityId=%273ed3e1b4-518b-4b97-b12b-d2da6d9d5e03%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8B0491VDT0WVJ70CCNMB8%27&entityId=%273ed3e1b4-518b-4b97-b12b-d2da6d9d5e03%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8B049AHZKX1C3MZ4DDH45%27&entityId=%273ed3e1b4-518b-4b97-b12b-d2da6d9d5e03%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1990-06-28T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "a151d032758856693c16378784dd7fb9962b2ab57d99e0b443303e17991174b5",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "28. JUN. 1990 | 22M",
+     "DisplayCategory": "Kultur,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 22M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Musik,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Quincy Jones - Fra Bop til Rap",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 22M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_gensyn",
+     "person_quincy jones",
+     "thesaurus_jazz",
+     "thesaurus_pop"
+    ]
+   },
+   {
+    "id": "0d318812-4720-460c-bf2e-556999f31da3",
+    "type": "program",
+    "subtype": "",
+    "title": "Radiosymfoniorkestrets tv-historie",
+    "shortDescription": "Dansk musikprogram fra 1991. Michael Schønwandt har i 1991 titlen 1. Kapelmester ved Radiosymfoniorkestret. Og i anledning af DR's 40-års jubilæum har han udvalgt en række højdepunkter fra orkestrets koncertvirksomhed gennem årene. Leopold Stokowski, Herb",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/radiosymfoniorkestrets-tv_historie_550437",
+    "watchPath": "/se/radiosymfoniorkestrets-tv_historie_550437",
+    "scopes": [
+     "0d318812-4720-460c-bf2e-556999f31da3"
+    ],
+    "releaseYear": 1991,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2533,
+    "customId": "urn:dr:ocs:tv:content:playable:00518112110",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BCDR6XH0QAQX2V1DFQP7%27&entityId=%270d318812-4720-460c-bf2e-556999f31da3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BCDRNFS7GGZ5WB0PAQ5J%27&entityId=%270d318812-4720-460c-bf2e-556999f31da3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BCDRKT3VMQYXC4NWTFBB%27&entityId=%270d318812-4720-460c-bf2e-556999f31da3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1991-10-01T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "c4d39f236649e3458916dafbdb1a81480a63ae10625e044ac015a447cebe820b",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "1. OKT. 1991 | 42M",
+     "DisplayCategory": "Kultur,Historie,Gensyn",
+     "ExtraDetails": "Kultur | 42M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Historie,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Radiosymfoniorkestrets tv-historie",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 42M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "historie",
+     "kultur"
+    ],
+    "keywords": [
+     "controlled_symfoniorkestre",
+     "culturalorigin_dansk",
+     "editorialptaxsub_klassisk musik",
+     "editorialptaxtop_gensyn",
+     "organization_dr symfoniorkestret",
+     "thesaurus_klassisk musik"
+    ]
+   },
+   {
+    "id": "1686375a-a28f-472b-a25e-09f02d1645cb",
+    "type": "season",
+    "subtype": "",
+    "title": "Renters rente",
+    "shortDescription": "Dansk krimiserie fra 1996. Fritz Helmuth har hovedrollen som alkoholiseret læge i en psykologisk thriller i to dele - baseret på Erik Amdrups prisbelønnede roman.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/renters-rente_426281",
+    "scopes": [
+     "1686375a-a28f-472b-a25e-09f02d1645cb"
+    ],
+    "releaseYear": 1996,
+    "seasonNumber": 1,
+    "seasonId": "1686375a-a28f-472b-a25e-09f02d1645cb",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751935332000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD51TMEGKVMDA28SJR3YY9%27&entityId=%271686375a-a28f-472b-a25e-09f02d1645cb%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD51TT0PPD5PQA542DQVT2%27&entityId=%271686375a-a28f-472b-a25e-09f02d1645cb%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD51TMV7CW65FMBQETHYP7%27&entityId=%271686375a-a28f-472b-a25e-09f02d1645cb%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "215a4dd4774a3eade07dd0666491ae4ec1957cdab2ad9a16dde7943684eae161",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Fiktionsserie,Krimi,Gensyn",
+     "ExtraDetails": "Fiktionsserie | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Fiktionsserie,Krimi,Gensyn,DR Gensyn",
+     "PageTitle": "Renters rente: Sæson 1",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "fiktionsserie",
+     "gensyn",
+     "krimi"
+    ],
+    "keywords": [
+     "editorialptaxsub_thriller/krimi",
+     "editorialptaxtop_serier"
+    ]
+   },
+   {
+    "id": "12e569b5-03d9-411e-92d6-c83f0aade71c",
+    "type": "program",
+    "subtype": "",
+    "title": "Robyn i London",
+    "shortDescription": "Dansk portrætprogram fra 1996. I en alder af kun 16 år debuterer Robyn i 1995 med albummet 'Robyn Is Here'. Det skaffer den svenske sangerinde et større gennembrud i hele Norden, og nu gælder det resten af Europa. Derfor er hun i London for at give interv",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/robyn-i-london_446617",
+    "watchPath": "/se/robyn-i-london_446617",
+    "scopes": [
+     "12e569b5-03d9-411e-92d6-c83f0aade71c"
+    ],
+    "releaseYear": 1996,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1107,
+    "customId": "urn:dr:ocs:tv:content:playable:00522109430",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BM4ZBRH5GRBP3H5YVPAM%27&entityId=%2712e569b5-03d9-411e-92d6-c83f0aade71c%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BM4Z95F79VXCN6K1Z0S5%27&entityId=%2712e569b5-03d9-411e-92d6-c83f0aade71c%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BM4Z84B5N5CX0TP1PJN7%27&entityId=%2712e569b5-03d9-411e-92d6-c83f0aade71c%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1996-06-23T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "d720685ee891eeeddf091a4ce8cf7d81a81e79cfe9899987de861f022085072e",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "23. JUN. 1996 | 18M",
+     "DisplayCategory": "Kultur,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 18M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Musik,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Robyn i London",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 18M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_gensyn",
+     "person_robyn",
+     "thesaurus_rytmisk musik"
+    ]
+   },
+   {
+    "id": "9fe6e9b5-5aa1-4791-b599-cd206b1b7095",
+    "type": "season",
+    "subtype": "",
+    "title": "Russian Pizza Blues",
+    "shortDescription": "Dansk komediedramaserie fra 1995. I løbet af en skærsommernat krydser en række mennesker fra nær og fjern hinanden på finurlig vis. Wikke & Rasmussen står bag.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/russian-pizza-blues_486120",
+    "scopes": [
+     "9fe6e9b5-5aa1-4791-b599-cd206b1b7095"
+    ],
+    "releaseYear": 1995,
+    "seasonNumber": 1,
+    "seasonId": "9fe6e9b5-5aa1-4791-b599-cd206b1b7095",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:752006062000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD8833ZQSZQE0AHBP6C2BV%27&entityId=%279fe6e9b5-5aa1-4791-b599-cd206b1b7095%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD88389CWGANQDG4M2TWRH%27&entityId=%279fe6e9b5-5aa1-4791-b599-cd206b1b7095%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD8833KWRP1ZQHYD8V7D1M%27&entityId=%279fe6e9b5-5aa1-4791-b599-cd206b1b7095%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "f49d09310132512be1557563d0f69ef99d29404c2b21f0747df97ea7d68d4879",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Fiktionsserie,Humor,Gensyn",
+     "ExtraDetails": "Fiktionsserie | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Fiktionsserie,Humor,Gensyn,DR Gensyn",
+     "PageTitle": "Russian Pizza Blues: Sæson 1",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "fiktionsserie",
+     "gensyn",
+     "humor"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "529ac778-5b9d-4ed6-a67d-2ef7f01c5225",
+    "type": "season",
+    "subtype": "",
+    "title": "Rutebilen",
+    "shortDescription": "Dansk reportageserie fra 1998. Journalisten Vagn Olsen tager på rejse med rutebil rundt i Danmark, hvor han tegner små portrætter af landsdelene og deres mennesker.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/rutebilen_551149",
+    "scopes": [
+     "529ac778-5b9d-4ed6-a67d-2ef7f01c5225"
+    ],
+    "releaseYear": 1998,
+    "seasonNumber": 1,
+    "seasonId": "529ac778-5b9d-4ed6-a67d-2ef7f01c5225",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751936579000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD56C11VC62BH1FFVZVN19%27&entityId=%27529ac778-5b9d-4ed6-a67d-2ef7f01c5225%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD56C167YG7THZ4XG5MG4A%27&entityId=%27529ac778-5b9d-4ed6-a67d-2ef7f01c5225%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD56C1FEHB8WFJCG2PMREK%27&entityId=%27529ac778-5b9d-4ed6-a67d-2ef7f01c5225%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "ae1f842e24acd7ee1a9d3391f0dee342195415763be4566f5e99dbe67392c249",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Rejse,Gensyn",
+     "ExtraDetails": "Livsstil | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Rejse,Gensyn,DR Gensyn",
+     "PageTitle": "Rutebilen: Sæson 1",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "livsstil",
+     "rejse"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "83d83fd4-0a5e-4d12-be58-2f8020e79380",
+    "type": "program",
+    "subtype": "",
+    "title": "Sandheden ifølge Anna Castberg",
+    "shortDescription": "Dansk interviewprogram fra 1997. Anna Castberg får en kort, men opsigtsvækkende karriere i den danske museumsverden. Ud af ingenting dukker udlandsdanskeren op og bliver direktør for kunstmuseet Arken i 1993. Men et halvt år efter indvielsen i 1996 bliver",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/sandheden-ifoelge-anna-castberg_425327",
+    "watchPath": "/se/sandheden-ifoelge-anna-castberg_425327",
+    "scopes": [
+     "83d83fd4-0a5e-4d12-be58-2f8020e79380"
+    ],
+    "releaseYear": 1997,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1977,
+    "customId": "urn:dr:ocs:tv:content:playable:00213713430",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7S3628ZMJAGZQ5YGGX26%27&entityId=%2783d83fd4-0a5e-4d12-be58-2f8020e79380%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7S36W0RR04YT5AFV5NFF%27&entityId=%2783d83fd4-0a5e-4d12-be58-2f8020e79380%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7S39SS5SHXG3N8GFES2V%27&entityId=%2783d83fd4-0a5e-4d12-be58-2f8020e79380%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1997-08-14T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "beb718fb6e3d993a5b8f13e0c83e88e7afd7dbf906f31cfdec7eb197d6a68798",
+     "ClassificationRating": "MRAM-NOT-RATED",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "14. AUG. 1997 | 33M",
+     "DisplayCategory": "Dokumentar,Gensyn",
+     "ExtraDetails": "Dokumentar | 33M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+     "PageTitle": "Sandheden ifølge Anna Castberg",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 33M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "controlled_skandaler",
+     "culturalorigin_dansk",
+     "editorialptaxsub_arkivnyheder",
+     "editorialptaxtop_gensyn",
+     "organization_arken museum for samtidskunst",
+     "person_anna castberg",
+     "thesaurus_bedrageri"
+    ]
+   },
+   {
+    "id": "2956f5de-c385-41a4-a94f-5ede1c218e97",
+    "type": "program",
+    "subtype": "",
+    "title": "Sanne Salomonsen unplugged",
+    "shortDescription": "Dansk koncertoptagelse fra 1994. Indspilningen af en række numre til Sanne Salomonsens Unplugged-album sker foran publikum og rullende kameraer. Med på scenen er blandt andre Nikolaj Steen og Lis Sørensen, som medvirker på henholdsvis 'Come Together' og '",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/sanne-salomonsen-unplugged_560786",
+    "watchPath": "/se/sanne-salomonsen-unplugged_560786",
+    "scopes": [
+     "2956f5de-c385-41a4-a94f-5ede1c218e97"
+    ],
+    "releaseYear": 1994,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2340,
+    "customId": "urn:dr:ocs:tv:content:playable:00556028330",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CAXPEGEJFY723P3MBNPQ%27&entityId=%272956f5de-c385-41a4-a94f-5ede1c218e97%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CAS376672DRD6G89XWRA%27&entityId=%272956f5de-c385-41a4-a94f-5ede1c218e97%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8CASBPV27KA8NKN7EHYFH%27&entityId=%272956f5de-c385-41a4-a94f-5ede1c218e97%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1994-11-23T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "163543375c4b0f2fc924ae7b7714cadae1772ce765022f8d5bca57d5fc65f59e",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "23. NOV. 1994 | 39M",
+     "DisplayCategory": "Underholdning,Musik,Gensyn",
+     "ExtraDetails": "Underholdning | 39M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Underholdning,Musik,Gensyn,DR Gensyn",
+     "PageTitle": "Sanne Salomonsen unplugged",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 39M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_gensyn",
+     "person_sanne salomonsen",
+     "thesaurus_rock"
+    ]
+   },
+   {
+    "id": "14a4ab4a-2f3a-4941-a73b-fc3094d9e97d",
+    "type": "program",
+    "subtype": "",
+    "title": "Savage Rose",
+    "shortDescription": "Dansk portrætprogram fra 1996. Jørgen de Mylius' portræt af Savage Rose giver et fascinerende indblik i gruppens arbejde gennem 25 år - med Thomas Koppels sange og Anisettes unikke stemmepragt, der har imponeret folk fra hele verden. Programmet kommer run",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/savage-rose_506323",
+    "watchPath": "/se/savage-rose_506323",
+    "scopes": [
+     "14a4ab4a-2f3a-4941-a73b-fc3094d9e97d"
+    ],
+    "releaseYear": 1996,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 3548,
+    "customId": "urn:dr:ocs:tv:content:playable:00522057610",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BG16TMM78RJ00GC65Y7R%27&entityId=%2714a4ab4a-2f3a-4941-a73b-fc3094d9e97d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BG164XMNMQ1V6213FEKC%27&entityId=%2714a4ab4a-2f3a-4941-a73b-fc3094d9e97d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8BG16R0RJGEXEN11SZE76%27&entityId=%2714a4ab4a-2f3a-4941-a73b-fc3094d9e97d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "1996-06-15T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "af0a893c0be17b27fdd75715fcce195ae8f72e00ff13bea97b77fbc77bba3080",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "15. JUN. 1996 | 59M",
+     "DisplayCategory": "Kultur,Underholdning,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 59M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Underholdning,Musik,Gensyn,DR Gensyn,acc_spoken_subtitles",
+     "PageTitle": "Savage Rose",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 59M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_gensyn",
+     "organization_the savage rose",
+     "person_annisette koppel",
+     "person_jørgen de mylius",
+     "person_thomas koppel"
+    ]
+   },
+   {
+    "id": "e8e4a0f5-c97c-4302-86af-d7833f7530a5",
+    "type": "program",
+    "subtype": "",
+    "title": "Schlüters Verden",
+    "shortDescription": "Dansk dokumentar fra 1992. Poul Schlüter har i ti år været statsminister i Danmark. Mange spåede den borgerlige regering en kort levetid, men det gik anderledes. Dette portræt forsøger at give et billede af både privatpersonen og politikeren Schlüter genn",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/schlueters-verden_438485",
+    "watchPath": "/se/schlueters-verden_438485",
+    "scopes": [
+     "e8e4a0f5-c97c-4302-86af-d7833f7530a5"
+    ],
+    "releaseYear": 1992,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1755,
+    "customId": "urn:dr:ocs:tv:content:playable:00213245230",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7E001NMQMMHEJ34F8MM7%27&entityId=%27e8e4a0f5-c97c-4302-86af-d7833f7530a5%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7DZS3RSM159KB5EZ64NM%27&entityId=%27e8e4a0f5-c97c-4302-86af-d7833f7530a5%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7DZSK9Y849WPVD7V8KP9%27&entityId=%27e8e4a0f5-c97c-4302-86af-d7833f7530a5%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1992-09-07T16:35:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "71b126bd335d4163984be23bf6cef0d7890ebb9a9200f96407d3247b22818f01",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "7. SEP. 1992 | 29M",
+     "DisplayCategory": "Dokumentar,Politik,Gensyn",
+     "ExtraDetails": "Dokumentar | 29M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Politik,Gensyn,DR Gensyn",
+     "PageTitle": "Schlüters Verden",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 29M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "politik"
+    ],
+    "keywords": [
+     "controlled_statsministre",
+     "culturalorigin_dansk",
+     "editorialptaxsub_aktualitet/samfundsforhold",
+     "editorialptaxtop_gensyn",
+     "organization_det konservative folkeparti",
+     "person_poul schlüter",
+     "thesaurus_politik"
+    ]
+   },
+   {
+    "id": "86966a51-58cb-4b7c-beaa-88e93d55158f",
+    "type": "program",
+    "subtype": "",
+    "title": "Schuberts 4. symfoni - dirigeret af Ulf Schirmer",
+    "shortDescription": "Dansk koncertoptagelse fra 1997. Under ledelse af chefdirigent Ulf Schirmer spiller Radiosymfoniorkestret Franz Schuberts 4. symfoni - også kaldet 'Den tragiske'. Udløber: 28. okt. 2027",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/schuberts-4-symfoni-_-dirigeret-af-ulf-schirmer_556945",
+    "watchPath": "/se/schuberts-4-symfoni-_-dirigeret-af-ulf-schirmer_556945",
+    "scopes": [
+     "86966a51-58cb-4b7c-beaa-88e93d55158f"
+    ],
+    "releaseYear": 1997,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1859,
+    "customId": "urn:dr:ocs:tv:content:playable:00213631110",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7PNKN7SKNDGX29FHTXXG%27&entityId=%2786966a51-58cb-4b7c-beaa-88e93d55158f%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7PNPC1CH8T8VCS21Q90Q%27&entityId=%2786966a51-58cb-4b7c-beaa-88e93d55158f%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ7PNNDZ490AF594889CAN%27&entityId=%2786966a51-58cb-4b7c-beaa-88e93d55158f%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1997-09-21T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "3c33d539b716f66cce28cbaaa523bb3850a83297e19c195b872ca455cb9e6eba",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "21. SEP. 1997 | 31M",
+     "DisplayCategory": "Kultur,Musik,Gensyn",
+     "ExtraDetails": "Kultur | 31M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Kultur,Musik,Gensyn,DR Gensyn",
+     "PageTitle": "Schuberts 4. symfoni - dirigeret af Ulf Schirmer",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 31M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "controlled_symfoni nr. 4 (franz schubert)",
+     "culturalorigin_dansk",
+     "editorialptaxsub_klassisk musik",
+     "editorialptaxtop_gensyn",
+     "person_franz schubert",
+     "thesaurus_klassisk musik"
+    ]
+   },
+   {
+    "id": "f5e8fe25-fad9-417d-9cfd-c9a55ff84df5",
+    "type": "season",
+    "subtype": "",
+    "title": "Score-Kaj",
+    "shortDescription": "Dansk børneserie fra 1995. Charme, selvtillid og lækkert hår - det er Score-Kajs opskrift på succes hos lamsebamserne. Peter Mygind spiller Score-Kaj, der oprindelig var en del af serien TV 10 Lørdag.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/score_kaj_441510",
+    "scopes": [
+     "f5e8fe25-fad9-417d-9cfd-c9a55ff84df5"
+    ],
+    "releaseYear": 1995,
+    "seasonNumber": 1,
+    "seasonId": "f5e8fe25-fad9-417d-9cfd-c9a55ff84df5",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:5341513563000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD0A3KE2VBEEQQFHHEWSVW%27&entityId=%27f5e8fe25-fad9-417d-9cfd-c9a55ff84df5%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD0A3MP5DQ06E6PYR8YVAF%27&entityId=%27f5e8fe25-fad9-417d-9cfd-c9a55ff84df5%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD0A3KTSPDBB42XEQ50WFT%27&entityId=%27f5e8fe25-fad9-417d-9cfd-c9a55ff84df5%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "8b75cfad1a5af3ca9e25b9a558d6cb75cf2deb8a3dad9d3ae9ea5c03cd65786b",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Gensyn,Humor",
+     "ExtraDetails": "Gensyn | SÆSON 1",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Gensyn,Humor,DR Gensyn",
+     "PageTitle": "Score-Kaj: Sæson 1",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "humor"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "dcd8c3da-c1fa-4186-bd9c-e7b834054e4d",
+    "type": "season",
+    "subtype": "",
+    "title": "Scratch",
+    "shortDescription": "Dansk aktualitetsserie 1992-1995. Med nyheder og aktuelle emner for børn og unge. Mikkel Beha Erichsen og Dorte Høeg Brask er med til at lave interviews og knytte indslagene sammen.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/scratch_489978",
+    "scopes": [
+     "dcd8c3da-c1fa-4186-bd9c-e7b834054e4d"
+    ],
+    "releaseYear": 1993,
+    "seasonNumber": 1993,
+    "seasonId": "dcd8c3da-c1fa-4186-bd9c-e7b834054e4d",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:6031325855000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD1YH2TVFMRGKCTAC3K582%27&entityId=%27dcd8c3da-c1fa-4186-bd9c-e7b834054e4d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD1YH3MMMXHJHZHVP02GC4%27&entityId=%27dcd8c3da-c1fa-4186-bd9c-e7b834054e4d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD1YH3R9QCA20HC12XM35T%27&entityId=%27dcd8c3da-c1fa-4186-bd9c-e7b834054e4d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "7c4713b0c7f11c051cfb6e06a00bfa2ee77c6a4edefd570cb6da2d123da47ca8",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Gensyn",
+     "ExtraDetails": "Livsstil | SÆSON 1993",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Gensyn,DR Gensyn",
+     "PageTitle": "Scratch: Sæson 1993",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "livsstil"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "644ff3ac-9606-4af8-8507-48fc2318eca3",
+    "type": "season",
+    "subtype": "",
+    "title": "Scratch",
+    "shortDescription": "Dansk aktualitetsserie 1992-1995. Med nyheder og aktuelle emner for børn og unge. Mikkel Beha Erichsen og Dorte Høeg Brask er med til at lave interviews og knytte indslagene sammen.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/saeson/scratch_582852",
+    "scopes": [
+     "644ff3ac-9606-4af8-8507-48fc2318eca3"
+    ],
+    "releaseYear": 1994,
+    "seasonNumber": 1994,
+    "seasonId": "644ff3ac-9606-4af8-8507-48fc2318eca3",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:season:751990508000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD75WDZDBTWYT9GDH4SC99%27&entityId=%27644ff3ac-9606-4af8-8507-48fc2318eca3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD75WDRZGWC0JY3GPHKGND%27&entityId=%27644ff3ac-9606-4af8-8507-48fc2318eca3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD75WDE4C632FY12FA1DS7%27&entityId=%27644ff3ac-9606-4af8-8507-48fc2318eca3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "3bdb5c02fce1698eee8a9d59ee1cfb261a51ccb59bde1baacc70b593d001f5a1",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Gensyn",
+     "ExtraDetails": "Livsstil | SÆSON 1994",
+     "IsGeoRestricted": false,
+     "IsSeasonDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Gensyn,DR Gensyn",
+     "PageTitle": "Scratch: Sæson 1994",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "livsstil"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "8d0c3300-889e-4e90-ad96-472ad863f800",
+    "type": "program",
+    "subtype": "",
+    "title": "Selskabet - Fire mænd og en fangststation",
+    "shortDescription": "Dansk reportage fra 1997. Fire danskere holder en usædvanlig sommerferie højt oppe i det barske Nordøstgrønland. Her gør de deres for at bevare et stykke enestående Danmarkshistorie - de sætter en gammel fangststation i stand. De fire mænd forklarer også,",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/selskabet-_-fire-maend-og-en-fangststation_531645",
+    "watchPath": "/se/selskabet-_-fire-maend-og-en-fangststation_531645",
+    "scopes": [
+     "8d0c3300-889e-4e90-ad96-472ad863f800"
+    ],
+    "releaseYear": 1996,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1728,
+    "customId": "urn:dr:ocs:tv:content:playable:00902145150",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9V9Z39APMXQT4VBV8X3VC%27&entityId=%278d0c3300-889e-4e90-ad96-472ad863f800%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9V9Z3S3YM8HQVCZXWTNDK%27&entityId=%278d0c3300-889e-4e90-ad96-472ad863f800%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z9V9Z3D0NTE5JR44ZZ1ZN0%27&entityId=%278d0c3300-889e-4e90-ad96-472ad863f800%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1997-03-04T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "ffeb37d2ae7e5ee1c28f0626d387d33bbbdee0ec4cb798d86e381bd6a3ec935e",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "4. MAR. 1997 | 29M",
+     "DisplayCategory": "Dokumentar,Natur,Gensyn",
+     "ExtraDetails": "Dokumentar | 29M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Natur,Gensyn,DR Gensyn",
+     "PageTitle": "Selskabet - Fire mænd og en fangststation",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 29M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn",
+     "natur"
+    ],
+    "keywords": [
+     "controlled_fangsthistorie",
+     "controlled_fangststationer",
+     "controlled_kulturarv",
+     "controlled_pelsjagt",
+     "culturalorigin_dansk",
+     "editorialptaxsub_aktualitet/samfundsforhold",
+     "editorialptaxtop_gensyn",
+     "location_nordøstgrønland",
+     "thesaurus_arktis"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "next": "/lists/c24bee18-815a-83d8-b448-551fa4a72f4a?page=5&page_size=50&order=Desc",
+   "previous": "/lists/c24bee18-815a-83d8-b448-551fa4a72f4a?page=3&page_size=50&order=Desc",
+   "page": 4,
+   "size": 50,
+   "total": 5
+  },
+  "customFields": {
+   "PathIdSegment": "gensyn-_-1990erne-_-a-_-aa_432550"
+  }
+ }
+}

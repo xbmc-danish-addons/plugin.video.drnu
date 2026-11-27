@@ -68,8 +68,8 @@ def test_refresh_tokens_recovers_from_corrupt_file(tmp_path, monkeypatch):
     api = _api(tmp_path)
     api.token_file.write_bytes(b'\x80\x04garbage')  # truncated pickle
     api.get_setting = lambda name: ''
-    api.user = ''
-    api.password = ''
+    api.user = 'user'
+    api.password = 'pw'
     api._user_name = ''
     api.read_tokens = lambda tokens: None
     api.write_tokens = lambda tokens: None

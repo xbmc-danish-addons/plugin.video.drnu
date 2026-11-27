@@ -1,19 +1,224 @@
 [
   {
-    "label": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
-    "url": "?playVideo=434275&kids=False&idpath=/episode/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275",
+    "label": "Dragehjerter - dating i nye roller 1",
+    "url": "?listVideos=/saeson/dragehjerter-_-dating-i-nye-roller_629366&seasons=False",
     "params": {
-      "playVideo": "434275",
-      "kids": "False",
-      "idpath": "/episode/taet-paa-sandheden-med-jonatan-spang_-programmet-fra-himlen_434275"
+      "listVideos": "/saeson/dragehjerter-_-dating-i-nye-roller_629366",
+      "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Tæt på sandheden med Jonatan Spang: Programmet fra himlen",
-      "plot": "Vi er slet ikke færdige med at tale om mink, da det er kommet frem, at erstatningen til minkavlere formentlig vil stige med omkring seks milliarder kroner. Og så er der et nyt lovforslag under behandling. Det handler om, hvilket nationalflag du må have i ",
-      "plotoutline": "Et satirisk blik på ugens nyheder og tendenser",
-      "aired": "2024-02-10",
-      "year": 2024,
+      "title": "Dragehjerter - dating i nye roller 1",
+      "plot": "16 singler flytter ind på et slot. De får tildelt en fantasykarakter og skal date hinanden på en helt ny måde. For måske er det lettere at finde kærligheden, når man får lov til at være en anden.",
+      "plotoutline": "Episode 1:8 | Nyt, stort datingshow: 16 singler skal date på en helt ny måde",
+      "season": 1,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=b1643861-7c4f-4df7-89ff-81b5f96e7c39)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/dragehjerter-_-dating-i-nye-roller_629366&seasons=False&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Kommissionen: Mettes befolkningsudskiftning, gambling i børnehøjde, Saudi-Arabiens danske arkitekter",
+    "url": "?playVideo=5595457b-5cd2-4759-a6c1-9449292d8e6c&kids=False&idpath=/episode/kommissionen_-mettes-befolkningsudskiftning-gambling-i-boernehoejde-saudi_arabiens-danske-arkitekter_622444",
+    "params": {
+      "playVideo": "5595457b-5cd2-4759-a6c1-9449292d8e6c",
+      "kids": "False",
+      "idpath": "/episode/kommissionen_-mettes-befolkningsudskiftning-gambling-i-boernehoejde-saudi_arabiens-danske-arkitekter_622444"
+    },
+    "info": {
+      "resume": null,
+      "title": "Kommissionen: Mettes befolkningsudskiftning, gambling i børnehøjde, Saudi-Arabiens danske arkitekter",
+      "plot": "Mette Frederiksen er på udlændingepolitisk stram slingrekurs inklusiv en kovending efter taler om fare for befolkningsudskiftning. Vi går på jagt i børnenes gamblificerede legeverdener og ser på dem, der tjener på dem. Og så tager vi til Saudi-Arabien, hv",
+      "plotoutline": "Et satirisk blik på magtens hykleri og ugens vigtigste historier",
+      "episode": 20,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=5595457b-5cd2-4759-a6c1-9449292d8e6c)"
+      ]
+    ]
+  },
+  {
+    "label": "Babylon Berlin 5",
+    "url": "?listVideos=/saeson/babylon-berlin_620932&seasons=False",
+    "params": {
+      "listVideos": "/saeson/babylon-berlin_620932",
+      "seasons": "False"
+    },
+    "info": {
+      "resume": null,
+      "title": "Babylon Berlin 5",
+      "plot": "Den kritikerroste tyske gigantsatsning 'Babylon Berlin' genskaber Berlin i de brølende 20'ere og start-30'ere. Serien er den dyreste ikke-engelsksprogede dramaserie nogensinde.",
+      "plotoutline": "Farvel til Berlin - sidste sæson af det kritikerroste tyske giganthit",
+      "season": 5,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=747004fa-0e7a-4794-8f46-5664f4d83051)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/babylon-berlin_620932&seasons=False&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Ukendt makker, ukendt land: Showdown i Sydkorea",
+    "url": "?playVideo=b7921ca4-808f-4ab8-9353-3a58e0b41058&kids=False&idpath=/episode/ukendt-makker-ukendt-land_-showdown-i-sydkorea_626629",
+    "params": {
+      "playVideo": "b7921ca4-808f-4ab8-9353-3a58e0b41058",
+      "kids": "False",
+      "idpath": "/episode/ukendt-makker-ukendt-land_-showdown-i-sydkorea_626629"
+    },
+    "info": {
+      "resume": null,
+      "title": "Ukendt makker, ukendt land: Showdown i Sydkorea",
+      "plot": "Hvem af de fire andre par møder Nada og Jørn i finalen? Det er afgørelsens time, og en nål og en skrøbelig Dalgona sukker-kiks sender det første par ud af konkurrencen. Men rejsen lakker mod enden for alle fem par. Og mens Carsten får blanke øjne over sit",
+      "plotoutline": "Episode 6:6 | Hvem snupper hovedpræmien, og hvad tager de med sig hjem?",
+      "episode": 6,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=b7921ca4-808f-4ab8-9353-3a58e0b41058)"
+      ]
+    ]
+  },
+  {
+    "label": "Tre mænd til Vilma",
+    "url": "?playVideo=52e8d825-594c-49e5-a136-a7e40777de9f&kids=False&idpath=/program/tre-maend-til-vilma_626796",
+    "params": {
+      "playVideo": "52e8d825-594c-49e5-a136-a7e40777de9f",
+      "kids": "False",
+      "idpath": "/program/tre-maend-til-vilma_626796"
+    },
+    "info": {
+      "resume": null,
+      "title": "Tre mænd til Vilma",
+      "plot": "Norsk julekomedie fra 2024.\n(Tre menn til Vilma)\n35-årige Vilma bor alene. Hun afskyr sociale medier og gør sig mange bekymringer. En dag banker den flotte præst Ivar og den Tourettes-ramte patolog Robert på hendes dør. De fortæller, at Vilmas far er død.",
+      "plotoutline": "Julefilm | Det har ikke vrimlet med mænd i Vilmas liv. Nu er der pludselig tre",
+      "mediatype": "tvshow"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=52e8d825-594c-49e5-a136-a7e40777de9f)"
+      ]
+    ]
+  },
+  {
+    "label": "Kontant: En beskidt forretning",
+    "url": "?playVideo=edc21ce9-caa4-49de-8aa1-a45a73ae7f82&kids=False&idpath=/episode/kontant_-en-beskidt-forretning_636027",
+    "params": {
+      "playVideo": "edc21ce9-caa4-49de-8aa1-a45a73ae7f82",
+      "kids": "False",
+      "idpath": "/episode/kontant_-en-beskidt-forretning_636027"
+    },
+    "info": {
+      "resume": null,
+      "title": "Kontant: En beskidt forretning",
+      "plot": "En morgen vågner Jesper Hansen og ser chokeret, at nogen har malet store, hvide bogstaver på hans sorte tag: \"DETTE TAG ER IKKE BETALT\". Han har hyret et firma til at rense og male taget, men ender i en voldsom konflikt med firmaejeren. Kontant undersøger",
+      "plotoutline": "De højtryksrenser asbesttage uden gyldige dispensationer",
+      "episode": 15,
+      "mediatype": "episode"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=edc21ce9-caa4-49de-8aa1-a45a73ae7f82)"
+      ]
+    ]
+  },
+  {
+    "label": "TVA Live: Black Friday slår igen salgsrekord",
+    "url": "?playVideo=52824706-f102-4d12-9ae8-636bc39ba535&kids=False&idpath=/kanal/drtv_192099",
+    "params": {
+      "playVideo": "52824706-f102-4d12-9ae8-636bc39ba535",
+      "kids": "False",
+      "idpath": "/kanal/drtv_192099"
+    },
+    "info": {
+      "resume": null,
+      "title": "TVA Live: Black Friday slår igen salgsrekord"
+    },
+    "properties": {
+      "IsPlayable": "true"
+    },
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=52824706-f102-4d12-9ae8-636bc39ba535)"
+      ]
+    ]
+  },
+  {
+    "label": "Du skulle høre dig selv: Du er fuld af lort, Ole!",
+    "url": "?playVideo=716342d6-5eca-4b4b-b724-e9918f7021c8&kids=False&idpath=/episode/du-skulle-hoere-dig-selv_-du-er-fuld-af-lort-ole_630504",
+    "params": {
+      "playVideo": "716342d6-5eca-4b4b-b724-e9918f7021c8",
+      "kids": "False",
+      "idpath": "/episode/du-skulle-hoere-dig-selv_-du-er-fuld-af-lort-ole_630504"
+    },
+    "info": {
+      "resume": null,
+      "title": "Du skulle høre dig selv: Du er fuld af lort, Ole!",
+      "plot": "Hos Rikke og Ole gløder trådene over fordelingen af tid, husarbejde og job. Rikke, der er hjemme med et barn i skolevægring, er dybt afhængig af faste aftaler, men hverdagen spænder ofte ben. Parret må sande, at de taler forbi hinanden i stedet for at lyt",
+      "plotoutline": "Episode 3:6 | Trådene gløder over fordelingen af tid, husarbejde og job",
       "episode": 3,
       "mediatype": "episode"
     },
@@ -27,210 +232,22 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=434275)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=716342d6-5eca-4b4b-b724-e9918f7021c8)"
       ]
     ]
   },
   {
-    "label": "De udvalgte - Dansk Melodi Grand Prix 2024",
-    "url": "?playVideo=437154&kids=False&idpath=/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154",
+    "label": "Magter ikke mænd 1",
+    "url": "?listVideos=/saeson/magter-ikke-maend_628446&seasons=False",
     "params": {
-      "playVideo": "437154",
-      "kids": "False",
-      "idpath": "/program/de-udvalgte-_-dansk-melodi-grand-prix-2024_437154"
-    },
-    "info": {
-      "resume": null,
-      "title": "De udvalgte - Dansk Melodi Grand Prix 2024",
-      "plot": "Mød artisterne der skal stå på scenen til Dansk Melodi Grand Prix 2024, når Jesper Groth og Laurits Emanuel fra Fyr og Flamme tager os med bag kulisserne til dette års store Grand Prix show. Vi følger artisterne fra de bliver udvalgt og under alle de prøv",
-      "plotoutline": "Kom med bag kulisserne til dette års store Grand Prix-show",
-      "aired": "2024-02-10",
-      "year": 2024,
-      "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=437154)"
-      ]
-    ]
-  },
-  {
-    "label": "Signe Molde på udebane: De rige bliver mobbet",
-    "url": "?playVideo=421736&kids=False&idpath=/episode/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736",
-    "params": {
-      "playVideo": "421736",
-      "kids": "False",
-      "idpath": "/episode/signe-molde-paa-udebane_-de-rige-bliver-mobbet_421736"
-    },
-    "info": {
-      "resume": null,
-      "title": "Signe Molde på udebane: De rige bliver mobbet",
-      "plot": "Bliver de rige dæmoniseret, hetzet og faktisk direkte mobbet, bare fordi de er rige? Signe Molde møder milliardæren Niklas Nikolajsen, der hverken vil kaldes grisk eller egoistisk - også selvom han er flyttet til Schweiz. I Monaco møder Signe ejendomsmægl",
-      "plotoutline": "Bliver de rige dæmoniseret, hetzet og mistænkeliggjort?",
-      "aired": "2024-02-10",
-      "year": 2024,
-      "episode": 6,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=421736)"
-      ]
-    ]
-  },
-  {
-    "label": "SEX MED P3: Fantasi: Expectations vs. Reality",
-    "url": "?playVideo=419277&kids=False&idpath=/episode/sex-med-p3_-fantasi_-expectations-vs-reality_419277",
-    "params": {
-      "playVideo": "419277",
-      "kids": "False",
-      "idpath": "/episode/sex-med-p3_-fantasi_-expectations-vs-reality_419277"
-    },
-    "info": {
-      "resume": null,
-      "title": "SEX MED P3: Fantasi: Expectations vs. Reality",
-      "plot": "Trekanter, dominans eller gangbangs? Måske deler du sexfantasier med mange flere end du tror. Er du nysgerrig på at høre om andres frække fantasier? Og skal din fantasi udleves eller blive inde i hovedet? Vi giver dig den ultimative guide til, hvad du ska",
-      "plotoutline": "Episode 2:8 | Den ultimative guide til, hvad du skal stille op med din fantasi",
-      "episode": 22,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=419277)"
-      ]
-    ]
-  },
-  {
-    "label": "Fanget på havets bund",
-    "url": "?playVideo=433819&kids=False&idpath=/program/fanget-paa-havets-bund_433819",
-    "params": {
-      "playVideo": "433819",
-      "kids": "False",
-      "idpath": "/program/fanget-paa-havets-bund_433819"
-    },
-    "info": {
-      "resume": null,
-      "title": "Fanget på havets bund",
-      "plot": "Dette er den sande historie om to mænds heroiske, men tilsyneladende umulige kamp for at overleve. En skibskok er strandet i en luftlomme i vraget af et sunket skib 34 meter under havets overflade. Med næsten ingen ilt og uden, at nogen aner, at han er i ",
-      "plotoutline": "Skibskokken Harrison fanges i et vrag på 34 meters dybde",
-      "aired": "2024-02-10",
-      "year": 2024,
-      "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=433819)"
-      ]
-    ]
-  },
-  {
-    "label": "Løvens Hule: Salg i højtiderne?",
-    "url": "?playVideo=424457&kids=False&idpath=/episode/loevens-hule_-salg-i-hoejtiderne_424457",
-    "params": {
-      "playVideo": "424457",
-      "kids": "False",
-      "idpath": "/episode/loevens-hule_-salg-i-hoejtiderne_424457"
-    },
-    "info": {
-      "resume": null,
-      "title": "Løvens Hule: Salg i højtiderne?",
-      "plot": "Natasja og Tina tager Løverne med storm, når de pitcher deres forretning. Men står de distancen med højtidsbestemte underholdningsprodukter og en drøm om at være julemanden? Udløber: 8. feb 2025",
-      "plotoutline": "Episode 6:9 | Magisk jul og påske: Natasja og Tina tager Løverne med storm",
-      "aired": "2024-02-08",
-      "year": 2024,
-      "episode": 6,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=424457)"
-      ]
-    ]
-  },
-  {
-    "label": "Kriminelt: Hestekrigen i Skals (1:2)",
-    "url": "?playVideo=433514&kids=False&idpath=/episode/kriminelt_-hestekrigen-i-skals-_1_2__433514",
-    "params": {
-      "playVideo": "433514",
-      "kids": "False",
-      "idpath": "/episode/kriminelt_-hestekrigen-i-skals-_1_2__433514"
-    },
-    "info": {
-      "resume": null,
-      "title": "Kriminelt: Hestekrigen i Skals (1:2)",
-      "plot": "Amerikanske Tyrell er berider og arbejder en kort periode på Viegård Stutteri i Skals. Da han på Facebook deler billeder af stutteriets afmagrede heste, sætter det gang i vrede dyreaktivister fra nær og fjern. Udløber: 8. feb 2026",
-      "plotoutline": "Hundredvis af heste og deres ejer er centrum for en voldsom konflikt",
-      "aired": "2024-02-08",
-      "year": 2024,
-      "episode": 1,
-      "mediatype": "episode"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=433514)"
-      ]
-    ]
-  },
-  {
-    "label": "Mordene i Port Talbot 1",
-    "url": "?listVideos=/saeson/mordene-i-port-talbot_423646&seasons=False",
-    "params": {
-      "listVideos": "/saeson/mordene-i-port-talbot_423646",
+      "listVideos": "/saeson/magter-ikke-maend_628446",
       "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "Mordene i Port Talbot 1",
-      "plot": "Tre 30 år gamle uopklarede drabssager bliver genoptaget. Paul Bethell arbejdede med sagerne som ung betjent - nu begynder han en ny morderjagt. Krimiserie baseret på virkelige hændelser.",
-      "plotoutline": "Hele serien | Tre gamle mordsager genåbnes. Krimiserie bygget på virkelige hændelser",
+      "title": "Magter ikke mænd 1",
+      "plot": "Fem kvinder er trætte af mænd og deler deres vildeste, sjoveste og mest håbløse datingoplevelser på TikTok. Vi møder kvinderne bag skærmene og spørger: Hvad sker der med drømmen om kærlighed, når troen på mænd er ved at forsvinde?",
+      "plotoutline": "De drømmer om kærlighed, men troen på mænd er ved at forsvinde",
       "season": 1,
       "mediatype": "season"
     },
@@ -242,86 +259,27 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=423646)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=b42af5c3-e4f7-4ffd-8818-1658db9c28ba)"
       ],
       [
         "30217",
-        "RunAddon(plugin.video.drnu,?listVideos=/saeson/mordene-i-port-talbot_423646&seasons=False&nocache=1)"
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/magter-ikke-maend_628446&seasons=False&nocache=1)"
       ]
     ]
   },
   {
-    "label": "TVA Live: Regeringen vil indføre automatisk organdonation",
-    "url": "?playVideo=301940&kids=False&idpath=/kanal/192099",
+    "label": "Indefra med Anders Agger - Gaden i Grenaa: Dødsfaldet",
+    "url": "?playVideo=ed891103-66ee-448e-b771-9d99d869edd3&kids=False&idpath=/episode/indefra-med-anders-agger-_-gaden-i-grenaa_-doedsfaldet_630509",
     "params": {
-      "playVideo": "301940",
+      "playVideo": "ed891103-66ee-448e-b771-9d99d869edd3",
       "kids": "False",
-      "idpath": "/kanal/192099"
+      "idpath": "/episode/indefra-med-anders-agger-_-gaden-i-grenaa_-doedsfaldet_630509"
     },
     "info": {
       "resume": null,
-      "title": "TVA Live: Regeringen vil indføre automatisk organdonation"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=301940)"
-      ]
-    ]
-  },
-  {
-    "label": "Dronning Mary - pigen fra Tasmanien",
-    "url": "?playVideo=434766&kids=False&idpath=/program/dronning-mary-_-pigen-fra-tasmanien_434766",
-    "params": {
-      "playVideo": "434766",
-      "kids": "False",
-      "idpath": "/program/dronning-mary-_-pigen-fra-tasmanien_434766"
-    },
-    "info": {
-      "resume": null,
-      "title": "Dronning Mary - pigen fra Tasmanien",
-      "plot": "Den 14. januar trådte Mary ud på balkonen på Christiansborg som Dronningen af Danmark. Men hvordan gik det egentlig til, at en helt almindelig pige fra Tasmanien endte med prinsen og det halve kongerige? Udløber: 5. feb 2026",
-      "plotoutline": "Hvordan endte en ung australsk kvinde med kronprinsen af Danmark?",
-      "aired": "2024-02-05",
-      "year": 2024,
-      "mediatype": "tvshow"
-    },
-    "properties": {
-      "IsPlayable": "true"
-    },
-    "contextmenu": [
-      [
-        "30205",
-        "RunAddon(plugin.video.drnu,?show=areaselector)"
-      ],
-      [
-        "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=434766)"
-      ]
-    ]
-  },
-  {
-    "label": "Danmarks bedste portrætmaler: Det helstøbte portræt",
-    "url": "?playVideo=426237&kids=False&idpath=/episode/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237",
-    "params": {
-      "playVideo": "426237",
-      "kids": "False",
-      "idpath": "/episode/danmarks-bedste-portraetmaler_-det-helstoebte-portraet_426237"
-    },
-    "info": {
-      "resume": null,
-      "title": "Danmarks bedste portrætmaler: Det helstøbte portræt",
-      "plot": "Vi er nået til finalen i Danmarks bedste portrætmaler, som tradition tro finder sted på Ny Carlsberg Glyptotek i København. Det er nu, de tre finalister skal vise alt, hvad de har lært gennem konkurrencen, ved at lave det helstøbte portræt af modellen Sof",
-      "plotoutline": "Episode 6:6 | Modellen er Sofie Gråbøl. Hvilken kunstner løber med sejren?",
-      "aired": "2024-02-06",
-      "year": 2024,
+      "title": "Indefra med Anders Agger - Gaden i Grenaa: Dødsfaldet",
+      "plot": "En sommerdag bliver en af beboerne i Fredensgade fundet død. Dødsfaldet sætter tanker i gang hos naboerne.\nKnud Erik kæmper for at finde tilbage til ædrueligheden, og Michael vender hjem fra Færøerne. Kristian får sin største drøm opfyldt, inden Anders Ag",
+      "plotoutline": "En af gadens beboere findes død. Det sætter tanker i gang hos naboerne",
       "episode": 6,
       "mediatype": "episode"
     },
@@ -335,29 +293,26 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=426237)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=ed891103-66ee-448e-b771-9d99d869edd3)"
       ]
     ]
   },
   {
-    "label": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
-    "url": "?playVideo=422579&kids=False&idpath=/episode/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579",
+    "label": "Børn eller ej 1",
+    "url": "?listVideos=/saeson/boern-eller-ej_632095&seasons=False",
     "params": {
-      "playVideo": "422579",
-      "kids": "False",
-      "idpath": "/episode/i-hus-til-halsen_-spoegelseshus-naer-tyren-svend-otto_422579"
+      "listVideos": "/saeson/boern-eller-ej_632095",
+      "seasons": "False"
     },
     "info": {
       "resume": null,
-      "title": "I hus til halsen: Spøgelseshus nær tyren Svend Otto",
-      "plot": "Om to måneder slipper pengene op for Jørgen og Susanne. Så går de 5.000 kr. i minus hver måned, hvis ikke huset bliver solgt.   \nMen landsbyen passer på sine børn, så alle der kan kravle og gå tropper op for at hjælpe. Designer Kalle Thesbjerg har en vild",
-      "plotoutline": "En hel landsby hjælper Jørgen og Susanne, så huset kan sælges",
-      "episode": 7,
-      "mediatype": "episode"
+      "title": "Børn eller ej 1",
+      "plot": "To par står over for en af livets største beslutninger: Skal de have børn - eller ej? Det er ikke længere en løs snak om fremtiden, men et valg, der kan splitte deres forhold ad. De mærker forventningerne fra omverdenen og et biologisk ur, der tikker, men",
+      "plotoutline": "Kan et roadtrip hjælpe dem til at finde ud af, om de skal have børn?",
+      "season": 1,
+      "mediatype": "season"
     },
-    "properties": {
-      "IsPlayable": "true"
-    },
+    "properties": {},
     "contextmenu": [
       [
         "30205",
@@ -365,7 +320,42 @@
       ],
       [
         "30009",
-        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=422579)"
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=81614d12-4408-4070-90b3-42fcbe00bc2e)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/boern-eller-ej_632095&seasons=False&nocache=1)"
+      ]
+    ]
+  },
+  {
+    "label": "Nøglerne til slottet 1",
+    "url": "?listVideos=/saeson/noeglerne-til-slottet_621002&seasons=False",
+    "params": {
+      "listVideos": "/saeson/noeglerne-til-slottet_621002",
+      "seasons": "False"
+    },
+    "info": {
+      "resume": null,
+      "title": "Nøglerne til slottet 1",
+      "plot": "Hemmelige rum, private arkiver og gemte steder. Fra Blenheim Palace til Versailles udforsker og afslører historiker Lucy Worsley de skjulte historier bag Europas mest ikoniske og storslåede paladser.",
+      "plotoutline": "Hvilke hemmeligheder og skjulte historier gemmer sig bag Europas ikoniske slotte?",
+      "season": 1,
+      "mediatype": "season"
+    },
+    "properties": {},
+    "contextmenu": [
+      [
+        "30205",
+        "RunAddon(plugin.video.drnu,?show=areaselector)"
+      ],
+      [
+        "30009",
+        "RunPlugin(plugin://plugin.video.drnu/?addfavorite=188ee343-8b44-4a84-8a50-7ed057c4ac11)"
+      ],
+      [
+        "30217",
+        "RunAddon(plugin.video.drnu,?listVideos=/saeson/noeglerne-til-slottet_621002&seasons=False&nocache=1)"
       ]
     ]
   }

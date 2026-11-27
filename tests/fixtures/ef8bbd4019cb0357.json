@@ -1,0 +1,2064 @@
+{
+ "status": 200,
+ "json": {
+  "id": "13d76dc8-9569-45fa-9719-c2ec4e58df3a",
+  "title": "Ramasjang | S",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-x77id",
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "size": 63,
+  "items": [
+   {
+    "id": "cb863aaa-0768-4d68-ac83-34bf4ac3cbef",
+    "type": "show",
+    "subtype": "",
+    "title": "Said og Anna fikser alting",
+    "shortDescription": "Hvis noget er gået i stykker, skal det repareres, siger Said og Anna. To børn, der elsker at fikse ting - i stedet for at smide dem ud. Og de er supergode til det. \nPrisbelønnet hollandsk serie.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/said-og-anna-fikser-alting_511034",
+    "scopes": [
+     "cb863aaa-0768-4d68-ac83-34bf4ac3cbef"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5994910243000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M63DQ351Z2BMT8Y10H1B61WQ%27&entityId=%27cb863aaa-0768-4d68-ac83-34bf4ac3cbef%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KABG6ZPE5HNPWF0JFVB77E%27&entityId=%27cb863aaa-0768-4d68-ac83-34bf4ac3cbef%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KABG6W9HCK7BPKDNNHXAM1%27&entityId=%27cb863aaa-0768-4d68-ac83-34bf4ac3cbef%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KABG6WXRKRDHV0GS5HFEEQ%27&entityId=%27cb863aaa-0768-4d68-ac83-34bf4ac3cbef%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "6842c9fb4b3f0fab13ebeabe43d8239ec017c60344eec7610e9a3e4b7beb7332",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Serie",
+     "ExtraDetails": "Serie | 2 SÆSONER",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "PageTitle": "Said og Anna fikser alting",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_nysgerrig",
+     "recommendationgenre_livsstil og krea",
+     "theme_viden og færdigheder"
+    ]
+   },
+   {
+    "id": "6bdbf9c8-131b-4d77-aee3-606026812fb6",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra Cirkus",
+    "shortDescription": "Syng med på sangene fra 'Cirkus Summarum'.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-cirkus_18855",
+    "scopes": [
+     "6bdbf9c8-131b-4d77-aee3-606026812fb6"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1901113377000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JB6AQ8HTGFTG4T2FCRZB81%27&entityId=%276bdbf9c8-131b-4d77-aee3-606026812fb6%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JB6AQ8X0VGK102FYC8TWJ8%27&entityId=%276bdbf9c8-131b-4d77-aee3-606026812fb6%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JB6AQ8NM289GT4YGT8YSQ0%27&entityId=%276bdbf9c8-131b-4d77-aee3-606026812fb6%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "6a1098b83260111203bdb90a726e0cea50fc2f3d69260a78cb7ae3b4126b80db",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra Cirkus",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik",
+     "ramasjang ø",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_cirkus summarum",
+     "mood_sjov",
+     "recommendationgenre_musik",
+     "thesaurus_cirkus"
+    ]
+   },
+   {
+    "id": "fff7be74-e9d4-4904-bc88-b3dbe84df15f",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra Den magiske klub",
+    "shortDescription": "Hør alle de fede gamle MGP-sange fra serien Den magiske klub.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-den-magiske-klub_439994",
+    "scopes": [
+     "fff7be74-e9d4-4904-bc88-b3dbe84df15f"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5301787555000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6X67Z22EDNQR42NNYDB51%27&entityId=%27fff7be74-e9d4-4904-bc88-b3dbe84df15f%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6X67Z5WCYHQTQMAMMYF44%27&entityId=%27fff7be74-e9d4-4904-bc88-b3dbe84df15f%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6X67Y9YJ8XCFC1D662HEQ%27&entityId=%27fff7be74-e9d4-4904-bc88-b3dbe84df15f%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "7fc1eaa2a8077a4a3b535acfde0d2507c8b8606abbf4ddffd26df7e5aa3daee8",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra Den magiske klub",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_børn som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_mgp",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "fc625c2a-6d5f-46ea-9e37-9d048253fe58",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra FredagsTamTam",
+    "shortDescription": "Hør sangene fra de dejlige danske animationsserier i FredagsTamTam - det er god TamTam!",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-fredagstamtam_445949",
+    "scopes": [
+     "fc625c2a-6d5f-46ea-9e37-9d048253fe58"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5392899762000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K801FK4J8JAV1GFPK97NPE%27&entityId=%27fc625c2a-6d5f-46ea-9e37-9d048253fe58%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K801FJD29BQSCDMW9HX2E7%27&entityId=%27fc625c2a-6d5f-46ea-9e37-9d048253fe58%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K801FK0YVSVNDS2547NVRG%27&entityId=%27fc625c2a-6d5f-46ea-9e37-9d048253fe58%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "37fa353b3cb69b775ae92f024ae1f8e044101067db6f6e83a6086045148c6218",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra FredagsTamTam",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "agetargetgroup_familie",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_fredagstamtam",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "e36b78c1-1a69-4ac0-9103-cc65432b468d",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra Hr. Skægs store ordspil",
+    "shortDescription": "Ingen beskrivelse",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-hr-skaegs-store-ordspil_553718",
+    "scopes": [
+     "e36b78c1-1a69-4ac0-9103-cc65432b468d"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6640498657398",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KE8ECGXWTCWY0Y96WQ7C6J%27&entityId=%27e36b78c1-1a69-4ac0-9103-cc65432b468d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KE8ECGZZRBG8HPRKD54Z4K%27&entityId=%27e36b78c1-1a69-4ac0-9103-cc65432b468d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KE8ECGNA3R7ZG72ZJ9H2YH%27&entityId=%27e36b78c1-1a69-4ac0-9103-cc65432b468d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "b8a5a82bc7ce269417e49efa98db310ee722121ea951630ac2a5a1f8d6b133da",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra Hr. Skægs store ordspil",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_hr. skæg",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_legende",
+     "recommendationgenre_musik",
+     "theme_viden og færdigheder"
+    ]
+   },
+   {
+    "id": "cb721899-09fa-480c-b4de-fb01ff4aff14",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra Klar, parat, skolestart",
+    "shortDescription": "Sange om hvor sjovt og også lidt svært det er at starte i skole. Hør sangene fra serien 'Klar, parat, skolestart'.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-klar-parat-skolestart_474169",
+    "scopes": [
+     "cb721899-09fa-480c-b4de-fb01ff4aff14"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5807115832000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJFW6D0QJA7N06MG1ZYC5%27&entityId=%27cb721899-09fa-480c-b4de-fb01ff4aff14%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJFQQSAWA8J1FA4BCR6RN%27&entityId=%27cb721899-09fa-480c-b4de-fb01ff4aff14%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJFXKQRHM01Z8SYZ5H9EZ%27&entityId=%27cb721899-09fa-480c-b4de-fb01ff4aff14%27&entityType=%27Item%27&Width=1920&Height=1080",
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M1EHABQQCT1ZW6SW0RNJCQBW%27&entityId=%27cb721899-09fa-480c-b4de-fb01ff4aff14%27&entityType=%27Item%27&Width=1024&Height=1024"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "59440b1ac0f6a60cd6c70930dab2f80c8ca286a0211a002473173cfa1bc03ebd",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra Klar, parat, skolestart",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": []
+   },
+   {
+    "id": "f1e5f586-49e3-4e02-a3bf-5a9bafc34d2d",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra Luk op Luk i",
+    "shortDescription": "Syng med på sangene fra 'Luk op Luk i'.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-luk-op-luk-i_96262",
+    "scopes": [
+     "f1e5f586-49e3-4e02-a3bf-5a9bafc34d2d"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2255450466000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3A7DSPHB3GPPC6KFY7H55W%27&entityId=%27f1e5f586-49e3-4e02-a3bf-5a9bafc34d2d%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGG1F4XE5N88J118XXBD3A%27&entityId=%27f1e5f586-49e3-4e02-a3bf-5a9bafc34d2d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGG1F2YEH1XTREVY6735XR%27&entityId=%27f1e5f586-49e3-4e02-a3bf-5a9bafc34d2d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGG1F2YEH1XTREVY6735XR%27&entityId=%27f1e5f586-49e3-4e02-a3bf-5a9bafc34d2d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "9be3a85db4bcd1b1cc4139d450246968d2a4ce16fd1d172bc70adfedc000790a",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra Luk op Luk i",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_luk op luk i",
+     "mood_genkendelig",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "4fb49109-7831-41e3-9a45-0a8b1e459ef6",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra Mini MGP",
+    "shortDescription": "Her kan du se sangene fra Mini MGP.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-mini-mgp_279631",
+    "scopes": [
+     "4fb49109-7831-41e3-9a45-0a8b1e459ef6"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3208533555000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3AS9FE4XDM7N4CKTW9WMTJ%27&entityId=%274fb49109-7831-41e3-9a45-0a8b1e459ef6%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JSK42K2XR2NJ694G36E0HK%27&entityId=%274fb49109-7831-41e3-9a45-0a8b1e459ef6%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JSK42KXXEVMF086CRKPEMK%27&entityId=%274fb49109-7831-41e3-9a45-0a8b1e459ef6%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JSK42KXXEVMF086CRKPEMK%27&entityId=%274fb49109-7831-41e3-9a45-0a8b1e459ef6%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "dd7504a1022f095b0c5983fdcc0109c80c2f65191b62077bd8b62bd51069aec5",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 6 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra Mini MGP",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 6 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_fantasivæsner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_mini mgp",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "6c93d1eb-08ed-4d76-b8cf-ac53b129417b",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra Ramasjang Mysteriet",
+    "shortDescription": "Syng med på sangene fra 'Ramasjang Mysteriet'.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-ramasjang-mysteriet_6556",
+    "scopes": [
+     "6c93d1eb-08ed-4d76-b8cf-ac53b129417b"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1725790267000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM39VTX0VSAR6DKBBNK2C49E%27&entityId=%276c93d1eb-08ed-4d76-b8cf-ac53b129417b%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7XBZTQKSTMKXVB0DHRGAF%27&entityId=%276c93d1eb-08ed-4d76-b8cf-ac53b129417b%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7XBZT6XW0CAHS7R080QGP%27&entityId=%276c93d1eb-08ed-4d76-b8cf-ac53b129417b%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7XBZTDPRYWV6TM7HJRFJ2%27&entityId=%276c93d1eb-08ed-4d76-b8cf-ac53b129417b%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "e4ef0f62f8833a08ff7374eb32e34f684af72dcf5dc9198ee137e95bfcec591a",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra Ramasjang Mysteriet",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_kristian",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "dee4aacd-bc6d-4089-ba0c-babd3a8b8b18",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange fra Ramasjang Redder Verden",
+    "shortDescription": "Selvom man er lille, kan man gøre en stor forskel og hjælpe dyrene i naturen. Det handler sangene fra Ramasjang Redder Verden om.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-fra-ramasjang-redder-verden_284694",
+    "scopes": [
+     "dee4aacd-bc6d-4089-ba0c-babd3a8b8b18"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3047514462000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K2W8V5J1FNP5YW88472SEH%27&entityId=%27dee4aacd-bc6d-4089-ba0c-babd3a8b8b18%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K2W8V5G2FJYTD01QBDEYB0%27&entityId=%27dee4aacd-bc6d-4089-ba0c-babd3a8b8b18%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K2W8V7T5TDZEJWDJP2K01M%27&entityId=%27dee4aacd-bc6d-4089-ba0c-babd3a8b8b18%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "b34136a802af801dce5f14c686385a5a95dfed19f42e561467736e9c7d0a60d3",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange fra Ramasjang Redder Verden",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "dyr",
+     "musik",
+     "ramasjang ø"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_ramasjang redder",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "91d1b8f8-d671-47bd-a719-c138d7ef4912",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange med Bamselægen",
+    "shortDescription": "Syng med på sangene fra 'Bamselægen'.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-med-bamselaegen_186288",
+    "scopes": [
+     "91d1b8f8-d671-47bd-a719-c138d7ef4912"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2486156841000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3ADXEYRA53FQ1FW0AP1QCH%27&entityId=%2791d1b8f8-d671-47bd-a719-c138d7ef4912%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGKSRFJ2GJ9F1MDHC62F85%27&entityId=%2791d1b8f8-d671-47bd-a719-c138d7ef4912%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGKSRFP5NYH87EDZVQ14W2%27&entityId=%2791d1b8f8-d671-47bd-a719-c138d7ef4912%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGKSRHSWJTX80VKABQZN47%27&entityId=%2791d1b8f8-d671-47bd-a719-c138d7ef4912%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "3ae0f85c2400a419ad00e40e5e7c50dfa998c0155abb6d386a82fa60d6fe47fb",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange med Bamselægen",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_bamselægen",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "9d6c8d76-8e1d-4a97-90cf-c75294a70847",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange med Heksebeth",
+    "shortDescription": "Sange fra serien om Heksebeth og den hovedløse magi.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-med-heksebeth_341620",
+    "scopes": [
+     "9d6c8d76-8e1d-4a97-90cf-c75294a70847"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3930724305000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3AYXHF84CDTS5TSD4H8D47%27&entityId=%279d6c8d76-8e1d-4a97-90cf-c75294a70847%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JY5J2546SF01PKMFT32H53%27&entityId=%279d6c8d76-8e1d-4a97-90cf-c75294a70847%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JY5J25NQCTMFSX83BCANMD%27&entityId=%279d6c8d76-8e1d-4a97-90cf-c75294a70847%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JY5J22RHH495Y2JNNWMDZM%27&entityId=%279d6c8d76-8e1d-4a97-90cf-c75294a70847%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "86888b6b897cb15bb73f44edb533cf1716f1e45c8ed5248961594ad1f085abe0",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange med Heksebeth",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_rosa",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_heksebeth",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "03306966-426d-4172-a330-a66dd9da9a0f",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange med Hr. Skæg",
+    "shortDescription": "Syng sammen med Hr. Skæg.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-med-hr-skaeg_6519",
+    "scopes": [
+     "03306966-426d-4172-a330-a66dd9da9a0f"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1390963071000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM39W63BKQ9S6Q3Q1JVJN5KH%27&entityId=%2703306966-426d-4172-a330-a66dd9da9a0f%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J3CZY0YJF0CZWHH1KW272T%27&entityId=%2703306966-426d-4172-a330-a66dd9da9a0f%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J3CZY076D7M03QWNA72Y4N%27&entityId=%2703306966-426d-4172-a330-a66dd9da9a0f%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J3CZY076D7M03QWNA72Y4N%27&entityId=%2703306966-426d-4172-a330-a66dd9da9a0f%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "ef7afbd6bcfa9f883771a89c18491278693f7cbb32496022529f7662394a1bc6",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 4 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange med Hr. Skæg",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 4 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "characters_hr. skæg",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "b896c63e-4a01-4949-8d8f-cd1dd96dfb3c",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange med Lille Nørd",
+    "shortDescription": "Syng med på sangene fra 'Lille Nørd'.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-med-lille-noerd_6853",
+    "scopes": [
+     "b896c63e-4a01-4949-8d8f-cd1dd96dfb3c"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1834617542000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JC0VHTQHS2N0TT0BS99WXM%27&entityId=%27b896c63e-4a01-4949-8d8f-cd1dd96dfb3c%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JC0VHTYZAP1AJTTSWR8CWD%27&entityId=%27b896c63e-4a01-4949-8d8f-cd1dd96dfb3c%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JC0VHTYZAP1AJTTSWR8CWD%27&entityId=%27b896c63e-4a01-4949-8d8f-cd1dd96dfb3c%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "e0a7bca6ef9be6250ae6952d792534217265aa6e1afc8af71a3be35b22d57049",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange med Lille Nørd",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "e9abf31c-594b-404e-96da-5bd811daa44d",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange med Motor Mille",
+    "shortDescription": "Syng sammen med Motor Mille.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-med-motor-mille_6544",
+    "scopes": [
+     "e9abf31c-594b-404e-96da-5bd811daa44d"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1725787549000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM39W2ZZ5SV1WGXJYG9G9WQ4%27&entityId=%27e9abf31c-594b-404e-96da-5bd811daa44d%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7X8Z9GZSHY4YX7R9S6C1X%27&entityId=%27e9abf31c-594b-404e-96da-5bd811daa44d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7X8ZAT6VBXK9KDQCXNR1G%27&entityId=%27e9abf31c-594b-404e-96da-5bd811daa44d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7X8Z9Z9V7ZS6PYT17F6XF%27&entityId=%27e9abf31c-594b-404e-96da-5bd811daa44d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "e7862b6520b92e3f120b7099618ee1c1a985e5da382a5b6853312d35d533eba5",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange med Motor Mille",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_motor mille",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "d77b078e-90a2-4760-86d9-b9738578f967",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange med Onkel Reje",
+    "shortDescription": "Syng sammen med Onkel Reje.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-med-onkel-reje_6529",
+    "scopes": [
+     "d77b078e-90a2-4760-86d9-b9738578f967"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1725787542000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM39W6K7Y84RMY3459P4G8SH%27&entityId=%27d77b078e-90a2-4760-86d9-b9738578f967%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J5S2E66P4FRZ7T7NACJQ1Z%27&entityId=%27d77b078e-90a2-4760-86d9-b9738578f967%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J5S2E71VFJ4D88Q9FVQ8DY%27&entityId=%27d77b078e-90a2-4760-86d9-b9738578f967%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J5S2E9KK9H5K3VWXFHDG2B%27&entityId=%27d77b078e-90a2-4760-86d9-b9738578f967%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "48c684276dc6a05a9ff343c10877db96ac949f5700a2cf6f69a518bbc12bab34",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange med Onkel Reje",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_onkel reje",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "45d02629-faaa-4883-80dc-799b4f336494",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange med Ramajetterne",
+    "shortDescription": "Syng sammen med Ramajetterne.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-med-ramajetterne_6631",
+    "scopes": [
+     "45d02629-faaa-4883-80dc-799b4f336494"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1776305673000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J698S1B9KKZAH0DC4W36Y6%27&entityId=%2745d02629-faaa-4883-80dc-799b4f336494%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J698S1HC4YV8EZ3YYK8CSC%27&entityId=%2745d02629-faaa-4883-80dc-799b4f336494%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J698S1HC4YV8EZ3YYK8CSC%27&entityId=%2745d02629-faaa-4883-80dc-799b4f336494%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "624e1ff52ee42faba483187d708f6138df4105f3739b964a2a694a3f1d3681c0",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange med Ramajetterne",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_kristian",
+     "charactertype_fantasivæsner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "902f6f0a-0d24-442f-8252-2fb0b1f5819d",
+    "type": "show",
+    "subtype": "",
+    "title": "Sange med Rosa",
+    "shortDescription": "Syng sammen med Rosa.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/sange-med-rosa_6636",
+    "scopes": [
+     "902f6f0a-0d24-442f-8252-2fb0b1f5819d"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1823482896000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM39WSZ9268DV8VWJDRSQ3WE%27&entityId=%27902f6f0a-0d24-442f-8252-2fb0b1f5819d%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J839ZFD01K6S8E4VW28GZE%27&entityId=%27902f6f0a-0d24-442f-8252-2fb0b1f5819d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J839ZGXCADPG853R5D6XWQ%27&entityId=%27902f6f0a-0d24-442f-8252-2fb0b1f5819d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J839ZGXCADPG853R5D6XWQ%27&entityId=%27902f6f0a-0d24-442f-8252-2fb0b1f5819d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "17747d7e88fff5e691163d9144ed4fd4213665320c543a74b587b43caf6b9d7a",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sange med Rosa",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_rosa",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "97c5342d-9d17-47f4-86c1-95bfc90b6866",
+    "type": "program",
+    "subtype": "",
+    "title": "Sangen om Isabel og den skjulte skat",
+    "shortDescription": "Udløber: 1. jun. 2027",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-isabel-og-den-skjulte-skat_249925",
+    "watchPath": "/se/sangen-om-isabel-og-den-skjulte-skat_249925",
+    "scopes": [
+     "97c5342d-9d17-47f4-86c1-95bfc90b6866"
+    ],
+    "releaseYear": 2018,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 150,
+    "customId": "urn:dr:ocs:tv:content:playable:00951895090",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR40051VA6EVWCQM2WA6T1%27&entityId=%2797c5342d-9d17-47f4-86c1-95bfc90b6866%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR40053B9KB76N1AKW48Q2%27&entityId=%2797c5342d-9d17-47f4-86c1-95bfc90b6866%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR40053B9KB76N1AKW48Q2%27&entityId=%2797c5342d-9d17-47f4-86c1-95bfc90b6866%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2018-11-06T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "21b390478cb9dc732275e0a22761c1b9b8c2cc46821980c3316dc35876543e78",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "6. NOV. 2018 | 3M",
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 3M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sangen om Isabel og den skjulte skat",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "IKKE PLACERBART PÅ VERDENSDELE",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 3M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_voksne som hovedpersoner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_enkeltstående",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "27a34a46-abef-4cba-b5ad-a47e94f25f11",
+    "type": "program",
+    "subtype": "",
+    "title": "Sangen om Kanonkongen Freja",
+    "shortDescription": "Udløber: 1. jun. 2027",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-kanonkongen-freja_249923",
+    "watchPath": "/se/sangen-om-kanonkongen-freja_249923",
+    "scopes": [
+     "27a34a46-abef-4cba-b5ad-a47e94f25f11"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 165,
+    "customId": "urn:dr:ocs:tv:content:playable:00921717310",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR22BF2Q0F0MZ30QBACKYS%27&entityId=%2727a34a46-abef-4cba-b5ad-a47e94f25f11%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR22BF7TJ66NVV3SNWHE4J%27&entityId=%2727a34a46-abef-4cba-b5ad-a47e94f25f11%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR22BF7TJ66NVV3SNWHE4J%27&entityId=%2727a34a46-abef-4cba-b5ad-a47e94f25f11%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2017-06-26T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "e13b6ed29bcbb0e51b1a714384f85a2ada6a8b16e1817796e9e0e06281dccef8",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "26. JUN. 2017 | 3M",
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 3M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sangen om Kanonkongen Freja",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 3M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_enkeltstående",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "baff3b1f-fdeb-4d44-97c3-507331e411c6",
+    "type": "program",
+    "subtype": "",
+    "title": "Sangen om Oda Omvendt",
+    "shortDescription": "Udløber: 1. jun. 2027",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-oda-omvendt_186291",
+    "watchPath": "/se/sangen-om-oda-omvendt_186291",
+    "scopes": [
+     "baff3b1f-fdeb-4d44-97c3-507331e411c6"
+    ],
+    "releaseYear": 2019,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 83,
+    "customId": "urn:dr:ocs:tv:content:playable:00921910860",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2NHGY64MJQYRH99MS3CZ%27&entityId=%27baff3b1f-fdeb-4d44-97c3-507331e411c6%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2NHG87WAV5JDCG5Q7BD0%27&entityId=%27baff3b1f-fdeb-4d44-97c3-507331e411c6%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2NHG87WAV5JDCG5Q7BD0%27&entityId=%27baff3b1f-fdeb-4d44-97c3-507331e411c6%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2019-09-28T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "cbcf7c689aabf76b769710181d4a1f0233676c2498fa2a5ccba92f239960162c",
+     "ClassificationRating": "MRAM-EXCEPT",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "28. SEP. 2019 | 1M",
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 1M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sangen om Oda Omvendt",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_voksne som hovedpersoner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_enkeltstående",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "a14dd06d-f0b0-49d0-be43-5ef62e179091",
+    "type": "program",
+    "subtype": "",
+    "title": "Sangen om Ramasjang Rally",
+    "shortDescription": "Udløber: 1. jun. 2027",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-ramasjang-rally_249922",
+    "watchPath": "/se/sangen-om-ramasjang-rally_249922",
+    "scopes": [
+     "a14dd06d-f0b0-49d0-be43-5ef62e179091"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 160,
+    "customId": "urn:dr:ocs:tv:content:playable:00921717620",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2Z70BF1PSWNPP0BKYW2S%27&entityId=%27a14dd06d-f0b0-49d0-be43-5ef62e179091%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2Z70VTJ3PQ7SM9N1X16S%27&entityId=%27a14dd06d-f0b0-49d0-be43-5ef62e179091%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2Z70VTJ3PQ7SM9N1X16S%27&entityId=%27a14dd06d-f0b0-49d0-be43-5ef62e179091%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2017-06-26T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "cc624362c6782dbb9ed4a93a0dba54ad263b49d804f3a0ae8b3159fd83b4d873",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "26. JUN. 2017 | 3M",
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 3M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sangen om Ramasjang Rally",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 3M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_enkeltstående",
+     "mood_spændingsfyldt",
+     "recommendationgenre_livsstil og krea",
+     "theme_kreativitet"
+    ]
+   },
+   {
+    "id": "ead71e6e-deb4-4a39-bad9-3e67d86dc6ed",
+    "type": "program",
+    "subtype": "",
+    "title": "Sangen om Sofus",
+    "shortDescription": "Udløber: 1. jun. 2027",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-sofus_249918",
+    "watchPath": "/se/sangen-om-sofus_249918",
+    "scopes": [
+     "ead71e6e-deb4-4a39-bad9-3e67d86dc6ed"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 102,
+    "customId": "urn:dr:ocs:tv:content:playable:00921718220",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR24G3J07B7SAY93EYEEWK%27&entityId=%27ead71e6e-deb4-4a39-bad9-3e67d86dc6ed%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR24G3239VT1ZZGCH11EPM%27&entityId=%27ead71e6e-deb4-4a39-bad9-3e67d86dc6ed%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR24G3239VT1ZZGCH11EPM%27&entityId=%27ead71e6e-deb4-4a39-bad9-3e67d86dc6ed%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2017-06-26T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "7b7c3d1c3aa1853d4d602ae9f918225377bc8efaa484ec6f208cd2998eec14a3",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "26. JUN. 2017 | 2M",
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 2M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sangen om Sofus",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_enkeltstående",
+     "recommendationgenre_musik"
+    ]
+   },
+   {
+    "id": "693fc329-a1bc-46ac-a66e-e1bdb8379f44",
+    "type": "program",
+    "subtype": "",
+    "title": "Sangen om Vilde Venner",
+    "shortDescription": "Udløber: 1. jun. 2027",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/sangen-om-vilde-venner_249917",
+    "watchPath": "/se/sangen-om-vilde-venner_249917",
+    "scopes": [
+     "693fc329-a1bc-46ac-a66e-e1bdb8379f44"
+    ],
+    "releaseYear": 2017,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 200,
+    "customId": "urn:dr:ocs:tv:content:playable:00921713370",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2AMAS90SGZVD3V4PH0VG%27&entityId=%27693fc329-a1bc-46ac-a66e-e1bdb8379f44%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2AMA5PNF76A0VHWPYKB9%27&entityId=%27693fc329-a1bc-46ac-a66e-e1bdb8379f44%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR2AMA5PNF76A0VHWPYKB9%27&entityId=%27693fc329-a1bc-46ac-a66e-e1bdb8379f44%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2017-03-20T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "a091266e9e1dc29b9b099142d9206ace7c2037109010777c39fc33552aa7acfa",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "20. MAR. 2017 | 3M",
+     "DisplayCategory": "Musik",
+     "ExtraDetails": "Musik | 3M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Musik,DR Ramasjang",
+     "PageTitle": "Sangen om Vilde Venner",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 3M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "musik"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_enkeltstående",
+     "recommendationgenre_musik"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "next": "/lists/13d76dc8-9569-45fa-9719-c2ec4e58df3a?page=2&page_size=24&order=Desc",
+   "page": 1,
+   "size": 24,
+   "total": 3
+  },
+  "customFields": {}
+ }
+}

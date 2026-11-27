@@ -1,0 +1,23 @@
+{
+ "status": 200,
+ "json": {
+  "id": "ff29f110-0014-4a31-a082-c35ac44005b7",
+  "title": "Ramasjang | 0-9",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xyj79",
+  "itemTypes": [],
+  "size": 0,
+  "items": [],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 0
+  },
+  "customFields": {}
+ }
+}

@@ -172,10 +172,6 @@
         <level>0</level> <default>true</default> <control type="toggle"/>
         <dependencies> <dependency type="enable" setting="iptv.enabled">true</dependency> </dependencies>
       </setting>
-      <setting id="iptv.channels.include.drtvekstra" label="30559" type="boolean">
-        <level>0</level> <default>true</default> <control type="toggle"/>
-        <dependencies> <dependency type="enable" setting="iptv.enabled">true</dependency> </dependencies>
-      </setting>
 		</group>
 
 		<group id="3" label="30560">

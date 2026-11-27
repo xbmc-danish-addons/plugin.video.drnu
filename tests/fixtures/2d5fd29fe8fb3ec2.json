@@ -1,0 +1,2065 @@
+{
+ "status": 200,
+ "json": {
+  "metadata": {
+   "description": "Se eller gense DR's TV-programmer her på DRTV. Du kan se programmer fra både DR1, DR2 og DR Ramasjang. Se live-tv eller on-demand ",
+   "keywords": []
+  },
+  "entries": [
+   {
+    "id": "ec917e17-ebd8-483c-9990-e4bb01bf1982",
+    "type": "ListEntry",
+    "title": "header : DRH6 : entry-0",
+    "template": "DRH6",
+    "list": {
+     "id": "03736c7c-3730-4e47-b898-326510f546e5",
+     "title": "Hero Fredag",
+     "description": "",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/liste/hero-fredag",
+     "itemTypes": [
+      "season",
+      "episode",
+      "program",
+      "link"
+     ],
+     "size": 12,
+     "items": [
+      {
+       "id": "b1643861-7c4f-4df7-89ff-81b5f96e7c39",
+       "type": "season",
+       "subtype": "",
+       "title": "Dragehjerter - dating i nye roller",
+       "shortDescription": "16 singler flytter ind på et slot. De får tildelt en fantasykarakter og skal date hinanden på en helt ny måde. For måske er det lettere at finde kærligheden, når man får lov til at være en anden.",
+       "tagline": "Episode 1:8 | Nyt, stort datingshow: 16 singler skal date på en helt ny måde",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/dragehjerter-_-dating-i-nye-roller_629366",
+       "scopes": [
+        "b1643861-7c4f-4df7-89ff-81b5f96e7c39"
+       ],
+       "releaseYear": 2026,
+       "seasonNumber": 1,
+       "seasonId": "b1643861-7c4f-4df7-89ff-81b5f96e7c39",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "customId": "urn:dr:ocs:tv:content:season:6640878116298",
+       "round": "",
+       "offers": [
+        {
+         "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M83W4AHF41N9TMX8EH5BTSA2%27&entityId=%27b1643861-7c4f-4df7-89ff-81b5f96e7c39%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M83W4AHEX8Z4Y68FG0W0RNGJ%27&entityId=%27b1643861-7c4f-4df7-89ff-81b5f96e7c39%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M83W54ZGGJRKT5BYK9S86NZX%27&entityId=%27b1643861-7c4f-4df7-89ff-81b5f96e7c39%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "33ecaf3eea4f35cb7892b4ee1e5bc741a98948b2265ace5b55afc183be76afb0",
+        "ClassificationRating": "MRAM-07",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "DisplayCategory": "Livsstil,Underholdning,Reality",
+        "ExtraDetails": "Livsstil | SÆSON 1",
+        "IsGeoRestricted": true,
+        "IsSeasonDRMPlayoutRequired": false,
+        "OwnedCategory": "Livsstil,Underholdning,Reality,DR1",
+        "PageTitle": "Dragehjerter - dating i nye roller: Sæson 1",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "DRTV",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod22o.akamaized.net/all/clear/none/5c/6b096b2b75d80d000102635c/6b096b2a5dc25a0001a4c049/stream_fmp4/master_manifest.m3u8",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "dr1",
+        "livsstil",
+        "reality",
+        "underholdning"
+       ],
+       "keywords": []
+      },
+      {
+       "id": "5595457b-5cd2-4759-a6c1-9449292d8e6c",
+       "type": "episode",
+       "subtype": "",
+       "title": "Kommissionen: Mettes befolkningsudskiftning, gambling i børnehøjde, Saudi-Arabiens danske arkitekter",
+       "contextualTitle": "Mettes befolkningsudskiftning, gambling i børnehøjde, Saudi-Arabiens danske arkitekter",
+       "shortDescription": "Mette Frederiksen er på udlændingepolitisk stram slingrekurs inklusiv en kovending efter taler om fare for befolkningsudskiftning. Vi går på jagt i børnenes gamblificerede legeverdener og ser på dem, der tjener på dem. Og så tager vi til Saudi-Arabien, hv",
+       "tagline": "Et satirisk blik på magtens hykleri og ugens vigtigste historier",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/kommissionen_-mettes-befolkningsudskiftning-gambling-i-boernehoejde-saudi_arabiens-danske-arkitekter_622444",
+       "watchPath": "/se/kommissionen_-mettes-befolkningsudskiftning-gambling-i-boernehoejde-saudi_arabiens-danske-arkitekter_622444",
+       "scopes": [
+        "5595457b-5cd2-4759-a6c1-9449292d8e6c"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 20,
+       "episodeName": "Kommissionen: Mettes befolkningsudskiftning, gambling i børnehøjde, Saudi-Arabiens danske arkitekter",
+       "seasonId": "22895928-327b-4153-a7d0-cb653a31f26f",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 1800,
+       "customId": "urn:dr:ocs:tv:content:playable:00922615980",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M8E887A7832B5P7S22REBAJB%27&entityId=%275595457b-5cd2-4759-a6c1-9449292d8e6c%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M8EQ6ZN6K0ZY2QKZ6X7WJ1WH%27&entityId=%275595457b-5cd2-4759-a6c1-9449292d8e6c%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M8EQ6ZN6K0ZY2QKZ6X7WJ1WH%27&entityId=%275595457b-5cd2-4759-a6c1-9449292d8e6c%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "AvailableFrom": "2026-11-27T20:26:09.2000000+00:00",
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "bab9f27d335086d46c72e13ad5046e9de76014eeced4b91c30841174e3b728b3",
+        "ClassificationRating": "MRAM-15",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "ContextualTitleExtraDetails": "27. NOV. 2026 | 30M",
+        "DisplayCategory": "Underholdning,Humor,Satire",
+        "ExtraDetails": "27. NOV. 2026 | 30M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Underholdning,Humor,Satire,DR1,acc_spoken_subtitles",
+        "PageTitle": "Kommissionen: Sæson 2026 – Mettes befolkningsudskiftning, gambling i børnehøjde, Saudi-Arabiens danske arkitekter",
+        "PlayButtonExtraDetails": "S2026:E20 Mettes befolkningsudskiftning, gambling i børnehøjde, Saudi-Arabiens danske arkitekter",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PrimaryContentUniverse": "DRTV",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod20p.akamaized.net/all/clear/none/6e/6b0971ee75d80d000102636e/6b0971ea4e116400014d5922/stream_fmp4/master_manifest.m3u8",
+        "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dr1",
+        "humor",
+        "satire",
+        "underholdning"
+       ],
+       "keywords": [
+        "culturalorigin_dansk",
+        "editorialptaxsub_humor/satire",
+        "editorialptaxsub_underholdning",
+        "editorialptaxtop_tv-program"
+       ]
+      },
+      {
+       "id": "747004fa-0e7a-4794-8f46-5664f4d83051",
+       "type": "season",
+       "subtype": "",
+       "title": "Babylon Berlin",
+       "shortDescription": "Den kritikerroste tyske gigantsatsning 'Babylon Berlin' genskaber Berlin i de brølende 20'ere og start-30'ere. Serien er den dyreste ikke-engelsksprogede dramaserie nogensinde.",
+       "tagline": "Farvel til Berlin - sidste sæson af det kritikerroste tyske giganthit",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/babylon-berlin_620932",
+       "scopes": [
+        "747004fa-0e7a-4794-8f46-5664f4d83051"
+       ],
+       "releaseYear": 2025,
+       "seasonNumber": 5,
+       "seasonId": "747004fa-0e7a-4794-8f46-5664f4d83051",
+       "badge": "Ny sæson",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "customId": "urn:dr:ocs:tv:content:season:6640583860015",
+       "round": "",
+       "offers": [
+        {
+         "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77QQ2F7CYPAH9VYG43DPRTF%27&entityId=%27747004fa-0e7a-4794-8f46-5664f4d83051%27&entityType=%27Item%27&Width=1024&Height=576",
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77QR2KBBZAP478BPWBPAVG9%27&entityId=%27747004fa-0e7a-4794-8f46-5664f4d83051%27&entityType=%27Item%27&Width=720&Height=1080",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M77QT1E908DMZ6SWS6Z4KJRN%27&entityId=%27747004fa-0e7a-4794-8f46-5664f4d83051%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "67ec316bdcddfe6787524f834e2b463a75aa981ada6d7b9fc15a0819c5e531a4",
+        "ClassificationRating": "MRAM-15",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "DisplayCategory": "Fiktionsserie",
+        "ExtraDetails": "Fiktionsserie | SÆSON 5",
+        "IsGeoRestricted": true,
+        "IsSeasonDRMPlayoutRequired": false,
+        "OwnedCategory": "Fiktionsserie,DR1",
+        "PageTitle": "Babylon Berlin: Sæson 5",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "DRTV",
+        "RatingSegment": "DRTV",
+        "TargetAudience": "Adults",
+        "ShortVideoUrl": "https://drod24a.akamaized.net/all/clear/none/25/6b00284475d80d0001025525/6b0028442a144e0001deb70f/stream_fmp4/master_manifest.m3u8"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dr1",
+        "fiktionsserie"
+       ],
+       "keywords": []
+      },
+      {
+       "id": "b7921ca4-808f-4ab8-9353-3a58e0b41058",
+       "type": "episode",
+       "subtype": "",
+       "title": "Ukendt makker, ukendt land: Showdown i Sydkorea",
+       "contextualTitle": "6. Showdown i Sydkorea",
+       "shortDescription": "Hvem af de fire andre par møder Nada og Jørn i finalen? Det er afgørelsens time, og en nål og en skrøbelig Dalgona sukker-kiks sender det første par ud af konkurrencen. Men rejsen lakker mod enden for alle fem par. Og mens Carsten får blanke øjne over sit",
+       "tagline": "Episode 6:6 | Hvem snupper hovedpræmien, og hvad tager de med sig hjem?",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/ukendt-makker-ukendt-land_-showdown-i-sydkorea_626629",
+       "watchPath": "/se/ukendt-makker-ukendt-land_-showdown-i-sydkorea_626629",
+       "scopes": [
+        "b7921ca4-808f-4ab8-9353-3a58e0b41058"
+       ],
+       "episodeNumber": 6,
+       "episodeName": "Ukendt makker, ukendt land: Showdown i Sydkorea",
+       "seasonId": "a96686ea-d23a-45f6-8113-36894c3351c3",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 2646,
+       "customId": "urn:dr:ocs:tv:content:playable:00922609130",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6DT5D570X8AXKNGA3N83RYA%27&entityId=%27b7921ca4-808f-4ab8-9353-3a58e0b41058%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JD719Q83DQV3Q424MMJQGG%27&entityId=%27b7921ca4-808f-4ab8-9353-3a58e0b41058%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JD719Q83DQV3Q424MMJQGG%27&entityId=%27b7921ca4-808f-4ab8-9353-3a58e0b41058%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "AvailableFrom": "2026-11-26T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "f780cf3aad987f09c239cbac0d76384dd2a7d2555ec4031da39962923178a012",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "ContextualTitleExtraDetails": "26. NOV. 2026 | 44M",
+        "DisplayCategory": "Underholdning,Rejse",
+        "ExtraDetails": "SÆSON 1 EPISODE 6 | 44M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Underholdning,Rejse,DR1,acc_spoken_subtitles",
+        "PageTitle": "Ukendt makker, ukendt land: Sæson 1 – Showdown i Sydkorea",
+        "PlayButtonExtraDetails": "S1:E6 Showdown i Sydkorea",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "DRTV",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod21f.akamaized.net/all/clear/none/fb/6b05351f75d80d0001025afb/6b05351eb61f6400014040f2/stream_fmp4/master_manifest.m3u8",
+        "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dr1",
+        "rejse",
+        "underholdning"
+       ],
+       "keywords": [
+        "culturalorigin_dansk",
+        "editorialptaxsub_underholdning",
+        "editorialptaxtop_tv-program"
+       ]
+      },
+      {
+       "id": "52e8d825-594c-49e5-a136-a7e40777de9f",
+       "type": "program",
+       "subtype": "",
+       "title": "Tre mænd til Vilma",
+       "shortDescription": "Norsk julekomedie fra 2024.\n(Tre menn til Vilma)\n35-årige Vilma bor alene. Hun afskyr sociale medier og gør sig mange bekymringer. En dag banker den flotte præst Ivar og den Tourettes-ramte patolog Robert på hendes dør. De fortæller, at Vilmas far er død.",
+       "tagline": "Julefilm | Det har ikke vrimlet med mænd i Vilmas liv. Nu er der pludselig tre",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/program/tre-maend-til-vilma_626796",
+       "watchPath": "/se/tre-maend-til-vilma_626796",
+       "scopes": [
+        "52e8d825-594c-49e5-a136-a7e40777de9f"
+       ],
+       "releaseYear": 2024,
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 5230,
+       "customId": "urn:dr:ocs:tv:content:playable:00022431100",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6REJEMGBBFA79VKZTYJZ4PR%27&entityId=%2752e8d825-594c-49e5-a136-a7e40777de9f%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6REJEMFJRMPEFHXEBTZ7NVK%27&entityId=%2752e8d825-594c-49e5-a136-a7e40777de9f%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6REJEM9B00CXNTKEX0KK6SJ%27&entityId=%2752e8d825-594c-49e5-a136-a7e40777de9f%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "AvailableFrom": "2026-11-20T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR2",
+        "BrandingChannelShort": "DR2",
+        "Checksum": "d0c3d30a28fdf52c59349f6222eec9f66b3c43d9c44f9f0ad37cf381d798b61c",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "ContextualTitleExtraDetails": "20. NOV. 2026 | 1T 27M",
+        "DisplayCategory": "Film",
+        "ExtraDetails": "Film | 1T 27M",
+        "IsGeoRestricted": true,
+        "OwnedCategory": "Film,DR2,acc_spoken_subtitles",
+        "PageTitle": "Tre mænd til Vilma",
+        "PrimaryContentUniverse": "DRTV",
+        "ProductionCountry": "NORGE",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod24h.akamaized.net/all/clear/none/22/6b0546e075d80d0001025b22/6b0546dbb61f6400014040f4/stream_fmp4/master_manifest.m3u8",
+        "TargetAudience": "Adults",
+        "TitleExtraDetails": "DR2 | 1T 27M"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dr2",
+        "film"
+       ],
+       "keywords": [
+        "culturalorigin_ikke-dansk",
+        "editorialptaxsub_højtider",
+        "editorialptaxsub_humor/satire",
+        "editorialptaxtop_film",
+        "format_film",
+        "mood_feel good/hyggelig",
+        "mood_livsbekræftende"
+       ]
+      },
+      {
+       "id": "edc21ce9-caa4-49de-8aa1-a45a73ae7f82",
+       "type": "episode",
+       "subtype": "",
+       "title": "Kontant: En beskidt forretning",
+       "contextualTitle": "En beskidt forretning",
+       "shortDescription": "En morgen vågner Jesper Hansen og ser chokeret, at nogen har malet store, hvide bogstaver på hans sorte tag: \"DETTE TAG ER IKKE BETALT\". Han har hyret et firma til at rense og male taget, men ender i en voldsom konflikt med firmaejeren. Kontant undersøger",
+       "tagline": "De højtryksrenser asbesttage uden gyldige dispensationer",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/kontant_-en-beskidt-forretning_636027",
+       "watchPath": "/se/kontant_-en-beskidt-forretning_636027",
+       "scopes": [
+        "edc21ce9-caa4-49de-8aa1-a45a73ae7f82"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 15,
+       "episodeName": "Kontant: En beskidt forretning",
+       "seasonId": "ef8a3585-b5ec-422a-a381-bbb405ad6686",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 1932,
+       "customId": "urn:dr:ocs:tv:content:playable:00102609140",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M36QN7E6D8JT5PB12AXP55GH%27&entityId=%27edc21ce9-caa4-49de-8aa1-a45a73ae7f82%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JDAY044NGXSGHF67AYV4WD%27&entityId=%27edc21ce9-caa4-49de-8aa1-a45a73ae7f82%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JDAY044NGXSGHF67AYV4WD%27&entityId=%27edc21ce9-caa4-49de-8aa1-a45a73ae7f82%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "AvailableFrom": "2026-11-25T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "43345d812cd925111f1ccb353aa4824ac8f678eaf5d9594cabdfe8bae12e123e",
+        "ClassificationRating": "MRAM-EXCEPT",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "ContextualTitleExtraDetails": "25. NOV. 2026 | 32M",
+        "DisplayCategory": "Nyheder,Dokumentar",
+        "ExtraDetails": "25. NOV. 2026 | 32M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Nyheder,Dokumentar,DR1,acc_spoken_subtitles",
+        "PageTitle": "Kontant: Sæson 2026 – En beskidt forretning",
+        "PlayButtonExtraDetails": "S2026:E15 En beskidt forretning",
+        "PresentationTypeCode": "CurrentAffairs",
+        "PrimaryContentUniverse": "DRTV",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod22i.akamaized.net/all/clear/none/e7/6b0528f075d80d0001025ae7/6b0528f027273300012b7987/stream_fmp4/master_manifest.m3u8",
+        "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dokumentar",
+        "dr1",
+        "nyheder"
+       ],
+       "keywords": [
+        "controlled_asbest",
+        "controlled_asbesttage",
+        "controlled_bestikkelse",
+        "controlled_chikane",
+        "culturalorigin_dansk",
+        "editorialptaxsub_aktualitet/samfundsforhold",
+        "editorialptaxtop_nyheder",
+        "organization_arbejdstilsynet",
+        "organization_birkholms",
+        "organization_byens tagrens",
+        "organization_midtjysk tagrens og maling",
+        "thesaurus_bedrageri",
+        "thesaurus_bygningsistandsættelse",
+        "thesaurus_forurening",
+        "thesaurus_konkurser",
+        "thesaurus_villaer"
+       ]
+      },
+      {
+       "id": "52824706-f102-4d12-9ae8-636bc39ba535",
+       "type": "link",
+       "subtype": "",
+       "title": "TVA Live: Black Friday slår igen salgsrekord",
+       "name": "TVA Live-link (EVA-Nyhedskanal)",
+       "shortDescription": "",
+       "tagline": "",
+       "path": "/kanal/drtv_192099",
+       "scopes": [
+        "52824706-f102-4d12-9ae8-636bc39ba535"
+       ],
+       "badgeBackground": "",
+       "badgeForeground": "",
+       "genres": [],
+       "sports": [],
+       "offers": [],
+       "images": {
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M8F74RX7VHVS1RHABEERAVGW%27&entityId=%2752824706-f102-4d12-9ae8-636bc39ba535%27&entityType=%27link%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M8F76A1E8P3NE6JVJWAVS35Q%27&entityId=%2752824706-f102-4d12-9ae8-636bc39ba535%27&entityType=%27link%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "PathIdSegment": "tva-live_-alvorligste-trussel-siden-den-kolde-krig_463050",
+        "ShortVideoUrl": "https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8",
+        "LinkTextBadge_Max_20_Characters": "Seneste nyt",
+        "BadgeBackgroundColour_HexCode": "#ff001e",
+        "BrandingChannelShort": "EVA"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "716342d6-5eca-4b4b-b724-e9918f7021c8",
+       "type": "episode",
+       "subtype": "",
+       "title": "Du skulle høre dig selv: Du er fuld af lort, Ole!",
+       "contextualTitle": "3. Du er fuld af lort, Ole!",
+       "shortDescription": "Hos Rikke og Ole gløder trådene over fordelingen af tid, husarbejde og job. Rikke, der er hjemme med et barn i skolevægring, er dybt afhængig af faste aftaler, men hverdagen spænder ofte ben. Parret må sande, at de taler forbi hinanden i stedet for at lyt",
+       "tagline": "Episode 3:6 | Trådene gløder over fordelingen af tid, husarbejde og job",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/du-skulle-hoere-dig-selv_-du-er-fuld-af-lort-ole_630504",
+       "watchPath": "/se/du-skulle-hoere-dig-selv_-du-er-fuld-af-lort-ole_630504",
+       "scopes": [
+        "716342d6-5eca-4b4b-b724-e9918f7021c8"
+       ],
+       "releaseYear": 2025,
+       "episodeNumber": 3,
+       "episodeName": "Du skulle høre dig selv: Du er fuld af lort, Ole!",
+       "seasonId": "d308d199-f069-434b-ae46-bce47747f67a",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 1751,
+       "customId": "urn:dr:ocs:tv:content:playable:00922522830",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6JEVNANZ89RVDBVJ8710VB2%27&entityId=%27716342d6-5eca-4b4b-b724-e9918f7021c8%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6JXWG1ZSSQGM67DMN33KGMR%27&entityId=%27716342d6-5eca-4b4b-b724-e9918f7021c8%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6JXWG1ZSSQGM67DMN33KGMR%27&entityId=%27716342d6-5eca-4b4b-b724-e9918f7021c8%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+        "AvailableFrom": "2026-11-25T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "c162851362d1536445834d44f3ed9d0931a1db01972d90141975b49275d49bdd",
+        "ClassificationRating": "MRAM-07",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "ContextualTitleExtraDetails": "25. NOV. 2026 | 29M",
+        "DisplayCategory": "Livsstil,Krop,Sundhed",
+        "ExtraDetails": "SÆSON 1 EPISODE 3 | 29M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Livsstil,Krop,Sundhed,DR1,acc_spoken_subtitles",
+        "PageTitle": "Du skulle høre dig selv: Sæson 1 – Du er fuld af lort, Ole!",
+        "PlayButtonExtraDetails": "S1:E3 Du er fuld af lort, Ole!",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "DRTV",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod24l.akamaized.net/all/clear/none/2a/6afeab0275d80d000102522a/6afeaaf927273300012b7907/stream_fmp4/master_manifest.m3u8",
+        "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dr1",
+        "krop",
+        "livsstil",
+        "sundhed"
+       ],
+       "keywords": [
+        "controlled_samliv",
+        "controlled_skænderier",
+        "culturalorigin_dansk",
+        "editorialptaxsub_romantik/kærlighed",
+        "editorialptaxtop_tv-program",
+        "thesaurus_adfærd",
+        "thesaurus_parforhold"
+       ]
+      },
+      {
+       "id": "b42af5c3-e4f7-4ffd-8818-1658db9c28ba",
+       "type": "season",
+       "subtype": "",
+       "title": "Magter ikke mænd",
+       "shortDescription": "Fem kvinder er trætte af mænd og deler deres vildeste, sjoveste og mest håbløse datingoplevelser på TikTok. Vi møder kvinderne bag skærmene og spørger: Hvad sker der med drømmen om kærlighed, når troen på mænd er ved at forsvinde?",
+       "tagline": "De drømmer om kærlighed, men troen på mænd er ved at forsvinde",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/magter-ikke-maend_628446",
+       "scopes": [
+        "b42af5c3-e4f7-4ffd-8818-1658db9c28ba"
+       ],
+       "seasonNumber": 1,
+       "seasonId": "b42af5c3-e4f7-4ffd-8818-1658db9c28ba",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "customId": "urn:dr:ocs:tv:content:season:6640817362598",
+       "round": "",
+       "offers": [
+        {
+         "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M83YERSK5MHQEV82MZMDTSFJ%27&entityId=%27b42af5c3-e4f7-4ffd-8818-1658db9c28ba%27&entityType=%27Item%27&Width=720&Height=1080",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M86NP6H3JYPT8REMVBEJRH8T%27&entityId=%27b42af5c3-e4f7-4ffd-8818-1658db9c28ba%27&entityType=%27Item%27&Width=1920&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M86NQAF4NTQ5450TQRYYVTJG%27&entityId=%27b42af5c3-e4f7-4ffd-8818-1658db9c28ba%27&entityType=%27Item%27&Width=1024&Height=576"
+       },
+       "themes": [],
+       "customFields": {
+        "BrandingChannelDisplayName": "P3",
+        "BrandingChannelShort": "TP3",
+        "Checksum": "bf3360d4495f23f5cefddfa7b947bda74243ee95c044b329b10eeb0e9f3b4647",
+        "ClassificationRating": "MRAM-15",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "DisplayCategory": "Dokumentar,Krop",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "IsGeoRestricted": false,
+        "IsSeasonDRMPlayoutRequired": false,
+        "OwnedCategory": "Dokumentar,Krop,P3",
+        "PageTitle": "Magter ikke mænd: Sæson 1",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "DRTV",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod22a.akamaized.net/all/clear/none/d6/6afedbe175d80d00010252d6/6afedbe14e116400014d5884/stream_fmp4/master_manifest.m3u8",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dokumentar",
+        "krop",
+        "p3"
+       ],
+       "keywords": []
+      },
+      {
+       "id": "ed891103-66ee-448e-b771-9d99d869edd3",
+       "type": "episode",
+       "subtype": "",
+       "title": "Indefra med Anders Agger - Gaden i Grenaa: Dødsfaldet",
+       "contextualTitle": "6. Dødsfaldet",
+       "shortDescription": "En sommerdag bliver en af beboerne i Fredensgade fundet død. Dødsfaldet sætter tanker i gang hos naboerne.\nKnud Erik kæmper for at finde tilbage til ædrueligheden, og Michael vender hjem fra Færøerne. Kristian får sin største drøm opfyldt, inden Anders Ag",
+       "tagline": "En af gadens beboere findes død. Det sætter tanker i gang hos naboerne",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/episode/indefra-med-anders-agger-_-gaden-i-grenaa_-doedsfaldet_630509",
+       "watchPath": "/se/indefra-med-anders-agger-_-gaden-i-grenaa_-doedsfaldet_630509",
+       "scopes": [
+        "ed891103-66ee-448e-b771-9d99d869edd3"
+       ],
+       "releaseYear": 2026,
+       "episodeNumber": 6,
+       "episodeName": "Indefra med Anders Agger - Gaden i Grenaa: Dødsfaldet",
+       "seasonId": "9b0e08db-b181-48de-8c3d-21477e8912b3",
+       "badge": "Ny episode",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "duration": 3058,
+       "customId": "urn:dr:ocs:tv:content:playable:00952638060",
+       "round": "",
+       "offers": [
+        {
+         "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        },
+        {
+         "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+         "name": "Coming Soon Offer",
+         "price": 0,
+         "availability": "ComingSoon",
+         "ownership": "None",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M59M7E17AJ3W5GQ8MK0H4F4D%27&entityId=%27ed891103-66ee-448e-b771-9d99d869edd3%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5CN3PNFX291QC212D32Y603%27&entityId=%27ed891103-66ee-448e-b771-9d99d869edd3%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5CN3PNFX291QC212D32Y603%27&entityId=%27ed891103-66ee-448e-b771-9d99d869edd3%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "AccessServicesOffered": "StandardVideo,SpokenSubtitles,SignLanguage",
+        "AvailableFrom": "2026-11-22T05:00:00.0000000+00:00",
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "4f92cfc265066aebfdc616179a2b5a220bbf4582499462422ee559f418e05fbc",
+        "ClassificationRating": "MRAM-11",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "ContextualTitleExtraDetails": "22. NOV. 2026 | 51M",
+        "DisplayCategory": "Dokumentar",
+        "ExtraDetails": "SÆSON 1 EPISODE 6 | 51M",
+        "IsGeoRestricted": false,
+        "OwnedCategory": "Dokumentar,DR1,acc_spoken_subtitles,acc_sign_language",
+        "PageTitle": "Indefra med Anders Agger - Gaden i Grenaa: Sæson 1 – Dødsfaldet",
+        "PlayButtonExtraDetails": "S1:E6 Dødsfaldet",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "DRTV",
+        "ProductionCountry": "DANMARK",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod23k.akamaized.net/all/clear/none/ef/6afee23475d80d00010252ef/6afee22927273300012b7918/stream_fmp4/master_manifest.m3u8",
+        "SubtitleLanguagesOffered": "ForeignLanguageSubtitles,CombinedLanguageSubtitles",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_sign_language",
+        "acc_spoken_subtitles",
+        "dokumentar",
+        "dr1"
+       ],
+       "keywords": [
+        "culturalorigin_dansk",
+        "editorialptaxsub_aktualitet/samfundsforhold",
+        "editorialptaxsub_identitet/relationer",
+        "editorialptaxtop_tv-program",
+        "thesaurus_herberger",
+        "thesaurus_hjemløse",
+        "thesaurus_socialt udsatte"
+       ]
+      },
+      {
+       "id": "81614d12-4408-4070-90b3-42fcbe00bc2e",
+       "type": "season",
+       "subtype": "",
+       "title": "Børn eller ej",
+       "shortDescription": "To par står over for en af livets største beslutninger: Skal de have børn - eller ej? Det er ikke længere en løs snak om fremtiden, men et valg, der kan splitte deres forhold ad. De mærker forventningerne fra omverdenen og et biologisk ur, der tikker, men",
+       "tagline": "Kan et roadtrip hjælpe dem til at finde ud af, om de skal have børn?",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/boern-eller-ej_632095",
+       "scopes": [
+        "81614d12-4408-4070-90b3-42fcbe00bc2e"
+       ],
+       "releaseYear": 2026,
+       "seasonNumber": 1,
+       "seasonId": "81614d12-4408-4070-90b3-42fcbe00bc2e",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "customId": "urn:dr:ocs:tv:content:season:6640456125440",
+       "round": "",
+       "offers": [
+        {
+         "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6NWRM0QXFDQSBZK5SZH7TNZ%27&entityId=%2781614d12-4408-4070-90b3-42fcbe00bc2e%27&entityType=%27Item%27&Width=720&Height=1080",
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6NWRM0QC8VJ2EFZ9JX0ZGWJ%27&entityId=%2781614d12-4408-4070-90b3-42fcbe00bc2e%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6NWSAQ6T3J9DDRE592XAT0A%27&entityId=%2781614d12-4408-4070-90b3-42fcbe00bc2e%27&entityType=%27Item%27&Width=1920&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "BrandingChannelDisplayName": "DR1",
+        "BrandingChannelShort": "DR1",
+        "Checksum": "e9f2847901df0e02769c944def0d5cad105735698263fd295b406d098b7f2222",
+        "ClassificationRating": "MRAM-07",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "DisplayCategory": "Livsstil,Krop,Sundhed",
+        "ExtraDetails": "Livsstil | SÆSON 1",
+        "IsGeoRestricted": false,
+        "IsSeasonDRMPlayoutRequired": false,
+        "OwnedCategory": "Livsstil,Krop,Sundhed,DR1",
+        "PageTitle": "Børn eller ej: Sæson 1",
+        "PresentationTypeCode": "Show",
+        "PrimaryContentUniverse": "DRTV",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod24o.akamaized.net/all/clear/none/11/6afe9ece75d80d0001025211/6afe9ec660cca40001a4b96b/stream_fmp4/master_manifest.m3u8",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_sign_language",
+        "dr1",
+        "krop",
+        "livsstil",
+        "sundhed"
+       ],
+       "keywords": []
+      },
+      {
+       "id": "188ee343-8b44-4a84-8a50-7ed057c4ac11",
+       "type": "season",
+       "subtype": "",
+       "title": "Nøglerne til slottet",
+       "shortDescription": "Hemmelige rum, private arkiver og gemte steder. Fra Blenheim Palace til Versailles udforsker og afslører historiker Lucy Worsley de skjulte historier bag Europas mest ikoniske og storslåede paladser.",
+       "tagline": "Hvilke hemmeligheder og skjulte historier gemmer sig bag Europas ikoniske slotte?",
+       "classification": {
+        "code": "DR-Voksen",
+        "name": "Voksen"
+       },
+       "path": "/saeson/noeglerne-til-slottet_621002",
+       "scopes": [
+        "188ee343-8b44-4a84-8a50-7ed057c4ac11"
+       ],
+       "releaseYear": 2026,
+       "seasonNumber": 1,
+       "seasonId": "188ee343-8b44-4a84-8a50-7ed057c4ac11",
+       "genres": [
+        "ukendt"
+       ],
+       "sports": [],
+       "customId": "urn:dr:ocs:tv:content:season:6640660508970",
+       "round": "",
+       "offers": [
+        {
+         "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+         "name": "Free Offer",
+         "price": 0,
+         "availability": "Available",
+         "ownership": "Free",
+         "deliveryType": "StreamOrDownload",
+         "resolution": "Unknown"
+        }
+       ],
+       "images": {
+        "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M708ZN7GJEF7HJXKBXTTFHS0%27&entityId=%27188ee343-8b44-4a84-8a50-7ed057c4ac11%27&entityType=%27Item%27&Width=1024&Height=576",
+        "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M709G741E9NSPRWE8GY4DJMG%27&entityId=%27188ee343-8b44-4a84-8a50-7ed057c4ac11%27&entityType=%27Item%27&Width=1920&Height=1080",
+        "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M709H4V1SHRREN5FH57DEPSW%27&entityId=%27188ee343-8b44-4a84-8a50-7ed057c4ac11%27&entityType=%27Item%27&Width=720&Height=1080"
+       },
+       "themes": [],
+       "customFields": {
+        "BrandingChannelDisplayName": "DR2",
+        "BrandingChannelShort": "DR2",
+        "Checksum": "6c74a96b55c9e1cd3021e0688c365cb977193464c9f51f6f596bc9f11bcd475f",
+        "ClassificationRating": "MRAM-ALL",
+        "ContentUniverses": [
+         "drtv"
+        ],
+        "DisplayCategory": "Dokumentar,Historie",
+        "ExtraDetails": "Dokumentar | SÆSON 1",
+        "IsGeoRestricted": true,
+        "IsSeasonDRMPlayoutRequired": false,
+        "OwnedCategory": "Dokumentar,Historie,DR2",
+        "PageTitle": "Nøglerne til slottet: Sæson 1",
+        "PresentationTypeCode": "Ongoing",
+        "PrimaryContentUniverse": "DRTV",
+        "RatingSegment": "DRTV",
+        "ShortVideoUrl": "https://drod24s.akamaized.net/all/clear/none/0b/6afef04e75d80d000102530b/6afef04d60cca40001a4b980/stream_fmp4/master_manifest.m3u8",
+        "TargetAudience": "Adults"
+       },
+       "trailerWatchPaths": [],
+       "buttonLabel": "",
+       "categories": [
+        "acc_spoken_subtitles",
+        "dokumentar",
+        "dr2",
+        "historie"
+       ],
+       "keywords": []
+      }
+     ],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {}
+    },
+    "customFields": {
+     "autoCycle": 8
+    }
+   },
+   {
+    "id": "114eee5c-320d-4015-926a-b0d2253b9fe2",
+    "type": "ListEntry",
+    "title": "",
+    "template": "TX1",
+    "list": {
+     "id": "f7069ff3-362e-496a-b431-1a51d236aef5",
+     "title": "Top text links + Jul (2)",
+     "path": "/liste/top-text-links-jul-2",
+     "size": 19,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "top-text-links--jul-_2__628181"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "backgroundColor": {
+      "color": "",
+      "opacity": 100
+     },
+     "textColor": {
+      "color": "",
+      "opacity": 100
+     },
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "32ca6c7f-cfab-4df7-b2fa-544cad850cc4",
+    "type": "ListEntry",
+    "title": "Nye programmer",
+    "template": "P1",
+    "list": {
+     "id": "cda0b411-469a-874e-ab43-940dbca01597",
+     "title": "Nye programmer",
+     "path": "/liste/nye-programmer-xf0na",
+     "size": 38,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/cda0b411-469a-874e-ab43-940dbca01597?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "np-a_559086"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "7a225382-b9ca-43f3-92f4-0fb97a1592b5",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "drtv-forside-flow-3",
+     "sas_siteId": 1,
+     "sas_pageName": "moEngage",
+     "sas_formatId": 1,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "e0366d12-9d0c-4b2b-8d83-09dae2190723",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "drtv-forside-flow-1",
+     "sas_siteId": 1,
+     "sas_pageName": "moEngage",
+     "sas_formatId": 1,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "bca8f1ee-7993-47ae-bab3-d9f591cad1e6",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1254625",
+     "sas_formatId": 77527,
+     "sas_keywordTargeting": "destination=plads1",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "b3597519-8e53-4db8-8d50-7a6b82a50dd7",
+    "type": "ListEntry",
+    "title": "Nyheder",
+    "template": "DRTB4",
+    "list": {
+     "id": "51c9db63-a1d5-8290-9869-ae098a71886b",
+     "title": "Nyheder",
+     "path": "/liste/nyhedszone-fredag-2300",
+     "size": 10,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "nyhedszone_-fredag-1830_248104"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "",
+     "breakoutTop": "inset",
+     "breakoutBottom": "inset",
+     "breakoutLeft": "inset",
+     "ImagePositionWideScreens": "left",
+     "ImagePositionNarrowScreens": "left"
+    }
+   },
+   {
+    "id": "262474be-e6c0-4dcf-ad6a-8b43174513f1",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "drtv-forside-flow-2",
+     "sas_siteId": 1,
+     "sas_pageName": "moEngage",
+     "sas_formatId": 1,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "7870501f-a52e-47f8-a230-aebcdc5a874b",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1254625",
+     "sas_formatId": 92608,
+     "sas_keywordTargeting": "destination=plads2",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "601effc6-7937-427f-b830-bbfdfb79b077",
+    "type": "UserEntry",
+    "title": "Min liste",
+    "template": "U2",
+    "list": {
+     "id": "Bookmarks",
+     "title": "Bookmarks",
+     "path": "/account/profiles/bookmarks",
+     "size": -1,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "images": {},
+     "paging": {
+      "next": "/account/profiles/bookmarks/list?page=1",
+      "page": 0,
+      "size": -1,
+      "total": -1,
+      "authorization": {
+       "type": "UserProfile",
+       "scope": "Catalog"
+      }
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/mit-indhold"
+    }
+   },
+   {
+    "id": "9d692c75-c101-434d-a5a4-861b8af8b011",
+    "type": "ListEntry",
+    "title": "Nye og populære serier",
+    "template": "P1",
+    "list": {
+     "id": "3b88fb5c-f582-8674-b81d-baffce82d92d",
+     "title": "Nye og populære serier",
+     "path": "/liste/nye-og-populre-serier-xiqrs",
+     "size": 84,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/3b88fb5c-f582-8674-b81d-baffce82d92d?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 4
+     },
+     "customFields": {
+      "PathIdSegment": "drtv_-mest-populaere-fiktionsserier-_209529"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/kategorier/fiktionsserier/nyeste"
+    }
+   },
+   {
+    "id": "bc19a969-f190-4b08-ac5e-2ec4b7fb6508",
+    "type": "ListEntry",
+    "title": "Filmfavoritter",
+    "template": "P1",
+    "list": {
+     "id": "75386207-17be-8d4d-bb90-4fb7940d158c",
+     "title": "Filmfavoritter",
+     "path": "/liste/nyt-og-populrt-xroj5",
+     "size": 50,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/75386207-17be-8d4d-bb90-4fb7940d158c?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 3
+     },
+     "customFields": {
+      "PathIdSegment": "filmfavoritter_349213"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/kategorier/film"
+    }
+   },
+   {
+    "id": "69eb021a-04fe-438c-b1db-c2e6a5566000",
+    "type": "ListEntry",
+    "title": "Populære dokumentarer",
+    "template": "P1",
+    "list": {
+     "id": "0d29d1d8-5cbf-8fb2-a0d4-92aa3ad239f2",
+     "title": "Populære dokumentarer",
+     "path": "/liste/populre-dokumentarer-x059n",
+     "size": 136,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/0d29d1d8-5cbf-8fb2-a0d4-92aa3ad239f2?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 6
+     },
+     "customFields": {
+      "PathIdSegment": "drtv-dokumentar_-de-mest-populaere-dokumentar_273805"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/kategorier/dokumentar/populaere"
+    }
+   },
+   {
+    "id": "ef91628c-7179-43f8-aac8-2892ef4441c0",
+    "type": "ListEntry",
+    "title": "Kom i julestemning",
+    "template": "T1",
+    "list": {
+     "id": "effc9811-7f74-8d1b-a01f-c82a50139457",
+     "title": "Kom i julestemning",
+     "path": "/liste/kom-i-julestemning-xjjng",
+     "size": 43,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/effc9811-7f74-8d1b-a01f-c82a50139457?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "jul_taend-for-julen_149973"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "5ea3bd89-2347-4b9e-90ed-8e23d2a2c62a",
+    "type": "ListEntry",
+    "title": "Fik du set?",
+    "template": "T1",
+    "list": {
+     "id": "1c6d63a6-f6c7-87c5-b38c-a42ff9564c99",
+     "title": "Fik du set?",
+     "path": "/liste/fik-du-set-xdg4d",
+     "size": 7,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "fik-du-set_595309"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "b975f5a7-327f-40c1-be1c-e526385691a4",
+    "type": "ListEntry",
+    "title": "Kategorier",
+    "template": "S1",
+    "list": {
+     "id": "d0b1bf3c-12e5-42d1-9a61-ecd4ee628b9c",
+     "title": "Kategorier",
+     "path": "/liste/drtv-kategorier-forside---jul-2026-2",
+     "size": 13,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "drtv-kategorier-_-forside-_-jul-2026-_2__628179"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/kategorier"
+    }
+   },
+   {
+    "id": "82356268-d79d-443d-b81e-ab559e84e90b",
+    "type": "ListEntry",
+    "title": "",
+    "template": "S1",
+    "list": {
+     "id": "07bce6de-6277-8f99-80d2-ceee067634b0",
+     "title": "Kanaler / Universer",
+     "path": "/liste/kanaler-universer-x2tw1",
+     "size": 7,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "kanaler-_-universer_389892"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "f8f52645-6b20-49ac-860c-7e25c700849e",
+    "type": "ListEntry",
+    "title": "De største gensyn lige nu",
+    "template": "T1",
+    "list": {
+     "id": "6f4467c7-5c63-8d05-9fa4-c06cbb6d10bd",
+     "title": "Gensyn | Gensyn anbefaler",
+     "path": "/liste/gensyn-gensyn-anbefaler-xdrp3",
+     "size": 21,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "gensyn-_-gensyn-anbefaler_439761"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/gensyn"
+    }
+   },
+   {
+    "id": "1e821bc4-3b42-4d15-9f37-1775c668e248",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1254625",
+     "sas_formatId": 99614,
+     "sas_keywordTargeting": "destination=monospot",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "a48b7f84-072a-4d10-964a-76f78a7eeeff",
+    "type": "ListEntry",
+    "title": "Det bedste fra P3 lige nu",
+    "template": "T1",
+    "list": {
+     "id": "5a4ba2a0-c2b5-8414-8c11-9d38f0aa4ed0",
+     "title": "Nyt og populært",
+     "path": "/liste/nyt-og-populrt-xlj1f",
+     "size": 13,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "det-bedste-fra-p3-lige-nu_307904"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/kategorier/p3"
+    }
+   },
+   {
+    "id": "40fe4641-fddb-4f26-8930-7f9327497e55",
+    "type": "ListEntry",
+    "title": "Vildmarkslivet",
+    "template": "T1",
+    "list": {
+     "id": "bc134812-536d-8ff9-9486-a0046b1f9789",
+     "title": "Vildmarkslivet",
+     "path": "/liste/vildmarkslivet-xq4wn",
+     "size": 34,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/bc134812-536d-8ff9-9486-a0046b1f9789?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "kategorier_livsstil_vildmarkslivet_481278"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "35caf864-d7f9-4f96-a3d8-d9c0d117d5a2",
+    "type": "ListEntry",
+    "title": "Netop tilføjet",
+    "template": "T1",
+    "list": {
+     "id": "d6282908-3b08-8557-ac0f-1b610760547c",
+     "title": "Netop tilføjet",
+     "path": "/liste/netop-tilfjet-x98f8",
+     "size": 88,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/d6282908-3b08-8557-ac0f-1b610760547c?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 4
+     },
+     "customFields": {
+      "PathIdSegment": "drtv-faste_-senest-tilfoejede-programmer-_-nyt-hver-dag_171678"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/kategorier/nyeste-programmer"
+    }
+   },
+   {
+    "id": "4fb38a7c-7c06-4b51-8cd0-04f9bbfccdc8",
+    "type": "ListEntry",
+    "title": "Anmelderroste dokumentarfilm",
+    "template": "P1",
+    "list": {
+     "id": "1c15c963-2b96-8715-ac15-3cf801d5b919",
+     "title": "Anmelderroste dokumentarfilm",
+     "path": "/liste/anmelderroste-dokumentarfilm-xbd4l",
+     "size": 50,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/1c15c963-2b96-8715-ac15-3cf801d5b919?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 3
+     },
+     "customFields": {
+      "PathIdSegment": "dokumentar_anmelderroste-dokumentarfilm_506302"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "b5b740a8-211f-4c17-a7b6-93e004e5dbea",
+    "type": "ListEntry",
+    "title": "Dokumentarer om natur og dyr",
+    "template": "P1",
+    "list": {
+     "id": "12cf7241-d69b-8907-a54a-a59e861c1c11",
+     "title": "Dokumentarer om natur og dyr",
+     "path": "/liste/serier-om-natur-og-dyr-x4b8c",
+     "size": 50,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/12cf7241-d69b-8907-a54a-a59e861c1c11?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 3
+     },
+     "customFields": {
+      "PathIdSegment": "kategorier_dokumentar_natur_dyr_493283"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "1917ccc7-7630-4160-9879-6ec90cf97ecb",
+    "type": "ListEntry",
+    "title": "Store danske serier",
+    "template": "P1",
+    "list": {
+     "id": "3fee99d8-06ea-80c3-a1db-a2c5bed7d6a3",
+     "title": "Serier | Danske serier",
+     "path": "/liste/serier-danske-serier",
+     "size": 21,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "serier-_-danske-serier_590199"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "9bb762d3-1ace-4ec4-9956-55debd65461d",
+    "type": "ListEntry",
+    "title": "Virkelighedens krimi",
+    "template": "P1",
+    "list": {
+     "id": "4e578022-a2fe-8c3f-aa24-749924fed219",
+     "title": "Virkelighedens krimi",
+     "path": "/liste/virkelighedens-krimi-xbd6p",
+     "size": 43,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/4e578022-a2fe-8c3f-aa24-749924fed219?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "kategorier_dokumentar_true-crime_2_502737"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "c92fadc1-2ffc-402b-88d4-642ffd3639e9",
+    "type": "ListEntry",
+    "title": "Danske film",
+    "template": "P1",
+    "list": {
+     "id": "039043ac-a1d5-8bab-b6e5-29aa35e22c62",
+     "title": "Film | Danske film",
+     "path": "/liste/film-danske-film-xnoft",
+     "size": 43,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/039043ac-a1d5-8bab-b6e5-29aa35e22c62?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "film-_-danske-film_509301"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "00e369c5-13c3-4c93-ace3-8aa5286e27c3",
+    "type": "ListEntry",
+    "title": "Krimiserier",
+    "template": "P1",
+    "list": {
+     "id": "38d163d9-32f9-8433-a968-772467eb6c30",
+     "title": "Serier | Krimi",
+     "path": "/liste/serier-krimi-x3oor",
+     "size": 37,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/38d163d9-32f9-8433-a968-772467eb6c30?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "serier-_-krimi_504464"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "538d1a04-9b0b-4646-8a12-6a1ed9b36bb3",
+    "type": "ListEntry",
+    "title": "Danmarkshistorien",
+    "template": "P1",
+    "list": {
+     "id": "288a1a39-e77f-87a8-b141-9714197b8a70",
+     "title": "Danmarkshistorien ",
+     "path": "/liste/danmarkshistorien-xk45i",
+     "size": 27,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/288a1a39-e77f-87a8-b141-9714197b8a70?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "danmarkshistorien-_316611"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "4644ff34-0d8b-41bf-b68b-fa5bb087470d",
+    "type": "ListEntry",
+    "title": "Klima, miljø og grøn omstilling",
+    "template": "T1",
+    "list": {
+     "id": "fbc12fbe-dde9-8276-a8cb-3e0822acabb9",
+     "title": "Natur | Klima, miljø og grøn omstilling",
+     "path": "/liste/natur-klima-milj-og-grn-omstilling-x9mej",
+     "size": 31,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/fbc12fbe-dde9-8276-a8cb-3e0822acabb9?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "natur-_-klima-miljoe-og-groen-omstilling_503481"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "d4cd3923-89f5-436c-8ccd-e875f5c82c8a",
+    "type": "ListEntry",
+    "title": "Drama og kærlighed",
+    "template": "P1",
+    "list": {
+     "id": "a2604cc3-f758-8dc2-889d-403d7dcf4863",
+     "title": "Serier | Drama og kærlighed",
+     "path": "/liste/serier-action-og-thriller",
+     "size": 56,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/a2604cc3-f758-8dc2-889d-403d7dcf4863?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 3
+     },
+     "customFields": {
+      "PathIdSegment": "serier-_-drama-og-kaerlighed_590207"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/kategorier/fiktionsserier/dramatiskeserier"
+    }
+   },
+   {
+    "id": "3c81e03f-981d-4fd9-b85e-e7e7705934af",
+    "type": "ListEntry",
+    "title": "Nervepirrende serier",
+    "template": "P1",
+    "list": {
+     "id": "8e0d560b-3a12-864a-8f8b-7128084322dc",
+     "title": "Serier | Action og thriller",
+     "path": "/liste/serier-udenlandske-serier",
+     "size": 43,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/8e0d560b-3a12-864a-8f8b-7128084322dc?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 2
+     },
+     "customFields": {
+      "PathIdSegment": "serier-_-action-og-thriller_590205"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": "/kategorier/fiktionsserier/nervepirrendeserier"
+    }
+   },
+   {
+    "id": "875d8944-bfae-4b4f-84d3-433ea06b1264",
+    "type": "ListEntry",
+    "title": "P3-dokumentarer",
+    "template": "P1",
+    "list": {
+     "id": "61a0bf99-39a9-8e6a-a433-ce828d97a5d0",
+     "title": "P3-dokumentarer",
+     "path": "/liste/p3-dokumentarer-xs5g7",
+     "size": 100,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "next": "/lists/61a0bf99-39a9-8e6a-a433-ce828d97a5d0?page=2&page_size=24&order=Desc",
+      "page": 1,
+      "size": 24,
+      "total": 5
+     },
+     "customFields": {
+      "PathIdSegment": "kategorier_dokumentar_p3_dokumentarer_500887"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "assetTitlePosition": "below",
+     "moreLinkUrl": ""
+    }
+   },
+   {
+    "id": "56e6f2dd-65e5-4784-b249-7742853cde99",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "drtv-forside-bund-1",
+     "sas_siteId": 1,
+     "sas_pageName": "moEngage",
+     "sas_formatId": 1,
+     "sas_keywordTargeting": "",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "0c1b535b-efc4-484c-82b5-3aa78f9d66f7",
+    "type": "CustomEntry",
+    "title": "",
+    "template": "DRX11",
+    "customFields": {
+     "customTagline": "",
+     "sas_siteId": 292591,
+     "sas_pageName": "1254625",
+     "sas_formatId": 94297,
+     "sas_keywordTargeting": "destination=plads3",
+     "sas_master": true
+    }
+   },
+   {
+    "id": "566707bc-a977-4ee6-bde0-09c6625b0709",
+    "type": "ListEntry",
+    "title": "",
+    "template": "TX1",
+    "list": {
+     "id": "e321342c-9438-83e5-8974-7218553417db",
+     "title": "Hjælp",
+     "path": "/liste/hjlp-xjtmq",
+     "size": 1,
+     "items": [],
+     "listMeta": {
+      "isProfileList": false
+     },
+     "paging": {
+      "page": 1,
+      "size": 24,
+      "total": 1
+     },
+     "customFields": {
+      "PathIdSegment": "hjaelp_524260"
+     }
+    },
+    "customFields": {
+     "customTagline": "",
+     "backgroundColor": {
+      "color": "",
+      "opacity": 100
+     },
+     "textColor": {
+      "color": "",
+      "opacity": 100
+     },
+     "moreLinkUrl": ""
+    }
+   }
+  ],
+  "customFields": {},
+  "themes": [],
+  "id": "7ea571d6-2073-8ecf-8724-8bc6a5299bc8",
+  "title": "DRTV - Stream TV online her",
+  "path": "/",
+  "template": "Home",
+  "key": "Home",
+  "isStatic": false,
+  "isSystemPage": false
+ }
+}

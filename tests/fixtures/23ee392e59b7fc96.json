@@ -1,0 +1,371 @@
+{
+ "status": 200,
+ "json": {
+  "id": "d556e37e-8f84-4bb3-aaa4-05d19f1f6426",
+  "title": "Ramasjang | N",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xewsj",
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "size": 4,
+  "items": [
+   {
+    "id": "6b8bb1b4-e7ad-4eb9-a422-4fc4d73da232",
+    "type": "show",
+    "subtype": "",
+    "title": "Nana",
+    "shortDescription": "Dansk børneserie fra 1988. Nana er seks år og starter i skolen. Hendes finurlige syn på verden udfordrer de voksne - især hendes lidt distræte far, spillet af Jesper Christensen.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/nana_472884",
+    "scopes": [
+     "6b8bb1b4-e7ad-4eb9-a422-4fc4d73da232"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1912351996000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645E584JW9BQZFZWWQ23EHC%27&entityId=%276b8bb1b4-e7ad-4eb9-a422-4fc4d73da232%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645E584SCD793B3FR5SQMMA%27&entityId=%276b8bb1b4-e7ad-4eb9-a422-4fc4d73da232%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645E584YENNMCCD6XX9B45H%27&entityId=%276b8bb1b4-e7ad-4eb9-a422-4fc4d73da232%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "8ec614a815a508f63be6b8a236585b4c4d8a654b3e672f1f512555bfa2cb036c",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Gensyn",
+     "ExtraDetails": "Gensyn | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Gensyn,DR Ramasjang",
+     "PageTitle": "Nana",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "gensyn",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_familie",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_genkendelig",
+     "recommendationgenre_drama",
+     "theme_dagligdag og hjemmeliv"
+    ]
+   },
+   {
+    "id": "adb2c509-0abe-4aff-b9f1-4be549a9ec72",
+    "type": "show",
+    "subtype": "",
+    "title": "Naturen kalder",
+    "shortDescription": "Bjørnen Boog og hjorten Elliot er vilde venner og sammen forsøger de at drive en sommerlejr for alle vildmarkens mange dyr. Det bliver kaos - men også et sted, hvor alle føler sig hjemme. Amerikansk tegnefilmserie.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/naturen-kalder_459184",
+    "scopes": [
+     "adb2c509-0abe-4aff-b9f1-4be549a9ec72"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5004272316000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K54CPR8ECNY79QF9KN4S4X%27&entityId=%27adb2c509-0abe-4aff-b9f1-4be549a9ec72%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K54CPRWKCB2P9KQ1SKMKYQ%27&entityId=%27adb2c509-0abe-4aff-b9f1-4be549a9ec72%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K54CPT9TQ0NBEVZG03H906%27&entityId=%27adb2c509-0abe-4aff-b9f1-4be549a9ec72%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "40b9700943ecd6d4dedc7ed2f9efd18350ddf79c5265dec8dfb2c9c4aefef8f2",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Tegnefilm",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "PageTitle": "Naturen kalder",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_fredagstamtam",
+     "mood_sjov",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "6f88cee5-5d1d-4790-b86f-79c53e16a5b1",
+    "type": "program",
+    "subtype": "",
+    "title": "Niko og Nordlysets hemmelighed",
+    "shortDescription": "Niko er et flyvende rensdyr, der drømmer om at blive en del af julemandens Kanekorps. Da rensdyret Stella stjæler kanen, må Niko begive sig ud på en farefuld færd for at genfinde kanen og redde julen. Udløber: 31. dec. 2026",
+    "tagline": "Dagens film",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/niko-og-nordlysets-hemmelighed_628143",
+    "watchPath": "/se/niko-og-nordlysets-hemmelighed_628143",
+    "scopes": [
+     "6f88cee5-5d1d-4790-b86f-79c53e16a5b1"
+    ],
+    "releaseYear": 2021,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 4896,
+    "customId": "urn:dr:ocs:tv:content:playable:00852111710",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M663WDT4Y6F848D8GC2GR47Y%27&entityId=%276f88cee5-5d1d-4790-b86f-79c53e16a5b1%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M663WDT2VC7EMDVJJYN393W5%27&entityId=%276f88cee5-5d1d-4790-b86f-79c53e16a5b1%27&entityType=%27Item%27&Width=1920&Height=1080",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M663WSN2AXC6WSVTDXHZ0PFW%27&entityId=%276f88cee5-5d1d-4790-b86f-79c53e16a5b1%27&entityType=%27Item%27&Width=720&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2026-11-01T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "e6401d09e54b3048ba5af74bf78e91767539ce5bb3ce5798e37263c08846203c",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "1. NOV. 2026 | 1T 22M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 1T 22M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Niko og Nordlysets hemmelighed",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "FINLAND",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1T 22M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "agetargetgroup_familie",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_eventyrlig",
+     "recommendationgenre_animation",
+     "theme_jul"
+    ]
+   },
+   {
+    "id": "01a3e9b6-337b-47df-ac0d-f83484603eb8",
+    "type": "show",
+    "subtype": "",
+    "title": "Ninja i røret",
+    "shortDescription": "Finsk serie om pigen Ninja, som keder sig i ejendommen, hvor hun ikke kender nogen. Men hun lærer en masse om de andre i ejendommen ved at lytte på varmerørene i kælderen.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/ninja-i-roeret_151618",
+    "scopes": [
+     "01a3e9b6-337b-47df-ac0d-f83484603eb8"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1912358517000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J6TXGFK7H4W9AWD8KSEP90%27&entityId=%2701a3e9b6-337b-47df-ac0d-f83484603eb8%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J6TXGFK687FJWPPVPPC2M9%27&entityId=%2701a3e9b6-337b-47df-ac0d-f83484603eb8%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J6TXGFK687FJWPPVPPC2M9%27&entityId=%2701a3e9b6-337b-47df-ac0d-f83484603eb8%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "8cd12f3c063472c95fea1154a2ad2db6a407c91c1c977350500e339e8a2f66a9",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Serie",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "PageTitle": "Ninja i røret",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_genkendelig",
+     "recommendationgenre_drama",
+     "theme_dagligdag og hjemmeliv"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 1
+  },
+  "customFields": {}
+ }
+}

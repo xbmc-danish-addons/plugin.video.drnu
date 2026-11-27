@@ -57,13 +57,6 @@ def test_exchange_token_sends_timeout(monkeypatch):
     assert fake.timeouts() == [GET_TIMEOUT]
 
 
-def test_anonymous_tokens_sends_timeout(monkeypatch):
-    fake = FakeRequests([FakeResponse(content=b'[{"Token": "t"}]')])
-    monkeypatch.setattr(drauth, 'requests', fake)
-    assert drauth.anonymous_tokens() == [{'Token': 't'}]
-    assert fake.timeouts() == [GET_TIMEOUT]
-
-
 def test_full_login_sends_timeout_on_every_call(monkeypatch):
     responses = [
         FakeResponse(url='https://login.dr.dk/oidc/authorize/trans123'),

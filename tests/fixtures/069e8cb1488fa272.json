@@ -1,0 +1,674 @@
+{
+ "status": 200,
+ "json": {
+  "metadata": {
+   "description": "",
+   "keywords": []
+  },
+  "entries": [
+   {
+    "id": "2399adc4-2248-4006-9388-ea4fb13d98e9",
+    "type": "CustomEntry",
+    "title": "Top text links + Jul (2)",
+    "template": "H11",
+    "customFields": {
+     "backgroundColor": {
+      "color": "#ffffff",
+      "opacity": 100
+     },
+     "textColor": {
+      "color": "#000000",
+      "opacity": 100
+     },
+     "textHorizontalAlignment": "left"
+    }
+   },
+   {
+    "id": "d826bf4e-5874-4a9f-81f1-9b6eae36f298",
+    "type": "ListDetailEntry",
+    "title": "",
+    "template": "CS5",
+    "customFields": {
+     "displayFilter": false,
+     "assetTitlePosition": "below"
+    }
+   }
+  ],
+  "customFields": {},
+  "list": {
+   "id": "f7069ff3-362e-496a-b431-1a51d236aef5",
+   "title": "Top text links + Jul (2)",
+   "description": "",
+   "shortDescription": "",
+   "tagline": "",
+   "path": "/liste/top-text-links-jul-2",
+   "itemTypes": [
+    "link"
+   ],
+   "size": 19,
+   "items": [
+    {
+     "id": "0c303fb2-0d97-4b96-b1a9-644c867b5258",
+     "type": "link",
+     "subtype": "",
+     "title": "Nyheder",
+     "name": "DRTV Kategori | Nyheder",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/nyhederogdebat",
+     "scopes": [
+      "0c303fb2-0d97-4b96-b1a9-644c867b5258"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DA417W6ZCMNEJSJ4TTVN%27&entityId=%270c303fb2-0d97-4b96-b1a9-644c867b5258%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DB8M1HY33G69PVZW8CJG%27&entityId=%270c303fb2-0d97-4b96-b1a9-644c867b5258%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DCMAZHC6ZB9QEEG77PJV%27&entityId=%270c303fb2-0d97-4b96-b1a9-644c867b5258%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DE3EY6GNT9ZM8G7JZTAM%27&entityId=%270c303fb2-0d97-4b96-b1a9-644c867b5258%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-nyheder_376583"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "ee332e1c-36d4-4d69-aab5-32c8619c8bca",
+     "type": "link",
+     "subtype": "",
+     "title": "Jul",
+     "name": "DRTV Kategori | Jul",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/jul",
+     "scopes": [
+      "ee332e1c-36d4-4d69-aab5-32c8619c8bca"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M1EGYPDAAC1GDMGTV0WG3WP0%27&entityId=%27ee332e1c-36d4-4d69-aab5-32c8619c8bca%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M1EGZ4PDXSM632AME486FAVE%27&entityId=%27ee332e1c-36d4-4d69-aab5-32c8619c8bca%27&entityType=%27link%27&Width=1920&Height=1080",
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M1EH17AVFQ58FKGDRWQ792Q5%27&entityId=%27ee332e1c-36d4-4d69-aab5-32c8619c8bca%27&entityType=%27link%27&Width=1024&Height=1024"
+     },
+     "themes": [],
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "5891bcb1-727c-4417-a3da-67502669b0cb",
+     "type": "link",
+     "subtype": "",
+     "title": "Dokumentar",
+     "name": "DRTV Kategori | Dokumentar",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/dokumentar",
+     "scopes": [
+      "5891bcb1-727c-4417-a3da-67502669b0cb"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62D9P2RFA1JGW73GD49E84%27&entityId=%275891bcb1-727c-4417-a3da-67502669b0cb%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DARXYH56RRBKBFDBX1CZ%27&entityId=%275891bcb1-727c-4417-a3da-67502669b0cb%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DBVDSPT29284NPZ3H5N0%27&entityId=%275891bcb1-727c-4417-a3da-67502669b0cb%27&entityType=%27link%27&Width=1920&Height=1080"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-dokumentar_376580"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "186b609d-8a80-4220-84d5-5a1eb077b53d",
+     "type": "link",
+     "subtype": "",
+     "title": "Serier",
+     "name": "DRTV Kategori | Serier",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/fiktionsserier",
+     "scopes": [
+      "186b609d-8a80-4220-84d5-5a1eb077b53d"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62D9X59WWR03DTMA2QTA9G%27&entityId=%27186b609d-8a80-4220-84d5-5a1eb077b53d%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DAW2WR9SDHCG4KWRWK36%27&entityId=%27186b609d-8a80-4220-84d5-5a1eb077b53d%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DBVAJ5VWW002MJGXDYJN%27&entityId=%27186b609d-8a80-4220-84d5-5a1eb077b53d%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DCVDZQKB3JESHETREHYA%27&entityId=%27186b609d-8a80-4220-84d5-5a1eb077b53d%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-serier_376581"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "812ba887-dd65-4716-a07a-22371e821e55",
+     "type": "link",
+     "subtype": "",
+     "title": "Film",
+     "name": "DRTV Kategori | Film",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/film",
+     "scopes": [
+      "812ba887-dd65-4716-a07a-22371e821e55"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62D90R4C3YHXK7XYPN001Q%27&entityId=%27812ba887-dd65-4716-a07a-22371e821e55%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DA09C8DFF58KA7D4Q19H%27&entityId=%27812ba887-dd65-4716-a07a-22371e821e55%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DBJ1WEJWK4SD0E51CHQC%27&entityId=%27812ba887-dd65-4716-a07a-22371e821e55%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DCHG3Z8F03D36B287HKK%27&entityId=%27812ba887-dd65-4716-a07a-22371e821e55%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-film_376582"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "b68b8535-1b4b-4d4b-a36b-fcd39d754ae1",
+     "type": "link",
+     "subtype": "",
+     "title": "Livsstil",
+     "name": "DRTV Kategori | Livsstil",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/livsstil",
+     "scopes": [
+      "b68b8535-1b4b-4d4b-a36b-fcd39d754ae1"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62D8VAC379Y3GZPEEZ9Q39%27&entityId=%27b68b8535-1b4b-4d4b-a36b-fcd39d754ae1%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DA6JP4X81DTXF0QHGA0M%27&entityId=%27b68b8535-1b4b-4d4b-a36b-fcd39d754ae1%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DBHTDAV2PD9KA4QFCFHJ%27&entityId=%27b68b8535-1b4b-4d4b-a36b-fcd39d754ae1%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DCEQ63KGZ8RKD74PE68C%27&entityId=%27b68b8535-1b4b-4d4b-a36b-fcd39d754ae1%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-livsstil_376584"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "9b1fbbaa-7a1f-46e2-872b-ecf2a4b04d75",
+     "type": "link",
+     "subtype": "",
+     "title": "Sport",
+     "name": "DRTV Kategori | Sport",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/sport",
+     "scopes": [
+      "9b1fbbaa-7a1f-46e2-872b-ecf2a4b04d75"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DVSJ3TVR4YTAHTMDVE0F%27&entityId=%279b1fbbaa-7a1f-46e2-872b-ecf2a4b04d75%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DX2KEW5TYP9FH1QAMR91%27&entityId=%279b1fbbaa-7a1f-46e2-872b-ecf2a4b04d75%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DYA1HB2GNA63JRQ3JT3S%27&entityId=%279b1fbbaa-7a1f-46e2-872b-ecf2a4b04d75%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DZ6FKWWA8F0A8C3GKST9%27&entityId=%279b1fbbaa-7a1f-46e2-872b-ecf2a4b04d75%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-sport_376594"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "40fe5405-9ac3-4e7e-b7d3-018f24e78a64",
+     "type": "link",
+     "subtype": "",
+     "title": "Historie",
+     "name": "DRTV Kategori | Historie",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/historie",
+     "scopes": [
+      "40fe5405-9ac3-4e7e-b7d3-018f24e78a64"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62D9DF8K83T8EV3AMMGF05%27&entityId=%2740fe5405-9ac3-4e7e-b7d3-018f24e78a64%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DAFHGF5CCK0PSFETD2ZB%27&entityId=%2740fe5405-9ac3-4e7e-b7d3-018f24e78a64%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DBHSYJ38N1ZCYBEBW6AE%27&entityId=%2740fe5405-9ac3-4e7e-b7d3-018f24e78a64%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DCBSWCJCKPDCDZWFMHZC%27&entityId=%2740fe5405-9ac3-4e7e-b7d3-018f24e78a64%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-historie_376590"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "3fbfeea9-effb-490f-8d9a-1363373450bd",
+     "type": "link",
+     "subtype": "",
+     "title": "Natur",
+     "name": "DRTV Kategori | Natur",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/natur",
+     "scopes": [
+      "3fbfeea9-effb-490f-8d9a-1363373450bd"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DA1Y0K7E5Y52V3AYD7Q4%27&entityId=%273fbfeea9-effb-490f-8d9a-1363373450bd%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DB2BDBKM6YQ56MSFXN1V%27&entityId=%273fbfeea9-effb-490f-8d9a-1363373450bd%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DC8SCME75JVHWJ0G9NX8%27&entityId=%273fbfeea9-effb-490f-8d9a-1363373450bd%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DFC9FKWXY02DC16NQGE8%27&entityId=%273fbfeea9-effb-490f-8d9a-1363373450bd%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-natur_376588"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "ac70941d-b9fe-4069-9238-b259b2e56db4",
+     "type": "link",
+     "subtype": "",
+     "title": "Kultur",
+     "name": "DRTV Kategori | Kultur",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/kultur",
+     "scopes": [
+      "ac70941d-b9fe-4069-9238-b259b2e56db4"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DAAKJ3BSYACT34Z7XPZ1%27&entityId=%27ac70941d-b9fe-4069-9238-b259b2e56db4%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DB5PJ9FXJYC3DT6YRKGH%27&entityId=%27ac70941d-b9fe-4069-9238-b259b2e56db4%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DC8SMT24VH93XV9JJDKM%27&entityId=%27ac70941d-b9fe-4069-9238-b259b2e56db4%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DD54P5WP2XJBBJ1SVJ43%27&entityId=%27ac70941d-b9fe-4069-9238-b259b2e56db4%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-kultur_376585"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "8a8718d7-4c15-4ec5-b1bd-64761e35d5eb",
+     "type": "link",
+     "subtype": "",
+     "title": "Krimi",
+     "name": "DRTV Kategori | Krimi",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/krimi",
+     "scopes": [
+      "8a8718d7-4c15-4ec5-b1bd-64761e35d5eb"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62D90M60QYQ6EYDAPKQQQH%27&entityId=%278a8718d7-4c15-4ec5-b1bd-64761e35d5eb%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DAKCCSE52GPV0A6VJFZS%27&entityId=%278a8718d7-4c15-4ec5-b1bd-64761e35d5eb%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DBYJCBN0Y4H0K11M2AMP%27&entityId=%278a8718d7-4c15-4ec5-b1bd-64761e35d5eb%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DD7Z4JP7QNHQENPCNPJ1%27&entityId=%278a8718d7-4c15-4ec5-b1bd-64761e35d5eb%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-krimi_376589"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "9f2491a4-6152-4a5d-b27b-ca167a799e4a",
+     "type": "link",
+     "subtype": "",
+     "title": "Underholdning og satire",
+     "name": " DRTV Kategori | Underholdning og satire",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/underholdning",
+     "scopes": [
+      "9f2491a4-6152-4a5d-b27b-ca167a799e4a"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DA4B0QY7M2ZPE4N4GP32%27&entityId=%279f2491a4-6152-4a5d-b27b-ca167a799e4a%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DC58HGDY54ET6WJFKSSY%27&entityId=%279f2491a4-6152-4a5d-b27b-ca167a799e4a%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DECWAW8GMZRGN8D6RFP0%27&entityId=%279f2491a4-6152-4a5d-b27b-ca167a799e4a%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DG551XTBDEGB76Z19AJY%27&entityId=%279f2491a4-6152-4a5d-b27b-ca167a799e4a%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-underholdning-og-satire_376587"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "32cf5b21-1e48-4580-8795-3e30578f7307",
+     "type": "link",
+     "subtype": "",
+     "title": "Gensyn",
+     "name": "DRTV Kategori | Gensyn",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/gensyn",
+     "scopes": [
+      "32cf5b21-1e48-4580-8795-3e30578f7307"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FJXPEYQ3TNWNSTDJMRA7%27&entityId=%2732cf5b21-1e48-4580-8795-3e30578f7307%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FN027JMTEZ0W64A71FK5%27&entityId=%2732cf5b21-1e48-4580-8795-3e30578f7307%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62FPFPSGAKBW2G0TJGBAZD%27&entityId=%2732cf5b21-1e48-4580-8795-3e30578f7307%27&entityType=%27link%27&Width=1920&Height=1080"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-gensyn_436032"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "041fa86e-c582-4a26-a813-ba1b33124616",
+     "type": "link",
+     "subtype": "",
+     "title": "Minisjang",
+     "name": "DRTV Kategori | Minisjang",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/minisjang",
+     "scopes": [
+      "041fa86e-c582-4a26-a813-ba1b33124616"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM7668J73TFHCXNRXRDTTF3N%27&entityId=%27041fa86e-c582-4a26-a813-ba1b33124616%27&entityType=%27link%27&Width=1920&Height=1080",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM766A80Y4P5Q7VAMBHKEF05%27&entityId=%27041fa86e-c582-4a26-a813-ba1b33124616%27&entityType=%27link%27&Width=1024&Height=576",
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM766B6T2R293PDGPWPYPTPN%27&entityId=%27041fa86e-c582-4a26-a813-ba1b33124616%27&entityType=%27link%27&Width=1024&Height=1024",
+      "logo": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM766C97GJAEZQZSAR4ZX0NS%27&entityId=%27041fa86e-c582-4a26-a813-ba1b33124616%27&entityType=%27link%27&Width=2097&Height=2097"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "minisjang_242581"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "4d3e10d3-af52-4d4f-8ac5-8bcb3e7954b9",
+     "type": "link",
+     "subtype": "",
+     "title": "Ramasjang",
+     "name": "DRTV Kategori | Ramasjang",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/ramasjang",
+     "scopes": [
+      "4d3e10d3-af52-4d4f-8ac5-8bcb3e7954b9"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KMZEG6NDW13FQTC72F87VRXJ%27&entityId=%274d3e10d3-af52-4d4f-8ac5-8bcb3e7954b9%27&entityType=%27link%27&Width=1024&Height=576",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KMZEHD01Y4PSPMXN6XA243TX%27&entityId=%274d3e10d3-af52-4d4f-8ac5-8bcb3e7954b9%27&entityType=%27link%27&Width=1200&Height=900",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KMZEK0EJAG84KJXXX3FMM0D3%27&entityId=%274d3e10d3-af52-4d4f-8ac5-8bcb3e7954b9%27&entityType=%27link%27&Width=1920&Height=1080",
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KMZEMEKB4S68JHK7N36RJ3AM%27&entityId=%274d3e10d3-af52-4d4f-8ac5-8bcb3e7954b9%27&entityType=%27link%27&Width=1024&Height=1024"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-minisjang_376601"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "df02b35b-a4ca-4f59-a827-23dd79901866",
+     "type": "link",
+     "subtype": "",
+     "title": "Ultra",
+     "name": "DRTV Kategori | Ultra",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/ultra",
+     "scopes": [
+      "df02b35b-a4ca-4f59-a827-23dd79901866"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DWA5GCBAG77EAQ30PPER%27&entityId=%27df02b35b-a4ca-4f59-a827-23dd79901866%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DXAZX17KBKJXVJDHNT3F%27&entityId=%27df02b35b-a4ca-4f59-a827-23dd79901866%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DYTAGZYDGFAC04RR8745%27&entityId=%27df02b35b-a4ca-4f59-a827-23dd79901866%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62E006K6MJQK8C5YVCF573%27&entityId=%27df02b35b-a4ca-4f59-a827-23dd79901866%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-ultra_376599"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "04273a5a-3d29-4ac3-b23e-c0c33b1de197",
+     "type": "link",
+     "subtype": "",
+     "title": "P3",
+     "name": "DRTV Kategori | P3",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/p3",
+     "scopes": [
+      "04273a5a-3d29-4ac3-b23e-c0c33b1de197"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DVZ6BW0RGZS4NW7B0J0C%27&entityId=%2704273a5a-3d29-4ac3-b23e-c0c33b1de197%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DX82AMVDQ4SQEVAH6KHA%27&entityId=%2704273a5a-3d29-4ac3-b23e-c0c33b1de197%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DYPRF700F0SSKCFGS15R%27&entityId=%2704273a5a-3d29-4ac3-b23e-c0c33b1de197%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62E0FG1XEY5BBPCDA5EEDN%27&entityId=%2704273a5a-3d29-4ac3-b23e-c0c33b1de197%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-p3_376598"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "fdadb3a7-0438-41ca-aca0-0a75cba97f8b",
+     "type": "link",
+     "subtype": "",
+     "title": "DR1",
+     "name": "DRTV Kategori | DR1",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/dr1",
+     "scopes": [
+      "fdadb3a7-0438-41ca-aca0-0a75cba97f8b"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DWR9AE388J8TE5SXV8V4%27&entityId=%27fdadb3a7-0438-41ca-aca0-0a75cba97f8b%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DXQ44TVF9JRRNDTSDZ8K%27&entityId=%27fdadb3a7-0438-41ca-aca0-0a75cba97f8b%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DYPJDJGPFKFBNQ6QEN9X%27&entityId=%27fdadb3a7-0438-41ca-aca0-0a75cba97f8b%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DZSN66VEDHHZWS881GWF%27&entityId=%27fdadb3a7-0438-41ca-aca0-0a75cba97f8b%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-dr1_376596"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "4123ff36-577a-4a8f-8b3a-530380fe76a6",
+     "type": "link",
+     "subtype": "",
+     "title": "DR2",
+     "name": "DRTV Kategori | DR2",
+     "shortDescription": "",
+     "tagline": "",
+     "path": "/kategorier/dr2",
+     "scopes": [
+      "4123ff36-577a-4a8f-8b3a-530380fe76a6"
+     ],
+     "badgeBackground": "",
+     "badgeForeground": "",
+     "genres": [],
+     "sports": [],
+     "offers": [],
+     "images": {
+      "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DVJXD7YWTG80Z3JYD31C%27&entityId=%274123ff36-577a-4a8f-8b3a-530380fe76a6%27&entityType=%27link%27&Width=1024&Height=1024",
+      "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DWR104Y1ZS05N8RR1G1Q%27&entityId=%274123ff36-577a-4a8f-8b3a-530380fe76a6%27&entityType=%27link%27&Width=1024&Height=576",
+      "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DXTMQ6ESKHN5NCJ4HKVH%27&entityId=%274123ff36-577a-4a8f-8b3a-530380fe76a6%27&entityType=%27link%27&Width=1920&Height=1080",
+      "block": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM62DYWW6W3QKYWEPSNSAAGS%27&entityId=%274123ff36-577a-4a8f-8b3a-530380fe76a6%27&entityType=%27link%27&Width=1200&Height=900"
+     },
+     "themes": [],
+     "customFields": {
+      "PathIdSegment": "drtv-kategori-_-dr2_376597"
+     },
+     "trailerWatchPaths": [],
+     "buttonLabel": "",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "listMeta": {
+    "isProfileList": false
+   },
+   "paging": {
+    "page": 1,
+    "size": 50,
+    "total": 1
+   },
+   "customFields": {
+    "PathIdSegment": "top-text-links--jul-_2__628181"
+   }
+  },
+  "themes": [],
+  "id": "f3dff0cb-f3be-8ea0-ba93-da9138ecbd1c",
+  "title": "Top text links + Jul (2)",
+  "path": "/liste/top-text-links-jul-2",
+  "template": "List Detail",
+  "key": "List",
+  "isStatic": false,
+  "isSystemPage": true
+ }
+}

@@ -33,3 +33,26 @@ def test_key_includes_params_argument():
 def test_fake_response_json():
     assert FakeResponse({'a': 1}).json() == {'a': 1}
     assert FakeResponse({}).status_code == 200
+
+
+def test_fixture_key_strips_the_web_params_and_sorts():
+    """The adapter keys on path + sorted params minus the paging context, so a
+    recorded run replays exactly. WEB_PARAMS are stripped because get_next()
+    removes them before asking for a later page."""
+    from fixtures_adapter import fixture_key
+    from resources.lib import tvapi
+
+    key = fixture_key(tvapi.URL + '/page', {'path': '/', 'segments': 'drtv,optedin',
+                                            'lang': 'da', 'list_page_size': 24})
+    assert key == '/api/page?list_page_size=24&path=%2F'
+
+
+def test_recorded_index_entries_all_exist():
+    """Every key in _index.json must point at a fixture file, or a replay run
+    fails on a missing file instead of a missing key."""
+    from fixtures_adapter import FIXTURES, load_index
+
+    index = load_index()
+    assert index
+    missing = [name for name in index.values() if not (FIXTURES / name).is_file()]
+    assert missing == []

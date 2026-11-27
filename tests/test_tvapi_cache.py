@@ -44,7 +44,8 @@ class FakeSession:
         return _CacheDisabled(self)
 
     def get(self, url, params=None, headers=None, timeout=None):
-        self.calls.append({'url': url, 'params': dict(params) if params else params})
+        self.calls.append({'url': url, 'params': dict(params) if params else params,
+                           'headers': dict(headers) if headers else {}})
         return self.responses.pop(0)
 
 
@@ -63,7 +64,11 @@ def test_search_bypasses_the_cache():
     session = FakeSession([FakeResponse(video)])
     assert _api(session).search('bluey') == video
     assert session.cache_disabled_used == 1
-    assert session.calls[0]['url'] == tvapi.URL + '/search'
+    assert session.calls[0]['url'] == tvapi.URL + '/v2/search'
+    # 'segments' is load-bearing: without it /v2/search reports total=0
+    assert session.calls[0]['params']['segments'] == 'drtv,optedin'
+    assert session.calls[0]['params']['term'] == 'bluey'
+    assert session.calls[0]['params']['group'] == 'true'
 
 
 def test_get_stream_bypasses_the_cache():
@@ -74,15 +79,14 @@ def test_get_stream_bypasses_the_cache():
     assert session.cache_disabled_used == 1
 
 
-def test_get_stream_retries_without_registered_when_unauthorized():
-    """A non-200 on the registered request must retry anonymously, still
-    uncached."""
+def test_get_stream_sends_the_required_geo_location():
+    """The new API answers 400 without geoLocation on the videos endpoint."""
     streams = [{'accessService': 'StandardVideo', 'subtitles': [], 'url': 'https://x/v.m3u8'}]
-    session = FakeSession([FakeResponse('nope', status_code=401), FakeResponse(streams)])
-    assert _api(session).get_stream(123)['url'] == 'https://x/v.m3u8'
-    assert session.cache_disabled_used == 1
-    assert session.calls[0]['params']['sub'] == 'Registered'
-    assert 'sub' not in session.calls[1]['params']
+    session = FakeSession([FakeResponse(streams)])
+    assert _api(session).get_stream('abc')['url'] == 'https://x/v.m3u8'
+    assert session.calls[0]['params']['geoLocation'] == 'dk'
+    assert session.calls[0]['url'] == tvapi.URL + '/account/items/abc/videos?'
+    assert session.calls[0]['headers']['Authorization'] == 'Bearer utoken'
 
 
 def _token_api(user):
@@ -108,16 +112,16 @@ def test_request_tokens_returns_exchange_error(monkeypatch):
     assert not hasattr(api, 'read')
 
 
-def test_request_tokens_returns_anonymous_error(monkeypatch):
+def test_request_tokens_without_credentials_reports_the_missing_login():
     api = _token_api('')
-    monkeypatch.setattr(tvapi, 'anonymous_tokens', lambda: {'status_code': 500, 'error': 'anon down'})
-    assert api.request_tokens() == 'anon down'
+    assert api.request_tokens() == 'DR TV requires a login'
     assert not hasattr(api, 'read')
 
 
 def test_request_tokens_reads_a_valid_token_list(monkeypatch):
-    api = _token_api('')
-    monkeypatch.setattr(tvapi, 'anonymous_tokens', lambda: [{'Token': 't'}, {'Token': 'p'}])
+    api = _token_api('user')
+    monkeypatch.setattr(tvapi, 'full_login', lambda u, p, log=None: {'access_token': 'a', 'id_token': 'i'})
+    monkeypatch.setattr(tvapi, 'exchange_token', lambda tokens: [{'Token': 't'}, {'Token': 'p'}])
     assert api.request_tokens() is None
     assert api.read == [{'Token': 't'}, {'Token': 'p'}]
     assert api.written == [{'Token': 't'}, {'Token': 'p'}]

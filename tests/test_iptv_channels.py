@@ -10,7 +10,7 @@ from resources.lib import addon as addon_module
 
 def _channel(title, cid):
     return {'title': title,
-            'item': {'id': str(cid), 'images': {'logo': f'logo{cid}.png'}}}
+            'id': str(cid), 'images': {'logo': f'logo{cid}.png'}}
 
 
 def test_tvalive_uses_the_drtv_include_setting(handle, monkeypatch):

@@ -1,0 +1,2130 @@
+{
+ "status": 200,
+ "json": {
+  "id": "9173f690-7bc5-40fd-8a89-db7f25b9916f",
+  "title": "DRTV | A",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-a-a-xe398",
+  "itemTypes": [
+   "program",
+   "show"
+  ],
+  "size": 146,
+  "items": [
+   {
+    "id": "11d901fe-80df-47b1-a0fd-2a7b634fd0a0",
+    "type": "program",
+    "subtype": "",
+    "title": "Al den kærlighed - Karen Thisted",
+    "shortDescription": "Dansk dokumentar fra 2004. Journalisten Karen Thisted og tre af hendes ekskærester fortæller åbenhjertigt om kærlighed, svære valg og livets op- og nedture. Et ærligt og rørende portræt af en kvinde, der har elsket stort, kæmpet med jalousi, tab og selvvæ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/al-den-kaerlighed-_-karen-thisted_522162",
+    "watchPath": "/se/al-den-kaerlighed-_-karen-thisted_522162",
+    "scopes": [
+     "11d901fe-80df-47b1-a0fd-2a7b634fd0a0"
+    ],
+    "releaseYear": 2003,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2271,
+    "customId": "urn:dr:ocs:tv:content:playable:00928239290",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBNPCVADXFMGGF8RCY0A6S%27&entityId=%2711d901fe-80df-47b1-a0fd-2a7b634fd0a0%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBNPCV23DKJE327GD07J06%27&entityId=%2711d901fe-80df-47b1-a0fd-2a7b634fd0a0%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBNPCVZKAAKKFNPGNPJM3T%27&entityId=%2711d901fe-80df-47b1-a0fd-2a7b634fd0a0%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2004-04-09T18:50:53.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "32fe25f67811381bbabffa61c5fdefb857c3c12091491e45bc0a09ec1a635903",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "9. APR. 2004 | 38M",
+     "DisplayCategory": "Dokumentar,Gensyn",
+     "ExtraDetails": "Dokumentar | 38M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Gensyn,DR Gensyn",
+     "PageTitle": "Al den kærlighed - Karen Thisted",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 38M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_romantik/kærlighed",
+     "editorialptaxtop_gensyn",
+     "person_karen thisted",
+     "thesaurus_kærlighed",
+     "thesaurus_parforhold"
+    ]
+   },
+   {
+    "id": "b9b2f321-ac07-40b3-ae28-cbdb8ef0f81d",
+    "type": "program",
+    "subtype": "",
+    "title": "Alder",
+    "shortDescription": "Dansk reportage fra 1983. Noget af det, der har ændret sig mest i vores kultur, er opfattelsen af alder. Hvor det tidligere var forbundet med status at blive ældre, kan det i dag være et problem. Et stigende antal danskere lægger sig derfor under kniven i",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alder_563584",
+    "watchPath": "/se/alder_563584",
+    "scopes": [
+     "b9b2f321-ac07-40b3-ae28-cbdb8ef0f81d"
+    ],
+    "releaseYear": 1983,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2404,
+    "customId": "urn:dr:ocs:tv:content:playable:00202584660",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ5C3EGGEPQ9X3ATJ9CPQ8%27&entityId=%27b9b2f321-ac07-40b3-ae28-cbdb8ef0f81d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ5C3F5H9WWE3RMEA6HMQB%27&entityId=%27b9b2f321-ac07-40b3-ae28-cbdb8ef0f81d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ5C3F5VDGH99SHMA3XP22%27&entityId=%27b9b2f321-ac07-40b3-ae28-cbdb8ef0f81d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1983-04-19T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "b66f07101a25d1733ab6878667c7ad1a0319436cee6c4fc938565899c0c39098",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "19. APR. 1983 | 40M",
+     "DisplayCategory": "Livsstil,Videnskab,Gensyn",
+     "ExtraDetails": "Livsstil | 40M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Livsstil,Videnskab,Gensyn,DR Gensyn",
+     "PageTitle": "Alder",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 40M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "livsstil",
+     "videnskab"
+    ],
+    "keywords": [
+     "controlled_kropsidealer",
+     "controlled_skønhedsidealer",
+     "culturalorigin_dansk",
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_gensyn",
+     "thesaurus_skønhedsbehandlinger"
+    ]
+   },
+   {
+    "id": "3fc3c7ae-3ea7-4ac8-a3bb-3723483c2a55",
+    "type": "program",
+    "subtype": "",
+    "title": "Aldrig mere i morgen",
+    "shortDescription": "Dansk drama fra 2017.\nKunstneren Thorvald mener, at han er både udødelig og uundværlig. Og da hans hjerte en dag holder op med at slå, er han ikke parat til at forlade denne verden. En engel lader ham gå usynlig rundt blandt sine efterladte i tre dage. Th",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/aldrig-mere-i-morgen_623453",
+    "watchPath": "/se/aldrig-mere-i-morgen_623453",
+    "scopes": [
+     "3fc3c7ae-3ea7-4ac8-a3bb-3723483c2a55"
+    ],
+    "releaseYear": 2017,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 5411,
+    "customId": "urn:dr:ocs:tv:content:playable:00022431050",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5A5ECC4XF8ZKBAMQ0RE34AP%27&entityId=%273fc3c7ae-3ea7-4ac8-a3bb-3723483c2a55%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5A5HS120B5EE2QP4RW9SXW9%27&entityId=%273fc3c7ae-3ea7-4ac8-a3bb-3723483c2a55%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5A5HS120X2P8F8XCZY4VJB8%27&entityId=%273fc3c7ae-3ea7-4ac8-a3bb-3723483c2a55%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "2026-10-28T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "4de76e03c64275a1a0e6c11c19c93f0043546f40a4da83022c3ea3598d68070b",
+     "ClassificationRating": "MRAM-11",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "28. OKT. 2026 | 1T 30M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 1T 30M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR2,acc_spoken_subtitles",
+     "PageTitle": "Aldrig mere i morgen",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1T 30M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr2",
+     "film"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_drama",
+     "editorialptaxtop_film",
+     "mood_følelsesladet",
+     "mood_livsbekræftende"
+    ]
+   },
+   {
+    "id": "555c3e76-2f29-471b-975c-c2c29d20d8f4",
+    "type": "program",
+    "subtype": "",
+    "title": "Aldrig mere kebab",
+    "shortDescription": "Svensk dokumentar fra 2023.\n(Aldrig mer kebab)\nJournalisten Gurgin opsiger sit job hos Sveriges Radio, flytter ud af sin lejlighed og ind i en autocamper sammen med hunden Ronja - alt sammen for at mindske sin klimapåvirkning. Men Gurgins forældre forstår",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/aldrig-mere-kebab_414573",
+    "watchPath": "/se/aldrig-mere-kebab_414573",
+    "scopes": [
+     "555c3e76-2f29-471b-975c-c2c29d20d8f4"
+    ],
+    "releaseYear": 2023,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 2898,
+    "customId": "urn:dr:ocs:tv:content:playable:00292300900",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z86DCKH71GMFVVPNNJNTGG%27&entityId=%27555c3e76-2f29-471b-975c-c2c29d20d8f4%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z86DCKJH1X0EMKRW40YVVB%27&entityId=%27555c3e76-2f29-471b-975c-c2c29d20d8f4%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z86DCMT61P9CSK88NGFQD4%27&entityId=%27555c3e76-2f29-471b-975c-c2c29d20d8f4%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "2023-10-17T07:00:37.8400000+00:00",
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "e8471d94875223b4a7157a7ff7cdd5c94a9039caa6c3b3723797695d2a0e22e3",
+     "ClassificationRating": "MRAM-11",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "17. OKT. 2023 | 48M",
+     "DisplayCategory": "Dokumentar,Livsstil",
+     "ExtraDetails": "Dokumentar | 48M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Dokumentar,Livsstil,DR1,acc_spoken_subtitles",
+     "PageTitle": "Aldrig mere kebab",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "SVERIGE",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 48M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr1",
+     "livsstil"
+    ],
+    "keywords": [
+     "controlled_klimaaktivisme",
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_international identitet/relationer",
+     "editorialptaxsub_klima/miljø/bæredygtighed",
+     "editorialptaxtop_dokumentar",
+     "thesaurus_livsstil"
+    ]
+   },
+   {
+    "id": "04b9a076-d893-499a-9163-fb7f91fb46eb",
+    "type": "show",
+    "subtype": "",
+    "title": "Aldrig mere tøjkrise",
+    "shortDescription": "Skabet er fyldt med tøj - men du har intet at tage på... \nI Aldrig mere Tøjkrise dyster genbrugseksperterne Julie Blichfeld og Andrés Artiles Jerrik om at skabe en ny, personlig stil til en person, der er faret vild i alt for meget tøj.                   ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/aldrig-mere-toejkrise_553709",
+    "scopes": [
+     "04b9a076-d893-499a-9163-fb7f91fb46eb"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5830811040000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJHWS0XMQ5EW9GFWYD60M%27&entityId=%2704b9a076-d893-499a-9163-fb7f91fb46eb%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJHWSBTYNE9V9FPXVGKGM%27&entityId=%2704b9a076-d893-499a-9163-fb7f91fb46eb%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJHWS0XT3SRVBFYSDSHP8%27&entityId=%2704b9a076-d893-499a-9163-fb7f91fb46eb%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "c935859a75630d1afade3f2d2c6602709220edd3763780b1898698d5b1597708",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Underholdning",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Underholdning,DR1",
+     "PageTitle": "Aldrig mere tøjkrise",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_sign_language",
+     "dr1",
+     "livsstil",
+     "underholdning"
+    ],
+    "keywords": [
+     "controlled_genbrugstøj",
+     "controlled_tøjstil",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fashion",
+     "editorialptaxsub_underholdning",
+     "editorialptaxtop_tv-program",
+     "thesaurus_beklædning"
+    ]
+   },
+   {
+    "id": "3080f9c4-98b4-4840-b99e-db500c2b5c1c",
+    "type": "show",
+    "subtype": "",
+    "title": "Alene hjemme med porno",
+    "shortDescription": "Pornografi er to klik væk for de fleste børn i dag - men hvad betyder det for en hel generation at have ubegrænset adgang til onlineporno fra en ung alder?",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alene-hjemme-med-porno_613684",
+    "scopes": [
+     "3080f9c4-98b4-4840-b99e-db500c2b5c1c"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6641068826514",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDMXVZYZY39TBBG5D04PWG%27&entityId=%273080f9c4-98b4-4840-b99e-db500c2b5c1c%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDMXVZ9JT8AGVWA63GAWH5%27&entityId=%273080f9c4-98b4-4840-b99e-db500c2b5c1c%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDMXVZ5RZ3NCMMSSRZJ16R%27&entityId=%273080f9c4-98b4-4840-b99e-db500c2b5c1c%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "c550dc4c12145b6c7d4a0a191e924f18a943210e5a3af873e9858e27be959dd1",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Krop,Teknologi",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Krop,Teknologi,DR1",
+     "PageTitle": "Alene hjemme med porno",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_sign_language",
+     "dokumentar",
+     "dr1",
+     "krop",
+     "teknologi"
+    ],
+    "keywords": [
+     "controlled_digital adfærd",
+     "culturalorigin_dansk",
+     "editorialptaxsub_dansk aktualitet/samfundsforhold",
+     "editorialptaxtop_dokumentar",
+     "thesaurus_børn",
+     "thesaurus_pornografi",
+     "thesaurus_sociale medier",
+     "thesaurus_unge"
+    ]
+   },
+   {
+    "id": "1dd07b66-67af-4042-a1f0-de2ba24ece0c",
+    "type": "show",
+    "subtype": "",
+    "title": "Alene hjemme på nettet",
+    "shortDescription": "Dokumentar. Serien er uegnet for børn. I 'Alene hjemme på nettet' fortæller 50 børn og unge mellem 12 og 18 år om deres oplevelser på nettet. Serien viser, at langt de fleste børn og unge jævnligt støder på klip, hvor der vises vold, mord, dødsulykker, se",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alene-hjemme-paa-nettet_440656",
+    "scopes": [
+     "1dd07b66-67af-4042-a1f0-de2ba24ece0c"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5072507906000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDH3JZQ3NT65BNXSX6JSBV%27&entityId=%271dd07b66-67af-4042-a1f0-de2ba24ece0c%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDH3KQZDRVVF2CB0KFCFXQ%27&entityId=%271dd07b66-67af-4042-a1f0-de2ba24ece0c%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDH3KPNMH9FHSTAFQ9V0M5%27&entityId=%271dd07b66-67af-4042-a1f0-de2ba24ece0c%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "1a05b2f13cd0ba27e7c1a118dee95bf2910c2ec67eb50bc02417c913f7104f91",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Videnskab,Teknologi",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Videnskab,Teknologi,DR1",
+     "PageTitle": "Alene hjemme på nettet",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "ShortVideoUrl": "https://drod22i.akamaized.net/all/clear/none/bf/65eabe5b6ad9432244ca5fbf/65eabe5915310b07c4b19fbe/stream_fmp4/master_manifest.m3u8",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dokumentar",
+     "dr1",
+     "teknologi",
+     "videnskab"
+    ],
+    "keywords": [
+     "controlled_digital adfærd",
+     "controlled_mistrivsel",
+     "culturalorigin_dansk",
+     "editorialptaxsub_dansk aktualitet/samfundsforhold",
+     "editorialptaxtop_dokumentar",
+     "thesaurus_børn",
+     "thesaurus_sociale medier",
+     "thesaurus_unge"
+    ]
+   },
+   {
+    "id": "e39ffd68-8277-4597-9afe-321538275dbd",
+    "type": "show",
+    "subtype": "",
+    "title": "Alene i vildmarken",
+    "shortDescription": "Alene i vildmarken er programmet, hvor deltagerne bliver efterladt i vildmarken, hvor de skal klare sig, lige så længe som de kan udstå strabadserne. Deltagere finder selv mad, bygger shelter og overlever i den barske natur.",
+    "tagline": "Episode 1:7 | Otte tidligere deltagere vender tilbage til den norske natur",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alene-i-vildmarken_69758",
+    "scopes": [
+     "e39ffd68-8277-4597-9afe-321538275dbd"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1620512323000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3A6M4AAXCEX4BXW0RX5GVV%27&entityId=%27e39ffd68-8277-4597-9afe-321538275dbd%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6425PD1KNN0ZMPB2FVJE5P9%27&entityId=%27e39ffd68-8277-4597-9afe-321538275dbd%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6425PD8HM3PVHF9H7N0XN3S%27&entityId=%27e39ffd68-8277-4597-9afe-321538275dbd%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6425PD1NBH722YJMPWA8SNG%27&entityId=%27e39ffd68-8277-4597-9afe-321538275dbd%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "bf4e3bd6a8adadba498cc7051bf212f430ad01740da1fcd30c2743415e2ab735",
+     "ClassificationRating": "MRAM-11",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Underholdning,Natur,Reality",
+     "ExtraDetails": "Livsstil | 10 SÆSONER",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Underholdning,Natur,Reality,DR1",
+     "PageTitle": "Alene i vildmarken",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "ShortVideoUrl": "https://drod20i.akamaized.net/all/clear/none/fe/640f223fac5a6222a086f0fe/640f223dd86de116acbfcacb/stream_fmp4/master_manifest.m3u8",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 10 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_audio_description",
+     "acc_sign_language",
+     "acc_spoken_subtitles",
+     "dr1",
+     "livsstil",
+     "natur",
+     "reality",
+     "underholdning"
+    ],
+    "keywords": [
+     "agetargetgroup_familie",
+     "controlled_overlevelseseksperiment",
+     "controlled_overlevelsestur",
+     "controlled_vildmarksliv",
+     "culturalorigin_dansk",
+     "editorialptaxsub_vildmarksliv",
+     "editorialptaxtop_tv-program",
+     "franchise_alene i vildmarken",
+     "thesaurus_friluftsliv"
+    ]
+   },
+   {
+    "id": "49bbb34c-9acf-40ba-9343-92e9540b2bf3",
+    "type": "show",
+    "subtype": "",
+    "title": "Alene i vildmarken Australien",
+    "shortDescription": "Ti modige mænd og kvinder bliver efterladt i den nådesløse vildmark midt om vinteren. De skal overleve helt alene og uden hjælp så længe som muligt. Vinderen får 250.000 dollars.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alene-i-vildmarken-australien_415993",
+    "scopes": [
+     "49bbb34c-9acf-40ba-9343-92e9540b2bf3"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:4974431425000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M3NSZ9B1WYKWVZV94F731221%27&entityId=%2749bbb34c-9acf-40ba-9343-92e9540b2bf3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M3NSZ9B1K3JCR88TH4JT6N49%27&entityId=%2749bbb34c-9acf-40ba-9343-92e9540b2bf3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M3NSZ9B1SRQ6MBJ4CDB54N0A%27&entityId=%2749bbb34c-9acf-40ba-9343-92e9540b2bf3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DRTV",
+     "BrandingChannelShort": "DRT",
+     "Checksum": "720677926076c2708824e9f7d05705708f568912637edf2da901260869fe0b6f",
+     "ClassificationRating": "MRAM-11",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Underholdning,Natur,Reality",
+     "ExtraDetails": "Livsstil | 2 SÆSONER",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Underholdning,Natur,Reality,DRTV",
+     "PageTitle": "Alene i vildmarken Australien",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DRTV | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "drtv",
+     "livsstil",
+     "natur",
+     "reality",
+     "underholdning"
+    ],
+    "keywords": [
+     "controlled_overlevelseseksperiment",
+     "controlled_overlevelsestur",
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_vildmarksliv",
+     "editorialptaxtop_tv-program",
+     "franchise_alene i vildmarken",
+     "thesaurus_friluftsliv"
+    ]
+   },
+   {
+    "id": "6904e586-81a0-4e37-b7f9-f6a29d5cb0be",
+    "type": "show",
+    "subtype": "",
+    "title": "Alene i vildmarken USA",
+    "shortDescription": "Ekstremt overlevelseseksperiment i ødemarken.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alene-i-vildmarken-usa_365583",
+    "scopes": [
+     "6904e586-81a0-4e37-b7f9-f6a29d5cb0be"
+    ],
+    "badge": "Alle sæsoner",
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1270223940000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD9ZCR520T4YCXFF4KN5NR%27&entityId=%276904e586-81a0-4e37-b7f9-f6a29d5cb0be%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD9ZCR381NVTWW08XGV009%27&entityId=%276904e586-81a0-4e37-b7f9-f6a29d5cb0be%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZD9ZCRA8V5T9MQWRSKV4W3%27&entityId=%276904e586-81a0-4e37-b7f9-f6a29d5cb0be%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DRTV",
+     "BrandingChannelShort": "DRT",
+     "Checksum": "0251d12da58e5c04abdebd2bb78e9f55bdad927a2444fa383e124c583228ef03",
+     "ClassificationRating": "MRAM-11",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil,Underholdning,Natur,Reality",
+     "ExtraDetails": "Livsstil | 12 SÆSONER",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,Underholdning,Natur,Reality,DRTV",
+     "PageTitle": "Alene i vildmarken USA",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DRTV | 12 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "drtv",
+     "livsstil",
+     "natur",
+     "reality",
+     "underholdning"
+    ],
+    "keywords": [
+     "controlled_overlevelseseksperiment",
+     "controlled_overlevelsestur",
+     "controlled_vildmarksliv",
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_vildmarksliv",
+     "editorialptaxtop_tv-program",
+     "franchise_alene i vildmarken",
+     "thesaurus_friluftsliv"
+    ]
+   },
+   {
+    "id": "2ed9b858-a64e-43da-abc3-23900074cd9b",
+    "type": "show",
+    "subtype": "",
+    "title": "Alexanders krig",
+    "shortDescription": "Bevæbnet med et kamera sender Alexander live på Instagram fra fronten i Ukraine. Som uafhængig fotograf rapporterer han alle krigens rædsler, råt og ufiltreret. Hans mission er at få folk til at forstå konsekvenserne for krigens mange civile ofre. Men bil",
+    "tagline": "Hele serien | Et liv i undtagelsestilstand – i Ukraine og hjemme i Danmark",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alexanders-krig_386103",
+    "scopes": [
+     "2ed9b858-a64e-43da-abc3-23900074cd9b"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:4030056121000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M644FDPA5V34CM62CMYY4BBM%27&entityId=%272ed9b858-a64e-43da-abc3-23900074cd9b%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M644FDPA5K2GA8Y393N2XM5B%27&entityId=%272ed9b858-a64e-43da-abc3-23900074cd9b%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M644FDPAZDCTJNHAKBM8NW6J%27&entityId=%272ed9b858-a64e-43da-abc3-23900074cd9b%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "P3",
+     "BrandingChannelShort": "TP3",
+     "Checksum": "2ab8c71bb0ed445cea554bfa34e8715e06f0f97ce0f033ac16feb14d91a4d8ce",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,P3",
+     "PageTitle": "Alexanders krig",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "ShortVideoUrl": "https://drod21f.akamaized.net/all/clear/none/af/64882f5f2442d61f0c8219af/64882f5a3cfb033514ff21c2/stream_fmp4/master_manifest.m3u8",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "P3 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_sign_language",
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "p3"
+    ],
+    "keywords": [
+     "agetargetgroup_15-24 år",
+     "controlled_fotografer",
+     "controlled_krigsfotos",
+     "controlled_ptsd",
+     "culturalorigin_dansk",
+     "editorialptaxsub_dansk identitet/relationer",
+     "editorialptaxtop_dokumentar",
+     "thesaurus_fotografier",
+     "thesaurus_krig",
+     "thesaurus_ukraine"
+    ]
+   },
+   {
+    "id": "1715c715-954a-4eb0-9928-18cf152786e5",
+    "type": "show",
+    "subtype": "",
+    "title": "Alfons Åberg",
+    "shortDescription": "Gunilla Bergströms elskede bøger danner grundlag for denne svenske serie om drengen Alfons, der bor alene sammen med sin rare og tålmodige far.  Hans hverdag er fyldt med situationer og udfordringer, som børn kan relatere til.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/alfons-aaberg_369852",
+    "scopes": [
+     "1715c715-954a-4eb0-9928-18cf152786e5"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1480496039000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3B2HZ3SVG8TJCSEJ8BVF7W%27&entityId=%271715c715-954a-4eb0-9928-18cf152786e5%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J69XJ09NHTZ55R3CKFACKG%27&entityId=%271715c715-954a-4eb0-9928-18cf152786e5%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J69XJ0824X8522TRHNPP41%27&entityId=%271715c715-954a-4eb0-9928-18cf152786e5%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J69XJ0824X8522TRHNPP41%27&entityId=%271715c715-954a-4eb0-9928-18cf152786e5%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "d80f9e2933ba02d363bbbc26c8100958c187e4a6f3bece8b8b2019076ddfce36",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Tegnefilm",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "PageTitle": "Alfons Åberg",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_2-3 år",
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_familie",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_genkendelig",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "3801f2aa-bb22-4c0b-995d-9377ebed6511",
+    "type": "show",
+    "subtype": "",
+    "title": "Alkoholeksperimentet",
+    "shortDescription": "Mennesket har drukket alkohol siden stenalderen. Men hvorfor? Og hvordan påvirkes vi egentlig af øl, vin og spiritus?",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alkoholeksperimentet_547067",
+    "scopes": [
+     "3801f2aa-bb22-4c0b-995d-9377ebed6511"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5374941497000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDHRWJ7XCNSW4XB0PEDYM0%27&entityId=%273801f2aa-bb22-4c0b-995d-9377ebed6511%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDHRWJXC1H13H9CAXRJG3H%27&entityId=%273801f2aa-bb22-4c0b-995d-9377ebed6511%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDHRWJMCB00NF773J5ZR3J%27&entityId=%273801f2aa-bb22-4c0b-995d-9377ebed6511%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "c687ee63edf4a4db7c1e14c54ef66a5ec2ea890f6b6472cc3ef54e7ef3dd6cc7",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Livsstil,Krop,Sundhed",
+     "ExtraDetails": "Dokumentar | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Livsstil,Krop,Sundhed,DR1",
+     "PageTitle": "Alkoholeksperimentet",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr1",
+     "krop",
+     "livsstil",
+     "sundhed"
+    ],
+    "keywords": [
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_sundhed",
+     "editorialptaxtop_dokumentar",
+     "thesaurus_alkohol",
+     "thesaurus_alkoholmisbrug"
+    ]
+   },
+   {
+    "id": "445d1443-c410-4246-b81a-1a7ee365c551",
+    "type": "show",
+    "subtype": "",
+    "title": "Alle elsker Debbie",
+    "shortDescription": "Dansk dramaserie fra 1988. Teenageren Debbie kæmper med at blive voksen, med sin mor og især med sin ubehagelige stedfar. Christian Kampmann har skrevet manuskriptet.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alle-elsker-debbie_489948",
+    "scopes": [
+     "445d1443-c410-4246-b81a-1a7ee365c551"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6020191636000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJW5GAN3T6XRM7WZ1G4TN%27&entityId=%27445d1443-c410-4246-b81a-1a7ee365c551%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJW5GK3E50EH7JZSFNG6S%27&entityId=%27445d1443-c410-4246-b81a-1a7ee365c551%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDJW5G07P7FDW33P987D54%27&entityId=%27445d1443-c410-4246-b81a-1a7ee365c551%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "4b57ec9b66ddfd965349740fa381563dcb45c75cebb16c0642f7a1c8ffafd41a",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Fiktionsserie,Gensyn",
+     "ExtraDetails": "Fiktionsserie | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Fiktionsserie,Gensyn,DR Gensyn",
+     "PageTitle": "Alle elsker Debbie",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "fiktionsserie",
+     "gensyn"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_serier",
+     "editorialptaxtop_gensyn",
+     "mood_følelsesladet",
+     "mood_rå"
+    ]
+   },
+   {
+    "id": "b3532b00-c756-45bf-85fb-7b18c0cee4aa",
+    "type": "show",
+    "subtype": "",
+    "title": "Alle elsker Sinan",
+    "shortDescription": "Flamboyant, provokerende, irriterende. Sinan er nogle gange for meget - synes hans familie. Men på trods af deres evige forskelligheder er Sinan, storebror Aykut og mor Ceylan der altid for hinanden. I denne sæson sætter Aykut og Sinan alt ind på at finde",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alle-elsker-sinan_419258",
+    "scopes": [
+     "b3532b00-c756-45bf-85fb-7b18c0cee4aa"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:4551807113000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6458672Q31KEQDAQ1WFG5V9%27&entityId=%27b3532b00-c756-45bf-85fb-7b18c0cee4aa%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645867226XGH3YX4NYEPGR1%27&entityId=%27b3532b00-c756-45bf-85fb-7b18c0cee4aa%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M645867276PT3X51Y4YMC34D%27&entityId=%27b3532b00-c756-45bf-85fb-7b18c0cee4aa%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "P3",
+     "BrandingChannelShort": "TP3",
+     "Checksum": "bf08ecc2080403a88b41cb47ed67a3adee15be003eed5f3e96b24e8bc5b7c135",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Dokumentar,Livsstil,Reality",
+     "ExtraDetails": "Dokumentar | 3 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dokumentar,Livsstil,Reality,P3",
+     "PageTitle": "Alle elsker Sinan",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "P3 | 3 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "livsstil",
+     "p3",
+     "reality"
+    ],
+    "keywords": [
+     "agetargetgroup_15-24 år",
+     "controlled_reality-tv",
+     "culturalorigin_dansk",
+     "editorialptaxsub_livsstil",
+     "editorialptaxtop_tv-program",
+     "thesaurus_ungdomsliv"
+    ]
+   },
+   {
+    "id": "abce827f-d8ab-4aa8-bea2-fa73749fbf82",
+    "type": "program",
+    "subtype": "",
+    "title": "Alle elsker Søren - Fra Fyn til Eurovision",
+    "shortDescription": "En intim dokumentar, der følger Søren Torpegaard Lund helt tæt på gennem hans Eurovision-rejse. Med unik adgang kommer vi med backstage til verdens største musikkonkurrence, hvor Søren oplever det enorme mediepres som favorit, endeløse rækker af fans og v",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alle-elsker-soeren-_-fra-fyn-til-eurovision_603237",
+    "watchPath": "/se/alle-elsker-soeren-_-fra-fyn-til-eurovision_603237",
+    "scopes": [
+     "abce827f-d8ab-4aa8-bea2-fa73749fbf82"
+    ],
+    "releaseYear": 2026,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1798,
+    "customId": "urn:dr:ocs:tv:content:playable:00922614540",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBNC7A2D23BNG6WT9EZK73%27&entityId=%27abce827f-d8ab-4aa8-bea2-fa73749fbf82%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBNC7AJRHY5R559218G20A%27&entityId=%27abce827f-d8ab-4aa8-bea2-fa73749fbf82%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZBNC7A3TM4VAEX98HYJ01K%27&entityId=%27abce827f-d8ab-4aa8-bea2-fa73749fbf82%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "2026-06-23T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "986b98f218f213b943495d57e6a54152964837cc5a49081456dee86feeb592bf",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "23. JUN. 2026 | 30M",
+     "DisplayCategory": "Dokumentar,Kultur,Musik",
+     "ExtraDetails": "Dokumentar | 30M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,Kultur,Musik,DR1,acc_spoken_subtitles",
+     "PageTitle": "Alle elsker Søren - Fra Fyn til Eurovision",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 30M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr1",
+     "kultur",
+     "musik"
+    ],
+    "keywords": [
+     "controlled_eurovision song contest 2026",
+     "culturalorigin_dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_dokumentar",
+     "person_søren torpegaard lund",
+     "thesaurus_musikkonkurrencer"
+    ]
+   },
+   {
+    "id": "412331f7-b59b-4af7-a1f6-82b8417e2275",
+    "type": "program",
+    "subtype": "",
+    "title": "Alle Guds farver",
+    "shortDescription": "Vi følger præsten Viggo og kirketjeneren Bo - bedre kendt i farverig drag som Ramona Macho - i deres arbejde i Enghave Kirke. Lokalt kendt som \"Queer Kirken\" har Enghave åbnet dørene for alle - uanset baggrund og livssituation. Kirken møder dagligt modsta",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alle-guds-farver_623441",
+    "watchPath": "/se/alle-guds-farver_623441",
+    "scopes": [
+     "412331f7-b59b-4af7-a1f6-82b8417e2275"
+    ],
+    "releaseYear": 2025,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 4653,
+    "customId": "urn:dr:ocs:tv:content:playable:00922522040",
+    "round": "",
+    "offers": [
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M1KQRJP3JV95MAXXQP9861TS%27&entityId=%27412331f7-b59b-4af7-a1f6-82b8417e2275%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M1KQRJP3951FNWKVY08VFETH%27&entityId=%27412331f7-b59b-4af7-a1f6-82b8417e2275%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M3NZC411MJXD138QP6PG3Q3E%27&entityId=%27412331f7-b59b-4af7-a1f6-82b8417e2275%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo,SpokenSubtitles",
+     "AvailableFrom": "2026-10-05T04:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "1b92c0778adbe7dff77d2b5dd649a79af3fe44d6e42a8fb9c50eaaeb8cb83f07",
+     "ClassificationRating": "MRAM-15",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "5. OKT. 2026 | 1T 18M",
+     "DisplayCategory": "Dokumentar",
+     "ExtraDetails": "Dokumentar | 1T 18M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+     "PageTitle": "Alle Guds farver",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1T 18M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr2"
+    ],
+    "keywords": [
+     "controlled_rummelighed",
+     "culturalorigin_dansk",
+     "editorialptaxsub_dansk identitet/relationer",
+     "editorialptaxsub_religion/etik/filosofi",
+     "editorialptaxtop_dokumentar",
+     "organization_enghave kirke",
+     "thesaurus_folkekirken",
+     "thesaurus_gudstjeneste",
+     "thesaurus_kønsidentitet",
+     "thesaurus_lgbt+",
+     "thesaurus_minoritetsgrupper"
+    ]
+   },
+   {
+    "id": "627e8ce4-40f9-44e4-bcd0-4761c0e82d45",
+    "type": "show",
+    "subtype": "",
+    "title": "Alle hader feminister",
+    "shortDescription": "Alle hader feminister! De er skingre, besværlige, menstruerende og pisse irriterende. I dag er det nærmest et decideret skældsord i Danmark. Men virkeligheden er, at det er gået helt galt for ligestillingen i Danmark, og det er der ingen, der vil indse.\nK",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alle-hader-feminister_290265",
+    "scopes": [
+     "627e8ce4-40f9-44e4-bcd0-4761c0e82d45"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2623958877000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDDBHKRN95V8VDP67C73G2%27&entityId=%27627e8ce4-40f9-44e4-bcd0-4761c0e82d45%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDDBHKCPZP7W7E7F335WGZ%27&entityId=%27627e8ce4-40f9-44e4-bcd0-4761c0e82d45%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0ZDDBHKB08GDKTGBZH5VRYR%27&entityId=%27627e8ce4-40f9-44e4-bcd0-4761c0e82d45%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "b7fc721eac3d575f24706acc46a796500a0defa4127e86b2729d5c13859ba4e8",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Livsstil",
+     "ExtraDetails": "Livsstil | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Livsstil,DR2",
+     "PageTitle": "Alle hader feminister",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr2",
+     "livsstil"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_identitet/relationer",
+     "editorialptaxtop_tv-program",
+     "thesaurus_feminisme"
+    ]
+   },
+   {
+    "id": "c43dafe2-10ca-4cad-903d-a917ee934ad1",
+    "type": "program",
+    "subtype": "",
+    "title": "Alle I unge elskende",
+    "shortDescription": "Dansk tv-teater fra 1962. Den engelske manuskriptforfatter Jack Pulman skrev dette tv-drama for BBC i 1959. Den 17-årige Harvey er blevet færdig med skolen og har fremtiden for sig - men hvad mon den vil bringe. Involverer den nabopigen Connie? Og kan drø",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alle-i-unge-elskende_438263",
+    "watchPath": "/se/alle-i-unge-elskende_438263",
+    "scopes": [
+     "c43dafe2-10ca-4cad-903d-a917ee934ad1"
+    ],
+    "releaseYear": 1962,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 6316,
+    "customId": "urn:dr:ocs:tv:content:playable:00404672510",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z883EYKV55S71GHH4X3AFT%27&entityId=%27c43dafe2-10ca-4cad-903d-a917ee934ad1%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z883EY0K4E2YZT55ZTYX04%27&entityId=%27c43dafe2-10ca-4cad-903d-a917ee934ad1%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z883EYQMJW1NV9AC5JVRRV%27&entityId=%27c43dafe2-10ca-4cad-903d-a917ee934ad1%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1962-06-10T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "7ab00f57880a7b5b86c9b3c72002c402428faf6be93b325672d441215ef31d29",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "10. JUN. 1962 | 1T 45M",
+     "DisplayCategory": "Teater og TV-film,Gensyn",
+     "ExtraDetails": "Teater og TV-film | 1T 45M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Teater og TV-film,Gensyn,DR Gensyn",
+     "PageTitle": "Alle I unge elskende",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 1T 45M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr gensyn",
+     "gensyn",
+     "teater og tv-film"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_tv-teater",
+     "editorialptaxtop_gensyn",
+     "mood_følelsesladet"
+    ]
+   },
+   {
+    "id": "2c630796-de9c-44c5-bd8a-f35eedb11f1b",
+    "type": "program",
+    "subtype": "",
+    "title": "Alle kan blive millionær",
+    "shortDescription": "Hvem drømmer ikke om at være uafhængig af en månedsløn? Hvem vil ikke gerne være økonomisk fri til at vælge det liv, man selv drømmer om? En stor gruppe danskere er i gang med at gøre drømmen til virkelighed. De er privatinvestorer og sætter kursen mod de",
+    "tagline": "Danske privatinvestorer med kurs mod millionerne",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alle-kan-blive-millionaer_217320",
+    "watchPath": "/se/alle-kan-blive-millionaer_217320",
+    "scopes": [
+     "2c630796-de9c-44c5-bd8a-f35eedb11f1b"
+    ],
+    "releaseYear": 2020,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 3540,
+    "customId": "urn:dr:ocs:tv:content:playable:00922014500",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6456XC8YKS31KS5EBDNBCC4%27&entityId=%272c630796-de9c-44c5-bd8a-f35eedb11f1b%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6456XC8QDZ2NNPVRGGY0R1W%27&entityId=%272c630796-de9c-44c5-bd8a-f35eedb11f1b%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6456XECVGE6AXJH5R2QP8V6%27&entityId=%272c630796-de9c-44c5-bd8a-f35eedb11f1b%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "SpokenSubtitles,StandardVideo",
+     "AvailableFrom": "2020-11-06T05:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR2",
+     "BrandingChannelShort": "DR2",
+     "Checksum": "2c129f13145f1a29cc5d9d71a884dc2fcc4887211608738f2f21620b3e5ca68f",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "6. NOV. 2020 | 59M",
+     "DisplayCategory": "Dokumentar",
+     "ExtraDetails": "Dokumentar | 59M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Dokumentar,DR2,acc_spoken_subtitles",
+     "PageTitle": "Alle kan blive millionær",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "ShortVideoUrl": "https://drod04g-vh.akamaihd.net/i/all/clear/streaming/f7/5fa24cd7539f02254888f3f7/VS-TEMA-Alle-kan-blive-million_5473eb0f12f84a61add651d8e16330a5_,942,297,3811,480,2613,1928,.mp4.csmil/master.m3u8",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR2 | 59M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dokumentar",
+     "dr2"
+    ],
+    "keywords": [
+     "culturalorigin_dansk",
+     "editorialptaxsub_penge/erhverv",
+     "editorialptaxtop_dokumentar",
+     "thesaurus_aktier",
+     "thesaurus_investeringer",
+     "thesaurus_privatøkonomi"
+    ]
+   },
+   {
+    "id": "147fb95f-9c72-4f46-b88f-6e4facbe3fbd",
+    "type": "show",
+    "subtype": "",
+    "title": "Alle kan synge",
+    "shortDescription": "Sang kan bevæge, underholde og styrke vores mentale og fysiske sundhed. Denne serie følger seks stemmemæssigt udfordrede, der skal lære at synge opera.",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alle-kan-synge_451559",
+    "scopes": [
+     "147fb95f-9c72-4f46-b88f-6e4facbe3fbd"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5154361065000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6V1CXSFHYGKR6XK6M2J6E51%27&entityId=%27147fb95f-9c72-4f46-b88f-6e4facbe3fbd%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6V1CXSHFTDARSZ6N0BW9ZN6%27&entityId=%27147fb95f-9c72-4f46-b88f-6e4facbe3fbd%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6V1CXSKB55TM32WZHFE5RS1%27&entityId=%27147fb95f-9c72-4f46-b88f-6e4facbe3fbd%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "80ab8451dd344583d8d1df7a2011ba4b484ef3524e15b154b12bd9b754862bda",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Kultur,Underholdning,Musik",
+     "ExtraDetails": "Kultur | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Kultur,Underholdning,Musik,DR1",
+     "PageTitle": "Alle kan synge",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr1",
+     "kultur",
+     "musik",
+     "underholdning"
+    ],
+    "keywords": [
+     "culturalorigin_ikke-dansk",
+     "editorialptaxsub_musik",
+     "editorialptaxtop_musik",
+     "thesaurus_opera"
+    ]
+   },
+   {
+    "id": "5e873689-d8e3-4366-b126-5bddcfcbeed6",
+    "type": "show",
+    "subtype": "",
+    "title": "Alle kender Kaiser",
+    "shortDescription": "Vennerne Kasper og Frederik drømmer om rigdom, men havner altid i problemer. En dag falder de over en pakke, der viser sig at indeholde noget, der vil vende op og ned på deres liv, som de kender det.",
+    "tagline": "God underholdning til vinterferien!",
+    "classification": {
+     "code": "DR-Ultra",
+     "name": "Ultra"
+    },
+    "path": "/serie/alle-kender-kaiser_496494",
+    "scopes": [
+     "5e873689-d8e3-4366-b126-5bddcfcbeed6"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5054414981000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M644VF13EAJQR5F474XGRKHA%27&entityId=%275e873689-d8e3-4366-b126-5bddcfcbeed6%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M644VF0NRAZ2TKD7CFDXSP3H%27&entityId=%275e873689-d8e3-4366-b126-5bddcfcbeed6%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M644VF2TGXCMNPBSQQKC6NXA%27&entityId=%275e873689-d8e3-4366-b126-5bddcfcbeed6%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ultra",
+     "BrandingChannelShort": "TVL",
+     "Checksum": "2b7641098886acf2d6b653b34baee7d30657534502d96dc9f7bb6b75523ea25f",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv",
+      "ultra"
+     ],
+     "DisplayCategory": "Serie",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Serie,DR Ultra",
+     "PageTitle": "Alle kender Kaiser",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ultra",
+     "RatingSegment": "Ultra",
+     "ShortVideoUrl": "https://drod23o.akamaized.net/all/clear/none/a0/67ac64f065e59531501235a0/67ac64f068880b2be06a3ebe/stream_fmp4/master_manifest.m3u8",
+     "TargetAudience": "OlderKidsAndAdults",
+     "TitleExtraDetails": "DR Ultra | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ultra",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_12-14 år",
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "agetargetgroup_familie",
+     "charactertype_børn som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_drama",
+     "theme_venskab og relationer"
+    ]
+   },
+   {
+    "id": "cfc5f62c-084b-4f64-bd78-8f73ad8aaa8e",
+    "type": "show",
+    "subtype": "",
+    "title": "Alle mod 1",
+    "shortDescription": "Alle mod 1 er Danmarks sjoveste fysiktime. En modig dansker stiller op mod resten af Danmark i konkurrencen om at komme tættest på det rigtige svar, og tage 100.000 kr. med hjem.",
+    "tagline": "Mads og Joakim udfordrer danskerne i ny sæson",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/serie/alle-mod-1_203869",
+    "scopes": [
+     "cfc5f62c-084b-4f64-bd78-8f73ad8aaa8e"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1447587359000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6425X0PQ0JM8R991MR9MV7G%27&entityId=%27cfc5f62c-084b-4f64-bd78-8f73ad8aaa8e%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6425X0PW2HMJ9QKZ7XWJA9T%27&entityId=%27cfc5f62c-084b-4f64-bd78-8f73ad8aaa8e%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M6425X0PW2HMJ9QKZ7XWJA9T%27&entityId=%27cfc5f62c-084b-4f64-bd78-8f73ad8aaa8e%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR1",
+     "BrandingChannelShort": "DR1",
+     "Checksum": "51229b055c684174589333bf73fcf848444561fe61cd4e82d6c8caab8c55541a",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "DisplayCategory": "Underholdning,Quiz",
+     "ExtraDetails": "Underholdning | 4 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Underholdning,Quiz,DR1",
+     "PageTitle": "Alle mod 1",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "DRTV",
+     "RatingSegment": "DRTV",
+     "ShortVideoUrl": "https://drod02o-vh.akamaihd.net/i/all/clear/streaming/5e/5f3251d9539f021c4432665e/VS-ALLE-MOD-1-00922021620-ANNI_e266ba64625d459e9c4b3a6773e014ae_,3616,512,1875,2470,974,335,.mp4.csmil/master.m3u8",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR1 | 4 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_audio_description",
+     "dr1",
+     "quiz",
+     "underholdning"
+    ],
+    "keywords": [
+     "agetargetgroup_familie",
+     "culturalorigin_dansk",
+     "editorialptaxsub_underholdning",
+     "editorialptaxtop_tv-program"
+    ]
+   },
+   {
+    "id": "39142e6f-6c7f-4eed-a751-75f670a4bdec",
+    "type": "program",
+    "subtype": "",
+    "title": "Alle præsidentens børn - Reagan-generationen",
+    "shortDescription": "Dansk reportage fra 1986. Der er midtvejsvalg i USA, og amerikanerne skal til stemmeurnerne. TV-Aktuelt tegner et portræt af de unge vælgere, der er blevet præget af den republikanske præsident Ronald Reagans budskaber og optimisme. Dem, der bliver kaldt ",
+    "classification": {
+     "code": "DR-Voksen",
+     "name": "Voksen"
+    },
+    "path": "/program/alle-praesidentens-boern-_-reagan_generationen_478317",
+    "watchPath": "/se/alle-praesidentens-boern-_-reagan_generationen_478317",
+    "scopes": [
+     "39142e6f-6c7f-4eed-a751-75f670a4bdec"
+    ],
+    "releaseYear": 1986,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 3160,
+    "customId": "urn:dr:ocs:tv:content:playable:00103074910",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2PSJ9FPYY1A6MH0FRKN4%27&entityId=%2739142e6f-6c7f-4eed-a751-75f670a4bdec%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2PSB3XC398CBTPDNG1HP%27&entityId=%2739142e6f-6c7f-4eed-a751-75f670a4bdec%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M2AJ2PSBDT2QEQASEQ30BJRA%27&entityId=%2739142e6f-6c7f-4eed-a751-75f670a4bdec%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "1986-11-04T00:00:00.0000000+00:00",
+     "BrandingChannelDisplayName": "DR Gensyn",
+     "BrandingChannelShort": "TVG",
+     "Checksum": "7b44c7eb0b95c3113ea813f9838709612fb1458e5f76b901d5e1b6299e113a7c",
+     "ClassificationRating": "MRAM-EXCEPT",
+     "ContentUniverses": [
+      "drtv"
+     ],
+     "ContextualTitleExtraDetails": "4. NOV. 1986 | 53M",
+     "DisplayCategory": "Arkivnyheder,Gensyn",
+     "ExtraDetails": "Arkivnyheder | 53M",
+     "IsGeoRestricted": false,
+     "OwnedCategory": "Arkivnyheder,Gensyn,DR Gensyn",
+     "PageTitle": "Alle præsidentens børn - Reagan-generationen",
+     "PrimaryContentUniverse": "DRTV",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "DRTV",
+     "TargetAudience": "Adults",
+     "TitleExtraDetails": "DR Gensyn | 53M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "arkivnyheder",
+     "dr gensyn",
+     "gensyn"
+    ],
+    "keywords": [
+     "controlled_midtvejsvalg 1986",
+     "culturalorigin_dansk",
+     "editorialptaxsub_arkivnyheder",
+     "editorialptaxtop_gensyn",
+     "thesaurus_politiske valg",
+     "thesaurus_usa"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "next": "/lists/9173f690-7bc5-40fd-8a89-db7f25b9916f?page=3&page_size=24&order=Desc",
+   "previous": "/lists/9173f690-7bc5-40fd-8a89-db7f25b9916f?page=1&page_size=24&order=Desc",
+   "page": 2,
+   "size": 24,
+   "total": 7
+  },
+  "customFields": {}
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "status": 200,
+ "json": {
+  "id": "81ba5b2d-aeec-41b9-a22a-0efad023df8c",
+  "title": "Ramasjang | Æ",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xyqja",
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "size": 2,
+  "items": [
+   {
+    "id": "8c6f502f-2431-402b-85b7-d10775600128",
+    "type": "show",
+    "subtype": "",
+    "title": "Æblerup",
+    "shortDescription": "Velkommen til Æblerup! En lille by der er så kedelig og ubetydelig, at den er blevet fjernet fra Google Maps. Men hvis man kigger godt efter, vil man opdage de to børn Trafalgar og Pulver. De er eksperter i at overleve kedsomhed. Gang på gang formår de at",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/aeblerup_425094",
+    "scopes": [
+     "8c6f502f-2431-402b-85b7-d10775600128"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3403970135000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3BBVKZ2NTPMW3HQXTDM8XD%27&entityId=%278c6f502f-2431-402b-85b7-d10775600128%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JVGBT5DM6K0KKXBHSKEQF4%27&entityId=%278c6f502f-2431-402b-85b7-d10775600128%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JVGBT6F4JVBF02HR2TNSXF%27&entityId=%278c6f502f-2431-402b-85b7-d10775600128%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JVGBT6F4JVBF02HR2TNSXF%27&entityId=%278c6f502f-2431-402b-85b7-d10775600128%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "8978832379108c84c5fc3a128f65b8694d31e05dadfda0984f68d8bb67126594",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Tegnefilm",
+     "ExtraDetails": "Tegnefilm | 2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "PageTitle": "Æblerup",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_fredagstamtam",
+     "mood_sjov",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "6cc2dd68-90e2-4a01-b567-e943ff5b4ce7",
+    "type": "program",
+    "subtype": "",
+    "title": "Æblet og ormen",
+    "shortDescription": "Dansk animationsspillefilm fra 2009.\nTorben er et struttende blankskinnende æble med en drøm: At blive frugtafdelingens mest strålende æble. Livsdrømmen knuses, da en orm en solskinsmorgen stikker sit hoved ud gennem Torbens blanke skind. Torben rystes ne",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/aeblet-og-ormen_503176",
+    "watchPath": "/se/aeblet-og-ormen_503176",
+    "scopes": [
+     "6cc2dd68-90e2-4a01-b567-e943ff5b4ce7"
+    ],
+    "releaseYear": 2007,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 4524,
+    "customId": "urn:dr:ocs:tv:content:playable:00590880050",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR10V9V4Z70C9E47KAPPHN%27&entityId=%276cc2dd68-90e2-4a01-b567-e943ff5b4ce7%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR10VBQKNJCZYJ73YTEX7V%27&entityId=%276cc2dd68-90e2-4a01-b567-e943ff5b4ce7%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR10VBMCVN0QT1Y8XV2B0H%27&entityId=%276cc2dd68-90e2-4a01-b567-e943ff5b4ce7%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2012-12-31T10:38:00.0800000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "d47742eca5582cb08363b4eccb14d6e2b7aa36cb1e0564d55259ea46372e7ec1",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "31. DEC. 2012 | 1T 15M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 1T 15M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Æblet og ormen",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1T 15M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "charactertype_fantasivæsner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_sjov",
+     "recommendationgenre_animation"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 1
+  },
+  "customFields": {}
+ }
+}

@@ -47,8 +47,6 @@ from resources.lib import subtitles
 from resources.lib.constants import A_AA, CHANNEL_IDS, CHANNEL_PRESET, GET_TIMEOUT, URL  # noqa: F401
 from resources.lib.drauth import (  # noqa: F401
     CLIENT_ID,
-    anonymous_tokens,
-    deviceid,
     exchange_token,
     full_login,
     generate_code_challenge,
@@ -62,6 +60,11 @@ from resources.lib.subtitles import vtt2srt  # noqa: F401
 def cache_path(path: str) -> bool:
     NO_CACHING = ['/liste/drtv-hero']
     return not any(path.startswith(item) for item in NO_CACHING)
+
+
+# Query parameters the web player sends on every call. 'segments' is
+# load-bearing: without it /v2/search reports total=0 for any term.
+WEB_PARAMS = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'segments': 'drtv,optedin'}
 
 
 def fix_query(url: str, remove: Optional[dict[str, str]] = None, add: Optional[dict[str, str]] = None, remove_keys: Optional[list[str]] = None) -> str:
@@ -143,22 +146,22 @@ class Api:
         return self._user_name
 
     def read_tokens(self, tokens: list[dict]) -> None:
-        if 'value' in tokens[0]:
-            # old flow, anonymous
-            time_str = tokens[0]['expirationDate'].split('.')[0]
-            self._user_token = tokens[0]['value']
-            self._profile_token = tokens[1]['value']
-            self._user_name = 'anonymous'
-        else:
-            time_str = tokens[0]['Expires'].split('.')[0]
-            self._user_token = tokens[0]['Token']
-            self._profile_token = tokens[1]['Token']
+        """Read the exchanged token pair and remember the expiry.
 
-        try:
-            self._token_expire = datetime.strptime(time_str + 'Z', '%Y-%m-%dT%H:%M:%S%z')
-        except Exception:
-            time_struct = time.strptime(time_str, '%Y-%m-%dT%H:%M:%S')
-            self._token_expire = datetime(*time_struct[0:6], tzinfo=timezone.utc)
+        drtv-platform returns two tokens labelled by TokenType
+        ('UserAccount' and 'UserProfile'), each with an RFC 3339 'Expires'
+        that already carries the Z suffix. The legacy payload used 'value' and
+        'expirationDate' without one, so both forms are accepted.
+        """
+        by_type = {t.get('TokenType'): t['Token'] for t in tokens if t.get('TokenType')}
+        self._user_token = by_type.get('UserAccount', tokens[0]['Token'])
+        self._profile_token = by_type.get('UserProfile', tokens[1]['Token'])
+        expires = tokens[0].get('Expires') or tokens[0]['expirationDate']
+        # a value without a timezone parses naive, and comparing that with
+        # datetime.now(timezone.utc) raises; DR's timestamps are UTC
+        self._token_expire = parser.parse(expires)
+        if self._token_expire.tzinfo is None:
+            self._token_expire = self._token_expire.replace(tzinfo=timezone.utc)
 
     def write_tokens(self, tokens: list[dict]) -> None:
         """Persist the tokens by writing a temp file and atomically replacing
@@ -179,18 +182,21 @@ class Api:
         self._user_token = None
         self._profile_token = None
 
-        if self.user:
-            access_tokens = full_login(self.user, self.password, self.log)
-            if 'error' in access_tokens:
-                err = access_tokens['error']
-                # a falsy error would read as success further up, leaving the
-                # token None and crashing on 'Bearer ' + None
-                return err or 'login failed'
-            self.access_tokens = access_tokens
-            tokens = exchange_token(access_tokens)
-        else:
-            self.access_tokens = {}
-            tokens = anonymous_tokens()
+        if not self.user:
+            # drtv-platform has no anonymous token route (the old
+            # /authorization/anonymous-sso is 404), so there is nothing to
+            # exchange without credentials. The catalog endpoints do not need
+            # a token, so browsing still works; only playback and the live
+            # streams report this.
+            return 'DR TV requires a login'
+        access_tokens = full_login(self.user, self.password, self.log)
+        if 'error' in access_tokens:
+            err = access_tokens['error']
+            # a falsy error would read as success further up, leaving the
+            # token None and crashing on 'Bearer ' + None
+            return err or 'login failed'
+        self.access_tokens = access_tokens
+        tokens = exchange_token(access_tokens)
         # the token endpoints report failures as {'error': ...} instead of a
         # token list; reading them would raise KeyError, so surface the error
         if isinstance(tokens, dict) and 'error' in tokens:
@@ -209,9 +215,21 @@ class Api:
                 # drop it and log in again below
                 tokens = None
             if isinstance(tokens, list):
-                self.read_tokens(tokens)
+                try:
+                    self.read_tokens(tokens)
+                except (KeyError, IndexError, TypeError, AttributeError):
+                    # a token.p written by a pre-7.3 version holds the anonymous
+                    # flow's {'value', 'expirationDate'} entries, which the
+                    # drtv-platform tokens no longer look like; discard it and
+                    # log in again instead of crashing on the upgrade
+                    self._user_token = None
+                    self._profile_token = None
 
         if self._user_token is None:
+            if not self.user:
+                # no credentials: browsing the catalog works without a token,
+                # so this is not an error until playback asks for one
+                return
             err = self.request_tokens()
             if err is not None:
                 raise ApiException(f'Login failed with: "{err}"')
@@ -236,10 +254,12 @@ class Api:
                     else:
                         self.access_tokens = access_tokens
             else:
-                # old flow, anonymous
+                # no refresh token to use; fall back to a fresh login
                 failed_refresh = True
 
             if failed_refresh:
+                if not self.user:
+                    return
                 err = self.request_tokens()
                 if err is not None:
                     raise ApiException(f'Login failed with: "{err}"')
@@ -249,12 +269,18 @@ class Api:
 
     def user_token(self) -> Optional[str]:
         # refresh_tokens either sets the token or raises; it never returns
-        # leaving it None, which is what 'Bearer ' + token relies on
+        # leaving it None, which is what 'Bearer ' + token relies on. Without
+        # a login it does return None, so playback reports a login instead of
+        # sending 'Bearer None'.
         self.refresh_tokens()
+        if self._user_token is None:
+            raise ApiException(self.tr(30909))
         return self._user_token
 
     def profile_token(self) -> Optional[str]:
         self.refresh_tokens()
+        if self._profile_token is None:
+            raise ApiException(self.tr(30909))
         return self._profile_token
 
     def _request_get(self, url: str, params: Optional[dict] = None, headers: Optional[dict] = None, use_cache: bool = True) -> Any:
@@ -274,11 +300,14 @@ class Api:
                 'max_list_prefetch': '3',
                 'path': path,
             }
+        data = dict(data)
+        for key, value in WEB_PARAMS.items():
+            data.setdefault(key, value)
         return self._request_get(url, params=data, use_cache=use_cache)
 
     def get_item(self, id: Union[int, str], use_cache: bool = True) -> dict:
-        url = URL + f'/items/{int(id)}?'
-        return self._request_get(url)
+        url = URL + f'/items/{id}?'
+        return self._request_get(url, use_cache=use_cache)
 
     def get_next(self, path: str, use_cache: bool = True, headers: Optional[dict] = None) -> dict:
         remove = {'sub': 'Emergency'}
@@ -288,41 +317,30 @@ class Api:
 
     def get_list(self, id: Union[int, str], param: str, use_cache: bool = True) -> dict:
         if isinstance(id, str):
-            id = int(id.replace('ID_', ''))
+            id = id.replace('ID_', '')
         url = URL + f'/lists/{id}'
         data = {'page_size': '24'}
         if param != 'NoParam':
             data['param'] = param
-        ret = self._request_get(url, params=data, use_cache=use_cache)
-        if len(ret['items']) == 0:
-            ret = self.get_recommendations(id, use_cache=use_cache, param=param)
-        return ret
+        return self._request_get(url, params=data, use_cache=use_cache)
 
-    def get_recommendations(self, id: int, use_cache: bool = True, param: Optional[str] = None) -> dict:
-        url = URL + f'/recommendations/{id}'
-        data = {'page_size': '24'}
-        if param:
-            data['param'] = param
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-        return self._request_get(url, params=data, headers=headers, use_cache=use_cache)
-
-    def delete_from_watched(self, id: int) -> None:
+    def delete_from_watched(self, id: str) -> None:
         url = f'{URL}/account/profile/continue-watching/{id}'
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        headers = {'Authorization': f'Bearer {self.profile_token()}'}
         u = self.session.delete(url, headers=headers)
         if u.status_code != 204:
             raise ApiException(u.text)
 
-    def delete_from_mylist(self, id: int) -> None:
+    def delete_from_mylist(self, id: str) -> None:
         url = f'{URL}/account/profile/bookmarks/{id}'
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        headers = {'Authorization': f'Bearer {self.profile_token()}'}
         u = self.session.delete(url, headers=headers)
         if u.status_code != 204:
             raise ApiException(u.text)
 
-    def add_to_mylist(self, id: int) -> None:
+    def add_to_mylist(self, id: str) -> None:
         url = f'{URL}/account/profile/bookmarks/{id}'
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        headers = {'Authorization': f'Bearer {self.profile_token()}'}
         u = self.session.put(url, headers=headers)
         if u.status_code != 200:
             raise ApiException(u.text)
@@ -330,7 +348,7 @@ class Api:
     def get_mylist(self, use_cache: bool = False) -> list[dict]:
         url = URL + '/account/profile/bookmarks/list'
         data = {'page_size': '24'}
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        headers = {'Authorization': f'Bearer {self.profile_token()}'}
         item = self._request_get(url, params=data, headers=headers, use_cache=use_cache)
         items = self.unfold_list(item, headers=headers, use_cache=use_cache)
         for item in items:
@@ -340,7 +358,7 @@ class Api:
     def get_continue(self, use_cache: bool = False) -> list[dict]:
         url = URL + '/account/profile/continue-watching/list'
         data = {'page_size': '24'}
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        headers = {'Authorization': f'Bearer {self.profile_token()}'}
         item = self._request_get(url, params=data, headers=headers, use_cache=use_cache)
         items = self.unfold_list(item, headers=headers, use_cache=use_cache)
         # resume positions used to ride along in /account/profile as 'watched';
@@ -353,9 +371,8 @@ class Api:
 
     def get_profile(self, use_cache: bool = False) -> dict:
         url = URL + '/account/profile'
-        headers = {'X-Authorization': 'Bearer ' + self.profile_token()}
-        params = {"ff": "idp,ldp,rpt", "lang": "da"}
-        return self._request_get(url, headers=headers, params=params, use_cache=use_cache)
+        headers = {'Authorization': 'Bearer ' + self.profile_token()}
+        return self._request_get(url, headers=headers, use_cache=use_cache)
 
     def item_area(self, item: dict) -> str:
         label = ''
@@ -380,6 +397,11 @@ class Api:
 
     def unfold_list(self, item: dict, filter_kids: bool = False, headers: Optional[dict] = None,
                     progress: Any = None, use_cache: bool = True) -> list[dict]:
+        # /page only prefetches the first max_list_prefetch lists (capped at
+        # 15); every later list comes back with no items but a valid id, so
+        # fetch it before paging
+        if not item.get('items') and item.get('id'):
+            item = self.get_list(item['id'], 'NoParam', use_cache=use_cache)
         items = item['items']
         # a falsy 'next' means there are no further pages. DR's /search sends
         # the key with an empty string, and requesting that empty path hit the
@@ -397,19 +419,21 @@ class Api:
         return items
 
     def search(self, term: str) -> dict:
-        url = URL + '/search'
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
+        url = URL + '/v2/search'
         data = {
+            'term': term,
+            'group': 'true',
             'item_detail_expand': 'all',
             'list_page_size': '24',
-            'group': 'true',
-            'term': term
+            'sub': 'Registered',
         }
+        for key, value in WEB_PARAMS.items():
+            data.setdefault(key, value)
         # search results must always be live, never a cached copy of an
         # earlier query, so bypass the request cache (still using the session
         # for its retry adapter)
         with self.session.cache_disabled():
-            u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
+            u = self.session.get(url, params=data, timeout=GET_TIMEOUT)
         if u.status_code == 200:
             return u.json()
         else:
@@ -421,31 +445,37 @@ class Api:
             'max_list_prefetch': 1,
             'item_detail_expand': 'all',
             'path': '/',
-            'segments': 'drtv,optedin',
         }
         if area != 'drtv':
             data['path'] = '/' + area
         js = self.get_programcard(data['path'], data=data)
         items = [{'title': 'Programmer A-Å', 'path': A_AA[area], 'icon': 'all.png'}]
         for item in js['entries']:
+            if item['type'] != 'ListEntry':
+                continue
             title = item['title']
-            if title not in ['Se live tv']:
-                if title == '' and item['type'] == 'ListEntry':
-                    title = item['list'].get('title', '')  # get the top spinner item
-                for HERO in ['DRTV Hero', 'Ramasjang: Hero', 'Ultra Hero']:
-                    if title.startswith(HERO):
-                        title = 'Daglige forslag'
-                if title:
-                    items.append({'title': title, 'path': item['list']['path']})
+            if title in ['Se live tv']:
+                continue
+            # the hero carousel has no title of its own; its list is named
+            # after the weekday ('Hero Fredag'), so it is recognised by the
+            # DRH6 template instead of by a title prefix
+            if item.get('template') == 'DRH6':
+                title = 'Daglige forslag'
+            elif title == '':
+                title = item['list'].get('title', '')  # get the top spinner item
+            if title:
+                items.append({'title': title, 'path': item['list']['path']})
         return items
 
     def getLiveTV(self) -> list[dict]:
         channels = []
         schedules = self.get_channel_schedule_strings()
         for id in CHANNEL_IDS:
-            card = self.get_programcard(f'/kanal/{id}')
-            card['entries'][0]['schedule_str'] = schedules[id]
-            channels += card['entries']
+            # /items/{uuid} returns the full channel object; a '/kanal/{uuid}'
+            # path does not exist (the paths carry a slug suffix instead)
+            channel = self.get_item(id)
+            channel['schedule_str'] = schedules.get(id, '')
+            channels.append(channel)
         return channels
 
     def recache_items(self, progress: Any = None, clear_expired: bool = False) -> None:
@@ -489,21 +519,25 @@ class Api:
             self.log(f'recache: skipped {what}: {exc}')
 
     def get_children_front_items(self, channel: str, progress: Any = None) -> list[dict]:
-        name = A_AA[channel]
-        js = self.get_programcard(name)
+        return self.get_front_items(A_AA[channel], progress=progress)
+
+    def get_front_items(self, path: str, progress: Any = None) -> list[dict]:
+        """Every item of every list on a page, e.g. a channel's programmes."""
+        js = self.get_programcard(path)
         items = []
         for item in js['entries']:
             if item['type'] == 'ListEntry':
                 items += self.unfold_list(item['list'], progress=progress)
         return items
 
-    def get_stream(self, id: int) -> Optional[dict]:
-        url = URL + f'/account/items/{int(id)}/videos?'
-        headers = {"X-Authorization": f'Bearer {self.user_token()}'}
+    def get_stream(self, id: str) -> Optional[dict]:
+        url = URL + f'/account/items/{id}/videos?'
+        headers = {'Authorization': f'Bearer {self.user_token()}'}
         data = {
             'delivery': 'stream',
             'device': 'web_browser',
             'ff': 'idp,ldp,rpt',
+            'geoLocation': 'dk',
             'lang': 'da',
             'resolution': 'HD-1080',
             'sub': 'Registered',
@@ -513,9 +547,6 @@ class Api:
         # retry adapter)
         with self.session.cache_disabled():
             u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
-            if u.status_code != 200:
-                del data['sub']
-                u = self.session.get(url, params=data, headers=headers, timeout=GET_TIMEOUT)
 
         if u.status_code == 200:
             for stream in u.json():
@@ -528,7 +559,7 @@ class Api:
             raise ApiException(u.text)
 
     def get_livestream(self, path: str, with_subtitles: bool = False) -> dict:
-        channel = self.get_programcard(path)['entries'][0]
+        channel = self.get_programcard(path)['item']
         stream = {
             'subtitles': [],
             'url': self.get_channel_url(channel, with_subtitles)
@@ -536,10 +567,11 @@ class Api:
         return stream
 
     def get_channel_url(self, channel: dict, with_subtitles: bool = False, use_cache: bool = True) -> str:
-        id = channel['item']['id']
+        id = channel['id']
         url = URL + f'/channels/{id}/liveStreams?'
-        headers = {"X-Authorization": f'Bearer {self.profile_token()}'}
-        js = self._request_get(url, headers=headers, use_cache=use_cache)
+        headers = {'Authorization': f'Bearer {self.profile_token()}'}
+        # geoLocation is required here; without it the endpoint answers 400
+        js = self._request_get(url, params={'geoLocation': 'dk'}, headers=headers, use_cache=use_cache)
         links = {item['type']: item['link'] for item in js}
 
         EU = 'Eu' if 'hlsURLEu' in links else ''
@@ -605,7 +637,7 @@ class Api:
             windows.append((days, remainder))
         return windows
 
-    def get_schedules(self, channels: list[int] = CHANNEL_IDS, date: Optional[str] = None, hour: Optional[int] = None, duration: int = 6) -> list[dict]:
+    def get_schedules(self, channels: list[str] = CHANNEL_IDS, date: Optional[str] = None, hour: Optional[int] = None, duration: int = 6) -> list[dict]:
         url = URL + '/schedules?'
         now = datetime.now(timezone.utc)
         if date is None:
@@ -617,7 +649,8 @@ class Api:
                 'date': date,
                 'hour': hour,
                 'duration': duration,
-                'channels': channels,
+                # the endpoint wants a comma separated list of channel ids
+                'channels': ','.join(channels),
             }
             u = requests.get(url, params=data, timeout=GET_TIMEOUT)
             if u.status_code == 200:
@@ -631,15 +664,18 @@ class Api:
             schedules += self.get_schedules(channels=channels, date=iter_date, hour=hour, duration=hours)
         return schedules
 
-    def get_channel_schedule_strings(self, channels: list[int] = CHANNEL_IDS) -> dict[int, str]:
+    def get_channel_schedule_strings(self, channels: list[str] = CHANNEL_IDS) -> dict[str, str]:
         out = {}
         now = datetime.now(timezone.utc)
-        for channel in self.get_schedules():
-            id = int(channel['channelId'])
+        for channel in self.get_schedules(channels=channels):
+            id = channel['channelId']
             out[id] = ''
             for item in channel['schedules']:
                 if parser.parse(item['endDate']) > now and out[id].count('\n') < 5:
-                    t = parser.parse(item['startTimeInDefaultTimeZone'])
+                    # startTimeInDefaultTimeZone is null on the new API; the
+                    # schedule's startDate is UTC and already what the old
+                    # field carried for a Danish audience
+                    t = parser.parse(item.get('startTimeInDefaultTimeZone') or item['startDate'])
                     start = t.strftime('%H:%M')
                     out[id] += f"{start} {item['item']['title']} \n"
         return out

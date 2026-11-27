@@ -1,0 +1,1711 @@
+{
+ "status": 200,
+ "json": {
+  "id": "543cb85d-0e79-46c3-beff-0d647a08c2b0",
+  "title": "Ramasjang | H",
+  "description": "",
+  "shortDescription": "",
+  "tagline": "",
+  "path": "/liste/drtv-ramasjang-xa8wp",
+  "itemTypes": [
+   "show",
+   "program"
+  ],
+  "size": 20,
+  "items": [
+   {
+    "id": "6304f1fd-4586-4f7d-81ef-20fac4e9a033",
+    "type": "show",
+    "subtype": "",
+    "title": "Hanna og Rally",
+    "shortDescription": "Svensk serie om pigen Hanna og elgen Rally, som er bedste venner selvom de er meget forskellige. Det gælder bare om at se på det, man kan, i stedet for det, man ikke kan.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hanna-og-rally_133553",
+    "scopes": [
+     "6304f1fd-4586-4f7d-81ef-20fac4e9a033"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1700321399000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7S8B14C7AS0EN54TX5Y5Y%27&entityId=%276304f1fd-4586-4f7d-81ef-20fac4e9a033%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7S8B1NW685VDGSK1S570H%27&entityId=%276304f1fd-4586-4f7d-81ef-20fac4e9a033%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J7S8B1NW685VDGSK1S570H%27&entityId=%276304f1fd-4586-4f7d-81ef-20fac4e9a033%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "4d4f4d4878ca53bfd518165da05ecdb89d97dd69e02c57f41fabe85125a29cb3",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ExtraDetails": "1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "DR Ramasjang",
+     "PageTitle": "Hanna og Rally",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "charactertype_børn som hovedpersoner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_hyggelig",
+     "recommendationgenre_drama",
+     "theme_venskab og relationer"
+    ]
+   },
+   {
+    "id": "d6403d75-7cd0-4d9d-b52a-1a6994cba3a6",
+    "type": "program",
+    "subtype": "",
+    "title": "Hannibal og Jerry",
+    "shortDescription": "Stjernebesat dansk film fra 1997. \nDa Hannibal endelig får én at lege med, er det også en helt særlig fyr. Jerry er nemlig en talende hund!. Men glæden er kort, for legetøjsfabrikanten onkel Morfar vil meget gerne have fingrene i Jerry. Og det bliver hans",
+    "tagline": "Ugens film",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/hannibal-og-jerry_581532",
+    "watchPath": "/se/hannibal-og-jerry_581532",
+    "scopes": [
+     "d6403d75-7cd0-4d9d-b52a-1a6994cba3a6"
+    ],
+    "releaseYear": 1997,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 4324,
+    "customId": "urn:dr:ocs:tv:content:playable:00851223920",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8RS5TNY94TC9QY61K8GD2%27&entityId=%27d6403d75-7cd0-4d9d-b52a-1a6994cba3a6%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8RS5SJ9P01FCCHGX7SZ57%27&entityId=%27d6403d75-7cd0-4d9d-b52a-1a6994cba3a6%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M0Z8RS5SV0T79VQ4VB4945DY%27&entityId=%27d6403d75-7cd0-4d9d-b52a-1a6994cba3a6%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2013-05-09T06:01:12.1200000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "33b897f7850186f045be3b1382dfb4233747fd76871c329471b9ab57d05a7213",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "9. MAJ 2013 | 1T 12M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 1T 12M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Hannibal og Jerry",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "Ramasjang",
+     "ShortVideoUrl": "https://drod22f.akamaized.net/all/clear/none/27/6ae3c0d0792a1d0001c0b127/6ae3c0cc1c6211000155b7ef/stream_fmp4/master_manifest.m3u8",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1T 12M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_familie",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_eventyrlig",
+     "recommendationgenre_drama"
+    ]
+   },
+   {
+    "id": "5ef8ea38-27b6-4948-9fb8-7d5675d72468",
+    "type": "show",
+    "subtype": "",
+    "title": "Heksebeth",
+    "shortDescription": "Musikalske hekse-historier fra landet Ramasjang.\nI Ramasjang Skoven bor en lille heks. Hun hedder Heksebeth, og hun bor i en gryde sammen med sin trofaste ven Grishjørning. Heksebeth er 106 ½ år gammel, men det er ingen alder, når ens højeste ønske er at ",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/heksebeth_340992",
+    "scopes": [
+     "5ef8ea38-27b6-4948-9fb8-7d5675d72468"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3596404677000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3AZ03927J6F9NCZG9J0CWT%27&entityId=%275ef8ea38-27b6-4948-9fb8-7d5675d72468%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M59HS0PBF7VNRR73FSHSMN5G%27&entityId=%275ef8ea38-27b6-4948-9fb8-7d5675d72468%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M59HS0PBT78WTRA0RQ2XHKNF%27&entityId=%275ef8ea38-27b6-4948-9fb8-7d5675d72468%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M59HS0PEZFKZD2C2PXM20QXG%27&entityId=%275ef8ea38-27b6-4948-9fb8-7d5675d72468%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "307fe060774e36e03c5c3c1aacf3066d0a66ae58537b52f54c3839b50d72de55",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Ramasjang ø,Serie",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Ramasjang ø,Serie,DR Ramasjang",
+     "PageTitle": "Heksebeth",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "ramasjang ø",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_rosa",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_heksebeth",
+     "mood_eventyrlig",
+     "recommendationgenre_drama"
+    ]
+   },
+   {
+    "id": "190be583-e428-4a39-bf3b-be2a5388d9be",
+    "type": "show",
+    "subtype": "",
+    "title": "Heksebeth og den hovedløse magi",
+    "shortDescription": "Heksebeth og Kristian tager på en magisk rejse for at finde den hovedløse magi. En historie om eventyr, rent raseri og et umage venskab mellem en detektiv og en heksepige!",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/heksebeth-og-den-hovedloese-magi_472268",
+    "scopes": [
+     "190be583-e428-4a39-bf3b-be2a5388d9be"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5662028310000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K9NV7Z8MNG22R5RBNPT06S%27&entityId=%27190be583-e428-4a39-bf3b-be2a5388d9be%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K9NV7ZB06GGM77Y8BS3EGY%27&entityId=%27190be583-e428-4a39-bf3b-be2a5388d9be%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K9NV7ZXPMW5B6Y37B73D5W%27&entityId=%27190be583-e428-4a39-bf3b-be2a5388d9be%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "35d89b1aba974cc8b9fa8f91352c93a53a6270b27865fd1428d424190384d5db",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Serie",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "PageTitle": "Heksebeth og den hovedløse magi",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "characters_kristian",
+     "characters_rosa",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_heksebeth",
+     "mood_eventyrlig",
+     "recommendationgenre_drama"
+    ]
+   },
+   {
+    "id": "c5c4f376-780b-4d7e-bcdf-05733d75a78f",
+    "type": "show",
+    "subtype": "",
+    "title": "Heksebeths halloween",
+    "shortDescription": "Heksebeth viser, hvordan ægte hekse holder halloween! Hun fylder skoven med dansende spøgelser, vrede chokoladekager, og te-drikkende skeletter - og får nye venner for livet.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/heksebeths-halloween_625945",
+    "scopes": [
+     "c5c4f376-780b-4d7e-bcdf-05733d75a78f"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6641066521411",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KFZRVK6MKAQKPCK0WT3X1K%27&entityId=%27c5c4f376-780b-4d7e-bcdf-05733d75a78f%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KFZRVKNJ4C7VP1MQVY2SWF%27&entityId=%27c5c4f376-780b-4d7e-bcdf-05733d75a78f%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KFZRVK4BNHYBRBJM839BVG%27&entityId=%27c5c4f376-780b-4d7e-bcdf-05733d75a78f%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "956b7b731932b96fcf3c8b66f2dc882782a59dd244e76746ccd22880173ebe48",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Serie",
+     "ExtraDetails": "Serie | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Serie,DR Ramasjang",
+     "PageTitle": "Heksebeths halloween",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "serie"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_heksebeth",
+     "mood_eventyrlig",
+     "recommendationgenre_drama"
+    ]
+   },
+   {
+    "id": "357cba69-e1fc-4e8e-be93-6eb290819263",
+    "type": "program",
+    "subtype": "",
+    "title": "Heksekosten",
+    "shortDescription": "En heks og hendes kat flyver af sted, undervejs møder de forskellige dyr, der alle gerne vil med på kosten. Katten er noget betænkelig, men på heksens kost er der plads til alle. Udløber: 30. nov. 2028",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/heksekosten_353489",
+    "watchPath": "/se/heksekosten_353489",
+    "scopes": [
+     "357cba69-e1fc-4e8e-be93-6eb290819263"
+    ],
+    "releaseYear": 2010,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1544,
+    "customId": "urn:dr:ocs:tv:content:playable:00851150000",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR1TEX8TGMF1JF1T69TAAH%27&entityId=%27357cba69-e1fc-4e8e-be93-6eb290819263%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR1TEX5950B8WJD9K88JJ1%27&entityId=%27357cba69-e1fc-4e8e-be93-6eb290819263%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR1TEXV8WF0VE9WJPARM0Z%27&entityId=%27357cba69-e1fc-4e8e-be93-6eb290819263%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2014-08-09T15:00:36.7600000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "4a7563ac7f8abfed762a873469281a008eb9b0537569ce814b8e133544ccac07",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "9. AUG. 2014 | 26M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 26M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Heksekosten",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 26M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_fantasivæsner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_uhyggelig",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "b78a4a1b-1f34-48c5-9ca4-1068b5ba4dc7",
+    "type": "show",
+    "subtype": "",
+    "title": "Hemmelige dyr",
+    "shortDescription": "Alt det, du ikke vidste om dyrene, der lever lige ved siden af dig.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hemmelige-dyr_6550",
+    "scopes": [
+     "b78a4a1b-1f34-48c5-9ca4-1068b5ba4dc7"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:1473795226000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J734AW15XZDM5A02SR5EBE%27&entityId=%27b78a4a1b-1f34-48c5-9ca4-1068b5ba4dc7%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J734AWSFMWVBBMDXM5EMXV%27&entityId=%27b78a4a1b-1f34-48c5-9ca4-1068b5ba4dc7%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7J734AWSFMWVBBMDXM5EMXV%27&entityId=%27b78a4a1b-1f34-48c5-9ca4-1068b5ba4dc7%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "dddda1e2dae9b5e2f4ef4c61ced2702e72aadababb8015c583fa05556d524fa1",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ExtraDetails": "2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "DR Ramasjang",
+     "PageTitle": "Hemmelige dyr",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "dyr"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_nysgerrig",
+     "recommendationgenre_dokumentar",
+     "theme_natur og dyr"
+    ]
+   },
+   {
+    "id": "1227bdd6-2ea1-481b-9671-838d82fbab44",
+    "type": "show",
+    "subtype": "",
+    "title": "Hey Duggee",
+    "shortDescription": "Lærerige britiske tegnefilm om børnene i Egern-klubben, der ledes af hunden Duggee. Hver dag kan de små medlemmer opnå et mærke, hvis de er dygtige - og så slutter det hele med et dejligt Duggee-kram.",
+    "classification": {
+     "code": "DR-Alle",
+     "name": "Alle"
+    },
+    "path": "/serie/hey-duggee_146813",
+    "scopes": [
+     "1227bdd6-2ea1-481b-9671-838d82fbab44"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2180547728000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3AABJCK7AHB6K8MEC93QEY%27&entityId=%271227bdd6-2ea1-481b-9671-838d82fbab44%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5R5G8RZRVKW9TT85NM8HY4R%27&entityId=%271227bdd6-2ea1-481b-9671-838d82fbab44%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5R5G8RZ42JKN2EBRSB18KK0%27&entityId=%271227bdd6-2ea1-481b-9671-838d82fbab44%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5R5G8RZKGZY92CKP4JBA2MJ%27&entityId=%271227bdd6-2ea1-481b-9671-838d82fbab44%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "a7f91d5ccd649dc2f634d6b890e216e9d893cbb2dd18ce0b073276fc4f8d0f7f",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang",
+      "minisjang"
+     ],
+     "ExtraDetails": "2 SÆSONER",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": true,
+     "OwnedCategory": "DR Ramasjang",
+     "PageTitle": "Hey Duggee",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Minisjang",
+     "TargetAudience": "YoungerKids",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_2-3 år",
+     "agetargetgroup_4-5 år",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_legende",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "aed32a15-806f-4af7-845c-ab776ee86efa",
+    "type": "show",
+    "subtype": "",
+    "title": "Hey Duggee - Egernklubben",
+    "shortDescription": "Der er fart på, når Duggee leger med Egernklubben - leg med!",
+    "classification": {
+     "code": "DR-Alle",
+     "name": "Alle"
+    },
+    "path": "/serie/hey-duggee-_-egernklubben_596307",
+    "scopes": [
+     "aed32a15-806f-4af7-845c-ab776ee86efa"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6640568252956",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M005V2MBKJ9F4H19T78X9FM1%27&entityId=%27aed32a15-806f-4af7-845c-ab776ee86efa%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KEAT5437FV1P0DVF0D36DK%27&entityId=%27aed32a15-806f-4af7-845c-ab776ee86efa%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KEAT54M4ZND6F007W3MYJF%27&entityId=%27aed32a15-806f-4af7-845c-ab776ee86efa%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KEAT57Z77A058KNB8GKJ8D%27&entityId=%27aed32a15-806f-4af7-845c-ab776ee86efa%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "ee65596cdba481824ed89b42b26adb72ad105beee0b8c367634ed66c98cd64fa",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang",
+      "minisjang"
+     ],
+     "DisplayCategory": "Tegnefilm",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": true,
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "PageTitle": "Hey Duggee - Egernklubben",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Minisjang",
+     "TargetAudience": "YoungerKids",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_2-3 år",
+     "agetargetgroup_4-5 år",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_legende",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "3ea4cc45-3154-4f19-8310-53464e96e59c",
+    "type": "show",
+    "subtype": "",
+    "title": "Historier fra Luk op Luk i",
+    "shortDescription": "Hør de mest vanvittige og utrolige historier. Fortalt af Katrine, Sofie, Thomas og Jakob fra 'Luk op Luk i'.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/historier-fra-luk-op-luk-i_109343",
+    "scopes": [
+     "3ea4cc45-3154-4f19-8310-53464e96e59c"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:2328851629000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGF5BPZ6389R45FFK2AY7F%27&entityId=%273ea4cc45-3154-4f19-8310-53464e96e59c%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGF5BQSJRPFAPK3K9VWCPM%27&entityId=%273ea4cc45-3154-4f19-8310-53464e96e59c%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7JGF5BQSJRPFAPK3K9VWCPM%27&entityId=%273ea4cc45-3154-4f19-8310-53464e96e59c%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "e780900550088fa8f25525f36770a558e0f71d18e7293b9d0e5656d241cad1dd",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ExtraDetails": "1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "DR Ramasjang",
+     "PageTitle": "Historier fra Luk op Luk i",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "ramasjang ø"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_luk op luk i",
+     "mood_sjov",
+     "recommendationgenre_drama"
+    ]
+   },
+   {
+    "id": "be649e4b-6e1a-4da8-8679-0c8cadcf662d",
+    "type": "show",
+    "subtype": "",
+    "title": "Historietimen",
+    "shortDescription": "Historie-professoren i skikkelse af Jesper Asholt tager os i denne serie med rundt til en række af Danmarks slotte og seværdigheder og fortæller både den rigtige historie - og stedets spøgelseshistorier. Så pas på, det kan godt blive uhyggeligt, især hvis",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/historietimen_380335",
+    "scopes": [
+     "be649e4b-6e1a-4da8-8679-0c8cadcf662d"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:4408215717000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3B3MEFF4E6JHRT1R4289PH%27&entityId=%27be649e4b-6e1a-4da8-8679-0c8cadcf662d%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K1W3HVMWDM6ZQCWSDHYDXM%27&entityId=%27be649e4b-6e1a-4da8-8679-0c8cadcf662d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K1W3HVGN9MV8ME3R7WDN17%27&entityId=%27be649e4b-6e1a-4da8-8679-0c8cadcf662d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K1W3HX81MJ94D851XJC7FV%27&entityId=%27be649e4b-6e1a-4da8-8679-0c8cadcf662d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "0fafd38b7baf030d6ebd2b4180738ab91f30322923e9e14a55a8f01203da550e",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Fakta",
+     "ExtraDetails": "Fakta | 2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Fakta,DR Ramasjang",
+     "PageTitle": "Historietimen",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "acc_spoken_subtitles",
+     "dr ramasjang",
+     "fakta"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_dokumentar",
+     "theme_viden og færdigheder"
+    ]
+   },
+   {
+    "id": "1a47a51d-5eca-4da9-94aa-e4d4b55d32df",
+    "type": "program",
+    "subtype": "",
+    "title": "Hjælp! Jeg er en fisk",
+    "shortDescription": "Dansk tegnefilm.\nSå er det tid til at fylde lungerne med luft, for nu dykker vi ned på drømmenes blå dyb. Vi skal redde computernørden Plum, den friske skaterknægt Svip og hans ubekymrede lillesøster Stella, som ved et uheld har drukket en mystisk eliksir",
+    "tagline": "Dagens film",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/hjaelp-jeg-er-en-fisk_548171",
+    "watchPath": "/se/hjaelp-jeg-er-en-fisk_548171",
+    "scopes": [
+     "1a47a51d-5eca-4da9-94aa-e4d4b55d32df"
+    ],
+    "releaseYear": 2000,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 4601,
+    "customId": "urn:dr:ocs:tv:content:playable:00850960800",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M4S229BSG59WGXB6A6FTTGX1%27&entityId=%271a47a51d-5eca-4da9-94aa-e4d4b55d32df%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M4S229BSQ7KT8SH3XF1TDFA6%27&entityId=%271a47a51d-5eca-4da9-94aa-e4d4b55d32df%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M4S229BSS3S07FKDSJ9QRTQV%27&entityId=%271a47a51d-5eca-4da9-94aa-e4d4b55d32df%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2009-11-01T08:44:52.2000000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "bfbedb9be79d882ca0a43a933d2b2dc5d555ca68777f6a2dad2b32d2086bd6fb",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "1. NOV. 2009 | 1T 17M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 1T 17M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Hjælp! Jeg er en fisk",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "DANMARK",
+     "RatingSegment": "Ramasjang",
+     "ShortVideoUrl": "https://drod22n.akamaized.net/all/clear/none/e2/616af4c3aa5a6116b8a368e2/616af4bff68e8d0c5ccaf179/stream_fmp4/master_manifest.m3u8",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1T 17M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_familie",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_eventyrlig",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "f70a7ba8-8ba7-4daa-820f-894f5ca6622f",
+    "type": "show",
+    "subtype": "",
+    "title": "Hoppende hjerter",
+    "shortDescription": "En serie om Malou og hendes veninde Merina som deler en dyb passion for kaninhop. Sporten styrker deres venskab og skaber en særlig forbindelse mellem dem og deres kaniner.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hoppende-hjerter_585734",
+    "scopes": [
+     "f70a7ba8-8ba7-4daa-820f-894f5ca6622f"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6640469766123",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KE81S2Y7G3TAV4ASYFKRZG%27&entityId=%27f70a7ba8-8ba7-4daa-820f-894f5ca6622f%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KE81S2QWFXY64B6VX8HA4G%27&entityId=%27f70a7ba8-8ba7-4daa-820f-894f5ca6622f%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KE81S3D5E5T8S5DNG05BEB%27&entityId=%27f70a7ba8-8ba7-4daa-820f-894f5ca6622f%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "2e65a205778e64586fd2ed8c25114093b1c5d1d5e676c6db61418763a85eac66",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Dyr,Fakta",
+     "ExtraDetails": "Dyr | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dyr,Fakta,DR Ramasjang",
+     "PageTitle": "Hoppende hjerter",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "dyr",
+     "fakta"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_børn som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_hyggelig",
+     "recommendationgenre_dokumentar",
+     "theme_natur og dyr"
+    ]
+   },
+   {
+    "id": "ae25e572-121c-4803-b95a-80497649a21d",
+    "type": "show",
+    "subtype": "",
+    "title": "Hotel Transylvania",
+    "shortDescription": "Grev Dracula er taget på forretningsrejse, og imens styrer hans datter Mavis familiens hotel i Transylvanien sammen med en masse sjove monstre - og den strenge tante Lydia.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hotel-transylvania_624749",
+    "scopes": [
+     "ae25e572-121c-4803-b95a-80497649a21d"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6641083435422",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M63CWNH0MAE49454Q5ATRMYA%27&entityId=%27ae25e572-121c-4803-b95a-80497649a21d%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KFY938RQ99T67ZGD28HV9M%27&entityId=%27ae25e572-121c-4803-b95a-80497649a21d%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KFY937848SK9WM1PMMB14D%27&entityId=%27ae25e572-121c-4803-b95a-80497649a21d%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KFY93A2ADDQ2D8TKE82QNN%27&entityId=%27ae25e572-121c-4803-b95a-80497649a21d%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "f4dc3d9503b4cad6790816fa4d197f0ce68e4aebe860556d7d72fc45909a7414",
+     "ClassificationRating": "MRAM-07",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Tegnefilm",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "PageTitle": "Hotel Transylvania",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "charactertype_fantasivæsner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_spændingsfyldt",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "d65ac271-36f2-4e91-bcff-b8d540f3a69e",
+    "type": "program",
+    "subtype": "",
+    "title": "Hr Pinds juleeventyr",
+    "shortDescription": "Historien om Hr. Pind, en glad familiefar, der kommer på en vild rejse for at nå hjem til jul og støder på mange forhindringer undervejs. Udløber: 30. nov. 2028",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/program/hr-pinds-juleeventyr_490655",
+    "watchPath": "/se/hr-pinds-juleeventyr_490655",
+    "scopes": [
+     "d65ac271-36f2-4e91-bcff-b8d540f3a69e"
+    ],
+    "releaseYear": 2015,
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "duration": 1628,
+    "customId": "urn:dr:ocs:tv:content:playable:00851405440",
+    "round": "",
+    "offers": [
+     {
+      "id": "715f2ac5-573a-4c98-a485-517fc689ac11",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "None",
+      "deliveryType": "StreamOrDownload",
+      "availability": "ComingSoon",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "657122f2-9e5f-4b8b-b418-75f8f891dd56",
+      "name": "Coming Soon Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "79ca0e84-632c-46fb-af42-c2f0e26c2a93",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     },
+     {
+      "id": "b2c79b38-ceb4-4e94-9d78-0c4945cf58cf",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR1ERJZTPNFNBEZ2JKTC8D%27&entityId=%27d65ac271-36f2-4e91-bcff-b8d540f3a69e%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR1ERJ0542ANB7K7FYZQQB%27&entityId=%27d65ac271-36f2-4e91-bcff-b8d540f3a69e%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7HR1ERJ5E063DQZ6VSR5WGW%27&entityId=%27d65ac271-36f2-4e91-bcff-b8d540f3a69e%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "AccessServicesOffered": "StandardVideo",
+     "AvailableFrom": "2016-12-02T16:35:02.5200000+00:00",
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "cd2726a8c7a09517eb7b42267721b12fd258ba85c387dd4b77286faf7366acec",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "ContextualTitleExtraDetails": "2. DEC. 2016 | 27M",
+     "DisplayCategory": "Film",
+     "ExtraDetails": "Film | 27M",
+     "IsGeoRestricted": true,
+     "OwnedCategory": "Film,DR Ramasjang",
+     "PageTitle": "Hr Pinds juleeventyr",
+     "PrimaryContentUniverse": "Ramasjang",
+     "ProductionCountry": "STORBRITANNIEN",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 27M"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "film"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_fantasivæsner",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_film",
+     "mood_eventyrlig",
+     "recommendationgenre_animation",
+     "theme_jul",
+     "thesaurus_jul"
+    ]
+   },
+   {
+    "id": "5c890988-9e96-40e4-a3bb-8bfed4600535",
+    "type": "show",
+    "subtype": "",
+    "title": "Hr. Skægs store ordspil",
+    "shortDescription": "Et spil om ord, der gør din hjerne stor! Et barn quizzer med den luskede Kræsen, som ikke vil hjælpe, når noget går galt. Heldigvis kan Hr. Skæg og barnet løse problemet, hvis de hjælper hinanden.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hr-skaegs-store-ordspil_556889",
+    "scopes": [
+     "5c890988-9e96-40e4-a3bb-8bfed4600535"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6640204726703",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KDQDN5BSRF3Q7RC0ZY5DF7%27&entityId=%275c890988-9e96-40e4-a3bb-8bfed4600535%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KDQDN580NRBXW6YGB6NCYY%27&entityId=%275c890988-9e96-40e4-a3bb-8bfed4600535%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KDQDN6W6G8JMWJ7TPEHY3B%27&entityId=%275c890988-9e96-40e4-a3bb-8bfed4600535%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "266cc869b396deaaa44d5140940218d784f0c3acf228b3aec4235f6731b061e1",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Ramasjang ø,Viden og tech",
+     "ExtraDetails": "Ramasjang ø | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Ramasjang ø,Viden og tech,DR Ramasjang",
+     "PageTitle": "Hr. Skægs store ordspil",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "ramasjang ø",
+     "viden og tech"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_voksne som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fakta",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "recommendationgenre_dokumentar",
+     "theme_viden og færdigheder"
+    ]
+   },
+   {
+    "id": "791c0168-1821-4c59-95a5-e682f2b15aab",
+    "type": "show",
+    "subtype": "",
+    "title": "HundeBanden",
+    "shortDescription": "Fire hunde er trætte af at lave typiske hundeting. De vil ud på eventyr. Hvert afsnit følger en hund, der prøver at tage med til for eksempel fodbold, fødselsdag eller kæphestestævne.",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hundebanden_456515",
+    "scopes": [
+     "791c0168-1821-4c59-95a5-e682f2b15aab"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5320274951000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3BMSK8RRZ6HT3PY5BGJ48S%27&entityId=%27791c0168-1821-4c59-95a5-e682f2b15aab%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K7GPJBG8FPTNF3G2M7WXPD%27&entityId=%27791c0168-1821-4c59-95a5-e682f2b15aab%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K7GPJ99FKANBMV8FBVJ88A%27&entityId=%27791c0168-1821-4c59-95a5-e682f2b15aab%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K7GPJ9YPQ1ZVHAT9M0HWK6%27&entityId=%27791c0168-1821-4c59-95a5-e682f2b15aab%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "e549f71cf4970961e3c6695b58316f51e77c3608b3614f321ea2e73a5281dab6",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Dyr",
+     "ExtraDetails": "Dyr | 2 SÆSONER",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dyr,DR Ramasjang",
+     "PageTitle": "HundeBanden",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 2 SÆSONER"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "dyr"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_dyr",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_legende",
+     "recommendationgenre_drama"
+    ]
+   },
+   {
+    "id": "e6b30c63-8a5d-4bff-be4c-91cf586f8f97",
+    "type": "show",
+    "subtype": "",
+    "title": "Hunde-dagplejen",
+    "shortDescription": "En gruppe børn starter deres egen hundedagpleje med skøre, charmerende, drilske og frem for alt, talende hunde. Vi møder den lille fyr Nelson, den super drilske Busrut, den generte Charlie, den meget trætte Krut, den storslåede puddel Elsa og Sheila, der ",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hunde_dagplejen_530557",
+    "scopes": [
+     "e6b30c63-8a5d-4bff-be4c-91cf586f8f97"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:5265168866000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6WE7FCV19XP9FRV9C06G7%27&entityId=%27e6b30c63-8a5d-4bff-be4c-91cf586f8f97%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6WE7FG4RQJ83SYJKPRKSE%27&entityId=%27e6b30c63-8a5d-4bff-be4c-91cf586f8f97%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7K6WE7H7CWYKT2RDHM58Q36%27&entityId=%27e6b30c63-8a5d-4bff-be4c-91cf586f8f97%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "c2cb96a88608e46c1a18a5e30c4ad028e62c977bda19158a08e55df114b03321",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Dyr",
+     "ExtraDetails": "Dyr | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Dyr,DR Ramasjang",
+     "PageTitle": "Hunde-dagplejen",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "dyr"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_legende",
+     "recommendationgenre_drama"
+    ]
+   },
+   {
+    "id": "ef6d4c47-3d9d-4265-8544-665c52ec26e3",
+    "type": "show",
+    "subtype": "",
+    "title": "Hvor er Kylling?",
+    "shortDescription": "Ingen ved, hvor Kylling er. Vi ved bare, at han er nuttet og meget naiv. Hans liv er fuld af vanskeligheder, han er altid på det forkerte sted på det forkerte tidspunkt - og det ender ikke altid godt. Heldigvis er Kylling udødelig og efter hver modgang, v",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hvor-er-kylling_527080",
+    "scopes": [
+     "ef6d4c47-3d9d-4265-8544-665c52ec26e3"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:6083021356000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3C7PBERCTEKMJVNDQ4P23D%27&entityId=%27ef6d4c47-3d9d-4265-8544-665c52ec26e3%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KAZPXPXHX6NDXXQ5YW4839%27&entityId=%27ef6d4c47-3d9d-4265-8544-665c52ec26e3%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KAZPXP5WS3VXRM45WNGPSN%27&entityId=%27ef6d4c47-3d9d-4265-8544-665c52ec26e3%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M7KAZPXR118Y5V8X2MRTFXSD%27&entityId=%27ef6d4c47-3d9d-4265-8544-665c52ec26e3%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "944852a4bd374efc7f91cfd7bee98c4e72e856ded5f4c9f39836a032e4067853",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Tegnefilm,Underholdning",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "IsGeoRestricted": true,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Tegnefilm,Underholdning,DR Ramasjang",
+     "PageTitle": "Hvor er Kylling?",
+     "PresentationTypeCode": "Ongoing",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm",
+     "underholdning"
+    ],
+    "keywords": [
+     "agetargetgroup_4-5 år",
+     "agetargetgroup_6-8 år",
+     "charactertype_dyr",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "mood_sjov",
+     "recommendationgenre_animation"
+    ]
+   },
+   {
+    "id": "60b32f69-a093-4f26-b1d7-fd32ecfe2f86",
+    "type": "show",
+    "subtype": "",
+    "title": "Høj",
+    "shortDescription": "Drager, jætter og nordisk mytologi - hvad skulle kunne gå galt? Kom med når Høj og hans venner, dværgen Trin, elveren Alfarim og en forvirret talende Hund, tager på en farlig rejse for at finde det stjålne gudesmykke. En sjov og spændende dansk animations",
+    "classification": {
+     "code": "DR-Ramasjang",
+     "name": "Ramasjang"
+    },
+    "path": "/serie/hoej_440676",
+    "scopes": [
+     "60b32f69-a093-4f26-b1d7-fd32ecfe2f86"
+    ],
+    "genres": [
+     "ukendt"
+    ],
+    "sports": [],
+    "customId": "urn:dr:ocs:tv:content:series:3628547817000",
+    "round": "",
+    "offers": [
+     {
+      "id": "a6bf2d04-34d3-4dae-b5d3-c0629e82e9c7",
+      "name": "Free Offer",
+      "price": 0,
+      "ownership": "Free",
+      "deliveryType": "StreamOrDownload",
+      "availability": "Available",
+      "resolution": "Unknown"
+     }
+    ],
+    "images": {
+     "square": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701KM3BGFMV2ZZ6V8PZ812W5XP9%27&entityId=%2760b32f69-a093-4f26-b1d7-fd32ecfe2f86%27&entityType=%27Item%27&Width=1024&Height=1024",
+     "poster": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5CMSAZ9JNYWXCSGJVY0VPH4%27&entityId=%2760b32f69-a093-4f26-b1d7-fd32ecfe2f86%27&entityType=%27Item%27&Width=720&Height=1080",
+     "tile": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5CMSAZASQ8NDBTH5RX9B3JE%27&entityId=%2760b32f69-a093-4f26-b1d7-fd32ecfe2f86%27&entityType=%27Item%27&Width=1024&Height=576",
+     "wallpaper": "https://shain-api.drtv-platform.dr.dk/v1/dataservice/ResizeImage/$value?ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'&Source=0&ImageId=%2701M5CMSAZAV6RZEFGHDGFPQH6J%27&entityId=%2760b32f69-a093-4f26-b1d7-fd32ecfe2f86%27&entityType=%27Item%27&Width=1920&Height=1080"
+    },
+    "themes": [],
+    "customFields": {
+     "BrandingChannelDisplayName": "DR Ramasjang",
+     "BrandingChannelShort": "TVR",
+     "Checksum": "ff80d779ad068909e9d6546e017accf4155cfe2da11442e11cc04ccdefd9c27c",
+     "ClassificationRating": "MRAM-ALL",
+     "ContentUniverses": [
+      "drtv",
+      "ultra",
+      "ramasjang"
+     ],
+     "DisplayCategory": "Tegnefilm",
+     "ExtraDetails": "Tegnefilm | 1 SÆSON",
+     "IsGeoRestricted": false,
+     "IsSeriesDRMPlayoutRequired": false,
+     "OwnedCategory": "Tegnefilm,DR Ramasjang",
+     "PageTitle": "Høj",
+     "PresentationTypeCode": "Show",
+     "PrimaryContentUniverse": "Ramasjang",
+     "RatingSegment": "Ramasjang",
+     "TargetAudience": "All",
+     "TitleExtraDetails": "DR Ramasjang | 1 SÆSON"
+    },
+    "trailerWatchPaths": [],
+    "buttonLabel": "",
+    "categories": [
+     "dr ramasjang",
+     "tegnefilm"
+    ],
+    "keywords": [
+     "agetargetgroup_6-8 år",
+     "agetargetgroup_9-11 år",
+     "agetargetgroup_familie",
+     "charactertype_børn som hovedpersoner",
+     "culturalorigin_dansk",
+     "editorialptaxsub_fiktion",
+     "editorialptaxtop_børn",
+     "format_serie",
+     "franchise_fredagstamtam",
+     "mood_eventyrlig",
+     "recommendationgenre_animation"
+    ]
+   }
+  ],
+  "listMeta": {
+   "isProfileList": false
+  },
+  "paging": {
+   "page": 1,
+   "size": 24,
+   "total": 1
+  },
+  "customFields": {}
+ }
+}

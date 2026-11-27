@@ -18,15 +18,18 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
-"""DR login flows: OIDC full login, token exchange and anonymous tokens.
+"""DR login flows: OIDC full login and token exchange.
 
 This is the part most likely to break when DR changes their login flow;
 keeping it isolated makes that churn reviewable.
+
+The drtv-platform API has no anonymous token route (the old
+/authorization/anonymous-sso answers 404), so a login is required for
+anything that needs a token. The catalog endpoints do not need one.
 """
 
 import base64
 import hashlib
-import json
 import secrets
 from pathlib import Path
 from typing import Callable, Optional
@@ -167,15 +170,3 @@ def deviceid() -> str:
     v = int(Path(__file__).stat().st_mtime)
     h = hashlib.md5(str(v).encode('utf-8')).hexdigest()
     return '-'.join([h[:8], h[8:12], h[12:16], h[16:20], h[20:32]])
-
-
-def anonymous_tokens() -> dict:
-    data = {"deviceId": deviceid(), "scopes": ["Catalog"], "optout": False}
-    params = {'device': 'web_browser', 'ff': 'idp,ldp,rpt', 'lang': 'da', 'supportFallbackToken': True}
-
-    url = URL + '/authorization/anonymous-sso?'
-    u = requests.post(url, json=data, params=params, timeout=GET_TIMEOUT)
-    if u.status_code != 200:
-        return _http_error(u, 'Anonymous token request')
-    tokens = json.loads(u.content)
-    return tokens
