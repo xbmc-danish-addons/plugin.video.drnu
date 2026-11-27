@@ -58,8 +58,12 @@ from resources.lib.subtitles import vtt2srt  # noqa: F401
 
 
 def cache_path(path: str) -> bool:
-    NO_CACHING = ['/liste/drtv-hero']
-    return not any(path.startswith(item) for item in NO_CACHING)
+    # the hero carousel is 'Daglige forslag' on the front page: DR rebuilds it
+    # daily, so a cached copy shows yesterday's list for the whole expiration
+    # window. drtv-platform names the list after the weekday ('/liste/hero-fredag',
+    # '/liste/ramasjang-hero-fre-x09uw'), so match the hero segment anywhere in
+    # the path rather than the legacy '/liste/drtv-hero' prefix
+    return 'hero' not in path.rsplit('/', 1)[-1].split('-')
 
 
 # Query parameters the web player sends on every call. 'segments' is
@@ -104,6 +108,10 @@ class Api:
         self.token_file = Path(f'{self.cachePath}/token.p')
         self.access_tokens = {}
         self._user_token = None
+        # refresh_tokens() returns without a token when no credentials are
+        # configured, so both must exist for playback to report the missing
+        # login instead of raising AttributeError on an unset attribute
+        self._profile_token = None
         self.get_setting = get_setting
         self._refresh_settings()
         if refresh:

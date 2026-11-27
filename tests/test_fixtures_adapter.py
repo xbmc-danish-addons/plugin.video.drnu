@@ -2,8 +2,12 @@
 import sys
 from pathlib import Path
 
+import pytest
+import requests
+
 sys.path.insert(0, str(Path(__file__).parent))
 
+import fixtures_adapter  # noqa: E402
 from fixtures_adapter import FakeResponse, fixture_key  # noqa: E402
 
 
@@ -56,3 +60,45 @@ def test_recorded_index_entries_all_exist():
     assert index
     missing = [name for name in index.values() if not (FIXTURES / name).is_file()]
     assert missing == []
+
+
+class _LiveResponse:
+    def __init__(self, status_code, json_data):
+        self.status_code = status_code
+        self._json = json_data
+        self.text = str(json_data)
+
+    def json(self):
+        return self._json
+
+
+def _record(monkeypatch, tmp_path, status_code):
+    """Wire install_recording_adapter to a temp fixture dir and a fake live API."""
+    monkeypatch.setattr(fixtures_adapter, 'FIXTURES', tmp_path)
+    monkeypatch.setattr(requests, 'get',
+                        lambda *a, **kw: _LiveResponse(status_code, {'error': 'rate limited'}))
+
+    class Handle:
+        api = type('api', (), {})()
+
+    return Handle, fixtures_adapter.install_recording_adapter(Handle)
+
+
+def test_recording_writes_a_successful_response(monkeypatch, tmp_path):
+    handle, write_index = _record(monkeypatch, tmp_path, status_code=200)
+
+    assert handle.api._request_get('https://x.dk/api/page', params={'path': '/'}) == {'error': 'rate limited'}
+    assert write_index() == 1
+    assert len([p for p in tmp_path.glob('*.json') if p.name != '_index.json']) == 1
+
+
+def test_recording_skips_a_failed_request(monkeypatch, tmp_path):
+    """A non-200 response must not be written: it would replace a working
+    fixture and enter the index, and _read_fixture() rejects anything but
+    status 200, so every later replay of that key would fail."""
+    handle, _ = _record(monkeypatch, tmp_path, status_code=429)
+
+    with pytest.raises(AssertionError, match='status 429'):
+        handle.api._request_get('https://x.dk/api/page', params={'path': '/'})
+
+    assert list(tmp_path.glob('*.json')) == []

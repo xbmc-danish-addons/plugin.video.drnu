@@ -88,6 +88,13 @@ def install_recording_adapter(handle):
     def request_get(url, params=None, headers=None, use_cache=True):
         key = fixture_key(url, params)
         response = requests.get(url, params=params, headers=headers, timeout=30)
+        if response.status_code != 200:
+            # a failed request must not be written: a recorded error body would
+            # replace a working fixture and enter the index, and _read_fixture
+            # rejects anything but status 200, so every later replay of that
+            # key would fail. Abort the recording run and keep the old fixture.
+            raise AssertionError(
+                f'recording {key} failed with status {response.status_code}: {response.text[:200]}')
         name = hashlib.md5(key.encode('utf-8')).hexdigest()[:16] + '.json'
         (FIXTURES / name).write_text(
             json.dumps({'status': response.status_code, 'json': response.json()},
